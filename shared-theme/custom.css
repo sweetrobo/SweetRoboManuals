@@ -1,0 +1,132 @@
+/* Sweet Robo Manual - Custom Image Styling */
+
+/* Base image styling - responsive by default */
+img {
+  max-width: 100%;
+  max-height: 50vh;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+}
+
+/* Size classes for different image types */
+.img-small {
+  max-width: 300px;
+}
+
+.img-medium {
+  max-width: 500px;
+}
+
+.img-large {
+  max-width: 700px;
+}
+
+.img-full {
+  max-width: 900px;
+}
+
+/* Section-specific image sizing */
+.setup-image {
+  max-width: 600px;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  margin: 20px auto;
+  background: #fafbfc;
+}
+
+.overview-diagram {
+  max-width: 700px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+}
+
+.operation-screenshot {
+  max-width: 500px;
+  border: 2px solid #fd7e14;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(253, 126, 20, 0.2);
+}
+
+.maintenance-photo {
+  max-width: 400px;
+  border: 1px solid #28a745;
+  border-radius: 6px;
+}
+
+.component-detail {
+  max-width: 350px;
+  border: 1px solid #6f42c1;
+  border-radius: 4px;
+}
+
+/* Image captions styling */
+p em {
+  font-style: italic;
+  color: #6a737d;
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+/* Layout classes for flexible image arrangements */
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.img-half {
+  max-width: 45%;
+  margin: 0;
+}
+
+.img-third {
+  max-width: 30%;
+  margin: 0;
+}
+
+/* Print-specific styling for PDF generation */
+@media print {
+  img {
+    max-width: 90%;
+    max-height: none; /* Let PDF handle height naturally */
+    page-break-inside: avoid;
+    margin: 10px auto;
+  }
+
+  .img-row {
+    page-break-inside: avoid;
+  }
+
+  .img-half {
+    max-width: 45%;
+  }
+
+  .img-third {
+    max-width: 30%;
+  }
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  img {
+    max-width: 95%;
+    margin: 10px auto;
+  }
+
+  .setup-image,
+  .overview-diagram,
+  .operation-screenshot,
+  .maintenance-photo {
+    max-width: 100%;
+    border-width: 1px;
+  }
+}
