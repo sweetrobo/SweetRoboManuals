@@ -46,10 +46,10 @@ For detailed company information, see [Sweet Robo Contact Information](../shared
 
 ## Document Status
 
-- [x] Overview - Complete
-- [x] Setup & Installation - Complete  
-- [x] Operation Guide - Complete
-- [x] Maintenance - Complete
-- [x] Troubleshooting - Complete
-- [x] Parts & Service - Complete
-- [x] Safety - Complete
+- [x] Overview - needs review
+- [x] Setup & Installation - needs review  
+- [x] Operation Guide - needs review
+- [x] Maintenance - needs review
+- [x] Troubleshooting - needs review
+- [x] Parts & Service - needs review
+- [x] Safety - needs review
