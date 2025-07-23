@@ -1,26 +1,16 @@
 /* Sweet Robo Manual - Custom Image Styling */
 
-/* Base image styling - responsive by default */
+/* Base image styling - clean by default, no borders or shadows */
 img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 15px auto;
   object-fit: contain;
-}
-
-/* PNG images should have no background or borders */
-img[src$=".png"] {
   background: transparent;
   border: none;
   box-shadow: none;
   border-radius: 0;
-}
-
-/* WebP and JPG images can have subtle styling */
-img[src$=".webp"], img[src$=".jpg"], img[src$=".jpeg"] {
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Size classes for different image types */
@@ -44,49 +34,28 @@ img[src$=".webp"], img[src$=".jpg"], img[src$=".jpeg"] {
 .setup-image {
   max-width: 600px;
   max-height: 80vh;
-  border: 2px solid #e1e5e9;
-  border-radius: 8px;
   margin: 20px auto;
-}
-
-/* PNG setup images should not have borders or backgrounds */
-.setup-image[src$=".png"] {
-  background: transparent;
-  border: none;
-  border-radius: 0;
 }
 
 .overview-diagram {
   max-width: 700px;
   max-height: 80vh;
-  border: 1px solid #d0d7de;
-  border-radius: 6px;
-}
-
-/* PNG overview diagrams should not have borders */
-.overview-diagram[src$=".png"] {
   background: transparent;
   border: none;
   border-radius: 0;
+  box-shadow: none;
 }
 
 .operation-screenshot {
   max-width: 500px;
-  border: 2px solid #fd7e14;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(253, 126, 20, 0.2);
 }
 
 .maintenance-photo {
   max-width: 400px;
-  border: 1px solid #28a745;
-  border-radius: 6px;
 }
 
 .component-detail {
   max-width: 350px;
-  border: 1px solid #6f42c1;
-  border-radius: 4px;
 }
 
 /* Image captions styling */
@@ -141,6 +110,7 @@ p em {
   }
 }
 
+
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
   img {
@@ -153,6 +123,5 @@ p em {
   .operation-screenshot,
   .maintenance-photo {
     max-width: 100%;
-    border-width: 1px;
   }
 }
