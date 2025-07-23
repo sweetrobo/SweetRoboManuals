@@ -48,20 +48,17 @@ jobs:
         run: |
           cd "Robo Ice Cream"
           mdbook build
-          cd ..
-          cp -r "Robo Ice Cream/book" "./site/robo-ice-cream"
+          cp -r book ../site/robo-ice-cream
       - name: Build Candy Monster manual
         run: |
           cd "Candy Monster"
           mdbook build
-          cd ..
-          cp -r "Candy Monster/book" "./site/candy-monster"
+          cp -r book ../site/candy-monster
       - name: Build Pop Cart manual
         run: |
           cd "Pop Cart"
           mdbook build
-          cd ..
-          cp -r "Pop Cart/book" "./site/pop-cart"
+          cp -r book ../site/pop-cart
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
