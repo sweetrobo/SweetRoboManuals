@@ -1,0 +1,1168 @@
+{
+  "manual_name": "Candy Monster",
+  "generation_date": "2025-07-23T17:17:03.965113",
+  "purpose": "AI assistant training dataset for Sweet Robo manual",
+  "images": [
+    {
+      "filename": "online-manual-qr-code.webp",
+      "original_filename": "sweetrobo-manuals-candy-monster-qr.png",
+      "path": "assets/images/feedback/online-manual-qr-code.webp",
+      "section": "feedback",
+      "subsection": "11 Online Manual & Feedback.md",
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      },
+      "format": "WebP",
+      "tags": [
+        "candy",
+        "contact",
+        "feedback",
+        "inventory",
+        "online-manual",
+        "product",
+        "qr-code"
+      ],
+      "description": "Image showing online manual qr code",
+      "caption": "Figure: Online Manual Qr Code",
+      "alt_text": "Online Manual Qr Code",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "sweetrobo-logo.webp",
+      "original_filename": "SweetRobot-lgoopng.png",
+      "path": "assets/images/header/sweetrobo-logo.webp",
+      "section": "header",
+      "subsection": "01 Header.md",
+      "dimensions": {
+        "width": 943,
+        "height": 731
+      },
+      "format": "WebP",
+      "tags": [
+        "branding",
+        "header",
+        "logo",
+        "title"
+      ],
+      "description": "Image showing sweetrobo logo",
+      "caption": "Figure: Sweetrobo Logo",
+      "alt_text": "Sweetrobo Logo",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "candy-monster-machine-photo.webp",
+      "original_filename": "candy-monster-062.png",
+      "path": "assets/images/header/candy-monster-machine-photo.webp",
+      "section": "header",
+      "subsection": "01 Header.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 1200
+      },
+      "format": "WebP",
+      "tags": [
+        "branding",
+        "candy",
+        "header",
+        "inventory",
+        "logo",
+        "product",
+        "title"
+      ],
+      "description": "Photograph showing candy monster machine photo",
+      "caption": "Figure: Candy Monster Machine Photo",
+      "alt_text": "Candy Monster Machine Photo",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "emergency-contact-logo.webp",
+      "original_filename": "AD_4nXdT6jIntEhxGWBYn1E8ByLvhh92TxSUYYoD0CH6UgSAwKlRoe2wbnzjT_OtmNobMq3E9VEJbr-zOBXSWbzpvvUgofOPAn1xPdKWh4gerefD8EX10II-Smjb6uc7yCIRwBkmb506xQ.png",
+      "path": "assets/images/safety/emergency-contact-logo.webp",
+      "section": "safety",
+      "subsection": "7 6. Emergency Contact.md",
+      "dimensions": {
+        "width": 385,
+        "height": 344
+      },
+      "format": "WebP",
+      "tags": [
+        "caution",
+        "safety",
+        "safety-guidelines",
+        "warning"
+      ],
+      "description": "Image showing emergency contact logo",
+      "caption": "Figure: Emergency Contact Logo",
+      "alt_text": "Emergency Contact Logo",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "statistics-overview-screen.webp",
+      "original_filename": "PastedGraphic5.png",
+      "path": "assets/images/operation/operator-interface/statistics-overview-screen.webp",
+      "section": "operation",
+      "subsection": "4 Statistics.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "display",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Screenshot of the statistics overview screen",
+      "caption": "Figure: Statistics Overview Screen",
+      "alt_text": "Statistics Overview Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "inventory-details-screen.webp",
+      "original_filename": "PastedGraphic7.png",
+      "path": "assets/images/operation/operator-interface/inventory-details-screen.webp",
+      "section": "operation",
+      "subsection": "6 Inventory Management.md",
+      "dimensions": {
+        "width": 1022,
+        "height": 584
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "display",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Screenshot of the inventory details screen",
+      "caption": "Figure: Inventory Details Screen",
+      "alt_text": "Inventory Details Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "operator-management-interface.webp",
+      "original_filename": "PastedGraphic1.png",
+      "path": "assets/images/operation/operator-interface/operator-management-interface.webp",
+      "section": "operation",
+      "subsection": "2 Operator Interface Managing the Candy Monster.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "display",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing operator management interface",
+      "caption": "Figure: Operator Management Interface",
+      "alt_text": "Operator Management Interface",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "payment-method-selection-screen.webp",
+      "original_filename": "PastedGraphic3.png",
+      "path": "assets/images/operation/customer-interface/payment-method-selection-screen.webp",
+      "section": "operation",
+      "subsection": "3 Selecting Payment Method.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "format": "WebP",
+      "tags": [
+        "controls",
+        "customer-facing",
+        "display",
+        "end-user",
+        "interface",
+        "operation",
+        "public-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Screenshot of the payment method selection screen",
+      "caption": "Figure: Payment Method Selection Screen",
+      "alt_text": "Payment Method Selection Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "cash-payment-process-screen.webp",
+      "original_filename": "PastedGraphic2.png",
+      "path": "assets/images/operation/customer-interface/cash-payment-process-screen.webp",
+      "section": "operation",
+      "subsection": "4 Completing Payment (Example Cash Payment.md",
+      "dimensions": {
+        "width": 900,
+        "height": 1600
+      },
+      "format": "WebP",
+      "tags": [
+        "controls",
+        "customer-facing",
+        "display",
+        "end-user",
+        "interface",
+        "operation",
+        "public-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Screenshot of the cash payment process screen",
+      "caption": "Figure: Cash Payment Process Screen",
+      "alt_text": "Cash Payment Process Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "customer-interface-home-screen.webp",
+      "original_filename": "PastedGraphic4.png",
+      "path": "assets/images/operation/customer-interface/customer-interface-home-screen.webp",
+      "section": "operation",
+      "subsection": "1 Customer Interface Making a Purchase.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "format": "WebP",
+      "tags": [
+        "controls",
+        "customer-facing",
+        "display",
+        "end-user",
+        "interface",
+        "operation",
+        "public-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Screenshot of the customer interface home screen",
+      "caption": "Figure: Customer Interface Home Screen",
+      "alt_text": "Customer Interface Home Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "touch-operation-icon.webp",
+      "original_filename": "AD_4nXehfd5Bh3yu3kSSzVaU-ip2yTfFQnfiA_9x_bjT2ANbd9a_Ug10Kj4QYlpLNnOwE4vWmz92esnZ2atpZZ78pccu9iVzJWSboSnQwJQORYCEI5WRw7Mgukwit1gk1FvS_668l9p0.png",
+      "path": "assets/images/introduction/touch-operation-icon.webp",
+      "section": "introduction",
+      "subsection": "1 Introduction.md",
+      "dimensions": {
+        "width": 251,
+        "height": 421
+      },
+      "format": "WebP",
+      "tags": [
+        "getting-started",
+        "introduction",
+        "manual-intro",
+        "overview"
+      ],
+      "description": "Icon representing touch operation icon",
+      "caption": "Figure: Touch Operation Icon",
+      "alt_text": "Touch Operation Icon",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "easy-cleaning-icon.webp",
+      "original_filename": "AD_4nXfqrEIyRXysk-JyEu_D-W2t5gzOTFpPlRa7ihLgHv_uAaBx1up-4yJyMx0BN5nuDpy2qedDrONznWeRXm-b4zbET4ucvQHb_dlCrOUACnPmWgStlimpWGQBXzYFJrUlDvIVjGW3.png",
+      "path": "assets/images/introduction/easy-cleaning-icon.webp",
+      "section": "introduction",
+      "subsection": "1 Introduction.md",
+      "dimensions": {
+        "width": 171,
+        "height": 194
+      },
+      "format": "WebP",
+      "tags": [
+        "getting-started",
+        "introduction",
+        "manual-intro",
+        "overview"
+      ],
+      "description": "Icon representing easy cleaning icon",
+      "caption": "Figure: Easy Cleaning Icon",
+      "alt_text": "Easy Cleaning Icon",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "safety-features-icon.webp",
+      "original_filename": "AD_4nXdT6jIntEhxGWBYn1E8ByLvhh92TxSUYYoD0CH6UgSAwKlRoe2wbnzjT_OtmNobMq3E9VEJbr-zOBXSWbzpvvUgofOPAn1xPdKWh4gerefD8EX10II-Smjb6uc7yCIRwBkmb506xQ.png",
+      "path": "assets/images/introduction/safety-features-icon.webp",
+      "section": "introduction",
+      "subsection": "1 Introduction.md",
+      "dimensions": {
+        "width": 385,
+        "height": 344
+      },
+      "format": "WebP",
+      "tags": [
+        "getting-started",
+        "introduction",
+        "manual-intro",
+        "overview"
+      ],
+      "description": "Icon representing safety features icon",
+      "caption": "Figure: Safety Features Icon",
+      "alt_text": "Safety Features Icon",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "manual-importance-diagram.webp",
+      "original_filename": "AD_4nXfY0wunEaOWNV73gdFCa5KCMGtAGQJwpZBlt9zbhFw6LbEew9VdpFhcWnTPyXifPFugtl46bHREknw1TqAQM4BJxvvr-RaER3wnvmaRX02lwESIr_BoFZn-IxuEiGhkp5_-g8gDrA.png",
+      "path": "assets/images/introduction/manual-importance-diagram.webp",
+      "section": "introduction",
+      "subsection": "2 Importance of the Manual.md",
+      "dimensions": {
+        "width": 560,
+        "height": 1027
+      },
+      "format": "WebP",
+      "tags": [
+        "getting-started",
+        "introduction",
+        "manual-intro",
+        "overview"
+      ],
+      "description": "Diagram illustrating manual importance diagram",
+      "caption": "Figure: Manual Importance Diagram",
+      "alt_text": "Manual Importance Diagram",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "power-on-sequence-screen.webp",
+      "original_filename": "PastedGraphic.png",
+      "path": "assets/images/getting-started/power-on-sequence-screen.webp",
+      "section": "getting-started",
+      "subsection": "6 Initial Power-On Sequence.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 699
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "display",
+        "getting-started",
+        "installation",
+        "setup",
+        "touchscreen",
+        "user-interface"
+      ],
+      "description": "Screenshot of the power on sequence screen",
+      "caption": "Figure: Power On Sequence Screen",
+      "alt_text": "Power On Sequence Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "candy-bays-climate-control.webp",
+      "original_filename": "PastedGraphic1.png",
+      "path": "assets/images/getting-started/components/candy-bays-climate-control.webp",
+      "section": "getting-started",
+      "subsection": "4 Candy Bays and Climate Control.md",
+      "dimensions": {
+        "width": 489,
+        "height": 671
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "display",
+        "getting-started",
+        "installation",
+        "setup",
+        "touchscreen",
+        "user-interface"
+      ],
+      "description": "Image showing candy bays climate control",
+      "caption": "Figure: Candy Bays Climate Control",
+      "alt_text": "Candy Bays Climate Control",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "device-status-display.webp",
+      "original_filename": "status.jpg",
+      "path": "assets/images/operation/operator-interface/device-status-display.webp",
+      "section": "operation",
+      "subsection": "5 Device Status.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "diagnostics",
+        "display",
+        "interface",
+        "management",
+        "monitoring",
+        "operation",
+        "operator-interface",
+        "system-health",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing device status display",
+      "caption": "Figure: Device Status Display",
+      "alt_text": "Device Status Display",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "operator-password-entry-screen.webp",
+      "original_filename": "CleanShot2025-05-11at0436512x.jpg",
+      "path": "assets/images/operation/operator-interface/operator-password-entry-screen.webp",
+      "section": "operation",
+      "subsection": "1 Initiating Login.md",
+      "dimensions": {
+        "width": 998,
+        "height": 1252
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "usage"
+      ],
+      "description": "Screenshot of the operator password entry screen",
+      "caption": "Figure: Operator Password Entry Screen",
+      "alt_text": "Operator Password Entry Screen",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "operator-login-touch-position.webp",
+      "original_filename": "CleanShot2025-05-11at0435532x.jpg",
+      "path": "assets/images/operation/operator-interface/operator-login-touch-position.webp",
+      "section": "operation",
+      "subsection": "1 Initiating Login.md",
+      "dimensions": {
+        "width": 930,
+        "height": 848
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "usage"
+      ],
+      "description": "Image showing operator login touch position",
+      "caption": "Figure: Operator Login Touch Position",
+      "alt_text": "Operator Login Touch Position",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "test-functions-menu.webp",
+      "original_filename": "testpage.jpg",
+      "path": "assets/images/operation/operator-interface/test-functions-menu.webp",
+      "section": "operation",
+      "subsection": "7 Test Functions.md",
+      "dimensions": {
+        "width": 800,
+        "height": 1349
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "diagnostics",
+        "display",
+        "interface",
+        "management",
+        "monitoring",
+        "operation",
+        "operator-interface",
+        "system-health",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing test functions menu",
+      "caption": "Figure: Test Functions Menu",
+      "alt_text": "Test Functions Menu",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "inventory-management-main.webp",
+      "original_filename": "inventoryoverview.jpg",
+      "path": "assets/images/operation/operator-interface/inventory-management-main.webp",
+      "section": "operation",
+      "subsection": "6 Inventory Management.md",
+      "dimensions": {
+        "width": 1210,
+        "height": 1438
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "diagnostics",
+        "display",
+        "interface",
+        "machine-view",
+        "management",
+        "monitoring",
+        "operation",
+        "operator-interface",
+        "orientation",
+        "perspective",
+        "system-health",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing inventory management main",
+      "caption": "Figure: Inventory Management Main",
+      "alt_text": "Inventory Management Main",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "candy-item-edit-dialog.webp",
+      "original_filename": "editcandyitem.jpg",
+      "path": "assets/images/operation/operator-interface/candy-item-edit-dialog.webp",
+      "section": "operation",
+      "subsection": "6 Inventory Management.md",
+      "dimensions": {
+        "width": 666,
+        "height": 516
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "candy",
+        "controls",
+        "display",
+        "interface",
+        "inventory",
+        "management",
+        "operation",
+        "operator-interface",
+        "product",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing candy item edit dialog",
+      "caption": "Figure: Candy Item Edit Dialog",
+      "alt_text": "Candy Item Edit Dialog",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "cup-stock-edit-dialog.webp",
+      "original_filename": "cupstockedit.jpg",
+      "path": "assets/images/operation/operator-interface/cup-stock-edit-dialog.webp",
+      "section": "operation",
+      "subsection": "6 Inventory Management.md",
+      "dimensions": {
+        "width": 1206,
+        "height": 364
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-panel",
+        "controls",
+        "display",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing cup stock edit dialog",
+      "caption": "Figure: Cup Stock Edit Dialog",
+      "alt_text": "Cup Stock Edit Dialog",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "device-settings-menu.webp",
+      "original_filename": "devicesettings.jpg",
+      "path": "assets/images/operation/operator-interface/device-settings-menu.webp",
+      "section": "operation",
+      "subsection": "3 Device Settings.md",
+      "dimensions": {
+        "width": 1000,
+        "height": 1448
+      },
+      "format": "WebP",
+      "tags": [
+        "admin-access",
+        "admin-panel",
+        "backend",
+        "configuration",
+        "controls",
+        "display",
+        "interface",
+        "management",
+        "operation",
+        "operator-interface",
+        "touchscreen",
+        "usage",
+        "user-interface"
+      ],
+      "description": "Image showing device settings menu",
+      "caption": "Figure: Device Settings Menu",
+      "alt_text": "Device Settings Menu",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "candy-selection-empty-state.webp",
+      "original_filename": "5selectnone.jpg",
+      "path": "assets/images/operation/customer-interface/candy-selection-empty-state.webp",
+      "section": "operation",
+      "subsection": "2 Choosing Candies.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1917
+      },
+      "format": "WebP",
+      "tags": [
+        "candy",
+        "controls",
+        "customer-facing",
+        "end-user",
+        "interface",
+        "inventory",
+        "operation",
+        "product",
+        "public-interface",
+        "usage"
+      ],
+      "description": "Image showing candy selection empty state",
+      "caption": "Figure: Candy Selection Empty State",
+      "alt_text": "Candy Selection Empty State",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "candy-selection-five-items.webp",
+      "original_filename": "5select5.jpg",
+      "path": "assets/images/operation/customer-interface/candy-selection-five-items.webp",
+      "section": "operation",
+      "subsection": "2 Choosing Candies.md",
+      "dimensions": {
+        "width": 1080,
+        "height": 1917
+      },
+      "format": "WebP",
+      "tags": [
+        "candy",
+        "controls",
+        "customer-facing",
+        "end-user",
+        "interface",
+        "inventory",
+        "operation",
+        "product",
+        "public-interface",
+        "usage"
+      ],
+      "description": "Image showing candy selection five items",
+      "caption": "Figure: Candy Selection Five Items",
+      "alt_text": "Candy Selection Five Items",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "machine-dimensions-diagram.webp",
+      "original_filename": "CleanShot2025-05-11at0829282x.jpg",
+      "path": "assets/images/getting-started/machine-dimensions-diagram.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 554,
+        "height": 502
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Diagram illustrating machine dimensions diagram",
+      "caption": "Figure: Machine Dimensions Diagram",
+      "alt_text": "Machine Dimensions Diagram",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "setup-step-photo-2.webp",
+      "original_filename": "CleanShot2025-05-12at133545.jpg",
+      "path": "assets/images/getting-started/setup-step-photo-2.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 480,
+        "height": 429
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Photograph showing setup step photo 2",
+      "caption": "Figure: Setup Step Photo 2",
+      "alt_text": "Setup Step Photo 2",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "setup-step-photo-1.webp",
+      "original_filename": "CleanShot2025-05-12at133455.jpg",
+      "path": "assets/images/getting-started/setup-step-photo-1.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 600,
+        "height": 470
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Photograph showing setup step photo 1",
+      "caption": "Figure: Setup Step Photo 1",
+      "alt_text": "Setup Step Photo 1",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "setup-step-photo-3.webp",
+      "original_filename": "CleanShot2025-05-12at133654.jpg",
+      "path": "assets/images/getting-started/setup-step-photo-3.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 633,
+        "height": 507
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Photograph showing setup step photo 3",
+      "caption": "Figure: Setup Step Photo 3",
+      "alt_text": "Setup Step Photo 3",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "getting-started-candy-display-units.webp",
+      "original_filename": "6candydisplays.jpg",
+      "path": "assets/images/getting-started/getting-started-candy-display-units.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "format": "WebP",
+      "tags": [
+        "candy",
+        "configuration",
+        "display",
+        "getting-started",
+        "installation",
+        "inventory",
+        "product",
+        "setup",
+        "touchscreen",
+        "user-interface"
+      ],
+      "description": "",
+      "caption": "Figure: Getting Started Candy Display Units",
+      "alt_text": "Getting Started Candy Display Units",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "getting-started-photo-2025-05-07-07-11-05.webp",
+      "original_filename": "PHOTO-2025-05-07-07-11-05.jpg",
+      "path": "assets/images/getting-started/getting-started-photo-2025-05-07-07-11-05.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "",
+      "caption": "Figure: Getting Started Photo 2025 05 07 07 11 05",
+      "alt_text": "Getting Started Photo 2025 05 07 07 11 05",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "cup-dispenser-location.webp",
+      "original_filename": "cupsarea.jpg",
+      "path": "assets/images/getting-started/cup-dispenser-location.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 1018,
+        "height": 1306
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Image showing cup dispenser location",
+      "caption": "Figure: Cup Dispenser Location",
+      "alt_text": "Cup Dispenser Location",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "power-switch-keys-location.webp",
+      "original_filename": "Keyspositionnearbackpowerline.jpg",
+      "path": "assets/images/getting-started/power-switch-keys-location.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 920,
+        "height": 1252
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Image showing power switch keys location",
+      "caption": "Figure: Power Switch Keys Location",
+      "alt_text": "Power Switch Keys Location",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "display-unit-refill-access.webp",
+      "original_filename": "Youneedtotakeoffthescrewstofillupwithcandiesfordisplay.jpg",
+      "path": "assets/images/getting-started/display-unit-refill-access.webp",
+      "section": "getting-started",
+      "subsection": "5 Step-by-Step Physical Setup.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "display",
+        "getting-started",
+        "installation",
+        "setup",
+        "touchscreen",
+        "user-interface"
+      ],
+      "description": "Image showing display unit refill access",
+      "caption": "Figure: Display Unit Refill Access",
+      "alt_text": "Display Unit Refill Access",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "unpacking-spare-parts-kit.webp",
+      "original_filename": "Sparepartscustomergets.jpg",
+      "path": "assets/images/getting-started/unpacking-spare-parts-kit.webp",
+      "section": "getting-started",
+      "subsection": "4 Unpacking and Installation.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "format": "WebP",
+      "tags": [
+        "components",
+        "configuration",
+        "customer-facing",
+        "end-user",
+        "getting-started",
+        "hardware",
+        "installation",
+        "parts-identification",
+        "public-interface",
+        "setup"
+      ],
+      "description": "Image showing unpacking spare parts kit",
+      "caption": "Figure: Unpacking Spare Parts Kit",
+      "alt_text": "Unpacking Spare Parts Kit",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "internal-service-components.webp",
+      "original_filename": "Rightsideinternalsview.jpg",
+      "path": "assets/images/getting-started/components/internal-service-components.webp",
+      "section": "getting-started",
+      "subsection": "1 Candy Monster Internal Service Components.md",
+      "dimensions": {
+        "width": 712,
+        "height": 892
+      },
+      "format": "WebP",
+      "tags": [
+        "components",
+        "configuration",
+        "getting-started",
+        "hardware",
+        "installation",
+        "machine-view",
+        "orientation",
+        "parts-identification",
+        "perspective",
+        "setup"
+      ],
+      "description": "Image showing internal service components",
+      "caption": "Figure: Internal Service Components",
+      "alt_text": "Internal Service Components",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "pc-unit-photo.webp",
+      "original_filename": "77969-optimisedtiff.jpg",
+      "path": "assets/images/getting-started/components/pc-unit-photo.webp",
+      "section": "getting-started",
+      "subsection": "2 The PC.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 1191
+      },
+      "format": "WebP",
+      "tags": [
+        "components",
+        "configuration",
+        "getting-started",
+        "hardware",
+        "installation",
+        "parts-identification",
+        "setup"
+      ],
+      "description": "Photograph showing pc unit photo",
+      "caption": "Figure: Pc Unit Photo",
+      "alt_text": "Pc Unit Photo",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "monitor-connection-wires.webp",
+      "original_filename": "taggedwires.jpg",
+      "path": "assets/images/getting-started/components/monitor-connection-wires.webp",
+      "section": "getting-started",
+      "subsection": "5 Touch Screen Monitor Connections.md",
+      "dimensions": {
+        "width": 1200,
+        "height": 1600
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "display",
+        "getting-started",
+        "installation",
+        "setup",
+        "touchscreen",
+        "user-interface"
+      ],
+      "description": "Image showing monitor connection wires",
+      "caption": "Figure: Monitor Connection Wires",
+      "alt_text": "Monitor Connection Wires",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "machine-front-view-components.webp",
+      "original_filename": "generalview.jpg",
+      "path": "assets/images/getting-started/components/machine-front-view-components.webp",
+      "section": "getting-started",
+      "subsection": "3 Machine Components Overview.md",
+      "dimensions": {
+        "width": 716,
+        "height": 772
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "machine-view",
+        "orientation",
+        "perspective",
+        "setup"
+      ],
+      "description": "Image showing machine front view components",
+      "caption": "Figure: Machine Front View Components",
+      "alt_text": "Machine Front View Components",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "operational-sensors-detail.webp",
+      "original_filename": "CleanShot2025-05-12at114024.jpg",
+      "path": "assets/images/getting-started/components/operational-sensors-detail.webp",
+      "section": "getting-started",
+      "subsection": "6 Key Operational Sensors.md",
+      "dimensions": {
+        "width": 710,
+        "height": 590
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "setup"
+      ],
+      "description": "Image showing operational sensors detail",
+      "caption": "Figure: Operational Sensors Detail",
+      "alt_text": "Operational Sensors Detail",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    },
+    {
+      "filename": "right-side-door-internal-view.webp",
+      "original_filename": "rightsideinternalview.jpg",
+      "path": "assets/images/getting-started/components/right-side-door-internal-view.webp",
+      "section": "getting-started",
+      "subsection": "3 Candy Monster Right-side-door Internal View.md",
+      "dimensions": {
+        "width": 534,
+        "height": 970
+      },
+      "format": "WebP",
+      "tags": [
+        "configuration",
+        "getting-started",
+        "installation",
+        "machine-view",
+        "orientation",
+        "perspective",
+        "setup"
+      ],
+      "description": "Image showing right side door internal view",
+      "caption": "Figure: Right Side Door Internal View",
+      "alt_text": "Right Side Door Internal View",
+      "use_cases": [],
+      "text_in_image": [],
+      "ai_training_notes": ""
+    }
+  ]
+}
