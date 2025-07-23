@@ -1,0 +1,26 @@
+# Shared PDF configuration for all manuals
+# Copy these settings to each machine's book.toml if using mdbook-pdf
+
+[output.pdf]
+# Optional: for mdbook-pdf extension
+# Install with: cargo install mdbook-pdf
+
+[output.html.print]
+enable = true
+page-break = true
+
+# CSS for better PDF printing
+# Add to theme/css/print.css if using custom theme
+# @media print {
+#   .chapter {
+#     page-break-after: always;
+#   }
+#   
+#   a[href^="http"]:after {
+#     content: "";  /* Remove external link indicators */
+#   }
+#   
+#   nav {
+#     display: none;  /* Hide navigation in PDF */
+#   }
+# }
