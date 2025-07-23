@@ -44,21 +44,16 @@ jobs:
         run: mkdir -p ./site
       - name: Copy main index page
         run: cp index.html ./site/
-      - name: Build Robo Ice Cream manual
+      - name: Build all manuals
         run: |
-          cd "Robo Ice Cream"
-          mdbook build
-          cp -r book ../site/robo-ice-cream
-      - name: Build Candy Monster manual
+          cd "Robo Ice Cream" && mdbook build && cd ..
+          cd "Candy Monster" && mdbook build && cd ..
+          cd "Pop Cart" && mdbook build && cd ..
+      - name: Copy built manuals to site directory
         run: |
-          cd "Candy Monster"
-          mdbook build
-          cp -r book ../site/candy-monster
-      - name: Build Pop Cart manual
-        run: |
-          cd "Pop Cart"
-          mdbook build
-          cp -r book ../site/pop-cart
+          cp -r build/robo-ice-cream site/
+          cp -r build/candy-monster site/
+          cp -r build/pop-cart site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
