@@ -1,0 +1,41 @@
+Common Q&A from customers: 
+
+1. Why isn't the machine making ice cream right after turning it on?
+
+After turning on the power and refrigeration switch, the machine needs 5-10 minutes to cool down. It will only begin making ice cream once the internal temperature is cold enough.
+
+2. How much ice cream mix do I need to add for it to start working properly?
+
+You need to add at least 2 liters of prepared mix into each hopper. Less than this may prevent the machine from functioning correctly.
+
+3.  Do I need to clean the machine every day?
+
+Daily tasks include wiping down the exterior and checking expiration dates on bags and settings alarms for when the mix is expired after being put into the system. A full hopper cleaning should be done every 3 days, and syrup/topping containers weekly.
+
+4. The cup didn't drop, what do I do?
+
+Log into the backend, go to Device Testing, and try the "Cup Out" or "Reset Cup Holder" functions to realign the system. Check that cups are loaded correctly and aligned in the tubes.
+
+5. Why are the syrup or toppings not dispensing?
+
+Ensure the stock levels are set correctly in the Stock Settings menu. You can also test the syrup or toppings dispensers manually under Device Testing -- Jams/Sprinkles Test.
+
+6. What does "L: 100%" or "R: 100%" mean on the customer screen?
+
+It shows the cold status of the left or right ice cream hoppers. 100% means that side is at the correct temperature for serving. 
+
+7. Can I use thick sauces or chunky toppings in the machine?
+
+No. Only liquid syrups are allowed for syrup dispensers and dry solid toppings (e.g., sprinkles, crushed cookies) for topping dispensers. No chunks or thick sauces.
+
+8. How do I access the backend to change settings or refill stock?
+
+Tap and hold the top-right corner of the touchscreen for 3–5 seconds. Enter the default password: 123456(for the F1 or F2) or password: 999999 (for Robo-Haloo).
+
+9. How do I shut the machine down safely?
+
+First, switch off the main power to the ice cream machine, then use the breaker switch to cut off power. Never unplug the machine directly while it's running.
+
+10. What should I do if the machine displays an error or doesn't function normally?
+
+Check the troubleshooting section in the manual. If the issue persists, contact Sweet Robo customer support at support@sweetrobo.com or +1 (844) 793-3872 for assistance.

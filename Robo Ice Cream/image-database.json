@@ -1,0 +1,218 @@
+{
+  "image_analysis": {
+    "manual_name": "Robo Ice Cream F2",
+    "analysis_date": "2025-07-23",
+    "purpose": "AI training dataset for Sweet Robo manual assistant",
+    "images": [
+      {
+        "filename": "machines-overview.png",
+        "path": "./assets/overview/machines-overview.png",
+        "section": "overview",
+        "file_size_approx": "large",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "marketing_graphic",
+          "machine_exterior",
+          "customer_interface",
+          "LED_display",
+          "front_view",
+          "stylized",
+          "branding",
+          "robo_ice_cream",
+          "touchscreen",
+          "purple_theme"
+        ],
+        "description": "Stylized marketing graphic showing the Robo Ice Cream machine front view with customer interface screen and LED display on purple gradient background",
+        "correctness": "correct",
+        "ai_training_notes": "Good for identifying machine exterior, customer-facing interface, branding elements",
+        "contains_text": true,
+        "text_content": "ROBO ICE CREAM, CONTINUE",
+        "suitable_for_sections": ["overview", "marketing"]
+      },
+      {
+        "filename": "external-components.png",
+        "path": "./assets/overview/external-components.png",
+        "section": "overview",
+        "file_size_approx": "large",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "component_diagram",
+          "labeled_diagram",
+          "external_components",
+          "LED_signage",
+          "touch_screen",
+          "viewing_window",
+          "coin_acceptor",
+          "bill_acceptor",
+          "credit_card_reader",
+          "collection_door",
+          "technical_diagram",
+          "educational"
+        ],
+        "description": "External components diagram with clear labels for LED signage, touch screen, viewing window, coin acceptor, bill acceptor, credit card reader, and collection door",
+        "correctness": "perfect",
+        "ai_training_notes": "Excellent for teaching component identification, perfect labeling example",
+        "contains_text": true,
+        "text_content": "LED Signage, Touch Screen, Viewing Window, Coin Acceptor, Bill Acceptor, Credit Card Reader, Collection Door",
+        "suitable_for_sections": ["overview", "components", "technical_specs"]
+      },
+      {
+        "filename": "internal-components.png",
+        "path": "./assets/overview/internal-components.png",
+        "section": "overview",
+        "file_size_approx": "large",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "internal_components",
+          "dual_hoppers",
+          "F2_specific",
+          "labeled_diagram",
+          "timer",
+          "breaker",
+          "power_switches",
+          "cup_holder_dispenser",
+          "syrup_holders",
+          "topping_dispensers",
+          "UV_sanitizer",
+          "blue_robo_delivery_bot",
+          "ice_cream_dispensers",
+          "main_IO_power_switch",
+          "technical_photo"
+        ],
+        "description": "Internal view showing F2's dual ice cream hoppers, timer, breaker, power switches, cup holder/dispenser, syrup holders, topping dispensers, UV sanitizer, and Blue Robo delivery bot with detailed labels",
+        "correctness": "perfect",
+        "ai_training_notes": "Critical for F2 identification - shows dual hopper system that distinguishes F2 from F1. Excellent for technical training.",
+        "contains_text": true,
+        "text_content": "Timer, Breaker/Power SW, Main IO Power SW, Cup Holder/Dispenser, Ice Cream Hoppers, Syrup Holders, Topping Holders, Topping Dispenser, UV Sanitizer, Syrup Dispenser, Ice Cream Dispenser, Blue Robo - Delivery Bot",
+        "suitable_for_sections": ["overview", "components", "technical_specs", "maintenance"]
+      },
+      {
+        "filename": "unpacking-step-1.png",
+        "path": "./assets/setup/unpacking-step-1.png",
+        "section": "setup",
+        "file_size_approx": "medium",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "ice_cream_cups",
+          "sweet_robo_branding",
+          "orange_cups",
+          "serving_containers",
+          "product_supplies",
+          "consumables",
+          "NOT_unpacking",
+          "misplaced_image"
+        ],
+        "description": "Three orange ice cream serving cups with Sweet Robo branding and cute character designs. NOT related to unpacking/installation.",
+        "correctness": "incorrect",
+        "ai_training_notes": "WRONG PLACEMENT - This shows consumable cups, not unpacking steps. Should be in operation or supplies section.",
+        "contains_text": true,
+        "text_content": "SWEET ROBO TASTE THE FUTURE",
+        "suitable_for_sections": ["operation", "supplies", "consumables"],
+        "correction_needed": true,
+        "suggested_relocation": "./assets/operation/serving-cups.webp"
+      },
+      {
+        "filename": "unpacking-step-2.png",
+        "path": "./assets/setup/unpacking-step-2.png",
+        "section": "setup",
+        "file_size_approx": "small",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "cleaning_supplies",
+          "blue_brush",
+          "whisk",
+          "cleaning_cloths",
+          "maintenance_tools",
+          "NOT_unpacking",
+          "misplaced_image"
+        ],
+        "description": "Cleaning supplies including blue bottle brush, wire whisk, and blue cleaning cloths. NOT related to unpacking/installation.",
+        "correctness": "incorrect",
+        "ai_training_notes": "WRONG PLACEMENT - These are cleaning/maintenance supplies, not unpacking steps. Should be in maintenance section.",
+        "contains_text": false,
+        "text_content": "",
+        "suitable_for_sections": ["maintenance", "cleaning", "supplies"],
+        "correction_needed": true,
+        "suggested_relocation": "./assets/maintenance/cleaning-supplies.webp"
+      },
+      {
+        "filename": "unpacking-step-3.png",
+        "path": "./assets/setup/unpacking-step-3.png",
+        "section": "setup",
+        "file_size_approx": "medium",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "measuring_bucket",
+          "10L_capacity",
+          "mixing_container",
+          "graduated_measurements",
+          "ice_cream_preparation",
+          "NOT_unpacking",
+          "misplaced_image"
+        ],
+        "description": "10-liter transparent measuring bucket with graduated markings (2L to 10L) used for mixing ice cream preparations. NOT related to unpacking/installation.",
+        "correctness": "incorrect",
+        "ai_training_notes": "WRONG PLACEMENT - This is a mixing bucket for ice cream preparation, not unpacking. Should be in maintenance/mix preparation section.",
+        "contains_text": true,
+        "text_content": "10L, 8L, 7L, 6L, 5L, 4L, 3L, 2L, ml measurements",
+        "suitable_for_sections": ["maintenance", "mix_preparation", "supplies"],
+        "correction_needed": true,
+        "suggested_relocation": "./assets/maintenance/mixing-bucket.webp"
+      },
+      {
+        "filename": "backend-access-position.png",
+        "path": "./assets/operation/backend-access-position.png",
+        "section": "operation",
+        "file_size_approx": "medium",
+        "format": "PNG",
+        "recommended_format": "WebP",
+        "tags": [
+          "marketing_graphic",
+          "3D_text",
+          "robo_ice_cream_logo",
+          "purple_background",
+          "branding",
+          "NOT_backend_access",
+          "misplaced_image"
+        ],
+        "description": "3D stylized 'ROBO ice cream' text graphic with ice cream cone on purple background. NOT showing backend access position.",
+        "correctness": "incorrect",
+        "ai_training_notes": "WRONG PLACEMENT - This is marketing/branding material, not operational instructions for backend access.",
+        "contains_text": true,
+        "text_content": "ROBO ice cream",
+        "suitable_for_sections": ["overview", "marketing", "branding"],
+        "correction_needed": true,
+        "suggested_relocation": "./assets/overview/robo-branding.webp"
+      }
+    ],
+    "analysis_summary": {
+      "total_images_analyzed": 7,
+      "correctly_placed": 3,
+      "incorrectly_placed": 4,
+      "corrections_needed": 2,
+      "format_optimization_needed": 5,
+      "sections_with_issues": ["setup"],
+      "file_size_reduction_potential": "30-70% with WebP conversion"
+    },
+    "ai_training_insights": {
+      "key_learning_points": [
+        "F2 has dual hoppers vs F1 single hopper - critical distinguishing feature",
+        "External component diagrams are excellent for component identification training",
+        "Image placement accuracy is crucial for manual usability",
+        "Sweet Robo uses consistent orange/purple branding",
+        "Cleaning supplies and consumables are often confused with setup materials"
+      ],
+      "common_misidentification_risks": [
+        "Cups/consumables mistaken for unpacking materials",
+        "Cleaning supplies mistaken for installation tools",
+        "Marketing graphics vs technical diagrams distinction needed"
+      ]
+    }
+  }
+}

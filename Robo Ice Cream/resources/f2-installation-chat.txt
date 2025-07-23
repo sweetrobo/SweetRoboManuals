@@ -1,0 +1,95 @@
+F2 Model Installation Support Chat
+
+Initial Setup After Unboxing:
+
+Customer: I just unboxed this machine and I have no clue what to do next?
+
+Support: If you want to install the top lights, we can start with that. With the machine off, you can install the 4 panels (or however many you prefer). It's completely up to you how many panels you want or if you even want them installed.
+
+Customer: Yes, I want all of the panels!
+
+Support: Perfect! Let's get you started:
+1. There are 4 screws that need to be screwed down to the base
+2. Use the connection bracket to stabilize the panels together with a screw and nut
+3. After connecting the panels to the base, connect the wires on top to the wires from the base (black to black, red to red)
+
+Troubleshooting Core Board Error:
+
+Customer: Perfect, I turned it on and got an error message - "Core board error"? What happened?
+
+Support: Did you turn on the machine without turning on the hopper?
+
+Customer: Yes.
+
+Support: And no liquid material in the hopper?
+
+Customer: Yes?
+
+Support: This error happens because the hopper is turned off and needs liquid. Without liquid-
+
+Customer: Yeah, it's making a loud noise!
+
+Support: Yes! This happens because there's no lubrication from the liquid in the hopper, so it's metal hitting against metal. Here's what to do:
+1. Turn off the machine
+2. Fill the hopper with gelato mix (3 liters of water and a gelato mix packet)
+3. Turn on the hopper switch (located on the bottom of the hopper)
+4. Turn on the machine
+The error should go away.
+
+Customer: Yes, it went away!
+
+
+Nayax Payment System Setup:
+
+Customer: How do I set up Nayax here?
+
+Support: There's a slot for the Nayax reader located behind the cash box:
+1. Remove the zip tie
+2. Unscrew the panel to place your Nayax reader inside
+3. The Nayax needs a marshal cover
+4. Connect COM2 to the machine to enable the reader
+Note: If you get an error message and haven't finished registration with Nayax, you'll need to contact them.
+
+Machine Configuration:
+
+Support: I want to confirm your machine is working properly:
+1. Access the backend by tapping and holding the top-right corner of the touchscreen
+2. Enter code: 123456 (we can change it if you'd like)
+3. Go to Parameter Settings
+4. On the left side, find the ice cream options: "Clean", "Cool", "Thaw"
+5. Select "Cooling" to begin the cooling process
+6. Exit back to the menu
+
+For WiFi connection:
+1. In System Settings, look at the bottom right (it's hard to see)
+2. Find 3 buttons: "Exit App", "Restart", "Repair"
+3. Press "Exit App" to go to Android settings
+4. Connect your WiFi through the android settings
+5. Return to the app
+
+Common Additional Questions:
+
+Q: I want to change the toppings on the machine. How can I change it?
+
+A: Yes! Provide your machine ID so I can access the backend remotely. I can make the changes for you - just let me know what you want.
+
+Q: I put the syrup in and it's not dispensing anything?
+
+A: Go to Parameter Settings and look for Syrup 1, 2, 3:
+1. Press play/test for each syrup
+2. Have a cup ready by the syrup tip
+3. Run it a few times until syrup comes out
+Note: Sometimes it needs several attempts to come out fully.
+
+Q: How can I change the prices of ice cream and toppings?
+
+A: This can be done two ways:
+- Through the machine's "Product Management" settings
+- Remotely by support (we can also change product images)
+
+Q: How often should I change the ice cream mix?
+
+A: The ice cream mix should be changed every 3-4 days after pouring. Important notes:
+- Keep an eye on the hopper if you exceed the recommended time
+- The gelato can spoil after this period
+- Spoiled mix takes extra time to clean out properly
