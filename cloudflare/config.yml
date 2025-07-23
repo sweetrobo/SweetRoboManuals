@@ -1,0 +1,7 @@
+tunnel: sr-manuals-dev
+credentials-file: /Users/lightwing/Documents/GitHub/SweetRoboManuals/cloudflare/credentials.json
+
+ingress:
+  - hostname: sr-manuals-dev.meir.pro
+    service: http://localhost:3105
+  - service: http_status:404
