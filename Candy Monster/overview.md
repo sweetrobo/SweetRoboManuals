@@ -2,43 +2,40 @@
 
 ## About the Candy Monster
 
-The Candy Monster is a state-of-the-art confectionery production machine manufactured by Sweet Robo. This manual provides comprehensive information for operators, maintenance personnel, and technicians.
+The Candy Monster is a bulk candy vending machine manufactured by Sweet Robo. This manual provides comprehensive information for operators, maintenance personnel, and technicians.
 
 ## Machine Purpose
 
-[To be filled with specific information about what the Candy Monster does]
+The Candy Monster dispenses bulk candy products with precise portion control and multi-product selection capabilities.
 
 ## Key Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- Multi-product dispensing system
+- Precise portion control
+- Bulk candy storage compartments
+- Digital payment processing
+- User-friendly interface
 
 ## Specifications
 
 | Specification | Value |
 |--------------|-------|
 | Model Number | CM-2000 |
-| Dimensions | [To be filled] |
-| Weight | [To be filled] |
-| Power Requirements | [To be filled] |
-| Production Capacity | [To be filled] |
-| Operating Temperature | [To be filled] |
+| Machine Type | Bulk Candy Vending Machine |
 
 ## System Components
 
 1. **Main Unit**
-   - [Component details]
+   - Product storage bins
+   - Dispensing mechanisms
+   - Collection area
 
 2. **Control Panel**
-   - [Component details]
+   - Product selection interface
+   - Payment system
+   - Display screen
 
-3. **Production Module**
-   - [Component details]
-
-## Required Utilities
-
-- Electrical: [Requirements]
-- Compressed Air: [Requirements]
-- Water: [Requirements]
-- Drainage: [Requirements]
+3. **Dispensing Module**
+   - Portion control system
+   - Multiple product outlets
+   - Anti-jam mechanisms

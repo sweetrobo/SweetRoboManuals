@@ -1,7 +1,7 @@
-# Candy Monster Manual
+# Pop Cart Manual
 
 **Manufacturer:** Sweet Robo  
-**Model:** Candy Monster  
+**Model:** Pop Cart  
 **Document Version:** 1.0  
 **Last Updated:** [Date]
 

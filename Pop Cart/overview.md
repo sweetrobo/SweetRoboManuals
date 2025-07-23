@@ -1,44 +1,40 @@
 # Overview
 
-## About the Candy Monster
+## About the Pop Cart
 
-The Candy Monster is a state-of-the-art confectionery production machine manufactured by Sweet Robo. This manual provides comprehensive information for operators, maintenance personnel, and technicians.
+The Pop Cart is an automated popcorn vending machine manufactured by Sweet Robo. This manual provides comprehensive information for operators, maintenance personnel, and technicians.
 
 ## Machine Purpose
 
-[To be filled with specific information about what the Candy Monster does]
+The Pop Cart produces fresh popcorn on-demand using automated popping and dispensing systems.
 
 ## Key Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- Fresh popcorn production
+- Automated portion control
+- User-friendly interface
+- Compact design
 
 ## Specifications
 
 | Specification | Value |
 |--------------|-------|
-| Model Number | CM-2000 |
-| Dimensions | [To be filled] |
-| Weight | [To be filled] |
-| Power Requirements | [To be filled] |
-| Production Capacity | [To be filled] |
-| Operating Temperature | [To be filled] |
+| Model Number | PC-1000 |
+| Machine Type | Popcorn Vending Machine |
 
 ## System Components
 
 1. **Main Unit**
-   - [Component details]
+   - Popping chamber
+   - Kernel storage
+   - Dispensing mechanism
 
 2. **Control Panel**
-   - [Component details]
+   - User interface
+   - Payment system
+   - Display screen
 
 3. **Production Module**
-   - [Component details]
-
-## Required Utilities
-
-- Electrical: [Requirements]
-- Compressed Air: [Requirements]
-- Water: [Requirements]
-- Drainage: [Requirements]
+   - Heating elements
+   - Oil dispensing system
+   - Seasoning dispenser
