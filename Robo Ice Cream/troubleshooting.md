@@ -1,6 +1,31 @@
 # Troubleshooting
 
-## Common Issues and Solutions
+This section provides step-by-step guidance for identifying and resolving common issues with your Robo Ice Cream F2 machine. For any unresolved problems, please contact Sweet Robo Support.
+
+---
+
+## Immediate Action Guidelines
+
+⚠️ **Safety First**
+
+- 🔌 **Always power down the machine** using the backend shutdown button and breaker before inspecting internal components.
+- 📋 **Record the issue** and any unusual behavior or error codes to assist with support or warranty claims.
+
+---
+
+## Common Issues & Solutions
+
+| **Issue** | **Possible Cause** | **Action Steps** |
+| :-----: | :-----: | :-----: |
+| Machine does not power on | Breaker off or timer is set incorrectly | Check breaker is ON and hardware timer is set properly |
+| Screen is blank but power is on | Internal PC not booted | Open service panel and press PC power button. If this keeps happening, contact Sweet Robo Support. |
+| Ice cream not dispensing | Hopper is empty or mix is too cold | Check hopper level and run thaw cycle |
+| Cup not dropping | Cup tube is empty or jammed | Refill cup tubes, run test drop in backend |
+| Dispensing door does not open | Sensor blocked or door jammed | Clear obstructions, restart door motor via backend |
+| Topping not added | Empty container or blocked dispenser | Refill and clean topping container, test via backend |
+| Syrup not dispensing | Tubing clogged or bag empty | Clean tubing, replace syrup bag, run test |
+| Machine freezing or unresponsive | Overloaded system or background process stuck | Perform full restart via backend, then breaker |
+| UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp |
 
 ### Machine Won't Make Ice Cream After Power On
 
@@ -120,19 +145,74 @@
 2. Use breaker switch to cut power
 3. **Never unplug machine while running**
 
+---
+
+## Error Codes
+
+Some F2 models may display numeric error codes on the backend interface. When these appear:
+
+1. Record the **exact code and description** shown.
+2. Attempt a **soft reset** (power from backend only).
+3. If unresolved, contact support and provide the full error log.
+
+---
+
 ## When to Contact Support
 
-Contact Sweet Robo support if:
-- Error persists after troubleshooting
+Contact Sweet Robo Support if you experience any of the following:
+
+- You suspect internal electrical failure or broken hardware
+- Error codes persist after rebooting
+- Sensors, motors, or dispensers are not responding
+- The machine behaves erratically or inconsistently
+- You've attempted the above troubleshooting steps without resolution
 - Unusual noises continue after filling hoppers
 - Refrigeration system not cooling after 30 minutes
-- Display shows unfamiliar error codes
 - Physical damage to components
 
-**Support Contact:**
-- Email: support@sweetrobo.com
-- Phone: +1 (844) 793-3872
-- Have your machine ID ready (found in backend settings)
+Always include the machine **model** (F2), **serial number**, and a **brief description** of the issue when contacting support.
+
+---
+
+## Support Contact Information
+
+We provide 24/7 assistance with any technical issues you may be experiencing. Our team is available to provide you with the support you need to ensure a smooth and seamless product experience.
+
+If you're experiencing any difficulties or have questions about our product, please don't hesitate to reach out. We're here to help and will do our best to resolve your issue as quickly as possible.
+
+**Sweet Robo Customer Support:**
+- **Email:** [support@sweetrobo.com](mailto:support@sweetrobo.com)
+- **Phone:** +1-844-793-3872
+- **Hours:** 24/7 support available
+
+**Have your machine information ready:**
+- Machine model: F2
+- Serial number (found in backend settings)
+- Software version
+- Description of the issue
+
+---
+
+## Online Resources and Feedback
+
+### Updated Manual Access
+
+To view the most up-to-date version of this manual, please scan the QR code below:
+
+![QR Code for Online Manual](assets/troubleshooting/qr-code-manual.png)
+
+Or manually visit the link:
+https://sweetrobo.com/manuals/ice-cream
+
+### Feedback and Manual Improvements
+
+If you notice any typos or think this manual could benefit from additional information, please reach out and let us know. Your feedback helps us improve the documentation for all users.
+
+**Contact for Manual Feedback:**
+- Email: [support@sweetrobo.com](mailto:support@sweetrobo.com)
+- Subject line: "Manual Feedback - F2 Troubleshooting"
+
+---
 
 ## Error Prevention Tips
 
@@ -142,3 +222,9 @@ Contact Sweet Robo support if:
 4. **Follow cleaning schedule** - Prevents clogs and contamination
 5. **Check expiration dates** - Both on packets and in system
 6. **Regular testing** - Use Device Testing weekly to ensure all systems work
+7. **Proper shutdown procedures** - Use backend shutdown and breaker switch
+8. **Record issues** - Keep a log of any problems for warranty claims
+
+---
+
+*Written by Meir Knapp © Sweet Robo 2025*

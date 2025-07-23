@@ -1,20 +1,78 @@
-# Overview
+# Robo Ice Cream F2 Overview
 
-## About the Robo Ice Cream F2
+## Welcome to Robo Ice Cream
 
-The Robo Ice Cream F2 is a fully automated soft-serve ice cream vending machine manufactured by Sweet Robo. This commercial-grade machine offers dual-flavor capability with automated dispensing, topping options, and integrated payment systems.
+Congratulations on your new Robo Ice Cream F2 automated vending machine! This state-of-the-art machine is designed to provide a fun and engaging experience for customers while offering a reliable and efficient vending solution for your business. With its user-friendly touchscreen interface, the Robo Ice Cream F2 is sure to be a hit.
+
+This manual will guide you through the setup, operation, and maintenance of your Robo Ice Cream F2. Please read it thoroughly to ensure safe and optimal performance.
+
+### Why This Manual Matters
+
+Reading this manual before operating your machine is crucial for:
+
+- **Safety**: Understanding proper handling procedures and safety precautions to prevent accidents
+- **Proper Usage**: Detailed instructions for setup, operation, maintenance, and troubleshooting
+- **Optimal Performance**: Getting the most out of your machine's capabilities and features
+- **Avoiding Damage**: Preventing costly repairs through proper maintenance and care
+- **Warranty Protection**: Following manufacturer guidelines to maintain warranty coverage
+- **Troubleshooting**: Self-diagnosing and resolving common issues without technical support
 
 <img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" class="overview-diagram" />
 
-## Key Features
+## System Overview
 
-- **Dual Flavor System**: Two 12L hoppers for serving two distinct flavors plus swirl combination
-- **Automated Operation**: Complete hands-free dispensing from order to delivery
-- **Multiple Toppings**: 3 syrup dispensers and 3 dry topping dispensers
-- **Integrated Payment**: Accepts coins, bills, and card payments
-- **UV Sanitization**: Built-in UV lamp for automatic nozzle sanitization
-- **Remote Management**: WiFi-enabled for remote monitoring and control
-- **Large Capacity**: Holds 200 cups (4 tubes × 50 cups each)
+### What Is the Robo Ice Cream F2?
+
+The Sweet Robo - **Robo Ice Cream Machine F2** is a fully automated soft-serve vending system designed for unmanned operation in retail environments. It handles everything from order selection and payment to cup dispensing, flavor mixing, and serving — all while maintaining food safety and hygiene standards.
+
+Sweet Robo machines combine **refrigeration**, **mechanical robotics**, and **touchscreen controls** into a compact, user-friendly unit that requires minimal daily oversight.
+
+The F2 model features **2 ice cream hoppers** allowing customers to choose between:
+- First Flavor
+- Second Flavor  
+- Mixed Swirl (combination of both flavors)
+
+### Key Features
+
+The Robo Ice Cream F2 is an innovative appliance designed to effortlessly create delicious soft serve ice cream with minimal effort from the user. This machine combines cutting-edge technology with traditional confectionery techniques to produce smooth soft serve ice cream.
+
+| Feature | Description |
+|---------|-------------|
+| Simple-Touch Operation | User-friendly interface with intuitive controls. With just a single touch, users can initiate the soft serve making process, eliminating the need for complex manual adjustments |
+| Easy Cleaning | Detachable parts designed for easy cleaning and maintenance. This feature ensures that the machine can be kept in optimal working condition with minimal effort |
+| Safety Features | Automatic door window with hand sensor. The Robo Ice Cream prioritizes user safety with comprehensive protection systems |
+| Food Safety | Automatic pasteurization settings to ensure no bacteria is present. The Robo Ice Cream includes settings for automatically pasteurizing ice cream mix |
+| Dual Flavor System | Two 12L hoppers for serving two distinct flavors plus swirl combination - the key differentiator of the F2 model |
+| UV Sanitization | Built-in UV lamp for automatic nozzle sanitization between servings |
+| Large Capacity | Holds 200 cups (4 tubes × 50 cups each) compared to F1's 100 cups |
+
+### What It Does
+
+- Dispenses soft-serve ice cream from liquid mix
+- Handles cup selection, filling, syrup, and topping application
+- Accepts multiple payment methods (bills, coins, card terminals)
+- Provides audio/video feedback for customers
+- Maintains optimal food-safe temperatures via built-in sensors
+- Includes UV sanitation and system diagnostics
+- Operates unattended with scheduled hours and stock tracking
+
+### Use Cases
+
+- Indoor shopping malls
+- School campuses
+- Airports and transportation hubs
+- Movie theaters and event venues
+- Gyms and recreational centers
+- Micro markets and break rooms
+
+### System Design Philosophy
+
+Sweet Robo machines are engineered for:
+- **Hygienic food handling** (NSF-style contact zones)
+- **Efficient unattended service**
+- **Consistent operator experience** between models
+- **Expandable components** (coin dispenser, flavor count, etc.)
+- **Self-diagnosing behavior** for common faults
 
 ## Technical Specifications
 
@@ -40,40 +98,71 @@ The Robo Ice Cream F2 is a fully automated soft-serve ice cream vending machine 
 - **Syrup Dispensers**: 3 (liquid syrups only)
 - **Topping Dispensers**: 3 × 270g each (dry toppings only)
 
-### System Components
+### Core System Modules
 
-1. **Refrigeration System**
-   - Compressor-based cooling
-   - Pre-cooling tank
-   - Independent temperature control for each hopper
-   - Cool-down time: 5-10 minutes
+Each F2 machine includes the following subsystems:
 
-2. **Dispensing System**
-   - Rotary auger mechanism
-   - Automated portion control
-   - Anti-drip design
+| Subsystem | Purpose |
+|-----------|----------|
+| Ice Cream Hoppers (2) | Holds chilled mix and feeds it into freezing chamber - F2 has dual hoppers for two flavors |
+| Dispensing System | Delivers ice cream to cup with topping and syrup options using rotary auger for mix churn and extrusion |
+| Payment System | Accepts coins, bills, and card payments through multiple integrated payment methods |
+| Operator Backend | Settings panel for timing, stock, hours, and testing with secured access |
+| Refrigeration System | Maintains safe holding and freezing temperatures with compressor-based cooling |
+| UV Sanitizer | Disinfects the dispensing nozzle area regularly using built-in UV lamp |
+| Audio/Visual Output | Plays videos and provides status feedback through integrated touchscreen and speakers |
+| Safety Controls | Prevents operation if doors open or errors occur - includes automatic door mechanisms |
+| Cup Dispenser | 4-tube, 50 cups per tube, motorized drop with sensor alignment (200 total capacity) |
+| Blue Robo Delivery Bot | Automated system that gathers ingredients, prepares treats, and serves ice cream |
 
-3. **Control System**
-   - Android-based operating system
-   - Touchscreen interface
-   - Backend management system
-   - Remote access capability
+## Hardware Components
 
-4. **Payment Systems**
-   - Coin acceptor
-   - Bill acceptor
-   - Card reader (Nayax compatible)
-   - Contactless payment support
-
-### External Components
+### External Components (Customer-Facing)
 
 <img src="./assets/overview/external-components.webp" alt="External Components Overview" class="overview-diagram" />
-*External view showing LED signage, touchscreen, viewing window, coin acceptor, bill acceptor, credit card reader, and collection door*
+*External view of Robo Ice Cream F2 showing customer interface components*
+
+These components are designed for direct use by customers, including children, without needing assistance or supervision:
+
+| Component | Description |
+|-----------|-------------|
+| Touchscreen | Customer interface for selecting flavors, toppings, and completing payment |
+| Cup Dispenser | Dispenses one cup per order using sensor-guided motor control |
+| Collection Door | Opens only when the soft serve is ready. Equipped with sensors to detect cup presence. Remains open while the cup is inside and automatically closes once the cup is removed |
+| Speaker | Plays audio feedback and video content during the ordering and vending process |
+| LED Signage | Displays advertisements, preparation animations, and system messages |
 
 ### Internal Components (F2 Dual-Hopper System)
 
 <img src="./assets/overview/internal-components.webp" alt="Internal Components Overview" class="overview-diagram" />
-*Internal view showing the F2's dual ice cream hoppers, syrup holders, topping dispensers, UV sanitizer, timer, breaker, power switches, cup holder dispenser, and Blue Robo delivery bot*
+*Internal view of the Robo Ice Cream F2 showing dual ice cream hoppers and internal systems*
+
+#### Power and Control Systems
+
+| Component | Description |
+|-----------|-------------|
+| Timer | Hardware timer that controls power to the entire machine. Operates independently of software and cuts all power when activated |
+| Breaker/Power Switch | Primary power cutoff that completely disconnects the machine from power |
+| Main I/O Power Switch | Controls power to internal refrigeration system and ice cream dispensing mechanism while leaving touchscreen active |
+
+#### F2 Dual-Flavor System
+
+| Component | F2 Specifications |
+|-----------|------------------|
+| Ice Cream Hoppers | **2 hoppers** (Left & Right) - 2L minimum, 12L maximum capacity each |
+| Cup Holder/Dispenser | **4 cup tubes total**, **50 cups per tube** = **200 cups total capacity** |
+| Syrup Holders | **3 types** of liquid syrup (chocolate, strawberry, caramel, etc.) |
+| Dry Topping Containers | **3 types** of solid toppings, **270g per hopper** (sprinkles, crushed cookies, chopped nuts) |
+
+#### Processing Components
+
+| Component | Description |
+|-----------|-------------|
+| Blue Robo Delivery Bot | Automated delivery system that gathers all ingredients, prepares treats, and serves delicious ice cream |
+| Topping Dispenser | Dispenses dry toppings directly onto ice cream as the final step before serving |
+| UV Sanitizer | Built-in ultraviolet light that sterilizes the dispense area between servings |
+| Syrup Dispenser | Draws liquid syrup from holders and applies it to ice cream per customer selection |
+| Ice Cream Dispenser | Where Blue Robo collects freshly dispensed ice cream synchronized with temperature and mix level sensors |
 
 ## Installation Requirements
 
@@ -106,13 +195,30 @@ The Robo Ice Cream F2 is a fully automated soft-serve ice cream vending machine 
   - Cleaning supplies
   - 200 cups
 
-## Model Comparison
+## F2 vs F1 Model Comparison
+
+The core system is the same between both models, with key differences in hopper quantity, flavor control, and capacity.
 
 | Feature | F1 | F2 |
 |---------|----|----|
-| Flavors | 1 | 2 + swirl |
-| Hopper Capacity | 1 × 12L | 2 × 12L |
-| Cup Capacity | 100 | 200 |
-| Width | 83cm | 87cm |
-| Weight | 350kg | 380kg |
-| Power Requirement | 110V/220V | 220V only |
+| Ice Cream Flavors | 1 Flavor | 2 Flavors + Mixed Swirl (3rd Option) |
+| Ice Cream Hoppers | 1 Hopper | 2 Hoppers (Left and Right) |
+| Customer Flavor Options | Single option only | First Flavor / Second Flavor / Mixed |
+| Cup Storage | 100 cups (100 × 1 holders) | 200 cups (50 × 4 holders) |
+| Width | 83 cm (32.7 in) | 87 cm (34.3 in) |
+| Depth | 102 cm (40.2 in) | 120 cm (47.2 in) |
+| Weight (Empty) | 350 kg | 380 kg |
+| Power Requirement | Various | 220V only |
+| Use Case Focus | Single-flavor product launches | High-traffic or variety-based operations |
+
+⚠️ All other systems (cup dispenser, backend UI, payment, topping/syrup functionality) are **identical** unless otherwise stated.
+
+## Important Safety Notes
+
+⚠️ **Power Requirements**: F2 requires a 220V power supply and is **not directly compatible with 110V circuits**. Can be connected using a properly rated transformer and a dedicated power line capable of supporting the required amperage.
+
+⚠️ **Grounding**: Machines must be connected to a grounded outlet. Do not share power with other equipment.
+
+⚠️ **Mix Management**: Never run the machine with empty hoppers. Always check mix level before startup to prevent spoilage or bacterial growth.
+
+⚠️ **Maintenance Access**: Internal components are accessed by trained staff via secured cabinet panels and should never be exposed to untrained users.
