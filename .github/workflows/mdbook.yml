@@ -17,6 +17,9 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
+  repository-projects: read
+  administration: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -40,8 +43,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - name: Create output directory
         run: mkdir -p ./site
       - name: Copy main index page
