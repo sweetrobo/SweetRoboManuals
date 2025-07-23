@@ -13,7 +13,7 @@ build-dir = "../build/candy-monster"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/yourusername/SweetRoboManuals"
+git-repository-url = "https://github.com/sweetrobo/SweetRoboManuals"
 git-repository-icon = "fa-github"
 additional-css = ["../shared-theme/custom.css"]
 
