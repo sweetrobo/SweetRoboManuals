@@ -199,7 +199,7 @@ If you're experiencing any difficulties or have questions about our product, ple
 
 To view the most up-to-date version of this manual, please scan the QR code below:
 
-![QR Code for Online Manual](assets/troubleshooting/qr-code-manual.png)
+![QR Code for Online Manual](assets/troubleshooting/qr-code-manual.webp)
 
 Or manually visit the link:
 https://sweetrobo.com/manuals/ice-cream

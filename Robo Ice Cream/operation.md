@@ -276,6 +276,8 @@ Replace syrup bags and refill topping containers as needed, using only approved 
 
 ## Settings and Configuration
 
+![Device Settings Interface](assets/operation/device-settings.webp)
+
 ### Opening Hours Management
 - Set daily operational hours (24-hour format)  
 - Machine automatically powers down outside scheduled hours
