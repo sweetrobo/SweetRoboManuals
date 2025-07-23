@@ -8,6 +8,12 @@ MDBOOK="$HOME/bin/mdbook"
 echo "Sweet Robo Manual Builder"
 echo "========================"
 
+# Function to build the main index page (static HTML)
+build_index() {
+    echo "Main index page is static HTML (index.html)"
+    echo "✓ No build required for main index page"
+}
+
 # Function to build a single manual
 build_manual() {
     local machine="$1"
@@ -41,9 +47,13 @@ serve_manual() {
 case "$1" in
     "all")
         echo "Building all manuals..."
+        build_index
         build_manual "Candy Monster"
         build_manual "Robo Ice Cream"
         build_manual "Pop Cart"
+        echo ""
+        echo "All manuals built! Opening main page..."
+        open index.html
         ;;
     "serve")
         if [ -z "$2" ]; then
@@ -64,10 +74,12 @@ case "$1" in
     *)
         if [ -z "$1" ]; then
             echo "Usage:"
-            echo "  ./build-manuals.sh all                    # Build all manuals"
+            echo "  ./build-manuals.sh all                    # Build all manuals + index page"
             echo "  ./build-manuals.sh \"Candy Monster\"        # Build specific manual"
             echo "  ./build-manuals.sh serve \"Candy Monster\"  # Preview manual in browser"
             echo "  ./build-manuals.sh pdf                    # Show PDF generation info"
+            echo ""
+            echo "After building, open index.html in your browser to access all manuals."
         else
             build_manual "$1"
         fi
