@@ -2,14 +2,35 @@
 
 ## Common Replacement Parts
 
-### Consumables
-- Ice cream mix packets (Sweet Robo brand recommended)
-- Cups (50 per tube, 200 total capacity)
-- Syrup bags (liquid only)
-- Dry toppings (270g max per container)
-- Cleaning supplies (food-grade sanitizer)
+<div class="feature-grid">
+
+<div class="feature-item">
+
+#### Consumables
+• Ice cream mix packets (Sweet Robo brand recommended)<br>
+• Cups (50 per tube, 200 total capacity)<br>
+• Syrup bags (liquid only)<br>
+• Dry toppings (270g max per container)<br>
+• Cleaning supplies (food-grade sanitizer)
+
+</div>
+
+<div class="feature-item">
+
+#### Electrical Components
+• Control Board: F2-CB-001<br>
+• Touch Screen: F2-TS-001<br>
+• Temperature Sensors: F2-TEMP-001<br>
+• Payment Module: F2-PAY-001
+
+</div>
+
+</div>
 
 ### Wear Parts
+
+<div class="info-box">
+
 | Part | Part Number | Replacement Interval |
 |------|-------------|---------------------|
 | UV Lamp | F2-UV-001 | Annual |
@@ -18,111 +39,223 @@
 | Cup Drop Sensor | F2-SENS-001 | As needed |
 | Hopper Gaskets | F2-GASX-002 | 2 years |
 
-### Electrical Components
-- Control Board: F2-CB-001
-- Touch Screen: F2-TS-001
-- Temperature Sensors: F2-TEMP-001
-- Payment Module: F2-PAY-001
+</div>
 
 ## Ordering Parts
 
-### How to Order
-1. Email: parts@sweetrobo.com
-2. Phone: +1 (844) 793-3872
-3. Include:
-   - Machine model (F2)
-   - Serial number
-   - Part number or description
-   - Quantity needed
+<div class="step-header">How to Order</div>
+
+<div class="numbered-steps">
+
+<div>
+Email: parts@sweetrobo.com
+</div>
+
+<div>
+Phone: +1 (844) 793-3872
+</div>
+
+<div>
+Include:<br>
+• Machine model (F2)<br>
+• Serial number<br>
+• Part number or description<br>
+• Quantity needed
+</div>
+
+</div>
+
+<div class="info-box">
 
 ### Expedited Shipping
 - Standard: 5-7 business days
 - Express: 2-3 business days
 - Overnight available for critical parts
 
+</div>
+
 ## Service Support
 
-### Technical Support
-- **Hours**: Monday-Friday, 9AM-5PM EST
-- **Phone**: +1 (844) 793-3872
-- **Email**: support@sweetrobo.com
-- **Response Time**: Within 24 hours
+<div class="feature-grid">
 
-### Remote Support
-Many issues can be resolved remotely:
-- Software updates
-- Configuration changes
-- Diagnostic checks
-- Price adjustments
+<div class="feature-item">
+
+#### Technical Support
+• **Hours**: Monday-Friday, 9AM-5PM EST<br>
+• **Phone**: +1 (844) 793-3872<br>
+• **Email**: support@sweetrobo.com<br>
+• **Response Time**: Within 24 hours
+
+</div>
+
+<div class="feature-item">
+
+#### Remote Support
+Many issues can be resolved remotely:<br>
+• Software updates<br>
+• Configuration changes<br>
+• Diagnostic checks<br>
+• Price adjustments
+
+</div>
+
+</div>
+
+<div class="info-box">
 
 **Required for remote support**:
 - Machine ID (found in backend settings)
 - Internet connection
 - Current issue description
 
-### On-Site Service
-For issues requiring physical service:
-1. Contact support for initial diagnosis
-2. Schedule service appointment
-3. Prepare machine area for technician access
-4. Have purchase/warranty information ready
+</div>
+
+<div class="step-header">On-Site Service</div>
+
+<div class="numbered-steps">
+
+<div>
+Contact support for initial diagnosis
+</div>
+
+<div>
+Schedule service appointment
+</div>
+
+<div>
+Prepare machine area for technician access
+</div>
+
+<div>
+Have purchase/warranty information ready
+</div>
+
+</div>
 
 ## Warranty Service
 
-### What's Covered
-- Manufacturing defects
-- Component failures under normal use
-- Parts and labor (first year)
+<div class="feature-grid">
 
-### What's Not Covered
-- Damage from misuse
-- Consumable items
-- Shipping damage
-- Unauthorized modifications
+<div class="feature-item">
 
-### Warranty Claims
-1. Contact support with issue description
-2. Provide serial number and purchase date
-3. Follow troubleshooting steps
-4. Receive RMA if needed
+#### What's Covered
+• Manufacturing defects<br>
+• Component failures under normal use<br>
+• Parts and labor (first year)
+
+</div>
+
+<div class="feature-item">
+
+#### What's Not Covered
+• Damage from misuse<br>
+• Consumable items<br>
+• Shipping damage<br>
+• Unauthorized modifications
+
+</div>
+
+</div>
+
+<div class="step-header">Warranty Claims</div>
+
+<div class="numbered-steps">
+
+<div>
+Contact support with issue description
+</div>
+
+<div>
+Provide serial number and purchase date
+</div>
+
+<div>
+Follow troubleshooting steps
+</div>
+
+<div>
+Receive RMA if needed
+</div>
+
+</div>
 
 ## Preventive Service Plans
 
-### Basic Plan
-- Annual inspection
-- Software updates
-- Phone support priority
+<div class="feature-grid">
 
-### Premium Plan
-- Quarterly maintenance
-- Parts discount
-- Extended warranty option
-- Priority service
+<div class="feature-item">
+
+#### Basic Plan
+• Annual inspection<br>
+• Software updates<br>
+• Phone support priority
+
+</div>
+
+<div class="feature-item">
+
+#### Premium Plan
+• Quarterly maintenance<br>
+• Parts discount<br>
+• Extended warranty option<br>
+• Priority service
+
+</div>
+
+</div>
 
 ## Recommended Service Schedule
 
-### Annual Service
-- Complete system inspection
-- Refrigeration performance test
-- Calibration check
-- Software updates
-- Replace UV lamp
+<div class="feature-grid">
 
-### Biannual Service
-- Deep cleaning
-- Seal inspection
-- Mechanical adjustments
-- Performance optimization
+<div class="feature-item">
+
+#### Annual Service
+• Complete system inspection<br>
+• Refrigeration performance test<br>
+• Calibration check<br>
+• Software updates<br>
+• Replace UV lamp
+
+</div>
+
+<div class="feature-item">
+
+#### Biannual Service
+• Deep cleaning<br>
+• Seal inspection<br>
+• Mechanical adjustments<br>
+• Performance optimization
+
+</div>
+
+</div>
 
 ## Emergency Service
 
-For urgent issues:
-1. Call emergency line: +1 (844) 793-3872
-2. Have ready:
-   - Machine serial number
-   - Description of issue
-   - Any error messages
-   - Impact on operation
+<div class="warning-box">
+
+<div class="step-header">For urgent issues:</div>
+
+<div class="numbered-steps">
+
+<div>
+Call emergency line: +1 (844) 793-3872
+</div>
+
+<div>
+Have ready:<br>
+• Machine serial number<br>
+• Description of issue<br>
+• Any error messages<br>
+• Impact on operation
+</div>
+
+</div>
+
+</div>
+
+<div class="caution-box">
 
 **Common Emergency Issues**:
 - Refrigeration failure
@@ -130,7 +263,11 @@ For urgent issues:
 - Payment system down
 - Safety concerns
 
+</div>
+
 ## Documentation
+
+<div class="important-box">
 
 Keep these documents accessible:
 - Purchase receipt
@@ -138,4 +275,10 @@ Keep these documents accessible:
 - Service history
 - This manual
 
+</div>
+
+<div class="info-box">
+
 Register your machine at: sweetrobo.com/register
+
+</div>

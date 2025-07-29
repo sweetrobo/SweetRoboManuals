@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - Sweet Robo Manuals</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            text-align: center;
+        }
+        .error-container {
+            background: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 50px;
+        }
+        .error-code {
+            font-size: 8em;
+            font-weight: bold;
+            color: #e53e3e;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .error-title {
+            font-size: 2em;
+            color: #2c5282;
+            margin: 20px 0;
+        }
+        .error-description {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+        .btn-primary {
+            background: #2c5282;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #2a4d79;
+        }
+        .btn-secondary {
+            background: #e2e8f0;
+            color: #2c5282;
+        }
+        .btn-secondary:hover {
+            background: #cbd5e0;
+        }
+        .manual-links {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e2e8f0;
+        }
+        .manual-links h3 {
+            color: #2c5282;
+            margin-bottom: 20px;
+        }
+        .manual-list {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .manual-link {
+            background: #f7fafc;
+            color: #2c5282;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+            border: 1px solid #e2e8f0;
+        }
+        .manual-link:hover {
+            background: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-description">
+            The page you're looking for doesn't exist or may have been moved.
+        </p>
+        
+        <div class="action-buttons">
+            <a href="/" class="btn btn-primary">🏠 Go Home</a>
+            <a href="javascript:history.back()" class="btn btn-secondary">← Go Back</a>
+        </div>
+        
+        <div class="manual-links">
+            <h3>Available Manuals</h3>
+            <div class="manual-list">
+                <a href="/build/candy-monster/" class="manual-link">Candy Monster</a>
+                <a href="/build/robo-ice-cream/" class="manual-link">Robo Ice Cream</a>
+                <a href="/build/pop-cart/" class="manual-link">Pop Cart</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
