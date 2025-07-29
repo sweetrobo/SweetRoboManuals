@@ -8,6 +8,8 @@ This manual will guide you through the setup, operation, and maintenance of your
 
 ### Why This Manual Matters
 
+<div class="info-box">
+
 Reading this manual before operating your machine is crucial for:
 
 - **Safety**: Understanding proper handling procedures and safety precautions to prevent accidents
@@ -17,7 +19,9 @@ Reading this manual before operating your machine is crucial for:
 - **Warranty Protection**: Following manufacturer guidelines to maintain warranty coverage
 - **Troubleshooting**: Self-diagnosing and resolving common issues without technical support
 
-<img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" class="overview-diagram" />
+</div>
+
+<img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" />
 
 ## System Overview
 
@@ -34,17 +38,59 @@ The F2 model features **2 ice cream hoppers** allowing customers to choose betwe
 
 ### Key Features
 
-The Robo Ice Cream F2 is an innovative appliance designed to effortlessly create delicious soft serve ice cream with minimal effort from the user. This machine combines cutting-edge technology with traditional confectionery techniques to produce smooth soft serve ice cream.
+<div class="feature-grid">
 
-| Feature | Description |
-|---------|-------------|
-| Simple-Touch Operation | User-friendly interface with intuitive controls. With just a single touch, users can initiate the soft serve making process, eliminating the need for complex manual adjustments |
-| Easy Cleaning | Detachable parts designed for easy cleaning and maintenance. This feature ensures that the machine can be kept in optimal working condition with minimal effort |
-| Safety Features | Automatic door window with hand sensor. The Robo Ice Cream prioritizes user safety with comprehensive protection systems |
-| Food Safety | Automatic pasteurization settings to ensure no bacteria is present. The Robo Ice Cream includes settings for automatically pasteurizing ice cream mix |
-| Dual Flavor System | Two 12L hoppers for serving two distinct flavors plus swirl combination - the key differentiator of the F2 model |
-| UV Sanitization | Built-in UV lamp for automatic nozzle sanitization between servings |
-| Large Capacity | Holds 200 cups (4 tubes × 50 cups each) compared to F1's 100 cups |
+<div class="feature-item">
+
+#### Simple-Touch Operation
+User-friendly interface with intuitive controls. With just a single touch, users can initiate the soft serve making process, eliminating the need for complex manual adjustments.
+
+</div>
+
+<div class="feature-item">
+
+#### Easy Cleaning
+Detachable parts designed for easy cleaning and maintenance. This feature ensures that the machine can be kept in optimal working condition with minimal effort.
+
+</div>
+
+<div class="feature-item">
+
+#### Safety Features
+Automatic door window with hand sensor. The Robo Ice Cream prioritizes user safety with comprehensive protection systems.
+
+</div>
+
+<div class="feature-item">
+
+#### Food Safety
+Automatic pasteurization settings to ensure no bacteria is present. The Robo Ice Cream includes settings for automatically pasteurizing ice cream mix.
+
+</div>
+
+<div class="feature-item">
+
+#### Dual Flavor System
+Two 12L hoppers for serving two distinct flavors plus swirl combination - the key differentiator of the F2 model.
+
+</div>
+
+<div class="feature-item">
+
+#### UV Sanitization
+Built-in UV lamp for automatic nozzle sanitization between servings.
+
+</div>
+
+<div class="feature-item">
+
+#### Large Capacity
+Holds 200 cups (4 tubes × 50 cups each) compared to F1's 100 cups.
+
+</div>
+
+</div>
+
 
 ### What It Does
 
@@ -81,7 +127,11 @@ Sweet Robo machines are engineered for:
 - **Rated Current**: 13A @ 220V
 - **Max Power Consumption**: 2,860W
 
-⚠️ **Important**: F2 requires a 220V power supply. It is not directly compatible with 110V circuits, but can be connected using a properly rated transformer and a dedicated power line capable of supporting the required amperage.
+<div class="warning-box">
+
+**Important**: F2 requires a 220V power supply. It is not directly compatible with 110V circuits, but can be connected using a properly rated transformer and a dedicated power line capable of supporting the required amperage.
+
+</div>
 
 ### Physical Specifications
 - **Width**: 87 cm (34.3 in)
@@ -119,7 +169,7 @@ Each F2 machine includes the following subsystems:
 
 ### External Components (Customer-Facing)
 
-<img src="./assets/overview/external-components.webp" alt="External Components Overview" class="overview-diagram" />
+<img src="./assets/overview/external-components.webp" alt="External Components Overview" />
 *External view of Robo Ice Cream F2 showing customer interface components*
 
 These components are designed for direct use by customers, including children, without needing assistance or supervision:
@@ -134,7 +184,7 @@ These components are designed for direct use by customers, including children, w
 
 ### Internal Components (F2 Dual-Hopper System)
 
-<img src="./assets/overview/internal-components.webp" alt="Internal Components Overview" class="overview-diagram" />
+<img src="./assets/overview/internal-components.webp" alt="Internal Components Overview" />
 *Internal view of the Robo Ice Cream F2 showing dual ice cream hoppers and internal systems*
 
 #### Power and Control Systems
@@ -211,14 +261,30 @@ The core system is the same between both models, with key differences in hopper 
 | Power Requirement | Various | 220V only |
 | Use Case Focus | Single-flavor product launches | High-traffic or variety-based operations |
 
-⚠️ All other systems (cup dispenser, backend UI, payment, topping/syrup functionality) are **identical** unless otherwise stated.
+**Note:** All other systems (cup dispenser, backend UI, payment, topping/syrup functionality) are **identical** unless otherwise stated.
 
 ## Important Safety Notes
 
-⚠️ **Power Requirements**: F2 requires a 220V power supply and is **not directly compatible with 110V circuits**. Can be connected using a properly rated transformer and a dedicated power line capable of supporting the required amperage.
+<div class="warning-box">
 
-⚠️ **Grounding**: Machines must be connected to a grounded outlet. Do not share power with other equipment.
+**Power Requirements**: F2 requires a 220V power supply and is **not directly compatible with 110V circuits**. Can be connected using a properly rated transformer and a dedicated power line capable of supporting the required amperage.
 
-⚠️ **Mix Management**: Never run the machine with empty hoppers. Always check mix level before startup to prevent spoilage or bacterial growth.
+</div>
 
-⚠️ **Maintenance Access**: Internal components are accessed by trained staff via secured cabinet panels and should never be exposed to untrained users.
+<div class="warning-box">
+
+**Grounding**: Machines must be connected to a grounded outlet. Do not share power with other equipment.
+
+</div>
+
+<div class="caution-box">
+
+**Mix Management**: Never run the machine with empty hoppers. Always check mix level before startup to prevent spoilage or bacterial growth.
+
+</div>
+
+<div class="caution-box">
+
+**Maintenance Access**: Internal components are accessed by trained staff via secured cabinet panels and should never be exposed to untrained users.
+
+</div>

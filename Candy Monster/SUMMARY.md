@@ -60,4 +60,5 @@
 
 # Reference
 
-- [Company Information](../shared/company-info.md)
+- [Company Information](shared/company-info.md)
+- [Legal and Warranty](shared/legal.md)

@@ -2,6 +2,8 @@
 
 ## Pre-Installation Checklist
 
+<div class="info-box">
+
 Before starting setup, ensure you have:
 - F2 machine delivered and inspected for damage
 - Required power supply: **220V dedicated circuit** (20A breaker minimum)
@@ -9,17 +11,38 @@ Before starting setup, ensure you have:
 - Ice cream mix packets and 3 liters of water per hopper
 - Syrups and toppings ready for installation
 
+</div>
+
 ## Step 1: Unpacking and Initial Inspection
 
 ### 1.1 Delivery and Initial Inspection
 Each Robo Ice Cream F2 machine is thoroughly tested to ensure proper operation before it leaves the factory. Upon delivery:
 
-1. **Inspect outer packaging** for any visible damage during transit
-2. **Confirm Model (F2), Serial Number, and Delivery Date**
-3. If damage or missing parts are discovered, **contact Sweet Robo support immediately**
-4. If damage is suspected, **photograph the machine before unboxing** to assist with claims
+<div class="numbered-steps">
 
-**⚠️ Important:** Note any damage on the delivery receipt before the carrier leaves.
+<div>
+<strong>Inspect outer packaging</strong> for any visible damage during transit
+</div>
+
+<div>
+<strong>Confirm Model (F2), Serial Number, and Delivery Date</strong>
+</div>
+
+<div>
+If damage or missing parts are discovered, <strong>contact Sweet Robo support immediately</strong>
+</div>
+
+<div>
+If damage is suspected, <strong>photograph the machine before unboxing</strong> to assist with claims
+</div>
+
+</div>
+
+<div class="caution-box">
+
+**Important:** Note any damage on the delivery receipt before the carrier leaves.
+
+</div>
 
 ### 1.2 What's Included with F2
 Your F2 shipment includes:
@@ -31,35 +54,64 @@ Your F2 shipment includes:
 - **Power cord** and machine keys (attached to power cord)
 - **This operator's manual**
 
-<img src="./assets/setup/unpacking-step-4.webp" alt="Unpacking Accessories" class="setup-image" />
+<img src="./assets/setup/unpacking-step-4.webp" alt="Unpacking Accessories" />
 *Accessories and tools included with your F2 machine*
 
 ### 1.3 Interior Inspection
-**⚠️ Critical:** Do NOT power on the machine until this inspection is complete
 
-1. **Unlock and open all service doors** (keys attached to power cord)
-2. **Carefully inspect** for loose plugs, pipes, or components that may have shifted during transit
-3. **Remove ALL packaging materials** from interior:
-   - Foam inserts and protective wrapping
-   - Zip ties (unless securing wires meant to stay in place)  
-   - Tape and plastic covers
-   - Any loose items from cup holder assembly, door mechanism, hopper outlets
-4. **Locate accessories** that may be stored inside the machine body
-5. **Verify all cables and connectors** are properly seated and secure
+<div class="warning-box">
 
-<img src="./assets/setup/cup-dispenser-installation.webp" alt="Cup Dispenser Installation" class="setup-image" />
-*Cup dispenser installation and interior component verification*
+**Critical:** Do NOT power on the machine until this inspection is complete
 
-<img src="./assets/setup/hardware-assembly.webp" alt="Hardware Assembly" class="setup-image" />
-*Hardware component assembly during setup*
+</div>
 
-<img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" class="setup-image" />
+<div class="numbered-steps">
+
+<div>
+<strong>Unlock and open all service doors</strong> (keys attached to power cord)
+</div>
+
+<div>
+<strong>Carefully inspect</strong> for loose plugs, pipes, or components that may have shifted during transit
+</div>
+
+<div>
+<strong>Remove ALL packaging materials</strong> from interior:
+<ul>
+<li>Foam inserts and protective wrapping</li>
+<li>Zip ties (unless securing wires meant to stay in place)</li>
+<li>Tape and plastic covers</li>
+<li>Any loose items from cup holder assembly, door mechanism, hopper outlets</li>
+</ul>
+</div>
+
+<div>
+<strong>Locate accessories</strong> that may be stored inside the machine body
+</div>
+
+<div>
+<strong>Verify all cables and connectors</strong> are properly seated and secure
+</div>
+
+</div>
+
+<div class="side-by-side-images">
+<img src="./assets/setup/cup-dispenser-installation.webp" alt="Cup Dispenser Installation" />
+<img src="./assets/setup/hardware-assembly.webp" alt="Hardware Assembly" />
+</div>
+*Cup dispenser installation and hardware component assembly*
+
+<img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" />
 *Ice cream hopper and dispenser setup configuration*
 
 ### 1.4 Positioning Requirements
 The F2 machine must be installed on a stable, level surface in a clean, dry indoor environment.
 
-**⚠️ Two or more people required** for safely moving and positioning the machine. Use appropriate lifting equipment if necessary.
+<div class="caution-box">
+
+**Two or more people required** for safely moving and positioning the machine. Use appropriate lifting equipment if necessary.
+
+</div>
 
 **Floor Requirements:**
 - Must support **380 kg** (848 lbs) + ice cream mix weight
@@ -108,10 +160,17 @@ The Robo Ice Cream F2 **must be connected to a dedicated 220V power source**.
 - **Do NOT share** the circuit with other appliances
 - Highly recommended to use circuit with **surge protection**
 
-**⚠️ Electrical Shock Hazard Warning:** Ensure hands are dry and you are not standing in water when connecting the power cord.
+<div class="warning-box">
+
+**Electrical Shock Hazard Warning:** Ensure hands are dry and you are not standing in water when connecting the power cord.
+
+</div>
 
 ### If only 110V available:
-**⚠️ Critical Warning:** F2 is engineered for 220V operation. Using 110V requires:
+
+<div class="warning-box">
+
+**Critical Warning:** F2 is engineered for 220V operation. Using 110V requires:
 
 - **Step-up transformer** with at least **2,860W continuous output**
 - **Dedicated 30A circuit** on the 110V input side (F2 draws ~26A at full load)  
@@ -120,9 +179,15 @@ The Robo Ice Cream F2 **must be connected to a dedicated 220V power source**.
 
 **Using an undersized transformer or shared circuit may result in machine malfunction, tripped breakers, or permanent damage.** Always verify your power source before installation.
 
+</div>
+
 ## Step 4: Critical First Start - Avoiding Core Board Error
 
-**🚨 MOST IMPORTANT STEP:** The #1 setup error is powering on without ice cream mix, causing the "core board error"
+<div class="warning-box">
+
+**MOST IMPORTANT STEP:** The #1 setup error is powering on without ice cream mix, causing the "core board error"
+
+</div>
 
 ### Why This Happens:
 - The auger mechanism requires liquid lubrication
@@ -131,14 +196,37 @@ The Robo Ice Cream F2 **must be connected to a dedicated 220V power source**.
 
 ### Correct Startup Sequence:
 
-1. **BEFORE powering on:**
-   - Prepare ice cream mix: 3 liters water + 1 gelato packet per hopper
-   - Fill each hopper with minimum 2 liters of prepared mix
-   - Turn ON the hopper switches (located on bottom of each hopper)
+<div class="step-header">1. BEFORE powering on:</div>
 
-2. **THEN power on the machine:**
-   - Turn on main power switch
-   - Machine should start normally without errors
+<div class="numbered-steps">
+
+<div>
+Prepare ice cream mix: 3 liters water + 1 gelato packet per hopper
+</div>
+
+<div>
+Fill each hopper with minimum 2 liters of prepared mix
+</div>
+
+<div>
+Turn ON the hopper switches (located on bottom of each hopper)
+</div>
+
+</div>
+
+<div class="step-header">2. THEN power on the machine:</div>
+
+<div class="numbered-steps">
+
+<div>
+Turn on main power switch
+</div>
+
+<div>
+Machine should start normally without errors
+</div>
+
+</div>
 
 ### If Core Board Error Occurs:
 1. **Immediately turn OFF the machine**
@@ -158,7 +246,7 @@ The Robo Ice Cream F2 **must be connected to a dedicated 220V power source**.
 5. **Use manual discharge function** (see Device Testing section) to empty chambers
 6. **Wipe dry** with clean, food-safe cloth
 
-<img src="./assets/setup/hopper-setup.webp" alt="F2 Dual Hopper Setup" class="setup-image" />
+<img src="./assets/setup/hopper-setup.webp" alt="F2 Dual Hopper Setup" />
 *F2 dual hopper configuration during cleaning and setup*
 
 ### 5.2 Load Cups (200 Cup Capacity)
@@ -198,18 +286,26 @@ The refill tube controls how much mix flows into the freezing chamber after each
 4. **Place syrup bag upside down** so syrup flows from the bottom
 5. **Test flow** - syrup should flow smoothly without air bubbles
 
-**⚠️ Critical Requirements:**
+<div class="warning-box">
+
+**Critical Requirements:**
 - **Only liquid syrups allowed**
 - **NO SOLIDS** - no thick sauces, chunks, or particles
+
+</div>
 
 ### 5.6 Add Toppings  
 1. **Open the lid of the toppings box**
 2. **Pour in prepared toppings** (maximum 270g per compartment)
 3. **Close lid securely**
 
-**⚠️ Critical Requirements:**
+<div class="warning-box">
+
+**Critical Requirements:**
 - **Only solid/dry toppings allowed**
 - **NO LIQUIDS** - no wet, sticky, or liquid items
+
+</div>
 
 ### 5.7 Final Hardware Setup
 1. **Close all cabinet doors** and secure with keys
@@ -222,7 +318,11 @@ The refill tube controls how much mix flows into the freezing chamber after each
 ## Step 6: System Configuration
 
 ### 6.1 Initial Power-On Sequence
-**⚠️ Warning:** Ensure Main Breaker/Power Switch is OFF before connecting power cord.
+<div class="warning-box">
+
+**Warning:** Ensure Main Breaker/Power Switch is OFF before connecting power cord.
+
+</div>
 
 1. **Connect power cord** securely to grounded 220V electrical outlet
 2. **Turn Main Breaker/Master Switch to ON** (located behind cups area, right side access door)
@@ -232,7 +332,11 @@ The refill tube controls how much mix flows into the freezing chamber after each
    - System begins startup sequence (may take several minutes)
    - Watch for any unusual noises or error messages
 
-**⚠️ Important:** The machine may take **2-8 minutes** to reach optimal temperature for freezing. Ice cream cannot be dispensed until target internal temperature is reached.
+<div class="info-box">
+
+**Important:** The machine may take **2-8 minutes** to reach optimal temperature for freezing. Ice cream cannot be dispensed until target internal temperature is reached.
+
+</div>
 
 ### 6.2 Access Backend Interface
 1. **Tap and hold** top-right corner of touchscreen for 3-5 seconds
@@ -331,10 +435,14 @@ Run these tests from Device Testing menu:
 
 ## Important Reminders
 
-⚠️ **Never run empty hoppers** - Always maintain minimum 2L  
-⚠️ **Change mix every 3-4 days** - Set expiration reminders  
-⚠️ **Only liquid syrups** - No thick sauces or chunks  
-⚠️ **Only dry toppings** - No wet or sticky items  
+<div class="important-box">
+
+**Never run empty hoppers** - Always maintain minimum 2L  
+**Change mix every 3-4 days** - Set expiration reminders  
+**Only liquid syrups** - No thick sauces or chunks  
+**Only dry toppings** - No wet or sticky items
+
+</div>  
 
 ## Next Steps
 

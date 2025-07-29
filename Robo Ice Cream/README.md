@@ -40,9 +40,15 @@ For detailed company information, see [Sweet Robo Contact Information](../shared
 
 ## Important Reminders
 
-⚠️ **Critical**: Always fill hoppers with mix BEFORE first power-on to avoid core board error  
-⚠️ **Minimum Mix**: Maintain at least 2L per hopper at all times  
-⚠️ **Mix Life**: Replace ice cream mix every 3-4 days  
+<div class="warning-box">
+
+**Critical**: Always fill hoppers with mix BEFORE first power-on to avoid core board error  
+
+**Minimum Mix**: Maintain at least 2L per hopper at all times  
+
+**Mix Life**: Replace ice cream mix every 3-4 days
+
+</div>  
 
 ## Document Status
 

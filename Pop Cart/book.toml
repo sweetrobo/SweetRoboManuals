@@ -15,7 +15,8 @@ default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/sweetrobo/SweetRoboManuals"
 git-repository-icon = "fa-github"
-additional-css = ["../shared-theme/custom.css"]
+additional-css = ["custom.css", "manual-styles.css"]
+additional-js = ["print-navigation.js"]
 
 [output.html.print]
 enable = true

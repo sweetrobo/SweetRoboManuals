@@ -14,5 +14,5 @@
 
 # Reference
 
-- [Legal](legal.md)
-- [Company Information](../shared/company-info.md)
+- [Legal and Warranty](shared/legal.md)
+- [Company Information](shared/company-info.md)

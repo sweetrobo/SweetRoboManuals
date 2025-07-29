@@ -8,29 +8,41 @@ Failure to adhere to these safety precautions could result in personal injury, d
 
 The Robo Ice Cream machine is designed for **two distinct types of users**:
 
+<div class="info-box">
+
 - **Customer Users**: Any member of the public — including children — who interacts with the machine via the touchscreen to place and pay for an order. This interaction is safe, guided, and limited to external controls only.
 
 - **Operators / Authorized Staff**: Trained personnel responsible for machine setup, internal access, maintenance, troubleshooting, and sanitation. These users must understand both the mechanical and food safety protocols outlined in this manual.
 
-⚠️ **Only operators** may open the machine cabinet, access internal components, or modify hardware or system settings.
+</div>
+
+<div class="warning-box">
+
+**WARNING:** Only operators may open the machine cabinet, access internal components, or modify hardware or system settings.
+
+</div>
 
 ---
 
 ## General Safety
 
-* **Read the Entire Manual:** 
-    * Before operating the Robo Ice Cream, thoroughly read and understand this entire manual. 
-    * Familiarize yourself with all operating procedures, safety guidelines, and warnings. 
-    * Keep this manual accessible for future reference
+<div class="important-box">
 
-* **Intended Use Only:** 
-    * Operate the Robo Ice Cream only for its intended purpose of making ice cream. 
-    * Do not modify the machine or use it for other purposes.
+### Read the Entire Manual
+- Before operating the Robo Ice Cream, thoroughly read and understand this entire manual
+- Familiarize yourself with all operating procedures, safety guidelines, and warnings
+- Keep this manual accessible for future reference
 
-* **Adult Supervision:** 
-    * This machine is not a toy. 
-    * It should only be operated by adults or under adult supervision. 
-    * Keep un-supervised children and pets away from the machine during operation.
+### Intended Use Only
+- Operate the Robo Ice Cream only for its intended purpose of making ice cream
+- Do not modify the machine or use it for other purposes
+
+### Adult Supervision
+- This machine is not a toy
+- It should only be operated by adults or under adult supervision
+- Keep un-supervised children and pets away from the machine during operation
+
+</div>
 
 ---
 
@@ -38,18 +50,53 @@ The Robo Ice Cream machine is designed for **two distinct types of users**:
 
 The machine is designed to be safe for public interaction, including use by children. Key features include:
 
-* **Touchscreen-Only Interface**: Customers interact solely through a sealed touchscreen interface.
-* **Automatic Collection Door**: Opens only when a cup is ready and closes automatically after the cup is removed.
-* **Door Sensors**: Prevent the door from closing while a cup is present.
-* **No Exposed Moving Parts**: All internal mechanisms are fully enclosed and inaccessible to users.
+<div class="feature-grid">
 
-🚫 Customers or untrained individuals must **never** interact with the machine's internals.
+<div class="feature-item">
+
+#### Touchscreen-Only Interface
+Customers interact solely through a sealed touchscreen interface.
+
+</div>
+
+<div class="feature-item">
+
+#### Automatic Collection Door
+Opens only when a cup is ready and closes automatically after the cup is removed.
+
+</div>
+
+<div class="feature-item">
+
+#### Door Sensors
+Prevent the door from closing while a cup is present.
+
+</div>
+
+<div class="feature-item">
+
+#### No Exposed Moving Parts
+All internal mechanisms are fully enclosed and inaccessible to users.
+
+</div>
+
+</div>
+
+<div class="caution-box">
+
+**CAUTION:** Customers or untrained individuals must **never** interact with the machine's internals.
+
+</div>
 
 ---
 
 ## Electrical Safety
 
-⚠️ **WARNING: Electrical Shock Hazard. Can cause serious injury or death.**
+<div class="warning-box">
+
+**WARNING: Electrical Shock Hazard. Can cause serious injury or death.**
+
+</div>
 
 ### Power Requirements
 * Ensure the power supply matches machine specifications: **110V–125V, 30A** or **220-240V, 15A** (depending on region and model)
@@ -63,20 +110,45 @@ The machine is designed to be safe for public interaction, including use by chil
 * Do not use damaged cords or extension cables.
 
 ### General Electrical Safety
-* Keep all liquids away from the machine's electrical components, power inlet, and internal electronics.
-* Do not immerse the machine or its electrical parts in water or any liquid. Only allow liquids in the specified containers.
-* Never operate near water or in wet environments.
-* Always disconnect the machine from the power source (unplug it) before cleaning, performing maintenance, servicing, or when it's not in use for extended periods.
-* Do not open electrical panels unless trained.
-* Only personnel with appropriate electrical knowledge should service the machine.
+
+<div class="info-box">
+
+- Keep all liquids away from the machine's electrical components, power inlet, and internal electronics
+- Do not immerse the machine or its electrical parts in water or any liquid. Only allow liquids in the specified containers
+- Never operate near water or in wet environments
+- Always disconnect the machine from the power source (unplug it) before cleaning, performing maintenance, servicing, or when it's not in use for extended periods
+- Do not open electrical panels unless trained
+- Only personnel with appropriate electrical knowledge should service the machine
+
+</div>
 
 ### Shutdown Procedures
-* Always use the backend **software shutdown button** to power down the internal PC before disconnecting power or turning off the main breaker.
-* Use the **Breaker Switch** to safely isolate the system.
-* Never unplug the machine while it is powered on.
-* Unplug the unit only after switching off the **breaker** (not during operation).
+
+<div class="numbered-steps">
+
+<div>
+Always use the backend <strong>software shutdown button</strong> to power down the internal PC before disconnecting power or turning off the main breaker.
+</div>
+
+<div>
+Use the <strong>Breaker Switch</strong> to safely isolate the system.
+</div>
+
+<div>
+Never unplug the machine while it is powered on.
+</div>
+
+<div>
+Unplug the unit only after switching off the <strong>breaker</strong> (not during operation).
+</div>
+
+</div>
+
+<div class="important-box">
 
 **Important:** All electrical work must comply with local codes. Certification bodies may inspect for proper grounding and power isolation.
+
+</div>
 
 ---
 
@@ -128,7 +200,11 @@ Before performing any maintenance on the automatic collection door, **power must
 
 ## Cleaning and Maintenance Safety
 
-⚠️ **CAUTION: Risk of minor injury or equipment damage.**
+<div class="caution-box">
+
+**CAUTION: Risk of minor injury or equipment damage.**
+
+</div>
 
 ### Safety Precautions
 * **Disconnect Power First:** **ALWAYS** disconnect the Robo Ice Cream from the electrical outlet before performing any cleaning or maintenance tasks.
@@ -141,13 +217,13 @@ Before performing any maintenance on the automatic collection door, **power must
 
 ### Approved Cleaning Materials
 
-✅ **Safe to Use:**
+**Safe to Use:**
 * Warm water with **neutral detergent**
 * Mild dish soap (e.g., Dawn)
 * Food-safe sanitizer (such as a certified quaternary ammonium-based product approved for food contact surfaces)
 * 70% isopropyl alcohol (for cleaning the touchscreen and outer surfaces)
 
-❌ **Do Not Use:**
+**Do Not Use:**
 * Paint thinner
 * Volatile oils
 * Bleach or alkaline cleaners
@@ -250,7 +326,11 @@ Operators must configure the timer during setup. Improper settings may result in
 * **Qualified Technicians Only:** Repairs, modifications, or servicing beyond routine cleaning and operator-level maintenance (as described in this manual) should only be performed by qualified service technicians authorized by the manufacturer.
 * **No Unauthorized Disassembly:** Attempting to disassemble or repair complex internal components yourself may void the warranty, result in further damage to the machine, or cause personal injury.
 
-⚠️ Unauthorized repairs or alterations may **void the warranty**. Always contact **Sweet Robo support** for approval before making internal changes.
+<div class="warning-box">
+
+**WARNING:** Unauthorized repairs or alterations may **void the warranty**. Always contact **Sweet Robo support** for approval before making internal changes.
+
+</div>
 
 Sweet Robo recommends notifying a certified technician before performing service or repairs.
 

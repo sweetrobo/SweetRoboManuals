@@ -6,14 +6,20 @@ This section provides step-by-step guidance for identifying and resolving common
 
 ## Immediate Action Guidelines
 
-⚠️ **Safety First**
+<div class="warning-box">
 
-- 🔌 **Always power down the machine** using the backend shutdown button and breaker before inspecting internal components.
-- 📋 **Record the issue** and any unusual behavior or error codes to assist with support or warranty claims.
+**Safety First**
+
+- **Always power down the machine** using the backend shutdown button and breaker before inspecting internal components.
+- **Record the issue** and any unusual behavior or error codes to assist with support or warranty claims.
+
+</div>
 
 ---
 
 ## Common Issues & Solutions
+
+<div class="info-box">
 
 | **Issue** | **Possible Cause** | **Action Steps** |
 | :-----: | :-----: | :-----: |
@@ -27,77 +33,200 @@ This section provides step-by-step guidance for identifying and resolving common
 | Machine freezing or unresponsive | Overloaded system or background process stuck | Perform full restart via backend, then breaker |
 | UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp |
 
+</div>
+
 ### Machine Won't Make Ice Cream After Power On
+
+<div class="caution-box">
 
 **Symptom:** Machine is on but not producing ice cream
 
 **Cause:** Machine needs time to reach operating temperature
 
-**Solution:**
-1. After turning on power and refrigeration switch, wait 5-10 minutes
-2. Check temperature status on screen (L: 100% or R: 100% indicates ready)
-3. Machine will only dispense once internal temperature is cold enough
+</div>
+
+<div class="numbered-steps">
+
+<div>
+After turning on power and refrigeration switch, wait 5-10 minutes
+</div>
+
+<div>
+Check temperature status on screen (L: 100% or R: 100% indicates ready)
+</div>
+
+<div>
+Machine will only dispense once internal temperature is cold enough
+</div>
+
+</div>
 
 ### Core Board Error
+
+<div class="warning-box">
 
 **Symptom:** "Core board error" message on screen, loud grinding noise
 
 **Cause:** Hopper turned on without liquid, causing metal-on-metal contact
 
-**Solution:**
-1. **Immediately turn off the machine**
-2. Fill each hopper with at least 2 liters of prepared mix (3L water + 1 gelato mix packet)
-3. Turn on the hopper switch (located on bottom of hopper)
-4. Turn on the machine
-5. Error should clear once liquid is detected
+</div>
+
+<div class="step-header">Solution:</div>
+
+<div class="numbered-steps">
+
+<div>
+**Immediately turn off the machine**
+</div>
+
+<div>
+Fill each hopper with at least 2 liters of prepared mix (3L water + 1 gelato mix packet)
+</div>
+
+<div>
+Turn on the hopper switch (located on bottom of hopper)
+</div>
+
+<div>
+Turn on the machine
+</div>
+
+<div>
+Error should clear once liquid is detected
+</div>
+
+</div>
+
+<div class="important-box">
 
 **Prevention:** Always fill hoppers before turning on machine
 
+</div>
+
 ### Cup Dispenser Issues
+
+<div class="info-box">
 
 **Symptom:** Cup doesn't drop when customer orders
 
-**Solution:**
-1. Access backend (tap and hold top-right corner for 3-5 seconds)
-2. Enter password: 123456
-3. Navigate to Device Testing
-4. Try these functions:
-   - "Cup Out" - dispenses one cup
-   - "Reset Cup Holder" - realigns the system
-5. Check that cups are:
-   - Loaded correctly in tubes
-   - Properly aligned
-   - Not jammed or stuck together
+</div>
+
+<div class="step-header">Solution:</div>
+
+<div class="numbered-steps">
+
+<div>
+Access backend (tap and hold top-right corner for 3-5 seconds)
+</div>
+
+<div>
+Enter password: 123456
+</div>
+
+<div>
+Navigate to Device Testing
+</div>
+
+<div>
+Try these functions:<br>
+• "Cup Out" - dispenses one cup<br>
+• "Reset Cup Holder" - realigns the system
+</div>
+
+<div>
+Check that cups are:<br>
+• Loaded correctly in tubes<br>
+• Properly aligned<br>
+• Not jammed or stuck together
+</div>
+
+</div>
 
 ### Syrup Not Dispensing
 
+<div class="info-box">
+
 **Symptom:** Syrup pumps activate but no syrup comes out
 
-**Solution:**
-1. Access backend settings
-2. Go to Stock Settings menu
-3. Verify stock levels are set correctly
-4. Navigate to Parameter Settings
-5. Find Syrup 1, 2, 3 options
-6. Place a cup under syrup tip
-7. Press play/test for each syrup
-8. Run multiple times until syrup flows (air bubbles may need clearing)
+</div>
+
+<div class="step-header">Solution:</div>
+
+<div class="numbered-steps">
+
+<div>
+Access backend settings
+</div>
+
+<div>
+Go to Stock Settings menu
+</div>
+
+<div>
+Verify stock levels are set correctly
+</div>
+
+<div>
+Navigate to Parameter Settings
+</div>
+
+<div>
+Find Syrup 1, 2, 3 options
+</div>
+
+<div>
+Place a cup under syrup tip
+</div>
+
+<div>
+Press play/test for each syrup
+</div>
+
+<div>
+Run multiple times until syrup flows (air bubbles may need clearing)
+</div>
+
+</div>
+
+<div class="info-box">
 
 **Alternative test:**
 - Go to Device Testing → Jams/Sprinkles Test
 - Test each syrup dispenser manually
 
+</div>
+
 ### Toppings Not Dispensing
+
+<div class="info-box">
 
 **Symptom:** Topping dispensers activate but nothing comes out
 
-**Solution:**
-1. Check Stock Settings for correct levels
-2. Ensure using only dry, solid toppings (no chunks or thick sauces)
-3. Test via Device Testing → Jams/Sprinkles Test
-4. Check for clogs in dispenser mechanism
+</div>
+
+<div class="numbered-steps">
+
+<div>
+Check Stock Settings for correct levels
+</div>
+
+<div>
+Ensure using only dry, solid toppings (no chunks or thick sauces)
+</div>
+
+<div>
+Test via Device Testing → Jams/Sprinkles Test
+</div>
+
+<div>
+Check for clogs in dispenser mechanism
+</div>
+
+</div>
 
 ### Temperature Display Questions
+
+<div class="info-box">
 
 **What "L: 100%" or "R: 100%" means:**
 - L = Left hopper temperature status
@@ -105,59 +234,160 @@ This section provides step-by-step guidance for identifying and resolving common
 - 100% = Hopper at correct serving temperature
 - Lower percentages = Still cooling down
 
+</div>
+
 ### Machine Not Accepting Payment
 
-**Nayax Reader Issues:**
-1. Ensure Nayax is properly installed behind cash box
-2. Check COM2 connection to machine
-3. Verify marshal cover is in place
-4. Complete Nayax registration if not done
-5. Contact Nayax support if error persists
+<div class="step-header">Nayax Reader Issues:</div>
+
+<div class="numbered-steps">
+
+<div>
+Ensure Nayax is properly installed behind cash box
+</div>
+
+<div>
+Check COM2 connection to machine
+</div>
+
+<div>
+Verify marshal cover is in place
+</div>
+
+<div>
+Complete Nayax registration if not done
+</div>
+
+<div>
+Contact Nayax support if error persists
+</div>
+
+</div>
 
 ### WiFi Connection Problems
 
-**Solution:**
-1. Access backend settings
-2. Go to System Settings
-3. Look at bottom right corner (buttons may be hard to see)
-4. Press "Exit App" to access Android settings
-5. Connect to WiFi through Android WiFi settings
-6. Return to the app
+<div class="step-header">Solution:</div>
+
+<div class="numbered-steps">
+
+<div>
+Access backend settings
+</div>
+
+<div>
+Go to System Settings
+</div>
+
+<div>
+Look at bottom right corner (buttons may be hard to see)
+</div>
+
+<div>
+Press "Exit App" to access Android settings
+</div>
+
+<div>
+Connect to WiFi through Android WiFi settings
+</div>
+
+<div>
+Return to the app
+</div>
+
+</div>
 
 ### Mix Not Freezing Properly
+
+<div class="caution-box">
 
 **Possible Causes:**
 - Insufficient mix in hopper (needs minimum 2L)
 - Cooling not activated in settings
 - Mix ratio incorrect (should be 3L water to 1 packet)
 
-**Solution:**
-1. Verify at least 2L of mix in each hopper
-2. Access Parameter Settings
-3. Find ice cream options: "Clean", "Cool", "Thaw"
-4. Select "Cooling" option
-5. Allow 5-10 minutes for proper cooling
+</div>
+
+<div class="step-header">Solution:</div>
+
+<div class="numbered-steps">
+
+<div>
+Verify at least 2L of mix in each hopper
+</div>
+
+<div>
+Access Parameter Settings
+</div>
+
+<div>
+Find ice cream options: "Clean", "Cool", "Thaw"
+</div>
+
+<div>
+Select "Cooling" option
+</div>
+
+<div>
+Allow 5-10 minutes for proper cooling
+</div>
+
+</div>
 
 ### Emergency Shutdown
 
-**Proper shutdown procedure:**
-1. Switch off main power to ice cream machine
-2. Use breaker switch to cut power
-3. **Never unplug machine while running**
+<div class="warning-box">
+
+<div class="step-header">Proper shutdown procedure:</div>
+
+<div class="numbered-steps">
+
+<div>
+Switch off main power to ice cream machine
+</div>
+
+<div>
+Use breaker switch to cut power
+</div>
+
+<div>
+**Never unplug machine while running**
+</div>
+
+</div>
+
+</div>
 
 ---
 
 ## Error Codes
 
+<div class="info-box">
+
 Some F2 models may display numeric error codes on the backend interface. When these appear:
 
-1. Record the **exact code and description** shown.
-2. Attempt a **soft reset** (power from backend only).
-3. If unresolved, contact support and provide the full error log.
+<div class="numbered-steps">
+
+<div>
+Record the **exact code and description** shown.
+</div>
+
+<div>
+Attempt a **soft reset** (power from backend only).
+</div>
+
+<div>
+If unresolved, contact support and provide the full error log.
+</div>
+
+</div>
+
+</div>
 
 ---
 
 ## When to Contact Support
+
+<div class="important-box">
 
 Contact Sweet Robo Support if you experience any of the following:
 
@@ -170,26 +400,48 @@ Contact Sweet Robo Support if you experience any of the following:
 - Refrigeration system not cooling after 30 minutes
 - Physical damage to components
 
+</div>
+
+<div class="info-box">
+
 Always include the machine **model** (F2), **serial number**, and a **brief description** of the issue when contacting support.
+
+</div>
 
 ---
 
 ## Support Contact Information
 
+<div class="info-box">
+
 We provide 24/7 assistance with any technical issues you may be experiencing. Our team is available to provide you with the support you need to ensure a smooth and seamless product experience.
 
 If you're experiencing any difficulties or have questions about our product, please don't hesitate to reach out. We're here to help and will do our best to resolve your issue as quickly as possible.
 
-**Sweet Robo Customer Support:**
-- **Email:** [support@sweetrobo.com](mailto:support@sweetrobo.com)
-- **Phone:** +1-844-793-3872
-- **Hours:** 24/7 support available
+</div>
 
-**Have your machine information ready:**
-- Machine model: F2
-- Serial number (found in backend settings)
-- Software version
-- Description of the issue
+<div class="feature-grid">
+
+<div class="feature-item">
+
+#### Sweet Robo Customer Support
+• **Email:** [support@sweetrobo.com](mailto:support@sweetrobo.com)<br>
+• **Phone:** +1-844-793-3872<br>
+• **Hours:** 24/7 support available
+
+</div>
+
+<div class="feature-item">
+
+#### Have your machine information ready
+• Machine model: F2<br>
+• Serial number (found in backend settings)<br>
+• Software version<br>
+• Description of the issue
+
+</div>
+
+</div>
 
 ---
 
@@ -197,14 +449,20 @@ If you're experiencing any difficulties or have questions about our product, ple
 
 ### Updated Manual Access
 
+<div class="info-box">
+
 To view the most up-to-date version of this manual, please scan the QR code below:
 
-![QR Code for Online Manual](assets/troubleshooting/qr-code-manual.webp)
+<img src="assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" />
 
 Or manually visit the link:
 https://sweetrobo.com/manuals/ice-cream
 
+</div>
+
 ### Feedback and Manual Improvements
+
+<div class="important-box">
 
 If you notice any typos or think this manual could benefit from additional information, please reach out and let us know. Your feedback helps us improve the documentation for all users.
 
@@ -212,18 +470,51 @@ If you notice any typos or think this manual could benefit from additional infor
 - Email: [support@sweetrobo.com](mailto:support@sweetrobo.com)
 - Subject line: "Manual Feedback - F2 Troubleshooting"
 
+</div>
+
 ---
 
 ## Error Prevention Tips
 
-1. **Always fill hoppers before starting** - Prevents core board error
-2. **Use correct mix ratio** - 3L water to 1 gelato packet
-3. **Maintain minimum levels** - At least 2L per hopper
-4. **Follow cleaning schedule** - Prevents clogs and contamination
-5. **Check expiration dates** - Both on packets and in system
-6. **Regular testing** - Use Device Testing weekly to ensure all systems work
-7. **Proper shutdown procedures** - Use backend shutdown and breaker switch
-8. **Record issues** - Keep a log of any problems for warranty claims
+<div class="important-box">
+
+<div class="numbered-steps">
+
+<div>
+**Always fill hoppers before starting** - Prevents core board error
+</div>
+
+<div>
+**Use correct mix ratio** - 3L water to 1 gelato packet
+</div>
+
+<div>
+**Maintain minimum levels** - At least 2L per hopper
+</div>
+
+<div>
+**Follow cleaning schedule** - Prevents clogs and contamination
+</div>
+
+<div>
+**Check expiration dates** - Both on packets and in system
+</div>
+
+<div>
+**Regular testing** - Use Device Testing weekly to ensure all systems work
+</div>
+
+<div>
+**Proper shutdown procedures** - Use backend shutdown and breaker switch
+</div>
+
+<div>
+**Record issues** - Keep a log of any problems for warranty claims
+</div>
+
+</div>
+
+</div>
 
 ---
 

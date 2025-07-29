@@ -16,3 +16,4 @@
 
 - [Legal and Warranty](shared/legal.md)
 - [Company Information](shared/company-info.md)
+- [Styling Demo](styling-demo.md)

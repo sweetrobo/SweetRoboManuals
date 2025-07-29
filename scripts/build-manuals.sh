@@ -29,18 +29,21 @@ build_manual() {
     fi
 }
 
-# Function to serve a manual locally for preview
-serve_manual() {
-    local machine="$1"
-    echo "Serving manual for: $machine"
+# Function to copy shared resources
+copy_shared_resources() {
+    echo "Copying shared resources..."
+    mkdir -p "build/shared-theme"
+    cp -r shared-theme/* build/shared-theme/ 2>/dev/null || true
     
-    if [ -d "$machine" ]; then
-        cd "$machine"
-        $MDBOOK serve --open --port 3105
-        cd ..
-    else
-        echo "✗ Directory '$machine' not found"
-    fi
+    # Copy manual-styles.css to each manual build directory
+    for dir in "build/candy-monster" "build/robo-ice-cream" "build/pop-cart"; do
+        if [ -d "$dir" ]; then
+            cp shared-theme/manual-styles.css "$dir/" 2>/dev/null || true
+            echo "✓ Copied manual-styles.css to $dir"
+        fi
+    done
+    
+    echo "✓ Shared resources copied"
 }
 
 # Main script logic
@@ -51,37 +54,23 @@ case "$1" in
         build_manual "Candy Monster"
         build_manual "Robo Ice Cream"
         build_manual "Pop Cart"
+        copy_shared_resources
         echo ""
-        echo "All manuals built! Opening main page..."
-        open index.html
-        ;;
-    "serve")
-        if [ -z "$2" ]; then
-            echo "Please specify which manual to serve:"
-            echo "  ./build-manuals.sh serve \"Candy Monster\""
-            echo "  ./build-manuals.sh serve \"Robo Ice Cream\""
-            echo "  ./build-manuals.sh serve \"Pop Cart\""
-        else
-            serve_manual "$2"
-        fi
-        ;;
-    "pdf")
-        echo "PDF generation requires additional tools:"
-        echo "1. Install mdbook-pdf: cargo install mdbook-pdf"
-        echo "2. Add [output.pdf] section to book.toml"
-        echo "3. Or use print functionality in the HTML version (File > Print > Save as PDF)"
+        echo "All manuals built! Check build/ directory for outputs."
+        echo "Main index: index.html"
         ;;
     *)
         if [ -z "$1" ]; then
             echo "Usage:"
-            echo "  ./build-manuals.sh all                    # Build all manuals + index page"
+            echo "  ./build-manuals.sh all                    # Build all manuals"
             echo "  ./build-manuals.sh \"Candy Monster\"        # Build specific manual"
-            echo "  ./build-manuals.sh serve \"Candy Monster\"  # Preview manual in browser"
-            echo "  ./build-manuals.sh pdf                    # Show PDF generation info"
+            echo "  ./build-manuals.sh \"Robo Ice Cream\"       # Build specific manual"
+            echo "  ./build-manuals.sh \"Pop Cart\"             # Build specific manual"
             echo ""
             echo "After building, open index.html in your browser to access all manuals."
         else
             build_manual "$1"
+            copy_shared_resources
         fi
         ;;
 esac
