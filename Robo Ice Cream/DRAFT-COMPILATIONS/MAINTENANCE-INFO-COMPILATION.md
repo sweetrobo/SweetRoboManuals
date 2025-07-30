@@ -25,6 +25,8 @@ This document compiles all maintenance-related information from the Draft resour
 3. Avoid concentrated cleaning products (may corrode paint/cause discoloration)
 4. When cleaning electronic components, do not use wet cloth (prevents water damage/short circuits)
 
+<!-- LIGHTWING TODO: Add info not to use chemicals that are not food grade when cleaning components that come in contact with food, see further down this file. read the full file as parts are interlinked (not just related to this) -->
+
 ### Food Safety Overview
 **Source: `/14 Section 9 Cleaning & Maintenance/1 9. Cleaning & Maintenance.md`**
 - Critical for food safety, functionality, and health regulations compliance
@@ -32,6 +34,8 @@ This document compiles all maintenance-related information from the Draft resour
 - Always shut off ice cream systems using Main I/O switch before cleaning
 - Never leave mix in hoppers longer than 3 days
 - Cleaning logs must be maintained at all times
+
+<!-- LIGHTWING TODO: Combine both, unless they go in seperate sections... -->
 
 ---
 
@@ -46,6 +50,8 @@ This document compiles all maintenance-related information from the Draft resour
 - When temperature exceeded, mix is considered spoiled
 - Clean and sanitize hoppers before refilling
 - Do not operate with empty hopper
+<!-- LIGHTWING NOTE: Dont show 5c/5c, its the same number, this is in complience with NAMA (might need to double check this, but should be correct) -->
+
 
 **Source: `/15 Section 10 Safety & Compliance/1 10. Safety & Compliance.md`**
 - Temperature monitoring: ±1°F (±0.5°C) accuracy
@@ -53,6 +59,9 @@ This document compiles all maintenance-related information from the Draft resour
   - Blocks all dispensing
   - Flags product as expired
   - Displays safety notice to operator
+<!-- LIGHTWING TODO: this has more info and cleanere listing -->
+<!-- LIGHTWING TODO: Combine both -->
+
 
 ### General Food Safety Notes
 **Source: `/14 Section 9 Cleaning & Maintenance/1 9. Cleaning & Maintenance.md`**
@@ -61,7 +70,8 @@ This document compiles all maintenance-related information from the Draft resour
 - Avoid harsh/corrosive chemicals
 - Never allow expired mix to remain
 - Use separate tools for food-contact areas and waste zones (avoid cross-contamination)
-
+<!-- LIGHTWING TODO: Combine all 3, unless they go in seperate sections... -->
+ 
 ---
 
 ## Cleaning Procedures
@@ -87,6 +97,7 @@ This document compiles all maintenance-related information from the Draft resour
 - ✅ Clean topping containers thoroughly
 - ✅ Inspect all food-contact parts for wear/residue/buildup
 - ✅ Empty and sanitize drip and waste collection area
+<!-- LIGHTWING NOTE: these are all part of the cleaning scheduale, each one is needed for saftey etc. make sure its clear the cleaning scheduale and what was done is docummented, maybe provide a checklist and example spreadsheet to print for this... (a csv file and a example table, since this will be downloaded, it should not be visible when printing, instead, show text to use the online manual in order to print this, or go to the url ... to download) -->
 
 ### 3-Day Cleaning Procedure (Detailed)
 **Source: `/14 Section 9 Cleaning & Maintenance/1 9. Cleaning & Maintenance.md`**
@@ -117,6 +128,7 @@ This document compiles all maintenance-related information from the Draft resour
 
 7. **Surface Cleaning**
    - Wipe down touchscreen, frame, outer panels
+<!-- LIGHTWING TODO: Add photos, put placeholders for now unless we have these photos in the database json file for each step, put the text on the left and image on the right (split), while keeping the numbering... -->
 
 ### Weekly Maintenance Procedures
 **Source: `/14 Section 9 Cleaning & Maintenance/1 9. Cleaning & Maintenance.md`**
@@ -140,7 +152,7 @@ This document compiles all maintenance-related information from the Draft resour
 5. **Inspect UV Lamp**
    - Use backend to activate UV lamp
    - Replace if not lighting
-
+<!-- LIGHTWING TODO: Add photos, put placeholders for now unless we have these photos in the database json file for each step, put the text on the left and image on the right (split), while keeping the numbering... -->
 ### Syrup and Topping Maintenance
 **Source: `/14 Section 9 Cleaning & Maintenance/1 9. Cleaning & Maintenance.md`**
 
@@ -153,7 +165,7 @@ This document compiles all maintenance-related information from the Draft resour
 - Clean once a week to prevent clumping, cross-contamination, pest risk
 - Remove dry contents, wipe internal walls, sanitize surfaces
 - Capacity: 270g per hopper (from hardware specs)
-
+<!-- LIGHTWING TODO: add this info to the checklist that matches... ask me about the checlist before finalizing it. i think we should have 1 file including task type, date done, a column to say every how many days it needs to be done, and empty columns to fill who did it, what date, what time etc. and to fill out when is the next time this needs to be done (not sure about this last one) -->
 ---
 
 ## Physical Maintenance
@@ -177,6 +189,7 @@ This document compiles all maintenance-related information from the Draft resour
 - Note: References "candy" but this is ice cream machine
 - Ensure refrigerator is on, especially in hot/humid environments
 - Excessive heat can cause melting and operational problems
+<!-- LIGHTWING CONFLICT: dont show anything taken from the candy monster, this is the ice cream machine manual... -->
 
 **Automatic Door Maintenance:**
 - Power must be turned off before maintenance
@@ -188,7 +201,7 @@ This document compiles all maintenance-related information from the Draft resour
 - Wheels may become damaged
 - Special lifting equipment required for wheel replacement
 - Do NOT tilt or turn machine on side (causes serious damage)
-
+<!-- LIGHTWING TODO: emphises on these points in multiple places these are mentioned along the manual... -->
 ---
 
 ## Electrical Safety
@@ -197,9 +210,9 @@ This document compiles all maintenance-related information from the Draft resour
 **Multiple Sources:**
 
 **Source: `/19 Maintenance/1 Maintenance.md`**
-- Ensure all power sources completely disconnected before maintenance
+- Ensure all power sources completely disconnected before maintenance <!-- LIGHTWING CONFLICT: not true, as this machine might need power for maintenece such as flushing ice cream through the hopper etc. only turn off power to components that are not needed or if working on electrical related maintenece etc. -->
 - Only personnel with basic electrical knowledge should maintain
-- Never unplug while powered on
+- Never unplug while powered on <!-- LIGHTWING NOTE: this doesnt provide enough info of what to do, unlike the next source which tell you more -->
 - Always use Breaker Switch to safely shut down before disconnecting
 - Inform Sweet Robo technician of issues and planned maintenance
 - Unauthorized modifications may void warranty
@@ -211,13 +224,13 @@ This document compiles all maintenance-related information from the Draft resour
 - Use Breaker Switch to safely isolate system
 
 **Source: `/04 Safety/4 Cleaning and Maintenance Safety.md`**
-- ALWAYS disconnect from outlet before cleaning/maintenance
-- Allow warm components to cool down first
-- Wear protective gear if recommended
+- ALWAYS disconnect from outlet before cleaning/maintenance <!-- LIGHTWING NOTE: again, this is good instruction, but not always true, it depends on which maintenece is done. we need to find where in the manual the maintence requeires power and where dit does not -->
+- Allow warm components to cool down first <!-- LIGHTWING NOTE: this is a fridge, the only warm components generally would be IO boards, and maybe some moving parts if they are moving and frinction heated. otherwise, things are ok to touch. the IO board should not be touched without contacting support and without electrical safty first -->
+- Wear protective gear if recommended <!-- LIGHTWING QUESTION: what does it mean if recommended? this seems strange -->
 - Avoid loose clothing/jewelry/hair near moving parts
-- Be mindful of ESD when near electronics
+- Be mindful of ESD when near electronics <!-- LIGHTWING NOTE: explain ESD to non technical people, in short, not a long explnation... -->
 - Consider ESD wrist strap for internal electronics
-
+<!-- LIGHTWING DECISION: combine the info together with my notes and comments and info taken into account -->
 ---
 
 ## Troubleshooting
@@ -236,6 +249,11 @@ This document compiles all maintenance-related information from the Draft resour
 | Syrup not dispensing | Tubing clogged or bag empty | Clean tubing, replace syrup bag, run test |
 | Machine freezing/unresponsive | Overloaded system or process stuck | Perform full restart via backend, then breaker |
 | UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp |
+
+<!-- LIGHTWING DECISION: we dont want to mention the timer so much, its removed from future production -->
+<!-- LIGHTWING NOTE: we dont use "sryup bags" its a syrup container, might be empty or pipes blocked -->
+<!-- LIGHTWING NOTE: if machine ui is not responsive, try a full machine power cycle, if continues or repeats contact support -->
+<!-- LIGHTWING DECISION: dont mention the UV light -->
 
 ### Error Codes
 **Source: `/16 Section 11 Troubleshooting/1 11. Troubleshooting.md`**
@@ -287,6 +305,7 @@ Always include: model, serial number, brief issue description
 - Only use manufacturer-recommended agents
 - No abrasive cleaners, solvents, harsh chemicals
 - Boiling water only where appropriate (per instructions)
+<!-- LIGHTWING TODO: Combine all, keeping the style of the first source -->
 
 ---
 
@@ -298,6 +317,7 @@ Always include: model, serial number, brief issue description
 - Avoid direct eye exposure during manual tests
 - Activates only when door closed
 - Supplement to manual cleaning, not replacement
+<!-- LIGHTWING TODO: remove all mentiones of the UV light, its removed from future production, check otehr files as well to make sure its not mentioend, same for the timer  -->
 
 ### Auto Shut-Off Behavior
 **Source: `/15 Section 10 Safety & Compliance/1 10. Safety & Compliance.md`**
@@ -311,6 +331,7 @@ When triggered:
 - Dispensing, cooling, motor systems shut down
 - Touchscreen may remain powered for diagnosis
 - Event logs stored for technician review
+<!-- LIGHTWING TODO: this "SHUT-OFF" is not exactly a shutoff, it does block the machine from dispensing, it does not turn off the cooling (that will only result in spoilage which we dont want), it will show an error and not allow to dispense -->
 
 ### Regulatory Compliance
 **Source: `/15 Section 10 Safety & Compliance/1 10. Safety & Compliance.md`**
@@ -327,6 +348,8 @@ NAMA and food safety requirements:
 - Rated Cooling Output:
   - F1: ~350W
   - F2: ~500W combined
+<!-- LIGHTWING TODO: this is a customer facing manual, keep it this way, dont mention specific complience info, only saftey info the user needs to know for machine operation... not any NAMA specific info -->
+<!-- LIGHTWING TODO: the fact about the refrigerant means there is a fridge, which should be obvious, but we need to add that bcz there is a fridge, this machine MUST stay upright -->
 
 ### Cleaning Logs
 **Source: `/14 Section 9 Cleaning & Maintenance/1 9. Cleaning & Maintenance.md`**
@@ -335,6 +358,7 @@ Must maintain visible cleaning log onsite with:
 - Date/time
 - Operator initials
 - Supports regulatory compliance and tracks due dates
+<!-- LIGHTWING TODO: see my above notes for this, and combine the info, showing the info twice is fine if its not a pure duplicate, maybe the area above can link to this area (and in pdf it should point to where to look further along the file) -->
 
 ---
 
