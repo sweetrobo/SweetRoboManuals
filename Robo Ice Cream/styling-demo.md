@@ -4,6 +4,30 @@ This page demonstrates all the official styling components extracted from the Sw
 
 ---
 
+## Title Page Layout
+
+<div class="title-page">
+
+<div class="title-page-header">
+<div class="title">Sweet Robo - User Manual - Robo Ice Cream</div>
+<img src="./assets/logo.webp" alt="Sweet Robo Logo" class="logo" />
+</div>
+
+<div class="title-page-main">
+<h1>Robo Ice Cream</h1>
+<h2>User Manual</h2>
+<img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream Machine" class="machine-image" />
+</div>
+
+<div class="title-page-footer">
+<p>Revision & Date:</p>
+<p>Rev 1. 05.2025</p>
+</div>
+
+</div>
+
+---
+
 ## Callout Boxes
 
 ### Warning Box (Pink Background)
@@ -14,7 +38,7 @@ This page demonstrates all the official styling components extracted from the Sw
 
 </div>
 
-### Caution Box (Orange Background)
+### Caution Box (Yellow Background)
 
 <div class="caution-box">
 
@@ -51,23 +75,33 @@ Some accessories or consumables may be packaged and stored inside the machine bo
 <div class="numbered-steps">
 
 <div>
+<div>
 Power on the machine using the main breaker switch located on the side panel.
 </div>
+</div>
 
+<div>
 <div>
 Wait 5-10 minutes for the system to boot and reach operating temperature.
 </div>
+</div>
 
+<div>
 <div>
 Check the display shows "L: 100%" and "R: 100%" indicating both hoppers are ready.
 </div>
-
-<div>
-Access the backend interface by tapping and holding the top-right corner for 3-5 seconds.
 </div>
 
 <div>
+<div>
+Access the backend interface by tapping and holding the top-right corner for 3-5 seconds.
+</div>
+</div>
+
+<div>
+<div>
 Enter the default password 123456 to access operator settings.
+</div>
 </div>
 
 </div>
@@ -77,25 +111,67 @@ Enter the default password 123456 to access operator settings.
 <div class="numbered-steps">
 
 <div>
-<div class="step-header">Prepare the Machine</div>
+<div>
+<h3>Prepare the Machine</h3>
 • Turn on the main power breaker<br>
 • Verify all doors are closed<br>
 • Check that hoppers contain at least 2L of mix
 </div>
+</div>
 
 <div>
-<div class="step-header">Initial System Check</div>
+<div>
+<h3>Initial System Check</h3>
 • Monitor temperature displays<br>
 • Listen for unusual noises<br>
 • Verify UV sanitizer activates
 </div>
+</div>
 
 <div>
-<div class="step-header">Ready for Operation</div>
+<div>
+<h3>Ready for Operation</h3>
 • Confirm both hoppers show 100%<br>
 • Test dispense functions<br>
 • Enable customer interface
 </div>
+</div>
+
+</div>
+
+---
+
+## Sidebar Highlights
+
+<div class="sidebar-highlight">
+
+<h4>Proper Usage</h4>
+
+Manuals provide detailed instructions and information on setup, operation, and maintenance. Following these instructions ensures that the equipment works efficiently.
+
+</div>
+
+<div class="sidebar-highlight">
+
+<h4>Optimal Performance</h4>
+
+The manual often includes insights into how to get the best understanding how to use the equipment for optimal results, whether that's producing high-quality ice cream or maintaining efficiency.
+
+</div>
+
+<div class="sidebar-highlight">
+
+<h4>Safety First</h4>
+
+Always follow safety guidelines outlined in the manual. These guidelines are designed to protect operators from injury and prevent damage to the equipment. Never bypass safety features or ignore warning labels.
+
+</div>
+
+<div class="sidebar-highlight">
+
+<h4>Regular Maintenance</h4>
+
+Consistent maintenance according to the manual's schedule helps extend equipment life, prevent breakdowns, and ensure food safety compliance. Document all maintenance activities for regulatory purposes.
 
 </div>
 
@@ -149,8 +225,8 @@ Built for durability and reliable operation in various commercial environments w
 
 | Parameter | Value | Notes |
 |:-----:|:-----:|:-----:|
-| Dimensions | 120 × 80 × 210 cm | Width × Depth × Height |
-| Weight | 250 kg | Approximately 551 lbs |
+| Dimensions | 120 × 86.5 × 245 cm | Width × Depth × Height |
+| Weight | 380 kg | Approximately 838 lbs |
 | Power | 220V, 15A | Dedicated circuit required |
 | Capacity | 200 cups | 4 tubes × 50 cups each |
 

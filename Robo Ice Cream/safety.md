@@ -393,7 +393,7 @@ In case of any doubts, concerns, emergencies related to the machine's operation,
 * **Customer Support Phone:** +1-844-793-3872
 * **Customer Support Email:** [support@sweetrobo.com](mailto:support@sweetrobo.com)
 
-![Sweet Robo Logo](assets/safety/sweet-robo-logo.webp)
+![Sweet Robo Logo](assets/logo.webp)
 
 Remember that failure to adhere to these safety precautions could result in injuries, damage to the machine, or hazardous situations. By following these guidelines, you ensure a safe and enjoyable experience while using the Machine.
 

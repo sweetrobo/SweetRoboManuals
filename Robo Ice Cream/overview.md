@@ -123,20 +123,22 @@ Sweet Robo machines are engineered for:
 ## Technical Specifications
 
 ### Electrical & Power Requirements
-- **Power Supply**: 220V
-- **Rated Current**: 13A @ 220V
+- **Power Supply**: 220V only (no 110V option available)
+- **Rated Current**: 13A typical @ 220V
 - **Max Power Consumption**: 2,860W
+- **Required Breaker**: 20A minimum (15A is too close for power spikes)
+- **Outlet Type**: NEMA 6-20R (to match included 6-20P plug)
 
 <div class="warning-box">
 
-**Important**: F2 requires a 220V power supply. It is not directly compatible with 110V circuits, but can be connected using a properly rated transformer and a dedicated power line capable of supporting the required amperage.
+**Critical**: The F2 requires a dedicated 220V circuit with a 20A breaker. A 15A breaker is insufficient due to potential power spikes. Ensure proper electrical installation by a licensed electrician before delivery.
 
 </div>
 
 ### Physical Specifications
-- **Width**: 87 cm (34.3 in)
-- **Depth**: 120 cm (47.2 in)
-- **Height**: 245 cm (96.5 in)
+- **Width**: 120 cm (47.2 in / 3.94 ft)
+- **Depth**: 86.5 cm (34.1 in / 2.84 ft)
+- **Height**: 245 cm (96.5 in / 8.04 ft)
 - **Weight (Empty)**: 380 kg
 - **Operational Temperature Range**: 10°C – 35°C (50°F – 95°F)
 - **Relative Humidity Tolerance**: < 80% RH (non-condensing)

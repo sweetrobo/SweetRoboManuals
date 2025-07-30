@@ -1,454 +1,801 @@
 # Setup & Installation
 
-## Pre-Installation Checklist
+## Machine Specifications
 
-<div class="info-box">
+<div class="specs-table">
 
-Before starting setup, ensure you have:
-- F2 machine delivered and inspected for damage
-- Required power supply: **220V dedicated circuit** (20A breaker minimum)
-- All included accessories: tool kit, cleaning kit, cups, power cord
-- Ice cream mix packets and 3 liters of water per hopper
-- Syrups and toppings ready for installation
+<div class="spec-row">
+<div class="spec-label">Model</div>
+<div class="spec-value">Robo Ice Cream F2</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Dimensions (W×D×H)</div>
+<div class="spec-value">120 × 86.5 × 245 cm (47.2 × 34.1 × 96.5 in / 3.94 × 2.84 × 8.04 ft)</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Weight</div>
+<div class="spec-value">380 kg (838 lbs) empty</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Power Requirements</div>
+<div class="spec-value">220V only, 13A typical, 2,860W max</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Electrical Connection</div>
+<div class="spec-value">NEMA 6-20P plug (requires 6-20R outlet)</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Hopper Configuration</div>
+<div class="spec-value">Dual hopper system (Left & Right)</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Cup Capacity</div>
+<div class="spec-value">200 cups (4 tubes × 50 cups each)</div>
+</div>
 
 </div>
 
-## Step 1: Unpacking and Initial Inspection
+## Pre-Installation Requirements
 
-### 1.1 Delivery and Initial Inspection
-Each Robo Ice Cream F2 machine is thoroughly tested to ensure proper operation before it leaves the factory. Upon delivery:
+### Site Requirements
 
-<div class="numbered-steps">
+<div class="feature-grid">
 
-<div>
-<strong>Inspect outer packaging</strong> for any visible damage during transit
-</div>
+<div class="feature-item">
 
-<div>
-<strong>Confirm Model (F2), Serial Number, and Delivery Date</strong>
-</div>
-
-<div>
-If damage or missing parts are discovered, <strong>contact Sweet Robo support immediately</strong>
-</div>
-
-<div>
-If damage is suspected, <strong>photograph the machine before unboxing</strong> to assist with claims
-</div>
+#### Space Requirements
+- **Minimum Space Needed**: 137 × 170 × 265 cm (53.9 × 66.9 × 104.3 in)
+- Includes machine dimensions plus required clearances
+- Allows for door opening and servicing access
 
 </div>
 
-<div class="caution-box">
+<div class="feature-item">
 
-**Important:** Note any damage on the delivery receipt before the carrier leaves.
+#### Clearance Requirements
+- **Rear wall**: 50 cm (20 in) minimum
+- **Side-to-side**: 20 cm (8 in) minimum
+- **Front door**: Must open to 135°+
+- **Ventilation**: Keep grilles unobstructed
 
 </div>
 
-### 1.2 What's Included with F2
-Your F2 shipment includes:
-- **Robo Ice Cream F2 Machine**
-- **Tool kit**: Phillips screwdriver, mounting screws, hardware
-- **Cleaning kit**: Mixing bucket and sanitizing tools  
-- **Cup dispenser tubes**: 4 tubes (50 cups each = 200 total capacity)
-- **Starter pack**: Paper cups with integrated spoons
-- **Power cord** and machine keys (attached to power cord)
-- **This operator's manual**
+<div class="feature-item">
 
-<img src="./assets/setup/unpacking-step-4.webp" alt="Unpacking Accessories" />
-*Accessories and tools included with your F2 machine*
+#### Floor Requirements
+- Flat, level, stable hard surface
+- No soft mats or carpet
+- Must support machine weight + mix
+- Indoor use only
 
-### 1.3 Interior Inspection
+</div>
+
+<div class="feature-item">
+
+#### Environmental Requirements
+- Indoor installation only
+- Avoid direct sunlight
+- Avoid excessive heat/humidity
+- Internet connectivity (WiFi/Ethernet)
+
+</div>
+
+</div>
+
+### Power Requirements
 
 <div class="warning-box">
 
-**Critical:** Do NOT power on the machine until this inspection is complete
+**⚠️ CRITICAL ELECTRICAL REQUIREMENTS**
+
+The Robo Ice Cream F2 requires:
+- **220V ONLY** - no 110V operation available
+- **20A breaker required** (machine draws 13A typical, 15A breaker too close for spikes)
+- **NEMA 6-20R outlet** (to match the included 6-20P plug)
+- **Power consumption**: 2,860W maximum (13A @ 220V)
+- **Dedicated circuit required** - do NOT share with other equipment
+- **Surge protection** highly recommended
+
+**Important:** The F2 comes with a NEMA 6-20P power cable. Ensure your facility has the matching 6-20R outlet installed by a licensed electrician before delivery.
+
+</div>
+
+## What's Included
+
+<div class="feature-grid">
+
+<div>
+<img src="./assets/parts-service/installation-tools-kit.webp" alt="Installation tool kit including Phillips screwdriver, hex key/allen wrench, spare sensor component, and Sweet Robo branded tool bag" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Installation tool kit with screwdriver, hex key, and spare sensor</p>
+</div>
+
+<div>
+<img src="./assets/parts-service/spare-parts-kit-with-manual.webp" alt="Comprehensive spare parts kit including food-grade MP grease (BX-121/2, NSF approved), various O-rings and gaskets, tubing, cleaning brush, red coupling tool, and technical component diagram/manual" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Spare parts kit with NSF-approved grease and technical manual</p>
+</div>
+
+<div>
+<img src="./assets/operation/serving-cups.webp" alt="Three orange ice cream serving cups with Sweet Robo branding and cute character designs. Each cup has a spoon attached at the bottom for customer convenience" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Sweet Robo branded cups with integrated spoons</p>
+</div>
+
+<div>
+<img src="./assets/maintenance/maintenance-and-mix-tools.webp" alt="Maintenance and preparation supplies including blue bottle brush for cleaning, wire whisk for ice cream mix preparation, and blue cleaning cloths" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Cleaning brush, whisk for mixing, and cleaning cloths</p>
+</div>
+
+<div>
+<img src="./assets/maintenance/mixing-bucket.webp" alt="10-liter transparent measuring bucket with graduated markings (2L to 10L) used for mixing ice cream preparations" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">10L graduated mixing bucket for ice cream preparation</p>
+</div>
+
+<div>
+<img src="./assets/maintenance/agitator-cleaning-brush-kit.webp" alt="Agitator shaft cleaning kit featuring blue spiral bristle brush and white plastic agitator component. Essential for proper cleaning of ice cream mixing shaft" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Specialized agitator cleaning brush with spiral bristles</p>
+</div>
+
+<div>
+<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser seal kit top view showing clear housing assembly, white shaft with orange O-rings, and white gasket/seal components for ice cream dispenser maintenance" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Dispenser seal replacement kit with O-rings and gaskets</p>
+</div>
+
+<div>
+<img src="./assets/parts-service/digital-clamp-multimeter.webp" alt="Digital clamp multimeter model MT87 with test leads and batteries. Used for electrical diagnostics and amperage measurements during troubleshooting" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">MT87 digital multimeter for electrical diagnostics</p>
+</div>
+
+<div>
+<img src="./assets/supplies/syrup-topping-spoons.webp" alt="Set of three black long-handled spoons with decorative spiral handles and slotted bowls. Used for dispensing syrups and toppings onto ice cream" />
+<p style="text-align: center; margin-top: 0.5em; font-size: 0.9em;">Long-handled slotted spoons for syrup and topping service</p>
+</div>
+
+</div>
+
+Your F2 shipment includes:
+- Robo Ice Cream F2 Machine
+- Installation tool kit: Phillips screwdriver, hex key/allen wrench, spare sensor, Sweet Robo branded tool bag
+- Spare parts kit: Food-grade MP grease (NSF approved), O-rings, gaskets, tubing, cleaning brush, technical diagram
+- Cup dispenser tubes: 4 tubes (50 cups each)
+- Starter pack: Orange Sweet Robo cups with integrated spoons
+- Power cord with NEMA 6-20P plug and keys (attached to power cord)
+- Cleaning supplies: Mixing bucket (10L), whisk, cleaning cloths, agitator brush
+- This operator's manual
+
+## Step 1: Delivery and Inspection
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Inspect Packaging</h3>
+Check outer packaging for visible damage. Note any damage on delivery receipt before carrier leaves.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Verify Delivery</h3>
+Confirm Model F2, Serial Number, and Delivery Date match your order.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Document Damage</h3>
+If damage suspected, photograph machine before unboxing for insurance claims.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Contact Support</h3>
+If damage or missing parts discovered, contact Sweet Robo support immediately.
+</div>
+</div>
+
+</div>
+
+## Step 2: Positioning the Machine
+
+<div class="caution-box">
+
+**CAUTION:** Two or more people required for moving. For long distances, use a pallet jack - the wheels are designed for minor position adjustments only, not extended transport.
 
 </div>
 
 <div class="numbered-steps">
 
 <div>
-<strong>Unlock and open all service doors</strong> (keys attached to power cord)
+<div>
+<h3>Move to Location</h3>
+Carefully move machine to final operating location using appropriate equipment.
+</div>
 </div>
 
 <div>
-<strong>Carefully inspect</strong> for loose plugs, pipes, or components that may have shifted during transit
+<div>
+<h3>Level the Machine</h3>
+Ensure all four feet are firmly on ground and machine is level.
+</div>
 </div>
 
 <div>
-<strong>Remove ALL packaging materials</strong> from interior:
-<ul>
-<li>Foam inserts and protective wrapping</li>
-<li>Zip ties (unless securing wires meant to stay in place)</li>
-<li>Tape and plastic covers</li>
-<li>Any loose items from cup holder assembly, door mechanism, hopper outlets</li>
-</ul>
+<div>
+<h3>Lock Feet</h3>
+Adjust feet as needed, then lock in place with locking collars.
+</div>
 </div>
 
 <div>
-<strong>Locate accessories</strong> that may be stored inside the machine body
+<div>
+<h3>Verify Clearances</h3>
+Confirm all required clearances are met (see requirements above).
+</div>
+</div>
+
+</div>
+
+<div class="image-placeholder">IMAGE: Proper machine positioning with clearance measurements</div>
+
+## Step 3: Interior Inspection
+
+<div class="warning-box">
+
+**WARNING:** Do NOT power on until this inspection is complete and ice cream mix is loaded.
+
+</div>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Open Service Door</h3>
+Unlock and open the service door using keys attached to power cord.
+</div>
 </div>
 
 <div>
-<strong>Verify all cables and connectors</strong> are properly seated and secure
+<div>
+<h3>Check Components</h3>
+Inspect for loose wires, plugs, pipes, or components shifted during transit.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Remove Packaging</h3>
+• Remove ALL internal packaging materials<br>
+• Clear foam, zip ties (unless securing permanent wires)<br>
+• Check delivery bot area and all compartments<br>
+• Locate accessory kit stored inside
+</div>
+</div>
+
+<div>
+<div>
+<h3>Verify Connections</h3>
+Ensure all cables and connectors are properly seated and secure.
+</div>
 </div>
 
 </div>
+
+<div class="image-placeholder">IMAGE: Interior inspection points and packaging removal</div>
+
+## Step 4: Hardware Installation
+
+### 4.1 Install LED Roof Panels (Optional)
+
+<div class="info-box">
+
+**Customization Option:** The F2 comes with 4 LED panels that can be installed on top. You can choose to install 1, 2, 3, or all 4 panels based on your preference and visibility needs.
+
+</div>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Decide how many LED panels to install (1-4 panels).
+</div>
+</div>
+
+<div>
+<div>
+Use screws and Phillips screwdriver from tool kit to attach chosen panels to top of machine.
+</div>
+</div>
+
+<div>
+<div>
+Connect wires from each panel to corresponding wires from machine.
+</div>
+</div>
+
+<div>
+<div>
+Ensure all connections are secure and properly connected.
+</div>
+</div>
+
+</div>
+
+<img src="./assets/setup/led-signage-roof.webp" alt="LED signage roof component with illuminated Robo ice cream branding" />
+
+### 4.2 Install Cup Tubes
 
 <div class="side-by-side-images">
 <img src="./assets/setup/cup-dispenser-installation.webp" alt="Cup Dispenser Installation" />
-<img src="./assets/setup/hardware-assembly.webp" alt="Hardware Assembly" />
+<div class="image-placeholder">IMAGE: Loading cups into tubes</div>
 </div>
-*Cup dispenser installation and hardware component assembly*
-
-<img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" />
-*Ice cream hopper and dispenser setup configuration*
-
-### 1.4 Positioning Requirements
-The F2 machine must be installed on a stable, level surface in a clean, dry indoor environment.
-
-<div class="caution-box">
-
-**Two or more people required** for safely moving and positioning the machine. Use appropriate lifting equipment if necessary.
-
-</div>
-
-**Floor Requirements:**
-- Must support **380 kg** (848 lbs) + ice cream mix weight
-- Surface must be hard and level (no soft mats or carpet)
-- Do not tilt, rock, or roll the machine once upright
-
-**Minimum Clearances:**
-| Location | Required Distance |
-|----------|------------------|
-| Rear wall | 50 cm (20 in) minimum |
-| Side-to-side | 20 cm (8 in) minimum |
-| Front (door) | Must open to 135°+ |
-
-**Environment Requirements:**
-- Indoor use only
-- Avoid direct sunlight or excessive heat
-- Avoid high humidity areas
-- Ensure stable WiFi signal or accessible Ethernet port nearby
-
-## Step 2: LED Panel Installation (Optional)
-
-The F2 comes with 4 LED panels that can be installed on top. Installation is optional based on your preference.
-
-**Note:** This must be done with the machine OFF
-
-1. Locate the 4 LED panels and mounting hardware
-2. Install the base mounting:
-   - Attach 4 screws to secure the base
-3. Connect panels together:
-   - Use connection brackets to stabilize panels
-   - Secure with provided screws and nuts
-4. Wire connection:
-   - Connect wires from panels to machine base
-   - Match colors: **black to black, red to red**
-5. Verify all connections are secure
-
-## Step 3: Power Connection
-
-### F2 Power Requirements:
-The Robo Ice Cream F2 **must be connected to a dedicated 220V power source**.
-
-**Electrical Specifications:**
-- **220-240V AC** dedicated outlet  
-- **13A for 220V circuit** minimum (refer to Technical Specifications for exact requirements)
-- **Properly grounded** electrical outlet matching machine voltage
-- **Do NOT share** the circuit with other appliances
-- Highly recommended to use circuit with **surge protection**
-
-<div class="warning-box">
-
-**Electrical Shock Hazard Warning:** Ensure hands are dry and you are not standing in water when connecting the power cord.
-
-</div>
-
-### If only 110V available:
-
-<div class="warning-box">
-
-**Critical Warning:** F2 is engineered for 220V operation. Using 110V requires:
-
-- **Step-up transformer** with at least **2,860W continuous output**
-- **Dedicated 30A circuit** on the 110V input side (F2 draws ~26A at full load)  
-- **Proper grounding and isolation** from other loads
-- **Professional installation** recommended
-
-**Using an undersized transformer or shared circuit may result in machine malfunction, tripped breakers, or permanent damage.** Always verify your power source before installation.
-
-</div>
-
-## Step 4: Critical First Start - Avoiding Core Board Error
-
-<div class="warning-box">
-
-**MOST IMPORTANT STEP:** The #1 setup error is powering on without ice cream mix, causing the "core board error"
-
-</div>
-
-### Why This Happens:
-- The auger mechanism requires liquid lubrication
-- Without mix, metal grinds on metal causing damage
-- Machine will display "Core board error" and make loud grinding noise
-
-### Correct Startup Sequence:
-
-<div class="step-header">1. BEFORE powering on:</div>
 
 <div class="numbered-steps">
 
 <div>
-Prepare ice cream mix: 3 liters water + 1 gelato packet per hopper
+<div>
+Open service door to access cup dispenser mechanism.
+</div>
 </div>
 
 <div>
-Fill each hopper with minimum 2 liters of prepared mix
+<div>
+Install all 4 cup tubes into dispenser assembly.
+</div>
 </div>
 
 <div>
-Turn ON the hopper switches (located on bottom of each hopper)
-</div>
-
-</div>
-
-<div class="step-header">2. THEN power on the machine:</div>
-
-<div class="numbered-steps">
-
 <div>
-Turn on main power switch
+Load approved cups (rim up) into each tube - 50 cups per tube = 200 total capacity.
+</div>
 </div>
 
 <div>
-Machine should start normally without errors
+<div>
+Stack neatly to avoid crushing or misalignment that causes jams.
+</div>
+</div>
+
+<div>
+<div>
+Close tube lids securely and service door (closing lids is recommended to prevent dust accumulation and maintain hygiene standards).
+</div>
 </div>
 
 </div>
 
-### If Core Board Error Occurs:
-1. **Immediately turn OFF the machine**
-2. Fill hoppers with prepared mix (minimum 2L each)
-3. Turn ON hopper switches
-4. Power on machine - error should clear
+## Step 5: Initial System Preparation
 
-## Step 5: Initial Component Setup
-
-### 5.1 Clean Hoppers Before First Use
-**F2 has 2 hoppers** that must be sanitized before first use:
-
-1. **Pour approximately 2 liters of warm water** into each hopper
-2. **Wipe down the interior** using a food-grade sanitizing solution
-3. **Rinse thoroughly** with additional warm water
-4. **Access backend** (tap top-right corner, enter: 123456)
-5. **Use manual discharge function** (see Device Testing section) to empty chambers
-6. **Wipe dry** with clean, food-safe cloth
-
-<img src="./assets/setup/hopper-setup.webp" alt="F2 Dual Hopper Setup" />
-*F2 dual hopper configuration during cleaning and setup*
-
-### 5.2 Load Cups (200 Cup Capacity)
-The F2 cup dispenser can hold **200 cups total** (50 per tube):
-
-1. **Open the cabinet door** and lift cup storage container lid
-2. **Place ice cream cups neatly** into the 4 cup holder tubes (rim up)
-3. **Ensure proper alignment** - misaligned cups cause dispensing issues
-4. **Load all 4 tubes** for maximum 200 cup capacity
-5. **Close the lid securely**
-
-### 5.3 Add Ice Cream Mix (Dual Hopper Loading)
-**F2 Features:** Each hopper operates independently, allowing different flavors.
-
-1. **Mix preparation**: 3L water + 1 gelato packet per hopper
-2. **Open each hopper lid**
-3. **Pour minimum 2 liters** into each hopper (4L total for both hoppers)
-4. **Important**: Make sure amount is at least 2L per hopper for proper function
-5. **Close lids securely**
-6. **Verify hopper switches are ON** (located at bottom of each hopper)
-
-### 5.4 Adjust Refill Tube Settings
-The refill tube controls how much mix flows into the freezing chamber after each serving:
-
-**Settings:**
-- **0 = Closed**
-- **1 = Smallest opening**  
-- **2 = Medium** (recommended for standard servings)
-- **3 = Fully Open** (for larger portions)
-
-**Recommendation:** Start with setting **2** for most standard servings. Increase for larger portions.
-
-### 5.5 Install Syrups
-1. **Open the syrup jar compartment**
-2. **Pull out the syrup tube** from the machine
-3. **Twist the syrup bag** onto the syrup tube connector, ensuring secure connection
-4. **Place syrup bag upside down** so syrup flows from the bottom
-5. **Test flow** - syrup should flow smoothly without air bubbles
-
-<div class="warning-box">
-
-**Critical Requirements:**
-- **Only liquid syrups allowed**
-- **NO SOLIDS** - no thick sauces, chunks, or particles
-
-</div>
-
-### 5.6 Add Toppings  
-1. **Open the lid of the toppings box**
-2. **Pour in prepared toppings** (maximum 270g per compartment)
-3. **Close lid securely**
-
-<div class="warning-box">
-
-**Critical Requirements:**
-- **Only solid/dry toppings allowed**
-- **NO LIQUIDS** - no wet, sticky, or liquid items
-
-</div>
-
-### 5.7 Final Hardware Setup
-1. **Close all cabinet doors** and secure with keys
-2. **Place machine on flat surface** with all four feet firmly on ground
-3. **Ensure machine is level** - adjust feet as necessary
-4. **Tighten locking collars** on all four feet to prevent wobble
-5. **Verify clearances** - ensure doors can open fully and ventilation is adequate
-6. **Final inspection** - no tools or foreign objects left inside machine
-
-## Step 6: System Configuration
-
-### 6.1 Initial Power-On Sequence
-<div class="warning-box">
-
-**Warning:** Ensure Main Breaker/Power Switch is OFF before connecting power cord.
-
-</div>
-
-1. **Connect power cord** securely to grounded 220V electrical outlet
-2. **Turn Main Breaker/Master Switch to ON** (located behind cups area, right side access door)
-3. **Turn ON the Compressor switch** to start refrigeration system
-4. **Observe system initialization:**
-   - Touchscreen should illuminate
-   - System begins startup sequence (may take several minutes)
-   - Watch for any unusual noises or error messages
+### 5.1 Flush and Sanitize Hoppers
 
 <div class="info-box">
 
-**Important:** The machine may take **2-8 minutes** to reach optimal temperature for freezing. Ice cream cannot be dispensed until target internal temperature is reached.
+**F2 Feature:** The F2 model includes dual hoppers (Left & Right) allowing you to offer two different flavors simultaneously.
 
 </div>
 
-### 6.2 Access Backend Interface
-1. **Tap and hold** top-right corner of touchscreen for 3-5 seconds
-2. **Enter password:** **123456**
-3. **Main settings menu** will appear
+<div class="numbered-steps">
 
-### 6.3 Start Cooling Process
-1. **Navigate to Parameter Settings**
-2. **Find ice cream options:** "Clean", "Cool", "Thaw"
-3. **Select "Cooling"** to begin freezing process
-4. **Allow 5-10 minutes** for proper cooling
-5. **Monitor progress:** Screen will show L: % and R: % (100% = ready for both hoppers)
+<div>
+<div>
+Pour approximately 2 liters of warm water into each hopper.
+</div>
+</div>
 
-### 6.4 Prime Syrup Lines
-1. **In Parameter Settings,** find Syrup 1, 2, 3
-2. **Place cup under syrup nozzle**
-3. **Press test/play** for each syrup
-4. **Run multiple times** until syrup flows smoothly
-5. **Air bubbles are normal** initially - continue until flow is consistent
+<div>
+<div>
+Wipe interior with food-grade sanitizing solution.
+</div>
+</div>
 
-## Step 7: Payment System Setup
+<div>
+<div>
+Rinse thoroughly with clean warm water.
+</div>
+</div>
 
-### Nayax Card Reader Installation
-1. Remove zip tie behind cash box
-2. Unscrew access panel
-3. Install Nayax reader with marshal cover
-4. Connect COM2 cable to machine
-5. Complete Nayax registration online
-6. Test with a card transaction
+<div>
+<div>
+Access backend system to open chambers and discharge water (see <a href="./operation.html#device-testing---component-control">operation section</a> for more info).
+</div>
+</div>
 
-## Step 8: Network Configuration
+<div>
+<div>
+Wipe dry with clean, food-safe cloth and leave open to air dry.
+</div>
+</div>
 
-### WiFi Setup
-1. In backend, go to System Settings
-2. Look at bottom-right corner (buttons may be hard to see)
-3. Press **"Exit App"**
-4. Android settings will open
-5. Connect to your WiFi network
-6. Return to the app
+</div>
 
-### Remote Management
-Once connected, the machine can be managed remotely for:
-- Price changes
-- Product updates
-- Sales monitoring
-- Diagnostic checks
+<div class="image-placeholder">IMAGE: Hopper cleaning process</div>
 
-## Step 9: Final Configuration
+### 5.2 Prepare Ice Cream Mix
 
-### 9.1 Set Operating Hours
-- Use the hardware timer inside cabinet
-- Set daily on/off times
-- Machine won't operate outside these hours
+<div class="important-box">
 
-### 9.2 Test All Functions
-Run these tests from Device Testing menu:
-- Cup dispense test
-- Each syrup dispenser
-- Each topping dispenser
-- Door open/close
-- Make a test ice cream
+**CRITICAL:** Never power on without mix - this causes "core board error" and potential damage!
 
-### 9.3 Adjust Settings
-- Set product prices
-- Configure portion sizes
-- Enable/disable payment types
-- Set expiration reminders
+</div>
 
-## Installation Complete Checklist
+<div class="numbered-steps">
 
-**Pre-Power On:**
-- [ ] Machine positioned with proper clearances (50cm rear, 20cm sides)
-- [ ] 220V dedicated power connected (13A circuit minimum)
-- [ ] LED panels installed (if desired)
-- [ ] All packaging materials removed from interior
-- [ ] All cables and connectors verified secure
-- [ ] Cup dispenser tubes installed (4 tubes for 200 cup capacity)
-- [ ] Machine level with all 4 feet properly adjusted
+<div>
+<div>
+<h3>Gather Supplies</h3>
+• Food-grade bucket (7-8 liter capacity with measurement lines)<br>
+• Ice cream mix powder (1.5kg bag)<br>
+• Fresh drinking water<br>
+• Electric mixer or whisk
+<div class="side-by-side-images">
+<img src="./assets/maintenance/mixing-bucket.webp" alt="10-liter measuring bucket with graduated markings" />
+<img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mix preparation step 1" />
+</div>
+</div>
+</div>
 
-**F2 Dual Hopper Setup:**
-- [ ] Both hoppers flushed and sanitized
-- [ ] Both hoppers filled with mix (minimum 2L each = 4L total)
-- [ ] Both hopper switches turned ON
-- [ ] Refill tube settings adjusted (start with setting 2)
+<div>
+<div>
+<h3>Mix Preparation</h3>
+• Pour 4 liters of fresh water into bucket<br>
+• Slowly add entire 1.5kg powder bag<br>
+• Let sit briefly to begin dissolving<br>
+• Mix 2-3 minutes until smooth (avoid over-mixing)
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: Pouring powder into water and initial mixing</div>
+<img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Using electric mixer to blend ice cream mix" />
+</div>
+</div>
+</div>
 
-**System Configuration:**
-- [ ] No core board error on startup
-- [ ] Cooling process started for both hoppers (wait for L:100% R:100%)
-- [ ] All 200 cups loaded (50 per tube)
-- [ ] Syrups installed and primed (liquid only)
-- [ ] Toppings loaded (dry/solid only)
-- [ ] Payment system configured
-- [ ] WiFi connected for remote management
-- [ ] Hardware timer set for operating hours
-- [ ] Test ice cream successfully made from both hoppers
+<div>
+<div>
+<h3>First Fill Requirements</h3>
+• Each batch: 1 bag (1.5kg) + 4L water<br>
+• Mix one batch at a time<br>
+• Transfer to hopper immediately after mixing<br>
+• Repeat process for second hopper
+<div class="image-placeholder">IMAGE: Prepared mix ready for transfer to hopper</div>
+</div>
+</div>
+
+</div>
+
+<div class="image-placeholder">QR CODE: Link to mix preparation video</div>
+
+### 5.3 Load Ice Cream Mix
+
+<img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" />
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Open both hopper lids (Left and Right).
+</div>
+</div>
+
+<div>
+<div>
+Pour prepared mix slowly to avoid splashing.
+</div>
+</div>
+
+<div>
+<div>
+Minimum fill: 2 liters per hopper (fill both hoppers).
+</div>
+</div>
+
+<div>
+<div>
+Maximum capacity: 12 liters per hopper (do not fill above white plastic parts).
+</div>
+</div>
+
+<div>
+<div>
+Close lid(s) securely.
+</div>
+</div>
+
+</div>
+
+### 5.4 Adjust Refill Tube
+
+The refill tube controls mix flow into the freezing chamber:
+
+| Setting | Opening Size | Use Case |
+|---------|-------------|----------|
+| 0 | Closed | Maintenance only |
+| 1 | Smallest | Small portions |
+| 2 | Medium | Standard servings (recommended) |
+| 3 | Fully Open | Large portions |
+
+<div class="image-placeholder">IMAGE: Refill tube adjustment settings</div>
+<div class="image-placeholder">QR CODE: Refill tube adjustment video</div>
+
+### 5.5 Add Syrups
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Locate the 3 syrup containers in the machine.
+</div>
+</div>
+
+<div>
+<div>
+Open each container lid and pour in liquid syrup.
+</div>
+</div>
+
+<div>
+<div>
+Close lids securely after filling.
+</div>
+</div>
+
+<div>
+<div>
+Note which syrup is in each position (1, 2, 3) - you'll need to configure this in the backend system later.
+</div>
+</div>
+
+</div>
+
+<div class="warning-box">
+
+**Requirements:** Only liquid syrups - NO solids, chunks, or thick sauces
+
+</div>
+
+<div class="image-placeholder">IMAGE: Syrup installation process</div>
+
+### 5.6 Add Toppings
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Open the 3 topping container lids.
+</div>
+</div>
+
+<div>
+<div>
+Pour dry toppings into containers (max 270g each).
+</div>
+</div>
+
+<div>
+<div>
+Ensure toppings flow freely - no clumping.
+</div>
+</div>
+
+<div>
+<div>
+Close lids securely.
+</div>
+</div>
+
+</div>
+
+<div class="warning-box">
+
+**Requirements:** Only dry/solid toppings - NO liquids, wet, or sticky items
+
+</div>
+
+<div class="image-placeholder">IMAGE: Topping container loading</div>
+
+## Step 6: Power Connection and Startup
+
+### 6.1 Connect Power
+
+<div class="warning-box">
+
+**ELECTRICAL SAFETY:** Ensure hands are dry and you're not standing in water. Verify machine is OFF before connecting.
+
+</div>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Verify Main Breaker is OFF (located behind cups area).
+</div>
+</div>
+
+<div>
+<div>
+Connect the 6-20P power cord to your 6-20R outlet (220V with 20A breaker).
+</div>
+</div>
+
+<div>
+<div>
+Verify the outlet is properly grounded and on a dedicated 20A+ breaker.
+</div>
+</div>
+
+</div>
+
+### 6.2 Power On Sequence
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Turn ON Main Breaker</h3>
+Located behind cups area, right side access door.
+<div class="image-placeholder">IMAGE: Main breaker location and position</div>
+</div>
+</div>
+
+<div>
+<div>
+<h3>Turn ON Main I/O Switch</h3>
+Controls refrigeration and dispensing systems.
+<div class="image-placeholder">IMAGE: Main I/O switch location and position</div>
+</div>
+</div>
+
+<div>
+<div>
+<h3>System Initialization</h3>
+• Touchscreen illuminates<br>
+• Startup sequence begins<br>
+• Listen for normal operation sounds<br>
+• No grinding noises should occur
+</div>
+</div>
+
+<div>
+<div>
+<h3>Temperature Optimization</h3>
+Machine requires 2-8 minutes to reach optimal freezing temperature.
+</div>
+</div>
+
+</div>
+
+<div class="info-box">
+
+**Note:** If "Core Board Error" appears with grinding noise, immediately turn OFF and verify hoppers have mix. If error continues after verification, shut off power and contact support.
+
+</div>
+
+## Step 7: Backend Configuration
+
+### 7.1 Access Backend
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Tap top-right corner of touchscreen 6+ times (or hold 3-5 seconds).
+<img src="./assets/operation/backend-touch-position.webp" alt="Yellow circle showing where to touch on screen" style="max-height: 200px;" />
+</div>
+</div>
+
+<div>
+<div>
+Enter default password: <strong>123456</strong>
+<img src="./assets/operation/password-input-screen.webp" alt="Password input screen" style="max-height: 300px;" />
+</div>
+</div>
+
+<div>
+<div>
+Backend management screen appears with 6 main sections:
+<img src="./assets/operation/management-interface.webp" alt="Backend management interface" style="max-height: 700px;" />
+</div>
+</div>
+
+</div>
+
+**Management Screen Sections:**
+
+| **Section** | **Purpose** |
+|-------------|-------------|
+| `Parameter Settings` | Control temperature, timing, and dispense parameters |
+| `Stock Settings` | Monitor and update inventory for cups, mix, syrups, and toppings |
+| `Device Testing` | Manually test components and perform cleaning functions |
+| `Opening Hours` | Schedule vending availability based on business hours |
+| `System Settings` | Configure system behavior (volume, voice, network, etc.) |
+| `Shopping Settings` | Configure payment methods, timeout behavior, and alerts |
+
+### 7.2 Test Functions
+
+<div class="image-placeholder">IMAGE: Device Testing screen showing test options</div>
+
+Navigate to `Device Testing` to verify:
+- Cup drop test (clear one tube to verify it auto turns to use the next tube)
+- Syrup flow test (prime all 3 lines)
+- Topping dispense test (all 3 containers)
+- Door open/close operation
+
+### 7.3 Configure Payment Settings
+
+<div class="image-placeholder">IMAGE: Shopping Settings screen showing payment configuration options</div>
+
+In `Shopping Settings`, configure payment methods:
+- Enable/disable bill acceptor
+- Enable/disable coin acceptor
+- Enable/disable VPOS (credit card reader)
+- Set change dispenser options
+- Configure timeout settings
+
+<div class="info-box">
+
+**Note:** Other settings like product prices, portion sizes, syrup/topping names, and operating hours can be configured later through their respective menu sections. See the <a href="./operation.html#operator-interface-and-backend-management">Operation Guide</a> for detailed configuration instructions.
+
+</div>
+
+## Setup Complete Checklist
+
+### Pre-Power Checklist
+- [ ] Machine positioned with proper clearances
+- [ ] Level surface, all feet locked
+- [ ] Interior packaging removed
+- [ ] All connections verified
+- [ ] Hoppers cleaned and sanitized
+- [ ] Mix prepared and loaded (minimum 2L per hopper)
+- [ ] Cups loaded (200 capacity)
+- [ ] Syrups installed (liquid only)
+- [ ] Toppings loaded (dry only)
+- [ ] Power requirements verified
+
+### Post-Power Checklist
+- [ ] No core board error
+- [ ] Normal operation sounds
+- [ ] Touchscreen functional
+- [ ] Backend access successful
+- [ ] All tests passed
+- [ ] Temperature reached (2-8 minutes)
+- [ ] Settings configured
+- [ ] Test ice cream made successfully
 
 ## Important Reminders
 
 <div class="important-box">
 
-**Never run empty hoppers** - Always maintain minimum 2L  
-**Change mix every 3-4 days** - Set expiration reminders  
-**Only liquid syrups** - No thick sauces or chunks  
-**Only dry toppings** - No wet or sticky items
+**Daily Operations:**
+- Never run hoppers empty - maintain 2L minimum
+- Mix expires after 3-4 days - replace regularly
+- Only liquid syrups (no solids)
+- Only dry toppings (no liquids)
+- Clean regularly per maintenance schedule
 
-</div>  
+</div>
+
+## Support Information
+
+For installation assistance or questions:
+
+<div class="sidebar-highlight">
+
+<h4>Sweet Robo Support</h4>
+
+**Email:** support@sweetrobo.com  
+**Phone:** +1 (844) 793-3872  
+**Hours:** 24/7 assistance available
+
+</div>
 
 ## Next Steps
 
-1. Review [Operation Guide](./operation.md) for daily procedures
-2. Set up [Maintenance Schedule](./maintenance.md)
-3. Train staff on proper operation
-4. Keep this manual accessible for reference
+1. Review the [Operation Guide](operation.md) for daily use
+2. Set up your [Maintenance Schedule](maintenance.md)
+3. Train all staff on proper procedures
+4. Keep this manual accessible
 
-For installation support: support@sweetrobo.com or +1 (844) 793-3872
+Your Robo Ice Cream machine is now ready for operation!

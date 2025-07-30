@@ -41,28 +41,34 @@ Each hopper maintains optimal serving temperature independently.
 <div class="numbered-steps">
 
 <div>
-<div class="step-header">Check Machine Status</div>
+<div>
+<h3>Check Machine Status</h3>
 • Verify power is on<br>
 • Check <strong>L: and R:</strong> temperature displays (should show 100% when ready)<br>
 • Ensure both hoppers are at serving temperature<br>
 • Verify all doors are closed properly
 </div>
+</div>
 
 <div>
-<div class="step-header">Verify Dual-Hopper Supplies</div>
+<div>
+<h3>Verify Dual-Hopper Supplies</h3>
 • Check ice cream mix levels in <strong>both hoppers</strong> (minimum 2L per hopper)<br>
 • Ensure different flavors are properly loaded in Left and Right hoppers<br>
 • Check cup inventory in all 4 tubes<br>
 • Verify syrup levels for flavor enhancement<br>
 • Check topping levels for complete customization
 </div>
+</div>
 
 <div>
-<div class="step-header">Backend Access and System Check</div>
+<div>
+<h3>Backend Access and System Check</h3>
 • Tap and hold top-right corner for 3-5 seconds<br>
 • Enter password: 123456<br>
 • Check system status for both hoppers<br>
 • Verify no alerts for either Left or Right systems
+</div>
 </div>
 
 </div>
@@ -441,27 +447,39 @@ To maximize customer satisfaction and manage inventory:
 <div class="numbered-steps">
 
 <div>
+<div>
 Check which hopper requires refilling (L: or R: display)
 </div>
+</div>
 
+<div>
 <div>
 Prepare mix according to instructions above
 </div>
+</div>
 
+<div>
 <div>
 Open specific hopper lid carefully
 </div>
+</div>
 
+<div>
 <div>
 Add prepared mix without disturbing other hopper
 </div>
-
-<div>
-Verify minimum 2L level maintained in both hoppers
 </div>
 
 <div>
+<div>
+Verify minimum 2L level maintained in both hoppers
+</div>
+</div>
+
+<div>
+<div>
 Close lid securely and verify temperature recovery
+</div>
 </div>
 
 </div>
