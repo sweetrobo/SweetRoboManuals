@@ -82,9 +82,9 @@
 }
 
 .content code {
-    background: var(--background-light);
+    background: #e6f3ff;
     padding: 0.2em 0.4em;
-    border-radius: 0;
+    border-radius: 3px;
     font-size: 0.9em;
     line-height: inherit;
     vertical-align: baseline;
@@ -99,7 +99,7 @@
     border: 1px solid #d6bcfa;
     border-radius: 0;
     padding: 1.5em;
-    margin: 1.5em 0;
+    margin: 1.5em 2em;
     border-left: 5px solid var(--info-text);
 }
 
@@ -116,9 +116,9 @@
     background: var(--warning-pink);
     border: 1px solid #feb2b2;
     border-radius: 0;
-    padding: 1.5em;
-    margin: 1.5em 0;
-    border-left: 5px solid var(--warning-red);
+    padding: 1em;
+    margin: 1.5em 2em;
+    /* border-left: 5px solid var(--warning-red); */
 }
 
 .warning-box h3,
@@ -132,10 +132,10 @@
 
 .caution-box {
     background: var(--caution-orange);
-    border: none;
+    border: 1px solid #ffde58;
     border-radius: 0;
-    padding: 1em 1.5em;
-    margin: 1.5em 0;
+    padding: 1em;
+    margin: 1.5em 2em;
 }
 
 .caution-box h3,
@@ -148,11 +148,13 @@
 }
 
 .info-box {
-    background: var(--light-blue);  /* Now using light blue */
-    border: none;
+    background: #f0f9ff; /* Very light sky blue */
+    border: 1px solid #bfdbfe; /* Light blue border */
     border-radius: 0;
-    padding: 1em 1.5em;
-    margin: 1.5em 0;
+    padding: 1.25em 1.5em;
+    margin: 1.5em 2em;
+    position: relative;
+    z-index: 1;
 }
 
 .info-box h3,
@@ -181,11 +183,44 @@
     border: none;
 }
 
+/* Content wrapper for steps */
+.numbered-steps > div > div {
+    flex: 1;
+    line-height: 2.5em;
+}
+
+/* Content wrapper with h3 needs column layout */
+.numbered-steps > div > div:has(h3) {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+}
+
+/* Style h3 headers inside numbered steps to match original .step-header */
+.numbered-steps h3 {
+    background: transparent;
+    padding: 0;
+    margin: 0 0 0.5em 0;
+    border-radius: 0;
+    border-left: none;
+    font-weight: bold;
+    color: var(--primary-blue);
+    font-size: 1.1em;
+    display: block;
+    line-height: 2.5em;
+}
+
+/* Content after h3 should have normal line height */
+.numbered-steps > div > div:has(h3) > :not(h3) {
+    line-height: 1.6;
+}
+
+/* Number circle */
 .numbered-steps > div::before {
     content: counter(step-counter);
     background: var(--primary-blue);
     color: white;
-    border-radius: 50%;  /* Keep as circle */
+    border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
     display: flex;
@@ -197,25 +232,36 @@
     flex-shrink: 0;
 }
 
-.step-header {
-    background: transparent;
-    padding: 0;
-    margin: 1.5em 0 0.5em 0;
-    border-radius: 0;
-    border-left: none;
-    font-weight: bold;
-    color: var(--primary-blue);
-    font-size: 1.1em;
-}
 
 /* =================================== */
 /* FEATURE GRIDS */
 /* =================================== */
 .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
     margin: 2em 0;
+}
+
+.feature-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-grid img {
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 !important; /* Override default image margins */
+}
+
+.feature-grid p {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 0.9em;
 }
 
 .feature-item {
@@ -244,7 +290,7 @@
 .content table {
     width: 100%;
     border-collapse: collapse;
-    margin: 2em 0;
+    /* margin: 2em 0; adds too much space before */
     border: 1px solid var(--border-light);
     border-radius: 0;
     overflow: hidden;
@@ -301,17 +347,19 @@
 
 .side-by-side-images img,
 .side-by-side-images .image-placeholder {
-    width: 100%;
+    /* width: 100%; commented out due to it causing overlap in side by side image views */
     height: auto;
     border-radius: 0;
     margin: 0;
 }
 
 .content img {
+    display: block;
+    max-height: 600px; /* Limit max height for large images, might need to be changed later */
     max-width: 100%;
     height: auto;
     border-radius: 0;
-    margin: 1.5em 0;
+    margin: 1.5em auto;
     box-shadow: none !important;
     border: none;
 }
@@ -422,6 +470,98 @@
     margin: 1.5em 0;
 }
 
+/* =================================== */
+/* SIDEBAR HIGHLIGHTS */
+/* =================================== */
+.sidebar-highlight {
+    border-left: 4px solid var(--primary-blue);
+    padding-left: 1.5em;
+    margin: 2em 0;
+}
+
+.sidebar-highlight h4 {
+    color: var(--primary-blue);
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0 0 0.5em 0;
+}
+
+.sidebar-highlight p {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+/* =================================== */
+/* TITLE PAGE */
+/* =================================== */
+.title-page {
+    text-align: center;
+    padding: 0.5em 0em;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-page-header {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-page-header .title {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.title-page-header .logo {
+    height: 40px;
+}
+
+.title-page-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-page h1 {
+    font-size: 4em;
+    margin: 0.5em 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.title-page h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: #333;
+    font-weight: normal;
+}
+
+.title-page .machine-image {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+    margin: 2em 0;
+}
+
+.title-page-footer {
+    text-align: left;
+    font-size: 1em;
+    color: #666;
+}
+
+.title-page-footer p {
+    margin: 0.25em 0;
+}
+
 .highlight-block h3,
 .highlight-block h4 {
     color: #7c3aed;  /* Purple header */
@@ -511,6 +651,69 @@
 /* PRINT STYLES */
 /* =================================== */
 @media print {
+    /* Page setup */
+    @page {
+        margin: 2cm;
+        size: letter;
+    }
+    
+    /* Override mdBook's default print styles */
+    #content {
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .content {
+        padding: 0 !important;
+    }
+    
+    /* Override the .content main styles */
+    .content main {
+        margin: 0 !important;
+        max-width: none !important;
+    }
+    
+    /* Title page specific */
+    .title-page {
+        page-break-after: always;
+        /* Minimum height to fill a page */
+        min-height: calc(100vh - 4cm);
+        /* Negative margins to expand width */
+        margin-left: -15px;
+        margin-right: -15px;
+        /* Add padding back */
+        padding: 2em;
+        /* Layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    /* Hide default mdBook title that appears above content */
+    .page:has(.title-page) > h1:first-child {
+        display: none;
+    }
+    
+    /* Adjust image size to fit on page */
+    .title-page .machine-image {
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+    }
+    
+    /* Adjust font sizes for print */
+    .title-page h1 {
+        font-size: 2.5em;
+        margin: 0.5em 0;
+    }
+    
+    .title-page h2 {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+    }
+    
     .content h1, .content h2 {
         break-after: avoid;
     }
@@ -527,6 +730,22 @@
     
     .feature-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .specs-table {
+        break-inside: avoid;
+    }
+    
+    /* Hide navigation elements */
+    .nav-chapters,
+    .mobile-nav-chapters,
+    .nav-wrapper,
+    .theme-popup,
+    .search-wrapper,
+    #menu-bar,
+    .sidebar,
+    .nav-spacer {
+        display: none !important;
     }
 }
 

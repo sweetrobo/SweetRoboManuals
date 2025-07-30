@@ -125,3 +125,119 @@ p em {
     max-width: 100%;
   }
 }
+
+/* ========================================
+   Conditional Content Styling
+   ======================================== */
+
+/* Hide conditional content by default (progressive enhancement) */
+.conditional-content[data-show-when],
+.conditional-content[data-show-for],
+[data-role] {
+    display: none;
+}
+
+/* Show elements when body has the matching show-* class */
+body.show-dev .conditional-content[data-show-when="dev"],
+body.show-internal .conditional-content[data-show-when="internal"],
+body.show-technician .conditional-content[data-show-when="technician"],
+body.show-operator .conditional-content[data-show-when="operator"],
+body.show-customer .conditional-content[data-show-when="customer"] {
+    display: block;
+}
+
+/* Role-based visibility */
+.role-technician .technician-only,
+.role-operator .operator-only,
+.role-customer .customer-only,
+.role-internal .internal-only {
+    display: block !important;
+}
+
+/* Hide role-specific content when not in that role */
+body:not(.role-technician) .technician-only,
+body:not(.role-operator) .operator-only,
+body:not(.role-customer) .customer-only,
+body:not(.role-internal) .internal-only {
+    display: none !important;
+}
+
+/* Visual indicators for conditional content (only in debug mode) */
+body.role-internal .conditional-visible {
+    position: relative;
+}
+
+body.role-internal .conditional-visible::before {
+    content: attr(data-show-when);
+    position: absolute;
+    top: -20px;
+    right: 0;
+    background: #2c5282;
+    color: white;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: monospace;
+    opacity: 0.7;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Special styling for internal/debug content */
+.internal-note {
+    background: #e6f3ff;
+    border-left: 4px solid #2c5282;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.internal-note::before {
+    content: "Internal Note: ";
+    font-weight: bold;
+    color: #2c5282;
+}
+
+/* Technician-specific styling */
+.technician-warning {
+    background: #fed7d7;
+    border-left: 4px solid #e53e3e;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.technician-tip {
+    background: #e6fffa;
+    border-left: 4px solid #319795;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+/* Print handling - hide all conditional content controls */
+@media print {
+    .conditional-controls,
+    .conditional-visible::before,
+    [data-show-when]::before {
+        display: none !important;
+    }
+    
+    /* Optionally hide certain role content when printing */
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* Remove the conflicting visibility styles - JavaScript handles display directly */
+
+/* Mobile responsiveness for conditional content */
+@media (max-width: 768px) {
+    .internal-note,
+    .technician-warning,
+    .technician-tip {
+        margin-left: -15px;
+        margin-right: -15px;
+        border-radius: 0;
+    }
+}
