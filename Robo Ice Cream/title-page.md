@@ -12,8 +12,14 @@
 </div>
 
 <div class="title-page-footer">
+<div class="footer-left">
 <p>Revision & Date:</p>
 <p>Rev 1. 05.2025</p>
+</div>
+<div class="footer-right">
+<img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" class="qr-code" />
+<p class="qr-text">Scan for latest<br/>online manual</p>
+</div>
 </div>
 
 </div>
