@@ -338,6 +338,9 @@ For optimal F2 operation, prepare mix for each hopper independently:
 </div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Adding powder to water | Right: Proper mixing technique</p>
 
+<img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice cream mix powder package" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Premium gelato powder mix used for ice cream preparation</p>
+
 <img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Hopper Transfer" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Transferring prepared mix to hopper</p>
 
@@ -506,6 +509,12 @@ The F2's enhanced customization options include:
 - **Flavor Pairing**: Certain syrups complement specific hopper flavors
 
 </div>
+
+<div class="side-by-side-images">
+<img src="./assets/supplies/chocolate-syrup-hersheys.webp" alt="Approved Hershey's chocolate syrup" />
+<img src="./assets/supplies/syrup-topping-spoons.webp" alt="Syrup and topping serving spoons" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Approved chocolate syrup and specialized serving spoons for toppings</p>
 
 <div class="important-box">
 

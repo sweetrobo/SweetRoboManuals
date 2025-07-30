@@ -41,6 +41,42 @@
 
 </div>
 
+## Service Tools & Equipment
+
+<div class="feature-grid">
+
+<div class="feature-item">
+<img src="./assets/parts-service/digital-clamp-multimeter.webp" alt="Digital clamp multimeter" />
+<h4>Digital Multimeter</h4>
+Essential for electrical diagnostics. Measures voltage, current, and resistance. Can test up to 600V AC.
+</div>
+
+<div class="feature-item">
+<img src="./assets/parts-service/installation-tools-kit.webp" alt="Installation tools kit" />
+<h4>Installation Tool Kit</h4>
+Includes Phillips screwdriver, hex keys, spare sensors, and Sweet Robo branded tool bag.
+</div>
+
+<div class="feature-item">
+<img src="./assets/parts-service/spare-parts-kit-with-manual.webp" alt="Spare parts kit with manual" />
+<h4>Comprehensive Spare Parts Kit</h4>
+Food-grade MP grease (NSF approved), O-rings, gaskets, tubing, cleaning brush, and technical diagrams.
+</div>
+
+<div class="feature-item">
+<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser seal kit" />
+<h4>Dispenser Seal Kit</h4>
+Complete seal replacement kit with clear housing, white shaft, orange O-rings, and gaskets.
+</div>
+
+</div>
+
+<div class="side-by-side-images">
+<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser seal kit top view" />
+<img src="./assets/parts-service/dispenser-seal-kit-angle2.webp" alt="Dispenser seal kit angle view" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Dispenser seal kit shown from multiple angles for proper assembly</p>
+
 ## Ordering Parts
 
 <div class="step-header">How to Order</div>

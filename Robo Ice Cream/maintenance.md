@@ -304,6 +304,63 @@ Operators must maintain visible cleaning logs onsite including:
 <img src="./assets/maintenance/cleaning-supplies.webp" alt="Cleaning Supplies" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Essential cleaning supplies: bottle brush, whisk, and cleaning cloths for maintenance</p>
 
+### Airpath System Maintenance
+
+<div class="important-box">
+
+**IMPORTANT:** The airpath component controls air flow in the hopper system. The top opening must never be covered or blocked for proper operation.
+
+</div>
+
+<div class="feature-grid">
+
+<div class="feature-item">
+<img src="./assets/maintenance/airpath-top-view.webp" alt="Airpath top view - DO NOT COVER" />
+<p style="text-align: center; font-style: italic;">Top view - Keep this opening clear</p>
+</div>
+
+<div class="feature-item">
+<img src="./assets/maintenance/airpath-hopper-view.webp" alt="Airpath installed in hopper" />
+<p style="text-align: center; font-style: italic;">Proper installation in hopper</p>
+</div>
+
+<div class="feature-item">
+<img src="./assets/maintenance/airpath-adjustment-notches.webp" alt="Airpath adjustment notches" />
+<p style="text-align: center; font-style: italic;">Default position: 2nd notch</p>
+</div>
+
+<div class="feature-item">
+<img src="./assets/maintenance/agitator-cleaning-brush-kit.webp" alt="Agitator cleaning brush kit" />
+<p style="text-align: center; font-style: italic;">Specialized cleaning brush for agitator shaft</p>
+</div>
+
+</div>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Check Airpath Position</h3>
+Verify the airpath is set to the 2nd notch (default position) for optimal air flow.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Clean Agitator Shaft</h3>
+Use the blue spiral brush to thoroughly clean the agitator shaft during maintenance.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Maintain Clear Airflow</h3>
+Ensure the top opening of the airpath remains unobstructed at all times.
+</div>
+</div>
+
+</div>
+
 ---
 
 ## Installation Precautions

@@ -447,7 +447,7 @@ Wipe dry with clean, food-safe cloth and leave open to air dry.
 • Let sit briefly to begin dissolving<br>
 • Mix 2-3 minutes until smooth (avoid over-mixing)
 <div class="side-by-side-images">
-<div class="image-placeholder">IMAGE: Pouring powder into water and initial mixing</div>
+<img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice cream powder mix package" />
 <img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Using electric mixer to blend ice cream mix" />
 </div>
 </div>
@@ -517,7 +517,7 @@ The refill tube controls mix flow into the freezing chamber:
 | 2 | Medium | Standard servings (recommended) |
 | 3 | Fully Open | Large portions |
 
-<div class="image-placeholder">IMAGE: Refill tube adjustment settings</div>
+<img src="./assets/maintenance/airpath-adjustment-notches.webp" alt="Airpath adjustment notches showing default second position" />
 <div class="image-placeholder">QR CODE: Refill tube adjustment video</div>
 
 ### 5.5 Add Syrups
@@ -556,7 +556,7 @@ Note which syrup is in each position (1, 2, 3) - you'll need to configure this i
 
 </div>
 
-<div class="image-placeholder">IMAGE: Syrup installation process</div>
+<img src="./assets/supplies/chocolate-syrup-hersheys.webp" alt="Approved Hershey's chocolate syrup container" />
 
 ### 5.6 Add Toppings
 
@@ -594,7 +594,7 @@ Close lids securely.
 
 </div>
 
-<div class="image-placeholder">IMAGE: Topping container loading</div>
+<img src="./assets/supplies/syrup-topping-spoons.webp" alt="Syrup and topping serving spoons" />
 
 ## Step 6: Power Connection and Startup
 
