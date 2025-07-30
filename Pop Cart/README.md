@@ -26,6 +26,8 @@
 
 For technical support, refer to [Sweet Robo Contact Information](../shared/company-info.md).
 
+<div class="conditional-content" data-show-when="dev">
+
 ## Document Status
 
 - [ ] Overview - Pending
@@ -35,3 +37,5 @@ For technical support, refer to [Sweet Robo Contact Information](../shared/compa
 - [ ] Troubleshooting - Pending
 - [ ] Parts & Service - Pending
 - [ ] Safety - Pending
+
+</div>
