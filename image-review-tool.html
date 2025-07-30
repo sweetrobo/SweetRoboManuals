@@ -472,7 +472,9 @@
                         return;
                 }
                 
-                const response = await fetch(jsonPath);
+                // Add cache-busting parameter to prevent browser caching
+                const cacheBuster = `?t=${Date.now()}`;
+                const response = await fetch(jsonPath + cacheBuster);
                 if (!response.ok) {
                     throw new Error('Failed to load image data');
                 }
