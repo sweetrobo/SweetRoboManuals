@@ -224,15 +224,16 @@
           "preparation_tools",
           "getting_ready",
           "maintenance",
-          "needs_replacement"
+          "used_in_manual"
         ],
         "description": "Example photo showing tools needed for mix preparation: powder, mixer, and bucket",
-        "correctness": "placeholder",
-        "ai_training_notes": "Placeholder image showing mix preparation tools. May not be used in final manual - better step-by-step image needed.",
+        "correctness": "correct",
+        "ai_training_notes": "Shows mix preparation tools. Used in operation.md, setup.md, and maintenance.md sections.",
         "contains_text": false,
-        "suitable_for_sections": ["maintenance", "mix_preparation"],
+        "suitable_for_sections": ["maintenance", "mix_preparation", "operation", "setup"],
         "correction_needed": false,
-        "processing_notes": "Placeholder image - shows what's needed but not ideal for step-by-step instructions"
+        "processing_notes": "Confirmed in use across multiple manual sections",
+        "usage_locations": ["operation.md:336", "setup.md:437", "maintenance.md:294"]
       },
       {
         "filename": "hopper-after-filling.webp",
