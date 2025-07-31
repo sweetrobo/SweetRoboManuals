@@ -200,6 +200,68 @@ Certain cleaning operations (like flushing ice cream through hoppers) require po
 
 ---
 
+## Refilling Hoppers with Ice Cream Mix
+
+<div class="important-box">
+
+**IMPORTANT - Hopper Capacity & Fill Level**
+
+Each hopper has a capacity of 2L minimum to 12L maximum. **DO NOT fill above the air valve (airpath)** - this is the component that controls the amount of mix flowing down to the agitator. Overfilling past the air valve can cause:
+- Improper mix flow and consistency issues
+- Damage to the airpath system
+- Mix overflow into mechanical components
+- Voiding of warranty
+
+</div>
+
+### Proper Hopper Filling Procedure
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Check Mix Temperature</h3>
+• Ensure ice cream mix is properly chilled (below 41°F/5°C)<br>
+• Never add warm mix to hoppers<br>
+• Pre-chill mix in refrigerator if needed
+</div>
+</div>
+
+<div>
+<div>
+<h3>Inspect Hopper Interior</h3>
+<img src="./assets/maintenance/airpath-hopper-view.webp" alt="Hopper interior showing air valve location" />
+• Locate the air valve (airpath) inside each hopper<br>
+• Check that hopper is clean and dry<br>
+• Ensure agitator is properly positioned
+</div>
+</div>
+
+<div>
+<div>
+<h3>Fill to Proper Level</h3>
+<img src="./assets/maintenance/hopper-after-filling.webp" alt="Properly filled hopper below air valve" />
+• Pour mix slowly to avoid splashing<br>
+• Fill to maximum 1-2 inches BELOW the air valve<br>
+• Minimum fill: 2 liters (ensures proper operation)<br>
+• Maximum fill: 12 liters (never exceed air valve level)
+</div>
+</div>
+
+<div>
+<div>
+<h3>Record Mix Information</h3>
+• Note date and time of fill<br>
+• Record mix batch/lot number<br>
+• Mark expiration date (3 days from fill)<br>
+• Update cleaning log
+</div>
+</div>
+
+</div>
+
+---
+
 ## Weekly Maintenance Procedures
 
 Perform these comprehensive maintenance tasks weekly:

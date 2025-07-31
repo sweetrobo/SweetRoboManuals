@@ -364,6 +364,55 @@
     border: none;
 }
 
+/* Standalone images (not in grids) should be smaller and centered */
+.content > p > img:only-child,
+.content > img {
+    max-height: 500px;
+    width: auto;
+    margin: 1.5em auto;
+}
+
+/* Image captions - style text immediately after images */
+/* When paragraph contains both image and text/em elements */
+.content p:has(> img):not(:has(> img:only-child)) {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Make sure the image in a paragraph with caption maintains proper styling */
+.content p:has(> img):not(:has(> img:only-child)) > img {
+    display: block;
+    margin: 0 auto 0.5em auto;
+    max-height: 500px;
+    width: auto;
+}
+
+/* Caption in separate paragraph */
+.content img + p > em:only-child,
+.content p:has(> img) + p > em:first-child,
+.content p:has(> img) + p:has(> em:only-child) {
+    display: block;
+    text-align: center;
+    color: #666;
+    font-size: 0.85em;
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+}
+
+/* If the caption is in its own paragraph after an image paragraph 
+   Only apply if the paragraph starts with * or contains just text */
+.content p:has(> img) + p:not(:has(> *:not(em))):not(:has(img)) {
+    text-align: center;
+    color: #666;
+    font-size: 0.85em;
+    margin-top: -0.5em;
+    margin-bottom: 1.5em;
+}
+
 /* =================================== */
 /* LISTS */
 /* =================================== */
@@ -496,12 +545,13 @@
 /* =================================== */
 .title-page {
     text-align: center;
-    padding: 0.5em 0em;
     min-height: 100%;
     min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: calc(11in - 4cm); 
+    /* Letter size (?)*/
 }
 
 .title-page-header {
@@ -522,6 +572,7 @@
 
 .title-page-header .logo {
     height: 50px;
+    margin: 10px 0 !important;
 }
 
 .title-page-main {
@@ -530,6 +581,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 80px; /* Adjusted margin for better centering and push down image closer to bottom of page */
 }
 
 .title-page h1 {
@@ -561,19 +613,30 @@
 }
 
 .title-page .machine-image {
-    max-width: 500px;
-    max-height: 500px;
-    width: 100%;
-    height: auto;
-    margin: 2em 0;
+    max-width: 600px;
+    max-height: 700px;
+    width: auto;
+    height: 100%;
+    margin: 0 2em;
+    margin-top: auto;
+}
+
+/* Force all images on title page to have 0 margin */
+.title-page img {
+    margin: 0 !important;
+    max-height: 600px !important;
 }
 
 .title-page-footer {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 1em;
     color: #666;
+    gap: 0;
+    margin-top: auto;
+    width: 100%;
 }
 
 .title-page-footer p {
@@ -582,6 +645,21 @@
 
 .footer-left {
     text-align: left;
+    padding: 0;
+    flex: 0 0 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-machine-image {
+    flex: 1 1 auto;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+    margin: 0 !important;
+    display: block;
+    object-fit: contain;
 }
 
 .footer-right {
@@ -589,6 +667,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    flex: 0 0 130px;
 }
 
 .footer-right .qr-code {
@@ -604,6 +685,7 @@
     line-height: 1.2;
     margin: 0;
     color: #666;
+    text-align: center;
 }
 
 .highlight-block h3,
@@ -661,12 +743,21 @@
 /* =================================== */
 /* RESPONSIVE DESIGN */
 /* =================================== */
+/* Tablet - 2 columns */
 @media (max-width: 768px) {
     .feature-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
     }
     
     .side-by-side-images {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Phone - 1 column */
+@media (max-width: 480px) {
+    .feature-grid {
         grid-template-columns: 1fr;
     }
     
@@ -689,6 +780,52 @@
         margin-right: 0;
         margin-bottom: 1em;
     }
+    
+    /* Reduce margins and padding on info boxes for mobile */
+    .important-box,
+    .warning-box,
+    .caution-box,
+    .info-box {
+        margin: 0.75em 0;
+        padding: 0.75em;
+    }
+    
+    /* Further reduce padding for specific elements inside boxes */
+    .important-box p,
+    .warning-box p,
+    .caution-box p,
+    .info-box p {
+        margin: 0.25em 0;
+    }
+    
+    .important-box ul,
+    .warning-box ul,
+    .caution-box ul,
+    .info-box ul {
+        margin: 0.5em 0;
+        padding-left: 1.25em;
+    }
+    
+    .important-box li,
+    .warning-box li,
+    .caution-box li,
+    .info-box li {
+        margin: 0.25em 0;
+    }
+    
+    /* Reduce sidebar highlight spacing */
+    .sidebar-highlight {
+        margin: 1em 0;
+        padding-left: 1em;
+    }
+    
+    .sidebar-highlight h4 {
+        margin-bottom: 0.25em;
+    }
+    
+    .sidebar-highlight p {
+        margin: 0.25em 0;
+    }
 }
 
 /* =================================== */
@@ -709,7 +846,6 @@
     /* Title page specific - ensure it fits on one page */
     .title-page {
         page-break-after: always;
-        max-height: calc(11in - 4cm);
         overflow: hidden;
         border: 2px solid blue; /* Debug border */
     }
@@ -736,11 +872,10 @@
 /* , screen  */
 {
     /* DEBUG BORDERS - REMOVE WHEN DONE */
-    * {
+    /* * {
         border: 0.5px solid rgba(255, 0, 0, 0.2) !important;
     }
     
-    /* Specific debug borders for key elements */
     .title-page {
         border: 2px solid rgba(0, 0, 255, 0.2) !important;
     }
@@ -755,22 +890,21 @@
     
     table {
         border: 1px solid rgba(128, 0, 128, 0.5) !important;
-    }
+    } */
+
     /* Page setup */
     @page {
-        margin: 2cm 1cm 1.5cm 1cm; /* top right bottom left */
+        margin: 1cm 1cm 1.5cm 1cm;
         size: letter;
         
-        /* Page header with title */
-        @top-center {
-            content: "Sweet Robo - User Manual - Robo Ice Cream";
+        @top-left {
+            content: "Sweet Robo - User Manual - Robo Ice Cream F2";
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             font-size: 10pt;
             color: #666;
         }
         
-        /* Page numbers */
-        @bottom-right {
+        @top-right {
             content: counter(page);
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             font-size: 10pt;
@@ -778,63 +912,93 @@
         }
     }
     
-    /* First page (title page) - no header/footer */
     @page :first {
-        @top-center {
+        margin: 0;
+        height: 100%;
+
+        @top-left {
             content: none;
         }
-        @bottom-right {
+        @top-right {
             content: none;
         }
     }
+   
     
-    /* Title page specific - ensure it fits on one page */
+    /* Title page specific */
     .title-page {
         page-break-after: always;
-        /* Adjust height for smaller margins */
-        /* min-height: calc(11in - 1cm);  */
-        /* Letter height minus new margins */
-        /* overflow: visible;  */
-        /* Show content instead of hiding */
-        /* padding-bottom: 1cm;  */
-        /* Ensure footer has space */
     }
     
+    /* Hide introduction content in print */
+    .introduction-content {
+        display: none !important;
+    }
+    
+    /* When printing class is added by JS, hide page breaks after introduction */
+    body.printing .page-break:has(+ .chapter .introduction-content) {
+        display: none !important;
+    }
+    
+
+    table {
+        page-break-inside: avoid;
+    }
+    
+    .feature-grid {
+        display: grid !important;
+        gap: 1em !important;
+        page-break-inside: avoid;
+    }
+
+    .feature-item {
+        page-break-inside: avoid;
+    }
+    
+    .specs-table {
+        page-break-inside: avoid;
+    }
+    
+    .content img {
+        page-break-inside: avoid;
+        page-break-before: auto;
+        page-break-after: auto;
+    }
+
+    .side-by-side-images {
+        page-break-inside: avoid;
+    }
+
+    /* COMMENTED OUT ALL PRINT MODIFICATIONS EXCEPT TITLE PAGE
     .title-page .machine-image {
         max-width: 550px; 
-        max-height: 8in !important; /* Limit height for title page */
+        max-height: 8in !important;
         height: 100% !important; 
-        /* max-width: 100% !important;  */
     }
     
-    /* Ensure title page text is not clickable in print */
     .title-page h1 a,
     .title-page h2 a {
         color: inherit !important;
         text-decoration: none !important;
     }
 
-    /* Ensure footer stays within page bounds */
     .title-page-footer {
         position: relative;
-        /* margin-bottom: 0.5cm; */
     }
     
     .title-page-main {
         flex: 1 1 auto;
-        min-height: 1; /* Allow shrinking if needed */
+        min-height: 1;
     }
     
-    /* Prevent images from taking full pages */
     .content img {
-        max-height: 5in !important; /* Limit height to prevent full-page images */
-        page-break-inside: avoid; /* Try to keep images on one page */
-        page-break-before: auto; /* Allow page breaks before if needed */
-        page-break-after: auto; /* Allow page breaks after if needed */
-        margin: 0 auto !important; /* Center images */
+        max-height: 5in !important;
+        page-break-inside: avoid;
+        page-break-before: auto;
+        page-break-after: auto;
+        margin: 0 auto !important;
     }
 
-    /* Keep side-by-side images actually side by side in print */
     .side-by-side-images {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
@@ -844,37 +1008,31 @@
     
     .side-by-side-images img {
         max-width: 100% !important;
-        max-height: 3in !important; /* Smaller for side-by-side */
+        max-height: 3in !important;
         width: auto !important;
         height: auto !important;
     }
     
-    /* Prevent tables from unnecessary page breaks */
     table {
         page-break-inside: avoid;
     }
     
-    /* Feature grids should stay as grids */
     .feature-grid {
         display: grid !important;
-        /* grid-template-columns: repeat(2, 1fr) !important;  */
-        /* Force 2 columns - why did we try to force it?*/
         gap: 1em !important;
         page-break-inside: avoid;
     }
     
-    /* Prevent feature items from breaking */
     .feature-item {
         page-break-inside: avoid;
     }
     
-    /* Specs table adjustments */
     .specs-table {
         page-break-inside: avoid;
     }
     
     .specs-table .spec-row {
-        grid-template-columns: 1fr 2fr !important; /* Maintain side-by-side layout */
+        grid-template-columns: 1fr 2fr !important;
     }
     
     .content h1, .content h2 {
@@ -899,7 +1057,6 @@
         break-inside: avoid;
     }
     
-    /* Hide navigation elements */
     .nav-chapters,
     .mobile-nav-chapters,
     .nav-wrapper,
@@ -910,6 +1067,7 @@
     .nav-spacer {
         display: none !important;
     }
+    */
 }
 
 /* =================================== */

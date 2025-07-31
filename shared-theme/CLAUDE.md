@@ -121,6 +121,30 @@ The numbered-steps styling includes:
 4. Use `<br>` tags to separate bullet points, not `<ul>` elements
 5. CSS automatically detects and styles steps containing `<h3>` headers
 
+## Image Captions
+
+To add captions to standalone images, use italic text immediately after the image:
+
+```markdown
+![Image description](./assets/image.webp)
+*This is the image caption that will be centered and styled*
+```
+
+Or in HTML:
+```html
+<img src="./assets/image.webp" alt="Image description" />
+<p><em>This is the image caption that will be centered and styled</em></p>
+```
+
+The caption will automatically be:
+- Centered below the image
+- Gray color (#666)
+- Smaller font size (0.85em)
+- Italic style
+- Proper spacing from the image
+
+Note: Remove any asterisks (*) that are meant to surround the caption text - use proper markdown or HTML italic formatting instead.
+
 ## Sidebar Highlights
 
 The sidebar-highlight structure provides emphasized content with a vertical line and styled headers.

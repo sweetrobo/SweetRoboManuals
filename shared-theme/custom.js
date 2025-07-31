@@ -257,7 +257,7 @@
         const storedParams = getStoredPreferences();
         
         // If URL has any view params, use URL params and update storage
-        const hasUrlViewParams = ['dev', 'internal', 'technician', 'operator', 'customer'].some(key => key in urlParams);
+        const hasUrlViewParams = ['dev', 'internal', 'technician', 'operator', 'customer', 'controls', 'debug'].some(key => key in urlParams);
         
         if (hasUrlViewParams) {
             // URL params override stored preferences
@@ -324,13 +324,12 @@
 
     // Add toggle controls for easy switching
     function addToggleControls() {
-        // Only add controls if there are conditional elements
-        const hasConditional = document.querySelector('.conditional-content, [data-role]');
-        if (!hasConditional) return;
-
         // Check if controls should be shown
         const params = getEffectiveParams();
         if (!params.controls && !params.debug) return;
+        
+        // Don't require conditional elements to show controls
+        // This allows controls to persist across all pages
 
         // Create control panel
         const controlPanel = document.createElement('div');
@@ -343,6 +342,10 @@
                 <label><input type="checkbox" data-param="technician"> Technician View</label>
                 <label><input type="checkbox" data-param="operator"> Operator View</label>
                 <label><input type="checkbox" data-param="customer"> Customer View</label>
+            </div>
+            <div class="control-footer">
+                <button class="hide-controls-btn">Hide Controls</button>
+                <div class="reopen-hint">To reopen: add ?controls=true to URL</div>
             </div>
         `;
 
@@ -374,6 +377,31 @@
             }
             .control-options input {
                 margin-right: 5px;
+            }
+            .control-footer {
+                margin-top: 15px;
+                padding-top: 15px;
+                border-top: 1px solid #dee2e6;
+            }
+            .hide-controls-btn {
+                background: #dc3545;
+                color: white;
+                border: none;
+                padding: 6px 12px;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 13px;
+                width: 100%;
+                margin-bottom: 8px;
+            }
+            .hide-controls-btn:hover {
+                background: #c82333;
+            }
+            .reopen-hint {
+                font-size: 11px;
+                color: #666;
+                text-align: center;
+                line-height: 1.3;
             }
             @media print {
                 .conditional-controls {
@@ -421,7 +449,89 @@
             }
         });
 
+        // Handle hide button click
+        const hideButton = controlPanel.querySelector('.hide-controls-btn');
+        hideButton.addEventListener('click', () => {
+            // Remove controls from preferences
+            const currentParams = getEffectiveParams();
+            delete currentParams.controls;
+            delete currentParams.debug;
+            savePreferences(currentParams);
+            
+            // Remove the control panel
+            controlPanel.remove();
+            
+            // Show a temporary notification
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #333;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 14px;
+                z-index: 10000;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            `;
+            notification.textContent = 'Controls hidden. Add ?controls=true to URL to reopen.';
+            document.body.appendChild(notification);
+            
+            // Remove notification after 3 seconds
+            setTimeout(() => {
+                notification.remove();
+            }, 3000);
+        });
+
         document.body.appendChild(controlPanel);
+    }
+
+    /* ========================================
+       Print Page Modifications
+       ======================================== */
+    
+    function modifyPrintPage() {
+        // This works on all pages, not just print.html
+        
+        // Find and remove introduction chapter from print view
+        window.addEventListener('beforeprint', function() {
+            // For print.html, hide the entire chapter
+            if (isPrintPage()) {
+                const chapters = document.querySelectorAll('.chapter');
+                chapters.forEach(chapter => {
+                    if (chapter.querySelector('.introduction-content')) {
+                        chapter.style.display = 'none';
+                        // Also hide any page breaks after it
+                        const nextSibling = chapter.nextElementSibling;
+                        if (nextSibling && nextSibling.classList.contains('page-break')) {
+                            nextSibling.style.display = 'none';
+                        }
+                    }
+                });
+            }
+            
+            // Add a class to body to trigger CSS-based hiding
+            document.body.classList.add('printing');
+        });
+        
+        // Restore visibility after print (for screen viewing)
+        window.addEventListener('afterprint', function() {
+            document.body.classList.remove('printing');
+            
+            if (isPrintPage()) {
+                const chapters = document.querySelectorAll('.chapter');
+                chapters.forEach(chapter => {
+                    if (chapter.querySelector('.introduction-content')) {
+                        chapter.style.display = '';
+                        const nextSibling = chapter.nextElementSibling;
+                        if (nextSibling && nextSibling.classList.contains('page-break')) {
+                            nextSibling.style.display = '';
+                        }
+                    }
+                });
+            }
+        });
     }
 
     /* ========================================
@@ -432,6 +542,7 @@
         // Print handling
         setupPrintDialogHandler();
         addBackButton();
+        modifyPrintPage();
         
         // Conditional content
         applyConditionalContent();

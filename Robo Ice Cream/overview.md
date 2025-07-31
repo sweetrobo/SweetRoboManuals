@@ -21,7 +21,7 @@ Reading this manual before operating your machine is crucial for:
 
 </div>
 
-<img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" />
+<!-- <img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" /> -->
 
 ## System Overview
 
@@ -144,7 +144,7 @@ Sweet Robo machines are engineered for:
 - **Relative Humidity Tolerance**: < 80% RH (non-condensing)
 
 ### Capacity
-- **Ice Cream Hoppers**: 2 × 12L (dual flavor capability)
+- **Ice Cream Hoppers**: 2 × 12L (dual flavor capability) - Never fill above the air valve (airpath)
 - **Minimum Mix per Hopper**: 2L
 - **Cup Storage**: 200 cups (50 × 4 holders)
 - **Syrup Dispensers**: 3 (liquid syrups only)
@@ -201,8 +201,8 @@ These components are designed for direct use by customers, including children, w
 
 | Component | F2 Specifications |
 |-----------|------------------|
-| Ice Cream Hoppers | **2 hoppers** (Left & Right) - 2L minimum, 12L maximum capacity each |
-| Cup Holder/Dispenser | **4 cup tubes total**, **50 cups per tube** = **200 cups total capacity** |
+| Ice Cream Hoppers | **2 hoppers** (Left & Right) - 2L minimum, 12L maximum capacity each<br>**Important:** Never fill above the air valve (airpath) inside each hopper |
+| Cup Holder/Dispenser | 4 cup tubes, 50 cups per tube = **200 cups total capacity** |
 | Syrup Holders | **3 types** of liquid syrup (chocolate, strawberry, caramel, etc.) |
 | Dry Topping Containers | **3 types** of solid toppings, **270g per hopper** (sprinkles, crushed cookies, chopped nuts) |
 
@@ -246,24 +246,6 @@ These components are designed for direct use by customers, including children, w
   - Sample ice cream mix packets
   - Cleaning supplies
   - 200 cups
-
-## F2 vs F1 Model Comparison
-
-The core system is the same between both models, with key differences in hopper quantity, flavor control, and capacity.
-
-| Feature | F1 | F2 |
-|---------|----|----|
-| Ice Cream Flavors | 1 Flavor | 2 Flavors + Mixed Swirl (3rd Option) |
-| Ice Cream Hoppers | 1 Hopper | 2 Hoppers (Left and Right) |
-| Customer Flavor Options | Single option only | First Flavor / Second Flavor / Mixed |
-| Cup Storage | 100 cups (100 × 1 holders) | 200 cups (50 × 4 holders) |
-| Width | 83 cm (32.7 in) | 87 cm (34.3 in) |
-| Depth | 102 cm (40.2 in) | 120 cm (47.2 in) |
-| Weight (Empty) | 350 kg | 380 kg |
-| Power Requirement | Various | 220V only |
-| Use Case Focus | Single-flavor product launches | High-traffic or variety-based operations |
-
-**Note:** All other systems (cup dispenser, backend UI, payment, topping/syrup functionality) are **identical** unless otherwise stated.
 
 ## Important Safety Notes
 
