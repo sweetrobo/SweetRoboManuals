@@ -17,6 +17,14 @@ git-repository-url = "https://github.com/sweetrobo/SweetRoboManuals"
 git-repository-icon = "fa-github"
 additional-css = ["custom.css", "manual-styles.css"]
 additional-js = ["custom.js"]
+favicon = "assets/logo.webp"
+site-url = "https://sweetrobo.com/manuals/robo-ice-cream/"
+
+[output.html.metadata]
+description = "Comprehensive user manual for the Robo Ice Cream F2 machine. Setup, operation, maintenance, and troubleshooting guide."
+keywords = "Robo Ice Cream, Sweet Robo, ice cream machine, manual, F2, setup, operation, maintenance"
+author = "Sweet Robo"
+image = "assets/overview/robo-ice-cream-f2.webp"
 
 [output.html.print]
 enable = true
