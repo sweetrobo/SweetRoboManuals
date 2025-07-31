@@ -10,6 +10,9 @@
        Print Dialog Navigation Handler
        ======================================== */
 
+    // Shared variable for timeout ID
+    let navigationTimeoutId = null;
+
     // Check if we're on a print page
     function isPrintPage() {
         return window.location.pathname.includes('print.html') || 
@@ -56,6 +59,9 @@
             return;
         }
 
+        // Check if auto-return is enabled (default: true)
+        const autoReturn = localStorage.getItem('sweetrobo-print-autoreturn') !== 'false';
+
         let printDialogOpen = false;
         let checkInterval;
 
@@ -67,8 +73,13 @@
 
         window.addEventListener('afterprint', function() {
             printDialogOpen = false;
-            console.log('Print dialog closed, navigating back...');
-            setTimeout(navigateBack, 100); // Small delay to ensure dialog is fully closed
+            const currentAutoReturn = localStorage.getItem('sweetrobo-print-autoreturn') !== 'false';
+            if (currentAutoReturn) {
+                console.log('Print dialog closed, navigating back in 4 seconds...');
+                navigationTimeoutId = setTimeout(navigateBack, 4000); // 4 second delay
+            } else {
+                console.log('Print dialog closed, auto-return disabled');
+            }
         });
 
         // Method 2: Media query change detection (backup method)
@@ -76,8 +87,11 @@
             const mediaQueryList = window.matchMedia('print');
             mediaQueryList.addEventListener('change', function(mql) {
                 if (!mql.matches && printDialogOpen) {
-                    console.log('Print media query changed, navigating back...');
-                    setTimeout(navigateBack, 100);
+                    const currentAutoReturn = localStorage.getItem('sweetrobo-print-autoreturn') !== 'false';
+                    if (currentAutoReturn) {
+                        console.log('Print media query changed, navigating back in 4 seconds...');
+                        navigationTimeoutId = setTimeout(navigateBack, 4000); // 4 second delay
+                    }
                 }
             });
         }
@@ -95,9 +109,12 @@
 
         window.addEventListener('focus', function() {
             if (!windowFocused && printDialogOpen && isPrintPage()) {
-                console.log('Window regained focus after print dialog, navigating back...');
-                printDialogOpen = false;
-                setTimeout(navigateBack, 500); // Longer delay for focus method
+                const currentAutoReturn = localStorage.getItem('sweetrobo-print-autoreturn') !== 'false';
+                if (currentAutoReturn) {
+                    console.log('Window regained focus after print dialog, navigating back in 4 seconds...');
+                    printDialogOpen = false;
+                    navigationTimeoutId = setTimeout(navigateBack, 4000); // 4 second delay
+                }
             }
             windowFocused = true;
         });
@@ -109,29 +126,41 @@
         }
     }
 
-    // Add manual back button for print pages
+    // Add manual back button and auto-return toggle for print pages
     function addBackButton() {
         if (!isPrintPage()) {
             return;
         }
 
-        // Create back button
-        const backButton = document.createElement('button');
-        backButton.innerHTML = '← Back to Manual';
-        backButton.style.cssText = `
+        // Create container for controls
+        const controlContainer = document.createElement('div');
+        controlContainer.style.cssText = `
             position: fixed;
             top: 20px;
             left: 20px;
             z-index: 9999;
+            background: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        `;
+
+        // Create back button
+        const backButton = document.createElement('button');
+        backButton.innerHTML = '← Back to Manual';
+        backButton.style.cssText = `
             background: #2c5282;
             color: white;
             border: none;
             padding: 10px 15px;
             border-radius: 5px;
             cursor: pointer;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             font-size: 14px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+            display: block;
+            width: 100%;
         `;
 
         backButton.addEventListener('click', navigateBack);
@@ -142,13 +171,50 @@
             this.style.background = '#2c5282';
         });
 
-        // Hide button when printing
-        const printStyle = document.createElement('style');
-        printStyle.textContent = '@media print { .manual-back-button { display: none !important; } }';
-        document.head.appendChild(printStyle);
-        backButton.className = 'manual-back-button';
+        // Create auto-return toggle
+        const autoReturnLabel = document.createElement('label');
+        autoReturnLabel.style.cssText = `
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            color: #333;
+            cursor: pointer;
+        `;
+        
+        const autoReturnCheckbox = document.createElement('input');
+        autoReturnCheckbox.type = 'checkbox';
+        autoReturnCheckbox.checked = localStorage.getItem('sweetrobo-print-autoreturn') !== 'false';
+        autoReturnCheckbox.style.cssText = `
+            margin-right: 5px;
+            cursor: pointer;
+        `;
+        
+        autoReturnCheckbox.addEventListener('change', function() {
+            localStorage.setItem('sweetrobo-print-autoreturn', this.checked ? 'true' : 'false');
+            console.log('Auto-return after print:', this.checked ? 'enabled' : 'disabled');
+            
+            // Cancel any pending navigation if unchecked
+            if (!this.checked && navigationTimeoutId) {
+                clearTimeout(navigationTimeoutId);
+                navigationTimeoutId = null;
+                console.log('Cancelled pending navigation');
+            }
+        });
+        
+        autoReturnLabel.appendChild(autoReturnCheckbox);
+        autoReturnLabel.appendChild(document.createTextNode('Auto-return after printing'));
 
-        document.body.appendChild(backButton);
+        // Add elements to container
+        controlContainer.appendChild(backButton);
+        controlContainer.appendChild(autoReturnLabel);
+
+        // Hide controls when printing
+        const printStyle = document.createElement('style');
+        printStyle.textContent = '@media print { .manual-print-controls { display: none !important; } }';
+        document.head.appendChild(printStyle);
+        controlContainer.className = 'manual-print-controls';
+
+        document.body.appendChild(controlContainer);
     }
 
     /* ========================================

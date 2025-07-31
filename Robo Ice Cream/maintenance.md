@@ -2,59 +2,73 @@
 
 Proper maintenance is critical for the Robo Ice Cream F2's food safety, functionality, and regulatory compliance. The F2 model features **dual hoppers** that must both be maintained according to the same rigorous schedule, with a **200-cup capacity** requiring frequent monitoring.
 
-<div class="warning-box">
+<div class="important-box">
 
-**Important**: Only trained staff should perform internal cleaning. Always shut off ice cream-related systems before starting using the main I/O switch. Never leave mix in hoppers longer than 3 days.
+**IMPORTANT**
+
+Regular cleaning helps prevent failures and extends machine lifespan. Only trained staff should perform internal cleaning. Always shut off ice cream systems using the Main I/O switch before cleaning (certain maintenance tasks may require power). Never leave mix in hoppers longer than 3 days.
+
+</div>
+
+<div class="info-box">
+
+**Food Safety Guidelines**
+- All cleaning agents must be food-safe and approved for food equipment
+- Use only clean water and food-grade cleaning products on components that contact food
+- Maintain cleaning logs at all times for regulatory compliance
+- Only use food-grade chemicals when cleaning components that come in contact with food
 
 </div>
 
 ---
 
-## Daily Cleaning Procedures
+## Cleaning Schedule Summary
 
-Perform these tasks at the end of each operating day:
-
+### Daily Tasks ✅
 <div class="feature-grid">
 
 <div class="feature-item">
 
 #### External Cleaning
-• **Wipe down machine exterior** and touch interface<br>
-• **Sanitize touchscreen** and collection door area using food-safe sanitizer<br>
-• **Clean viewing window** with soft, damp cloth<br>
-• **Inspect** all customer contact points for residue or wear
+• Check expiration dates on ice cream mix in both hoppers<br>
+• Wipe down external machine surfaces<br>
+• Inspect cup and topping dispensers for debris/blockages<br>
+• Sanitize touchscreen and customer contact points
 
 </div>
 
 <div class="feature-item">
 
-#### Operational Checks
-• **Check mix expiration labels** on both hoppers<br>
-• **Verify hopper fill levels** for both Hopper A and Hopper B<br>
-• **Inspect cup dispenser** for debris or blockages (200-cup capacity requires regular monitoring)<br>
-• **Check topping bins and syrup lines** for residue or debris<br>
-• **Empty drip tray** if needed<br>
-• **Check for error messages** on both hopper systems
+#### Operational Verification
+• Verify hopper fill levels (both Hopper A and B)<br>
+• Monitor temperature displays (must be below 41°F/5°C)<br>
+• Check for error messages on display<br>
+• Empty drip tray if needed<br>
+• Inspect viewing window cleanliness
 
 </div>
 
-<div class="feature-item">
+</div>
 
-#### Safety Verification
-• Ensure UV sanitizer area is clear of debris<br>
-• Verify collection door closes properly<br>
-• Check that no mix has leaked onto internal surfaces
+### Every 3 Days ✅
+<div class="info-box">
+
+• Discard ice cream mix stored >3 days in either hopper<br>
+• Fully clean and sanitize both hoppers<br>
+• Run cleaning/flushing cycle through dispensing system<br>
+• Update cleaning log with completion time and operator initials
 
 </div>
 
-<div class="feature-item">
+### Weekly Tasks ✅
+<div class="info-box">
 
-#### Documentation
-• Update cleaning log with daily tasks<br>
-• Record any maintenance issues<br>
-• Note inventory levels for planning
-
-</div>
+• Clean syrup containers and tubing thoroughly<br>
+• Clean topping containers to prevent clumping<br>
+• Inspect all food-contact parts for wear/residue/buildup<br>
+• Empty and sanitize drip and waste collection area<br>
+• Test all safety systems and sensors<br>
+• Verify proper drainage for both hopper systems
 
 </div>
 
@@ -64,20 +78,38 @@ Perform these tasks at the end of each operating day:
 
 <div class="warning-box">
 
-**Required every 3 days maximum** - sooner if mix has expired. Both hoppers must be cleaned simultaneously to maintain consistency.
+**WARNING:** Ice cream mix must be discarded after 3 days in hopper. Temperature monitoring will automatically block dispensing if internal temperature exceeds 41°F (5°C) to prevent serving spoiled product.
 
 </div>
 
-<div class="step-header">Pre-Cleaning Safety</div>
+<div class="important-box">
+
+**Power Requirements During Cleaning**
+
+Certain cleaning operations (like flushing ice cream through hoppers) require power. Only turn off power to components not needed for the specific maintenance task. For electrical maintenance, always disconnect all power sources.
+
+</div>
+
+<div class="step-header">Pre-Cleaning Preparation</div>
 
 <div class="numbered-steps">
 
 <div>
-**Power Down**: Turn off the **Main I/O Power Switch**
+<div>
+<h3>Assess Power Needs</h3>
+• For hopper flushing: Keep power ON<br>
+• For manual cleaning only: Turn off Main I/O Power Switch<br>
+• Leave Breaker ON if backend access needed
+</div>
 </div>
 
 <div>
-**Leave Breaker ON** if backend access is needed for testing
+<div>
+<h3>Document Mix Status</h3>
+• Record mix expiration dates for both hoppers<br>
+• Note any temperature excursions<br>
+• Log start time of cleaning process
+</div>
 </div>
 
 </div>
@@ -87,139 +119,278 @@ Perform these tasks at the end of each operating day:
 <div class="numbered-steps">
 
 <div>
-<div class="step-header">Empty Both Hoppers</div>
-• Manually drain mix from **both Hopper A and Hopper B**<br>
-• Run **Thaw Fresh** + **Manual Discharge** on each hopper to flush residues<br>
+<div>
+<h3>1. Empty Both Hoppers</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: DRAINING HOPPER A</div>
+<div class="image-placeholder">IMAGE: DRAINING HOPPER B</div>
+</div>
+• Manually drain mix from both Hopper A and Hopper B<br>
+• Run <strong>Thaw Fresh</strong> + <strong>Manual Discharge</strong> on each hopper to flush residues<br>
 • Ensure complete drainage from both systems
 </div>
-
-<div>
-<div class="step-header">Water Flush System</div>
-• Fill **both hoppers** with warm water simultaneously<br>
-• Run **Auto Discharge** multiple times on each hopper until water runs clear<br>
-• Check that both dispensing lines are fully flushed
 </div>
 
 <div>
-<div class="step-header">Sanitize Both Hoppers</div>
-• Add food-safe sanitizer to **each hopper** (dairy-approved sanitizer required)<br>
+<div>
+<h3>2. Water Flush System</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: FILLING HOPPER WITH WATER</div>
+<div class="image-placeholder">IMAGE: WATER RUNNING CLEAR</div>
+</div>
+• Fill both hoppers with warm water simultaneously<br>
+• Run <strong>Auto Discharge</strong> multiple times on each hopper until water runs clear<br>
+• Check that both dispensing lines are fully flushed
+</div>
+</div>
+
+<div>
+<div>
+<h3>3. Sanitize Both Hoppers</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: ADDING SANITIZER</div>
+<div class="image-placeholder">IMAGE: RUNNING SANITIZE CYCLE</div>
+</div>
+• Add food-safe sanitizer to each hopper (dairy-approved sanitizer required)<br>
 • Run sanitizer cycle for 1-2 cycles on both hoppers<br>
 • Drain sanitizer from both systems completely
 </div>
+</div>
 
 <div>
-<div class="step-header">Clean Dispensing Nozzles</div>
-• Wipe **all ice cream nozzles** (both hopper lines) with sanitized cloth<br>
-• Clean **syrup and topping nozzles** thoroughly<br>
+<div>
+<h3>4. Clean Dispensing Nozzles</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: CLEANING NOZZLES</div>
+<div class="image-placeholder">IMAGE: USING BRUSH ON NARROW POINTS</div>
+</div>
+• Wipe all ice cream nozzles (both hopper lines) with sanitized cloth<br>
+• Clean syrup and topping nozzles thoroughly<br>
 • Use included brushes for narrow dispensing points
 </div>
-
-<div>
-<div class="step-header">UV Zone & Door Area</div>
-• Wipe down dispensing door and UV sanitization zone with soft cloth<br>
-• Avoid alcohol or abrasive cleaners<br>
-• Ensure UV lamp housing is clean and unobstructed
 </div>
 
 <div>
-<div class="step-header">Final Surface Cleaning</div>
+<div>
+<h3>5. Dispensing Area Cleaning</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: CLEANING DISPENSING DOOR</div>
+<div class="image-placeholder">IMAGE: WIPING COLLECTION AREA</div>
+</div>
+• Wipe down dispensing door and collection area with soft cloth<br>
+• Avoid alcohol or abrasive cleaners near sensitive components<br>
+• Ensure all dispensing areas are clean and unobstructed
+</div>
+</div>
+
+<div>
+<div>
+<h3>6. Final Surface Cleaning</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: CLEANING TOUCHSCREEN</div>
+<div class="image-placeholder">IMAGE: READY FOR REFILL</div>
+</div>
 • Wipe down touchscreen, frame, and outer panels<br>
 • Clean internal collection area thoroughly<br>
 • Verify all surfaces are dry before refilling
+</div>
 </div>
 
 </div>
 
 ---
 
-## Weekly Maintenance Tasks
+## Weekly Maintenance Procedures
 
 Perform these comprehensive maintenance tasks weekly:
 
 <div class="numbered-steps">
 
 <div>
-<div class="step-header">Syrup Line Maintenance</div>
-• Disconnect syrup bags and flush lines with warm water<br>
-• Use **Test Syrup 1-3** functions to verify line cleanliness<br>
+<div>
+<h3>1. Flush Syrup Lines</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: DISCONNECTING SYRUP CONTAINER</div>
+<div class="image-placeholder">IMAGE: FLUSHING WITH WATER</div>
+</div>
+• Disconnect syrup containers<br>
+• Flush lines with warm water using <strong>Test Syrup 1-3</strong> functions<br>
+• Inspect nozzles for stickiness or discoloration<br>
 • Reconnect and test dispensing accuracy
 </div>
+</div>
 
 <div>
-<div class="step-header">Topping System Cleaning</div>
-• Remove and empty all topping hoppers<br>
+<div>
+<h3>2. Clean Topping Hoppers</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: REMOVING TOPPING HOPPER</div>
+<div class="image-placeholder">IMAGE: WASHING WITH SOAP</div>
+</div>
+• Remove and empty all topping hoppers (270g capacity each)<br>
 • Wash with mild soap and warm water<br>
-• **Dry completely** before reinstalling to prevent clumping<br>
+• <strong>Dry completely</strong> before reinstalling to prevent clumping<br>
+• Wipe internal walls and sanitize surfaces<br>
 • Refill with fresh toppings
 </div>
-
-<div>
-<div class="step-header">System Function Testing</div>
-• **Cup Sensor Test**: Insert cup manually, confirm door stays open<br>
-• **Door Auto-Close Test**: Remove cup, ensure door closes automatically<br>
-• **Cup Dropper Test**: Run **Manual Drop Cup** from backend interface<br>
-• Check for jams or misalignment in 200-cup dispensing system
 </div>
 
 <div>
-<div class="step-header">UV Lamp Inspection</div>
-• Use backend to activate UV lamp<br>
-• Verify proper illumination<br>
-• Replace if not lighting (see troubleshooting section)
+<div>
+<h3>3. Sensor Test</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: TESTING CUP SENSOR</div>
+<div class="image-placeholder">IMAGE: DOOR AUTO-CLOSE</div>
+</div>
+• Insert cup manually; confirm door stays open while detected<br>
+• Remove cup; ensure door auto-closes<br>
+• Check for proper sensor alignment
+</div>
 </div>
 
 <div>
-<div class="step-header">Dual Hopper System Check</div>
+<div>
+<h3>4. Cup Dropper Test</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: BACKEND CUP TEST</div>
+<div class="image-placeholder">IMAGE: CHECKING ALIGNMENT</div>
+</div>
+• Run <strong>Manual Drop Cup</strong> from backend<br>
+• Check for jams or misalignment<br>
+• Verify smooth operation of 200-cup system<br>
+• Inspect cup tubes for blockages
+</div>
+</div>
+
+<div>
+<div>
+<h3>5. Temperature System Verification</h3>
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: CHECKING TEMPERATURE DISPLAY</div>
+<div class="image-placeholder">IMAGE: BACKEND TEMPERATURE READINGS</div>
+</div>
 • Test temperature sensors in both hoppers<br>
-• Verify automatic temperature cutoff (41°F/5°C maximum)<br>
-• Check mix level sensors for accuracy
+• Verify automatic cutoff at 41°F (5°C)<br>
+• Check mix level sensors for accuracy<br>
+• Confirm refrigeration performance
+</div>
 </div>
 
 </div>
 
 ---
 
-## Cleaning Supplies and Safety
+## Approved Cleaning Products
 
 <div class="feature-grid">
 
 <div class="feature-item">
 
-#### Approved Cleaning Agents
-• **Food-safe sanitizers** approved for dairy machines only<br>
-• **Warm water** and neutral detergents<br>
-• **Food-grade sanitizers** for hopper cleaning
+#### ✅ Approved Products
+• Warm water with neutral detergent<br>
+• Mild dish soap (e.g., Dawn)<br>
+• Food-safe sanitizer (certified quaternary ammonium-based for food contact)<br>
+• 70% isopropyl alcohol (touchscreen and outer surfaces only)<br>
+• Boiling water only where appropriate per instructions
 
 </div>
 
 <div class="feature-item">
 
-#### Prohibited Substances
-• Harsh or corrosive chemicals<br>
-• Metal tools or hard brushes<br>
-• Alcohol-based cleaners near UV components<br>
-• Concentrated cleaning products that may corrode surfaces
+#### ❌ Prohibited Products
+• Paint thinner or volatile oils<br>
+• Bleach or alkaline cleaners<br>
+• Abrasive powders or scouring pads<br>
+• Acetone or solvent-based chemicals<br>
+• Strong alkaline detergents<br>
+• Any chemicals that corrode or crack paint and plastic
 
 </div>
 
-<div class="feature-item">
+</div>
 
-#### Safety Guidelines
-• Use separate tools for food-contact areas and waste zones to prevent cross-contamination<br>
-• Never use expired cleaning solutions<br>
-• Wear appropriate protective equipment<br>
-• Ensure proper ventilation during cleaning
+<div class="warning-box">
+
+**WARNING:** Only use manufacturer-recommended cleaning agents. Never use abrasive cleaners, solvents, or harsh chemicals on any machine components.
 
 </div>
+
+## Cleaning Safety Guidelines
+
+<div class="feature-grid">
 
 <div class="feature-item">
 
 #### Cross-Contamination Prevention
+• Use separate tools for food-contact areas and waste zones<br>
 • Clean Hopper A and Hopper B systems separately to prevent flavor mixing<br>
 • Use designated cleaning tools for each hopper system<br>
 • Label cleaning supplies to maintain separation
 
 </div>
+
+<div class="feature-item">
+
+#### Personal Safety
+• Never use expired cleaning solutions<br>
+• Wear appropriate protective equipment<br>
+• Ensure proper ventilation during cleaning<br>
+• Allow warm components to cool before cleaning<br>
+• Avoid loose clothing/jewelry near moving parts
+
+</div>
+
+</div>
+
+---
+
+## Electrical Safety During Maintenance
+
+<div class="warning-box">
+
+**WARNING: Electrical Shock Hazard.** Only personnel with appropriate electrical knowledge should service electrical components. Improper handling can cause serious injury or death.
+
+</div>
+
+### Power Management Guidelines
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Before Any Maintenance</h3>
+• Determine if power is needed for the specific task<br>
+• For hopper flushing/cleaning cycles: Keep power ON<br>
+• For electrical work: Always disconnect ALL power sources<br>
+• Never unplug while machine is powered on
+</div>
+</div>
+
+<div>
+<div>
+<h3>Proper Shutdown Procedure</h3>
+• Use backend software shutdown button to power down internal PC first<br>
+• Turn off Main I/O Power Switch<br>
+• Use Breaker Switch to safely isolate system<br>
+• Disconnect power cord only after breaker is OFF
+</div>
+</div>
+
+<div>
+<div>
+<h3>Safety Precautions</h3>
+• Be mindful of ESD (Electrostatic Discharge) when near electronics - static electricity can damage components<br>
+• Consider using an ESD wrist strap for internal electronics work<br>
+• Allow any warm components (IO boards, motors) to cool before touching<br>
+• Never touch IO boards without contacting support first
+</div>
+</div>
+
+</div>
+
+<div class="important-box">
+
+**IMPORTANT:** Inform Sweet Robo technician of any electrical issues before attempting repairs. Unauthorized modifications may void warranty.
 
 </div>
 
@@ -262,16 +433,63 @@ Operators must maintain visible cleaning logs onsite including:
 
 ---
 
+## Cleaning Schedule Template
+
+<div class="important-box">
+
+**Downloadable Cleaning Log**
+
+To maintain proper documentation for health inspections and NAMA compliance:
+- Access the online manual at [manual URL] to download a printable cleaning log template
+- Or create your own log tracking the following information
+
+</div>
+
+### Sample Cleaning Log Format
+
+| Task Type | Frequency | Date Completed | Time | Operator Initials | Next Due Date | Notes |
+|-----------|-----------|----------------|------|-------------------|---------------|-------|
+| Daily External Clean | Daily | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+| Mix Expiration Check | Daily | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+| 3-Day Hopper Clean | Every 3 days | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+| Syrup Line Flush | Weekly | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+| Topping Container Clean | Weekly | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+| Full System Test | Weekly | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+
+<div class="info-box">
+
+**Additional Tracking Requirements:**
+- Which hopper was cleaned (A, B, or both)
+- Cleaning agent used and concentration
+- Any issues discovered during cleaning
+- Corrective actions taken
+
+</div>
+
+---
+
 ## Mix Management (Dual Hopper System)
 
 <div class="info-box">
 
 ### F2 Dual Hopper Requirements
 - **Shelf life**: 3-4 days maximum after mixing (both hoppers)
-- **Storage**: Keep unmixed packets in cool, dry place
-- **Mixing ratio**: Always 3L water to 1 packet for each hopper
+- **Storage**: Keep unmixed powder bags in cool, dry place
+- **Mixing ratio**: Always 3-3.5L water to 1 bag (1.5kg) of powder for each hopper
 - **Temperature**: Use room temperature water for mixing
 - **Capacity**: Each hopper serves 100 cups (200 total capacity)
+
+</div>
+
+<div class="sidebar-highlight">
+
+<h4>Water Ratio Effects on Consistency</h4>
+
+**3L water (minimum)**: Produces thicker, richer ice cream with more intense flavor and creamier texture. May dispense slightly slower.
+
+**3.5L water (maximum)**: Creates lighter consistency that's easier to dispense, with milder flavor. Yields more servings per bag.
+
+*Adjust within this range based on your customer preferences and local climate conditions.*
 
 </div>
 
@@ -298,6 +516,52 @@ Operators must maintain visible cleaning logs onsite including:
 
 <img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Mix Preparation Step 3" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Step 3: Mix thoroughly</p>
+
+### Adding Flavors to Ice Cream Mix
+
+<div class="info-box">
+
+**Flavor Enhancement Options**
+
+To create flavored ice cream varieties, you can add specialized flavor concentrates to your base mix:
+
+</div>
+
+<div class="side-by-side-images">
+  <img src="./assets/maintenance/x-flavors-belgian-chocolate.webp" alt="X-flavors Belgian Chocolate Mix" />
+  <div class="image-placeholder">IMAGE: ADDING FLAVOR TO MIX</div>
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">X-flavors Belgian Chocolate concentrate | Adding flavor to prepared mix</p>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Flavor Mix Instructions</h3>
+• Prepare standard ice cream mix (3-3.5L water + 1 bag (1.5kg) of powder)<br>
+• Add <strong>2.5 oz (75ml)</strong> of flavor concentrate per batch<br>
+• Mix thoroughly before adding to hopper<br>
+• Shake flavor bottle well before use
+</div>
+</div>
+
+<div>
+<div>
+<h3>Important Notes</h3>
+• Use only food-grade flavor concentrates approved for ice cream<br>
+• Store flavor bottles under 40°F as indicated on label<br>
+• Mix one Aussieblends mix bag before adding flavor<br>
+• Different flavors can be used in Hopper A and Hopper B
+</div>
+</div>
+
+</div>
+
+<div class="caution-box">
+
+**CAUTION:** Always verify flavor concentrates are gluten-free and meet dietary requirements if serving customers with allergies.
+
+</div>
 
 ### Cleaning Supplies
 
@@ -363,27 +627,63 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 
 ---
 
-## Installation Precautions
+## Installation and Transport Safety
+
+<div class="warning-box">
+
+**WARNING: Refrigerant System** - This machine contains R290 refrigerant (eco-friendly, food equipment compliant). Machine MUST remain upright at all times. Never tilt or turn machine on its side as this will cause serious damage to the refrigeration system.
+
+</div>
 
 <div class="step-header">Initial Setup Safety</div>
 
 <div class="numbered-steps">
 
 <div>
-**Inspect upon delivery**: Check machine body, glass, and wheels for damage
+<div>
+<h3>Inspect Upon Delivery</h3>
+• Check machine body, glass, and wheels for damage<br>
+• Verify machine remained upright during transport<br>
+• Document any shipping damage immediately
+</div>
 </div>
 
 <div>
-**Transport upright**: Allow 2+ hours to settle before connecting power
+<div>
+<h3>Transport and Settling Requirements</h3>
+• <strong>CRITICAL:</strong> Keep machine upright at all times<br>
+• Allow 2+ hours to settle before connecting power<br>
+• This allows refrigerant to stabilize after transport
+</div>
 </div>
 
 <div>
-**Professional installation**: Due to steel construction, use qualified personnel
+<div>
+<h3>Professional Installation</h3>
+• Due to 380kg weight and steel construction, use qualified personnel<br>
+• Machine wheels are NOT designed for long-distance pushing<br>
+• Special lifting equipment required for wheel replacement
+</div>
 </div>
 
 <div>
-**Level surface required**: Maximum 5% inclination (2°) on all sides
+<div>
+<h3>Level Surface Required</h3>
+• Maximum 5% inclination (2°) on all sides<br>
+• Use adjustable feet to level machine<br>
+• Proper leveling ensures refrigeration efficiency
 </div>
+</div>
+
+</div>
+
+<div class="important-box">
+
+**Refrigeration System Details:**
+- Cooling Type: Direct-contact evaporator plate  
+- Refrigerant: R290 (Propane - eco-friendly, food equipment compliant)
+- Insulation: High-density polyurethane foam
+- Rated Cooling Output: ~500W combined for dual hoppers
 
 </div>
 
@@ -443,9 +743,9 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 • Check refrigeration system performance for both hoppers<br>
 • Inspect door alignment and seals<br>
 • Test all payment systems<br>
-• Verify UV lamp operation<br>
 • Check for software updates<br>
-• Monitor 200-cup dispenser mechanism
+• Monitor 200-cup dispenser mechanism<br>
+• Verify proper ventilation and cooling
 
 </div>
 
@@ -469,9 +769,46 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 Common wear items for F2 dual hopper system:
 - Door seals
 - Dispensing nozzles (both hopper lines)
-- UV lamp (annual)
-- Cup sensor alignment
+- Cup sensor components
 - Dual hopper temperature sensors
+- Agitator shaft seals
+- O-rings and gaskets
+
+</div>
+
+---
+
+## Common Maintenance Issues & Solutions
+
+| Issue | Possible Cause | Action Steps |
+|-------|----------------|-------------|
+| Machine does not power on | Breaker off | Check breaker is ON |
+| Screen blank but power on | Internal PC not booted | Open service panel, press PC power button. Contact support if recurring |
+| Ice cream not dispensing | Hopper empty or mix too cold | Check hopper level and run thaw cycle |
+| Cup not dropping | Cup tube empty or jammed | Refill cup tubes, run test drop in backend |
+| Dispensing door not open | Sensor blocked or door jammed | Clear obstructions, restart door motor via backend |
+| Topping not added | Empty container or blocked dispenser | Refill and clean topping container, test via backend |
+| Syrup not dispensing | Tubing clogged or container empty | Clean tubing, replace syrup container, run test |
+| Machine UI unresponsive | System overloaded | Try full machine power cycle. If continues, contact support |
+
+### Error Code Response
+1. Record exact code and description
+2. Attempt soft reset (power cycle from backend only)
+3. If unresolved, contact support with full error log
+
+### When to Contact Support
+<div class="warning-box">
+
+**Contact Sweet Robo Support immediately for:**
+- Suspected internal electrical failure or broken hardware
+- Error codes persist after rebooting
+- Sensors, motors, dispensers not responding
+- Erratic or inconsistent behavior
+- When above troubleshooting steps are unsuccessful
+
+**Always include:** Model (F2), serial number, and brief issue description
+- Email: support@sweetrobo.com
+- Phone: +1-844-793-3872
 
 </div>
 

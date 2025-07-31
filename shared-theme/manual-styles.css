@@ -506,8 +506,8 @@
 
 .title-page-header {
     border-bottom: 2px solid #ddd;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    /* padding-bottom: 5px; */
+    margin-bottom: 0.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -516,10 +516,12 @@
 .title-page-header .title {
     font-size: 1.2em;
     color: #333;
+    width: 100%;
+    text-align: left
 }
 
 .title-page-header .logo {
-    height: 40px;
+    height: 50px;
 }
 
 .title-page-main {
@@ -531,17 +533,31 @@
 }
 
 .title-page h1 {
-    font-size: 4em;
-    margin: 0.5em 0;
+    font-size: 3em;
+    margin: 0.2em 0;
     color: #000;
     font-weight: bold;
 }
 
+.title-page h1 a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
 .title-page h2 {
-    font-size: 2em;
-    margin: 0.5em 0;
+    font-size: 1.5em;
+    margin: 0.2em 0;
     color: #333;
     font-weight: normal;
+}
+
+.title-page h2 a {
+    color: inherit !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
+    cursor: default !important;
 }
 
 .title-page .machine-image {
@@ -676,70 +692,189 @@
 }
 
 /* =================================== */
-/* PRINT STYLES */
+/* TEMPORARY: PRINT PREVIEW IN BROWSER */
 /* =================================== */
-@media print {
-    /* Page setup */
-    @page {
-        margin: 2cm;
-        size: letter;
+/* TODO: Remove this section when done debugging */
+@media screen and (min-width: 9999px) { /* Use impossible width to disable by default */
+    /* Copy of print styles for preview - change to min-width: 1px to enable */
+    
+    /* Page setup simulation */
+    body {
+        max-width: 8.5in;
+        margin: 2cm auto;
+        background: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
     
-    /* Override mdBook's default print styles */
-    #content {
-        max-width: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    
-    .content {
-        padding: 0 !important;
-    }
-    
-    /* Override the .content main styles */
-    .content main {
-        margin: 0 !important;
-        max-width: none !important;
-    }
-    
-    /* Title page specific */
+    /* Title page specific - ensure it fits on one page */
     .title-page {
         page-break-after: always;
-        /* Minimum height to fill a page */
-        min-height: calc(100vh - 4cm);
-        /* Negative margins to expand width */
-        margin-left: -15px;
-        margin-right: -15px;
-        /* Add padding back */
-        padding: 2em;
-        /* Layout */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        max-height: calc(11in - 4cm);
+        overflow: hidden;
+        border: 2px solid blue; /* Debug border */
     }
     
-    /* Hide default mdBook title that appears above content */
-    .page:has(.title-page) > h1:first-child {
-        display: none;
+    /* Image constraints */
+    .content img {
+        max-height: 4in !important;
+        border: 1px solid green; /* Debug border */
     }
     
-    /* Adjust image size to fit on page */
+    /* Side-by-side images */
+    .side-by-side-images {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 1em !important;
+        border: 1px solid orange; /* Debug border */
+    }
+}
+
+/* =================================== */
+/* PRINT STYLES */
+/* =================================== */
+@media print
+/* , screen  */
+{
+    /* DEBUG BORDERS - REMOVE WHEN DONE */
+    * {
+        border: 0.5px solid rgba(255, 0, 0, 0.2) !important;
+    }
+    
+    /* Specific debug borders for key elements */
+    .title-page {
+        border: 2px solid rgba(0, 0, 255, 0.2) !important;
+    }
+    
+    .content img {
+        border: 1px solid rgba(0, 128, 0, 0.5) !important;
+    }
+    
+    .side-by-side-images {
+        border: 1px solid rgba(255, 166, 0, 0.5) !important;
+    }
+    
+    table {
+        border: 1px solid rgba(128, 0, 128, 0.5) !important;
+    }
+    /* Page setup */
+    @page {
+        margin: 2cm 1cm 1.5cm 1cm; /* top right bottom left */
+        size: letter;
+        
+        /* Page header with title */
+        @top-center {
+            content: "Sweet Robo - User Manual - Robo Ice Cream";
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 10pt;
+            color: #666;
+        }
+        
+        /* Page numbers */
+        @bottom-right {
+            content: counter(page);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 10pt;
+            color: #666;
+        }
+    }
+    
+    /* First page (title page) - no header/footer */
+    @page :first {
+        @top-center {
+            content: none;
+        }
+        @bottom-right {
+            content: none;
+        }
+    }
+    
+    /* Title page specific - ensure it fits on one page */
+    .title-page {
+        page-break-after: always;
+        /* Adjust height for smaller margins */
+        /* min-height: calc(11in - 1cm);  */
+        /* Letter height minus new margins */
+        /* overflow: visible;  */
+        /* Show content instead of hiding */
+        /* padding-bottom: 1cm;  */
+        /* Ensure footer has space */
+    }
+    
     .title-page .machine-image {
-        max-width: 300px;
-        max-height: 300px;
-        width: auto;
-        height: auto;
+        max-width: 550px; 
+        max-height: 8in !important; /* Limit height for title page */
+        height: 100% !important; 
+        /* max-width: 100% !important;  */
     }
     
-    /* Adjust font sizes for print */
-    .title-page h1 {
-        font-size: 2.5em;
-        margin: 0.5em 0;
+    /* Ensure title page text is not clickable in print */
+    .title-page h1 a,
+    .title-page h2 a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    /* Ensure footer stays within page bounds */
+    .title-page-footer {
+        position: relative;
+        /* margin-bottom: 0.5cm; */
     }
     
-    .title-page h2 {
-        font-size: 1.5em;
-        margin: 0.5em 0;
+    .title-page-main {
+        flex: 1 1 auto;
+        min-height: 1; /* Allow shrinking if needed */
+    }
+    
+    /* Prevent images from taking full pages */
+    .content img {
+        max-height: 5in !important; /* Limit height to prevent full-page images */
+        page-break-inside: avoid; /* Try to keep images on one page */
+        page-break-before: auto; /* Allow page breaks before if needed */
+        page-break-after: auto; /* Allow page breaks after if needed */
+        margin: 0 auto !important; /* Center images */
+    }
+
+    /* Keep side-by-side images actually side by side in print */
+    .side-by-side-images {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 1em !important;
+        page-break-inside: avoid;
+    }
+    
+    .side-by-side-images img {
+        max-width: 100% !important;
+        max-height: 3in !important; /* Smaller for side-by-side */
+        width: auto !important;
+        height: auto !important;
+    }
+    
+    /* Prevent tables from unnecessary page breaks */
+    table {
+        page-break-inside: avoid;
+    }
+    
+    /* Feature grids should stay as grids */
+    .feature-grid {
+        display: grid !important;
+        /* grid-template-columns: repeat(2, 1fr) !important;  */
+        /* Force 2 columns - why did we try to force it?*/
+        gap: 1em !important;
+        page-break-inside: avoid;
+    }
+    
+    /* Prevent feature items from breaking */
+    .feature-item {
+        page-break-inside: avoid;
+    }
+    
+    /* Specs table adjustments */
+    .specs-table {
+        page-break-inside: avoid;
+    }
+    
+    .specs-table .spec-row {
+        grid-template-columns: 1fr 2fr !important; /* Maintain side-by-side layout */
     }
     
     .content h1, .content h2 {

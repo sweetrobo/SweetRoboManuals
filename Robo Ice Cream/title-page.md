@@ -1,7 +1,7 @@
 <div class="title-page">
 
 <div class="title-page-header">
-<div class="title">Sweet Robo - User Manual - Robo Ice Cream</div>
+<div class="title">Robo Ice Cream - User Manual</div>
 <img src="./assets/logo.webp" alt="Sweet Robo Logo" class="logo" />
 </div>
 
