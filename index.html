@@ -5,25 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Robo Manuals</title>
     <script>
-        // Detect if we're on GitHub Pages or local development
-        function getManualPath(manualName) {
-            const path = window.location.pathname;
-            
-            // Check if we're on GitHub Pages (path includes /SweetRoboManuals/)
-            if (path.includes('/SweetRoboManuals/')) {
-                // GitHub Pages: use direct folder names
-                return manualName + '/index.html';
+        // Detect if we're in development mode (port 4000)
+        const isDev = window.location.port === '4000';
+        
+        // Get manual path based on environment
+        function getManualPath(manualName, port) {
+            if (isDev && port) {
+                // Development mode: use localhost with specific ports
+                return `http://localhost:${port}`;
             } else {
-                // Local development: use build folder
-                return 'build/' + manualName + '/index.html';
+                const path = window.location.pathname;
+                // Check if we're on GitHub Pages (path includes /SweetRoboManuals/)
+                if (path.includes('/SweetRoboManuals/')) {
+                    // GitHub Pages: use direct folder names
+                    return manualName + '/index.html';
+                } else {
+                    // Local build: use build folder
+                    return 'build/' + manualName + '/index.html';
+                }
             }
         }
         
         // Set manual links when page loads
         window.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('robo-ice-cream-link').href = getManualPath('robo-ice-cream');
-            document.getElementById('candy-monster-link').href = getManualPath('candy-monster');
-            document.getElementById('pop-cart-link').href = getManualPath('pop-cart');
+            console.log('Port:', window.location.port, 'isDev:', isDev);
+            
+            // Update page title if in dev mode
+            if (isDev) {
+                console.log('DEV MODE ACTIVATED!');
+                document.title = 'Sweet Robo Manuals - Development';
+                
+                // Add dev banner
+                const banner = document.createElement('div');
+                banner.className = 'dev-banner';
+                banner.innerHTML = '🚧 DEVELOPMENT MODE - Live servers running on ports 4000-4003 🚧';
+                document.body.insertBefore(banner, document.body.firstChild);
+                
+                // Update header subtitle
+                const headerP = document.querySelector('.header p');
+                if (headerP) {
+                    headerP.textContent = 'Live development servers with auto-reload on file changes';
+                }
+                
+                // Add server info to each card
+                const cards = document.querySelectorAll('.manual-card');
+                const ports = [4001, 4002, 4003];
+                cards.forEach((card, index) => {
+                    if (index < ports.length) {
+                        const serverInfo = document.createElement('div');
+                        serverInfo.className = 'server-info';
+                        serverInfo.innerHTML = `
+                            <span class="server-status"></span>
+                            Development server: <strong>localhost:${ports[index]}</strong>
+                        `;
+                        card.appendChild(serverInfo);
+                    }
+                });
+                
+                // Add development commands section
+                const devSection = document.createElement('div');
+                devSection.style = 'background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 40px; margin-bottom: 40px;';
+                devSection.innerHTML = `
+                    <h3>Development Server Commands</h3>
+                    <pre style="background: #f8f9fa; padding: 20px; border-radius: 5px; overflow-x: auto;">
+# Start all servers (opens this page)
+./dev.sh all
+
+# Start individual manual servers
+./dev.sh ice     # Robo Ice Cream on port 4001
+./dev.sh candy   # Candy Monster on port 4002
+./dev.sh pop     # Pop Cart on port 4003
+
+# Interactive menu
+./dev.sh</pre>
+                    <p style="text-align: center; margin-top: 20px; color: #666;">
+                        All servers auto-reload on file changes. Press <strong>Ctrl+C</strong> to stop servers.
+                    </p>
+                `;
+                
+                // Insert before support section
+                const supportSection = document.querySelector('.support-section');
+                if (supportSection) {
+                    supportSection.parentNode.insertBefore(devSection, supportSection);
+                }
+            }
+            
+            // Set manual links
+            const roboLink = getManualPath('robo-ice-cream', 4001);
+            const candyLink = getManualPath('candy-monster', 4002);
+            const popLink = getManualPath('pop-cart', 4003);
+            
+            console.log('Setting links:', {robo: roboLink, candy: candyLink, pop: popLink});
+            
+            const roboElement = document.getElementById('robo-ice-cream-link');
+            const candyElement = document.getElementById('candy-monster-link');
+            const popElement = document.getElementById('pop-cart-link');
+            
+            if (roboElement) {
+                roboElement.href = roboLink;
+                console.log('Robo link updated to:', roboElement.href);
+            } else {
+                console.error('Could not find robo-ice-cream-link element');
+            }
+            
+            if (candyElement) {
+                candyElement.href = candyLink;
+                console.log('Candy link updated to:', candyElement.href);
+            } else {
+                console.error('Could not find candy-monster-link element');
+            }
+            
+            if (popElement) {
+                popElement.href = popLink;
+                console.log('Pop link updated to:', popElement.href);
+            } else {
+                console.error('Could not find pop-cart-link element');
+            }
         });
     </script>
     <style>
@@ -35,6 +132,15 @@
             margin: 0 auto;
             padding: 20px;
             background: #f5f5f5;
+        }
+        .dev-banner {
+            background: #fed7aa;
+            color: #c05621;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
         }
         .header {
             text-align: center;
@@ -125,6 +231,28 @@
             font-style: italic;
             border: 2px dashed #dee2e6;
         }
+        .server-info {
+            background: #e6f3ff;
+            border: 1px solid #2c5282;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        .server-status {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #22c55e;
+            animation: pulse 2s infinite;
+            margin-right: 8px;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
     </style>
 </head>
 <body>
@@ -181,7 +309,7 @@
         </div>
     </div>
 
-    <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 40px; text-align: center;">
+    <div class="support-section" style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 40px; text-align: center;">
         <h3>Support & Contact</h3>
         <p>
             <strong>Technical Support:</strong> <a href="mailto:support@sweetrobo.com">support@sweetrobo.com</a> |

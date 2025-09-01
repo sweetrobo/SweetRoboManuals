@@ -39,20 +39,36 @@ Each machine folder contains:
 - `assets/` - Images and media files
 - `resources/` - Additional documentation and source materials
 
+## Development - Working on a Manual
+
+### Quick Development Server
+```bash
+# Interactive menu to choose a manual
+./dev.sh
+
+# Or directly start a specific manual:
+./dev.sh ice         # Robo Ice Cream manual
+./dev.sh candy       # Candy Monster manual  
+./dev.sh pop         # Pop Cart manual
+```
+
+The development server will:
+- Start on localhost (port 3000 for Ice Cream, 3001 for Candy, 3002 for Pop Cart)
+- Automatically open in your browser
+- Live reload when you make changes to any files
+- Show your changes instantly
+
 ## Building the Manuals
 
 This project uses [mdBook](https://rust-lang.github.io/mdBook/) to generate HTML documentation from Markdown files.
 
-### Quick Start
+### Build Commands
 ```bash
 # Build all manuals
 ./scripts/build-manuals.sh all
 
 # Build specific manual
 ./scripts/build-manuals.sh "Candy Monster"
-
-# Preview manual in browser
-./scripts/build-manuals.sh serve "Candy Monster"
 
 # PDF generation info
 ./scripts/build-manuals.sh pdf
