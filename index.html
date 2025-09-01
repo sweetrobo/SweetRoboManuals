@@ -6,9 +6,11 @@
     <title>Sweet Robo Manuals</title>
     <script>
         // Detect if we're in development mode (port 4000)
+        // Development mode is when the index page is served from the dev.sh script
         const isDev = window.location.port === '4000';
         
-        // Manual data
+        // Manual data configuration - centralized data for all manuals
+        // This replaces the hardcoded HTML repetition with a single source of truth
         const manuals = [
             {
                 id: 'robo-ice-cream',
@@ -28,8 +30,9 @@
                 subtitle: 'Bulk Candy Vending Machine',
                 status: 'development',
                 statusText: '🚧 In Development',
-                hasImage: false,
-                placeholderText: 'Product image coming soon',
+                image: 'shared/images/Candy Monster.webp',
+                imageAlt: 'Candy Monster Machine',
+                hasImage: true,
                 description: 'Bulk candy vending machine with multi-product dispensing and portion control system.',
                 port: 4002
             },
@@ -39,14 +42,19 @@
                 subtitle: 'Popcorn Vending Machine',
                 status: 'development',
                 statusText: '🚧 In Development',
-                hasImage: false,
-                placeholderText: 'Product image coming soon',
+                image: 'shared/images/PopCart.webp',
+                imageAlt: 'Pop Cart Machine',
+                hasImage: true,
                 description: 'Automated popcorn vending machine with fresh popping capability and portion control system.',
                 port: 4003
             }
         ];
         
         // Get manual path based on environment
+        // This function determines the correct URL for each manual based on the deployment environment:
+        // - Development: Uses localhost with specific ports (4001-4003)
+        // - GitHub Pages: Uses direct folder names without 'build' prefix
+        // - Local build: Uses 'build/' prefix for local file access
         function getManualPath(manualName, port) {
             if (isDev && port) {
                 // Development mode: use localhost with specific ports
@@ -64,17 +72,22 @@
             }
         }
         
-        // Generate manual cards
+        // Generate manual cards dynamically from the manuals array
+        // This function creates HTML for each manual card using template literals
+        // and injects it into the manuals-grid container
         function generateManualCards() {
             const grid = document.querySelector('.manuals-grid');
             if (!grid) return;
             
+            // Map over manuals array to create HTML for each card
+            // Using template literals for cleaner HTML generation
             grid.innerHTML = manuals.map(manual => `
                 <div class="manual-card">
                     <h2 class="manual-title">${manual.title}</h2>
                     <div class="manual-subtitle">${manual.subtitle}</div>
                     <div class="manual-status status-${manual.status}">${manual.statusText}</div>
                     
+                    ${/* Conditionally render image or placeholder based on hasImage flag */ ''}
                     ${manual.hasImage 
                         ? `<img src="${manual.image}" alt="${manual.imageAlt}" class="manual-image" />`
                         : `<div class="placeholder-image">${manual.placeholderText}</div>`
@@ -86,21 +99,22 @@
                     
                     <a href="build/${manual.id}/index.html" id="${manual.id}-link" class="manual-link">View Manual</a>
                 </div>
-            `).join('');
+            `).join(''); // Join all card HTML strings into one
         }
         
         // Set manual links when page loads
         window.addEventListener('DOMContentLoaded', function() {
-            // Generate manual cards
+            // First, generate all manual cards from the data array
             generateManualCards();
             // console.log('Port:', window.location.port, 'isDev:', isDev);
             
-            // Update page title if in dev mode
+            // Development mode enhancements
+            // When running via dev.sh, add visual indicators and helpful information
             if (isDev) {
                 console.log('DEV MODE ACTIVATED!');
                 document.title = 'Sweet Robo Manuals - Development';
                 
-                // Add dev banner
+                // Add visible development mode banner at top of page
                 const banner = document.createElement('div');
                 banner.className = 'dev-banner';
                 banner.innerHTML = '🚧 DEVELOPMENT MODE - Live servers running on ports 4000-4003 🚧';
@@ -113,6 +127,7 @@
                 }
                 
                 // Add server info to each card
+                // Shows which localhost port each manual is running on in dev mode
                 const cards = document.querySelectorAll('.manual-card');
                 cards.forEach((card, index) => {
                     if (index < manuals.length) {
@@ -127,6 +142,7 @@
                 });
                 
                 // Add development commands section
+                // Provides quick reference for dev.sh script commands
                 const devSection = document.createElement('div');
                 devSection.style = 'background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 40px; margin-bottom: 40px;';
                 devSection.innerHTML = `
@@ -154,37 +170,19 @@
                 }
             }
             
-            // Set manual links
-            const roboLink = getManualPath('robo-ice-cream', 4001);
-            const candyLink = getManualPath('candy-monster', 4002);
-            const popLink = getManualPath('pop-cart', 4003);
-            
-            console.log('Setting links:', {robo: roboLink, candy: candyLink, pop: popLink});
-            
-            const roboElement = document.getElementById('robo-ice-cream-link');
-            const candyElement = document.getElementById('candy-monster-link');
-            const popElement = document.getElementById('pop-cart-link');
-            
-            if (roboElement) {
-                roboElement.href = roboLink;
-                console.log('Robo link updated to:', roboElement.href);
-            } else {
-                console.error('Could not find robo-ice-cream-link element');
-            }
-            
-            if (candyElement) {
-                candyElement.href = candyLink;
-                console.log('Candy link updated to:', candyElement.href);
-            } else {
-                console.error('Could not find candy-monster-link element');
-            }
-            
-            if (popElement) {
-                popElement.href = popLink;
-                console.log('Pop link updated to:', popElement.href);
-            } else {
-                console.error('Could not find pop-cart-link element');
-            }
+            // Update manual links based on current environment
+            // Iterates through all manuals and sets the correct href for each link
+            manuals.forEach(manual => {
+                const link = getManualPath(manual.id, manual.port);
+                const element = document.getElementById(`${manual.id}-link`);
+                
+                if (element) {
+                    element.href = link;
+                    console.log(`${manual.title} link updated to:`, element.href);
+                } else {
+                    console.error(`Could not find ${manual.id}-link element`);
+                }
+            });
         });
     </script>
     <style>
@@ -326,51 +324,7 @@
     </div>
 
     <div class="manuals-grid">
-        <div class="manual-card">
-            <h2 class="manual-title">Robo Ice Cream</h2>
-            <div class="manual-subtitle">Model F2 - Dual-Flavor Ice Cream Vending Machine</div>
-            <div class="manual-status status-development">🚧 In Development</div>
-            
-            <img src="robo-ice-cream/assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" class="manual-image" />
-            
-            <div class="manual-description">
-                Automated ice cream vending machine with dual-flavor dispensing system and comprehensive manual coverage.
-            </div>
-            
-            <a href="build/robo-ice-cream/index.html" id="robo-ice-cream-link" class="manual-link">View Manual</a>
-        </div>
-
-        <div class="manual-card">
-            <h2 class="manual-title">Candy Monster</h2>
-            <div class="manual-subtitle">Bulk Candy Vending Machine</div>
-            <div class="manual-status status-development">🚧 In Development</div>
-            
-            <div class="placeholder-image">
-                Product image coming soon
-            </div>
-            
-            <div class="manual-description">
-                Bulk candy vending machine with multi-product dispensing and portion control system.
-            </div>
-            
-            <a href="build/candy-monster/index.html" id="candy-monster-link" class="manual-link">View Manual</a>
-        </div>
-
-        <div class="manual-card">
-            <h2 class="manual-title">Pop Cart</h2>
-            <div class="manual-subtitle">Popcorn Vending Machine</div>
-            <div class="manual-status status-development">🚧 In Development</div>
-            
-            <div class="placeholder-image">
-                Product image coming soon
-            </div>
-            
-            <div class="manual-description">
-                Automated popcorn vending machine with fresh popping capability and portion control system.
-            </div>
-            
-            <a href="build/pop-cart/index.html" id="pop-cart-link" class="manual-link">View Manual</a>
-        </div>
+        <!-- Manual cards are dynamically generated via JavaScript -->
     </div>
 
     <div class="support-section" style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 40px; text-align: center;">
