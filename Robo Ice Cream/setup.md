@@ -167,9 +167,35 @@ Your F2 shipment includes:
 - Cleaning supplies: Mixing bucket (10L), whisk, cleaning cloths, agitator brush
 - This operator's manual
 
+## Critical Transport and Handling Requirements
+
+<div class="warning-box">
+
+**CRITICAL: Refrigerant System Warning**
+
+This machine contains R290 refrigerant (propane) in the cooling system. The machine **MUST remain upright at all times** during transport and installation. 
+
+**Never tilt, tip, or lay the machine on its side** as this will:
+- Cause serious damage to the refrigeration compressor
+- Allow refrigerant oil to flow into cooling lines
+- Result in expensive repairs not covered by warranty
+- Create potential safety hazards
+
+If the machine was tilted during transport, **wait at least 24 hours** before powering on to allow refrigerant to settle.
+
+</div>
+
 ## Step 1: Delivery and Inspection
 
 <div class="numbered-steps">
+
+<div>
+<div>
+<h3>Verify Upright Transport</h3>
+Confirm with delivery personnel that machine remained upright during entire transport. 
+<!-- TODO: Check tilt indicators if present and if so, show the text: Check tilt indicators if present. -->
+</div>
+</div>
 
 <div>
 <div>
@@ -181,7 +207,7 @@ Check outer packaging for visible damage. Note any damage on delivery receipt be
 <div>
 <div>
 <h3>Verify Delivery</h3>
-Confirm Model F2, Serial Number, and Delivery Date match your order.
+Confirm Model, Serial Number, and Delivery Date match your order.
 </div>
 </div>
 
@@ -206,6 +232,12 @@ If damage or missing parts discovered, contact Sweet Robo support immediately.
 <div class="caution-box">
 
 **CAUTION:** Two or more people required for moving. For long distances, use a pallet jack - the wheels are designed for minor position adjustments only, not extended transport.
+
+</div>
+
+<div class="warning-box">
+
+**Remember:** Keep machine upright at all times. Do not tilt or rock the machine during positioning due to the refrigerant system.
 
 </div>
 
@@ -456,7 +488,7 @@ Wipe dry with clean, food-safe cloth and leave open to air dry.
 <div>
 <div>
 <h3>First Fill Requirements</h3>
-• Each batch: 1 bag (1.5kg) + 4L water<br>
+• Each batch: 1 bag (1.5kg) + ~3.5L water<br>
 • Mix one batch at a time<br>
 • Transfer to hopper immediately after mixing<br>
 • Repeat process for second hopper
@@ -494,7 +526,7 @@ Minimum fill: 2 liters per hopper (fill both hoppers).
 
 <div>
 <div>
-Maximum capacity: 12 liters per hopper (do not fill above white plastic parts).
+Maximum capacity: 12 liters per hopper. Keep mix level below the square openings on the white plastic tubes - these provide air flow for proper mix circulation to the freezing chamber below.
 </div>
 </div>
 
@@ -508,16 +540,22 @@ Close lid(s) securely.
 
 ### 5.4 Adjust Refill Tube
 
-The refill tube controls mix flow into the freezing chamber:
+When a cup of ice cream is served, space is created in the freezing chamber, allowing more mix to enter and continue ice cream production. The amount of mix that flows into the chamber depends on the refill tube setting.
+
+This setting should be adjusted based on your serving size. Most standard servings work well with a setting of 2. If you're serving larger portions, increase the size to create a bigger opening and allow more mix to flow in.
+
+<div class="feature-grid">
+<img src="./assets/maintenance/airpath-adjustment-notches.webp" alt="Airpath adjustment notches showing default second position" />
+<img src="./assets/maintenance/airpath-adjustment-notches2.jpg" alt="Airpath adjustment notches showing default second position" />
+</div>
 
 | Setting | Opening Size | Use Case |
 |---------|-------------|----------|
-| 0 | Closed | Maintenance only |
-| 1 | Smallest | Small portions |
+| 0 | Closed | No flow |
+| 1 | Smallest opening | Small portions |
 | 2 | Medium | Standard servings (recommended) |
 | 3 | Fully Open | Large portions |
 
-<img src="./assets/maintenance/airpath-adjustment-notches.webp" alt="Airpath adjustment notches showing default second position" />
 <div class="image-placeholder">QR CODE: Refill tube adjustment video</div>
 
 ### 5.5 Add Syrups

@@ -187,11 +187,22 @@ Unplug the unit only after switching off the <strong>breaker</strong> (not durin
 * Keep all protective covers and guards in place.
 
 ### Machine Transportation
+
+<div class="warning-box">
+
+**CRITICAL: Refrigerant System**
+
+This machine contains R290 refrigerant (propane). **Never tilt or lay the machine on its side** as this will damage the refrigeration system and void the warranty.
+
+</div>
+
 * The machine is **not designed for relocation via rolling**. Transporting it across distances may damage the wheels.
+* **Keep machine upright at all times** - the refrigerant compressor and oil system require vertical orientation
 * Do not tilt, lay down, or roll the machine over rough surfaces. Use proper lifting equipment if relocation is needed.
+* If the machine was accidentally tilted, **wait 24 hours before powering on** to allow refrigerant to settle
 * If a wheel must be replaced:
     * Use certified lifting equipment.
-    * Do **not** tilt or lay the machine on its side—this can lead to major structural or internal damage.
+    * Do **not** tilt or lay the machine on its side - this can lead to major structural or internal damage.
 
 ### Automatic Door Maintenance
 Before performing any maintenance on the automatic collection door, **power must be turned off**. If testing or debugging with power on, use extreme caution to avoid **pinch hazards** or injury from moving components.
