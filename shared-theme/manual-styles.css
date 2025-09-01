@@ -270,7 +270,7 @@
   max-width: 100%;
 }
 .grid-3 {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   max-width: 100%;
 }
 .grid-4 {
@@ -363,6 +363,24 @@
 .side-by-side-images .image-placeholder {
   /* width: 100%; commented out due to it causing overlap in side by side image views */
   height: auto;
+  border-radius: 0;
+  margin: 0;
+}
+
+/* Three-column image layout */
+.three-column-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.three-column-images img,
+.three-column-images .image-placeholder {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
   border-radius: 0;
   margin: 0;
 }
@@ -770,15 +788,31 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
   }
+  
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .side-by-side-images {
     grid-template-columns: 1fr;
+  }
+  
+  .three-column-images {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Phone - 1 column */
 @media (max-width: 480px) {
   .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  
+  .three-column-images {
     grid-template-columns: 1fr;
   }
 
@@ -950,6 +984,15 @@
   .title-page {
     page-break-after: always;
   }
+  
+  /* Title page images should maintain their original size */
+  .title-page img {
+    max-height: none !important; /* Keep original size */
+  }
+  
+  .title-page .machine-image {
+    max-height: 7in !important; /* Large size for title page machine image */
+  }
 
   /* Hide introduction content in print */
   .introduction-content {
@@ -975,6 +1018,27 @@
     gap: 1em !important;
     page-break-inside: avoid;
   }
+  
+  .feature-grid.grid-3 {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  
+  .feature-grid.grid-3 > div {
+    page-break-inside: avoid !important; /* Keep image and caption together */
+    break-inside: avoid !important;
+  }
+  
+  .feature-grid.grid-3 img {
+    max-height: 2.2in !important; /* Smaller for 3-column grid in print to accommodate captions */
+    width: 100% !important;
+    object-fit: contain;
+  }
+  
+  .feature-grid.grid-3 p {
+    font-size: 0.75em !important; /* Smaller caption text */
+    margin-top: 0.25em !important;
+    page-break-before: avoid !important; /* Prevent caption from breaking to next page */
+  }
 
   .feature-item {
     page-break-inside: avoid;
@@ -985,13 +1049,54 @@
   }
 
   .content img {
+    max-height: 4.5in !important; /* ~45% of letter page height - larger for readability */
     page-break-inside: avoid;
     page-break-before: auto;
     page-break-after: auto;
   }
+  
+  /* Standalone images should be centered and can be larger for diagrams */
+  .content > p > img:only-child,
+  .content > img {
+    max-height: 5.5in !important; /* ~55% for standalone images with text/diagrams */
+    display: block;
+    margin: 1em auto !important;
+  }
 
   .side-by-side-images {
     page-break-inside: avoid;
+    margin: 0.5em 0 !important; /* Reduce vertical spacing */
+  }
+  
+  .side-by-side-images img {
+    max-height: 2.5in !important; /* Much smaller for 2-column layout in print */
+    object-fit: contain;
+  }
+  
+  /* Images inside numbered steps should be even smaller */
+  .numbered-steps .side-by-side-images img {
+    max-height: 2in !important; /* Even smaller when inside numbered steps */
+  }
+  
+  /* Reduce spacing in numbered steps */
+  .numbered-steps > div {
+    margin: 1em 0 !important; /* Less vertical space between steps */
+  }
+  
+  /* Three-column image layout for What's Included and similar sections */
+  .three-column-images {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.75em !important;
+    page-break-inside: avoid;
+    margin: 1.5em 0;
+  }
+  
+  .three-column-images img,
+  .three-column-images .image-placeholder {
+    max-height: 3in !important; /* ~30% of page height for 3-column layout */
+    width: 100% !important;
+    object-fit: contain;
   }
 
   /* COMMENTED OUT ALL PRINT MODIFICATIONS EXCEPT TITLE PAGE
