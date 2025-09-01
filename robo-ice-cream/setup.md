@@ -712,9 +712,78 @@ Machine requires 2-8 minutes to reach optimal freezing temperature.
 
 </div>
 
-## Step 7: Backend Configuration
+## Step 7: Network Setup (WiFi/Ethernet)
 
-### 7.1 Access Backend
+<div class="info-box">
+
+**Network connectivity enables:**
+- Remote support and diagnostics
+- Software updates
+- Sales data reporting
+- Remote configuration changes
+
+</div>
+
+### 7.1 WiFi Setup
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Access System Settings</h3>
+From the backend menu, navigate to `System Settings`
+</div>
+</div>
+
+<div>
+<div>
+<h3>Exit to Android Settings</h3>
+Select `Exit App` to access the underlying Android system
+</div>
+</div>
+
+<div>
+<div>
+<h3>Connect to WiFi</h3>
+• Navigate to Android WiFi settings<br>
+• Select your network from available networks<br>
+• Enter WiFi password<br>
+• Verify connection established
+</div>
+</div>
+
+<div>
+<div>
+<h3>Return to Application</h3>
+• Navigate back to the home screen<br>
+• Relaunch the Robo Ice Cream application<br>
+• Verify network status shows connected in backend
+</div>
+</div>
+
+</div>
+
+### 7.2 Ethernet Setup
+
+If using wired connection:
+1. Connect Ethernet cable to machine's network port
+2. Connection should establish automatically
+3. Verify in `System Settings` that LAN status shows connected
+
+<div class="important-box">
+
+**Remote Support Access**
+
+Once connected to the internet, your machine can be accessed remotely by Sweet Robo support:
+- Machine ID will be visible in System Settings
+- Provide this ID to support for remote assistance
+- Support can remotely adjust settings, view diagnostics, and update software
+
+</div>
+
+## Step 8: Backend Configuration
+
+### 8.1 Access Backend
 
 <div class="numbered-steps">
 
@@ -752,7 +821,7 @@ Backend management screen appears with 6 main sections:
 | `System Settings` | Configure system behavior (volume, voice, network, etc.) |
 | `Shopping Settings` | Configure payment methods, timeout behavior, and alerts |
 
-### 7.2 Test Functions
+### 8.2 Test Functions
 
 <div class="image-placeholder">IMAGE: Device Testing screen showing test options</div>
 
@@ -762,7 +831,7 @@ Navigate to `Device Testing` to verify:
 - Topping dispense test (all 3 containers)
 - Door open/close operation
 
-### 7.3 Configure Payment Settings
+### 8.3 Configure Payment Settings
 
 <div class="image-placeholder">IMAGE: Shopping Settings screen showing payment configuration options</div>
 

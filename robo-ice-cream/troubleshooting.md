@@ -420,22 +420,52 @@ Use breaker switch to cut power
 
 <div class="info-box">
 
-Some F2 models may display numeric error codes on the backend interface. When these appear:
+The F2 system displays specific error codes for various conditions. Below are common error codes and their resolutions:
+
+</div>
+
+### System Error Codes
+
+| **Error Code** | **Description** | **Cause** | **Resolution** |
+|----------------|-----------------|-----------|----------------|
+| **Core Board Error** | Grinding noise with error display | No mix in hoppers or hopper switches not activated | 1. Turn OFF immediately<br>2. Verify both hoppers have mix<br>3. Check hopper switches are pressed<br>4. Restart machine |
+| **Low Voltage Alarm** | Voltage below 195V detected | Inadequate power supply | 1. Check building power supply<br>2. Verify breaker rating (20A minimum)<br>3. Contact electrician if persistent |
+| **High Voltage Alarm** | Voltage above 255V detected | Excessive voltage supply | 1. Disconnect power immediately<br>2. Contact electrician<br>3. Do not operate until resolved |
+| **Mix Needs Replacement** | Temperature above 41°F (5°C) | Mix temperature exceeded safe limit | 1. Discard affected mix<br>2. Clean and sanitize hopper<br>3. Refill with fresh mix<br>4. Wait for cooling below 5°C |
+| **Temperature Sensor Error** | Sensor reading failure | Faulty temperature sensor | 1. Check sensor connections<br>2. Clean sensor area<br>3. Contact support if persistent |
+| **Door Sensor Error** | Door not responding | Blocked or misaligned sensor | 1. Clear any obstructions<br>2. Check door alignment<br>3. Test manual door operation in backend |
+| **Cup Tube Empty** | No cups in active tube | Cup supply depleted | 1. Refill cup tubes<br>2. Run manual drop test<br>3. Verify auto-switching to next tube |
+
+### Backend Error Log Access
 
 <div class="numbered-steps">
 
 <div>
-Record the **exact code and description** shown.
+<div>
+<h3>Access Error History</h3>
+Navigate to backend → System Settings → Error Log Viewer
+</div>
 </div>
 
 <div>
-Attempt a **soft reset** (power from backend only).
+<div>
+<h3>Record Error Details</h3>
+Note the error code, timestamp, and frequency
+</div>
 </div>
 
 <div>
-If unresolved, contact support and provide the full error log.
+<div>
+<h3>Clear Non-Critical Errors</h3>
+Use "Repair" button to clear cache and restart program if needed
+</div>
 </div>
 
+<div>
+<div>
+<h3>Export for Support</h3>
+If errors persist, export log for Sweet Robo support team
+</div>
 </div>
 
 </div>

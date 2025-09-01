@@ -128,6 +128,7 @@ Sweet Robo machines are engineered for:
 - **Max Power Consumption**: 2,860W
 - **Required Breaker**: 20A minimum (15A is too close for power spikes)
 - **Outlet Type**: NEMA 6-20R (to match included 6-20P plug)
+- **Cooling Output**: ~500W combined for dual hoppers
 
 <div class="warning-box">
 
@@ -150,6 +151,11 @@ Sweet Robo machines are engineered for:
 - **Cup Storage**: 200 cups (50 × 4 holders)
 - **Syrup Dispensers**: 3 (liquid syrups only)
 - **Topping Dispensers**: 3 × 270g each (dry toppings only)
+
+### Performance
+- **Production Speed**: ~35 seconds per ice cream
+- **Temperature Sensor Accuracy**: ±1°F (±0.5°C)
+- **Automatic Cutoff**: Blocks dispensing if mix temperature exceeds 41°F (5°C)
 
 ### Core System Modules
 
