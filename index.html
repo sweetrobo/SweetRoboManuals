@@ -8,6 +8,44 @@
         // Detect if we're in development mode (port 4000)
         const isDev = window.location.port === '4000';
         
+        // Manual data
+        const manuals = [
+            {
+                id: 'robo-ice-cream',
+                title: 'Robo Ice Cream',
+                subtitle: 'Model F2 - Dual-Flavor Ice Cream Vending Machine',
+                status: 'development',
+                statusText: '🚧 In Development',
+                image: 'robo-ice-cream/assets/overview/machines-overview.webp',
+                imageAlt: 'Robo Ice Cream F2 Machine',
+                hasImage: true,
+                description: 'Automated ice cream vending machine with dual-flavor dispensing system and comprehensive manual coverage.',
+                port: 4001
+            },
+            {
+                id: 'candy-monster',
+                title: 'Candy Monster',
+                subtitle: 'Bulk Candy Vending Machine',
+                status: 'development',
+                statusText: '🚧 In Development',
+                hasImage: false,
+                placeholderText: 'Product image coming soon',
+                description: 'Bulk candy vending machine with multi-product dispensing and portion control system.',
+                port: 4002
+            },
+            {
+                id: 'pop-cart',
+                title: 'Pop Cart',
+                subtitle: 'Popcorn Vending Machine',
+                status: 'development',
+                statusText: '🚧 In Development',
+                hasImage: false,
+                placeholderText: 'Product image coming soon',
+                description: 'Automated popcorn vending machine with fresh popping capability and portion control system.',
+                port: 4003
+            }
+        ];
+        
         // Get manual path based on environment
         function getManualPath(manualName, port) {
             if (isDev && port) {
@@ -26,9 +64,36 @@
             }
         }
         
+        // Generate manual cards
+        function generateManualCards() {
+            const grid = document.querySelector('.manuals-grid');
+            if (!grid) return;
+            
+            grid.innerHTML = manuals.map(manual => `
+                <div class="manual-card">
+                    <h2 class="manual-title">${manual.title}</h2>
+                    <div class="manual-subtitle">${manual.subtitle}</div>
+                    <div class="manual-status status-${manual.status}">${manual.statusText}</div>
+                    
+                    ${manual.hasImage 
+                        ? `<img src="${manual.image}" alt="${manual.imageAlt}" class="manual-image" />`
+                        : `<div class="placeholder-image">${manual.placeholderText}</div>`
+                    }
+                    
+                    <div class="manual-description">
+                        ${manual.description}
+                    </div>
+                    
+                    <a href="build/${manual.id}/index.html" id="${manual.id}-link" class="manual-link">View Manual</a>
+                </div>
+            `).join('');
+        }
+        
         // Set manual links when page loads
         window.addEventListener('DOMContentLoaded', function() {
-            console.log('Port:', window.location.port, 'isDev:', isDev);
+            // Generate manual cards
+            generateManualCards();
+            // console.log('Port:', window.location.port, 'isDev:', isDev);
             
             // Update page title if in dev mode
             if (isDev) {
@@ -49,14 +114,13 @@
                 
                 // Add server info to each card
                 const cards = document.querySelectorAll('.manual-card');
-                const ports = [4001, 4002, 4003];
                 cards.forEach((card, index) => {
-                    if (index < ports.length) {
+                    if (index < manuals.length) {
                         const serverInfo = document.createElement('div');
                         serverInfo.className = 'server-info';
                         serverInfo.innerHTML = `
                             <span class="server-status"></span>
-                            Development server: <strong>localhost:${ports[index]}</strong>
+                            Development server: <strong>localhost:${manuals[index].port}</strong>
                         `;
                         card.appendChild(serverInfo);
                     }
@@ -267,7 +331,7 @@
             <div class="manual-subtitle">Model F2 - Dual-Flavor Ice Cream Vending Machine</div>
             <div class="manual-status status-development">🚧 In Development</div>
             
-            <img src="Robo Ice Cream/assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" class="manual-image" />
+            <img src="robo-ice-cream/assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" class="manual-image" />
             
             <div class="manual-description">
                 Automated ice cream vending machine with dual-flavor dispensing system and comprehensive manual coverage.

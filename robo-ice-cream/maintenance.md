@@ -41,7 +41,8 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 
 #### Operational Verification
 • Verify hopper fill levels (both Hopper A and B)<br>
-• Monitor temperature displays (must be below 41°F/5°C)<br>
+• Check **L: and R:** temperature displays (should show 100% when ready to serve)<br>
+• Monitor actual temperature (must be below 41°F/5°C)<br>
 • Check hopper temperature sensors - verify no "Mix Needs Replacement" alerts<br>
 • Confirm both hoppers maintaining safe temperature (below 5°C)<br>
 • Check for error messages on display<br>
@@ -88,7 +89,13 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 
 **Power Requirements During Cleaning**
 
-Certain cleaning operations (like flushing ice cream through hoppers) require power. Only turn off power to components not needed for the specific maintenance task. For electrical maintenance, always disconnect all power sources.
+Different cleaning tasks require different power states:
+- **Hopper flushing/cleaning cycles**: Keep power ON
+- **Manual cleaning only**: Turn off Main I/O Power Switch
+- **Electrical maintenance**: Always disconnect ALL power sources
+- **Backend access needed**: Leave Breaker ON
+
+Only turn off power to components not needed for the specific maintenance task.
 
 </div>
 
@@ -367,7 +374,8 @@ Perform these comprehensive maintenance tasks weekly:
 • Mild dish soap (e.g., Dawn)<br>
 • Food-safe sanitizer (certified quaternary ammonium-based for food contact)<br>
 • 70% isopropyl alcohol (touchscreen and outer surfaces only)<br>
-• Boiling water only where appropriate per instructions
+• Boiling water only where appropriate per instructions<br>
+• **Note:** Harsh chemicals may be used ONLY when directed by Sweet Robo support staff
 
 </div>
 
@@ -400,8 +408,10 @@ Perform these comprehensive maintenance tasks weekly:
 #### Cross-Contamination Prevention
 • Use separate tools for food-contact areas and waste zones<br>
 • Clean Hopper A and Hopper B systems separately to prevent flavor mixing<br>
+• **Always sanitize all equipment between flavor changes**<br>
 • Use designated cleaning tools for each hopper system<br>
-• Label cleaning supplies to maintain separation
+• Label cleaning supplies to maintain separation<br>
+• Flush hoppers thoroughly when changing flavors
 
 </div>
 
@@ -445,7 +455,9 @@ Perform these comprehensive maintenance tasks weekly:
 <div>
 <div>
 <h3>Proper Shutdown Procedure</h3>
+• Access backend system (tap and hold top-right corner for 3-5 seconds)<br>
 • Use backend software shutdown button to power down internal PC first<br>
+• Wait for PC to fully shut down (screen will go black)<br>
 • Turn off Main I/O Power Switch<br>
 • Use Breaker Switch to safely isolate system<br>
 • Disconnect power cord only after breaker is OFF
@@ -455,10 +467,13 @@ Perform these comprehensive maintenance tasks weekly:
 <div>
 <div>
 <h3>Safety Precautions</h3>
-• Be mindful of ESD (Electrostatic Discharge) when near electronics - static electricity can damage components<br>
-• Consider using an ESD wrist strap for internal electronics work<br>
+• **ESD Protection Required**: Be mindful of Electrostatic Discharge when near electronics<br>
+• Static electricity can permanently damage sensitive components<br>
+• Consider using an **ESD wrist strap** when servicing internal electronics<br>
+• Touch a grounded metal surface before handling electronic parts<br>
 • Allow any warm components (IO boards, motors) to cool before touching<br>
-• Never touch IO boards without contacting support first
+• Never touch IO boards without contacting support first<br>
+• Avoid loose clothing, jewelry, or long hair near moving parts
 </div>
 </div>
 
@@ -490,10 +505,11 @@ Operators must maintain visible cleaning logs onsite including:
 <div class="important-box">
 
 ### Regulatory Compliance
-- Logs support NAMA compliance requirements
-- Documentation must be available for health inspections
+- Logs support **NAMA (National Automatic Merchandising Association)** compliance requirements
+- Documentation must be available for health inspections at all times
 - Track upcoming cleaning due dates systematically
-- Maintain records for minimum required retention period
+- Maintain records for **minimum 90 days** or as required by local regulations
+- Temperature logs must demonstrate continuous monitoring below 41°F (5°C)
 
 </div>
 

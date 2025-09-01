@@ -35,9 +35,9 @@ start_all_servers() {
     echo ""
     
     # Start each server in background
-    start_single_server "Robo Ice Cream" 4001
-    start_single_server "Candy Monster" 4002
-    start_single_server "Pop Cart" 4003
+    start_single_server "robo-ice-cream" 4001
+    start_single_server "candy-monster" 4002
+    start_single_server "pop-cart" 4003
     
     # Start Python server for main index
     echo -e "${GREEN}Starting main index server on port ${BLUE}4000${NC}"
