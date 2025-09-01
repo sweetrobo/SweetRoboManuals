@@ -1,3 +1,5 @@
+<div class="introduction-content" data-print-hide="true">
+
 # Robo Ice Cream F2 Manual
 
 **Manufacturer:** Sweet Robo  
@@ -63,3 +65,5 @@ For detailed company information, see [Sweet Robo Contact Information](../shared
 - [x] Safety - needs review
 
 </div>
+
+</div> <!-- End introduction-content -->
