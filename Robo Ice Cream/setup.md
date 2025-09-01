@@ -45,7 +45,7 @@
 
 ### Site Requirements
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
@@ -164,7 +164,7 @@ Your F2 shipment includes:
 - Cup dispenser tubes: 4 tubes (50 cups each)
 - Starter pack: Orange Sweet Robo cups with integrated spoons
 - Power cord with NEMA 6-20P plug and keys (attached to power cord)
-- Cleaning supplies: Mixing bucket (10L), whisk, cleaning cloths, agitator brush
+- Cleaning and mixing supplies: Mixing bucket (10L), whisk, cleaning cloths, agitator brush
 - This operator's manual
 
 ## Critical Transport and Handling Requirements
@@ -334,7 +334,7 @@ Ensure all cables and connectors are properly seated and secure.
 
 <div>
 <div>
-Decide how many LED panels to install (1-4 panels).
+Decide how many LED panels to install (0-4 panels).
 </div>
 </div>
 
@@ -467,6 +467,7 @@ Wipe dry with clean, food-safe cloth and leave open to air dry.
 <div class="side-by-side-images">
 <img src="./assets/maintenance/mixing-bucket.webp" alt="10-liter measuring bucket with graduated markings" />
 <img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mix preparation step 1" />
+<div class="image-placeholder">IMAGE: Prep tools</div>
 </div>
 </div>
 </div>
@@ -474,7 +475,7 @@ Wipe dry with clean, food-safe cloth and leave open to air dry.
 <div>
 <div>
 <h3>Mix Preparation</h3>
-• Pour 4 liters of fresh water into bucket<br>
+• Pour 3-4 liters of fresh water into bucket (see package for exact details)<br>
 • Slowly add entire 1.5kg powder bag<br>
 • Let sit briefly to begin dissolving<br>
 • Mix 2-3 minutes until smooth (avoid over-mixing)

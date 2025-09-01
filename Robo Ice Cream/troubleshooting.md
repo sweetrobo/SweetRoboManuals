@@ -26,6 +26,8 @@ This section provides step-by-step guidance for identifying and resolving common
 | Machine does not power on | Breaker off or timer is set incorrectly | Check breaker is ON and hardware timer is set properly |
 | Screen is blank but power is on | Internal PC not booted | Open service panel and press PC power button. If this keeps happening, contact Sweet Robo Support. |
 | Ice cream not dispensing | Hopper is empty or mix is too cold | Check hopper level and run thaw cycle |
+| "Mix Needs Replacement" alert | Mix temperature exceeded 5°C (41°F) | Replace mix immediately, allow new mix to cool below 5°C before serving |
+| Machine won't dispense despite mix present | Temperature sensor detected unsafe mix temp | Check hopper temperature, replace mix if above 5°C |
 | Cup not dropping | Cup tube is empty or jammed | Refill cup tubes, run test drop in backend |
 | Dispensing door does not open | Sensor blocked or door jammed | Clear obstructions, restart door motor via backend |
 | Topping not added | Empty container or blocked dispenser | Refill and clean topping container, test via backend |
@@ -100,6 +102,61 @@ Error should clear once liquid is detected
 <div class="important-box">
 
 **Prevention:** Always fill hoppers before turning on machine
+
+</div>
+
+### Mix Temperature Alert - "Mix Needs Replacement"
+
+<div class="warning-box">
+
+**Symptom:** Display shows "Mix Needs Replacement" and machine won't dispense
+
+**Cause:** Hopper temperature sensor detected mix temperature above 5°C (41°F)
+
+</div>
+
+<div class="step-header">Immediate Actions:</div>
+
+<div class="numbered-steps">
+
+<div>
+Stop operation immediately - do NOT attempt to override
+</div>
+
+<div>
+Check which hopper(s) are affected (L: or R: display)
+</div>
+
+<div>
+Dispose of affected mix following food safety guidelines
+</div>
+
+<div>
+Clean and sanitize the affected hopper
+</div>
+
+<div>
+Refill with fresh, properly chilled mix
+</div>
+
+<div>
+Allow mix to cool below 5°C before resuming operation
+</div>
+
+<div>
+Monitor temperature display until it shows normal operation
+</div>
+
+</div>
+
+<div class="important-box">
+
+**Prevention:** 
+- Monitor hopper temperatures regularly during operation
+- Ensure refrigeration system is functioning properly
+- Never leave mix at room temperature
+- Check door seals for proper closure
+- Verify ventilation is adequate around the machine
 
 </div>
 
