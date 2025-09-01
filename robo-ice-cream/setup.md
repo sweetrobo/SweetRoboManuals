@@ -108,7 +108,7 @@ The Robo Ice Cream F2 requires:
 
 ## What's Included
 
-<div class="feature-grid">
+<div class="feature-grid grid-3">
 
 <div>
 <img src="./assets/parts-service/installation-tools-kit.webp" alt="Installation tool kit including Phillips screwdriver, hex key/allen wrench, spare sensor component, and Sweet Robo branded tool bag" />
