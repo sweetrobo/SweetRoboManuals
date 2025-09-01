@@ -23,13 +23,25 @@ All images should be in WebP format for optimal file size. Use the `convert-to-w
 - Centered with rounded corners and subtle shadow
 - No additional classes needed for most cases
 
-#### Side-by-Side Images (New Official Style)
+#### Side-by-Side Images (2 Columns)
 ```html
 <div class="side-by-side-images">
 <img src="./assets/section/image1.webp" alt="First Image" />
 <img src="./assets/section/image2.webp" alt="Second Image" />
 </div>
 ```
+
+#### Three-Column Images (For What's Included, etc.)
+```html
+<div class="three-column-images">
+<img src="./assets/section/image1.webp" alt="First Image" />
+<img src="./assets/section/image2.webp" alt="Second Image" />
+<img src="./assets/section/image3.webp" alt="Third Image" />
+</div>
+```
+- Use for sections like "What's Included" where 3 items should display side-by-side
+- In print: Images limited to ~30% of page height to fit 2-3 rows per page
+- Responsive: 3 columns on desktop, 2 on tablet, 1 on mobile
 
 #### Image Placeholders (Official Style)
 ```html
