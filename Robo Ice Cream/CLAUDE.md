@@ -1,5 +1,13 @@
 # Robo Ice Cream F2 Manual - Complete Styling Guide
 
+## Important: Reference Materials Usage
+
+The `/resources/` folder contains reference materials from various sources including older manuals and different machine models. These materials are:
+- **FOR REFERENCE ONLY** - Not to be copied directly into the manual
+- **MAY REFER TO DIFFERENT MACHINES** - Not all information applies to the Robo Ice Cream F2
+- Always verify technical specifications and procedures are specific to the F2 model
+- Extract and adapt relevant information carefully, ensuring accuracy for the F2
+
 ## Image Guidelines
 
 ### Image Format
