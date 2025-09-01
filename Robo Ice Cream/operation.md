@@ -46,6 +46,8 @@ Each hopper maintains optimal serving temperature independently.
 • Verify power is on<br>
 • Check <strong>L: and R:</strong> temperature displays (should show 100% when ready)<br>
 • Ensure both hoppers are at serving temperature<br>
+• Verify hopper temperature sensors show below 5°C (41°F)<br>
+• Check for any "Mix Needs Replacement" alerts<br>
 • Verify all doors are closed properly
 </div>
 </div>
@@ -389,11 +391,29 @@ The F2's dual display system shows individual hopper status:
 - **Lower percentages** = Cooling in progress for that hopper
 - **Alert conditions** = Temperature issues requiring attention
 
+**Temperature Sensor Monitoring:**
+- Each hopper has a dedicated temperature sensor
+- Continuously monitors mix temperature
+- Optimal temperature: Below 5°C (41°F)
+- When temperature exceeds 5°C: Mix marked as "needs replacement"
+
+</div>
+
+<div class="warning-box">
+
+**Mix Replacement Required Alert**
+
+When the hopper temperature sensor detects mix temperature above 5°C (41°F):
+- The affected hopper will display "Mix Needs Replacement"
+- Machine will NOT dispense from that hopper
+- Replace the mix immediately to ensure food safety
+- After replacement, allow time for mix to cool below 5°C before serving
+
 </div>
 
 <div class="important-box">
 
-Both hoppers must reach 100% for full dual-flavor operation. Single-hopper operation possible if one hopper is offline.
+Both hoppers must reach 100% and maintain temperature below 5°C for full dual-flavor operation. Single-hopper operation possible if one hopper is offline or requires mix replacement.
 
 </div>
 

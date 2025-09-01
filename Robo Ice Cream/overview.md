@@ -140,6 +140,7 @@ Sweet Robo machines are engineered for:
 - **Depth**: 86.5 cm (34.1 in / 2.84 ft)
 - **Height**: 245 cm (96.5 in / 8.04 ft)
 - **Weight (Empty)**: 380 kg
+- **Refrigerant**: R290 (Propane - eco-friendly, food equipment compliant)
 - **Operational Temperature Range**: 10°C – 35°C (50°F – 95°F)
 - **Relative Humidity Tolerance**: < 80% RH (non-condensing)
 
@@ -189,6 +190,25 @@ These components are designed for direct use by customers, including children, w
 <img src="./assets/overview/internal-components.webp" alt="Internal Components Overview" />
 *Internal view of the Robo Ice Cream F2 showing dual ice cream hoppers and internal systems*
 
+#### Hopper Temperature Monitoring System
+
+<div class="image-placeholder">HOPPER TEMPERATURE SENSOR LOCATION - IMAGE PENDING</div>
+
+<div class="warning-box">
+
+**Critical Food Safety Feature: Temperature Sensor**
+
+Each hopper is equipped with a precision temperature sensor that continuously monitors the ice cream mix. This sensor ensures food safety by:
+- Real-time temperature monitoring of mix in both hoppers
+- Automatic mix status updates when temperature exceeds 5°C (41°F)
+- Prevention of dispensing when mix is marked as "needs replacement"
+- Alert notifications on the operator interface
+- Required mix replacement before resuming operations
+
+</div>
+
+<div class="image-placeholder">TEMPERATURE SENSOR CLOSE-UP - IMAGE PENDING</div>
+
 #### Power and Control Systems
 
 | Component | Description |
@@ -215,6 +235,7 @@ These components are designed for direct use by customers, including children, w
 | UV Sanitizer | Built-in ultraviolet light that sterilizes the dispense area between servings |
 | Syrup Dispenser | Draws liquid syrup from holders and applies it to ice cream per customer selection |
 | Ice Cream Dispenser | Where Blue Robo collects freshly dispensed ice cream synchronized with temperature and mix level sensors |
+| Hopper Temperature Sensor | Monitors ice cream mix temperature continuously - automatically marks mix as "needs replacement" and prevents dispensing if temperature exceeds 5°C (41°F) |
 
 ## Installation Requirements
 
@@ -242,10 +263,10 @@ These components are designed for direct use by customers, including children, w
 - 4 LED light panels (optional installation)
 - Power cord
 - Operation manual (this document)
+<!-- TODO: REVIEW what ships with the machine? -->
 - Initial startup supplies:
-  - Sample ice cream mix packets
   - Cleaning supplies
-  - 200 cups
+  - 800 Cups with spoons attached at the bottom
 
 ## Important Safety Notes
 

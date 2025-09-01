@@ -42,6 +42,8 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 #### Operational Verification
 • Verify hopper fill levels (both Hopper A and B)<br>
 • Monitor temperature displays (must be below 41°F/5°C)<br>
+• Check hopper temperature sensors - verify no "Mix Needs Replacement" alerts<br>
+• Confirm both hoppers maintaining safe temperature (below 5°C)<br>
 • Check for error messages on display<br>
 • Empty drip tray if needed<br>
 • Inspect viewing window cleanliness
@@ -270,7 +272,19 @@ Perform these comprehensive maintenance tasks weekly:
 
 <div>
 <div>
-<h3>1. Flush Syrup Lines</h3>
+<h3>1. Temperature Sensor Inspection</h3>
+<div class="image-placeholder">IMAGE: TEMPERATURE SENSOR LOCATION</div>
+• Visually inspect temperature sensors in both hoppers<br>
+• Check for any ice buildup or obstruction around sensors<br>
+• Verify sensor readings match actual mix temperature<br>
+• Clean sensor area gently with food-safe sanitizer<br>
+• Test temperature alert system if accessible in backend
+</div>
+</div>
+
+<div>
+<div>
+<h3>2. Flush Syrup Lines</h3>
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: DISCONNECTING SYRUP CONTAINER</div>
 <div class="image-placeholder">IMAGE: FLUSHING WITH WATER</div>
@@ -284,7 +298,7 @@ Perform these comprehensive maintenance tasks weekly:
 
 <div>
 <div>
-<h3>2. Clean Topping Hoppers</h3>
+<h3>3. Clean Topping Hoppers</h3>
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: REMOVING TOPPING HOPPER</div>
 <div class="image-placeholder">IMAGE: WASHING WITH SOAP</div>
