@@ -46,9 +46,9 @@ jobs:
         run: cp index.html ./site/
       - name: Build all manuals
         run: |
-          cd "Robo Ice Cream" && mdbook build && cd ..
-          cd "Candy Monster" && mdbook build && cd ..
-          cd "Pop Cart" && mdbook build && cd ..
+          cd robo-ice-cream && mdbook build && cd ..
+          cd candy-monster && mdbook build && cd ..
+          cd pop-cart && mdbook build && cd ..
       - name: Copy built manuals to site directory
         run: |
           cp -r build/robo-ice-cream site/
