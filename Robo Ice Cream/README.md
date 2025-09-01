@@ -4,8 +4,8 @@
 
 **Manufacturer:** Sweet Robo  
 **Model:** Robo Ice Cream F2  
-**Document Version:** 1.0  
-**Last Updated:** July 2025
+**Document Version:** 2  
+**Last Updated:** Augest 2025
 
 ## Manual Contents
 

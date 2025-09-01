@@ -13,7 +13,7 @@
 <div class="title-page-footer">
 <div class="footer-left">
 <p>Revision & Date:</p>
-<p>Rev 1. 05.2025</p>
+<p>Rev 2. 08.2025</p>
 </div>
 <img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream Machine" class="footer-machine-image" />
 <div class="footer-right">
