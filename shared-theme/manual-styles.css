@@ -235,6 +235,36 @@
 }
 
 /* =================================== */
+/* DEVELOPMENT-ONLY CONTENT */
+/* =================================== */
+
+/* Hide styling-demo links by default */
+.chapter-item a[href*="styling-demo"],
+.nav-chapters a[href*="styling-demo"] {
+  display: none;
+}
+
+/* Hide the parent li element as well */
+.chapter-item:has(a[href*="styling-demo"]) {
+  display: none;
+}
+
+/* Show when in dev mode */
+body.dev-mode .chapter-item a[href*="styling-demo"],
+body.dev-mode .nav-chapters a[href*="styling-demo"] {
+  display: block;
+}
+
+body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
+  display: list-item;
+}
+
+/* Fallback for hidden-dev-only class */
+.hidden-dev-only {
+  display: none !important;
+}
+
+/* =================================== */
 /* NUMBERED STEPS WITH IMAGES */
 /* =================================== */
 .numbered-steps-with-images {

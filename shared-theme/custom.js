@@ -535,54 +535,58 @@
     }
 
     /* ========================================
-       Hide Development-Only Content
+       Handle Development-Only Content
        ======================================== */
     
-    function hideDevOnlyContent() {
+    function handleDevOnlyContent() {
         // Check if we're in development environment
         // Development is indicated by:
         // 1. Port 4001-4003 (manual dev servers)
         // 2. Port 4000 (main index dev server)
-        // 3. NOT having /SweetRoboManuals/ in the path (GitHub Pages)
+        // 3. localhost without /SweetRoboManuals/ in the path
         const port = window.location.port;
         const isDev = (port === '4001' || port === '4002' || port === '4003' || port === '4000') ||
                       (!window.location.pathname.includes('/SweetRoboManuals/') && window.location.hostname === 'localhost');
         
-        if (!isDev) {
-            // Hide Styling Demo from sidebar in production
-            const sidebarLinks = document.querySelectorAll('.sidebar a, .nav-chapters a');
-            sidebarLinks.forEach(link => {
-                const href = link.getAttribute('href');
-                const text = link.textContent || link.innerText;
-                
-                // Check if this is the Styling Demo link
-                if (href && (href.includes('styling-demo') || text.includes('Styling Demo'))) {
-                    // Hide the parent <li> element if it exists, otherwise hide the link
-                    const parentLi = link.closest('li');
-                    if (parentLi) {
-                        parentLi.style.display = 'none';
-                    } else {
-                        link.style.display = 'none';
-                    }
-                }
-            });
-            
-            // Also hide from mobile navigation
-            const mobileLinks = document.querySelectorAll('.mobile-nav-chapters a');
-            mobileLinks.forEach(link => {
-                const href = link.getAttribute('href');
-                const text = link.textContent || link.innerText;
-                
-                if (href && (href.includes('styling-demo') || text.includes('Styling Demo'))) {
-                    const parentLi = link.closest('li');
-                    if (parentLi) {
-                        parentLi.style.display = 'none';
-                    } else {
-                        link.style.display = 'none';
-                    }
-                }
-            });
+        // Add or remove dev-mode class on body
+        if (isDev) {
+            document.body.classList.add('dev-mode');
+        } else {
+            document.body.classList.remove('dev-mode');
         }
+        
+        // Handle styling-demo links - hide by default, show only in dev
+        // Use a small delay to ensure mdBook has generated the sidebar
+        setTimeout(() => {
+            // Find all links that point to styling-demo
+            const allLinks = document.querySelectorAll('a[href*="styling-demo"], a');
+            allLinks.forEach(link => {
+                const href = link.getAttribute('href') || '';
+                const text = link.textContent || link.innerText || '';
+                
+                // Check if this is a styling-demo link
+                if (href.includes('styling-demo') || text.includes('Styling Demo')) {
+                    const parentLi = link.closest('li.chapter-item');
+                    
+                    if (isDev) {
+                        // Show in development
+                        if (parentLi) {
+                            parentLi.style.display = '';
+                            parentLi.classList.remove('hidden-dev-only');
+                        }
+                        link.style.display = '';
+                    } else {
+                        // Hide in production
+                        if (parentLi) {
+                            parentLi.style.display = 'none';
+                            parentLi.classList.add('hidden-dev-only');
+                        } else {
+                            link.style.display = 'none';
+                        }
+                    }
+                }
+            });
+        }, 100); // Small delay to ensure DOM is ready
     }
 
     /* ========================================
@@ -599,8 +603,8 @@
         applyConditionalContent();
         addToggleControls();
         
-        // Hide dev-only content
-        hideDevOnlyContent();
+        // Handle dev-only content visibility
+        handleDevOnlyContent();
 
         // Re-apply on URL change (for single-page navigation)
         window.addEventListener('popstate', applyConditionalContent);
