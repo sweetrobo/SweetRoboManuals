@@ -27,18 +27,12 @@ Sweet Robo is a leading innovator in automated food service technology, speciali
 
 - Website: [www.sweetrobo.com](https://www.sweetrobo.com)
 - Shop: [sweetrobo.shop](https://sweetrobo.shop)
-<!-- - Parts Catalog: [parts.sweetrobo.com](https://parts.sweetrobo.com) -->
 
-<!-- ### Social Media
-
-- LinkedIn: [@sweetrobo](https://linkedin.com/company/sweetrobo)
-- Twitter: [@sweetrobo](https://twitter.com/sweetrobo)
-- YouTube: [Sweet Robo Official](https://youtube.com/sweetrobo) -->
+<!-- ### Social Media - To be added -->
 
 <!-- ## Business Information
 
-- Founded: 2018
-- Industry: Food Service Automation
+- Founded: 2021
 - Specialties: Robotic Vending, IoT Integration, Food Safety Compliance -->
 
 ## Partner Network
