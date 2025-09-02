@@ -62,8 +62,8 @@ Sweet Robo reserves the right to make changes to equipment design and specificat
 ## Contact Information
 
 **Sweet Robo Legal Department**  
-Email: legal@sweetrobo.com  
-Address: [To be filled]
+Email: info@sweetrobo.com  
+Address: 132 32st, Brooklyn, NY, 11232, United States
 
 **For warranty claims and technical support:**  
 Email: support@sweetrobo.com  
@@ -73,4 +73,4 @@ Phone: +1 (844) 793-3872
 
 Version: 1.0  
 Last Updated: [Date]  
-© 2024 Sweet Robo. All rights reserved.
+© 2021-2025 Sweet Robo. All rights reserved.

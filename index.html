@@ -335,5 +335,20 @@
             <strong>General Questions:</strong> <a href="mailto:info@sweetrobo.com">info@sweetrobo.com</a>
         </p>
     </div>
+
+    <footer style="text-align: center; padding: 20px; margin-top: 40px; color: #666;">
+        <p>&copy; <span id="copyright-year">2025</span> Sweet Robo. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Auto-update copyright year
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentYear = new Date().getFullYear();
+            const copyrightElement = document.getElementById('copyright-year');
+            if (copyrightElement) {
+                copyrightElement.textContent = currentYear;
+            }
+        });
+    </script>
 </body>
 </html>
