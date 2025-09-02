@@ -33,7 +33,6 @@
 
 | Part | Part Number | Replacement Interval |
 |------|-------------|---------------------|
-| UV Lamp | F2-UV-001 | Annual |
 | Door Seals | F2-SEAL-001 | 2 years |
 | Dispensing Nozzles | F2-NOZ-001 | As needed |
 | Cup Drop Sensor | F2-SENS-001 | As needed |
@@ -84,8 +83,13 @@ Complete seal replacement kit with clear housing, white shaft, orange O-rings, a
 <div class="numbered-steps">
 
 <div>
-Email: parts@sweetrobo.com
+Website (preferred): sweetrobo.shop
 </div>
+
+<div>
+Email: supplies@sweetrobo.com
+</div>
+
 
 <div>
 Phone: +1 (844) 793-3872
@@ -120,7 +124,7 @@ Include:<br>
 • **Hours**: Monday-Friday, 9AM-5PM EST<br>
 • **Phone**: +1 (844) 793-3872<br>
 • **Email**: support@sweetrobo.com<br>
-• **Response Time**: Within 24 hours
+• **Response Time**: Usually within 24 hours
 
 </div>
 
@@ -215,7 +219,7 @@ Receive RMA if needed
 
 </div>
 
-## Preventive Service Plans
+<!-- ## Preventive Service Plans
 
 <div class="feature-grid">
 
@@ -250,10 +254,9 @@ Receive RMA if needed
 • Complete system inspection<br>
 • Refrigeration performance test<br>
 • Calibration check<br>
-• Software updates<br>
-• Replace UV lamp
+• Software updates
 
-</div>
+</div> -->
 
 <div class="feature-item">
 
@@ -313,8 +316,6 @@ Keep these documents accessible:
 
 </div>
 
-<div class="info-box">
-
+<!-- <div class="info-box">
 Register your machine at: sweetrobo.com/register
-
-</div>
+</div> -->
