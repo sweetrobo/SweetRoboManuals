@@ -191,41 +191,82 @@ Steps with headers (automatically styled):
 </div>
 ```
 
-### Feature Grids (Two-Column Layout)
+### Feature Grids
 
+Feature grids organize related content in responsive columns. Choose the appropriate grid class based on your content:
+
+#### Default Auto-Fit Grid (Responsive)
 ```html
 <div class="feature-grid">
+<!-- Automatically adjusts columns based on content width (200px minimum) -->
+<!-- Good for 3-6 items that should flow naturally -->
+</div>
+```
+
+#### Two-Column Grid (grid-2)
+```html
+<div class="feature-grid grid-2">
+<!-- Forces exactly 2 columns -->
+<!-- Use when content is longer or needs visual balance -->
+<!-- Example: 4 detailed features that should stay in 2x2 layout -->
 
 <div class="feature-item">
 
-#### User-Friendly Interface:
-An intuitive touchscreen interface allows operators to easily manage machine settings and monitor performance.
+#### Feature Title
+Longer description that benefits from more horizontal space. This layout ensures content doesn't get too narrow.
 
 </div>
 
 <div class="feature-item">
 
-#### Dual-Flavor System:
-Advanced dispensing system supports two different ice cream flavors with precise portion control.
-
-</div>
-
-<div class="feature-item">
-
-#### Easy Maintenance:
-Designed for straightforward access to hoppers, dispensers, and cleaning components.
-
-</div>
-
-<div class="feature-item">
-
-#### Robust Construction:
-Built for durability and reliable operation in various commercial environments.
+#### Another Feature
+Additional detailed information that needs room to breathe and be easily readable.
 
 </div>
 
 </div>
 ```
+
+#### Three-Column Grid (grid-3)
+```html
+<div class="feature-grid grid-3">
+<!-- Forces exactly 3 columns -->
+<!-- Perfect for triplets of information -->
+</div>
+```
+
+#### Four-Column Grid (grid-4)
+```html
+<div class="feature-grid grid-4">
+<!-- Forces exactly 4 columns -->
+<!-- Best for brief items like error codes or status indicators -->
+</div>
+```
+
+**When to use grid-2:**
+- Content has 4 items that should display as 2x2
+- Text descriptions are longer and need more width
+- You want consistent two-column layout regardless of screen size (until mobile breakpoint)
+- Visual balance is important for the specific content
+
+**When to use default (no grid class):**
+- Content has 3, 5, or 6+ items
+- Items are brief and can adapt to different column counts
+- You want maximum responsiveness
+
+#### Centered Text Option
+Add `text-center` class along with any grid class to center all text within items:
+```html
+<div class="feature-grid grid-3 text-center">
+<!-- All text within items will be centered -->
+</div>
+```
+
+Use centered text for:
+- Step-by-step visual guides
+- Icon/image-focused layouts
+- Status indicators
+- Brief labels under images
 
 ### Technical Specifications (Official Style)
 
@@ -357,7 +398,71 @@ Access backend system (see <a href="./operation.html#device-testing---component-
 - Example: `### Device Testing - Component Control` becomes `#device-testing---component-control`
 - Inside HTML elements, markdown links won't be processed - use `<a href="">` tags
 
+## Numbered Steps with Images
+
+For step-by-step instructions that benefit from visual aids, use the numbered-steps-with-images structure:
+
+```html
+<div class="numbered-steps-with-images">
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Step Title Here</h3>
+Description text goes here<br>
+<br>
+• First bullet point<br>
+• Second bullet point<br>
+• Third bullet point
+</div>
+<div class="step-image">
+<img src="./assets/section/image.webp" alt="Step Image" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Another Step</h3>
+• Additional instructions<br>
+• More details<br>
+• Final points
+</div>
+<div class="step-image">
+<img src="./assets/section/another-image.webp" alt="Another Image" />
+</div>
+</div>
+
+</div>
+```
+
+### Key Features:
+- **Desktop**: Split layout with 60% text on left, 40% image on right
+- **Mobile**: Stacks vertically with text above image
+- **Automatic numbering**: Blue circles with white numbers (1, 2, 3...)
+- **Background cards**: Light gray background for each step
+- **Responsive images**: Images scale appropriately for screen size
+
+### Usage Notes:
+- Each step gets its own `.step-with-image` container
+- The `.step-content` div contains the text and gets the number
+- The `.step-image` div contains the visual aid
+- Use `<br>` tags for line breaks between bullet points
+- Images should be in WebP format for optimal performance
+
+### Example Use Cases:
+- Customer operation flows with UI screenshots
+- Assembly instructions with photos
+- Maintenance procedures with visual guides
+- Troubleshooting steps with error screenshots
+
 ## Change Log
+
+### 2025-09-02: Added Numbered Steps with Images
+- Created new `.numbered-steps-with-images` component for visual step-by-step guides
+- Split-screen layout on desktop (60/40 text/image)
+- Stacked layout on mobile (text above image)
+- Automatic step numbering with blue circles
+- Light gray background cards for visual separation
+- Added to styling-demo.md with Customer Operation example
 
 ### 2025-07-29: Simplified Numbered Steps Structure
 - Simplified HTML structure for numbered steps by removing unnecessary nested divs

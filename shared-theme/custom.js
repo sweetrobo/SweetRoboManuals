@@ -535,6 +535,57 @@
     }
 
     /* ========================================
+       Hide Development-Only Content
+       ======================================== */
+    
+    function hideDevOnlyContent() {
+        // Check if we're in development environment
+        // Development is indicated by:
+        // 1. Port 4001-4003 (manual dev servers)
+        // 2. Port 4000 (main index dev server)
+        // 3. NOT having /SweetRoboManuals/ in the path (GitHub Pages)
+        const port = window.location.port;
+        const isDev = (port === '4001' || port === '4002' || port === '4003' || port === '4000') ||
+                      (!window.location.pathname.includes('/SweetRoboManuals/') && window.location.hostname === 'localhost');
+        
+        if (!isDev) {
+            // Hide Styling Demo from sidebar in production
+            const sidebarLinks = document.querySelectorAll('.sidebar a, .nav-chapters a');
+            sidebarLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                const text = link.textContent || link.innerText;
+                
+                // Check if this is the Styling Demo link
+                if (href && (href.includes('styling-demo') || text.includes('Styling Demo'))) {
+                    // Hide the parent <li> element if it exists, otherwise hide the link
+                    const parentLi = link.closest('li');
+                    if (parentLi) {
+                        parentLi.style.display = 'none';
+                    } else {
+                        link.style.display = 'none';
+                    }
+                }
+            });
+            
+            // Also hide from mobile navigation
+            const mobileLinks = document.querySelectorAll('.mobile-nav-chapters a');
+            mobileLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                const text = link.textContent || link.innerText;
+                
+                if (href && (href.includes('styling-demo') || text.includes('Styling Demo'))) {
+                    const parentLi = link.closest('li');
+                    if (parentLi) {
+                        parentLi.style.display = 'none';
+                    } else {
+                        link.style.display = 'none';
+                    }
+                }
+            });
+        }
+    }
+
+    /* ========================================
        Initialize All Features
        ======================================== */
 
@@ -547,6 +598,9 @@
         // Conditional content
         applyConditionalContent();
         addToggleControls();
+        
+        // Hide dev-only content
+        hideDevOnlyContent();
 
         // Re-apply on URL change (for single-page navigation)
         window.addEventListener('popstate', applyConditionalContent);

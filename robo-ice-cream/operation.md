@@ -4,7 +4,7 @@ The Robo Ice Cream F2 features **dual hoppers** enabling customers to enjoy two 
 
 ## F2 Dual-Flavor System Overview
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
@@ -84,30 +84,38 @@ The F2 provides customers with exciting flavor options through its dual-hopper s
 <div class="numbered-steps">
 
 <div>
-<div class="step-header">Primary Selection Screen</div>
+<div>
+<h3>Primary Selection Screen</h3>
 Customer approaches the intuitive touchscreen interface. Machine displays available flavor combinations:<br>
+<br>
 • <strong>Left Flavor Only</strong>: Single flavor from left hopper<br>
 • <strong>Right Flavor Only</strong>: Single flavor from right hopper<br>
 • <strong>Swirl Combination</strong>: Both flavors blended together
 </div>
+</div>
 
 <div>
-<div class="step-header">Enhanced Customization</div>
+<div>
+<h3>Enhanced Customization</h3>
 • Customer selects preferred size<br>
 • Choose from multiple syrup options (1-3 available)<br>
 • Add dry toppings for additional texture (1-3 available)<br>
 • Preview final product combination
 </div>
+</div>
 
 <div>
-<div class="step-header">Payment and Dispensing</div>
+<div>
+<h3>Payment and Dispensing</h3>
 Customer completes payment via cash, coin, or card. F2 automatically executes the dual-flavor process:<br>
+<br>
 • Drops cup into position<br>
 • Dispenses ice cream from selected hopper(s)<br>
 • <strong>Swirl Mode</strong>: Alternates between left and right hoppers<br>
 • Adds selected syrups in sequence<br>
 • Applies chosen toppings<br>
 • Opens collection door for pickup
+</div>
 </div>
 
 </div>
@@ -121,10 +129,12 @@ To access the comprehensive operator interface:
 <div class="numbered-steps">
 
 <div>
-<div class="step-header">Initiating Login</div>
+<div>
+<h3>Initiating Login</h3>
 • Tap the screen in the <strong>top right corner 6+ times</strong><br>
 • Enter operator password when prompted<br>
 • Default password: '123456' (should be changed for security)
+</div>
 </div>
 
 </div>

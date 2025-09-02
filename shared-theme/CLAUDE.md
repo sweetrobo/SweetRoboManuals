@@ -169,6 +169,93 @@ Content paragraph explaining the key concept or important information that needs
 - Proper spacing between multiple highlights
 - Clean, professional appearance matching manual design
 
+## Feature Grids
+
+Feature grids provide flexible column layouts for organizing related content. The system supports both automatic responsive layouts and fixed column counts.
+
+### CSS Classes
+
+- `.feature-grid` - Base class with auto-fit columns (minmax 200px)
+- `.feature-grid.grid-2` - Forces exactly 2 columns
+- `.feature-grid.grid-3` - Forces exactly 3 columns  
+- `.feature-grid.grid-4` - Forces exactly 4 columns
+
+### Usage Guidelines
+
+**Default (no additional class):**
+- Automatically adjusts columns based on available space
+- Best for 3, 5, 6+ items that should flow naturally
+- Columns have minimum width of 200px
+
+**grid-2 class:**
+- Use when you have 4 items that should display as 2x2
+- When content descriptions are longer and need more width
+- For maintaining visual balance with specific content
+
+**grid-3 class:**
+- Perfect for triplets (3, 6, 9 items)
+- Good for medium-length content
+
+**grid-4 class:**
+- Best for brief items (error codes, status indicators)
+- Works well with 4, 8, 12 items
+
+### Text Alignment
+
+By default, text in feature grids is left-aligned. Add the `text-center` class to center all text:
+
+```html
+<div class="feature-grid grid-2 text-center">
+  <!-- Centered text content -->
+</div>
+```
+
+### Responsive Behavior
+
+- Desktop: Shows specified number of columns
+- Tablet: grid-3 and grid-4 reduce to 2 columns
+- Mobile: All grids become single column
+
+## Numbered Steps with Images
+
+For visual step-by-step instructions, use the numbered-steps-with-images structure:
+
+### HTML Structure
+
+```html
+<div class="numbered-steps-with-images">
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Step Title</h3>
+Text content here<br>
+<br>
+• Bullet point one<br>
+• Bullet point two
+</div>
+<div class="step-image">
+<img src="./assets/image.webp" alt="Description" />
+</div>
+</div>
+
+</div>
+```
+
+### Key Features
+
+- **Split Layout**: 60% text / 40% image on desktop
+- **Responsive**: Stacks vertically on mobile (text above image)
+- **Auto-numbering**: Blue circles with step numbers
+- **Card Design**: Light gray background for each step
+- **Mobile-First**: Optimized for all screen sizes
+
+### CSS Classes
+
+- `.numbered-steps-with-images` - Main container with counter
+- `.step-with-image` - Individual step wrapper
+- `.step-content` - Text content area with number
+- `.step-image` - Image container
+
 ## Title Page
 
 The title page component provides a professional cover page layout for manuals.

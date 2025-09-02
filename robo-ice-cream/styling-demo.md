@@ -177,37 +177,203 @@ Consistent maintenance according to the manual's schedule helps extend equipment
 
 ---
 
-## Feature Grids (Two-Column Layout)
+## Feature Grids
 
-### Machine Features
+### Default Auto-Fit Grid (Responsive Columns)
+
+By default, feature grids automatically adjust columns based on content width (minmax 200px):
 
 <div class="feature-grid">
 
 <div class="feature-item">
 
-#### User-Friendly Interface
-An intuitive touchscreen interface allows operators to easily manage machine settings and monitor performance in real-time.
+#### Quick Setup
+Fast installation process
 
 </div>
 
 <div class="feature-item">
+
+#### Easy Clean
+Simple maintenance routine
+
+</div>
+
+<div class="feature-item">
+
+#### Safe Operation
+Built-in safety features
+
+</div>
+
+<div class="feature-item">
+
+#### 24/7 Support
+Round-the-clock assistance
+
+</div>
+
+<div class="feature-item">
+
+#### Remote Access
+Cloud-based monitoring
+
+</div>
+
+<div class="feature-item">
+
+#### Energy Efficient
+Low power consumption
+
+</div>
+
+</div>
+
+### Two-Column Layout (grid-2)
+
+Use `grid-2` class when you need exactly 2 columns for longer content or visual balance:
+
+<div class="feature-grid grid-2">
+
+<div class="feature-item">
+
+<img src="./assets/operation/password-input-screen.webp" alt="User Interface" />
+
+#### User-Friendly Interface
+An intuitive touchscreen interface allows operators to easily manage machine settings and monitor performance in real-time. The system provides clear visual feedback and step-by-step guidance.
+
+</div>
+
+<div class="feature-item">
+
+<img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice Cream Mix" />
 
 #### Dual-Flavor System
-Advanced dispensing system supports two different ice cream flavors with precise portion control and swirl capabilities.
+Advanced dispensing system supports two different ice cream flavors with precise portion control and swirl capabilities. Each hopper operates independently with its own temperature control.
 
 </div>
 
 <div class="feature-item">
+
+<img src="./assets/maintenance/mixing-bucket.webp" alt="Maintenance Tools" />
 
 #### Easy Maintenance
-Designed for straightforward access to hoppers, dispensers, and cleaning components with color-coded service points.
+Designed for straightforward access to hoppers, dispensers, and cleaning components with color-coded service points. All critical parts are easily accessible without special tools.
 
 </div>
 
 <div class="feature-item">
 
+<img src="./assets/parts-service/spare-parts-kit-with-manual.webp" alt="Parts Kit" />
+
 #### Robust Construction
-Built for durability and reliable operation in various commercial environments with stainless steel components.
+Built for durability and reliable operation in various commercial environments with stainless steel components. Engineered to withstand heavy daily use while maintaining consistent performance.
+
+</div>
+
+</div>
+
+### Three-Column Layout (grid-3)
+
+Use `grid-3` for content that works well in three columns:
+
+<div class="feature-grid grid-3">
+
+<div class="feature-item">
+
+<img src="./assets/supplies/chocolate-syrup-hersheys.webp" alt="Chocolate Syrup" />
+
+#### Chocolate
+Classic favorite syrup for enhanced flavor
+
+</div>
+
+<div class="feature-item">
+
+<img src="./assets/supplies/syrup-topping-spoons.webp" alt="Topping Spoons" />
+
+#### Toppings
+Premium dry toppings and dispensing tools
+
+</div>
+
+<div class="feature-item">
+
+<img src="./assets/parts-service/installation-tools-kit.webp" alt="Tools Kit" />
+
+#### Tools Kit
+Complete installation and maintenance toolkit
+
+</div>
+
+</div>
+
+### Four-Column Layout (grid-4)
+
+Use `grid-4` for brief items that fit in four columns:
+
+<div class="feature-grid grid-4">
+
+<div class="feature-item">
+
+#### E01
+Temperature
+
+</div>
+
+<div class="feature-item">
+
+#### E02
+Door Sensor
+
+</div>
+
+<div class="feature-item">
+
+#### E03
+Cup Jam
+
+</div>
+
+<div class="feature-item">
+
+#### E04
+Empty Hopper
+
+</div>
+
+</div>
+
+### Centered Text Variant
+
+Add `text-center` class to center all text within feature grid items:
+
+<div class="feature-grid grid-3 text-center">
+
+<div class="feature-item">
+
+<img src="./assets/setup/wheel-lock-mechanism.webp" alt="Wheel Lock" />
+
+#### Step 1
+Position Machine
+
+</div>
+
+<div class="feature-item">
+
+<img src="./assets/setup/led-signage-roof.webp" alt="LED Signage" />
+
+#### Step 2
+Install Signage
+
+</div>
+
+<div class="feature-item">
+
+<img src="./assets/maintenance/airpath-hopper-view.webp" alt="Hopper View" />
+
+#### Step 3
+Check Systems
 
 </div>
 
@@ -264,16 +430,25 @@ Built for durability and reliable operation in various commercial environments w
 
 ### Single Image
 
-<img src="./assets/overview/front-view.webp" alt="Machine Front View" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Front view of the Robo Ice Cream F2 machine</p>
+<img src="./assets/overview/machines-overview.webp" alt="Machines Overview" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Overview of Sweet Robo machines including the F2 model</p>
 
 ### Side-by-Side Images
 
 <div class="side-by-side-images">
-<img src="./assets/setup/location-requirements.webp" alt="Location Requirements" />
-<img src="./assets/setup/power-connections.webp" alt="Power Connections" />
+<img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" />
+<img src="./assets/setup/cup-dispenser-installation.webp" alt="Cup Dispenser" />
 </div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Space requirements | Right: Electrical connections</p>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Hopper setup process | Right: Cup dispenser installation</p>
+
+### Three-Column Images
+
+<div class="three-column-images">
+<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser Seal Kit" />
+<img src="./assets/parts-service/digital-clamp-multimeter.webp" alt="Digital Multimeter" />
+<img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code Manual" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Essential tools and resources for machine maintenance</p>
 
 ### Image Placeholder
 
@@ -296,22 +471,28 @@ To avoid the dreaded core board error, always follow these steps:
 <div class="numbered-steps">
 
 <div>
+<div>
 Fill both hoppers with at least 2L of prepared ice cream mix
 </div>
+</div>
 
+<div>
 <div>
 Turn on the hopper switches located at the bottom of each hopper
 </div>
+</div>
 
 <div>
+<div>
 Only then power on the main machine using the breaker
+</div>
 </div>
 
 </div>
 
 ### Feature Grid with Different Content Types
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
@@ -439,7 +620,7 @@ This is how chapter headers appear with the official blue background and white t
 
 <div class="image-text-layout">
 <div>
-<img src="./assets/overview/machine-side.webp" alt="Machine Side View" />
+<img src="./assets/overview/internal-components.webp" alt="Internal Components" />
 </div>
 <div class="text-with-line">
 
@@ -522,6 +703,62 @@ The official Sweet Robo colors used throughout:
 <div class="spec-row">
 <div class="spec-label">Important Blue</div>
 <div class="spec-value">#e6f3ff</div>
+</div>
+
+</div>
+
+---
+
+## Customer Operation Flow with Images
+
+### F2 Dual-Flavor Experience
+
+The F2 provides customers with exciting flavor options through its dual-hopper system:
+
+<div class="numbered-steps-with-images">
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Primary Selection Screen</h3>
+Customer approaches the intuitive touchscreen interface. Machine displays available flavor combinations:<br>
+<br>
+• <strong>Left Flavor Only</strong>: Single flavor from left hopper<br>
+• <strong>Right Flavor Only</strong>: Single flavor from right hopper<br>
+• <strong>Swirl Combination</strong>: Both flavors blended together
+</div>
+<div class="step-image">
+<img src="./assets/operation/device-settings.webp" alt="Device Settings Interface" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Enhanced Customization</h3>
+• Customer selects preferred size<br>
+• Choose from multiple syrup options (1-3 available)<br>
+• Add dry toppings for additional texture (1-3 available)<br>
+• Preview final product combination
+</div>
+<div class="step-image">
+<img src="./assets/operation/management-interface.webp" alt="Management Interface" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Payment and Dispensing</h3>
+Customer completes payment via cash, coin, or card. F2 automatically executes the dual-flavor process:<br>
+<br>
+• Drops cup into position<br>
+• Dispenses ice cream from selected hopper(s)<br>
+• <strong>Swirl Mode</strong>: Alternates between left and right hoppers<br>
+• Adds selected syrups in sequence<br>
+• Applies chosen toppings<br>
+• Opens collection door for pickup
+</div>
+<div class="step-image">
+<img src="./assets/operation/serving-cups.webp" alt="Serving Cups" />
+</div>
 </div>
 
 </div>

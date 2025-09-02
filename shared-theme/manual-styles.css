@@ -189,12 +189,11 @@
   line-height: 2.5em;
 }
 
-/* Content wrapper with h3 needs column layout */
-.numbered-steps > div > div:has(h3) {
+/* .numbered-steps > div {
   display: flex;
+  line-height: 2.5em;
   flex-direction: column;
-  line-height: normal;
-}
+} */
 
 /* Style h3 headers inside numbered steps to match original .step-header */
 .numbered-steps h3 {
@@ -236,6 +235,88 @@
 }
 
 /* =================================== */
+/* NUMBERED STEPS WITH IMAGES */
+/* =================================== */
+.numbered-steps-with-images {
+  counter-reset: step-counter;
+  margin: 2em 0;
+}
+
+.numbered-steps-with-images .step-with-image {
+  counter-increment: step-counter;
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+  margin: 2em 0;
+  padding: 1.5em;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.numbered-steps-with-images .step-content {
+  flex: 1;
+  position: relative;
+  padding-left: 3.5em;
+  line-height: 1.6; /* Normal line height for content */
+}
+
+.numbered-steps-with-images .step-content::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: var(--primary-blue);
+  color: white;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.numbered-steps-with-images .step-content h3 {
+  margin: 0 0 0.5em 0;
+  color: var(--primary-blue);
+  font-size: 1.2em;
+  line-height: 2.5em; /* Match the height of the number circle */
+}
+
+.numbered-steps-with-images .step-image {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+}
+
+.numbered-steps-with-images .step-image img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .numbered-steps-with-images .step-with-image {
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .numbered-steps-with-images .step-image {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  
+  .numbered-steps-with-images .step-content {
+    padding-left: 3em;
+  }
+}
+
+/* =================================== */
 /* FEATURE GRIDS */
 /* =================================== */
 .feature-grid {
@@ -248,8 +329,8 @@
 .feature-grid > div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .feature-grid img {
@@ -257,16 +338,28 @@
   width: auto;
   max-width: 100%;
   object-fit: contain;
-  margin: 0 !important; /* Override default image margins */
+  margin: 0 auto 1em auto !important; /* Center image horizontally */
+  display: block;
 }
 
 .feature-grid p {
-  text-align: center;
+  text-align: left;
   margin-top: 0.5em;
   font-size: 0.9em;
 }
+
+/* Optional class for centered text in feature grids */
+.feature-grid.text-center > div {
+  align-items: center;
+}
+
+.feature-grid.text-center p,
+.feature-grid.text-center h3,
+.feature-grid.text-center h4 {
+  text-align: center;
+}
 .grid-2 {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   max-width: 100%;
 }
 .grid-3 {
@@ -274,7 +367,7 @@
   max-width: 100%;
 }
 .grid-4 {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   max-width: 100%;
 }
 
@@ -789,7 +882,7 @@
     gap: 1em;
   }
   
-  .grid-3 {
+  .grid-3,.grid-4 {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -808,7 +901,7 @@
     grid-template-columns: 1fr;
   }
   
-  .grid-3 {
+  .grid-2, .grid-3, .grid-4 {
     grid-template-columns: 1fr;
   }
   
