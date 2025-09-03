@@ -173,7 +173,7 @@ Your F2 shipment includes:
 
 **CRITICAL: Refrigerant System Warning**
 
-This machine contains R290 refrigerant (propane) in the cooling system. The machine **MUST remain upright at all times** during transport and installation. 
+This machine contains refrigerant in the cooling system. The machine **MUST remain upright at all times** during transport and installation. 
 
 **Never tilt, tip, or lay the machine on its side** as this will:
 - Cause serious damage to the refrigeration compressor

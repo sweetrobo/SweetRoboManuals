@@ -1,5 +1,75 @@
 # Robo Ice Cream F2 Overview
 
+<div class="print-hide">
+
+## Robo Ice Cream F2 Manual
+
+**Manufacturer:** Sweet Robo  
+**Model:** Robo Ice Cream F2  
+**Document Version:** 2  
+**Last Updated:** August 2025
+
+### Manual Contents
+
+1. [Overview](overview.md) - Machine description and specifications
+2. [Setup & Installation](setup.md) - Initial setup and configuration
+3. [Operation Guide](operation.md) - Daily operation procedures
+4. [Maintenance](maintenance.md) - Scheduled maintenance and cleaning
+5. [Troubleshooting](troubleshooting.md) - Common issues and solutions
+6. [Parts & Service](parts-service.md) - Parts list and service information
+7. [Safety](safety.md) - Safety procedures and warnings
+
+### Quick Links
+
+- [Emergency Shutdown Procedure](./safety.md#emergency-shutdown)
+- [Avoiding Core Board Error](./setup.md#critical-first-start---avoiding-core-board-error)
+- [Daily Cleaning Schedule](./maintenance.md#cleaning-schedule)
+- [Common Error Solutions](./troubleshooting.md#common-issues-and-solutions)
+
+### Key F2 Features
+
+- **Dual Flavor System**: 2 × 12L hoppers
+- **220V Power Requirement**: Dedicated circuit needed
+- **200 Cup Capacity**: 4 tubes × 50 cups
+- **Android-Based System**: WiFi enabled
+- **Default Password**: 123456
+
+### Support
+
+**Technical Support**: support@sweetrobo.com  
+**Phone**: +1 (844) 793-3872  
+**Hours**: Monday-Friday, 9AM-5PM EST
+
+For detailed company information, see [Sweet Robo Contact Information](../shared/company-info.md).
+
+### Important Reminders
+
+<div class="warning-box">
+
+**Critical**: Always fill hoppers with mix BEFORE first power-on to avoid core board error  
+
+**Minimum Mix**: Maintain at least 2L per hopper at all times  
+
+**Mix Life**: Replace ice cream mix every 3-4 days
+
+</div>
+
+<div class="conditional-content" data-show-when="dev">
+
+### Document Status
+
+- [x] Overview - needs review
+- [x] Setup & Installation - needs review  
+- [x] Operation Guide - needs review
+- [x] Maintenance - needs review
+- [x] Troubleshooting - needs review
+- [x] Parts & Service - needs review
+- [x] Safety - needs review
+
+</div>
+
+</div> <!-- End print-hide -->
+
 ## Welcome to Robo Ice Cream
 
 Congratulations on your new Robo Ice Cream F2 automated vending machine! This state-of-the-art machine is designed to provide a fun and engaging experience for customers while offering a reliable and efficient vending solution for your business. With its user-friendly touchscreen interface, the Robo Ice Cream F2 is sure to be a hit.
@@ -38,7 +108,7 @@ The F2 model features **2 ice cream hoppers** allowing customers to choose betwe
 
 ### Key Features
 
-<div class="feature-grid">
+<div class="feature-grid grid-3">
 
 <div class="feature-item">
 
@@ -72,13 +142,6 @@ Automatic pasteurization settings to ensure no bacteria is present. The Robo Ice
 
 #### Dual Flavor System
 Two 12L hoppers for serving two distinct flavors plus swirl combination - the key differentiator of the F2 model.
-
-</div>
-
-<div class="feature-item">
-
-#### UV Sanitization
-Built-in UV lamp for automatic nozzle sanitization between servings.
 
 </div>
 
@@ -141,7 +204,7 @@ Sweet Robo machines are engineered for:
 - **Depth**: 86.5 cm (34.1 in / 2.84 ft)
 - **Height**: 245 cm (96.5 in / 8.04 ft)
 - **Weight (Empty)**: 380 kg
-- **Refrigerant**: R290 (Propane - eco-friendly, food equipment compliant)
+- **Refrigerant**: Contains refrigerant
 - **Operational Temperature Range**: 10°C – 35°C (50°F – 95°F)
 - **Relative Humidity Tolerance**: < 80% RH (non-condensing)
 

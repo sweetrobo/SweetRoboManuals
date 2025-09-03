@@ -723,7 +723,7 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 
 <div class="warning-box">
 
-**WARNING: Refrigerant System** - This machine contains R290 refrigerant (eco-friendly, food equipment compliant). Machine MUST remain upright at all times. Never tilt or turn machine on its side as this will cause serious damage to the refrigeration system.
+**WARNING: Refrigerant System** - This machine contains refrigerant. Machine MUST remain upright at all times. Never tilt or turn machine on its side as this will cause serious damage to the refrigeration system.
 
 </div>
 
@@ -773,7 +773,7 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 
 **Refrigeration System Details:**
 - Cooling Type: Direct-contact evaporator plate  
-- Refrigerant: R290 (Propane - eco-friendly, food equipment compliant)
+- Refrigerant: Contains refrigerant
 - Insulation: High-density polyurethane foam
 - Rated Cooling Output: ~500W combined for dual hoppers
 

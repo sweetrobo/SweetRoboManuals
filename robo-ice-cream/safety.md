@@ -192,7 +192,7 @@ Unplug the unit only after switching off the <strong>breaker</strong> (not durin
 
 **CRITICAL: Refrigerant System**
 
-This machine contains R290 refrigerant (propane). **Never tilt or lay the machine on its side** as this will damage the refrigeration system and void the warranty.
+This machine contains refrigerant. **Never tilt or lay the machine on its side** as this will damage the refrigeration system and void the warranty.
 
 </div>
 
@@ -270,7 +270,7 @@ The Robo Ice Cream machine is designed with food-contact safety in mind:
 The machine uses a compressor-driven freezing unit to maintain proper food-safe temperatures:
 
 * **Cooling Type:** Direct-contact evaporator plate
-* **Refrigerant:** R290 (Eco-friendly, compliant with food equipment standards)
+* **Refrigerant:** Contains refrigerant
 * **Insulation:** High-density polyurethane foam
 * **Rated Cooling Output:**
     * F1: ~350W
