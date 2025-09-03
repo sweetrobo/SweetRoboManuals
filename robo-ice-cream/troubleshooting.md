@@ -33,7 +33,8 @@ This section provides step-by-step guidance for identifying and resolving common
 | Topping not added | Empty container or blocked dispenser | Refill and clean topping container, test via backend |
 | Syrup not dispensing | Tubing clogged or bag empty | Clean tubing, replace syrup bag, run test |
 | Machine freezing or unresponsive | Overloaded system or background process stuck | Perform full restart via backend, then breaker |
-| UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp |
+
+<!-- | UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp | -->
 
 </div>
 

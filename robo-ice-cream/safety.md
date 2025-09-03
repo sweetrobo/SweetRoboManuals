@@ -286,9 +286,9 @@ Each hopper contains a calibrated digital temperature sensor:
     * Flags the product as expired
     * Displays a safety notice to the operator
 
----
+<!-- --- -->
 
-## UV Sanitation System
+<!-- ## UV Sanitation System
 
 A UV-C light is integrated into the dispensing area to help neutralize bacteria between sessions:
 
@@ -298,7 +298,7 @@ A UV-C light is integrated into the dispensing area to help neutralize bacteria 
 * Always allow the lamp to cool before touching
 * Avoid direct eye exposure to the UV light during manual tests
 * The system activates only when the door is closed
-* Manual cleaning is still required; UV is a **supplement**, not a replacement
+* Manual cleaning is still required; UV is a **supplement**, not a replacement -->
 
 ---
 

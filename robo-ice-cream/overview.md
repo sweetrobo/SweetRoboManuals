@@ -162,7 +162,7 @@ Holds 200 cups (4 tubes × 50 cups each) compared to F1's 100 cups.
 - Accepts multiple payment methods (bills, coins, card terminals)
 - Provides audio/video feedback for customers
 - Maintains optimal food-safe temperatures via built-in sensors
-- Includes UV sanitation and system diagnostics
+<!-- - Includes UV sanitation and system diagnostics -->
 - Operates unattended with scheduled hours and stock tracking
 
 ### Use Cases
@@ -204,7 +204,6 @@ Sweet Robo machines are engineered for:
 - **Depth**: 86.5 cm (34.1 in / 2.84 ft)
 - **Height**: 245 cm (96.5 in / 8.04 ft)
 - **Weight (Empty)**: 380 kg
-- **Refrigerant**: Contains refrigerant
 - **Operational Temperature Range**: 10°C – 35°C (50°F – 95°F)
 - **Relative Humidity Tolerance**: < 80% RH (non-condensing)
 
@@ -230,13 +229,13 @@ Each F2 machine includes the following subsystems:
 | Dispensing System | Delivers ice cream to cup with topping and syrup options using rotary auger for mix churn and extrusion |
 | Payment System | Accepts coins, bills, and card payments through multiple integrated payment methods |
 | Operator Backend | Settings panel for timing, stock, hours, and testing with secured access |
-| Refrigeration System | Maintains safe holding and freezing temperatures with compressor-based cooling |
-| UV Sanitizer | Disinfects the dispensing nozzle area regularly using built-in UV lamp |
 | Audio/Visual Output | Plays videos and provides status feedback through integrated touchscreen and speakers |
 | Safety Controls | Prevents operation if doors open or errors occur - includes automatic door mechanisms |
 | Cup Dispenser | 4-tube, 50 cups per tube, motorized drop with sensor alignment (200 total capacity) |
 | Blue Robo Delivery Bot | Automated system that gathers ingredients, prepares treats, and serves ice cream |
 
+<!-- | Refrigeration System | Maintains safe holding and freezing temperatures with compressor-based cooling | -->
+<!-- | UV Sanitizer | Disinfects the dispensing nozzle area regularly using built-in UV lamp | -->
 ## Hardware Components
 
 ### External Components (Customer-Facing)
@@ -301,11 +300,11 @@ Each hopper is equipped with a precision temperature sensor that continuously mo
 |-----------|-------------|
 | Blue Robo Delivery Bot | Automated delivery system that gathers all ingredients, prepares treats, and serves delicious ice cream |
 | Topping Dispenser | Dispenses dry toppings directly onto ice cream as the final step before serving |
-| UV Sanitizer | Built-in ultraviolet light that sterilizes the dispense area between servings |
 | Syrup Dispenser | Draws liquid syrup from holders and applies it to ice cream per customer selection |
 | Ice Cream Dispenser | Where Blue Robo collects freshly dispensed ice cream synchronized with temperature and mix level sensors |
 | Hopper Temperature Sensor | Monitors ice cream mix temperature continuously - automatically marks mix as "needs replacement" and prevents dispensing if temperature exceeds 5°C (41°F) |
 
+<!-- | UV Sanitizer | Built-in ultraviolet light that sterilizes the dispense area between servings | -->
 ## Installation Requirements
 
 ### Space Requirements
