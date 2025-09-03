@@ -20,6 +20,7 @@
   --text-light: #718096;
   --border-light: #e2e8f0;
   --background-light: #f7fafc;
+  --manual-title: "Sweet Robo Manual - Robo Ice Cream F2";
 }
 
 /* =================================== */
@@ -29,7 +30,7 @@
   color: var(--primary-blue);
   font-size: 2.5em;
   font-weight: bold;
-  margin: 2em 0 1em 0;
+  margin: 2.5em 0 1em 0;
   border-bottom: 3px solid var(--primary-blue);
   padding-bottom: 0.5em;
 }
@@ -38,7 +39,7 @@
   color: var(--primary-blue);
   font-size: 2em;
   font-weight: bold;
-  margin: 2em 0 1em 0;
+  margin: 2.5em 0 1em 0;
   padding: 0.5em 1em;
   background: var(--light-blue);
   border-left: 5px solid var(--primary-blue);
@@ -49,14 +50,14 @@
   color: var(--primary-blue);
   font-size: 1.4em;
   font-weight: bold;
-  margin: 1.5em 0 0.8em 0;
+  margin: 2em 0 0.8em 0;
 }
 
 .content h4 {
   color: var(--text-dark);
   font-size: 1.2em;
   font-weight: bold;
-  margin: 1.2em 0 0.6em 0;
+  margin: 1.5em 0 0.6em 0;
 }
 
 /* Inline text styling - consistent line height */
@@ -743,7 +744,8 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 80px; /* Adjusted margin for better centering and push down image closer to bottom of page */
+  /* margin: 80px;  */
+  /* Commented out margin since it was adding too much space and pushing image to a smaller size and not needed here after testing */
 }
 
 .title-page h1 {
@@ -1007,87 +1009,32 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
 }
 
 /* =================================== */
-/* TEMPORARY: PRINT PREVIEW IN BROWSER */
-/* =================================== */
-/* TODO: Remove this section when done debugging */
-@media screen and (min-width: 9999px) {
-  /* Use impossible width to disable by default */
-  /* Copy of print styles for preview - change to min-width: 1px to enable */
-
-  /* Page setup simulation */
-  body {
-    max-width: 8.5in;
-    margin: 2cm auto;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-
-  /* Title page specific - ensure it fits on one page */
-  .title-page {
-    page-break-after: always;
-    overflow: hidden;
-    border: 2px solid blue; /* Debug border */
-  }
-
-  /* Image constraints */
-  .content img {
-    max-height: 4in !important;
-    border: 1px solid green; /* Debug border */
-  }
-
-  /* Side-by-side images */
-  .side-by-side-images {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 1em !important;
-    border: 1px solid orange; /* Debug border */
-  }
-}
-
-/* =================================== */
 /* PRINT STYLES */
 /* =================================== */
-@media print /*, screen */ {
-  /* DEBUG BORDERS - REMOVE WHEN DONE */
-  /* * {
-        border: 0.5px solid rgba(255, 0, 0, 0.2) !important;
-    }
-    
-    .title-page {
-        border: 2px solid rgba(0, 0, 255, 0.2) !important;
-    }
-    
-    .content img {
-        border: 1px solid rgba(0, 128, 0, 0.5) !important;
-    }
-    
-    .side-by-side-images {
-        border: 1px solid rgba(255, 166, 0, 0.5) !important;
-    }
-    
-    table {
-        border: 1px solid rgba(128, 0, 128, 0.5) !important;
-    } */
+@media print {
 
   /* Page setup */
   @page {
-    margin: 1cm 1cm 1.5cm 1cm;
+    margin: 0.75cm 0.5cm 0.5cm 0.5cm; /* Reduced bottom margin to prevent overflow */
     size: letter;
+    padding-top: 10px; /* Space after header */
 
     @top-left {
-      content: "Sweet Robo - User Manual - Robo Ice Cream F2";
+      content: "Sweet Robo - Robo Ice Cream F2 Manual";
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         Arial, sans-serif;
-      font-size: 10pt;
+      font-size: 9pt;
       color: #666;
+      padding-bottom: 5px;
     }
 
     @top-right {
       content: counter(page);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         Arial, sans-serif;
-      font-size: 10pt;
+      font-size: 9pt;
       color: #666;
+      padding-bottom: 5px;
     }
   }
 
@@ -1102,6 +1049,72 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
       content: none;
     }
   }
+  
+  /* Remove ALL mdBook padding/margins in print - target every possible container */
+  * {
+    max-width: 100% !important;
+  }
+  
+  body, 
+  html,
+  .content,
+  .chapter,
+  main,
+  #content,
+  .page,
+  .page-wrapper,
+  #page-wrapper,
+  .book-body,
+  .body-inner,
+  .page-inner,
+  section,
+  article {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Target mdBook specific containers */
+  #content > main,
+  #content main,
+  .content > *,
+  main > *:not(.title-page) {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  
+  /* Remove sidebar and navigation in print */
+  .sidebar,
+  .nav-wrapper,
+  .nav-chapters,
+  .menu-bar,
+  #menu-bar,
+  #menu-bar-hider,
+  .left-buttons,
+  .right-buttons,
+  .navigation,
+  .nav {
+    display: none !important;
+  }
+  
+  /* Force all divs to use full width */
+  div:not(.title-page):not(.warning-box):not(.caution-box):not(.info-box):not(.important-box) {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Headings and paragraphs should use full width */
+  h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, pre {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 
   /* Title page specific */
   .title-page {
@@ -1114,26 +1127,143 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
   }
   
   .title-page .machine-image {
-    max-height: 7in !important; /* Large size for title page machine image */
+    max-height: 8in !important; /* Large size for title page machine image */
   }
 
+  /* Comprehensive print hiding system */
+  
+  /* Primary class for hiding content in print */
+  .no-print,
+  .print-hide {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  
   /* Hide introduction content in print */
   .introduction-content {
     display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
   }
 
   /* Hide placeholder images in print */
   .image-placeholder {
     display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
+  /* Remove page breaks adjacent to hidden content */
+  .no-print + .page-break,
+  .print-hide + .page-break,
+  .introduction-content + .page-break,
+  .page-break:has(+ .no-print),
+  .page-break:has(+ .print-hide),
+  .page-break:has(+ .introduction-content) {
+    display: none !important;
+    height: 0 !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+  }
+  
+  /* If a chapter only contains hidden content, hide the entire chapter */
+  .chapter:has(> .introduction-content:only-child),
+  .chapter:has(> .no-print:only-child),
+  .chapter:has(> .print-hide:only-child) {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+  }
+  
+  /* Remove any standalone page break elements */
+  .page-break:only-child {
+    display: none !important;
+  }
+  
   /* When printing class is added by JS, hide page breaks after introduction */
   body.printing .page-break:has(+ .chapter .introduction-content) {
     display: none !important;
   }
 
+  /* Compact tables for print */
   table {
     page-break-inside: avoid;
+    font-size: 0.9em !important; /* Slightly smaller text */
+  }
+  
+  .content table th,
+  table th {
+    padding: 0.3em 0.5em !important; /* Reduced from 1em */
+    font-size: 0.95em !important;
+  }
+  
+  .content table td,
+  table td {
+    padding: 0.2em 0.5em !important; /* Reduced from 0.8em 1em */
+    line-height: 1.2 !important; /* Tighter line height */
+  }
+  
+  /* Compact specs table for print */
+  .specs-table {
+    margin: 0.5em 0 !important; /* Reduced from 2em */
+  }
+  
+  .specs-table .spec-label,
+  .specs-table .spec-value {
+    padding: 0.3em 0.5em !important; /* Reduced from 1em */
+    line-height: 1.2 !important;
+    font-size: 0.9em !important;
+  }
+  
+  .specs-table .spec-row {
+    min-height: auto !important;
+  }
+  
+  /* Compact callout boxes for print */
+  .important-box,
+  .warning-box,
+  .caution-box,
+  .info-box {
+    margin: 0.5em 0 !important; /* Reduced from 1.5em */
+    padding: 0.75em !important; /* Reduced from 1.5em */
+    page-break-inside: avoid;
+  }
+  
+  .important-box h3,
+  .important-box h4,
+  .warning-box h3,
+  .warning-box h4,
+  .caution-box h3,
+  .caution-box h4,
+  .info-box h3,
+  .info-box h4 {
+    margin-top: 0 !important;
+    margin-bottom: 0.3em !important;
+    font-size: 1em !important; /* Slightly smaller headers */
+  }
+  
+  .important-box p,
+  .warning-box p,
+  .caution-box p,
+  .info-box p {
+    margin-bottom: 0.5em !important;
+    line-height: 1.3 !important; /* Tighter line spacing */
   }
 
   .feature-grid {
@@ -1321,6 +1451,208 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
         display: none !important;
     }
     */
+}
+
+/* =================================== */
+/* PRINT MODE STYLES (For Debugging) */
+/* =================================== */
+/* Apply print styles when body has print-mode class (for print.html debugging) */
+body.print-mode {
+  /* Don't constrain width - let it use browser's natural width for better debugging */
+  /* The print process will handle page width automatically */
+  /* margin: 1cm auto; */
+  padding: 1cm;
+  background: white;
+}
+
+/* Title page in print mode */
+body.print-mode .title-page {
+  page-break-after: always;
+  min-height: 9.5in; /* Letter height minus margins */
+  margin-bottom: 2cm;
+}
+
+/* Visual page break indicator - only on screen */
+@media screen {
+  body.print-mode .page-break {
+    border-bottom: 2px dashed #ccc; /* Visual page break */
+  }
+}
+
+/* Hide elements in print mode */
+body.print-mode .introduction-content,
+body.print-mode .image-placeholder {
+  display: none !important;
+}
+
+/* Content images in print mode */
+body.print-mode .content img {
+  max-height: 4.5in !important;
+  page-break-inside: avoid;
+  margin: 1em auto !important;
+}
+
+/* Standalone images can be larger */
+body.print-mode .content > p > img:only-child,
+body.print-mode .content > img {
+  max-height: 5.5in !important;
+  display: block;
+  margin: 1em auto !important;
+}
+
+body.print-mode .title-page img {
+  max-height: none !important;
+  margin: 0 !important;
+}
+
+body.print-mode .title-page .footer-machine-image {
+  max-height: 6in !important;
+}
+@media print {
+  /* in preview (code above), set to 6in, so it deosnt push the qr code off the screen. in print, 7in works well, tested. */
+  body.print-mode .title-page .footer-machine-image {
+    max-height: 7in !important;
+  }
+}
+
+/* Side-by-side images in print mode */
+body.print-mode .side-by-side-images {
+  page-break-inside: avoid;
+  margin: 0.5em 0 !important;
+}
+
+body.print-mode .side-by-side-images img {
+  max-height: 2.5in !important;
+  object-fit: contain;
+}
+
+/* Images inside numbered steps */
+body.print-mode .numbered-steps .side-by-side-images img {
+  max-height: 2in !important;
+}
+
+/* Reduce spacing in numbered steps */
+body.print-mode .numbered-steps > div {
+  margin: 1em 0 !important;
+}
+
+/* Three-column images in print mode */
+body.print-mode .three-column-images {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 0.75em !important;
+  page-break-inside: avoid;
+  margin: 1.5em 0;
+}
+
+body.print-mode .three-column-images img,
+body.print-mode .three-column-images .image-placeholder {
+  max-height: 3in !important;
+  width: 100% !important;
+  object-fit: contain;
+}
+
+/* Feature grid in print mode */
+body.print-mode .feature-grid {
+  display: grid !important;
+  gap: 1em !important;
+  page-break-inside: avoid;
+}
+
+body.print-mode .feature-grid.grid-3 {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+body.print-mode .feature-grid.grid-3 > div {
+  page-break-inside: avoid !important;
+  break-inside: avoid !important;
+}
+
+body.print-mode .feature-grid.grid-3 img {
+  max-height: 2.2in !important;
+  width: 100% !important;
+  object-fit: contain;
+}
+
+body.print-mode .feature-grid.grid-3 p {
+  font-size: 0.75em !important;
+  margin-top: 0.25em !important;
+  page-break-before: avoid !important;
+}
+
+/* Tables and other elements */
+body.print-mode table,
+body.print-mode .feature-item,
+body.print-mode .specs-table {
+  page-break-inside: avoid;
+}
+
+  /* DEBUG BORDERS - REMOVE WHEN DONE */
+  /* * {
+        border: 0.5px solid rgba(255, 0, 0, 0.2) !important;
+    }
+    
+    .title-page {
+        border: 2px solid rgba(0, 0, 255, 0.2) !important;
+    } */
+    
+    /* .content img {
+        border: 1px solid rgba(0, 128, 0, 0.5) !important;
+    }
+    
+    .side-by-side-images {
+        border: 1px solid rgba(255, 166, 0, 0.5) !important;
+    }
+    
+    table {
+        border: 1px solid rgba(128, 0, 128, 0.5) !important;
+    } */
+
+/* Optional: Page break visualization - only for screen viewing */
+@media screen {
+
+  body.print-mode .page-break {
+    display: block;
+    height: 2px;
+    background: repeating-linear-gradient(
+      90deg,
+      #ccc,
+      #ccc 10px,
+      transparent 10px,
+      transparent 20px
+    );
+    margin: 2cm 0;
+    position: relative;
+  }
+
+  body.print-mode .page-break::after {
+    content: "Page Break";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 10px;
+    color: #999;
+    font-size: 12px;
+    font-family: monospace;
+  }
+}
+
+/* Optional: Add subtle page height indicators every ~11 inches - only for screen viewing */
+@media screen {
+  body.print-mode {
+    /* background-image: repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent calc(11in - 2px),
+      rgba(200, 200, 200, 0.3) calc(11in - 2px),
+      rgba(200, 200, 200, 0.3) 11in
+    ); */
+    background-image: repeating-linear-gradient(to bottom, transparent, #27ff00 calc(11in - 2px), rgb(255 0 0) calc(11in - 2px), rgb(0 0 0) 11in);
+    background-size: 100% 11in;
+    background-position: 0 1cm;
+  }
 }
 
 /* =================================== */
