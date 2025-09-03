@@ -43,3 +43,4 @@ book/
 
 # Cloudflare tunnel credentials
 cloudflare/credentials.json
+/.playwright-mcp
