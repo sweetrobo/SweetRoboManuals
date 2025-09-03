@@ -223,9 +223,18 @@ body.role-internal .conditional-visible::before {
         display: none !important;
     }
     
-    /* Optionally hide certain role content when printing */
-    .no-print {
+    /* Comprehensive print hiding - matches manual-styles.css */
+    .no-print,
+    .print-hide {
         display: none !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
+        page-break-before: avoid !important;
+        page-break-after: avoid !important;
+        page-break-inside: avoid !important;
     }
 }
 
