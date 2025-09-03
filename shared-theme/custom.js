@@ -483,8 +483,9 @@
         newUrl.search = "";
         window.history.replaceState({}, "", newUrl);
 
-        // Apply changes
+        // Apply changes - both conditional content and comprehensive visibility
         applyConditionalContent();
+        handleContentVisibility();
       }
     });
 
@@ -821,6 +822,11 @@
     document.addEventListener("DOMContentLoaded", initializeAll);
   } else {
     initializeAll();
+  }
+
+  // Add print-mode class to body when on print.html for CSS debugging
+  if (isPrintPage()) {
+    document.body.classList.add('print-mode');
   }
 
   // Expose API for programmatic control
