@@ -8,10 +8,12 @@ This section provides step-by-step guidance for identifying and resolving common
 
 <div class="warning-box">
 
-**Safety First**
+<strong>Safety First</strong>
 
-- **Always power down the machine** using the backend shutdown button and breaker before inspecting internal components.
-- **Record the issue** and any unusual behavior or error codes to assist with support or warranty claims.
+<ul>
+<li><strong>Always power down the machine</strong> using the backend shutdown button and breaker before inspecting internal components.</li>
+<li><strong>Record the issue</strong> and any unusual behavior or error codes to assist with support or warranty claims.</li>
+</ul>
 
 </div>
 
@@ -42,24 +44,30 @@ This section provides step-by-step guidance for identifying and resolving common
 
 <div class="caution-box">
 
-**Symptom:** Machine is on but not producing ice cream
-
-**Cause:** Machine needs time to reach operating temperature
+<strong>Symptom:</strong> Machine is on but not producing ice cream<br>
+<br>
+<strong>Cause:</strong> Machine needs time to reach operating temperature
 
 </div>
 
 <div class="numbered-steps">
 
 <div>
+<div>
 After turning on power and refrigeration switch, wait 5-10 minutes
 </div>
+</div>
 
+<div>
 <div>
 Check temperature status on screen (L: 100% or R: 100% indicates ready)
 </div>
+</div>
 
 <div>
+<div>
 Machine will only dispense once internal temperature is cold enough
+</div>
 </div>
 
 </div>
@@ -68,9 +76,9 @@ Machine will only dispense once internal temperature is cold enough
 
 <div class="warning-box">
 
-**Symptom:** "Core board error" message on screen, loud grinding noise
-
-**Cause:** Hopper turned on without liquid, causing metal-on-metal contact
+<strong>Symptom:</strong> "Core board error" message on screen, loud grinding noise<br>
+<br>
+<strong>Cause:</strong> Hopper turned on without liquid, causing metal-on-metal contact
 
 </div>
 
@@ -79,30 +87,40 @@ Machine will only dispense once internal temperature is cold enough
 <div class="numbered-steps">
 
 <div>
-**Immediately turn off the machine**
+<div>
+<strong>Immediately turn off the machine</strong>
+</div>
 </div>
 
+<div>
 <div>
 Fill each hopper with at least 2 liters of prepared mix (3L water + 1 gelato mix packet)
 </div>
+</div>
 
+<div>
 <div>
 Turn on the hopper switch (located on bottom of hopper)
 </div>
-
-<div>
-Turn on the machine
 </div>
 
 <div>
+<div>
+Turn on the machine
+</div>
+</div>
+
+<div>
+<div>
 Error should clear once liquid is detected
+</div>
 </div>
 
 </div>
 
 <div class="important-box">
 
-**Prevention:** Always fill hoppers before turning on machine
+<strong>Prevention:</strong> Always fill hoppers before turning on machine
 
 </div>
 
@@ -110,9 +128,9 @@ Error should clear once liquid is detected
 
 <div class="warning-box">
 
-**Symptom:** Display shows "Mix Needs Replacement" and machine won't dispense
-
-**Cause:** Hopper temperature sensor detected mix temperature above 5°C (41°F)
+<strong>Symptom:</strong> Display shows "Mix Needs Replacement" and machine won't dispense<br>
+<br>
+<strong>Cause:</strong> Hopper temperature sensor detected mix temperature above 5°C (41°F)
 
 </div>
 
@@ -121,43 +139,59 @@ Error should clear once liquid is detected
 <div class="numbered-steps">
 
 <div>
+<div>
 Stop operation immediately - do NOT attempt to override
 </div>
+</div>
 
+<div>
 <div>
 Check which hopper(s) are affected (L: or R: display)
 </div>
+</div>
 
+<div>
 <div>
 Dispose of affected mix following food safety guidelines
 </div>
+</div>
 
+<div>
 <div>
 Clean and sanitize the affected hopper using the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>
 </div>
+</div>
 
+<div>
 <div>
 Refill with fresh, properly chilled mix
 </div>
-
-<div>
-Allow mix to cool below 5°C before resuming operation
 </div>
 
 <div>
+<div>
+Allow mix to cool below 5°C before resuming operation
+</div>
+</div>
+
+<div>
+<div>
 Monitor temperature display until it shows normal operation
+</div>
 </div>
 
 </div>
 
 <div class="important-box">
 
-**Prevention:** 
-- Monitor hopper temperatures regularly during operation
-- Ensure refrigeration system is functioning properly
-- Never leave mix at room temperature
-- Check door seals for proper closure
-- Verify ventilation is adequate around the machine
+<strong>Prevention:</strong>
+<ul>
+<li>Monitor hopper temperatures regularly during operation</li>
+<li>Ensure refrigeration system is functioning properly</li>
+<li>Never leave mix at room temperature</li>
+<li>Check door seals for proper closure</li>
+<li>Verify ventilation is adequate around the machine</li>
+</ul>
 
 </div>
 
@@ -165,7 +199,7 @@ Monitor temperature display until it shows normal operation
 
 <div class="info-box">
 
-**Symptom:** Cup doesn't drop when customer orders
+<strong>Symptom:</strong> Cup doesn't drop when customer orders
 
 </div>
 
@@ -174,25 +208,33 @@ Monitor temperature display until it shows normal operation
 <div class="numbered-steps">
 
 <div>
+<div>
 Access backend: Tap and hold top-right corner for 3-5 seconds, enter default password<br>
 (See <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a> for details)
 </div>
+</div>
 
+<div>
 <div>
 Navigate to Device Testing
 </div>
+</div>
 
+<div>
 <div>
 Try these functions:<br>
 • "Cup Out" - dispenses one cup<br>
 • "Reset Cup Holder" - realigns the system
 </div>
+</div>
 
+<div>
 <div>
 Check that cups are:<br>
 • Loaded correctly in tubes<br>
 • Properly aligned<br>
 • Not jammed or stuck together
+</div>
 </div>
 
 </div>
@@ -201,7 +243,7 @@ Check that cups are:<br>
 
 <div class="info-box">
 
-**Symptom:** Syrup pumps activate but no syrup comes out
+<strong>Symptom:</strong> Syrup pumps activate but no syrup comes out
 
 </div>
 
@@ -210,44 +252,62 @@ Check that cups are:<br>
 <div class="numbered-steps">
 
 <div>
+<div>
 Access backend (see <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a>)
 </div>
+</div>
 
+<div>
 <div>
 Go to Stock Settings menu
 </div>
+</div>
 
+<div>
 <div>
 Verify stock levels are set correctly
 </div>
+</div>
 
+<div>
 <div>
 Navigate to Parameter Settings
 </div>
+</div>
 
+<div>
 <div>
 Find Syrup 1, 2, 3 options
 </div>
+</div>
 
+<div>
 <div>
 Place a cup under syrup tip
 </div>
-
-<div>
-Press play/test for each syrup
 </div>
 
 <div>
+<div>
+Press play/test for each syrup
+</div>
+</div>
+
+<div>
+<div>
 Run multiple times until syrup flows (air bubbles may need clearing)
+</div>
 </div>
 
 </div>
 
 <div class="info-box">
 
-**Alternative test:**
-- Go to Device Testing → Jams/Sprinkles Test
-- Test each syrup dispenser manually
+<strong>Alternative test:</strong>
+<ul>
+<li>Go to Device Testing → Jams/Sprinkles Test</li>
+<li>Test each syrup dispenser manually</li>
+</ul>
 
 </div>
 
@@ -255,39 +315,49 @@ Run multiple times until syrup flows (air bubbles may need clearing)
 
 <div class="info-box">
 
-**Symptom:** Topping dispensers activate but nothing comes out
+<strong>Symptom:</strong> Topping dispensers activate but nothing comes out
 
 </div>
 
 <div class="numbered-steps">
 
 <div>
+<div>
 Check Stock Settings for correct levels
 </div>
+</div>
 
+<div>
 <div>
 Ensure using only dry, solid toppings (no chunks or thick sauces)
 </div>
+</div>
 
+<div>
 <div>
 Test via Device Testing → Jams/Sprinkles Test
 </div>
+</div>
 
+<div>
 <div>
 Check for clogs in dispenser mechanism
 </div>
+</div>
 
 </div>
 
-### Temperature Display Questions
+### Hopper Readiness Display
 
 <div class="info-box">
 
-**What "L: 100%" or "R: 100%" means:**
-- L = Left hopper temperature status
-- R = Right hopper temperature status
-- 100% = Hopper at correct serving temperature
-- Lower percentages = Still cooling down
+<strong>What "L: 100%" or "R: 100%" means:</strong>
+<ul>
+<li>L = Left hopper readiness status</li>
+<li>R = Right hopper readiness status</li>
+<li>100% = Mix at optimal serving temperature, ready to dispense</li>
+<li>Lower percentages = Mix still cooling to target temperature</li>
+</ul>
 
 </div>
 
@@ -298,23 +368,33 @@ Check for clogs in dispenser mechanism
 <div class="numbered-steps">
 
 <div>
+<div>
 Ensure Nayax is properly installed behind cash box
 </div>
+</div>
 
+<div>
 <div>
 Check COM2 connection to machine
 </div>
+</div>
 
+<div>
 <div>
 Verify marshal cover is in place
 </div>
-
-<div>
-Complete Nayax registration if not done
 </div>
 
 <div>
+<div>
+Complete Nayax registration if not done
+</div>
+</div>
+
+<div>
+<div>
 Contact Nayax support if error persists
+</div>
 </div>
 
 </div>
@@ -326,27 +406,39 @@ Contact Nayax support if error persists
 <div class="numbered-steps">
 
 <div>
+<div>
 Access backend (see <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a>)
 </div>
+</div>
 
+<div>
 <div>
 Go to System Settings
 </div>
+</div>
 
+<div>
 <div>
 Look at bottom right corner (buttons may be hard to see)
 </div>
+</div>
 
+<div>
 <div>
 Press "Exit App" to access Android settings
 </div>
-
-<div>
-Connect to WiFi through Android WiFi settings
 </div>
 
 <div>
+<div>
+Connect to WiFi through Android WiFi settings
+</div>
+</div>
+
+<div>
+<div>
 Return to the app
+</div>
 </div>
 
 </div>
@@ -355,10 +447,12 @@ Return to the app
 
 <div class="caution-box">
 
-**Possible Causes:**
-- Insufficient mix in hopper (needs minimum 2L)
-- Cooling not activated in settings
-- Mix ratio incorrect (should be 3L water to 1 packet)
+<strong>Possible Causes:</strong>
+<ul>
+<li>Insufficient mix in hopper (needs minimum 2L)</li>
+<li>Cooling not activated in settings</li>
+<li>Mix ratio incorrect (should be 3L water to 1 packet)</li>
+</ul>
 
 </div>
 
@@ -367,23 +461,33 @@ Return to the app
 <div class="numbered-steps">
 
 <div>
+<div>
 Verify at least 2L of mix in each hopper
 </div>
+</div>
 
+<div>
 <div>
 Access Parameter Settings
 </div>
+</div>
 
+<div>
 <div>
 Find ice cream options: "Clean", "Cool", "Thaw"
 </div>
-
-<div>
-Select "Cooling" option
 </div>
 
 <div>
+<div>
+Select "Cooling" option
+</div>
+</div>
+
+<div>
+<div>
 Allow 5-10 minutes for proper cooling
+</div>
 </div>
 
 </div>
@@ -397,15 +501,21 @@ Allow 5-10 minutes for proper cooling
 <div class="numbered-steps">
 
 <div>
+<div>
 Switch off main power to ice cream machine
 </div>
+</div>
 
+<div>
 <div>
 Use breaker switch to cut power
 </div>
+</div>
 
 <div>
-**Never unplug machine while running**
+<div>
+<strong>Never unplug machine while running</strong>
+</div>
 </div>
 
 </div>
