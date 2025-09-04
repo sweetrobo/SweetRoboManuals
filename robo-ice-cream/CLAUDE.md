@@ -183,8 +183,7 @@ Steps with headers (automatically styled):
 <div>
 <h3>Initial System Check</h3>
 • Monitor temperature displays<br>
-• Listen for unusual noises<br>
-• Verify UV sanitizer activates
+• Listen for unusual noises
 </div>
 </div>
 
