@@ -60,7 +60,7 @@ After turning on power and refrigeration switch, wait 5-10 minutes
 
 <div>
 <div>
-Check temperature status on screen (L: 100% or R: 100% indicates ready)
+Check hopper status on screen (Left: 100% or Right: 100% indicates ready)
 </div>
 </div>
 
@@ -146,7 +146,7 @@ Stop operation immediately - do NOT attempt to override
 
 <div>
 <div>
-Check which hopper(s) are affected (L: or R: display)
+Check which hopper(s) are affected (Left or Right display)
 </div>
 </div>
 

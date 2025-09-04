@@ -44,7 +44,7 @@ Each hopper maintains optimal serving temperature independently.
 <div>
 <h3>Check Machine Status</h3>
 • Verify power is on<br>
-• Check <strong>L: and R:</strong> temperature displays (should show 100% when ready)<br>
+• Check <strong>Left (L:) and Right (R:)</strong> hopper status displays (should show 100% when ready)<br>
 • Ensure both hoppers are at serving temperature<br>
 • Verify hopper temperature sensors show below 5°C (41°F)<br>
 • Check for any "Mix Needs Replacement" alerts<br>
@@ -482,7 +482,7 @@ To maximize customer satisfaction and manage inventory:
 
 <div>
 <div>
-Check which hopper requires refilling (L: or R: display)
+Check which hopper requires refilling (Left or Right display)
 </div>
 </div>
 
@@ -641,7 +641,7 @@ Configure customer experience for dual-flavor purchasing:<br>
 ### Dual-Hopper Best Practices
 - **Never turn off hopper switches** during operation
 - **Maintain minimum 2L mix** in each hopper (see [Critical Requirements](overview.md#critical-operating-requirements))  
-- **Monitor both L: and R: temperatures** continuously
+- **Monitor both Left and Right hopper status** continuously
 - **Plan flavor combinations** based on customer preferences
 
 </div>

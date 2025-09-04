@@ -41,7 +41,7 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 
 #### Operational Verification
 • Verify hopper fill levels (both Left and Right hoppers)<br>
-• Check **L: and R:** temperature displays (should show 100% when ready to serve)<br>
+• Check **Left (L:) and Right (R:)** hopper status displays (should show 100% when cooled and ready to serve)<br>
 • Monitor actual temperature (must be below 41°F/5°C)<br>
 • Check hopper temperature sensors - verify no "Mix Needs Replacement" alerts<br>
 • Confirm both hoppers maintaining safe temperature (below 5°C)<br>
