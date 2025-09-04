@@ -69,8 +69,4 @@ Address: 132 32st, Brooklyn, NY, 11232, United States
 Email: support@sweetrobo.com  
 Phone: +1 (844) 793-3872
 
-## Document Version
-
-Version: 1.0  
-Last Updated: [Date]  
-© 2021-2025 Sweet Robo. All rights reserved.
+© 2025 Sweet Robo. All rights reserved.
