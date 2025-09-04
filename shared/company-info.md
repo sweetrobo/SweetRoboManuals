@@ -50,3 +50,11 @@ To find a partner near you, visit our website or contact our sales team.
 We value your feedback! Help us improve our products and services:
 - Product feedback: info@sweetrobo.com
 - Manual corrections: meir@sweetrobo.com
+
+### Manual Feedback
+
+If you notice any errors or have suggestions for improving this manual, please contact us:
+- Email: support@sweetrobo.com
+- Subject line: "Manual Feedback - [Machine Model]"
+
+Your input helps us improve documentation for all users.
