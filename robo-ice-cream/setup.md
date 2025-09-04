@@ -513,7 +513,7 @@ Note which syrup is in each position (1, 2, 3) - you'll need to configure this i
 
 <div class="warning-box">
 
-**Requirements:** Only liquid syrups - NO solids, chunks, or thick sauces
+**Requirements:** Liquid syrups only (see [Critical Requirements](overview.md#critical-operating-requirements))
 
 </div>
 
@@ -551,7 +551,7 @@ Close lids securely.
 
 <div class="warning-box">
 
-**Requirements:** Only dry/solid toppings - NO liquids, wet, or sticky items
+**Requirements:** Dry toppings only (see [Critical Requirements](overview.md#critical-operating-requirements))
 
 </div>
 
@@ -707,13 +707,9 @@ Once connected to the internet, your machine can be accessed remotely by Sweet R
 
 ### 8.1 Access Backend
 
-To access the backend management system:
+**Quick Access:** Tap and hold top-right corner for 3-5 seconds, enter default password
 
-1. Tap top-right corner of touchscreen 6+ times (or hold 3-5 seconds)
-2. Enter default password: **123456**
-3. Backend management screen will appear
-
-For detailed backend navigation and settings descriptions, see [Operator Interface and Backend Management](operation.md#operator-interface-and-backend-management) in the Operation Guide.
+For complete backend navigation, settings descriptions, and management interface overview, see [Operator Interface and Backend Management](operation.md#operator-interface-and-backend-management) in the Operation Guide.
 
 ### 8.2 Test Functions
 
@@ -771,11 +767,10 @@ In `Shopping Settings`, configure payment methods:
 <div class="important-box">
 
 **Daily Operations:**
-- Never run hoppers empty - maintain 2L minimum
-- Mix expires after 3-4 days - replace regularly
-- Only liquid syrups (no solids)
-- Only dry toppings (no liquids)
-- Clean regularly per maintenance schedule
+See [Critical Operating Requirements](overview.md#critical-operating-requirements) for essential guidelines including:
+- Minimum mix levels, expiration timing
+- Syrup and topping restrictions
+- Cleaning schedule requirements
 
 </div>
 

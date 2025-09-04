@@ -30,8 +30,8 @@ This section provides step-by-step guidance for identifying and resolving common
 | Machine won't dispense despite mix present | Temperature sensor detected unsafe mix temp | Check hopper temperature, replace mix if above 5°C |
 | Cup not dropping | Cup tube is empty or jammed | Refill cup tubes, run test drop in backend |
 | Dispensing door does not open | Sensor blocked or door jammed | Clear obstructions, restart door motor via backend |
-| Topping not added | Empty container or blocked dispenser | Refill and clean topping container, test via backend |
-| Syrup not dispensing | Tubing clogged or bag empty | Clean tubing, replace syrup bag, run test |
+| Topping not added | Empty container or blocked dispenser | Refill and clean topping container (see <a href="./maintenance.html#complete-3-step-cleaning-procedure">Cleaning Procedure</a>), test via backend |
+| Syrup not dispensing | Tubing clogged or bag empty | Clean tubing (see <a href="./maintenance.html#complete-3-step-cleaning-procedure">Cleaning Procedure</a>), replace syrup bag, run test |
 | Machine freezing or unresponsive | Overloaded system or background process stuck | Perform full restart via backend, then breaker |
 
 <!-- | UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp | -->
@@ -133,7 +133,7 @@ Dispose of affected mix following food safety guidelines
 </div>
 
 <div>
-Clean and sanitize the affected hopper
+Clean and sanitize the affected hopper using the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>
 </div>
 
 <div>
@@ -174,11 +174,8 @@ Monitor temperature display until it shows normal operation
 <div class="numbered-steps">
 
 <div>
-Access backend (tap and hold top-right corner for 3-5 seconds)
-</div>
-
-<div>
-Enter password: 123456
+Access backend: Tap and hold top-right corner for 3-5 seconds, enter default password<br>
+(See <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a> for details)
 </div>
 
 <div>
@@ -213,7 +210,7 @@ Check that cups are:<br>
 <div class="numbered-steps">
 
 <div>
-Access backend settings
+Access backend (see <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a>)
 </div>
 
 <div>
@@ -329,7 +326,7 @@ Contact Nayax support if error persists
 <div class="numbered-steps">
 
 <div>
-Access backend settings
+Access backend (see <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a>)
 </div>
 
 <div>
@@ -432,8 +429,8 @@ The F2 system displays specific error codes for various conditions. Below are co
 | **Core Board Error** | Grinding noise with error display | No mix in hoppers or hopper switches not activated | 1. Turn OFF immediately<br>2. Verify both hoppers have mix<br>3. Check hopper switches are pressed<br>4. Restart machine |
 | **Low Voltage Alarm** | Voltage below 195V detected | Inadequate power supply | 1. Check building power supply<br>2. Verify breaker rating (20A minimum)<br>3. Contact electrician if persistent |
 | **High Voltage Alarm** | Voltage above 255V detected | Excessive voltage supply | 1. Disconnect power immediately<br>2. Contact electrician<br>3. Do not operate until resolved |
-| **Mix Needs Replacement** | Temperature above 41°F (5°C) | Mix temperature exceeded safe limit | 1. Discard affected mix<br>2. Clean and sanitize hopper<br>3. Refill with fresh mix<br>4. Wait for cooling below 5°C |
-| **Temperature Sensor Error** | Sensor reading failure | Faulty temperature sensor | 1. Check sensor connections<br>2. Clean sensor area<br>3. Contact support if persistent |
+| **Mix Needs Replacement** | Temperature above 41°F (5°C) | Mix temperature exceeded safe limit | 1. Discard affected mix<br>2. Follow <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a><br>3. Refill with fresh mix<br>4. Wait for cooling below 5°C |
+| **Temperature Sensor Error** | Sensor reading failure | Faulty temperature sensor | 1. Check sensor connections<br>2. Clean sensor area per <a href="./maintenance.html#complete-3-step-cleaning-procedure">Cleaning Procedure</a><br>3. Contact support if persistent |
 | **Door Sensor Error** | Door not responding | Blocked or misaligned sensor | 1. Clear any obstructions<br>2. Check door alignment<br>3. Test manual door operation in backend |
 | **Cup Tube Empty** | No cups in active tube | Cup supply depleted | 1. Refill cup tubes<br>2. Run manual drop test<br>3. Verify auto-switching to next tube |
 
@@ -444,7 +441,8 @@ The F2 system displays specific error codes for various conditions. Below are co
 <div>
 <div>
 <h3>Access Error History</h3>
-Navigate to backend → System Settings → Error Log Viewer
+Access backend and navigate to System Settings → Error Log Viewer<br>
+(See <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a> for access instructions)
 </div>
 </div>
 
@@ -533,31 +531,20 @@ If you're experiencing any difficulties or have questions about our product, ple
 
 ---
 
-## Online Resources and Feedback
-
-### Updated Manual Access
+## Manual Feedback
 
 <div class="info-box">
 
-To view the most up-to-date version of this manual, please scan the QR code below:
-
-<img src="assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" />
-
-Or manually visit the link:
-https://sweetrobo.com/manuals/ice-cream
+For feedback or suggestions about this manual, see [Company Information](../shared/company-info.md#manual-feedback).
 
 </div>
 
-### Feedback and Manual Improvements
-
-<div class="important-box">
-
-If you notice any typos or think this manual could benefit from additional information, please reach out and let us know. Your feedback helps us improve the documentation for all users.
-
-**Contact for Manual Feedback:**
-- Email: [support@sweetrobo.com](mailto:support@sweetrobo.com)
-- Subject line: "Manual Feedback - F2 Troubleshooting"
-
+<div class="print-only" style="display: flex; align-items: center; gap: 20px; justify-content: center;">
+<div style="">
+<strong>Access Online Manual:</strong><br>
+https://sweetrobo.com/manuals/ice-cream
+</div>
+<img src="assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" style="max-width: 100px; height: auto; margin:0;" />
 </div>
 
 ---
@@ -569,41 +556,53 @@ If you notice any typos or think this manual could benefit from additional infor
 <div class="numbered-steps">
 
 <div>
-**Always fill hoppers before starting** - Prevents core board error
+<div>
+<strong>Always fill hoppers before starting</strong> - Prevents core board error
+</div>
 </div>
 
 <div>
-**Use correct mix ratio** - 3L water to 1 gelato packet
+<div>
+<strong>Use correct mix ratio</strong> - 3L water to 1 gelato bag (check package)
+</div>
 </div>
 
 <div>
-**Maintain minimum levels** - At least 2L per hopper
+<div>
+<strong>Maintain minimum levels</strong> - At least 2L per hopper
+</div>
 </div>
 
 <div>
-**Follow cleaning schedule** - Prevents clogs and contamination
+<div>
+<strong>Follow cleaning schedule</strong> - Complete <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> every 3 days
+</div>
 </div>
 
 <div>
-**Check expiration dates** - Both on packets and in system
+<div>
+<strong>Check expiration dates</strong> - Both on packets and in system
+</div>
 </div>
 
 <div>
-**Regular testing** - Use Device Testing weekly to ensure all systems work
+<div>
+<strong>Regular testing</strong> - Use Device Testing weekly to ensure all systems work
+</div>
 </div>
 
 <div>
-**Proper shutdown procedures** - Use backend shutdown and breaker switch
+<div>
+<strong>Proper shutdown procedures</strong> - Use backend shutdown and breaker switch
+</div>
 </div>
 
 <div>
-**Record issues** - Keep a log of any problems for warranty claims
+<div>
+<strong>Record issues</strong> - Keep a log of any problems for warranty claims
+</div>
 </div>
 
 </div>
 
 </div>
-
----
-
-*Written by Meir Knapp © Sweet Robo 2025*

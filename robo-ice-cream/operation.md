@@ -66,10 +66,10 @@ Each hopper maintains optimal serving temperature independently.
 <div>
 <div>
 <h3>Backend Access and System Check</h3>
-• Tap and hold top-right corner for 3-5 seconds<br>
-• Enter password: 123456<br>
+• Access backend: Tap and hold top-right corner for 3-5 seconds, enter password<br>
 • Check system status for both hoppers<br>
-• Verify no alerts for either Left or Right systems
+• Verify no alerts for either Left or Right systems<br>
+• For full backend details, see <a href="#operator-interface-and-backend-management">Backend Management</a> below
 </div>
 </div>
 
@@ -131,7 +131,7 @@ To access the comprehensive operator interface:
 <div>
 <div>
 <h3>Initiating Login</h3>
-• Tap the screen in the <strong>top right corner 6+ times</strong><br>
+• Tap and hold the <strong>top-right corner</strong> of the touchscreen for 3-5 seconds<br>
 • Enter operator password when prompted<br>
 • Default password: '123456' (should be changed for security)
 </div>
@@ -370,7 +370,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 <div class="info-box">
 
 **Ongoing Refills:**
-- Maintain minimum 2L in each hopper for consistent operation
+- Maintain minimum 2L in each hopper (see [Critical Requirements](overview.md#critical-operating-requirements))
 - Stir remaining mix before refilling to prevent settling
 - Alternate hopper refills to maintain continuous dual-flavor availability
 
@@ -640,7 +640,7 @@ Configure customer experience for dual-flavor purchasing:<br>
 
 ### Dual-Hopper Best Practices
 - **Never turn off hopper switches** during operation
-- **Maintain minimum 2L mix** in each hopper independently  
+- **Maintain minimum 2L mix** in each hopper (see [Critical Requirements](overview.md#critical-operating-requirements))  
 - **Monitor both L: and R: temperatures** continuously
 - **Plan flavor combinations** based on customer preferences
 

@@ -30,9 +30,8 @@
 
 - **Dual Flavor System**: 2 × 12L hoppers
 - **220V Power Requirement**: Dedicated circuit needed
-- **200 Cup Capacity**: 4 tubes × 50 cups
+- **Cup Capacity**: 200 cups (4 tubes × 50 cups)
 - **Android-Based System**: WiFi enabled
-- **Default Password**: 123456
 
 ### Support
 
@@ -338,6 +337,8 @@ These requirements must be followed at all times to ensure safe operation and pr
 - **220V power required** - F2 operates on 220V only with 20A dedicated circuit
 - **Fill before power-on** - Always add mix to hoppers BEFORE first power-on (see [Core Board Error](troubleshooting.md#core-board-error))
 - **Never fill above air valve** - Maximum 12L per hopper, keep below airpath opening
+- **Liquid syrups only** - No solids, chunks, or thick sauces in syrup containers
+- **Dry toppings only** - No liquids, wet, or sticky items in topping dispensers
 - **Regular cleaning** - Follow 3-Step Cleaning Procedure every 3 days
 
 </div>

@@ -1,6 +1,6 @@
 # Maintenance
 
-Proper maintenance is critical for the Robo Ice Cream F2's food safety, functionality, and regulatory compliance. The F2 model features **dual hoppers** that must both be maintained according to the same rigorous schedule, with a **200-cup capacity** requiring frequent monitoring.
+Proper maintenance is critical for the Robo Ice Cream F2's food safety, functionality, and regulatory compliance. The F2 model features **dual hoppers** that must both be maintained according to the same rigorous schedule.
 
 <div class="important-box">
 
@@ -40,7 +40,7 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 <div class="feature-item">
 
 #### Operational Verification
-• Verify hopper fill levels (both Hopper A and B)<br>
+• Verify hopper fill levels (both Left and Right hoppers)<br>
 • Check **L: and R:** temperature displays (should show 100% when ready to serve)<br>
 • Monitor actual temperature (must be below 41°F/5°C)<br>
 • Check hopper temperature sensors - verify no "Mix Needs Replacement" alerts<br>
@@ -57,17 +57,17 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 <div class="info-box">
 
 • Discard ice cream mix stored >3 days in either hopper<br>
-• Fully clean and sanitize both hoppers<br>
-• Run cleaning/flushing cycle through dispensing system<br>
-• Update cleaning log with completion time and operator initials
+• Complete the full <a href="#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> for both hoppers<br>
+• Update cleaning log with completion time and operator initials<br>
+• Allow sanitizer to fully evaporate before refilling with fresh mix
 
 </div>
 
 ### Weekly Tasks ✅
 <div class="info-box">
 
-• Clean syrup containers and tubing thoroughly<br>
-• Clean topping containers to prevent clumping<br>
+• Clean syrup containers - follow <a href="#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> for tubing<br>
+• Clean topping containers using wash, rinse, and sanitize steps<br>
 • Inspect all food-contact parts for wear/residue/buildup<br>
 • Empty and sanitize drip and waste collection area<br>
 • Test all safety systems and sensors<br>
@@ -77,7 +77,7 @@ Regular cleaning helps prevent failures and extends machine lifespan. Only train
 
 ---
 
-## 3-Day Deep Cleaning (Both Hoppers)
+## 3-Day Cleaning Requirements
 
 <div class="warning-box">
 
@@ -123,52 +123,128 @@ Only turn off power to components not needed for the specific maintenance task.
 
 </div>
 
-### Step-by-Step Dual Hopper Cleaning
+<div class="info-box">
+
+**Next Step:** Proceed to the <a href="#complete-3-step-cleaning-procedure">Complete 3-Step Cleaning Procedure</a> below for detailed instructions on properly washing, rinsing, and sanitizing both hoppers.
+
+</div>
+
+### Complete 3-Step Cleaning Procedure
+
+<div class="important-box">
+
+**IMPORTANT: 3-Step Cleaning Process**
+
+All hopper cleaning must follow this comprehensive 3-step process to ensure proper sanitation and food safety. This procedure applies to both Left and Right hoppers and should be completed every 3 days or when changing flavors.
+
+</div>
 
 <div class="numbered-steps">
 
 <div>
 <div>
-<h3>1. Empty Both Hoppers</h3>
+<h3>Step 1: Wash - Thorough Cleaning with Soap</h3>
 <div class="side-by-side-images">
-<div class="image-placeholder">IMAGE: DRAINING HOPPER A</div>
-<div class="image-placeholder">IMAGE: DRAINING HOPPER B</div>
+<div class="image-placeholder">IMAGE: DRAINING HOPPERS</div>
+<div class="image-placeholder">IMAGE: WASHING WITH SOAPY WATER</div>
 </div>
-• Manually drain mix from both Hopper A and Hopper B<br>
+
+**Empty and Prepare:**<br>
+• Manually drain all ice cream mix from both Left and Right hoppers<br>
 • Run <strong>Thaw Fresh</strong> + <strong>Manual Discharge</strong> on each hopper to flush residues<br>
-• Ensure complete drainage from both systems
+<br>
+
+**Wash with Soapy Water:**<br>
+• Use <strong>warm water</strong> (warm to the touch, comfortable for hands - NOT boiling)<br>
+• Add grease-removing dish soap like <strong>Dawn</strong> or similar (safe for hands, good for dishes)<br>
+• Fill both hoppers with warm soapy water<br>
+• <strong>Agitate thoroughly</strong> - scrub all surfaces well to remove buildup<br>
+• Use provided brushes to clean agitator shafts and narrow areas<br>
+• Run <strong>Auto Discharge</strong> to flush soapy water through dispensing lines<br>
+• Clean all dispensing nozzles with soapy water and brushes
 </div>
 </div>
 
 <div>
 <div>
-<h3>2. Water Flush System</h3>
+<h3>Step 2: Rinse - Complete Soap Removal</h3>
 <div class="side-by-side-images">
-<div class="image-placeholder">IMAGE: FILLING HOPPER WITH WATER</div>
+<div class="image-placeholder">IMAGE: FILLING WITH RINSE WATER</div>
 <div class="image-placeholder">IMAGE: WATER RUNNING CLEAR</div>
 </div>
-• Fill both hoppers with warm water simultaneously<br>
-• Run <strong>Auto Discharge</strong> multiple times on each hopper until water runs clear<br>
-• Check that both dispensing lines are fully flushed
+
+**First Rinse Cycle:**<br>
+• Fill mixing bucket with <strong>cool or room temperature water</strong><br>
+• Pour water into both hoppers until filled<br>
+• Place bucket under exit valve<br>
+• Open valve to flush water completely through system<br>
+<br>
+
+**Second Rinse Cycle (Recommended):**<br>
+• Repeat the rinse process to ensure all soap is removed<br>
+• Run <strong>Auto Discharge</strong> multiple times until water runs completely clear<br>
+• Check that no soap bubbles or residue remain<br>
+• Verify both dispensing lines are thoroughly flushed<br>
+<br>
+
+**Dry Components:**<br>
+• Allow hoppers to air dry or wipe with clean, dry cloth<br>
+• Ensure all surfaces are dry before sanitizing
 </div>
 </div>
 
 <div>
 <div>
-<h3>3. Sanitize Both Hoppers</h3>
+<h3>Step 3: Sanitize - Multi-Quat Sanitizer Application</h3>
 <div class="side-by-side-images">
-<div class="image-placeholder">IMAGE: ADDING SANITIZER</div>
-<div class="image-placeholder">IMAGE: RUNNING SANITIZE CYCLE</div>
+<div class="image-placeholder">IMAGE: MIXING SANITIZER</div>
+<div class="image-placeholder">IMAGE: APPLYING TO HOPPERS</div>
 </div>
-• Add food-safe sanitizer to each hopper (dairy-approved sanitizer required)<br>
-• Run sanitizer cycle for 1-2 cycles on both hoppers<br>
-• Drain sanitizer from both systems completely
+
+**Prepare Sanitizer:**<br>
+• Use <strong>Multi-Quat Sanitizer</strong> (quaternary ammonium-based, food-safe)<br>
+• <strong>Follow manufacturer's instructions</strong> for proper dilution ratio<br>
+• Multi-Quat sanitizers are EPA-approved for food contact surfaces<br>
+<br>
+
+**Apply Sanitizer:**<br>
+• Fill or spray all food contact surfaces with prepared sanitizer solution<br>
+• Ensure complete coverage of hoppers, dispensing lines, and nozzles<br>
+• Run sanitizer through dispensing system if liquid application<br>
+• Contact time varies by product - follow label instructions (typically 30-60 seconds)<br>
+<br>
+
+**Allow to Air Dry:**<br>
+• <strong>DO NOT rinse after sanitizing</strong> (unless product instructions specify)<br>
+• Allow sanitizer to <strong>completely evaporate</strong> before adding new mix<br>
+• Sanitizer must fully dry to be effective<br>
+• This typically takes 5-10 minutes depending on ventilation
 </div>
 </div>
 
+</div>
+
+<div class="info-box">
+
+**About Multi-Quat Sanitizers:**
+
+Multi-Quat (multi-quaternary ammonium) sanitizers are food-safe antimicrobial solutions specifically designed for food service equipment. They are:
+- EPA-registered and approved for food contact surfaces
+- Effective against bacteria, viruses, and fungi
+- No-rinse formulations when used at proper concentrations
+- Required to meet FDA Food Code standards for ice cream equipment
+
+Common brands include Oasis, Steramine, and other quaternary ammonium compounds labeled for dairy equipment. Always verify your sanitizer is approved for food contact surfaces and follow the manufacturer's dilution instructions.
+
+</div>
+
+### Additional Cleaning Tasks
+
+<div class="numbered-steps">
+
 <div>
 <div>
-<h3>4. Clean Dispensing Nozzles</h3>
+<h3>Clean Dispensing Components</h3>
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: CLEANING NOZZLES</div>
 <div class="image-placeholder">IMAGE: USING BRUSH ON NARROW POINTS</div>
@@ -181,25 +257,26 @@ Only turn off power to components not needed for the specific maintenance task.
 
 <div>
 <div>
-<h3>5. Dispensing Area Cleaning</h3>
+<h3>Dispensing Area Cleaning</h3>
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: CLEANING DISPENSING DOOR</div>
 <div class="image-placeholder">IMAGE: WIPING COLLECTION AREA</div>
 </div>
 • Wipe down dispensing door and collection area with soft cloth<br>
-• Avoid alcohol or abrasive cleaners near sensitive components<br>
+• Use only mild soap and water - avoid harsh chemicals<br>
 • Ensure all dispensing areas are clean and unobstructed
 </div>
 </div>
 
 <div>
 <div>
-<h3>6. Final Surface Cleaning</h3>
+<h3>Final Surface Cleaning</h3>
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: CLEANING TOUCHSCREEN</div>
 <div class="image-placeholder">IMAGE: READY FOR REFILL</div>
 </div>
-• Wipe down touchscreen, frame, and outer panels<br>
+• Wipe down touchscreen with 70% isopropyl alcohol<br>
+• Clean frame and outer panels with mild soap solution<br>
 • Clean internal collection area thoroughly<br>
 • Verify all surfaces are dry before refilling
 </div>
@@ -340,7 +417,7 @@ Perform these comprehensive maintenance tasks weekly:
 </div>
 • Run <strong>Manual Drop Cup</strong> from backend<br>
 • Check for jams or misalignment<br>
-• Verify smooth operation of 200-cup system<br>
+• Verify smooth operation of cup dispenser<br>
 • Inspect cup tubes for blockages
 </div>
 </div>
@@ -370,12 +447,12 @@ Perform these comprehensive maintenance tasks weekly:
 <div class="feature-item">
 
 #### ✅ Approved Products
-• Warm water with neutral detergent<br>
-• Mild dish soap (e.g., Dawn)<br>
-• Food-safe sanitizer (certified quaternary ammonium-based for food contact)<br>
+• **Step 1 - Wash:** Dawn or similar grease-removing dish soap<br>
+• **Step 2 - Rinse:** Cool or room temperature clean water<br>
+• **Step 3 - Sanitize:** Multi-Quat sanitizer (quaternary ammonium-based)<br>
 • 70% isopropyl alcohol (touchscreen and outer surfaces only)<br>
-• Boiling water only where appropriate per instructions<br>
-• **Note:** Harsh chemicals may be used ONLY when directed by Sweet Robo support staff
+• Warm water (comfortable to touch, not boiling) for washing<br>
+• **Note:** Other products may be used ONLY when directed by Sweet Robo support
 
 </div>
 
@@ -395,7 +472,7 @@ Perform these comprehensive maintenance tasks weekly:
 
 <div class="warning-box">
 
-**WARNING:** Only use manufacturer-recommended cleaning agents. Never use abrasive cleaners, solvents, or harsh chemicals on any machine components.
+**WARNING:** Follow the <a href="#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> exactly. Never skip the rinse step before sanitizing. Always allow sanitizer to fully evaporate before adding new mix.
 
 </div>
 
@@ -407,7 +484,7 @@ Perform these comprehensive maintenance tasks weekly:
 
 #### Cross-Contamination Prevention
 • Use separate tools for food-contact areas and waste zones<br>
-• Clean Hopper A and Hopper B systems separately to prevent flavor mixing<br>
+• Clean Left and Right hopper systems separately to prevent flavor mixing<br>
 • **Always sanitize all equipment between flavor changes**<br>
 • Use designated cleaning tools for each hopper system<br>
 • Label cleaning supplies to maintain separation<br>
@@ -455,8 +532,9 @@ Perform these comprehensive maintenance tasks weekly:
 <div>
 <div>
 <h3>Proper Shutdown Procedure</h3>
-• Access backend system (tap and hold top-right corner for 3-5 seconds)<br>
+• Access backend (tap and hold top-right corner for 3-5 seconds, enter default password)<br>
 • Use backend software shutdown button to power down internal PC first<br>
+• See <a href="./operation.html#operator-interface-and-backend-management">Backend Management</a> for detailed instructions<br>
 • Wait for PC to fully shut down (screen will go black)<br>
 • Turn off Main I/O Power Switch<br>
 • Use Breaker Switch to safely isolate system<br>
@@ -519,7 +597,7 @@ Operators must maintain visible cleaning logs onsite including:
 - Record each cleaning and refill of ice cream mix (both hoppers)
 - Log syrup container maintenance
 - Document topping container cleaning
-- Track 200-cup dispenser performance and refill cycles
+- Track cup dispenser performance and refill cycles
 
 </div>
 
@@ -643,7 +721,7 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 • Use only food-grade flavor concentrates approved for ice cream<br>
 • Store flavor bottles under 40°F as indicated on label<br>
 • Mix one Aussieblends mix bag before adding flavor<br>
-• Different flavors can be used in Hopper A and Hopper B
+• Different flavors can be used in Left and Right hoppers
 </div>
 </div>
 
@@ -752,7 +830,7 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 <div>
 <div>
 <h3>Professional Installation</h3>
-• Due to 380kg weight and steel construction, use qualified personnel<br>
+• Due to machine weight and steel construction, use qualified personnel<br>
 • Machine wheels are NOT designed for long-distance pushing<br>
 • Special lifting equipment required for wheel replacement
 </div>
@@ -836,7 +914,7 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 • Inspect door alignment and seals<br>
 • Test all payment systems<br>
 • Check for software updates<br>
-• Monitor 200-cup dispenser mechanism<br>
+• Monitor cup dispenser mechanism<br>
 • Verify proper ventilation and cooling
 
 </div>
@@ -872,21 +950,11 @@ Common wear items for F2 dual hopper system:
 
 ## Common Maintenance Issues & Solutions
 
-| Issue | Possible Cause | Action Steps |
-|-------|----------------|-------------|
-| Machine does not power on | Breaker off | Check breaker is ON |
-| Screen blank but power on | Internal PC not booted | Open service panel, press PC power button. Contact support if recurring |
-| Ice cream not dispensing | Hopper empty or mix too cold | Check hopper level and run thaw cycle |
-| Cup not dropping | Cup tube empty or jammed | Refill cup tubes, run test drop in backend |
-| Dispensing door not open | Sensor blocked or door jammed | Clear obstructions, restart door motor via backend |
-| Topping not added | Empty container or blocked dispenser | Refill and clean topping container, test via backend |
-| Syrup not dispensing | Tubing clogged or container empty | Clean tubing, replace syrup container, run test |
-| Machine UI unresponsive | System overloaded | Try full machine power cycle. If continues, contact support |
+<div class="info-box">
 
-### Error Code Response
-1. Record exact code and description
-2. Attempt soft reset (power cycle from backend only)
-3. If unresolved, contact support with full error log
+For a comprehensive list of common issues, error codes, and their solutions, please refer to the <a href="./troubleshooting.html#common-issues--solutions">Troubleshooting section</a>.
+
+</div>
 
 ### When to Contact Support
 <div class="warning-box">
@@ -910,20 +978,19 @@ Common wear items for F2 dual hopper system:
 
 <div class="important-box">
 
-- Always use **food-safe sanitizer** approved for dairy machines
-- Never use metal tools or hard brushes inside the machine
-- Leave hoppers **dry and open** after cleaning to prevent odor and mold
-- Keep detailed **cleaning logs** for compliance and inspection readiness
-- Clean both hoppers simultaneously to maintain system consistency
-- Monitor 200-cup dispenser regularly to prevent jams
-- Replace cleaning supplies before expiration dates
+- **Always follow the 3-Step Process:** Wash → Rinse → Sanitize (see <a href="#complete-3-step-cleaning-procedure">Complete Procedure</a>)
+- **Proper water temperatures:** Warm (not hot) for washing, cool for rinsing
+- **Thorough agitation:** Scrub all surfaces well during wash step
+- **Complete rinsing:** Run at least 2 rinse cycles to remove all soap
+- **Multi-Quat sanitizer:** Follow manufacturer's dilution instructions exactly
+- **Allow evaporation:** Let sanitizer completely dry before adding new mix
+- **Documentation:** Keep detailed cleaning logs for compliance
+- Clean both hoppers simultaneously to maintain consistency
 
 </div>
 
 <div class="info-box">
 
-*After cleaning, refill both hoppers using the proper mix preparation process outlined in the Operation section.*
-
-For parts ordering: parts@sweetrobo.com
+*After completing the 3-Step Cleaning Procedure and allowing sanitizer to evaporate, refill both hoppers using the proper mix preparation process outlined in the Operation section.*
 
 </div>
