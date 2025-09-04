@@ -346,7 +346,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 
 <div class="side-by-side-images">
 <img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Adding Powder" />
-<img src="./assets/maintenance/mix-preparation-step-2.webp" alt="Mixing Process" />
+<div class="image-placeholder">IMAGE: MIXING PROCESS</div>
 </div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Adding powder to water | Right: Proper mixing technique</p>
 

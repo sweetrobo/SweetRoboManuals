@@ -468,8 +468,8 @@ When a cup of ice cream is served, space is created in the freezing chamber, all
 This setting should be adjusted based on your serving size. Most standard servings work well with a setting of 2. If you're serving larger portions, increase the size to create a bigger opening and allow more mix to flow in.
 
 <div class="feature-grid">
-<img src="./assets/maintenance/airpath-adjustment-notches.webp" alt="Airpath adjustment notches showing default second position" />
-<img src="./assets/maintenance/airpath-adjustment-notches2.jpg" alt="Airpath adjustment notches showing default second position" />
+<img src="./assets/maintenance/airpath-adjustment-notches-top.webp" alt="Airpath adjustment notches showing default second position" />
+<img src="./assets/maintenance/airpath-adjustment-notches2.webp" alt="Airpath adjustment notches showing default second position" />
 </div>
 
 | Setting | Opening Size | Use Case |

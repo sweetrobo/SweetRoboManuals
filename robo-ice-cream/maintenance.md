@@ -316,21 +316,33 @@ Each hopper has a capacity of 2L minimum to 12L maximum. **DO NOT fill above the
 <div>
 <div>
 <h3>Inspect Hopper Interior</h3>
-<img src="./assets/maintenance/airpath-hopper-view.webp" alt="Hopper interior showing air valve location" />
+<div class="compact-step">
+  <div class="step-text">
 • Locate the air valve (airpath) inside each hopper<br>
 • Check that hopper is clean and dry<br>
 • Ensure agitator is properly positioned
+  </div>
+  <div class="step-image">
+    <div class="image-placeholder">IMAGE: HOPPER INTERIOR WITH AIR VALVE</div>
+  </div>
+</div>
 </div>
 </div>
 
 <div>
 <div>
 <h3>Fill to Proper Level</h3>
-<img src="./assets/maintenance/hopper-after-filling.webp" alt="Properly filled hopper below air valve" />
+<div class="compact-step">
+  <div class="step-text">
 • Pour mix slowly to avoid splashing<br>
 • Fill to maximum 1-2 inches BELOW the air valve<br>
 • Minimum fill: 2 liters (ensures proper operation)<br>
 • Maximum fill: 12 liters (never exceed air valve level)
+  </div>
+  <div class="step-image">
+    <img src="./assets/maintenance/hopper-after-filling.webp" alt="Properly filled hopper below air valve" />
+  </div>
+</div>
 </div>
 </div>
 
@@ -545,6 +557,7 @@ Perform these comprehensive maintenance tasks weekly:
 <div>
 <div>
 <h3>Safety Precautions</h3>
+
 • **ESD Protection Required**: Be mindful of Electrostatic Discharge when near electronics<br>
 • Static electricity can permanently damage sensitive components<br>
 • Consider using an **ESD wrist strap** when servicing internal electronics<br>
@@ -552,6 +565,7 @@ Perform these comprehensive maintenance tasks weekly:
 • Allow any warm components (IO boards, motors) to cool before touching<br>
 • Never touch IO boards without contacting support first<br>
 • Avoid loose clothing, jewelry, or long hair near moving parts
+
 </div>
 </div>
 
@@ -601,8 +615,8 @@ Operators must maintain visible cleaning logs onsite including:
 
 </div>
 
+<!-- 
 ---
-
 ## Cleaning Schedule Template
 
 <div class="important-box">
@@ -613,18 +627,18 @@ To maintain proper documentation for health inspections and NAMA compliance:
 - Access the online manual at [manual URL] to download a printable cleaning log template
 - Or create your own log tracking the following information
 
-</div>
+</div> -->
 
 ### Sample Cleaning Log Format
 
-| Task Type | Frequency | Date Completed | Time | Operator Initials | Next Due Date | Notes |
-|-----------|-----------|----------------|------|-------------------|---------------|-------|
-| Daily External Clean | Daily | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
-| Mix Expiration Check | Daily | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
-| 3-Day Hopper Clean | Every 3 days | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
-| Syrup Line Flush | Weekly | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
-| Topping Container Clean | Weekly | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
-| Full System Test | Weekly | ___ / ___ / ___ | ___:___ | _______ | ___ / ___ / ___ | |
+| Task | Frequency | Date | Time | Initials | Next Due | Notes |
+|------|-----------|------|------|----------|----------|-------|
+| External Clean | Daily | _ /_ /_ | _ : _ | _ _ | _ /_ /_ | |
+| Mix Check | Daily | _ /_ /_ | _ : _ | _ _ | _ /_ /_ | |
+| Hopper Clean | 3 days | _ /_ /_ | _ : _ | _ _ | _ /_ /_ | |
+| Syrup Flush | Weekly | _ /_ /_ | _ : _ | _ _ | _ /_ /_ | |
+| Topping Clean | Weekly | _ /_ /_ | _ : _ | _ _ | _ /_ /_ | |
+| System Test | Weekly | _ /_ /_ | _ : _ | _ _ | _ /_ /_ | |
 
 <div class="info-box">
 
@@ -636,7 +650,6 @@ To maintain proper documentation for health inspections and NAMA compliance:
 
 </div>
 
----
 
 ## Mix Management (Dual Hopper System)
 
@@ -675,17 +688,24 @@ To maintain proper documentation for health inspections and NAMA compliance:
 
 ### Ice Cream Mix Preparation Steps
 
+<div class="feature-grid grid-4">
+<div>
 <img src="./assets/maintenance/mixing-bucket.webp" alt="Mixing Bucket" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">10-liter measuring bucket with graduated markings for mixing ice cream preparations</p>
-
-<div class="side-by-side-images">
-  <img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mix Preparation Step 1" />
-  <img src="./assets/maintenance/mix-preparation-step-2.webp" alt="Mix Preparation Step 2" />
+<p>10L measuring bucket</p>
 </div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Step 1: Measure 3L water | Step 2: Add gelato packet</p>
-
+<div>
+<div class="image-placeholder">IMAGE: Measure 3L water</div>
+<p>Step 1: Measure 3L water</p>
+</div>
+<div>
+<div class="image-placeholder">IMAGE: ADD GELATO PACKET</div>
+<p>Step 2: Add gelato packet</p>
+</div>
+<div>
 <img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Mix Preparation Step 3" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Step 3: Mix thoroughly</p>
+<p>Step 3: Mix thoroughly</p>
+</div>
+</div>
 
 ### Adding Flavors to Ice Cream Mix
 
@@ -697,11 +717,16 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 
 </div>
 
-<div class="side-by-side-images">
-  <img src="./assets/maintenance/x-flavors-belgian-chocolate.webp" alt="X-flavors Belgian Chocolate Mix" />
-  <div class="image-placeholder">IMAGE: ADDING FLAVOR TO MIX</div>
+<div class="feature-grid grid-2">
+<div>
+<div class="image-placeholder">IMAGE: X-FLAVORS BELGIAN CHOCOLATE</div>
+<p>X-flavors Belgian Chocolate concentrate</p>
 </div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">X-flavors Belgian Chocolate concentrate | Adding flavor to prepared mix</p>
+<div>
+<div class="image-placeholder">IMAGE: ADDING FLAVOR TO MIX</div>
+<p>Adding flavor to prepared mix</p>
+</div>
+</div>
 
 <div class="numbered-steps">
 
@@ -735,7 +760,7 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 
 ### Cleaning Supplies
 
-<img src="./assets/maintenance/cleaning-supplies.webp" alt="Cleaning Supplies" />
+<div class="image-placeholder">IMAGE: Cleaning Supplies</div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Essential cleaning supplies: bottle brush, whisk, and cleaning cloths for maintenance</p>
 
 ### Airpath System Maintenance
@@ -746,7 +771,7 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 
 </div>
 
-<div class="feature-grid">
+<div class="feature-grid grid-3">
 
 <div class="feature-item">
 <img src="./assets/maintenance/airpath-top-view.webp" alt="Airpath top view - DO NOT COVER" />
@@ -759,14 +784,10 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 </div>
 
 <div class="feature-item">
-<img src="./assets/maintenance/airpath-adjustment-notches.webp" alt="Airpath adjustment notches" />
+<img src="./assets/maintenance/airpath-adjustment-notches-top.webp" alt="Airpath adjustment notches" />
 <p style="text-align: center; font-style: italic;">Default position: 2nd notch</p>
 </div>
 
-<div class="feature-item">
-<img src="./assets/maintenance/agitator-cleaning-brush-kit.webp" alt="Agitator cleaning brush kit" />
-<p style="text-align: center; font-style: italic;">Specialized cleaning brush for agitator shaft</p>
-</div>
 
 </div>
 
@@ -857,7 +878,7 @@ Ensure the top opening of the airpath remains unobstructed at all times.
 
 </div>
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
