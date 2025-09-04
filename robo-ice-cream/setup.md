@@ -1,43 +1,10 @@
 # Setup & Installation
 
-## Machine Specifications
+<div class="info-box">
 
-<div class="specs-table">
+**Machine Model:** Robo Ice Cream F2
 
-<div class="spec-row">
-<div class="spec-label">Model</div>
-<div class="spec-value">Robo Ice Cream F2</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Dimensions (W×D×H)</div>
-<div class="spec-value">120 × 86.5 × 245 cm (47.2 × 34.1 × 96.5 in / 3.94 × 2.84 × 8.04 ft)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Weight</div>
-<div class="spec-value">380 kg (838 lbs) empty</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Power Requirements</div>
-<div class="spec-value">220V only, 13A typical, 2,860W max</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Electrical Connection</div>
-<div class="spec-value">NEMA 6-20P plug (requires 6-20R outlet)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Hopper Configuration</div>
-<div class="spec-value">Dual hopper system (Left & Right)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Cup Capacity</div>
-<div class="spec-value">200 cups (4 tubes × 50 cups each)</div>
-</div>
+For complete technical specifications including dimensions, weight, power requirements, and capacities, see [Technical Specifications](overview.md#technical-specifications) in the Overview section.
 
 </div>
 
@@ -92,17 +59,11 @@
 
 <div class="warning-box">
 
-**⚠️ CRITICAL ELECTRICAL REQUIREMENTS**
+**⚠️ CRITICAL:** F2 requires 220V/20A dedicated circuit with NEMA 6-20R outlet
 
-The Robo Ice Cream F2 requires:
-- **220V ONLY** - no 110V operation available
-- **20A breaker required** (machine draws 13A typical, 15A breaker too close for spikes)
-- **NEMA 6-20R outlet** (to match the included 6-20P plug)
-- **Power consumption**: 2,860W maximum (13A @ 220V)
-- **Dedicated circuit required** - do NOT share with other equipment
-- **Surge protection** highly recommended
+For complete electrical specifications and requirements, see [Electrical & Power Requirements](overview.md#electrical--power-requirements)
 
-**Important:** The F2 comes with a NEMA 6-20P power cable. Ensure your facility has the matching 6-20R outlet installed by a licensed electrician before delivery.
+**Important:** Ensure proper electrical installation by a licensed electrician before delivery.
 
 </div>
 
@@ -453,53 +414,14 @@ Wipe dry with clean, food-safe cloth and leave open to air dry.
 
 **CRITICAL:** Never power on without mix - this causes "core board error" and potential damage!
 
-</div>
+**First Fill Requirements:**
+- Each batch: 1 bag (1.5kg) + ~3.5L water
+- Mix one batch at a time
+- Prepare mix for both hoppers before powering on
 
-<div class="numbered-steps">
-
-<div>
-<div>
-<h3>Gather Supplies</h3>
-• Food-grade bucket (7-8 liter capacity with measurement lines)<br>
-• Ice cream mix powder (1.5kg bag)<br>
-• Fresh drinking water<br>
-• Electric mixer or whisk
-<div class="side-by-side-images">
-<img src="./assets/maintenance/mixing-bucket.webp" alt="10-liter measuring bucket with graduated markings" />
-<img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mix preparation step 1" />
-<div class="image-placeholder">IMAGE: Prep tools</div>
-</div>
-</div>
-</div>
-
-<div>
-<div>
-<h3>Mix Preparation</h3>
-• Pour 3-4 liters of fresh water into bucket (see package for exact details)<br>
-• Slowly add entire 1.5kg powder bag<br>
-• Let sit briefly to begin dissolving<br>
-• Mix 2-3 minutes until smooth (avoid over-mixing)
-<div class="side-by-side-images">
-<img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice cream powder mix package" />
-<img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Using electric mixer to blend ice cream mix" />
-</div>
-</div>
-</div>
-
-<div>
-<div>
-<h3>First Fill Requirements</h3>
-• Each batch: 1 bag (1.5kg) + ~3.5L water<br>
-• Mix one batch at a time<br>
-• Transfer to hopper immediately after mixing<br>
-• Repeat process for second hopper
-<div class="image-placeholder">IMAGE: Prepared mix ready for transfer to hopper</div>
-</div>
-</div>
+For detailed mix preparation instructions, see [Ice Cream Mix Preparation](operation.md#ice-cream-mix-preparation---f2-dual-hopper-system) in the Operation Guide.
 
 </div>
-
-<div class="image-placeholder">QR CODE: Link to mix preparation video</div>
 
 ### 5.3 Load Ice Cream Mix
 
@@ -785,41 +707,13 @@ Once connected to the internet, your machine can be accessed remotely by Sweet R
 
 ### 8.1 Access Backend
 
-<div class="numbered-steps">
+To access the backend management system:
 
-<div>
-<div>
-Tap top-right corner of touchscreen 6+ times (or hold 3-5 seconds).
-<img src="./assets/operation/backend-touch-position.webp" alt="Yellow circle showing where to touch on screen" style="max-height: 200px;" />
-</div>
-</div>
+1. Tap top-right corner of touchscreen 6+ times (or hold 3-5 seconds)
+2. Enter default password: **123456**
+3. Backend management screen will appear
 
-<div>
-<div>
-Enter default password: <strong>123456</strong>
-<img src="./assets/operation/password-input-screen.webp" alt="Password input screen" style="max-height: 300px;" />
-</div>
-</div>
-
-<div>
-<div>
-Backend management screen appears with 6 main sections:
-<img src="./assets/operation/management-interface.webp" alt="Backend management interface" style="max-height: 700px;" />
-</div>
-</div>
-
-</div>
-
-**Management Screen Sections:**
-
-| **Section** | **Purpose** |
-|-------------|-------------|
-| `Parameter Settings` | Control temperature, timing, and dispense parameters |
-| `Stock Settings` | Monitor and update inventory for cups, mix, syrups, and toppings |
-| `Device Testing` | Manually test components and perform cleaning functions |
-| `Opening Hours` | Schedule vending availability based on business hours |
-| `System Settings` | Configure system behavior (volume, voice, network, etc.) |
-| `Shopping Settings` | Configure payment methods, timeout behavior, and alerts |
+For detailed backend navigation and settings descriptions, see [Operator Interface and Backend Management](operation.md#operator-interface-and-backend-management) in the Operation Guide.
 
 ### 8.2 Test Functions
 
@@ -894,8 +788,9 @@ For installation assistance or questions:
 <h4>Sweet Robo Support</h4>
 
 **Email:** support@sweetrobo.com  
-**Phone:** +1 (844) 793-3872  
-**Hours:** 24/7 assistance available
+**Phone:** +1-844-SWEETRB (844-793-3872)
+
+For complete contact information and business hours, see [Company Information](../shared/company-info.md)
 
 </div>
 

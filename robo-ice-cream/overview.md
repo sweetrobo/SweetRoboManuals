@@ -36,11 +36,9 @@
 
 ### Support
 
-**Technical Support**: support@sweetrobo.com  
-**Phone**: +1 (844) 793-3872  
-**Hours**: Monday-Friday, 9AM-5PM EST
+**Quick Support:** support@sweetrobo.com | +1-844-SWEETRB
 
-For detailed company information, see [Sweet Robo Contact Information](../shared/company-info.md).
+For complete contact information, business hours, and additional resources, see [Company Information](../shared/company-info.md).
 
 ### Important Reminders
 
@@ -231,7 +229,7 @@ Each F2 machine includes the following subsystems:
 | Operator Backend | Settings panel for timing, stock, hours, and testing with secured access |
 | Audio/Visual Output | Plays videos and provides status feedback through integrated touchscreen and speakers |
 | Safety Controls | Prevents operation if doors open or errors occur - includes automatic door mechanisms |
-| Cup Dispenser | 4-tube, 50 cups per tube, motorized drop with sensor alignment (200 total capacity) |
+| Cup Dispenser | 4-tube system, 50 cups per tube = 200 total capacity. Automatic tube switching - when one tube empties, system automatically switches to next available tube without operator intervention |
 | Blue Robo Delivery Bot | Automated system that gathers ingredients, prepares treats, and serves ice cream |
 
 <!-- | Refrigeration System | Maintains safe holding and freezing temperatures with compressor-based cooling | -->
@@ -249,7 +247,7 @@ These components are designed for direct use by customers, including children, w
 |-----------|-------------|
 | Touchscreen | Customer interface for selecting flavors, toppings, and completing payment |
 | Cup Dispenser | Dispenses one cup per order using sensor-guided motor control |
-| Collection Door | Opens only when the soft serve is ready. Equipped with sensors to detect cup presence. Remains open while the cup is inside and automatically closes once the cup is removed |
+| Collection Door | **Automatic Safety System**: Opens only when ice cream is ready. Built-in sensors detect cup presence - door remains open while cup is inside and automatically closes 3-5 seconds after cup removal. Safety feature prevents closing on hands or objects. If sensor malfunction occurs, see [Troubleshooting](troubleshooting.md#door-sensor-error) |
 | Speaker | Plays audio feedback and video content during the ordering and vending process |
 | LED Signage | Displays advertisements, preparation animations, and system messages |
 
@@ -325,16 +323,24 @@ Each hopper is equipped with a precision temperature sensor that continuously mo
 - Protected from direct sunlight
 - Adequate ventilation
 
-## What's Included
 
-- Robo Ice Cream F2 main unit
-- 4 LED light panels (optional installation)
-- Power cord
-- Operation manual (this document)
-<!-- TODO: REVIEW what ships with the machine? -->
-- Initial startup supplies:
-  - Cleaning supplies
-  - 800 Cups with spoons attached at the bottom
+## Critical Operating Requirements
+
+<div class="important-box">
+
+**Essential Operating Guidelines - F2 Dual-Hopper System**
+
+These requirements must be followed at all times to ensure safe operation and prevent damage:
+
+- **Never run hoppers empty** - Maintain minimum 2L of mix in each hopper
+- **Replace mix every 3 days** - Mix expires and must be discarded after 3 days maximum
+- **Temperature monitoring** - Mix must stay below 5°C (41°F) or machine will block dispensing
+- **220V power required** - F2 operates on 220V only with 20A dedicated circuit
+- **Fill before power-on** - Always add mix to hoppers BEFORE first power-on (see [Core Board Error](troubleshooting.md#core-board-error))
+- **Never fill above air valve** - Maximum 12L per hopper, keep below airpath opening
+- **Regular cleaning** - Follow 3-Step Cleaning Procedure every 3 days
+
+</div>
 
 ## Important Safety Notes
 

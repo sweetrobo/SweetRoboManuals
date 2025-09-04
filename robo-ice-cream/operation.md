@@ -252,7 +252,7 @@ The F2 provides comprehensive testing capabilities for dual-hopper operation:
 
 #### Cooling System Controls
 • **Cooling (Left / Right)**: Activates cooling compressor for selected hopper<br>
-• **Thaw Fresh (Left / Right)**: Warms freezing chamber for cleaning<br>
+• **Thaw Fresh (Left / Right)**: Warms freezing chamber for cleaning (see <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>)<br>
 • **Keep Fresh (Left / Right)**: Maintains mix freshness without freezing
 
 </div>
@@ -312,7 +312,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 <div>
 <strong>Prepare Water Base</strong><br>
 • Pour <strong>4 liters of fresh water</strong> into clean mixing bucket<br>
-• Ensure bucket is sanitized and dry before use
+• Ensure bucket has been properly cleaned using the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>
 </div>
 
 <div>
@@ -363,6 +363,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 **Initial Setup:**
 - For new startups or after full cleaning, add **at least 2 full bags per hopper** (6 kg total powder to 16 L water)
 - This ensures both hoppers are properly primed for dual-flavor operation
+- Adjust refill tube setting based on serving size (see [Refill Tube Adjustment](setup.md#54-adjust-refill-tube) for details)
 
 </div>
 
@@ -386,7 +387,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 
 <div class="warning-box">
 
-**WARNING:** Always sanitize all equipment between flavor changes to prevent cross-contamination
+**WARNING:** Always follow the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> between flavor changes to prevent cross-contamination
 
 </div>
 
@@ -649,7 +650,7 @@ Configure customer experience for dual-flavor purchasing:<br>
 
 ### Safety Considerations
 - **Independent cooling systems** allow single-hopper operation if needed
-- **Automatic cleaning cycles** maintain hygiene in both hoppers
+- **Regular cleaning** required every 3 days using <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>
 - **UV sanitizer** activates between all servings regardless of flavor selection
 - **Temperature alarms** alert operators to hopper-specific issues
 

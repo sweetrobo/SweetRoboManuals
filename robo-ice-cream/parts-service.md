@@ -121,10 +121,10 @@ Include:<br>
 <div class="feature-item">
 
 #### Technical Support
-• **Hours**: Monday-Friday, 9AM-5PM EST<br>
-• **Phone**: +1 (844) 793-3872<br>
 • **Email**: support@sweetrobo.com<br>
-• **Response Time**: Usually within 24 hours
+• **Phone**: +1-844-SWEETRB (844-793-3872)<br>
+• **Response Time**: Typically within 24 hours<br>
+• For business hours and additional contacts, see [Company Information](../shared/company-info.md)
 
 </div>
 
@@ -279,7 +279,7 @@ Receive RMA if needed
 <div class="numbered-steps">
 
 <div>
-Call emergency line: +1 (844) 793-3872
+Call emergency line: +1-844-SWEETRB (844-793-3872)
 </div>
 
 <div>

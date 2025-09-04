@@ -99,9 +99,10 @@ All internal mechanisms are fully enclosed and inaccessible to users.
 </div>
 
 ### Power Requirements
-* Ensure the power supply matches machine specifications: **110V–125V, 30A** or **220-240V, 15A** (depending on region and model)
-* Use a grounded 3-prong outlet. Never bypass grounding.
-* Ensure the machine is reliably grounded. Plug the power cord into a properly grounded electrical outlet. Verify grounding with a socket tester if unsure.
+* F2 Model requires: **220V only, 20A dedicated circuit**
+* Use a grounded 3-prong outlet with NEMA 6-20R receptacle
+* Never bypass grounding - verify with socket tester if unsure
+* For complete electrical specifications, see [Electrical & Power Requirements](overview.md#electrical--power-requirements)
 
 ### Power Cord Safety
 * Before each use, inspect the power cord for any damage, cuts, or fraying.
@@ -217,6 +218,12 @@ Before performing any maintenance on the automatic collection door, **power must
 
 </div>
 
+<div class="info-box">
+
+**For detailed cleaning instructions:** Follow the comprehensive <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> (Wash → Rinse → Sanitize) in the Maintenance section.
+
+</div>
+
 ### Safety Precautions
 * **Disconnect Power First:** **ALWAYS** disconnect the Robo Ice Cream from the electrical outlet before performing any cleaning or maintenance tasks.
 * **Cool Down:** If any components become warm during operation (e.g., motors), allow them to cool down before cleaning or touching.
@@ -228,11 +235,11 @@ Before performing any maintenance on the automatic collection door, **power must
 
 ### Approved Cleaning Materials
 
-**Safe to Use:**
-* Warm water with **neutral detergent**
-* Mild dish soap (e.g., Dawn)
-* Food-safe sanitizer (such as a certified quaternary ammonium-based product approved for food contact surfaces)
-* 70% isopropyl alcohol (for cleaning the touchscreen and outer surfaces)
+**Safe to Use (per the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>):**
+* **Step 1:** Warm water with grease-removing dish soap (e.g., Dawn)
+* **Step 2:** Cool or room temperature water for rinsing
+* **Step 3:** Multi-Quat sanitizer (quaternary ammonium-based product approved for food contact surfaces)
+* 70% isopropyl alcohol (for cleaning the touchscreen and outer surfaces only)
 
 **Do Not Use:**
 * Paint thinner
@@ -245,12 +252,14 @@ Before performing any maintenance on the automatic collection door, **power must
 These substances may corrode plastics, strip protective coatings, or damage sensitive components.
 
 ### Special Cleaning Considerations
-* **Boiling Water:** Read the cleaning instructions before using boiling water, only used where appropriate.
+* **Water Temperature:** Use warm water (comfortable to touch, not boiling) for washing
+* **Thorough Rinsing:** Always complete at least 2 rinse cycles to remove all soap
+* **Sanitizer Evaporation:** Allow Multi-Quat sanitizer to fully evaporate before adding new mix
 * Use only cleaning agents and materials recommended by the manufacturer unless instructed to do so by Sweet Robo support staff.
 
-**Recommended Cleaning Frequency:**
-* **Wipe-down**: Every 3 days
-* **Deep cleaning**: Every 7–10 days
+**Required Cleaning Frequency:**
+* **Full 3-Step Cleaning**: Every 3 days (see <a href="./maintenance.html#complete-3-step-cleaning-procedure">Complete Procedure</a>)
+* **Weekly Deep Clean**: Additional component cleaning every 7 days
 
 ---
 
@@ -259,7 +268,7 @@ These substances may corrode plastics, strip protective coatings, or damage sens
 The Robo Ice Cream machine is designed with food-contact safety in mind:
 
 * All hoppers, tubes, and serving components must be **food-grade certified**
-* Internal surfaces must be cleaned and sanitized on a scheduled basis
+* Internal surfaces must be cleaned and sanitized every 3 days using the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>
 * Operators must discard expired or contaminated mix
 * No foreign materials may enter the hoppers or topping areas
 * Use only **liquid syrups** and **solid, dry toppings**. Do not use sauces, jams with solids, or unapproved additives.
@@ -320,18 +329,6 @@ Always resolve the root issue before restarting the machine.
 
 ---
 
-## Hardware Clock & Operation Hours
-
-The Robo Ice Cream uses a **physical hardware timer** to control its daily operating hours. This timer is:
-
-* Independent of the software system
-* Located inside the machine cabinet
-* Adjustable via dedicated hardware buttons
-
-Operators must configure the timer during setup. Improper settings may result in the machine not powering on during expected hours.
-
----
-
 ## Servicing and Repairs
 
 * **Qualified Technicians Only:** Repairs, modifications, or servicing beyond routine cleaning and operator-level maintenance (as described in this manual) should only be performed by qualified service technicians authorized by the manufacturer.
@@ -351,14 +348,14 @@ Sweet Robo recommends notifying a certified technician before performing service
 
 Operators must:
 
-* Follow all cleaning and maintenance schedules
+* Follow the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> every 3 days
 * Keep all protective covers and guards in place
 * Avoid bypassing safety interlocks or sensors
-* Disconnect power before servicing or cleaning
+* Disconnect power before servicing or manual cleaning (keep power ON for hopper flushing cycles)
 * Use only approved consumables and replacement parts
 * Open machine panels or internal compartments
 * Refill or replace internal components (e.g., hoppers, syrup, toppings)
-* Perform cleaning or servicing tasks
+* Perform the <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> and servicing tasks
 * Access backend diagnostic settings
 
 ---
@@ -367,7 +364,7 @@ Operators must:
 
 To meet NAMA and food safety requirements:
 
-* Keep a written log of every cleaning, topping refill, and hopper refill
+* Keep a written log of every 3-Step Cleaning completion, topping refill, and hopper refill
 * Ensure documentation is readily available for inspection
 * Contact Sweet Robo support for certification documents as needed
 
@@ -399,10 +396,10 @@ All operators must be trained on:
 
 ## Emergency Contact
 
-In case of any doubts, concerns, emergencies related to the machine's operation, or if servicing is required, contact our customer support or an authorized service center.
+In case of any doubts, concerns, emergencies related to the machine's operation, or if servicing is required:
 
-* **Customer Support Phone:** +1-844-793-3872
-* **Customer Support Email:** [support@sweetrobo.com](mailto:support@sweetrobo.com)
+* **Emergency Support:** support@sweetrobo.com | +1-844-SWEETRB
+* For complete contact information, see [Company Information](../shared/company-info.md)
 
 ![Sweet Robo Logo](assets/logo.webp)
 
