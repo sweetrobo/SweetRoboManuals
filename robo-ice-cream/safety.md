@@ -401,8 +401,6 @@ In case of any doubts, concerns, emergencies related to the machine's operation,
 * **Emergency Support:** support@sweetrobo.com | +1-844-SWEETRB
 * For complete contact information, see [Company Information](../shared/company-info.md)
 
-![Sweet Robo Logo](assets/logo.webp)
-
 Remember that failure to adhere to these safety precautions could result in injuries, damage to the machine, or hazardous situations. By following these guidelines, you ensure a safe and enjoyable experience while using the Machine.
 
 Keep emergency numbers posted near machine.
