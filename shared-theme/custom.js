@@ -815,6 +815,8 @@
       applyConditionalContent();
       handleContentVisibility();
     });
+
+    console.log("Prepared by Meir Knapp © Sweet Robo 2025");
   }
 
   // Initialize when DOM is ready
