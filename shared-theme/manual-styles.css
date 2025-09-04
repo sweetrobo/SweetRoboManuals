@@ -911,6 +911,122 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
 }
 
 /* =================================== */
+/* COMPACT IMAGE-TEXT LAYOUT */
+/* =================================== */
+.compact-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+.compact-step .step-text {
+  flex: 1 1 60%;
+  line-height: 1.6;
+}
+
+.compact-step .step-text h3 {
+  margin: 0 0 0.5em 0;
+  color: var(--primary-blue);
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
+.compact-step .step-text ul {
+  margin: 0.5em 0 0 0;
+  padding-left: 1.5em;
+}
+
+.compact-step .step-text li {
+  margin: 0.3em 0;
+  line-height: 1.5;
+}
+
+.compact-step .step-image {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.compact-step .step-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 0;
+}
+
+/* Remove margin from image-placeholder inside compact-step */
+.compact-step .step-image .image-placeholder {
+  margin: 0;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+  .compact-step {
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .compact-step .step-image {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}
+
+/* For numbered compact steps */
+.numbered-compact-steps {
+  counter-reset: step-counter;
+  margin: 2em 0;
+}
+
+.numbered-compact-steps .compact-step {
+  counter-increment: step-counter;
+  position: relative;
+}
+
+.numbered-compact-steps .compact-step::before {
+  content: counter(step-counter);
+  background: var(--primary-blue);
+  color: white;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  position: absolute;
+  left: -3.5em;
+  top: 0;
+  flex-shrink: 0;
+}
+
+.numbered-compact-steps .compact-step {
+  margin-left: 3.5em;
+}
+
+/* Mobile adjustments for numbered compact steps */
+@media screen and (max-width: 768px) {
+  .numbered-compact-steps .compact-step::before {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 1em;
+    align-self: center;
+  }
+  
+  .numbered-compact-steps .compact-step {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* =================================== */
 /* RESPONSIVE DESIGN */
 /* =================================== */
 /* Tablet - 2 columns */
