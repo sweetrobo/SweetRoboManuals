@@ -268,8 +268,6 @@ Receive RMA if needed
 
 </div>
 
-</div>
-
 ## Emergency Service
 
 <div class="warning-box">
@@ -315,7 +313,3 @@ Keep these documents accessible:
 - This manual
 
 </div>
-
-<!-- <div class="info-box">
-Register your machine at: sweetrobo.com/register
-</div> -->
