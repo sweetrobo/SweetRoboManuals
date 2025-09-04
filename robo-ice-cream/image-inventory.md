@@ -27,9 +27,8 @@
 #### Logo (1)
 - `logo.webp` - Sweet Robo logo
 
-#### Maintenance (3)
+#### Maintenance (2)
 - `mix-preparation-step-1.webp` - Mix preparation step 1
-- `mix-preparation-step-2.webp` - Mix preparation step 2
 - `mix-preparation-step-3.webp` - Mix preparation step 3
 
 #### Operation (4)
