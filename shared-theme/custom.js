@@ -324,6 +324,13 @@
         document.body.classList.remove(`show-${key}`);
       }
     });
+    
+    // Special handling for print-condensed content visibility
+    if (params.showPrintCondensed || (params.controls && params.showPrintCondensed !== false)) {
+      document.body.classList.add('show-print-content');
+    } else {
+      document.body.classList.remove('show-print-content');
+    }
 
     // Apply role-based content
     applyRoleBasedContent(params);
@@ -381,6 +388,9 @@
                 <label><input type="checkbox" data-param="technician"> Technician View</label>
                 <label><input type="checkbox" data-param="operator"> Operator View</label>
                 <label><input type="checkbox" data-param="customer"> Customer View</label>
+                <label style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
+                    <input type="checkbox" data-param="showPrintCondensed"> Show Print-Only Content
+                </label>
             </div>
             <div class="control-footer">
                 <button class="hide-controls-btn">Hide Controls</button>
