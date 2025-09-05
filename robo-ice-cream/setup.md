@@ -463,9 +463,15 @@ Close lid(s) securely.
 
 ### 5.4 Adjust Refill Tube
 
-When a cup of ice cream is served, space is created in the freezing chamber, allowing more mix to enter and continue ice cream production. The amount of mix that flows into the chamber depends on the refill tube setting.
+The refill tube (air valve) controls how much mix flows into the freezing chamber after each serving. When a cup of ice cream is served, space is created in the freezing chamber, and this valve determines how quickly new mix enters.
 
-This setting should be adjusted based on your serving size. Most standard servings work well with a setting of 2. If you're serving larger portions, increase the size to create a bigger opening and allow more mix to flow in.
+**IMPORTANT:** When adjusting this setting, you must:
+1. Physically turn the air valve to the desired notch position (default is 2)
+2. Update the "L/R Gear Position" in the backend system to match your physical setting
+
+Both adjustments are required - the physical position controls actual flow, while the software setting ensures accurate temperature control and mix level tracking. See [Parameter Settings](operation.md#parameter-settings---f2-dual-hopper-controls) for backend configuration.
+
+For high-volume service, you can experimentally increase both settings to 3 or 4. Always use the minimum viable setting to avoid overfilling.
 
 <div class="feature-grid">
 <img src="./assets/maintenance/airpath-adjustment-notches-top.webp" alt="Airpath adjustment notches showing default second position" />
@@ -475,9 +481,10 @@ This setting should be adjusted based on your serving size. Most standard servin
 | Setting | Opening Size | Use Case |
 |---------|-------------|----------|
 | 0 | Closed | No flow |
-| 1 | Smallest opening | Small portions |
-| 2 | Medium | Standard servings (recommended) |
-| 3 | Fully Open | Large portions |
+| 1 | Smallest opening | Very small portions / low volume |
+| 2 | Medium | Standard servings (default/recommended) |
+| 3 | Larger opening | High volume service |
+| 4 | Fully open | Maximum throughput (use carefully) |
 
 <div class="image-placeholder">QR CODE: Refill tube adjustment video</div>
 

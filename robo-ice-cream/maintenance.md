@@ -767,7 +767,7 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 
 <div class="important-box">
 
-**IMPORTANT:** The airpath component controls air flow in the hopper system. The top opening must never be covered or blocked for proper operation.
+**IMPORTANT:** The airpath component (refill tube/air valve) controls mix flow into the freezing chamber. The top opening must never be covered or blocked for proper operation. When adjusting this component, you must BOTH physically turn it to the desired position AND update the "L/R Gear Position" backend setting to match (see <a href="./operation.html#parameter-settings---f2-dual-hopper-controls">Parameter Settings</a>). The software setting ensures accurate temperature control and mix level tracking.
 
 </div>
 
@@ -796,7 +796,7 @@ To create flavored ice cream varieties, you can add specialized flavor concentra
 <div>
 <div>
 <h3>Check Airpath Position</h3>
-Verify the airpath is set to the 2nd notch (default position) for optimal air flow.
+Verify the airpath is physically set to the 2nd notch (default position) AND that the "L/R Gear Position" backend setting is set to 2 to match (see <a href="./operation.html#parameter-settings---f2-dual-hopper-controls">Parameter Settings</a>).
 </div>
 </div>
 

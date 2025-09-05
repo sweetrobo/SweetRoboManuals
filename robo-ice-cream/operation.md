@@ -202,7 +202,7 @@ Critical settings for optimal F2 operation:
 
 | **Parameter** | **Default** | **Description** |
 |:-----:|:-----:|:-----:|
-| L/R Gear Position | 4 | Controls ice cream firmness for each hopper |
+| L/R Gear Position | 2 | Software setting for air valve position - must match physical setting. Start at 2. For high volume, increase both physical & software to 3-4. Ensures accurate temperature control & mix tracking. See [physical adjustment](setup.md#54-adjust-refill-tube) |
 | L/R Discharge Time | 1.3s | Individual dispense timing per hopper |
 | L/R Pre-cooling Temp | 4°C | Maintains optimal temperature per hopper |
 | L/R Discharge Threshold (%) | 70% | Minimum mix % required per hopper |
@@ -363,7 +363,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 **Initial Setup:**
 - For new startups or after full cleaning, add **at least 2 full bags per hopper** (6 kg total powder to 16 L water)
 - This ensures both hoppers are properly primed for dual-flavor operation
-- Adjust refill tube setting based on serving size (see [Refill Tube Adjustment](setup.md#54-adjust-refill-tube) for details)
+- Adjust air valve (refill tube) based on serving volume - requires BOTH physical adjustment (see [Refill Tube Adjustment](setup.md#54-adjust-refill-tube)) AND matching backend setting (see [Parameter Settings](#parameter-settings---f2-dual-hopper-controls))
 
 </div>
 
