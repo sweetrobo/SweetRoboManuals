@@ -1,5 +1,37 @@
 /* Sweet Robo Manual Styles - Based on Official PDF Design */
 
+@media print {
+  body, 
+  html,
+  .content,
+  .chapter,
+  main,
+  #content,
+  .page,
+  .page-wrapper,
+  #page-wrapper,
+  .book-body,
+  .body-inner,
+  .page-inner,
+  section,
+  article {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Target mdBook specific containers */
+  #content > main,
+  #content main,
+  .content > *,
+  main > *:not(.title-page) {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+}
 /* =================================== */
 /* COLOR SYSTEM */
 /* =================================== */
@@ -725,7 +757,7 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
 
 .title-page-header {
   border-bottom: 2px solid #ddd;
-  /* padding-bottom: 5px; */
+  padding: 5px 10px;
   margin-bottom: 0.5em;
   display: flex;
   justify-content: space-between;
@@ -787,7 +819,6 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
   max-height: 700px;
   width: auto;
   height: 100%;
-  margin: 0 2em;
   margin-top: auto;
 }
 
@@ -816,6 +847,7 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
 .footer-left {
   text-align: left;
   padding: 0;
+  padding-left: 10px;
   flex: 0 0 130px;
   display: flex;
   flex-direction: column;
@@ -1148,6 +1180,7 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
       font-size: 9pt;
       color: #666;
       padding-bottom: 5px;
+      padding-left: 15px;
     }
 
     @top-right {
@@ -1157,6 +1190,8 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
       font-size: 9pt;
       color: #666;
       padding-bottom: 5px;
+      padding-right: 15px;
+
     }
   }
 
@@ -1177,36 +1212,7 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
     max-width: 100% !important;
   }
   
-  body, 
-  html,
-  .content,
-  .chapter,
-  main,
-  #content,
-  .page,
-  .page-wrapper,
-  #page-wrapper,
-  .book-body,
-  .body-inner,
-  .page-inner,
-  section,
-  article {
-    max-width: 100% !important;
-    width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    box-sizing: border-box !important;
-  }
-  
-  /* Target mdBook specific containers */
-  #content > main,
-  #content main,
-  .content > *,
-  main > *:not(.title-page) {
-    padding: 0 !important;
-    margin: 0 !important;
-    max-width: 100% !important;
-  }
+
   
   /* Remove sidebar and navigation in print */
   .sidebar,
@@ -1223,34 +1229,34 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
   }
   
   /* Force all divs to use full width */
-  div:not(.title-page):not(.warning-box):not(.caution-box):not(.info-box):not(.important-box) {
+  /* div:not(.title-page):not(.warning-box):not(.caution-box):not(.info-box):not(.important-box) {
     max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-  }
+  } */
   
   /* Headings and paragraphs should use full width */
-  h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, pre {
+  /* h1, h2, h3, h4, h5, h6, p, ul, ol, dl, blockquote, pre {
     max-width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-  }
+  } */
 
   /* Title page specific */
-  .title-page {
+  /* .title-page {
     page-break-after: always;
-  }
+  } */
   
   /* Title page images should maintain their original size */
-  .title-page img {
-    max-height: none !important; /* Keep original size */
-  }
+  /* .title-page img {
+    max-height: none !important; 
+  } */
   
-  .title-page .machine-image {
-    max-height: 8in !important; /* Large size for title page machine image */
-  }
+  /* .title-page .machine-image {
+    max-height: 8in !important; 
+  } */
 
   /* Comprehensive print hiding system */
   
@@ -1474,6 +1480,32 @@ body.dev-mode .chapter-item:has(a[href*="styling-demo"]) {
     object-fit: contain;
   }
 
+  /* Show print-condensed content in print */
+  .print-condensed {
+    display: block !important;
+    background: none !important;
+    border: none !important;
+    padding: 0.5em 0 !important;
+    margin: 0.5em 0 !important;
+    font-size: 0.9em !important;
+    line-height: 1.3 !important;
+  }
+  
+  /* Hide the verbose content that comes before print-condensed in print */
+  .print-condensed + * {
+    page-break-before: avoid !important;
+  }
+  
+  /* Hide certain verbose sections when followed by print-condensed */
+  *:has(+ .print-condensed) {
+    display: none !important;
+  }
+  
+  /* Ensure numbered steps followed by print-condensed are hidden */
+  .numbered-steps:has(+ .print-condensed) {
+    display: none !important;
+  }
+  
   /* COMMENTED OUT ALL PRINT MODIFICATIONS EXCEPT TITLE PAGE
     .title-page .machine-image {
         max-width: 550px; 
@@ -1775,6 +1807,40 @@ body.print-mode .specs-table {
     background-size: 100% 11in;
     background-position: 0 1cm;
   }
+}
+
+/* =================================== */
+/* PRINT-CONDENSED STYLES */
+/* =================================== */
+
+/* Hide print-condensed content by default on screen */
+.print-condensed {
+  display: none !important;
+}
+
+/* Show print-condensed when debug mode is active (body.show-print-content) */
+body.show-print-content .print-condensed {
+  display: block !important;
+  background: #fffbeb; /* Light yellow background to identify */
+  border: 2px dashed #fbbf24; /* Dashed yellow border */
+  padding: 0.5em;
+  margin: 0.5em 0;
+  position: relative;
+}
+
+/* Add "PRINT ONLY" label in debug mode */
+body.show-print-content .print-condensed::before {
+  content: "PRINT ONLY";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background: #fbbf24;
+  color: #78350f;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
 }
 
 /* =================================== */
