@@ -50,26 +50,13 @@ This section provides step-by-step guidance for identifying and resolving common
 
 </div>
 
-<div class="numbered-steps">
+**Solution:**
+• After turning on power and refrigeration switch, wait 5-10 minutes
+• Check hopper status on screen (Left: 100% or Right: 100% indicates ready)
+• Machine will only dispense once internal temperature is cold enough
 
-<div>
-<div>
-After turning on power and refrigeration switch, wait 5-10 minutes
-</div>
-</div>
-
-<div>
-<div>
-Check hopper status on screen (Left: 100% or Right: 100% indicates ready)
-</div>
-</div>
-
-<div>
-<div>
-Machine will only dispense once internal temperature is cold enough
-</div>
-</div>
-
+<div class="print-condensed">
+<strong>Solution:</strong> Wait 5-10 minutes after power on. Check hopper status (L/R: 100% = ready). Machine must reach operating temp.
 </div>
 
 ### Core Board Error
@@ -116,6 +103,10 @@ Error should clear once liquid is detected
 </div>
 </div>
 
+</div>
+
+<div class="print-condensed">
+<strong>Solution:</strong> 1) Turn OFF immediately 2) Fill hoppers with 2L+ mix 3) Turn on hopper switches 4) Turn on machine 5) Error clears when liquid detected
 </div>
 
 <div class="important-box">
@@ -180,6 +171,10 @@ Monitor temperature display until it shows normal operation
 </div>
 </div>
 
+</div>
+
+<div class="print-condensed">
+<strong>Actions:</strong> 1) Stop immediately 2) Check affected hoppers 3) Dispose mix safely 4) Clean/sanitize 5) Refill with chilled mix 6) Cool <5°C 7) Monitor temp
 </div>
 
 <div class="important-box">
@@ -319,32 +314,16 @@ Run multiple times until syrup flows (air bubbles may need clearing)
 
 </div>
 
-<div class="numbered-steps">
+**Solution:**
+• Check Stock Settings for correct levels
+• Ensure using only dry, solid toppings (no chunks or thick sauces)
+• Test via Device Testing → Jams/Sprinkles Test
+• Check for clogs in dispenser mechanism
 
-<div>
-<div>
-Check Stock Settings for correct levels
-</div>
-</div>
-
-<div>
-<div>
-Ensure using only dry, solid toppings (no chunks or thick sauces)
-</div>
 </div>
 
-<div>
-<div>
-Test via Device Testing → Jams/Sprinkles Test
-</div>
-</div>
-
-<div>
-<div>
-Check for clogs in dispenser mechanism
-</div>
-</div>
-
+<div class="print-condensed">
+<strong>Solution:</strong> Check stock levels, use only dry toppings, test via Device Testing, check for clogs.
 </div>
 
 ### Hopper Readiness Display
@@ -365,38 +344,17 @@ Check for clogs in dispenser mechanism
 
 <div class="step-header">Nayax Reader Issues:</div>
 
-<div class="numbered-steps">
+**Nayax Reader Issues:**
+• Ensure Nayax is properly installed behind cash box
+• Check COM2 connection to machine
+• Verify marshal cover is in place
+• Complete Nayax registration if not done
+• Contact Nayax support if error persists
 
-<div>
-<div>
-Ensure Nayax is properly installed behind cash box
-</div>
-</div>
-
-<div>
-<div>
-Check COM2 connection to machine
-</div>
 </div>
 
-<div>
-<div>
-Verify marshal cover is in place
-</div>
-</div>
-
-<div>
-<div>
-Complete Nayax registration if not done
-</div>
-</div>
-
-<div>
-<div>
-Contact Nayax support if error persists
-</div>
-</div>
-
+<div class="print-condensed">
+<strong>Nayax Issues:</strong> Check installation, COM2 connection, marshal cover, registration. Contact Nayax support if needed.
 </div>
 
 ### WiFi Connection Problems
@@ -492,32 +450,25 @@ Allow 5-10 minutes for proper cooling
 
 </div>
 
+<div class="print-condensed">
+<strong>Solution:</strong> 1) Verify 2L+ mix 2) Access Parameter Settings 3) Select "Cooling" 4) Wait 5-10 minutes
+</div>
+
 ### Emergency Shutdown
 
 <div class="warning-box">
 
 <div class="step-header">Proper shutdown procedure:</div>
 
-<div class="numbered-steps">
+**Procedure:**
+• Switch off main power to ice cream machine
+• Use breaker switch to cut power
+• **Never unplug machine while running**
 
-<div>
-<div>
-Switch off main power to ice cream machine
-</div>
-</div>
-
-<div>
-<div>
-Use breaker switch to cut power
-</div>
 </div>
 
-<div>
-<div>
-<strong>Never unplug machine while running</strong>
-</div>
-</div>
-
+<div class="print-condensed">
+<strong>Shutdown:</strong> 1) Switch off main power 2) Use breaker switch 3) Never unplug while running
 </div>
 
 </div>
@@ -663,56 +614,20 @@ https://sweetrobo.com/manuals/ice-cream
 
 <div class="important-box">
 
-<div class="numbered-steps">
+**Prevention Tips:**
+• **Always fill hoppers before starting** - Prevents core board error
+• **Use correct mix ratio** - 3L water to 1 gelato bag (check package)
+• **Maintain minimum levels** - At least 2L per hopper
+• **Follow cleaning schedule** - Complete <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> every 3 days
+• **Check expiration dates** - Both on packets and in system
+• **Regular testing** - Use Device Testing weekly to ensure all systems work
+• **Proper shutdown procedures** - Use backend shutdown and breaker switch
+• **Record issues** - Keep a log of any problems for warranty claims
 
-<div>
-<div>
-<strong>Always fill hoppers before starting</strong> - Prevents core board error
-</div>
-</div>
-
-<div>
-<div>
-<strong>Use correct mix ratio</strong> - 3L water to 1 gelato bag (check package)
-</div>
 </div>
 
-<div>
-<div>
-<strong>Maintain minimum levels</strong> - At least 2L per hopper
-</div>
-</div>
-
-<div>
-<div>
-<strong>Follow cleaning schedule</strong> - Complete <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a> every 3 days
-</div>
-</div>
-
-<div>
-<div>
-<strong>Check expiration dates</strong> - Both on packets and in system
-</div>
-</div>
-
-<div>
-<div>
-<strong>Regular testing</strong> - Use Device Testing weekly to ensure all systems work
-</div>
-</div>
-
-<div>
-<div>
-<strong>Proper shutdown procedures</strong> - Use backend shutdown and breaker switch
-</div>
-</div>
-
-<div>
-<div>
-<strong>Record issues</strong> - Keep a log of any problems for warranty claims
-</div>
-</div>
-
+<div class="print-condensed">
+<strong>Prevention:</strong> Fill hoppers before starting • 3L:1 mix ratio • 2L+ per hopper • Clean every 3 days • Check expiration dates • Weekly testing • Proper shutdown • Log issues
 </div>
 
 </div>
