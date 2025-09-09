@@ -15,8 +15,8 @@ default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/sweetrobo/SweetRoboManuals"
 git-repository-icon = "fa-github"
-additional-css = ["custom.css", "manual-styles.css"]
-additional-js = ["custom.js"]
+additional-css = ["shared/custom.css", "shared/manual-styles.css", "shared/variables.css", "shared/typography.css", "shared/components.css", "shared/images.css", "shared/layout.css", "shared/conditional.css", "shared/print.css"]
+additional-js = ["shared/custom.js"]
 favicon = "assets/images/header/sweetrobo-logo.webp"
 site-url = "https://sweetrobo.com/manuals/candy-monster/"
 

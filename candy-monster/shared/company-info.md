@@ -1,1 +1,1 @@
-../../shared/company-info.md
+# Company Information

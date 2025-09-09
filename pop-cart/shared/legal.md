@@ -1,1 +1,1 @@
-../../shared/legal.md
+# Legal and Warranty

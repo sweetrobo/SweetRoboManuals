@@ -1,0 +1,293 @@
+/* Sweet Robo Manual - Conditional Content Styles
+   ========================================
+   Role-based and conditional content visibility
+   ======================================== */
+
+/* =================================== */
+/* BASE CONDITIONAL HIDING */
+/* =================================== */
+
+/* Hide conditional content by default (progressive enhancement) */
+.conditional-content[data-show-when],
+.conditional-content[data-show-for],
+[data-role] {
+  display: none;
+}
+
+/* =================================== */
+/* ROLE-BASED VISIBILITY */
+/* =================================== */
+
+/* Show elements when body has the matching show-* class */
+body.show-dev .conditional-content[data-show-when="dev"],
+body.show-internal .conditional-content[data-show-when="internal"],
+body.show-technician .conditional-content[data-show-when="technician"],
+body.show-operator .conditional-content[data-show-when="operator"],
+body.show-customer .conditional-content[data-show-when="customer"] {
+  display: block;
+}
+
+/* Role-specific visibility */
+.role-technician .technician-only,
+.role-operator .operator-only,
+.role-customer .customer-only,
+.role-internal .internal-only {
+  display: block !important;
+}
+
+/* Hide role-specific content when not in that role */
+body:not(.role-technician) .technician-only,
+body:not(.role-operator) .operator-only,
+body:not(.role-customer) .customer-only,
+body:not(.role-internal) .internal-only {
+  display: none !important;
+}
+
+/* =================================== */
+/* DEBUG INDICATORS */
+/* =================================== */
+
+/* Visual indicators for conditional content (only in debug/internal mode) */
+body.role-internal .conditional-visible {
+  position: relative;
+}
+
+body.role-internal .conditional-visible::before {
+  content: attr(data-show-when);
+  position: absolute;
+  top: -20px;
+  right: 0;
+  background: var(--primary-blue);
+  color: white;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: var(--border-radius-sm);
+  font-family: monospace;
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: var(--z-tooltip);
+}
+
+/* =================================== */
+/* ROLE-SPECIFIC CONTENT STYLES */
+/* =================================== */
+
+/* Internal notes */
+.internal-note {
+  background: var(--light-blue);
+  border-left: 4px solid var(--primary-blue);
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: var(--border-radius-md);
+}
+
+.internal-note::before {
+  content: "Internal Note: ";
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-blue);
+}
+
+/* Technician warnings */
+.technician-warning {
+  background: var(--warning-pink);
+  border-left: 4px solid var(--warning-red);
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: var(--border-radius-md);
+}
+
+.technician-warning::before {
+  content: "⚠️ Technician Warning: ";
+  font-weight: var(--font-weight-bold);
+  color: var(--warning-red);
+}
+
+/* Technician tips */
+.technician-tip {
+  background: #e6fffa;
+  border-left: 4px solid #319795;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: var(--border-radius-md);
+}
+
+.technician-tip::before {
+  content: "💡 Technician Tip: ";
+  font-weight: var(--font-weight-bold);
+  color: #319795;
+}
+
+/* Operator notes */
+.operator-note {
+  background: #f0fdf4;
+  border-left: 4px solid #16a34a;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: var(--border-radius-md);
+}
+
+.operator-note::before {
+  content: "Operator Note: ";
+  font-weight: var(--font-weight-bold);
+  color: #16a34a;
+}
+
+/* Customer info */
+.customer-info {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: var(--border-radius-md);
+}
+
+.customer-info::before {
+  content: "ℹ️ Customer Information: ";
+  font-weight: var(--font-weight-bold);
+  color: #f59e0b;
+}
+
+/* =================================== */
+/* CONDITIONAL BADGES */
+/* =================================== */
+
+.role-badge {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  font-size: 0.85em;
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--border-radius-xl);
+  margin-left: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.role-badge-technician {
+  background: #e6fffa;
+  color: #319795;
+  border: 1px solid #319795;
+}
+
+.role-badge-operator {
+  background: #f0fdf4;
+  color: #16a34a;
+  border: 1px solid #16a34a;
+}
+
+.role-badge-customer {
+  background: #fef3c7;
+  color: #f59e0b;
+  border: 1px solid #f59e0b;
+}
+
+.role-badge-internal {
+  background: var(--light-blue);
+  color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+}
+
+/* =================================== */
+/* VISIBILITY TOGGLES */
+/* =================================== */
+
+/* Show/hide based on features */
+.feature-enabled {
+  display: block;
+}
+
+.feature-disabled {
+  display: none !important;
+}
+
+/* Version-specific content */
+.version-1 .show-v1,
+.version-2 .show-v2,
+.version-3 .show-v3 {
+  display: block;
+}
+
+.version-1 .hide-v1,
+.version-2 .hide-v2,
+.version-3 .hide-v3 {
+  display: none !important;
+}
+
+/* =================================== */
+/* PERMISSION LEVELS */
+/* =================================== */
+
+/* Admin only content */
+body.permission-admin .admin-only {
+  display: block;
+}
+
+body:not(.permission-admin) .admin-only {
+  display: none !important;
+}
+
+/* Service level content */
+body.permission-service .service-only,
+body.permission-admin .service-only {
+  display: block;
+}
+
+body:not(.permission-service):not(.permission-admin) .service-only {
+  display: none !important;
+}
+
+/* =================================== */
+/* CONDITIONAL TABLES */
+/* =================================== */
+
+/* Hide table columns based on role */
+body:not(.role-technician) .technician-column,
+body:not(.role-internal) .internal-column {
+  display: none;
+}
+
+/* Hide table rows based on role */
+body:not(.role-technician) tr.technician-row,
+body:not(.role-internal) tr.internal-row {
+  display: none;
+}
+
+/* =================================== */
+/* MOBILE RESPONSIVE */
+/* =================================== */
+
+@media (max-width: 768px) {
+  .internal-note,
+  .technician-warning,
+  .technician-tip,
+  .operator-note,
+  .customer-info {
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+  }
+  
+  /* Stack role badges on mobile */
+  .role-badge {
+    display: block;
+    margin: 0.5em 0;
+    text-align: center;
+  }
+}
+
+/* =================================== */
+/* PRINT HANDLING */
+/* =================================== */
+
+@media print {
+  /* Hide all debug indicators */
+  .conditional-visible::before,
+  [data-show-when]::before,
+  .role-badge {
+    display: none !important;
+  }
+  
+  /* Optionally hide role-specific content in print */
+  .no-print-conditional {
+    display: none !important;
+  }
+}

@@ -1,0 +1,43 @@
+/* Sweet Robo Manual Styles - Main Import File
+   ========================================
+   Imports all modular CSS files for the manual
+   This file now serves as the main aggregator
+   ======================================== */
+
+/* Import all modular CSS files in the correct order */
+@import url('variables.css');
+@import url('typography.css');
+@import url('components.css');
+@import url('images.css');
+@import url('layout.css');
+@import url('conditional.css');
+@import url('print.css');
+
+/* =================================== */
+/* ADDITIONAL OVERRIDES */
+/* =================================== */
+
+/* Any remaining styles that don't fit into the modules above */
+/* This section should be minimal as most styles are now modularized */
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Selection highlighting */
+::selection {
+  background: var(--blue-accent);
+  color: white;
+}
+
+::-moz-selection {
+  background: var(--blue-accent);
+  color: white;
+}

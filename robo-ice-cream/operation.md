@@ -140,7 +140,7 @@ To access the comprehensive operator interface:
 </div>
 
 <div class="side-by-side-images">
-<img src="./assets/operation/backend-access-position.webp" alt="Backend Access Position" />
+<img src="./assets/operation/backend-touch-position.webp" alt="Backend Access Position" />
 <img src="./assets/operation/password-input-screen.webp" alt="Password Input Screen" />
 </div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Tap and hold top-right corner | Right: Enter default password 123456</p>

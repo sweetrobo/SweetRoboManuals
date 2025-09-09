@@ -1,0 +1,421 @@
+/* Sweet Robo Manual - Print Styles
+   ========================================
+   All print-related styles consolidated in one place
+   for easier management and debugging
+   ======================================== */
+
+@media print {
+  /* =================================== */
+  /* PAGE SETUP & LAYOUT */
+  /* =================================== */
+  
+  /* Reset all containers to full width for print */
+  body, 
+  html,
+  .content,
+  .chapter,
+  main,
+  #content,
+  .page,
+  .page-wrapper,
+  #page-wrapper,
+  .book-body,
+  .body-inner,
+  .page-inner,
+  section,
+  article {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Target mdBook specific containers */
+  #content > main,
+  #content main,
+  .content > *,
+  main > *:not(.title-page) {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Page margins and setup */
+  @page {
+    size: A4;
+    margin: 1.5cm 1.5cm 2cm 1.5cm;
+    
+    @top-center {
+      content: var(--manual-title);
+      font-size: 10pt;
+      font-family: sans-serif;
+      color: #666;
+      padding: 0.3cm 0;
+    }
+    
+    @bottom-right {
+      content: counter(page);
+      font-size: 10pt;
+      font-family: sans-serif;
+      color: #666;
+    }
+  }
+  
+  /* =================================== */
+  /* ELEMENT HIDING */
+  /* =================================== */
+  
+  /* Hide all navigation and UI elements */
+  #sidebar,
+  #menu-bar,
+  .nav-chapters,
+  .mobile-nav-chapters,
+  .nav-wrapper,
+  .page-wrapper .page-header,
+  .buttons,
+  .navigation,
+  .nav-wide-wrapper,
+  .nav-wide,
+  #searchbar,
+  #searchresults,
+  .search-results,
+  .tooltiptext,
+  .chapter li.part-title,
+  .light-theme-button,
+  .rust-theme-button,
+  .coal-theme-button,
+  .navy-theme-button,
+  .ayu-theme-button,
+  #theme-toggle,
+  #theme-list,
+  button#sidebar-toggle,
+  .fa.fa-bars,
+  .left-buttons,
+  .right-buttons,
+  #print-button,
+  .fa.fa-print,
+  #search-toggle,
+  .fa.fa-search,
+  .fa.fa-expand,
+  .fa.fa-paint-brush,
+  #copy-path-button,
+  button[title="Copy link to clipboard"],
+  .playground-button,
+  pre > .buttons,
+  .fa {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  
+  /* Hide conditional content controls */
+  .conditional-controls,
+  .conditional-visible::before,
+  [data-show-when]::before,
+  .manual-print-controls {
+    display: none !important;
+  }
+  
+  /* Comprehensive print hiding */
+  .no-print,
+  .print-hide {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* =================================== */
+  /* CONTENT ADJUSTMENTS */
+  /* =================================== */
+  
+  /* Adjust main content for print */
+  #page-wrapper.page-wrapper {
+    transform: none !important;
+    margin-inline-start: 0px;
+    overflow-y: initial;
+  }
+  
+  #content {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    overflow-y: initial;
+  }
+  
+  /* Code and pre blocks */
+  code {
+    direction: ltr !important;
+  }
+  
+  pre, code {
+    page-break-inside: avoid;
+    white-space: pre-wrap;
+  }
+  
+  pre > code {
+    padding: 0.5em !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    display: block !important;
+    overflow-wrap: break-word !important;
+    white-space: pre-wrap !important;
+    font-size: 10pt !important;
+  }
+  
+  /* Links */
+  a, a:visited, a:active, a:hover {
+    color: #4183c4;
+    text-decoration: none;
+  }
+  
+  /* Headers - prevent page breaks */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+  
+  /* =================================== */
+  /* IMAGE HANDLING */
+  /* =================================== */
+  
+  img {
+    max-width: 90%;
+    max-height: none; /* Let PDF handle height naturally */
+    page-break-inside: avoid;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .img-row {
+    page-break-inside: avoid;
+  }
+  
+  .img-half {
+    max-width: 45%;
+  }
+  
+  .img-third {
+    max-width: 30%;
+  }
+  
+  /* Three column images - optimize for print */
+  .three-column-images {
+    page-break-inside: avoid !important;
+  }
+  
+  .three-column-images img {
+    max-height: 30vh !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+  
+  /* =================================== */
+  /* COMPONENT STYLES */
+  /* =================================== */
+  
+  /* Numbered steps - keep together */
+  .numbered-steps > div {
+    page-break-inside: avoid !important;
+    margin-bottom: 0.8em !important;
+  }
+  
+  .numbered-steps-with-images .step-with-image {
+    page-break-inside: avoid !important;
+    margin-bottom: 1em !important;
+  }
+  
+  /* Feature grids - optimize layout */
+  .feature-grid {
+    page-break-inside: avoid !important;
+  }
+  
+  .feature-item {
+    page-break-inside: avoid !important;
+  }
+  
+  /* Callout boxes - keep together */
+  .important-box,
+  .warning-box,
+  .caution-box,
+  .info-box {
+    page-break-inside: avoid !important;
+    margin: 0.5em 0 !important;
+    padding: 0.8em !important;
+  }
+  
+  /* Tables - prevent breaking */
+  table {
+    page-break-inside: avoid !important;
+  }
+  
+  /* Specs table */
+  .specs-table {
+    page-break-inside: avoid !important;
+  }
+  
+  .spec-row {
+    page-break-inside: avoid !important;
+  }
+  
+  /* =================================== */
+  /* TITLE PAGE */
+  /* =================================== */
+  
+  .title-page {
+    page-break-after: always !important;
+    height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .title-page .footer-machine-image {
+    max-height: 7in !important;
+  }
+  
+  /* =================================== */
+  /* PRINT HEADER */
+  /* =================================== */
+  
+  /* Compact print header */
+  .print-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 10pt !important;
+    color: #666 !important;
+    padding: 0.3cm 0 !important;
+    border-bottom: 1px solid #ddd !important;
+    margin-bottom: 0.5cm !important;
+    font-family: sans-serif !important;
+    position: running(header) !important;
+  }
+  
+  .print-header .manual-title {
+    font-weight: normal !important;
+  }
+  
+  .print-header .page-number::after {
+    content: counter(page) !important;
+  }
+  
+  /* =================================== */
+  /* PRINT-ONLY VISIBILITY */
+  /* =================================== */
+  
+  /* Show elements only in print */
+  .print-only,
+  .print-show {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /* =================================== */
+  /* COLOR ADJUSTMENTS */
+  /* =================================== */
+  
+  /* Ensure colors print well */
+  .warning-box {
+    background-color: #fed7d7 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  .caution-box {
+    background-color: #fef3c7 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  .info-box {
+    background-color: #f0f9ff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  .important-box {
+    background-color: #e9d8fd !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  /* Headers with backgrounds */
+  h2 {
+    background-color: #dbeafe !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  /* =================================== */
+  /* ORPHAN AND WIDOW CONTROL */
+  /* =================================== */
+  
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  
+  /* =================================== */
+  /* DEBUGGING HELPERS */
+  /* =================================== */
+  
+  /* Uncomment to debug print layout issues */
+  /*
+  * {
+    border: 1px solid red !important;
+  }
+  */
+}
+
+/* =================================== */
+/* PRINT UTILITY CLASSES */
+/* =================================== */
+
+/* Force page break before element */
+.page-break-before {
+  page-break-before: always !important;
+}
+
+/* Force page break after element */
+.page-break-after {
+  page-break-after: always !important;
+}
+
+/* Prevent page break inside element */
+.page-break-avoid {
+  page-break-inside: avoid !important;
+}
+
+/* Hide in print */
+.no-print {
+  display: none !important;
+}
+
+/* Show only in print */
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}
