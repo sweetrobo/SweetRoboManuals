@@ -32,18 +32,24 @@ build_manual() {
 # Function to copy shared resources
 copy_shared_resources() {
     echo "Copying shared resources..."
-    mkdir -p "build/shared-theme"
-    cp -r shared-theme/* build/shared-theme/ 2>/dev/null || true
     
-    # Copy manual-styles.css to each manual build directory
+    # Copy the entire shared folder to build directory
+    if [ -d "shared" ]; then
+        mkdir -p "build/shared"
+        cp -r shared/* build/shared/ 2>/dev/null || true
+        echo "✓ Copied shared folder to build/"
+    fi
+    
+    # Copy shared resources to each manual's build directory
     for dir in "build/candy-monster" "build/robo-ice-cream" "build/pop-cart"; do
         if [ -d "$dir" ]; then
-            cp shared-theme/manual-styles.css "$dir/" 2>/dev/null || true
-            echo "✓ Copied manual-styles.css to $dir"
+            mkdir -p "$dir/shared"
+            cp -r shared/* "$dir/shared/" 2>/dev/null || true
+            echo "✓ Copied shared resources to $dir"
         fi
     done
     
-    echo "✓ Shared resources copied"
+    echo "✓ All shared resources copied"
 }
 
 # Main script logic
@@ -51,9 +57,9 @@ case "$1" in
     "all")
         echo "Building all manuals..."
         build_index
-        build_manual "Candy Monster"
-        build_manual "Robo Ice Cream"
-        build_manual "Pop Cart"
+        build_manual "candy-monster"
+        build_manual "robo-ice-cream"
+        build_manual "pop-cart"
         copy_shared_resources
         echo ""
         echo "All manuals built! Check build/ directory for outputs."
@@ -63,9 +69,9 @@ case "$1" in
         if [ -z "$1" ]; then
             echo "Usage:"
             echo "  ./build-manuals.sh all                    # Build all manuals"
-            echo "  ./build-manuals.sh \"Candy Monster\"        # Build specific manual"
-            echo "  ./build-manuals.sh \"Robo Ice Cream\"       # Build specific manual"
-            echo "  ./build-manuals.sh \"Pop Cart\"             # Build specific manual"
+            echo "  ./build-manuals.sh candy-monster          # Build specific manual"
+            echo "  ./build-manuals.sh robo-ice-cream         # Build specific manual"
+            echo "  ./build-manuals.sh pop-cart               # Build specific manual"
             echo ""
             echo "After building, open index.html in your browser to access all manuals."
         else

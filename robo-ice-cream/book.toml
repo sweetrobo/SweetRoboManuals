@@ -15,8 +15,8 @@ default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/sweetrobo/SweetRoboManuals"
 git-repository-icon = "fa-github"
-additional-css = ["shared/custom.css", "shared/manual-styles.css", "shared/variables.css", "shared/typography.css", "shared/components.css", "shared/images.css", "shared/layout.css", "shared/conditional.css", "shared/print.css"]
-additional-js = ["shared/custom.js"]
+additional-css = ["shared/css/custom.css", "shared/css/manual-styles.css", "shared/css/variables.css", "shared/css/typography.css", "shared/css/components.css", "shared/css/images.css", "shared/css/layout.css", "shared/css/conditional.css", "shared/css/print.css"]
+additional-js = ["shared/js/custom.js"]
 favicon = "assets/logo.webp"
 site-url = "https://sweetrobo.com/manuals/robo-ice-cream/"
 
