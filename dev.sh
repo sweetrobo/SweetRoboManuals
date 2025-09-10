@@ -39,8 +39,9 @@ start_all_servers() {
     start_single_server "candy-monster" 4002
     start_single_server "pop-cart" 4003
     
-    # Start Python server for main index
+    # Start Python server for main index (serves workspace metadata too)
     echo -e "${GREEN}Starting main index server on port ${BLUE}4000${NC}"
+    echo -e "${CYAN}Chrome DevTools Workspace enabled${NC}"
     python3 -m http.server 4000 --bind 0.0.0.0 &
     
     echo ""
