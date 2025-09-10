@@ -46,3 +46,12 @@ Use the `dev.sh` script to start development servers:
 ./dev.sh candy  # Start Candy Monster server only
 ./dev.sh pop    # Start Pop Cart server only
 ```
+
+## Code Quality Principles
+
+### DRY (Don't Repeat Yourself)
+- **Always prefer DRY code** - No code duplication when it can be avoided
+- **Single source of truth** - Styles, logic, and data should be defined in one place
+- **Use extraction and reuse** - Extract common patterns into reusable functions/styles
+- **Dynamic over static** - Use JavaScript to dynamically apply styles rather than duplicating CSS
+- **Example**: Print preview extracts @media print styles dynamically instead of duplicating them in a separate CSS file
