@@ -227,11 +227,7 @@
     controlContainer.appendChild(backButton);
     controlContainer.appendChild(autoReturnLabel);
 
-    // Hide controls when printing
-    const printStyle = document.createElement("style");
-    printStyle.textContent =
-      "@media print { .manual-print-controls { display: none !important; } }";
-    document.head.appendChild(printStyle);
+    // Set class for print controls
     controlContainer.className = "manual-print-controls";
 
     document.body.appendChild(controlContainer);
@@ -324,12 +320,29 @@
         document.body.classList.remove(`show-${key}`);
       }
     });
-    
+
     // Special handling for print-condensed content visibility
-    if (params.showPrintCondensed || (params.controls && params.showPrintCondensed !== false)) {
-      document.body.classList.add('show-print-content');
+    if (params.showPrintCondensed) {
+      document.body.classList.add("show-print-content");
     } else {
-      document.body.classList.remove('show-print-content');
+      document.body.classList.remove("show-print-content");
+    }
+
+    // Special handling for print preview mode
+    if (params.printPreview) {
+      document.body.classList.add("print-preview");
+      // Also add print-mode class for additional styling
+      document.body.classList.add("print-mode");
+      // Apply print styles dynamically
+      applyPrintStyles(true);
+    } else {
+      document.body.classList.remove("print-preview");
+      // Only remove print-mode if we're not on actual print page
+      if (!isPrintPage()) {
+        document.body.classList.remove("print-mode");
+      }
+      // Remove print styles
+      applyPrintStyles(false);
     }
 
     // Apply role-based content
@@ -390,6 +403,9 @@
                 <label><input type="checkbox" data-param="customer"> Customer View</label>
                 <label style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
                     <input type="checkbox" data-param="showPrintCondensed"> Show Print-Only Content
+                </label>
+                <label style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
+                    <input type="checkbox" data-param="printPreview"> Preview Print Layout
                 </label>
             </div>
             <div class="control-footer">
@@ -452,12 +468,7 @@
                 text-align: center;
                 line-height: 1.3;
             }
-            @media print {
-                .conditional-controls {
-                    display: none !important;
-                }
-            }
-            @media (max-width: 768px) {
+            @media screen and (max-width: 768px) {
                 .conditional-controls {
                     top: auto;
                     bottom: 20px;
@@ -536,6 +547,175 @@
     });
 
     document.body.appendChild(controlPanel);
+  }
+
+  /* ========================================
+       Print Styles Extraction for Preview
+       ======================================== */
+
+  function applyPrintStyles(enable) {
+    const previewStyleId = "print-preview-extracted-styles";
+
+    if (enable) {
+      // Remove any existing preview styles first
+      const existingStyle = document.getElementById(previewStyleId);
+      if (existingStyle) {
+        existingStyle.remove();
+      }
+
+      // Extract all @media print rules
+      // Use setTimeout to ensure all dynamic styles are loaded
+      setTimeout(() => {
+        let printStyles = "";
+        let extractedCount = 0;
+
+        console.log("Starting print styles extraction...");
+        console.log("Total stylesheets found:", document.styleSheets.length);
+
+        // Iterate through all stylesheets
+        for (const sheet of document.styleSheets) {
+          try {
+            // Some stylesheets may not be accessible due to CORS
+            const rules = sheet.cssRules || sheet.rules;
+
+            if (!rules) {
+              console.warn(
+                "No rules found in stylesheet:",
+                sheet.href || "inline"
+              );
+              continue;
+            }
+
+            // Process each rule, including nested @import rules
+            for (let i = 0; i < rules.length; i++) {
+              const rule = rules[i];
+
+              // Check if this is an @import rule
+              if (rule.type === CSSRule.IMPORT_RULE && rule.styleSheet) {
+                // Recursively process imported stylesheets
+                try {
+                  const importedRules =
+                    rule.styleSheet.cssRules || rule.styleSheet.rules;
+                  for (const importedRule of importedRules) {
+                    if (
+                      importedRule.type === CSSRule.MEDIA_RULE &&
+                      importedRule.media.mediaText.includes("print")
+                    ) {
+                      // Extract and process the rules inside the media query
+                      processMediaPrintRule(importedRule);
+                    }
+                  }
+                } catch (importError) {
+                  console.log("Cannot access imported stylesheet:", rule.href);
+                }
+              }
+
+              // Check if this is a media rule for print
+              if (
+                rule.type === CSSRule.MEDIA_RULE &&
+                rule.media &&
+                rule.media.mediaText &&
+                rule.media.mediaText.includes("print")
+              ) {
+                // Extract and process the rules inside the media query
+                processMediaPrintRule(rule);
+              }
+            }
+          } catch (e) {
+            // Skip stylesheets we can't access (e.g., from CDNs)
+            console.log(
+              "Cannot access stylesheet:",
+              sheet.href || "inline",
+              "Error:",
+              e.message
+            );
+          }
+        }
+
+        // Helper function to process @media print rules and add body.print-preview prefix
+        function processMediaPrintRule(mediaRule) {
+          try {
+            const rules = mediaRule.cssRules || mediaRule.rules;
+            if (!rules) return;
+
+            for (let j = 0; j < rules.length; j++) {
+              const innerRule = rules[j];
+
+              if (innerRule.type === CSSRule.STYLE_RULE) {
+                // This is a regular CSS rule, prefix it with body.print-preview
+                const selector = innerRule.selectorText;
+                const styles = innerRule.style.cssText;
+
+                // Parse and prefix each selector part
+                const prefixedSelectors = selector
+                  .split(",")
+                  .map((sel) => {
+                    sel = sel.trim();
+
+                    // Special handling for @page rules and other at-rules
+                    if (sel.startsWith("@")) {
+                      return sel; // Keep as-is
+                    }
+
+                    // For body selector, replace with body.print-preview
+                    if (sel === "body" || sel === "html") {
+                      return `body.print-preview`;
+                    }
+
+                    // For other selectors, prefix with body.print-preview
+                    return `body.print-preview ${sel}`;
+                  })
+                  .join(", ");
+
+                printStyles += `${prefixedSelectors} { ${styles} }\n`;
+                extractedCount++;
+              } else if (innerRule.type === CSSRule.PAGE_RULE) {
+                // Keep @page rules as-is (they only apply during actual printing)
+                // Skip them for preview since they can't be simulated
+                console.log("Skipping @page rule for preview");
+              } else if (innerRule.cssText) {
+                // For other rule types, try to extract the text
+                // This might include @font-face, etc.
+                printStyles += innerRule.cssText + "\n";
+              }
+            }
+          } catch (e) {
+            console.log("Error processing media rule:", e);
+          }
+        }
+
+        console.log(`Extracted and prefixed ${extractedCount} print rules`);
+
+        // If no print styles were found, warn the user
+        if (!printStyles) {
+          console.warn(
+            "No print styles were extracted! Check if custom-print.css is loaded."
+          );
+        }
+
+        // Create new style element with extracted print styles
+        const styleElement = document.createElement("style");
+        styleElement.id = previewStyleId;
+
+        // Add the prefixed print styles
+        styleElement.textContent = printStyles;
+
+        // Add overrides to keep controls visible in preview and simulate page dimensions
+        styleElement.textContent += ``;
+
+        // Append to document head
+        document.head.appendChild(styleElement);
+
+        console.log("Print preview styles applied");
+      }, 100); // Small delay to ensure all dynamic styles are loaded
+    } else {
+      // Remove the preview styles
+      const existingStyle = document.getElementById(previewStyleId);
+      if (existingStyle) {
+        existingStyle.remove();
+        console.log("Print preview styles removed");
+      }
+    }
   }
 
   /* ========================================
@@ -721,30 +901,13 @@
     // Find existing controls or wait for them to be added
     setTimeout(() => {
       const controlPanel = document.querySelector(".conditional-controls");
-      if (controlPanel && isLocalDev) {
+      if (controlPanel) {
         // Check if dev toggle already exists
-        if (!controlPanel.querySelector('[data-param="dev"]')) {
-          // Add dev mode toggle at the top
-          const controlOptions = controlPanel.querySelector(".control-options");
-          if (controlOptions) {
-            const devToggle = document.createElement("label");
-            devToggle.style.cssText =
-              "display: block; margin: 5px 0; padding-bottom: 10px; border-bottom: 1px solid #dee2e6;";
-            devToggle.innerHTML = `<input type="checkbox" data-param="dev" ${
-              isDev ? "checked" : ""
-            }> 
-                                             <strong>Dev Mode</strong> (Show all content)`;
-            controlOptions.insertBefore(devToggle, controlOptions.firstChild);
-
-            // Add note about dev mode
-            const note = document.createElement("div");
-            note.style.cssText =
-              "font-size: 11px; color: #666; margin: 5px 0 10px 20px;";
-            note.textContent = isLocalDev
-              ? "Auto-enabled in local dev"
-              : "Manual override";
-            controlOptions.insertBefore(note, devToggle.nextSibling);
-          }
+        const existingDevCheckbox =
+          controlPanel.querySelector('[data-param="dev"]');
+        if (existingDevCheckbox) {
+          // Update the existing checkbox state
+          existingDevCheckbox.checked = isDev;
         }
       }
     }, 200);
@@ -838,7 +1001,7 @@
 
   // Add print-mode class to body when on print.html for CSS debugging
   if (isPrintPage()) {
-    document.body.classList.add('print-mode');
+    document.body.classList.add("print-mode");
   }
 
   // Expose API for programmatic control
