@@ -148,6 +148,14 @@ If the machine was tilted during transport, **wait at least 24 hours** before po
 
 ## Step 1: Delivery and Inspection
 
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Delivery Check:</strong> Confirm with delivery personnel that machine remained upright during entire transport (critical for refrigerant system). Check outer packaging for visible damage and note any issues on delivery receipt before carrier leaves. Verify Model, Serial Number, and Delivery Date match your order documentation. If damage suspected, photograph machine before unboxing for insurance claims. Contact Sweet Robo support immediately if damage or missing parts discovered.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
+
 <div class="numbered-steps">
 
 <div>
@@ -188,7 +196,17 @@ If damage or missing parts discovered, contact Sweet Robo support immediately.
 
 </div>
 
+</div>
+
 ## Step 2: Positioning the Machine
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Position Machine:</strong> Two or more people required for moving (use pallet jack for long distances - wheels are for minor adjustments only). Keep machine upright at all times - never tilt or rock due to refrigerant system. Carefully move to final operating location using appropriate equipment. Ensure all four feet are firmly on ground and machine is level. Adjust feet as needed, then lock in place with locking collars. Verify required clearances: rear wall 50cm (20in), side-to-side 20cm (8in), front door opens to 135°+.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="caution-box">
 
@@ -234,9 +252,19 @@ Confirm all required clearances are met (see requirements above).
 
 </div>
 
+</div>
+
 <div class="image-placeholder">IMAGE: Proper machine positioning with clearance measurements</div>
 
 ## Step 3: Interior Inspection
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Interior Check:</strong> WARNING: Do NOT power on until inspection complete and ice cream mix loaded. Unlock and open service door using keys attached to power cord. Inspect for loose wires, plugs, pipes, or components shifted during transit. Remove ALL internal packaging materials including foam and zip ties (except those securing permanent wires). Check delivery bot area and all compartments. Locate accessory kit stored inside. Ensure all cables and connectors are properly seated and secure.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="warning-box">
 
@@ -279,9 +307,21 @@ Ensure all cables and connectors are properly seated and secure.
 
 </div>
 
+</div>
+
 <div class="image-placeholder">IMAGE: Interior inspection points and packaging removal</div>
 
 ## Step 4: Hardware Installation
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>4.1 LED Panels (Optional):</strong> Choose to install 0-4 LED roof panels for visibility. Use Phillips screwdriver and screws from tool kit to attach panels to top of machine. Connect panel wires to corresponding machine wires. Ensure all connections secure.
+<br><br>
+<strong>4.2 Cup Tubes:</strong> Open service door to access dispenser. Install all 4 cup tubes into dispenser assembly. Load 50 approved cups per tube (rim up) for 200 total capacity. Stack neatly to prevent jams from crushing or misalignment. Close tube lids to prevent dust and maintain hygiene. Close service door securely.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 ### 4.1 Install LED Roof Panels (Optional)
 
@@ -362,9 +402,19 @@ Close tube lids securely and service door (closing lids is recommended to preven
 
 </div>
 
+</div>
+
 ## Step 5: Initial System Preparation
 
 ### 5.1 Flush and Sanitize Hoppers
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>5.1 Sanitize Hoppers:</strong> F2 has dual hoppers (Left & Right) for two flavors. Pour ~2L warm water into each hopper. Wipe interior with food-grade sanitizing solution. Rinse thoroughly with clean warm water. Access backend system to open chambers and discharge water. Wipe dry with clean, food-safe cloth and leave open to air dry before adding mix.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="info-box">
 
@@ -406,6 +456,8 @@ Wipe dry with clean, food-safe cloth and leave open to air dry.
 
 </div>
 
+</div>
+
 <div class="image-placeholder">IMAGE: Hopper cleaning process</div>
 
 ### 5.2 Prepare Ice Cream Mix
@@ -424,6 +476,14 @@ For detailed mix preparation instructions, see [Ice Cream Mix Preparation](opera
 </div>
 
 ### 5.3 Load Ice Cream Mix
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>5.3 Load Mix:</strong> Open both hopper lids (Left and Right). Pour prepared mix slowly to avoid splashing. Minimum fill: 2 liters per hopper (must fill both hoppers). Maximum capacity: 12 liters per hopper. Keep mix level below the square openings on white plastic tubes - these provide air flow for proper mix circulation to freezing chamber below. Close lids securely after filling.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" />
 
@@ -461,6 +521,8 @@ Close lid(s) securely.
 
 </div>
 
+</div>
+
 ### 5.4 Adjust Refill Tube
 
 The refill tube (air valve) controls how much mix flows into the freezing chamber after each serving. When a cup of ice cream is served, space is created in the freezing chamber, and this valve determines how quickly new mix enters.
@@ -489,6 +551,14 @@ For high-volume service, you can experimentally increase both settings to 3 or 4
 <div class="image-placeholder">QR CODE: Refill tube adjustment video</div>
 
 ### 5.5 Add Syrups
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>5.5 Add Syrups:</strong> Locate the 3 syrup containers in the machine. Open each container lid and pour in liquid syrup (liquid syrups only - no thick or chunky syrups). Close lids securely after filling. Note which syrup is in each position (1, 2, 3) for backend configuration later. See Critical Requirements for approved syrup types.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="numbered-steps">
 
@@ -526,7 +596,17 @@ Note which syrup is in each position (1, 2, 3) - you'll need to configure this i
 
 <img src="./assets/supplies/chocolate-syrup-hersheys.webp" alt="Approved Hershey's chocolate syrup container" />
 
+</div>
+
 ### 5.6 Add Toppings
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>5.6 Add Toppings:</strong> Open the 3 topping container lids. Pour dry toppings into containers (max 270g each). Ensure toppings flow freely with no clumping (dry toppings only - no wet, sticky, or fresh items). Close lids securely. See Critical Requirements for approved topping types.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="numbered-steps">
 
@@ -562,11 +642,21 @@ Close lids securely.
 
 </div>
 
-<img src="./assets/supplies/syrup-topping-spoons.webp" alt="Syrup and topping serving spoons" />
+<img src="./assets/supplies/syrup-topping-spoons.webp" class="img-half" alt="Syrup and topping serving spoons" />
+
+</div>
 
 ## Step 6: Power Connection and Startup
 
 ### 6.1 Connect Power
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>6.1 Connect Power:</strong> ELECTRICAL SAFETY: Ensure hands are dry and not standing in water. Verify Main Breaker is OFF (located behind cups area). Connect the 6-20P power cord to your 6-20R outlet (220V with 20A breaker). Verify outlet is properly grounded and on a dedicated 20A+ breaker. Machine must be OFF before connecting power.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="warning-box">
 
@@ -596,7 +686,17 @@ Verify the outlet is properly grounded and on a dedicated 20A+ breaker.
 
 </div>
 
+</div>
+
 ### 6.2 Power On Sequence
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>6.2 Power On:</strong> (1) Turn ON Main Breaker - located behind cups area, right side access door. (2) Turn ON Main I/O Switch - controls refrigeration and dispensing systems. (3) System Initialization - touchscreen illuminates, startup sequence begins, listen for normal operation sounds (no grinding). (4) Temperature Optimization - machine requires 2-8 minutes to reach optimal freezing temperature. If "Core Board Error" appears with grinding noise, immediately turn OFF and verify hoppers have mix. If error continues, shut off power and contact support.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="numbered-steps">
 
@@ -641,6 +741,8 @@ Machine requires 2-8 minutes to reach optimal freezing temperature.
 
 </div>
 
+</div>
+
 ## Step 7: Network Setup (WiFi/Ethernet)
 
 <div class="info-box">
@@ -654,6 +756,14 @@ Machine requires 2-8 minutes to reach optimal freezing temperature.
 </div>
 
 ### 7.1 WiFi Setup
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>7.1 WiFi Setup:</strong> From backend menu, navigate to System Settings. Select "Exit App" to access Android system. Navigate to Android WiFi settings, select your network, enter password, verify connection. Return to home screen, relaunch Robo Ice Cream application. Verify network status shows connected in backend. Network enables remote support, software updates, sales reporting, and remote configuration.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="numbered-steps">
 
@@ -692,7 +802,17 @@ Select `Exit App` to access the underlying Android system
 
 </div>
 
+</div>
+
 ### 7.2 Ethernet Setup
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>7.2 Ethernet Setup:</strong> If using wired connection: Connect Ethernet cable to machine's network port. Connection should establish automatically. Verify in System Settings that LAN status shows connected. Once connected to internet, machine can be accessed remotely by Sweet Robo support. Machine ID will be visible in System Settings - provide this ID to support for remote assistance. Support can remotely adjust settings, view diagnostics, and update software.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 If using wired connection:
 1. Connect Ethernet cable to machine's network port
@@ -707,6 +827,8 @@ Once connected to the internet, your machine can be accessed remotely by Sweet R
 - Machine ID will be visible in System Settings
 - Provide this ID to support for remote assistance
 - Support can remotely adjust settings, view diagnostics, and update software
+
+</div>
 
 </div>
 
