@@ -44,3 +44,4 @@ book/
 # Cloudflare tunnel credentials
 cloudflare/credentials.json
 /.playwright-mcp
+.well-known/appspecific/com.chrome.devtools.json
