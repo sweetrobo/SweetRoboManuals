@@ -159,8 +159,8 @@ Holds 200 cups (4 tubes × 50 cups each) compared to F1's 100 cups.
 - Accepts multiple payment methods (bills, coins, card terminals)
 - Provides audio/video feedback for customers
 - Maintains optimal food-safe temperatures via built-in sensors
-<!-- - Includes UV sanitation and system diagnostics -->
 - Operates unattended with scheduled hours and stock tracking
+<!-- - Includes UV sanitation and system diagnostics -->
 
 ### Use Cases
 
