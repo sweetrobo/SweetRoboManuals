@@ -223,51 +223,51 @@ figure img {
 /* RESPONSIVE IMAGE ADJUSTMENTS */
 /* =================================== */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   img {
     max-width: 95%;
     margin: 10px auto;
   }
-  
+
   .setup-image,
   .overview-diagram,
   .operation-screenshot,
   .maintenance-photo {
     max-width: 100%;
   }
-  
+
   /* Stack side-by-side images on mobile */
   .side-by-side-images {
     flex-direction: column;
     gap: 1em;
   }
-  
+
   .side-by-side-images img {
     max-width: 100%;
   }
-  
+
   /* Three column images - 2 columns on tablet */
   .three-column-images {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Image row - stack on mobile */
   .img-row {
     flex-direction: column;
   }
-  
+
   .img-half,
   .img-third {
     max-width: 100%;
   }
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
   /* Three column images - single column on mobile */
   .three-column-images {
     grid-template-columns: 1fr;
   }
-  
+
   /* Gallery - 2 columns on mobile */
   .image-gallery {
     grid-template-columns: repeat(2, 1fr);

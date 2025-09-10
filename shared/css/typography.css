@@ -109,7 +109,7 @@
   line-height: inherit;
   vertical-align: baseline;
   display: inline;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .content pre {
@@ -288,14 +288,14 @@
   color: white;
   padding: 0.2em 0.4em;
   border-radius: var(--border-radius-sm);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 0.9em;
   box-shadow: var(--shadow-sm);
 }
 
 /* Sample output */
 .content samp {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background: var(--background-light);
   padding: 0.2em 0.4em;
   border-radius: var(--border-radius-sm);
@@ -311,28 +311,28 @@
 /* MOBILE RESPONSIVE */
 /* =================================== */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .content h1 {
     font-size: 2em;
     margin: 1.5em 0 0.8em 0;
   }
-  
+
   .content h2 {
     font-size: 1.5em;
     margin: 1.5em 0 0.8em 0;
     padding: 0.4em 0.8em;
   }
-  
+
   .content h3 {
     font-size: 1.2em;
     margin: 1.2em 0 0.6em 0;
   }
-  
+
   .content h4 {
     font-size: 1.1em;
     margin: 1em 0 0.5em 0;
   }
-  
+
   .content ul,
   .content ol {
     padding-left: 1.5em;

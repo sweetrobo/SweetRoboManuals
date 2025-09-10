@@ -5,13 +5,27 @@
    ======================================== */
 
 /* Import all modular CSS files in the correct order */
+
 @import url('variables.css');
+
 @import url('typography.css');
+
 @import url('components.css');
+
 @import url('images.css');
+
 @import url('layout.css');
+
 @import url('conditional.css');
-@import url('print.css');
+
+/* All print-specific styles */
+@import url('custom-print.css'); 
+
+/* Image styles */
+@import url('images.css');      
+
+/* Conditional content styles */
+@import url('conditional.css'); 
 
 /* =================================== */
 /* ADDITIONAL OVERRIDES */
@@ -41,3 +55,5 @@ html {
   background: var(--blue-accent);
   color: white;
 }
+
+

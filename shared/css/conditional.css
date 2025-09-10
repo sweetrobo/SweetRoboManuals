@@ -255,7 +255,7 @@ body:not(.role-internal) tr.internal-row {
 /* MOBILE RESPONSIVE */
 /* =================================== */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .internal-note,
   .technician-warning,
   .technician-tip,
@@ -265,7 +265,7 @@ body:not(.role-internal) tr.internal-row {
     margin-right: -15px;
     border-radius: 0;
   }
-  
+
   /* Stack role badges on mobile */
   .role-badge {
     display: block;
@@ -285,7 +285,7 @@ body:not(.role-internal) tr.internal-row {
   .role-badge {
     display: none !important;
   }
-  
+
   /* Optionally hide role-specific content in print */
   .no-print-conditional {
     display: none !important;

@@ -25,28 +25,29 @@
   section,
   article {
     max-width: 100% !important;
-    width: 100% !important;
+    max-width: 21cm !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: auto !important;
     box-sizing: border-box !important;
   }
   
   /* Target mdBook specific containers */
-  #content > main,
+  /* #content > main,
   #content main,
   .content > *,
   main > *:not(.title-page) {
     padding: 0 !important;
     margin: 0 !important;
     max-width: 100% !important;
-  }
+  } */
 
   /* Page margins and setup */
   @page {
     size: A4;
-    margin: 1.5cm 1.5cm 2cm 1.5cm;
+    max-height: 29.7cm;
+    margin: 0.8cm 0.5cm 0.2cm 0.5cm;
     
-    @top-center {
+    @top-left {
       content: var(--manual-title);
       font-size: 10pt;
       font-family: sans-serif;
@@ -54,20 +55,48 @@
       padding: 0.3cm 0;
     }
     
-    @bottom-right {
+    @top-right {
       content: counter(page);
       font-size: 10pt;
       font-family: sans-serif;
       color: #666;
     }
+
+  }
+    @page :first {
+      margin: 0;
+      height: 100%;
+
+      @top-left {
+        content: none;
+      }
+      @top-right {
+        content: none;
+      }
   }
   
   /* =================================== */
   /* ELEMENT HIDING */
   /* =================================== */
   
+  /* Hide styling demo and development content in print */
+  .styling-demo-content,
+  .introduction-content,
+  #styling-demo,
+  .chapter-item:has(a[href*="styling-demo"]),
+  .nav-chapters a[href*="styling-demo"],
+  a[href*="styling-demo"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  
   /* Hide all navigation and UI elements */
-  #sidebar,
+  /* #sidebar,
   #menu-bar,
   .nav-chapters,
   .mobile-nav-chapters,
@@ -111,15 +140,21 @@
     margin: 0 !important;
     padding: 0 !important;
     overflow: hidden !important;
-  }
+  } */
   
-  /* Hide conditional content controls */
-  .conditional-controls,
+  /* Hide conditional content controls and manual controls */
+  /* .conditional-controls,
   .conditional-visible::before,
   [data-show-when]::before,
   .manual-print-controls {
     display: none !important;
-  }
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  } */
   
   /* Comprehensive print hiding */
   .no-print,
@@ -140,21 +175,21 @@
   /* =================================== */
   
   /* Adjust main content for print */
-  #page-wrapper.page-wrapper {
+  /* #page-wrapper.page-wrapper {
     transform: none !important;
     margin-inline-start: 0px;
     overflow-y: initial;
-  }
+  } */
   
-  #content {
+  /* #content {
     max-width: none;
     margin: 0;
     padding: 0;
-  }
+  } */
   
-  .page {
+  /* .page {
     overflow-y: initial;
-  }
+  } */
   
   /* Code and pre blocks */
   code {
@@ -180,24 +215,29 @@
   a, a:visited, a:active, a:hover {
     color: #4183c4;
     text-decoration: none;
+    margin: 10px 0;
   }
   
   /* Headers - prevent page breaks */
   h1, h2, h3, h4, h5, h6 {
     page-break-inside: avoid;
     page-break-after: avoid;
+    margin: 0;
+    padding: 10px 5px;
   }
   
   /* =================================== */
   /* IMAGE HANDLING */
   /* =================================== */
   
-  img {
-    max-width: 90%;
-    max-height: none; /* Let PDF handle height naturally */
+  /* max-height: none; - Let PDF handle height naturally */
+  img:not(.footer-machine-image) {
+    /* max-width: 30%; */
+    /* A4 is height 29.7cm, i want the image to be max 50% height in this case */
+    max-height: calc(29.7cm * 0.5) !important; 
     page-break-inside: avoid;
     margin: 10px auto;
-    display: block;
+    /* display: block; */
   }
   
   .img-row {
@@ -228,23 +268,53 @@
   /* =================================== */
   
   /* Numbered steps - keep together */
+  .numbered-steps {
+    /* page-break-inside: avoid !important; */
+    margin: 0 !important;
+  }
   .numbered-steps > div {
-    page-break-inside: avoid !important;
-    margin-bottom: 0.8em !important;
+    /* page-break-inside: avoid !important; */
+    margin-bottom: 10px !important;
   }
   
   .numbered-steps-with-images .step-with-image {
-    page-break-inside: avoid !important;
-    margin-bottom: 1em !important;
+    /* page-break-inside: avoid !important; */
+    /* margin-bottom: 1em !important; */
   }
   
   /* Feature grids - optimize layout */
   .feature-grid {
-    page-break-inside: avoid !important;
+    /* page-break-inside: avoid !important; */
+    gap: 5px;
+    margin: 0;
+
   }
-  
+  .feature-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    page-break-inside: avoid !important;
+    height: auto !important;
+  }
+  .feature-grid > div > img {
+    height: 70% !important;
+    flex-shrink: 0;
+  }
+  .feature-grid.grid-4 > div {
+    max-height: calc(29.7cm * 0.2) !important;
+  }
+  .feature-grid.grid-3 > div {
+    max-height: calc(29.7cm * 0.3) !important;
+  }
+  .feature-grid.grid-2 > div {
+    max-height: calc(29.7cm * 0.4) !important;
+  }
+
   .feature-item {
     page-break-inside: avoid !important;
+    padding: 5px;
+    margin: 0;
   }
   
   /* Callout boxes - keep together */
@@ -253,15 +323,30 @@
   .caution-box,
   .info-box {
     page-break-inside: avoid !important;
-    margin: 0.5em 0 !important;
-    padding: 0.8em !important;
+    /* margin: 5px 0 !important; ading this makes the box full width */
+    padding: 0 5px !important;
   }
   
   /* Tables - prevent breaking */
   table {
-    page-break-inside: avoid !important;
+    /* page-break-inside: avoid !important; */
+    margin: 0;
+    padding: 0;
   }
-  
+  .content table {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+  }
+  .content ul, .content ol {
+    margin: 0;
+    /* padding: 0; */
+  }
+  .content ul li, .content ol li, td, tr, th {
+    margin: 0;
+    padding: 2px;
+  }
+
   /* Specs table */
   .specs-table {
     page-break-inside: avoid !important;
@@ -277,18 +362,28 @@
   
   .title-page {
     page-break-after: always !important;
-    height: 100vh !important;
+    min-height: 29.7cm !important;
+    /* min-width: 21cm !important; */
+    /* height: 100vh !important;
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 !important; */
   }
   
-  .title-page .footer-machine-image {
+  /* .title-page .footer-machine-image {
     max-height: 7in !important;
+  } */
+  
+  /* Ensure title page links are not clickable in print */
+  .title-page h1 a,
+  .title-page h2 a {
+    color: inherit !important;
+    text-decoration: none !important;
   }
+ 
   
   /* =================================== */
   /* PRINT HEADER */
@@ -325,6 +420,24 @@
   .print-show {
     display: block !important;
     visibility: visible !important;
+  }
+  
+  /* Print-condensed content - compact version for print */
+  .print-condensed {
+    display: block !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    padding: 0.5em !important;
+    margin: 0.5em 0 !important;
+    font-size: 0.9em !important;
+    line-height: 1.4 !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* Hide the verbose version when print-condensed is shown */
+  .print-condensed + div,
+  .print-condensed ~ .verbose-content {
+    display: none !important;
   }
   
   /* =================================== */
@@ -375,6 +488,7 @@
   p {
     orphans: 3;
     widows: 3;
+    margin: 0;
   }
   
   /* =================================== */
@@ -382,11 +496,11 @@
   /* =================================== */
   
   /* Uncomment to debug print layout issues */
-  /*
-  * {
+  
+  /* * {
     border: 1px solid red !important;
-  }
-  */
+  } */
+ 
 }
 
 /* =================================== */
@@ -415,7 +529,22 @@
 
 /* Show only in print */
 @media screen {
-  .print-only {
+  /* Hide print-only content on screen, except when body has show-print-content class */
+  body:not(.show-print-content) .print-only {
     display: none !important;
   }
+}
+
+@media print {
+  .conditional-controls, .manual-print-controls, #menu-bar-hover-placeholder, .image-placeholder {
+    display: none !important;
+  }
+}
+
+/* =================================== */
+/* SPECIFIC FIXES */
+/* =================================== */
+
+#whats-included {
+  page-break-before: always !important;
 }

@@ -112,16 +112,16 @@
   font-size: var(--numbered-step-font);
 }
 
-.numbered-steps > div > div {
+.numbered-steps > div > div:not(:has(h3)) {
   flex: 1;
-  padding-top: 0.3em;
+  padding-top: calc(var(--numbered-step-circle) * 0.35);
 }
 
 /* Steps with headers - auto-detect h3 and apply flex column */
 .numbered-steps > div > div:has(h3) {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  /* gap: 0.5em; */
 }
 
 .numbered-steps h3 {
@@ -220,7 +220,8 @@
   background: var(--background-light);
   border-radius: var(--border-radius-md);
   border: 1px solid var(--border-light);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition: transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .feature-item:hover {
@@ -326,7 +327,12 @@
 .section-divider {
   border: none;
   height: 3px;
-  background: linear-gradient(to right, transparent, var(--primary-blue), transparent);
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--primary-blue),
+    transparent
+  );
   margin: 3em 0;
 }
 
@@ -343,7 +349,8 @@
   text-decoration: none;
   border-radius: var(--border-radius-md);
   font-weight: var(--font-weight-semibold);
-  transition: background var(--transition-fast), transform var(--transition-fast);
+  transition: background var(--transition-fast),
+    transform var(--transition-fast);
   border: none;
   cursor: pointer;
 }
@@ -396,10 +403,204 @@
 }
 
 /* =================================== */
-/* MOBILE RESPONSIVE */
+/* STEP HEADERS */
 /* =================================== */
 
-@media (max-width: 768px) {
+.step-header {
+  background: transparent;
+  padding: 0.5em 1em;
+  margin: 1em 0 0.5em 0;
+  border-radius: var(--border-radius-md);
+  border-left: 4px solid var(--primary-blue);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-blue);
+  font-size: 1.1em;
+}
+
+/* =================================== */
+/* HIGHLIGHT BLOCKS */
+/* =================================== */
+
+.highlight-block {
+  border-left: 4px solid #7c3aed;
+  padding-left: 1.5em;
+  margin: 1.5em 0;
+}
+
+.highlight-block h3,
+.highlight-block h4 {
+  color: #7c3aed;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: var(--font-weight-bold);
+}
+
+.highlight-block p {
+  margin: 0.5em 0;
+  color: var(--text-medium);
+}
+
+/* =================================== */
+/* TEXT WITH LINE */
+/* =================================== */
+
+.text-with-line {
+  border-left: 4px solid var(--primary-blue);
+  padding-left: 1.5em;
+  margin: 1.5em 0;
+}
+
+.text-with-line p {
+  margin: 0.5em 0;
+  color: var(--text-medium);
+}
+
+.text-with-line h3,
+.text-with-line h4 {
+  color: var(--primary-blue);
+  margin-top: 0;
+}
+
+/* =================================== */
+/* IMAGE-TEXT LAYOUTS */
+/* =================================== */
+
+.image-text-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+  align-items: center;
+}
+
+.image-text-layout img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .image-text-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =================================== */
+/* CHAPTER HEADERS */
+/* =================================== */
+
+.chapter-header {
+  background: var(--primary-blue);
+  color: white;
+  padding: 2em;
+  margin: 0 -2em 2em -2em;
+  text-align: center;
+}
+
+.chapter-header h1 {
+  color: white;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* =================================== */
+/* IMAGE PLACEHOLDERS */
+/* =================================== */
+
+.image-placeholder {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px dashed var(--border-light);
+  border-radius: var(--border-radius-md);
+  padding: 2em;
+  text-align: center;
+  color: var(--text-light);
+  font-style: italic;
+  margin: 1.5em 0;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =================================== */
+/* PRINT-CONDENSED CONTENT */
+/* =================================== */
+
+/* Print-condensed - hidden by default on screen, shown in print */
+.print-condensed {
+  display: none;
+}
+
+/* Show print-condensed when body has show-print-content class */
+body.show-print-content .print-condensed {
+  display: block;
+  background: #f0f9ff;
+  border-left: 3px solid #2c5282;
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  font-size: 0.95em;
+  border-radius: var(--border-radius-md);
+}
+
+body.show-print-content .print-condensed strong {
+  color: var(--primary-blue);
+}
+
+/* =================================== */
+/* DEVELOPMENT-ONLY CONTENT */
+/* =================================== */
+
+/* Hide styling-demo links by default */
+.chapter-item a[href*="styling-demo"],
+.nav-chapters a[href*="styling-demo"],
+a[href*="styling-demo"]:not(.content a) {
+  display: none !important;
+}
+
+/* Hide parent li element as well */
+.chapter-item:has(a[href*="styling-demo"]) {
+  display: none !important;
+}
+
+/* Show when in dev mode */
+body.dev-mode .chapter-item a[href*="styling-demo"],
+body.dev-mode .nav-chapters a[href*="styling-demo"],
+body.show-dev .chapter-item a[href*="styling-demo"],
+body.show-dev .nav-chapters a[href*="styling-demo"] {
+  display: block !important;
+}
+
+body.dev-mode .chapter-item:has(a[href*="styling-demo"]),
+body.show-dev .chapter-item:has(a[href*="styling-demo"]) {
+  display: list-item !important;
+}
+
+/* General dev-only class */
+.dev-only,
+.hidden-dev-only {
+  display: none !important;
+}
+
+body.dev-mode .dev-only,
+body.show-dev .dev-only {
+  display: block !important;
+}
+
+/* Introduction content - hidden in production */
+.introduction-content {
+  display: none !important;
+}
+
+body.dev-mode .introduction-content,
+body.show-dev .introduction-content {
+  display: block !important;
+}
+
+/* =================================== */
+/* MOBILE RESPONSIVE */
+/* =================================== */
+/* mobile styles - won't apply to print */
+@media screen and (max-width: 768px) {
   /* Callout boxes */
   .important-box,
   .warning-box,
@@ -409,48 +610,48 @@
     margin-right: 0;
     border-radius: 0;
   }
-  
+
   /* Numbered steps */
   .numbered-steps > div {
     padding-left: 3em;
   }
-  
+
   .numbered-steps > div::before {
     width: 2em;
     height: 2em;
     font-size: 1.1em;
   }
-  
+
   /* Steps with images - stack vertically */
   .numbered-steps-with-images .step-with-image {
     flex-direction: column;
     gap: 1em;
   }
-  
+
   .numbered-steps-with-images .step-content {
     padding-left: 3em;
   }
-  
+
   /* Feature grids - responsive */
   .feature-grid.grid-3,
   .feature-grid.grid-4 {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   /* Mobile - single column */
-  @media (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     .feature-grid.grid-2,
     .feature-grid.grid-3,
     .feature-grid.grid-4 {
       grid-template-columns: 1fr;
     }
   }
-  
+
   /* Specs table - stack on small screens */
   .spec-row {
     flex-direction: column;
   }
-  
+
   .spec-label {
     flex: none;
     border-bottom: 1px solid var(--border-light);
