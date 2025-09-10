@@ -10,7 +10,7 @@ enable = true
 page-break = true
 
 # CSS for better PDF printing
-# Add to theme/css/print.css if using custom theme
+# Add to theme/css/custom-print.css if using custom theme
 # @media print {
 #   .chapter {
 #     page-break-after: always;

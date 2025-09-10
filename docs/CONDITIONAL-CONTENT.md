@@ -8,8 +8,8 @@ This guide explains how to use the conditional content system to show/hide conte
 
 ```toml
 [output.html]
-additional-css = ["../shared-theme/custom.css", "../shared-theme/conditional-content.css"]
-additional-js = ["../shared-theme/print-navigation.js", "../shared-theme/conditional-content.js"]
+additional-css = ["../shared/css/custom.css", "../shared/css/conditional-content.css"]
+additional-js = ["../shared/css/custom-print-navigation.js", "../shared/css/conditional-content.js"]
 ```
 
 2. Use conditional content in your markdown:
