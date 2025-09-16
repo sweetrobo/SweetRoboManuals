@@ -3,7 +3,7 @@
  * Combines print navigation handling and conditional content features
  */
 
-(function() {
+(function () {
   ("use strict");
 
   /* ========================================
@@ -95,7 +95,7 @@
             localStorage.getItem("sweetrobo-print-autoreturn") !== "false";
           if (currentAutoReturn) {
             console.log(
-              "Print media query changed, navigating back in 4 seconds..."
+              "Print media query changed, navigating back in 4 seconds...",
             );
             navigationTimeoutId = setTimeout(navigateBack, 4000); // 4 second delay
           }
@@ -120,7 +120,7 @@
           localStorage.getItem("sweetrobo-print-autoreturn") !== "false";
         if (currentAutoReturn) {
           console.log(
-            "Window regained focus after print dialog, navigating back in 4 seconds..."
+            "Window regained focus after print dialog, navigating back in 4 seconds...",
           );
           printDialogOpen = false;
           navigationTimeoutId = setTimeout(navigateBack, 4000); // 4 second delay
@@ -203,11 +203,11 @@
     autoReturnCheckbox.addEventListener("change", function () {
       localStorage.setItem(
         "sweetrobo-print-autoreturn",
-        this.checked ? "true" : "false"
+        this.checked ? "true" : "false",
       );
       console.log(
         "Auto-return after print:",
-        this.checked ? "enabled" : "disabled"
+        this.checked ? "enabled" : "disabled",
       );
 
       // Cancel any pending navigation if unchecked
@@ -220,7 +220,7 @@
 
     autoReturnLabel.appendChild(autoReturnCheckbox);
     autoReturnLabel.appendChild(
-      document.createTextNode("Auto-return after printing")
+      document.createTextNode("Auto-return after printing"),
     );
 
     // Add elements to container
@@ -263,7 +263,7 @@
     try {
       localStorage.setItem(
         "sweetrobo-conditional-views",
-        JSON.stringify(params)
+        JSON.stringify(params),
       );
     } catch (e) {
       console.error("Failed to save preferences:", e);
@@ -404,9 +404,13 @@
                 <label style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
                     <input type="checkbox" data-param="showPrintCondensed"> Show Print-Only Content
                 </label>
-                <label style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
+                ${
+                  isPrintPage()
+                    ? `<label style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #dee2e6;">
                     <input type="checkbox" data-param="printPreview"> Preview Print Layout
-                </label>
+                </label>`
+                    : ""
+                }
             </div>
             <div class="control-footer">
                 <button class="hide-controls-btn">Hide Controls</button>
@@ -581,7 +585,7 @@
             if (!rules) {
               console.warn(
                 "No rules found in stylesheet:",
-                sheet.href || "inline"
+                sheet.href || "inline",
               );
               continue;
             }
@@ -627,7 +631,7 @@
               "Cannot access stylesheet:",
               sheet.href || "inline",
               "Error:",
-              e.message
+              e.message,
             );
           }
         }
@@ -689,7 +693,7 @@
         // If no print styles were found, warn the user
         if (!printStyles) {
           console.warn(
-            "No print styles were extracted! Check if custom-print.css is loaded."
+            "No print styles were extracted! Check if custom-print.css is loaded.",
           );
         }
 
@@ -701,7 +705,15 @@
         styleElement.textContent = printStyles;
 
         // Add overrides to keep controls visible in preview and simulate page dimensions
-        styleElement.textContent += ``;
+        styleElement.textContent += `
+          /* Keep conditional controls visible during print preview */
+          body.print-preview .conditional-controls {
+            display: block !important;
+            visibility: visible !important;
+            position: fixed !important;
+            z-index: 10000 !important;
+          }
+        `;
 
         // Append to document head
         document.head.appendChild(styleElement);
@@ -834,7 +846,7 @@
     setTimeout(() => {
       // Handle sidebar and navigation links
       const allLinks = document.querySelectorAll(
-        "a[href], .sidebar a, .nav-chapters a, .mobile-nav-chapters a"
+        "a[href], .sidebar a, .nav-chapters a, .mobile-nav-chapters a",
       );
       allLinks.forEach((link) => {
         const href = link.getAttribute("href") || "";
@@ -844,7 +856,7 @@
         const isDevOnly = devOnlyPatterns.some(
           (pattern) =>
             href.toLowerCase().includes(pattern.toLowerCase()) ||
-            text.includes(pattern)
+            text.includes(pattern),
         );
 
         if (isDevOnly) {
@@ -870,7 +882,7 @@
 
       // Handle inline dev-only content marked with data attributes
       const devOnlyElements = document.querySelectorAll(
-        "[data-dev-only], .dev-only, .dev-only-content"
+        "[data-dev-only], .dev-only, .dev-only-content",
       );
       devOnlyElements.forEach((element) => {
         if (!isDev) {
@@ -881,7 +893,7 @@
 
       // Handle debug/draft content
       const debugElements = document.querySelectorAll(
-        "[data-debug], .debug-only, .draft-content"
+        "[data-debug], .debug-only, .draft-content",
       );
       debugElements.forEach((element) => {
         if (!isDev && !urlParams.debug) {
@@ -925,7 +937,7 @@
       document.body,
       NodeFilter.SHOW_TEXT,
       null,
-      false
+      false,
     );
 
     const nodesToUpdate = [];
@@ -942,7 +954,7 @@
         if (rangePattern.test(text)) {
           const newText = text.replace(
             rangePattern,
-            `© $1-${currentYear} Sweet Robo`
+            `© $1-${currentYear} Sweet Robo`,
           );
           if (newText !== text) {
             nodesToUpdate.push({ node, newText });
@@ -950,7 +962,7 @@
         } else if (singlePattern.test(text)) {
           const newText = text.replace(
             singlePattern,
-            `© ${currentYear} Sweet Robo`
+            `© ${currentYear} Sweet Robo`,
           );
           if (newText !== text) {
             nodesToUpdate.push({ node, newText });
