@@ -1,0 +1,200 @@
+[
+  {
+    "id": "manual-robo-ice-cream",
+    "url": "https://manuals.sweetrobo.com/robo-ice-cream/",
+    "description": "Robo Ice Cream F2 Online Manual",
+    "category": "manual",
+    "manuals": [
+      "robo-ice-cream"
+    ],
+    "svgPath": "qr-codes/manual-robo-ice-cream.svg",
+    "pngPath": "qr-codes/manual-robo-ice-cream.png",
+    "generated": "2025-09-16T14:30:54.682Z"
+  },
+  {
+    "id": "manual-candy-monster",
+    "url": "https://manuals.sweetrobo.com/candy-monster/",
+    "description": "Candy Monster Online Manual",
+    "category": "manual",
+    "manuals": [
+      "candy-monster"
+    ],
+    "svgPath": "qr-codes/manual-candy-monster.svg",
+    "pngPath": "qr-codes/manual-candy-monster.png",
+    "generated": "2025-09-16T14:30:54.692Z"
+  },
+  {
+    "id": "manual-pop-cart",
+    "url": "https://manuals.sweetrobo.com/pop-cart/",
+    "description": "Pop Cart Online Manual",
+    "category": "manual",
+    "manuals": [
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/manual-pop-cart.svg",
+    "pngPath": "qr-codes/manual-pop-cart.png",
+    "generated": "2025-09-16T14:30:54.701Z"
+  },
+  {
+    "id": "support-general",
+    "url": "https://sweetrobo.com/support",
+    "description": "Sweet Robo Customer Support",
+    "category": "support",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/support-general.svg",
+    "pngPath": "qr-codes/support-general.png",
+    "generated": "2025-09-16T14:30:54.710Z"
+  },
+  {
+    "id": "support-phone",
+    "url": "tel:+1-555-SWEET-01",
+    "description": "Call Support: +1-555-SWEET-01",
+    "category": "support",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/support-phone.svg",
+    "pngPath": "qr-codes/support-phone.png",
+    "generated": "2025-09-16T14:30:54.719Z"
+  },
+  {
+    "id": "support-email",
+    "url": "mailto:support@sweetrobo.com",
+    "description": "Email: support@sweetrobo.com",
+    "category": "support",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/support-email.svg",
+    "pngPath": "qr-codes/support-email.png",
+    "generated": "2025-09-16T14:30:54.727Z"
+  },
+  {
+    "id": "video-setup-robo-ice-cream",
+    "url": "https://sweetrobo.com/videos/robo-ice-cream-setup",
+    "description": "Robo Ice Cream Setup Video Tutorial",
+    "category": "video",
+    "manuals": [
+      "robo-ice-cream"
+    ],
+    "svgPath": "qr-codes/video-setup-robo-ice-cream.svg",
+    "pngPath": "qr-codes/video-setup-robo-ice-cream.png",
+    "generated": "2025-09-16T14:30:54.736Z"
+  },
+  {
+    "id": "video-maintenance-robo-ice-cream",
+    "url": "https://sweetrobo.com/videos/robo-ice-cream-maintenance",
+    "description": "Robo Ice Cream Maintenance Guide",
+    "category": "video",
+    "manuals": [
+      "robo-ice-cream"
+    ],
+    "svgPath": "qr-codes/video-maintenance-robo-ice-cream.svg",
+    "pngPath": "qr-codes/video-maintenance-robo-ice-cream.png",
+    "generated": "2025-09-16T14:30:54.745Z"
+  },
+  {
+    "id": "video-operation-candy-monster",
+    "url": "https://sweetrobo.com/videos/candy-monster-operation",
+    "description": "Candy Monster Operation Tutorial",
+    "category": "video",
+    "manuals": [
+      "candy-monster"
+    ],
+    "svgPath": "qr-codes/video-operation-candy-monster.svg",
+    "pngPath": "qr-codes/video-operation-candy-monster.png",
+    "generated": "2025-09-16T14:30:54.754Z"
+  },
+  {
+    "id": "parts-ordering",
+    "url": "https://sweetrobo.com/parts",
+    "description": "Order Replacement Parts",
+    "category": "parts",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/parts-ordering.svg",
+    "pngPath": "qr-codes/parts-ordering.png",
+    "generated": "2025-09-16T14:30:54.762Z"
+  },
+  {
+    "id": "service-request",
+    "url": "https://sweetrobo.com/service-request",
+    "description": "Request Service Appointment",
+    "category": "service",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/service-request.svg",
+    "pngPath": "qr-codes/service-request.png",
+    "generated": "2025-09-16T14:30:54.770Z"
+  },
+  {
+    "id": "warranty-registration",
+    "url": "https://sweetrobo.com/warranty",
+    "description": "Register Your Machine Warranty",
+    "category": "documentation",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/warranty-registration.svg",
+    "pngPath": "qr-codes/warranty-registration.png",
+    "generated": "2025-09-16T14:30:54.778Z"
+  },
+  {
+    "id": "troubleshooting-guide",
+    "url": "https://sweetrobo.com/troubleshooting",
+    "description": "Interactive Troubleshooting Guide",
+    "category": "documentation",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/troubleshooting-guide.svg",
+    "pngPath": "qr-codes/troubleshooting-guide.png",
+    "generated": "2025-09-16T14:30:54.787Z"
+  },
+  {
+    "id": "software-updates",
+    "url": "https://sweetrobo.com/downloads",
+    "description": "Download Software Updates",
+    "category": "software",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/software-updates.svg",
+    "pngPath": "qr-codes/software-updates.png",
+    "generated": "2025-09-16T14:30:54.794Z"
+  },
+  {
+    "id": "operator-training",
+    "url": "https://sweetrobo.com/training",
+    "description": "Online Operator Training Portal",
+    "category": "training",
+    "manuals": [
+      "robo-ice-cream",
+      "candy-monster",
+      "pop-cart"
+    ],
+    "svgPath": "qr-codes/operator-training.svg",
+    "pngPath": "qr-codes/operator-training.png",
+    "generated": "2025-09-16T14:30:54.802Z"
+  }
+]

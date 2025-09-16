@@ -246,7 +246,7 @@ Use "Clean Up" to clear stock status and remove from customer selection
 
 The F2 provides comprehensive testing capabilities for dual-hopper operation:
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
@@ -287,6 +287,14 @@ The F2 provides comprehensive testing capabilities for dual-hopper operation:
 </div>
 
 ## Ice Cream Mix Preparation - F2 Dual-Hopper System
+
+<div class="info-box" style="display: flex; align-items: center; gap: 15px;">
+<div style="flex: 1;">
+<strong>🎥 Video Tutorial Available</strong><br>
+Scan the QR code to watch a detailed video tutorial on preparing ice cream mix.
+</div>
+<img src="../qr-codes/video-make-mix-ice-cream.svg" alt="QR code for ice cream mix making video tutorial" style="width: 100px; height: 100px; flex-shrink: 0;" />
+</div>
 
 ### Preparing Powder-Based Mix
 
@@ -557,7 +565,7 @@ Replace syrup bags and refill topping containers as needed, using only approved 
 
 ![Device Settings Interface](assets/operation/device-settings.webp)
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
