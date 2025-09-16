@@ -153,8 +153,10 @@ To access the comprehensive operator interface:
 
 ### Management Interface Overview
 
+<div class="standalone-image-container">
 <img src="./assets/operation/management-interface.webp" alt="Management Interface" class="operation-screenshot" />
-*Main management screen showing device information and system controls*
+<p class="image-caption">Main management screen showing device information and system controls</p>
+</div>
 
 The management screen provides access to six key sections:
 
@@ -293,13 +295,15 @@ The F2 provides comprehensive testing capabilities for dual-hopper operation:
 <strong>🎥 Video Tutorial Available</strong><br>
 Scan the QR code to watch a detailed video tutorial on preparing ice cream mix.
 </div>
-<img src="../qr-codes/video-make-mix-ice-cream.svg" alt="QR code for ice cream mix making video tutorial" style="width: 100px; height: 100px; flex-shrink: 0;" />
+<img src="./assets/qr-codes/video-make-mix-ice-cream.svg" alt="QR code for ice cream mix making video tutorial" style="width: 100px; height: 100px; flex-shrink: 0;" />
 </div>
 
 ### Preparing Powder-Based Mix
 
 For optimal F2 operation, prepare mix for each hopper independently:
 
+<div class="feature-grid grid-2">
+<div class="feature-item">
 <div class="info-box">
 
 **Required Tools:**
@@ -309,9 +313,13 @@ For optimal F2 operation, prepare mix for each hopper independently:
 - Fresh drinking-grade water
 
 </div>
+</div>
 
-<img src="./assets/maintenance/mixing-bucket.webp" alt="Mixing Equipment" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Required tools for preparing ice cream mix</p>
+<div class="feature-item">
+<img src="./assets/maintenance/mixing-bucket.webp" alt="Mixing bucket" class="side-image" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Mixing bucket for ice cream preparation</p>
+</div>
+</div>
 
 <div class="step-header">Preparation Instructions:</div>
 
@@ -353,15 +361,17 @@ For optimal F2 operation, prepare mix for each hopper independently:
 </div>
 
 <div class="side-by-side-images">
-<img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Adding Powder" />
-<div class="image-placeholder">IMAGE: MIXING PROCESS</div>
+<img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Hopper Transfer" />
+<img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mixing Powder and water with electric mixer" />
 </div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Adding powder to water | Right: Proper mixing technique</p>
 
+<div class="standalone-image-container">
 <img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice cream mix powder package" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Premium gelato powder mix used for ice cream preparation</p>
+<p class="image-caption">Premium gelato powder mix used for ice cream preparation</p>
+</div>
 
-<img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Hopper Transfer" />
+<div class="image-placeholder">IMAGE: TRANSFER PROCESS</div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Transferring prepared mix to hopper</p>
 
 ### F2 Dual-Hopper Fill Guidelines
@@ -442,7 +452,7 @@ Both hoppers must reach 100% and maintain temperature below 5°C for full dual-f
 
 To maximize customer satisfaction and manage inventory:
 
-<div class="feature-grid">
+<div class="feature-grid grid-2">
 
 <div class="feature-item">
 
@@ -535,8 +545,10 @@ Close lid securely and verify temperature recovery
 
 </div>
 
+<div class="standalone-image-container">
 <img src="./assets/operation/serving-cups.webp" alt="Serving Cups" class="operation-screenshot" />
-*Orange Sweet Robo branded ice cream serving cups used by the F2 machine*
+<p class="image-caption">Orange Sweet Robo branded ice cream serving cups used by the F2 machine</p>
+</div>
 
 ### Syrups & Toppings for F2
 

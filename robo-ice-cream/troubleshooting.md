@@ -603,9 +603,12 @@ For feedback or suggestions about this manual, see [Company Information](../shar
 <div class="print-only" style="display: flex; align-items: center; gap: 20px; justify-content: center;">
 <div style="">
 <strong>Access Online Manual:</strong><br>
-https://sweetrobo.com/manuals/ice-cream
+https://manuals.sweetrobo.com/robo-ice-cream/
 </div>
-<img src="assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" style="max-width: 100px; height: auto; margin:0;" />
+<div class="qr-code-wrapper">
+    <img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" />
+    <div class="qr-code-description">Online Manual</div>
+</div>
 </div>
 
 ---

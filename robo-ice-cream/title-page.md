@@ -17,8 +17,13 @@
     </div>
     <img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream Machine" class="footer-machine-image" />
     <div class="footer-right">
-        <img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" class="qr-code" style="max-width: 100px;" />
-        <p class="qr-text">Scan for latest<br/>online manual</p>
+        <div class="qr-code-wrapper">
+            <a href="https://manuals.sweetrobo.com/robo-ice-cream/" class="qr-code-link">
+                <span class="qr-tooltip">View Online Manual</span>
+                <img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" />
+                <div class="qr-code-description print-only">Scan for latest<br/>online manual</div>
+            </a>
+        </div>
     </div>
     </div>
 
