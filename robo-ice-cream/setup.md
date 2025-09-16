@@ -10,22 +10,20 @@ For complete technical specifications including dimensions, weight, power requir
 
 ## Pre-Installation Requirements
 
-### Site Requirements
-
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
-
-#### Space Requirements
-- **Minimum Space Needed**: 137 × 170 × 265 cm (53.9 × 66.9 × 104.3 in)
-- Includes machine dimensions plus required clearances
-- Allows for door opening and servicing access
-
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Installation Requirements:</strong> Space: 137×170×265 cm minimum (includes clearances). Clearances: Rear 50cm, sides 20cm, front door opens 135°+, keep ventilation grilles unobstructed. Floor: Flat, level, stable hard surface, must support machine weight + mix, indoor only, no mats/carpet. Environment: Indoor only, avoid direct sunlight/heat/humidity, internet connectivity required. Power: 220V/20A dedicated circuit with NEMA 6-20R outlet - licensed electrician installation required before delivery.
 </div>
 
+<!-- Full version for screen -->
+<div class="no-print">
+
+<div class="feature-grid grid-3">
+
 <div class="feature-item">
 
-#### Clearance Requirements
+#### Space & Clearances
+- **Minimum Space**: 137 × 170 × 265 cm
 - **Rear wall**: 50 cm (20 in) minimum
 - **Side-to-side**: 20 cm (8 in) minimum
 - **Front door**: Must open to 135°+
@@ -35,27 +33,26 @@ For complete technical specifications including dimensions, weight, power requir
 
 <div class="feature-item">
 
-#### Floor Requirements
+#### Floor & Environment
 - Flat, level, stable hard surface
-- No soft mats or carpet
 - Must support machine weight + mix
-- Indoor use only
+- No soft mats or carpet
+- Indoor installation only
+- Avoid direct sunlight/heat/humidity
 
 </div>
 
 <div class="feature-item">
 
-#### Environmental Requirements
-- Indoor installation only
-- Avoid direct sunlight
-- Avoid excessive heat/humidity
+#### Power & Connectivity
+- **⚠️ 220V/20A** dedicated circuit
+- **NEMA 6-20R** outlet required
+- Licensed electrician installation
 - Internet connectivity (WiFi/Ethernet)
 
 </div>
 
 </div>
-
-### Power Requirements
 
 <div class="warning-box">
 
@@ -64,6 +61,8 @@ For complete technical specifications including dimensions, weight, power requir
 For complete electrical specifications and requirements, see [Electrical & Power Requirements](overview.md#electrical--power-requirements)
 
 **Important:** Ensure proper electrical installation by a licensed electrician before delivery.
+
+</div>
 
 </div>
 
@@ -154,7 +153,7 @@ If the machine was tilted during transport, **wait at least 24 hours** before po
 </div>
 
 <!-- Full version for screen -->
-<div class="no-print">
+<!-- <div class="no-print"> -->
 
 <div class="numbered-steps">
 
@@ -196,7 +195,7 @@ If damage or missing parts discovered, contact Sweet Robo support immediately.
 
 </div>
 
-</div>
+<!-- </div> -->
 
 ## Step 2: Positioning the Machine
 
@@ -315,9 +314,9 @@ Ensure all cables and connectors are properly seated and secure.
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>4.1 LED Panels (Optional):</strong> Choose to install 0-4 LED roof panels for visibility. Use Phillips screwdriver and screws from tool kit to attach panels to top of machine. Connect panel wires to corresponding machine wires. Ensure all connections secure.
+<strong>LED Panels (Optional):</strong> Choose to install 0-4 LED roof panels for visibility. Use Phillips screwdriver and screws from tool kit to attach panels to top of machine. Connect panel wires to corresponding machine wires. Ensure all connections secure.
 <br><br>
-<strong>4.2 Cup Tubes:</strong> Open service door to access dispenser. Install all 4 cup tubes into dispenser assembly. Load 50 approved cups per tube (rim up) for 200 total capacity. Stack neatly to prevent jams from crushing or misalignment. Close tube lids to prevent dust and maintain hygiene. Close service door securely.
+<strong>Cup Tubes:</strong> Open service door to access dispenser. Install all 4 cup tubes into dispenser assembly. Load 50 approved cups per tube (rim up) for 200 total capacity. Stack neatly to prevent jams from crushing or misalignment. Close tube lids to prevent dust and maintain hygiene. Close service door securely.
 </div>
 
 <!-- Full version for screen -->
@@ -410,7 +409,7 @@ Close tube lids securely and service door (closing lids is recommended to preven
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>5.1 Sanitize Hoppers:</strong> F2 has dual hoppers (Left & Right) for two flavors. Pour ~2L warm water into each hopper. Wipe interior with food-grade sanitizing solution. Rinse thoroughly with clean warm water. Access backend system to open chambers and discharge water. Wipe dry with clean, food-safe cloth and leave open to air dry before adding mix.
+<strong>Sanitize Hoppers:</strong> F2 has dual hoppers (Left & Right) for two flavors. Pour ~2L warm water into each hopper. Wipe interior with food-grade sanitizing solution. Rinse thoroughly with clean warm water. Access backend system to open chambers and discharge water. Wipe dry with clean, food-safe cloth and leave open to air dry before adding mix.
 </div>
 
 <!-- Full version for screen -->
@@ -479,7 +478,7 @@ For detailed mix preparation instructions, see [Ice Cream Mix Preparation](opera
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>5.3 Load Mix:</strong> Open both hopper lids (Left and Right). Pour prepared mix slowly to avoid splashing. Minimum fill: 2 liters per hopper (must fill both hoppers). Maximum capacity: 12 liters per hopper. Keep mix level below the square openings on white plastic tubes - these provide air flow for proper mix circulation to freezing chamber below. Close lids securely after filling.
+<strong>Load Mix:</strong> Open both hopper lids (Left and Right). Pour prepared mix slowly to avoid splashing. Minimum fill: 2 liters per hopper (must fill both hoppers). Maximum capacity: 12 liters per hopper. Keep mix level below the square openings on white plastic tubes - these provide air flow for proper mix circulation to freezing chamber below. Close lids securely after filling.
 </div>
 
 <!-- Full version for screen -->
@@ -554,7 +553,7 @@ For high-volume service, you can experimentally increase both settings to 3 or 4
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>5.5 Add Syrups:</strong> Locate the 3 syrup containers in the machine. Open each container lid and pour in liquid syrup (liquid syrups only - no thick or chunky syrups). Close lids securely after filling. Note which syrup is in each position (1, 2, 3) for backend configuration later. See Critical Requirements for approved syrup types.
+<strong>Add Syrups:</strong> Locate the 3 syrup containers in the machine. Open each container lid and pour in liquid syrup (liquid syrups only - no thick or chunky syrups). Close lids securely after filling. Note which syrup is in each position (1, 2, 3) for backend configuration later. See Critical Requirements for approved syrup types.
 </div>
 
 <!-- Full version for screen -->
@@ -602,7 +601,7 @@ Note which syrup is in each position (1, 2, 3) - you'll need to configure this i
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>5.6 Add Toppings:</strong> Open the 3 topping container lids. Pour dry toppings into containers (max 270g each). Ensure toppings flow freely with no clumping (dry toppings only - no wet, sticky, or fresh items). Close lids securely. See Critical Requirements for approved topping types.
+<strong>Add Toppings:</strong> Open the 3 topping container lids. Pour dry toppings into containers (max 270g each). Ensure toppings flow freely with no clumping (dry toppings only - no wet, sticky, or fresh items). Close lids securely. See Critical Requirements for approved topping types.
 </div>
 
 <!-- Full version for screen -->
@@ -652,7 +651,7 @@ Close lids securely.
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>6.1 Connect Power:</strong> ELECTRICAL SAFETY: Ensure hands are dry and not standing in water. Verify Main Breaker is OFF (located behind cups area). Connect the 6-20P power cord to your 6-20R outlet (220V with 20A breaker). Verify outlet is properly grounded and on a dedicated 20A+ breaker. Machine must be OFF before connecting power.
+<strong>Connect Power:</strong> ELECTRICAL SAFETY: Ensure hands are dry and not standing in water. Verify Main Breaker is OFF (located behind cups area). Connect the 6-20P power cord to your 6-20R outlet (220V with 20A breaker). Verify outlet is properly grounded and on a dedicated 20A+ breaker. Machine must be OFF before connecting power.
 </div>
 
 <!-- Full version for screen -->
@@ -692,7 +691,7 @@ Verify the outlet is properly grounded and on a dedicated 20A+ breaker.
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>6.2 Power On:</strong> (1) Turn ON Main Breaker - located behind cups area, right side access door. (2) Turn ON Main I/O Switch - controls refrigeration and dispensing systems. (3) System Initialization - touchscreen illuminates, startup sequence begins, listen for normal operation sounds (no grinding). (4) Temperature Optimization - machine requires 2-8 minutes to reach optimal freezing temperature. If "Core Board Error" appears with grinding noise, immediately turn OFF and verify hoppers have mix. If error continues, shut off power and contact support.
+<strong>Power On:</strong> (1) Turn ON Main Breaker - located behind cups area, right side access door. (2) Turn ON Main I/O Switch - controls refrigeration and dispensing systems. (3) System Initialization - touchscreen illuminates, startup sequence begins, listen for normal operation sounds (no grinding). (4) Temperature Optimization - machine requires 2-8 minutes to reach optimal freezing temperature. If "Core Board Error" appears with grinding noise, immediately turn OFF and verify hoppers have mix. If error continues, shut off power and contact support.
 </div>
 
 <!-- Full version for screen -->
@@ -759,7 +758,7 @@ Machine requires 2-8 minutes to reach optimal freezing temperature.
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>7.1 WiFi Setup:</strong> From backend menu, navigate to System Settings. Select "Exit App" to access Android system. Navigate to Android WiFi settings, select your network, enter password, verify connection. Return to home screen, relaunch Robo Ice Cream application. Verify network status shows connected in backend. Network enables remote support, software updates, sales reporting, and remote configuration.
+<strong>WiFi Setup:</strong> From backend menu, navigate to System Settings. Select "Exit App" to access Android system. Navigate to Android WiFi settings, select your network, enter password, verify connection. Return to home screen, relaunch Robo Ice Cream application. Verify network status shows connected in backend. Network enables remote support, software updates, sales reporting, and remote configuration.
 </div>
 
 <!-- Full version for screen -->
@@ -808,7 +807,7 @@ Select `Exit App` to access the underlying Android system
 
 <!-- Print condensed version -->
 <div class="print-condensed">
-<strong>7.2 Ethernet Setup:</strong> If using wired connection: Connect Ethernet cable to machine's network port. Connection should establish automatically. Verify in System Settings that LAN status shows connected. Once connected to internet, machine can be accessed remotely by Sweet Robo support. Machine ID will be visible in System Settings - provide this ID to support for remote assistance. Support can remotely adjust settings, view diagnostics, and update software.
+<strong>Ethernet Setup:</strong> If using wired connection: Connect Ethernet cable to machine's network port. Connection should establish automatically. Verify in System Settings that LAN status shows connected. Once connected to internet, machine can be accessed remotely by Sweet Robo support. Machine ID will be visible in System Settings - provide this ID to support for remote assistance. Support can remotely adjust settings, view diagnostics, and update software.
 </div>
 
 <!-- Full version for screen -->
@@ -836,11 +835,29 @@ Once connected to the internet, your machine can be accessed remotely by Sweet R
 
 ### 8.1 Access Backend
 
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Access Backend:</strong> Tap and hold top-right corner for 3-5 seconds, enter default password (123456). For complete backend navigation, settings descriptions, and management interface overview, see Operator Interface and Backend Management in the Operation Guide.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
+
 **Quick Access:** Tap and hold top-right corner for 3-5 seconds, enter default password
 
 For complete backend navigation, settings descriptions, and management interface overview, see [Operator Interface and Backend Management](operation.md#operator-interface-and-backend-management) in the Operation Guide.
 
+</div>
+
 ### 8.2 Test Functions
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Test Functions:</strong> Navigate to Device Testing to verify: Cup drop test (clear one tube to verify it auto turns to use the next tube), Syrup flow test (prime all 3 lines), Topping dispense test (all 3 containers), Door open/close operation.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="image-placeholder">IMAGE: Device Testing screen showing test options</div>
 
@@ -850,7 +867,17 @@ Navigate to `Device Testing` to verify:
 - Topping dispense test (all 3 containers)
 - Door open/close operation
 
+</div>
+
 ### 8.3 Configure Payment Settings
+
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Configure Payment Settings:</strong> In Shopping Settings, configure payment methods: Enable/disable bill acceptor, Enable/disable coin acceptor, Enable/disable VPOS (credit card reader), Set change dispenser options, Configure timeout settings. Other settings like product prices, portion sizes, syrup/topping names, and operating hours can be configured later. See Operation Guide for detailed configuration instructions.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
 
 <div class="image-placeholder">IMAGE: Shopping Settings screen showing payment configuration options</div>
 
@@ -864,6 +891,8 @@ In `Shopping Settings`, configure payment methods:
 <div class="info-box">
 
 **Note:** Other settings like product prices, portion sizes, syrup/topping names, and operating hours can be configured later through their respective menu sections. See the <a href="./operation.html#operator-interface-and-backend-management">Operation Guide</a> for detailed configuration instructions.
+
+</div>
 
 </div>
 
