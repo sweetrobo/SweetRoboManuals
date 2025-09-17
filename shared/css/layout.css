@@ -614,16 +614,26 @@
     font-size: 1.5em;
   }
 
+  /* Hide QR code on small screens to save space */
+  .title-page .footer-right {
+    display: none !important;
+  }
+
   /* Title page footer - stack on mobile */
   .title-page-footer {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column !important;
+    align-items: center !important;
     /* gap: 1em; */
   }
 
-  .footer-left,
-  .footer-right {
-    flex: none;
+  /* Use CSS order to put image above revision text on mobile */
+  .footer-machine-image {
+    order: 1;
+  }
+
+  .footer-left {
+    order: 2;
+    flex: none !important;
     width: 100%;
     text-align: center;
     padding: 0;
