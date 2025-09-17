@@ -650,8 +650,8 @@
                 const selector = innerRule.selectorText;
                 const styles = innerRule.style.cssText;
 
-                // Parse and prefix each selector part
-                const prefixedSelectors = selector
+                // Parse and create dual selectors for both preview and print
+                const previewSelectors = selector
                   .split(",")
                   .map((sel) => {
                     sel = sel.trim();
@@ -671,7 +671,8 @@
                   })
                   .join(", ");
 
-                printStyles += `${prefixedSelectors} { ${styles} }\n`;
+                // Add preview styles that apply to both screen and print when body has print-preview class
+                printStyles += `${previewSelectors} { ${styles} }\n`;
                 extractedCount++;
               } else if (innerRule.type === CSSRule.PAGE_RULE) {
                 // Keep @page rules as-is (they only apply during actual printing)
@@ -704,14 +705,23 @@
         // Add the prefixed print styles
         styleElement.textContent = printStyles;
 
-        // Add overrides to keep controls visible in preview and simulate page dimensions
+        // Add overrides to keep controls visible in preview and fix color printing
         styleElement.textContent += `
-          /* Keep conditional controls visible during print preview */
-          body.print-preview .conditional-controls {
-            display: block !important;
-            visibility: visible !important;
-            position: fixed !important;
-            z-index: 10000 !important;
+          /* Keep conditional controls visible ONLY during preview, not actual print */
+          @media screen {
+            body.print-preview .conditional-controls {
+              display: block !important;
+              visibility: visible !important;
+              position: fixed !important;
+              z-index: 10000 !important;
+            }
+          }
+
+          /* Ensure colors print correctly */
+          body.print-preview .numbered-steps .step-number {
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+            color-adjust: exact !important;
           }
         `;
 

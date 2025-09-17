@@ -302,6 +302,10 @@ Each hopper has a capacity of 2L minimum to 12L maximum. **DO NOT fill above the
 
 ### Proper Hopper Filling Procedure
 
+<div class="print-condensed">
+**Hopper Filling Quick Reference:** 1) Check mix temp <41°F/5°C 2) Inspect clean hopper/air valve 3) Fill 2-12L, 1-2" below air valve 4) Record date/batch
+</div>
+
 <div class="numbered-steps">
 
 <div>
@@ -361,6 +365,10 @@ Each hopper has a capacity of 2L minimum to 12L maximum. **DO NOT fill above the
 ---
 
 ## Weekly Maintenance Procedures
+
+<div class="print-condensed">
+**Weekly Tasks:** 1) Temperature sensors: Inspect/clean 2) Syrup lines: Flush w/water 3) Topping hoppers: Wash/dry completely 4) Cup sensor: Test door response 5) Cup dropper: Manual test 6) Temperature: Verify 41°F cutoff
+</div>
 
 Perform these comprehensive maintenance tasks weekly:
 

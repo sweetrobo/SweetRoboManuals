@@ -61,6 +61,10 @@ This section provides step-by-step guidance for identifying and resolving common
 
 ### Core Board Error
 
+<div class="print-condensed">
+**Core Board Error - EMERGENCY:** Turn OFF immediately → Fill hoppers 2L+ → Switch on hoppers → Restart machine
+</div>
+
 <div class="warning-box">
 
 <strong>Symptom:</strong> "Core board error" message on screen, loud grinding noise<br>
