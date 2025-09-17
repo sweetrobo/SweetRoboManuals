@@ -304,7 +304,6 @@ For optimal F2 operation, prepare mix for each hopper independently:
 
 <div class="feature-grid grid-2">
 <div class="feature-item">
-<div class="info-box">
 
 **Required Tools:**
 - Mixing bucket (at least 5L capacity)
@@ -313,10 +312,9 @@ For optimal F2 operation, prepare mix for each hopper independently:
 - Fresh drinking-grade water
 
 </div>
-</div>
 
 <div class="feature-item">
-<img src="./assets/maintenance/mixing-bucket.webp" alt="Mixing bucket" class="side-image" />
+<img src="./assets/maintenance/mixing-bucket.webp" alt="Mixing bucket" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Mixing bucket for ice cream preparation</p>
 </div>
 </div>
@@ -360,13 +358,15 @@ For optimal F2 operation, prepare mix for each hopper independently:
 
 </div>
 
-<div class="side-by-side-images">
+<div class="side-by-side-images no-print">
+not print ready, incorrect images TODO
 <img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Hopper Transfer" />
 <img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mixing Powder and water with electric mixer" />
 </div>
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Adding powder to water | Right: Proper mixing technique</p>
 
-<div class="standalone-image-container">
+<div class="standalone-image-container no-print">
+not print ready, incorrect images TODO
 <img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice cream mix powder package" />
 <p class="image-caption">Premium gelato powder mix used for ice cream preparation</p>
 </div>
@@ -494,6 +494,14 @@ To maximize customer satisfaction and manage inventory:
 
 ### Refilling During Operation
 
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Ice Cream Mix - Dual-Hopper Process:</strong> 1) Check which hopper needs refilling (Left/Right display) 2) Prepare mix per instructions 3) Open specific hopper lid carefully 4) Add mix without disturbing other hopper 5) Verify 2L minimum in both hoppers 6) Close lid, verify temperature recovery.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
+
 <div class="step-header">Ice Cream Mix - Dual-Hopper Process:</div>
 
 <div class="numbered-steps">
@@ -532,6 +540,8 @@ Verify minimum 2L level maintained in both hoppers
 <div>
 Close lid securely and verify temperature recovery
 </div>
+</div>
+
 </div>
 
 </div>
@@ -621,6 +631,10 @@ Configure customer experience for dual-flavor purchasing:<br>
 </div>
 
 ## Daily Shutdown - F2 Protocol
+
+<div class="print-condensed">
+**Daily Shutdown - F2 Quick Reference:** 1) Record sales data & track swirl preferences 2) Check/record mix levels, plan next flavors 3) Wipe exterior, secure hoppers, close doors 4) Leave powered for overnight cooling & UV sanitizer
+</div>
 
 <div class="numbered-steps">
 
