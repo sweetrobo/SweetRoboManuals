@@ -10,13 +10,7 @@ For complete technical specifications including dimensions, weight, power requir
 
 ## Pre-Installation Requirements
 
-<!-- Print condensed version -->
-<div class=" no-print">
-<strong>Installation Requirements:</strong> Space: 137×170×265 cm minimum (includes clearances). Clearances: Rear 50cm, sides 20cm, front door opens 135°+, keep ventilation grilles unobstructed. Floor: Flat, level, stable hard surface, must support machine weight + mix, indoor only, no mats/carpet. Environment: Indoor only, avoid direct sunlight/heat/humidity, internet connectivity required. Power: 220V/20A dedicated circuit with NEMA 6-20R outlet - licensed electrician installation required before delivery.
-</div>
-
-<!-- Full version for screen -->
-<div class="">
+<!-- Print condensed version - would not help reduce the spaceing so not adding it -->
 
 <div class="feature-grid grid-3">
 
@@ -64,7 +58,6 @@ For complete electrical specifications and requirements, see [Electrical & Power
 
 </div>
 
-</div>
 
 ## What's Included
 
