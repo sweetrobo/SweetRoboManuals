@@ -694,8 +694,11 @@
         // If no print styles were found, warn the user
         if (!printStyles) {
           console.warn(
-            "No print styles were extracted! Check if custom-print.css is loaded.",
+            "No print styles were extracted! Check if custom-print.css is loaded. This may be due to CORS restrictions or the styles being in a media query.",
           );
+          console.log("Stylesheets processed:", document.styleSheets.length);
+        } else {
+          console.log("Successfully extracted print styles for preview");
         }
 
         // Create new style element with extracted print styles

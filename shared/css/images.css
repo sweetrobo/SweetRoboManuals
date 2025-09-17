@@ -60,6 +60,7 @@ img {
 
 .operation-screenshot {
   max-width: 500px;
+  max-height: 80vh;
 }
 
 .maintenance-photo {
@@ -68,6 +69,30 @@ img {
 
 .component-detail {
   max-width: 350px;
+}
+
+.side-image {
+  max-height: 50vh;
+}
+
+/* Standalone image with caption container */
+.standalone-image-container {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.standalone-image-container img {
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+}
+
+.standalone-image-container .image-caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #666;
 }
 
 /* =================================== */
@@ -131,6 +156,7 @@ figure figcaption {
 .side-by-side-images img {
   flex: 1;
   max-width: 48%;
+  max-height: 50vh;
   margin: 0;
 }
 
