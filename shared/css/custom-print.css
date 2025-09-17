@@ -273,6 +273,9 @@
     margin-top: 10px !important;
     padding: 5px 10px !important;
   }
+  .feature-item h4 {
+    margin-top: 0 !important;
+  }
   
   /* =================================== */
   /* IMAGE HANDLING */
@@ -328,6 +331,7 @@
   /* Keep image groups together on same page */
   .image-group,
   .image-container,
+  .side-by-side-images,
   .maintenance-images,
   .setup-images,
   .operation-images {

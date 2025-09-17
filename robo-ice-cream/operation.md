@@ -160,39 +160,14 @@ To access the comprehensive operator interface:
 
 The management screen provides access to six key sections:
 
-<div class="specs-table">
-
-<div class="spec-row">
-<div class="spec-label">Parameter Settings</div>
-<div class="spec-value">Control temperature, timing, and dual-hopper dispense parameters</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Stock Settings</div>
-<div class="spec-value">Monitor and update inventory for both hoppers, cups, syrups, and toppings</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Device Testing</div>
-<div class="spec-value">Manually test components and perform cleaning functions</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Opening Hours</div>
-<div class="spec-value">Schedule vending availability based on business hours</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">System Settings</div>
-<div class="spec-value">Configure system behavior (volume, voice, network, etc.)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Shopping Settings</div>
-<div class="spec-value">Configure payment methods, timeout behavior, and alerts</div>
-</div>
-
-</div>
+| Section | Purpose |
+|---------|---------|
+| Parameter Settings | Control temperature, timing, and dispense parameters |
+| Stock Settings | Monitor and update inventory for cups, mix, syrups, and toppings |
+| Device Testing | Manually test components and perform cleaning functions |
+| Opening Hours | Schedule vending availability based on business hours |
+| System Settings | Configure system behavior (volume, voice, network, etc.) |
+| Shopping Settings | Configure payment methods, timeout behavior, and alerts |
 
 ### Parameter Settings - F2 Dual-Hopper Controls
 
@@ -302,8 +277,8 @@ Scan the QR code to watch a detailed video tutorial on preparing ice cream mix.
 
 For optimal F2 operation, prepare mix for each hopper independently:
 
-<div class="feature-grid grid-2">
-<div class="feature-item">
+<div class="side-by-side-images">
+<div>
 
 **Required Tools:**
 - Mixing bucket (at least 5L capacity)
@@ -313,7 +288,7 @@ For optimal F2 operation, prepare mix for each hopper independently:
 
 </div>
 
-<div class="feature-item">
+<div>
 <img src="./assets/maintenance/mixing-bucket.webp" alt="Mixing bucket" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Mixing bucket for ice cream preparation</p>
 </div>
@@ -363,7 +338,7 @@ not print ready, incorrect images TODO
 <img src="./assets/maintenance/mix-preparation-step-3.webp" alt="Hopper Transfer" />
 <img src="./assets/maintenance/mix-preparation-step-1.webp" alt="Mixing Powder and water with electric mixer" />
 </div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Adding powder to water | Right: Proper mixing technique</p>
+<p class="no-print" style="text-align: center; font-style: italic; margin-top: -10px;">Left: Adding powder to water | Right: Proper mixing technique</p>
 
 <div class="standalone-image-container no-print">
 not print ready, incorrect images TODO
@@ -372,7 +347,7 @@ not print ready, incorrect images TODO
 </div>
 
 <div class="image-placeholder">IMAGE: TRANSFER PROCESS</div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Transferring prepared mix to hopper</p>
+<p class="no-print" style="text-align: center; font-style: italic; margin-top: -10px;">Transferring prepared mix to hopper</p>
 
 ### F2 Dual-Hopper Fill Guidelines
 
@@ -421,10 +396,8 @@ The F2's dual display system shows individual hopper status:
 - **Alert conditions** = Temperature issues requiring attention
 
 **Temperature Sensor Monitoring:**
-- Each hopper has a dedicated temperature sensor
-- Continuously monitors mix temperature
-- Optimal temperature: Below 5°C (41°F)
-- When temperature exceeds 5°C: Mix marked as "needs replacement"
+- Each hopper has a dedicated temperature sensor that continuously monitors mix temperature
+- Optimal temperature: Below 5°C (41°F). When exceeds 5°C, marked as "needs replacement"
 
 </div>
 
@@ -602,10 +575,10 @@ Replace syrup bags and refill topping containers as needed, using only approved 
 
 #### System Settings
 • **Volume Control**: Adjust for different time periods<br>
-• **Voice Prompts**: Enable promotional guidance for dual-flavor options<br>
 • **Network Configuration**: Maintain connection for sales reporting<br>
 • **Error Logging**: Monitor dual-hopper system performance
 
+<!-- • **Voice Prompts**: Enable promotional guidance for dual-flavor options<br> -->
 </div>
 
 <div class="feature-item">

@@ -88,8 +88,6 @@ Reading this manual before operating your machine is crucial for:
 
 </div>
 
-<!-- <img src="./assets/overview/f2-machine-title-page.webp" alt="Robo Ice Cream F2 Machine" /> -->
-
 ## System Overview
 
 ### What Is the Robo Ice Cream F2?
@@ -160,7 +158,6 @@ Holds 200 cups (4 tubes × 50 cups each) compared to F1's 100 cups.
 - Provides audio/video feedback for customers
 - Maintains optimal food-safe temperatures via built-in sensors
 - Operates unattended with scheduled hours and stock tracking
-<!-- - Includes UV sanitation and system diagnostics -->
 
 ### Use Cases
 
@@ -305,16 +302,9 @@ Each hopper is equipped with a precision temperature sensor that continuously mo
 | Ice Cream Dispenser | Where Blue Robo collects freshly dispensed ice cream synchronized with temperature and mix level sensors |
 | Hopper Temperature Sensor | Monitors ice cream mix temperature continuously - automatically marks mix as "needs replacement" and prevents dispensing if temperature exceeds 5°C (41°F) |
 
-<!-- | UV Sanitizer | Built-in ultraviolet light that sterilizes the dispense area between servings | -->
 ## Installation Requirements
 
-<!-- Print condensed version -->
-<div class="print-condensed">
-<strong>Installation Requirements:</strong> Space: 30cm clearance all sides, 120cm front door swing, level stable surface, indoor recommended. Electrical: Dedicated 220V circuit, 20A minimum breaker, proper grounding, surge protection recommended. Environment: 10°C-35°C temperature, <80% humidity, protected from direct sunlight, adequate ventilation.
-</div>
-
-<!-- Full version for screen -->
-<div class="no-print">
+<!-- Print condensed version - would not help reduce the spaceing so not adding it -->
 
 <div class="feature-grid grid-3">
 
@@ -349,9 +339,6 @@ Each hopper is equipped with a precision temperature sensor that continuously mo
 </div>
 
 </div>
-
-</div>
-
 
 ## Critical Operating Requirements
 
