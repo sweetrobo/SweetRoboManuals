@@ -14,7 +14,7 @@
 ## Current Image Organization
 
 ### ✅ Already in JSON (7 images)
-1. **machines-overview.webp** - Machine UI for title/cover page
+1. **f2-machine-title-page.webp** - Machine UI for title/cover page
 2. **external-components.webp** - External components diagram
 3. **internal-components.webp** - Internal components (F2 dual hoppers)
 4. **serving-cups.webp** - Orange cups with integrated spoons

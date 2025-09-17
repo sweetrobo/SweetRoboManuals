@@ -15,7 +15,7 @@
         <p>Revision & Date:</p>
         <p>Rev 2. 08.2025</p>
     </div>
-    <img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream Machine" class="footer-machine-image" />
+    <img src="./assets/overview/f2-machine-title-page.webp" alt="Robo Ice Cream Machine" class="footer-machine-image" />
     <div class="footer-right">
         <div class="qr-code-wrapper">
             <a href="https://manuals.sweetrobo.com/robo-ice-cream/" class="qr-code-link">

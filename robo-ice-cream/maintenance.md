@@ -240,6 +240,10 @@ Common brands include Oasis, Steramine, and other quaternary ammonium compounds 
 
 ### Additional Cleaning Tasks
 
+<div class="print-condensed">
+**Daily Cleaning Quick Reference:** 1) Clean all nozzles (ice cream/syrup/topping) with sanitized cloth & brushes 2) Wipe dispensing door & collection area with mild soap 3) Clean cup storage & sensor area 4) Disinfect touch screen with alcohol-free cleaner
+</div>
+
 <div class="numbered-steps">
 
 <div>
@@ -367,7 +371,7 @@ Each hopper has a capacity of 2L minimum to 12L maximum. **DO NOT fill above the
 ## Weekly Maintenance Procedures
 
 <div class="print-condensed">
-**Weekly Tasks:** 1) Temperature sensors: Inspect/clean 2) Syrup lines: Flush w/water 3) Topping hoppers: Wash/dry completely 4) Cup sensor: Test door response 5) Cup dropper: Manual test 6) Temperature: Verify 41°F cutoff
+**Weekly Maintenance Quick Reference:** 1) Temperature sensors: Inspect/clean 2) Syrup lines: Disconnect containers, flush w/Test Syrup 1-3, check nozzles 3) Topping hoppers: Remove/wash/dry completely (270g each) 4) Cup sensor: Manual insert test, verify door auto-close 5) Cup dropper: Run Manual Drop Cup, check jams/alignment 6) Temperature: Test sensors, verify 41°F cutoff, check mix levels
 </div>
 
 Perform these comprehensive maintenance tasks weekly:

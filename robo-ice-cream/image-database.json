@@ -5,8 +5,8 @@
     "purpose": "AI training dataset for Sweet Robo manual assistant",
     "images": [
       {
-        "filename": "machines-overview.webp",
-        "path": "./assets/overview/machines-overview.webp",
+        "filename": "f2-machine-title-page.webp",
+        "path": "./assets/overview/f2-machine-title-page.webp",
         "section": "overview",
         "file_size_approx": "large",
         "format": "WebP",
@@ -86,7 +86,12 @@
         "ai_training_notes": "Critical for F2 identification - shows dual hopper system that distinguishes F2 from F1. Excellent for technical training.",
         "contains_text": true,
         "text_content": "Timer, Breaker/Power SW, Main IO Power SW, Cup Holder/Dispenser, Ice Cream Hoppers, Syrup Holders, Topping Holders, Topping Dispenser, UV Sanitizer, Syrup Dispenser, Ice Cream Dispenser, Blue Robo - Delivery Bot",
-        "suitable_for_sections": ["overview", "components", "technical_specs", "maintenance"]
+        "suitable_for_sections": [
+          "overview",
+          "components",
+          "technical_specs",
+          "maintenance"
+        ]
       },
       {
         "filename": "serving-cups.webp",
@@ -185,7 +190,11 @@
         "ai_training_notes": "Shows yellow circle indicator in top right corner where operators need to touch to access backend settings.",
         "contains_text": true,
         "text_content": "ROBO ice cream",
-        "suitable_for_sections": ["operation", "operator_interface", "backend_access"],
+        "suitable_for_sections": [
+          "operation",
+          "operator_interface",
+          "backend_access"
+        ],
         "correction_needed": false,
         "processing_status": "processed",
         "processing_notes": "Correctly identified as backend access instruction, not branding"
@@ -230,10 +239,19 @@
         "correctness": "correct",
         "ai_training_notes": "Shows mix preparation tools. Used in operation.md, setup.md, and maintenance.md sections.",
         "contains_text": false,
-        "suitable_for_sections": ["maintenance", "mix_preparation", "operation", "setup"],
+        "suitable_for_sections": [
+          "maintenance",
+          "mix_preparation",
+          "operation",
+          "setup"
+        ],
         "correction_needed": false,
         "processing_notes": "Confirmed in use across multiple manual sections",
-        "usage_locations": ["operation.md:336", "setup.md:437", "maintenance.md:294"]
+        "usage_locations": [
+          "operation.md:336",
+          "setup.md:437",
+          "maintenance.md:294"
+        ]
       },
       {
         "filename": "hopper-after-filling.webp",
@@ -253,7 +271,11 @@
         "correctness": "correct",
         "ai_training_notes": "Shows how the hopper looks after ice cream mix has been added - useful for verifying proper fill level.",
         "contains_text": false,
-        "suitable_for_sections": ["maintenance", "operation", "hopper_management"]
+        "suitable_for_sections": [
+          "maintenance",
+          "operation",
+          "hopper_management"
+        ]
       },
       {
         "filename": "mix-preparation-step-3.webp",
@@ -294,7 +316,11 @@
         "correctness": "correct",
         "ai_training_notes": "Shows device configuration options in backend system.",
         "contains_text": true,
-        "suitable_for_sections": ["operation", "backend_settings", "configuration"]
+        "suitable_for_sections": [
+          "operation",
+          "backend_settings",
+          "configuration"
+        ]
       },
       {
         "filename": "management-interface.webp",
@@ -314,7 +340,11 @@
         "correctness": "correct",
         "ai_training_notes": "Primary operator interface for managing the ice cream machine.",
         "contains_text": true,
-        "suitable_for_sections": ["operation", "backend_interface", "management"]
+        "suitable_for_sections": [
+          "operation",
+          "backend_interface",
+          "management"
+        ]
       },
       {
         "filename": "password-input-screen.webp",
@@ -394,7 +424,11 @@
         "correctness": "correct",
         "ai_training_notes": "Critical for F2 model - shows dual hopper setup process.",
         "contains_text": false,
-        "suitable_for_sections": ["setup", "installation", "hopper_configuration"]
+        "suitable_for_sections": [
+          "setup",
+          "installation",
+          "hopper_configuration"
+        ]
       },
       {
         "filename": "led-signage-roof.webp",
@@ -417,7 +451,12 @@
         "ai_training_notes": "Top roof component with LED lighting that displays machine branding. Important for machine identification and customer attraction.",
         "contains_text": true,
         "text_content": "RoBo ice cream",
-        "suitable_for_sections": ["setup", "components", "led_signage", "external_features"]
+        "suitable_for_sections": [
+          "setup",
+          "components",
+          "led_signage",
+          "external_features"
+        ]
       },
       {
         "filename": "qr-code-manual.webp",
@@ -462,7 +501,11 @@
         "ai_training_notes": "Essential diagnostic tool for checking electrical systems. Can measure up to 600V and various amperage ranges.",
         "contains_text": true,
         "text_content": "MT87, DATA HOLD, 20A, 200A, 400A, 450V, 600V, COM, V Ω",
-        "suitable_for_sections": ["parts-service", "troubleshooting", "electrical_testing"]
+        "suitable_for_sections": [
+          "parts-service",
+          "troubleshooting",
+          "electrical_testing"
+        ]
       },
       {
         "filename": "installation-tools-kit.webp",
@@ -487,7 +530,12 @@
         "ai_training_notes": "Complete installation toolkit provided with machine. Shows essential tools needed for setup and basic maintenance.",
         "contains_text": true,
         "text_content": "SWEET ROBO",
-        "suitable_for_sections": ["parts-service", "setup", "tools", "accessories"]
+        "suitable_for_sections": [
+          "parts-service",
+          "setup",
+          "tools",
+          "accessories"
+        ]
       },
       {
         "filename": "airpath-adjustment-notches.webp",
@@ -509,7 +557,11 @@
         "correctness": "correct",
         "ai_training_notes": "Important for proper air flow adjustment. Default setting is at second notch position.",
         "contains_text": false,
-        "suitable_for_sections": ["maintenance", "hopper_adjustment", "air_flow_settings"]
+        "suitable_for_sections": [
+          "maintenance",
+          "hopper_adjustment",
+          "air_flow_settings"
+        ]
       },
       {
         "filename": "airpath-hopper-view.webp",
@@ -530,7 +582,11 @@
         "correctness": "correct",
         "ai_training_notes": "Shows airpath in operational position with mix present. Useful for verifying correct installation.",
         "contains_text": false,
-        "suitable_for_sections": ["maintenance", "hopper_components", "operation"]
+        "suitable_for_sections": [
+          "maintenance",
+          "hopper_components",
+          "operation"
+        ]
       },
       {
         "filename": "airpath-top-view.webp",
@@ -574,7 +630,12 @@
         "ai_training_notes": "Shows approved brand and size of chocolate syrup. Important for ordering correct supplies.",
         "contains_text": true,
         "text_content": "HERSHEY'S SYRUP, GENUINE CHOCOLATE FLAVOR, 45 CALORIES, NET WT 7 LB 8 OZ (3.4 kg), SYRUP PUMP OFFER",
-        "suitable_for_sections": ["supplies", "toppings", "consumables", "approved_products"]
+        "suitable_for_sections": [
+          "supplies",
+          "toppings",
+          "consumables",
+          "approved_products"
+        ]
       },
       {
         "filename": "ice-cream-mix-powder.webp",
@@ -621,7 +682,11 @@
         "correctness": "correct",
         "ai_training_notes": "Alternative angle of dispenser seal kit showing assembly details. Important for understanding component orientation.",
         "contains_text": false,
-        "suitable_for_sections": ["parts-service", "maintenance", "dispenser_repair"]
+        "suitable_for_sections": [
+          "parts-service",
+          "maintenance",
+          "dispenser_repair"
+        ]
       },
       {
         "filename": "dispenser-seal-kit.webp",
@@ -645,7 +710,11 @@
         "correctness": "correct",
         "ai_training_notes": "Complete seal kit for dispenser maintenance. Shows all components needed for seal replacement.",
         "contains_text": false,
-        "suitable_for_sections": ["parts-service", "maintenance", "dispenser_repair"]
+        "suitable_for_sections": [
+          "parts-service",
+          "maintenance",
+          "dispenser_repair"
+        ]
       },
       {
         "filename": "spare-parts-kit-with-manual.webp",
@@ -671,7 +740,12 @@
         "ai_training_notes": "Complete maintenance kit with food-safe lubricant and common replacement parts. Manual shows electrical/component diagram.",
         "contains_text": true,
         "text_content": "FOOD GRADE, RSFG-02, MP Grease, BX-121/2, NSF, GP300T series labels",
-        "suitable_for_sections": ["parts-service", "maintenance", "spare_parts", "technical_documentation"]
+        "suitable_for_sections": [
+          "parts-service",
+          "maintenance",
+          "spare_parts",
+          "technical_documentation"
+        ]
       },
       {
         "filename": "agitator-cleaning-brush-kit.webp",
@@ -694,7 +768,11 @@
         "correctness": "correct",
         "ai_training_notes": "Specialized cleaning brush designed specifically for agitator shaft maintenance. Blue bristles in spiral pattern for thorough cleaning.",
         "contains_text": false,
-        "suitable_for_sections": ["maintenance", "cleaning", "agitator_maintenance"]
+        "suitable_for_sections": [
+          "maintenance",
+          "cleaning",
+          "agitator_maintenance"
+        ]
       },
       {
         "filename": "syrup-topping-spoons.webp",
@@ -717,7 +795,12 @@
         "correctness": "correct",
         "ai_training_notes": "Specialized spoons for syrup and topping service. Long handles prevent contamination, slotted design allows drainage.",
         "contains_text": false,
-        "suitable_for_sections": ["supplies", "serving_utensils", "toppings", "operation"]
+        "suitable_for_sections": [
+          "supplies",
+          "serving_utensils",
+          "toppings",
+          "operation"
+        ]
       }
     ],
     "analysis_summary": {

@@ -14,6 +14,5 @@
 
 # Reference
 
-- [Legal and Warranty](shared/legal.md)
-- [Company Information](shared/company-info.md)
-- [Styling Demo](styling-demo.md)
+- [Legal and Warranty](shared/content/legal.md)
+- [Company Information](shared/content/company-info.md)

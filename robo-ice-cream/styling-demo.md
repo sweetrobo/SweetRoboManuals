@@ -39,7 +39,7 @@ This page demonstrates how to use all official styling components for creating S
 <div class="title-page-main">
 <h1>Robo Ice Cream</h1>
 <h2>User Manual</h2>
-<img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream Machine" class="machine-image" />
+<img src="./assets/overview/f2-machine-title-page.webp" alt="Robo Ice Cream Machine" class="machine-image" />
 </div>
 
 <div class="title-page-footer">
@@ -679,7 +679,7 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 
 **Live Example:**
 
-<img src="./assets/overview/machines-overview.webp" alt="Machines Overview" />
+<img src="./assets/overview/f2-machine-title-page.webp" alt="Machines Overview" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Images are automatically centered with rounded corners and subtle shadows. Maximum height is 50vh to prevent oversized images.</p>
 
 ### Side-by-Side Images (2 Columns)
