@@ -1,0 +1,31 @@
+{
+  "name": "sweetrobomanuals",
+  "version": "1.0.0",
+  "description": "This repository contains operation and maintenance manuals for Sweet Robo ice cream and vending machines.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qr": "node scripts/generate-rounded-qr.js",
+    "qr:custom": "node scripts/generate-rounded-qr.js --custom",
+    "qr:add": "node scripts/generate-rounded-qr.js --add",
+    "qr:old": "node scripts/generate-qr-codes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetrobo/SweetRoboManuals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetrobo/SweetRoboManuals/issues"
+  },
+  "homepage": "https://github.com/sweetrobo/SweetRoboManuals#readme",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "qrcode-svg": "^1.1.0"
+  }
+}
