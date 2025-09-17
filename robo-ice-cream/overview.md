@@ -88,7 +88,7 @@ Reading this manual before operating your machine is crucial for:
 
 </div>
 
-<!-- <img src="./assets/overview/machines-overview.webp" alt="Robo Ice Cream F2 Machine" /> -->
+<!-- <img src="./assets/overview/f2-machine-title-page.webp" alt="Robo Ice Cream F2 Machine" /> -->
 
 ## System Overview
 
@@ -237,8 +237,10 @@ Each F2 machine includes the following subsystems:
 
 ### External Components (Customer-Facing)
 
+<div class="standalone-image-container">
 <img src="./assets/overview/external-components.webp" alt="External Components Overview" />
-*External view of Robo Ice Cream F2 showing customer interface components*
+<p class="image-caption">External view of Robo Ice Cream F2 showing customer interface components</p>
+</div>
 
 These components are designed for direct use by customers, including children, without needing assistance or supervision:
 
@@ -252,8 +254,10 @@ These components are designed for direct use by customers, including children, w
 
 ### Internal Components (F2 Dual-Hopper System)
 
+<div class="standalone-image-container">
 <img src="./assets/overview/internal-components.webp" alt="Internal Components Overview" />
-*Internal view of the Robo Ice Cream F2 showing dual ice cream hoppers and internal systems*
+<p class="image-caption">Internal view of the Robo Ice Cream F2 showing dual ice cream hoppers and internal systems</p>
+</div>
 
 #### Hopper Temperature Monitoring System
 
@@ -304,23 +308,49 @@ Each hopper is equipped with a precision temperature sensor that continuously mo
 <!-- | UV Sanitizer | Built-in ultraviolet light that sterilizes the dispense area between servings | -->
 ## Installation Requirements
 
-### Space Requirements
+<!-- Print condensed version -->
+<div class="print-condensed">
+<strong>Installation Requirements:</strong> Space: 30cm clearance all sides, 120cm front door swing, level stable surface, indoor recommended. Electrical: Dedicated 220V circuit, 20A minimum breaker, proper grounding, surge protection recommended. Environment: 10°C-35°C temperature, <80% humidity, protected from direct sunlight, adequate ventilation.
+</div>
+
+<!-- Full version for screen -->
+<div class="no-print">
+
+<div class="feature-grid grid-3">
+
+<div class="feature-item">
+
+#### Space Requirements
 - Minimum clearance: 30cm on all sides
 - Door swing clearance: 120cm front
 - Level, stable surface required
 - Indoor installation recommended
 
-### Electrical Requirements
+</div>
+
+<div class="feature-item">
+
+#### Electrical Requirements
 - Dedicated 220V circuit
 - 20A circuit breaker minimum
 - Proper grounding required
 - Surge protection recommended
 
-### Environmental Requirements
+</div>
+
+<div class="feature-item">
+
+#### Environmental Requirements
 - Temperature: 10°C – 35°C (50°F – 95°F)
 - Humidity: < 80% RH
 - Protected from direct sunlight
 - Adequate ventilation
+
+</div>
+
+</div>
+
+</div>
 
 
 ## Critical Operating Requirements
