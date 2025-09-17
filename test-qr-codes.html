@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code System Test</title>
+    <link rel="stylesheet" href="shared/css/components.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #2c5282;
+            border-bottom: 3px solid #2c5282;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            background: #e6f3ff;
+            padding: 10px;
+            border-left: 4px solid #2c5282;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .test-item {
+            border: 1px solid #e5e7eb;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+        .test-item h3 {
+            margin-top: 0;
+            color: #2c5282;
+            font-size: 1.1em;
+        }
+        .code-block {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .status-success {
+            background: #10b981;
+            color: white;
+        }
+        .status-error {
+            background: #ef4444;
+            color: white;
+        }
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code System Test Page</h1>
+    
+    <div class="test-section">
+        <h2>Test 1: Single QR Code Display</h2>
+        <p>Testing individual QR code with wrapper, tooltip, and description.</p>
+        
+        <div class="qr-code-wrapper">
+            <a href="https://manuals.sweetrobo.com/robo-ice-cream/" class="qr-code-link">
+                <span class="qr-tooltip">View Robo Ice Cream Manual</span>
+                <img src="qr-codes/manual-robo-ice-cream.svg" alt="QR Code for Robo Ice Cream Manual" />
+                <div class="qr-code-description">Robo Ice Cream<br/>Online Manual</div>
+            </a>
+        </div>
+        
+        <div class="code-block">
+            &lt;div class="qr-code-wrapper"&gt;<br>
+            &nbsp;&nbsp;&lt;a href="URL" class="qr-code-link"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="qr-tooltip"&gt;Tooltip&lt;/span&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="qr-codes/ID.svg" alt="Alt text" /&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="qr-code-description"&gt;Description&lt;/div&gt;<br>
+            &nbsp;&nbsp;&lt;/a&gt;<br>
+            &lt;/div&gt;
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 2: QR Code Grid Layout</h2>
+        <p>Testing responsive grid layout with multiple QR codes.</p>
+        
+        <div class="qr-code-grid">
+            <div class="qr-code-wrapper">
+                <a href="https://sweetrobo.com/support" class="qr-code-link">
+                    <span class="qr-tooltip">Customer Support Portal</span>
+                    <img src="qr-codes/support-general.svg" alt="Support QR Code" />
+                    <div class="qr-code-description">Customer<br/>Support</div>
+                </a>
+            </div>
+            
+            <div class="qr-code-wrapper">
+                <a href="tel:+1-555-SWEET-01" class="qr-code-link">
+                    <span class="qr-tooltip">Call Support</span>
+                    <img src="qr-codes/support-phone.svg" alt="Phone QR Code" />
+                    <div class="qr-code-description">Call Support<br/>+1-555-SWEET-01</div>
+                </a>
+            </div>
+            
+            <div class="qr-code-wrapper">
+                <a href="mailto:support@sweetrobo.com" class="qr-code-link">
+                    <span class="qr-tooltip">Email Support</span>
+                    <img src="qr-codes/support-email.svg" alt="Email QR Code" />
+                    <div class="qr-code-description">Email Support<br/>support@sweetrobo.com</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 3: Inline QR Code</h2>
+        <p>Testing inline QR code display within text content.</p>
+        
+        <p>
+            For quick access to our support portal, scan this QR code 
+            <span class="qr-code-inline">
+                <img src="qr-codes/support-general.svg" alt="Support QR" />
+            </span>
+            or visit our website directly.
+        </p>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 4: All Generated QR Codes</h2>
+        <p>Display of all QR codes in the system to verify generation.</p>
+        
+        <div class="test-grid">
+            <div class="test-item">
+                <h3>Manual Access</h3>
+                <div class="qr-code-wrapper">
+                    <img src="qr-codes/manual-robo-ice-cream.svg" alt="Manual QR" style="width: 100px; height: 100px;" />
+                    <div class="qr-code-description">Robo Ice Cream Manual</div>
+                </div>
+            </div>
+            
+            <div class="test-item">
+                <h3>Video Tutorial</h3>
+                <div class="qr-code-wrapper">
+                    <img src="qr-codes/video-setup-robo-ice-cream.svg" alt="Video QR" style="width: 100px; height: 100px;" />
+                    <div class="qr-code-description">Setup Video</div>
+                </div>
+            </div>
+            
+            <div class="test-item">
+                <h3>Parts Ordering</h3>
+                <div class="qr-code-wrapper">
+                    <img src="qr-codes/parts-ordering.svg" alt="Parts QR" style="width: 100px; height: 100px;" />
+                    <div class="qr-code-description">Order Parts</div>
+                </div>
+            </div>
+            
+            <div class="test-item">
+                <h3>Troubleshooting</h3>
+                <div class="qr-code-wrapper">
+                    <img src="qr-codes/troubleshooting-guide.svg" alt="Troubleshooting QR" style="width: 100px; height: 100px;" />
+                    <div class="qr-code-description">Interactive Guide</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 5: Custom Generated QR Code</h2>
+        <p>Testing custom QR code if it exists (youtube-demo).</p>
+        
+        <div class="qr-code-wrapper">
+            <a href="https://youtube.com/watch?v=ABC123" class="qr-code-link">
+                <span class="qr-tooltip">Watch Demo Video</span>
+                <img src="qr-codes/youtube-demo.svg" alt="YouTube Demo QR Code" onerror="this.parentElement.parentElement.innerHTML='<p style=\'color:#ef4444;\'>Custom QR code not found. Generate it using: npm run qr:custom -- --url &quot;https://youtube.com/watch?v=ABC123&quot; --id &quot;youtube-demo&quot; --desc &quot;Demo Video&quot;</p>'" />
+                <div class="qr-code-description">Product Demo<br/>Video</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="test-section no-print">
+        <h2>Test 6: Interactive Features</h2>
+        <p>Hover over any QR code above to see the tooltip. Click to navigate to the URL.</p>
+        
+        <h3>Feature Checklist:</h3>
+        <ul>
+            <li>✓ Hover tooltips working</li>
+            <li>✓ Click navigation working</li>
+            <li>✓ Responsive grid layout</li>
+            <li>✓ Description text visible</li>
+            <li>✓ Rounded QR code style</li>
+            <li>✓ Print-friendly layout</li>
+        </ul>
+    </div>
+
+    <div class="test-section no-print">
+        <h2>Test 7: Print Preview</h2>
+        <p>Use browser's Print Preview (Ctrl/Cmd + P) to verify:</p>
+        <ul>
+            <li>QR codes display clearly</li>
+            <li>Descriptions are visible</li>
+            <li>No tooltips or hover effects</li>
+            <li>Proper page breaks</li>
+        </ul>
+        <button onclick="window.print()" style="padding: 10px 20px; background: #2c5282; color: white; border: none; border-radius: 4px; cursor: pointer;">
+            Test Print Preview
+        </button>
+    </div>
+
+    <div class="test-section">
+        <h2>QR Code Generation Commands</h2>
+        <div class="code-block">
+            # Generate all predefined QR codes<br>
+            npm run qr<br><br>
+            
+            # Create a custom QR code<br>
+            npm run qr:custom -- --url "https://example.com" --id "example" --desc "Example QR"<br><br>
+            
+            # Add QR code to database<br>
+            npm run qr:add -- --url "https://example.com" --id "example" --desc "Example QR" --category "custom"<br><br>
+            
+            # Direct command with all options<br>
+            node scripts/generate-rounded-qr.js --custom --url "URL" --id "ID" --desc "Description" --category "Category" --manuals "manual1,manual2"
+        </div>
+    </div>
+
+    <script>
+        // Test QR code loading
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('img[src*="qr-codes"]');
+            let loaded = 0;
+            let failed = 0;
+            
+            images.forEach(img => {
+                if (img.complete) {
+                    if (img.naturalWidth === 0) {
+                        failed++;
+                    } else {
+                        loaded++;
+                    }
+                } else {
+                    img.addEventListener('load', () => loaded++);
+                    img.addEventListener('error', () => failed++);
+                }
+            });
+            
+            setTimeout(() => {
+                console.log(`QR Codes Loaded: ${loaded}, Failed: ${failed}`);
+                if (failed > 0) {
+                    console.warn('Some QR codes failed to load. Run "npm run qr" to regenerate.');
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
