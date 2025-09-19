@@ -1,0 +1,336 @@
+/* Sweet Robo Manual - Image Styles
+   ========================================
+   All image-related styling and layouts
+   ======================================== */
+
+/* =================================== */
+/* BASE IMAGE STYLING */
+/* =================================== */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  object-fit: contain;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* =================================== */
+/* IMAGE SIZE CLASSES */
+/* =================================== */
+
+.img-small {
+  max-width: var(--img-small-max);
+}
+
+.img-medium {
+  max-width: var(--img-medium-max);
+}
+
+.img-large {
+  max-width: var(--img-large-max);
+}
+
+.img-full {
+  max-width: var(--img-full-max);
+}
+
+/* =================================== */
+/* SECTION-SPECIFIC IMAGE SIZING */
+/* =================================== */
+
+.setup-image {
+  max-width: 600px;
+  max-height: 80vh;
+  margin: 20px auto;
+}
+
+.overview-diagram {
+  max-width: 700px;
+  max-height: 80vh;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.operation-screenshot {
+  max-width: 500px;
+  max-height: 80vh;
+}
+
+.maintenance-photo {
+  max-width: 400px;
+}
+
+.component-detail {
+  max-width: 350px;
+}
+
+.side-image {
+  max-height: 50vh;
+}
+
+/* Standalone image with caption container */
+.standalone-image-container {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.standalone-image-container img {
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+}
+
+.standalone-image-container .image-caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #666;
+}
+
+/* =================================== */
+/* IMAGE CAPTIONS */
+/* =================================== */
+
+/* Style for italic text immediately after images */
+p em {
+  font-style: italic;
+  color: var(--text-caption);
+  text-align: center;
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+/* Direct caption styling */
+.image-caption,
+figure figcaption {
+  text-align: center;
+  color: var(--text-caption);
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* =================================== */
+/* IMAGE LAYOUTS */
+/* =================================== */
+
+/* Flexible image row */
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.img-half {
+  max-width: 45%;
+  margin: 0;
+}
+
+.img-third {
+  max-width: 30%;
+  margin: 0;
+}
+
+/* Side-by-side images */
+.side-by-side-images {
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.side-by-side-images img {
+  flex: 1;
+  max-width: 48%;
+  max-height: 50vh;
+  margin: 0;
+}
+
+/* Three column images */
+.three-column-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+  margin: 2em 0;
+  align-items: center;
+  justify-items: center;
+}
+
+.three-column-images img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+}
+
+/* =================================== */
+/* IMAGE EFFECTS & BORDERS */
+/* =================================== */
+
+/* Optional bordered image */
+.img-bordered {
+  border: 2px solid var(--border-light);
+  border-radius: var(--border-radius-md);
+  padding: 10px;
+  background: white;
+}
+
+/* Optional shadow effect */
+.img-shadow {
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+/* Rounded corners */
+.img-rounded {
+  border-radius: var(--border-radius-lg);
+}
+
+/* Circle image */
+.img-circle {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+/* =================================== */
+/* FIGURE ELEMENT STYLING */
+/* =================================== */
+
+figure {
+  margin: 2em 0;
+  text-align: center;
+}
+
+figure img {
+  margin-bottom: 0.5em;
+}
+
+/* =================================== */
+/* GALLERY LAYOUTS */
+/* =================================== */
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius-md);
+  transition: transform var(--transition-fast);
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* =================================== */
+/* RESPONSIVE IMAGE ADJUSTMENTS */
+/* =================================== */
+
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 95%;
+    margin: 10px auto;
+  }
+
+  .setup-image,
+  .overview-diagram,
+  .operation-screenshot,
+  .maintenance-photo {
+    max-width: 100%;
+  }
+
+  /* Stack side-by-side images on mobile */
+  .side-by-side-images {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .side-by-side-images img {
+    max-width: 100%;
+  }
+
+  /* Three column images - 2 columns on tablet */
+  .three-column-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Image row - stack on mobile */
+  .img-row {
+    flex-direction: column;
+  }
+
+  .img-half,
+  .img-third {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* Three column images - single column on mobile */
+  .three-column-images {
+    grid-template-columns: 1fr;
+  }
+
+  /* Gallery - 2 columns on mobile */
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =================================== */
+/* LAZY LOADING PLACEHOLDER */
+/* =================================== */
+
+img[loading="lazy"] {
+  background: var(--background-light);
+  min-height: 100px;
+}
+
+/* =================================== */
+/* IMAGE ZOOM EFFECT */
+/* =================================== */
+
+.img-zoom {
+  transition: transform var(--transition-base);
+  cursor: zoom-in;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* =================================== */
+/* INLINE IMAGES */
+/* =================================== */
+
+.inline-image,
+img.inline {
+  display: inline-block;
+  margin: 0 0.5em;
+  vertical-align: middle;
+  max-height: 1.5em;
+  width: auto;
+}

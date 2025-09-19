@@ -33,25 +33,27 @@ start_single_server() {
 start_all_servers() {
     echo -e "${GREEN}Starting ALL manual development servers...${NC}"
     echo ""
-    
+
     # Start each server in background
     start_single_server "robo-ice-cream" 4001
+    start_single_server "robo-ice-cream-quick-start" 4004
     start_single_server "candy-monster" 4002
     start_single_server "pop-cart" 4003
-    
+
     # Start Python server for main index (serves workspace metadata too)
     echo -e "${GREEN}Starting main index server on port ${BLUE}4000${NC}"
     echo -e "${CYAN}Chrome DevTools Workspace enabled${NC}"
     python3 -m http.server 4000 --bind 0.0.0.0 &
-    
+
     echo ""
     echo -e "${CYAN}═══════════════════════════════════════════════════${NC}"
     echo -e "${GREEN}All servers are running!${NC}"
     echo ""
-    echo -e "  ${YELLOW}Main Index:${NC}      http://localhost:4000"
-    echo -e "  ${YELLOW}Robo Ice Cream:${NC} http://localhost:4001"
-    echo -e "  ${YELLOW}Candy Monster:${NC}  http://localhost:4002"
-    echo -e "  ${YELLOW}Pop Cart:${NC}       http://localhost:4003"
+    echo -e "  ${YELLOW}Main Index:${NC}           http://localhost:4000"
+    echo -e "  ${YELLOW}Robo Ice Cream:${NC}      http://localhost:4001"
+    echo -e "  ${YELLOW}Ice Cream Quick Start:${NC} http://localhost:4004"
+    echo -e "  ${YELLOW}Candy Monster:${NC}       http://localhost:4002"
+    echo -e "  ${YELLOW}Pop Cart:${NC}            http://localhost:4003"
     echo ""
     echo -e "${CYAN}═══════════════════════════════════════════════════${NC}"
     echo -e "${YELLOW}Press Ctrl+C to stop all servers${NC}"
@@ -75,15 +77,19 @@ start_specific_manual() {
     
     case "$choice" in
         "ice" | "ice-cream" | "robo-ice-cream" | "1")
-            manual_name="Robo Ice Cream"
+            manual_name="robo-ice-cream"
             port=4001
             ;;
+        "quick" | "quick-start" | "ice-quick" | "4")
+            manual_name="robo-ice-cream-quick-start"
+            port=4004
+            ;;
         "candy" | "candy-monster" | "2")
-            manual_name="Candy Monster"
+            manual_name="candy-monster"
             port=4002
             ;;
         "pop" | "pop-cart" | "3")
-            manual_name="Pop Cart"
+            manual_name="pop-cart"
             port=4003
             ;;
         *)
@@ -109,6 +115,7 @@ show_help() {
     echo "Options:"
     echo "  all           - Start all manuals and main index"
     echo "  ice, 1        - Start Robo Ice Cream manual"
+    echo "  quick, 4      - Start Ice Cream Quick Start guide"
     echo "  candy, 2      - Start Candy Monster manual"
     echo "  pop, 3        - Start Pop Cart manual"
     echo "  help          - Show this help message"
@@ -123,17 +130,18 @@ if [ -z "$1" ]; then
     echo ""
     echo -e "  ${GREEN}0${NC}) ALL manuals (with main index)"
     echo -e "  ${GREEN}1${NC}) Robo Ice Cream"
+    echo -e "  ${GREEN}4${NC}) Ice Cream Quick Start"
     echo -e "  ${GREEN}2${NC}) Candy Monster"
     echo -e "  ${GREEN}3${NC}) Pop Cart"
     echo ""
-    echo -n "Enter your choice (0-3): "
+    echo -n "Enter your choice (0-4): "
     read choice
     
     case $choice in
         0)
             start_all_servers
             ;;
-        1|2|3)
+        1|2|3|4)
             start_specific_manual "$choice"
             ;;
         *)

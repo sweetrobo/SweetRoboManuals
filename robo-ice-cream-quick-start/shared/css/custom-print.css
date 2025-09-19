@@ -1,0 +1,637 @@
+/* Sweet Robo Manual - Print Styles
+   ========================================
+   All print-related styles consolidated in one place
+   for easier management and debugging
+   ======================================== */
+
+/* Higher specificity print styles that override mdBook defaults */
+@media print {
+  /* =================================== */
+  /* PAGE SETUP & LAYOUT */
+  /* =================================== */
+
+  /* Reset all containers to full width for print - using high specificity */
+  html body,
+  html body .content,
+  html body .chapter,
+  html body main,
+  html body #content,
+  html body .page,
+  html body .page-wrapper,
+  html body #page-wrapper,
+  html body .book-body,
+  html body .body-inner,
+  html body .page-inner,
+  html body section,
+  html body article {
+    max-width: 21cm !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Override mdBook's default print.css specifically */
+  html body #page-wrapper.page-wrapper {
+    transform: none !important;
+    margin-inline-start: 0 !important;
+    overflow-y: initial !important;
+  }
+
+  html body #content {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body .page {
+    overflow-y: initial !important;
+  }
+
+  /* =================================== */
+  /* OVERRIDE MDBOOK DEFAULT PRINT STYLES */
+  /* =================================== */
+
+  /* Override mdBook's default print.css styles that interfere with our layout */
+  html body,
+  html body #content,
+  html body main {
+    max-width: 21cm !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  /* Force remove any margins and padding from content containers */
+  html body .content,
+  html body .content main {
+    margin-inline-start: auto !important;
+    margin-inline-end: auto !important;
+    max-width: 21cm !important;
+    padding: 0 !important;
+  }
+
+  /* Override any sticky positioning or transforms */
+  html body .page-wrapper {
+    background-color: white !important;
+  }
+
+  /* Ensure navigation elements are completely hidden */
+  html body .nav-wide-wrapper,
+  html body .mobile-nav-chapters {
+    display: none !important;
+  }
+
+  /* Target mdBook specific containers with high specificity  - disabled as it makes everything without any spacing*/
+  /* html body #content > main,
+  html body #content main,
+  html body .content > *,
+  html body main > *:not(.title-page) {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  } */
+
+  /* Page margins and setup */
+  @page {
+    size: A4;
+    max-height: 29.7cm;
+    margin: 0.8cm 0.5cm 0.2cm 0.5cm !important;
+    
+    @top-left {
+      content: var(--manual-title);
+      font-size: 10pt;
+      font-family: sans-serif;
+      color: #666;
+      padding: 0.3cm 0 !important;
+    }
+    
+    @top-right {
+      content: counter(page);
+      font-size: 10pt;
+      font-family: sans-serif;
+      color: #666;
+    }
+
+  }
+    @page :first {
+      margin: 0 !important;
+      height: 100%;
+
+      @top-left {
+        content: none;
+      }
+      @top-right {
+        content: none;
+      }
+  }
+  
+  /* =================================== */
+  /* ELEMENT HIDING */
+  /* =================================== */
+  
+  /* Hide styling demo and development content in print */
+  .styling-demo-content,
+  .introduction-content,
+  #styling-demo,
+  #sweet-robo-manual-styling-guide,
+  .chapter-item:has(a[href*="styling-demo"]),
+  .nav-chapters a[href*="styling-demo"],
+  a[href*="styling-demo"],
+  /* Hide any main content that contains the styling guide heading */
+  main:has(#sweet-robo-manual-styling-guide),
+  /* Hide dev-mode only content */
+  .dev-only,
+  .dev-mode-only,
+  /* Hide any page with styling-demo in the title */
+  body[data-page*="styling-demo"] main,
+  /* Hide based on heading content */
+  h1:has(a[href="#sweet-robo-manual-styling-guide"]) {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  
+  /* Additional safeguard - hide entire content if it contains styling demo heading */
+  #content:has(#sweet-robo-manual-styling-guide) {
+    display: none !important;
+  }
+  
+  /* Hide all navigation and UI elements with high specificity */
+  html body #sidebar,
+  html body #menu-bar,
+  html body .nav-chapters,
+  html body .mobile-nav-chapters,
+  html body .nav-wrapper,
+  html body .page-wrapper .page-header,
+  html body .buttons,
+  html body .navigation,
+  html body .nav-wide-wrapper,
+  html body .nav-wide,
+  html body #searchbar,
+  html body #searchresults,
+  html body .search-results,
+  html body .tooltiptext,
+  html body .chapter li.part-title,
+  html body .light-theme-button,
+  html body .rust-theme-button,
+  html body .coal-theme-button,
+  html body .navy-theme-button,
+  html body .ayu-theme-button,
+  html body #theme-toggle,
+  html body #theme-list,
+  html body button#sidebar-toggle,
+  html body .fa.fa-bars,
+  html body .left-buttons,
+  html body .right-buttons,
+  html body #print-button,
+  html body .fa.fa-print,
+  html body #search-toggle,
+  html body .fa.fa-search,
+  html body .fa.fa-expand,
+  html body .fa.fa-paint-brush,
+  html body #copy-path-button,
+  html body button[title="Copy link to clipboard"],
+  html body .playground-button,
+  html body pre > .buttons,
+  html body .fa {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+  
+  /* Hide conditional content controls and manual controls */
+  /* .conditional-controls {
+    display: none;
+    visibility: hidden;
+    height: 0 ;
+    width: 0 ;
+    margin: 0 ;
+    padding: 0 ;
+    overflow: hidden ;
+  } */
+  
+  /* Comprehensive print hiding */
+  .no-print,
+  .print-hide {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+    page-break-before: avoid !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* =================================== */
+  /* CONTENT ADJUSTMENTS */
+  /* =================================== */
+  
+  /* Adjust main content for print - removed duplicate since moved to top */
+  
+  /* Code and pre blocks */
+  code {
+    direction: ltr !important;
+  }
+  
+  pre, code {
+    page-break-inside: avoid;
+    white-space: pre-wrap;
+  }
+  
+  pre > code {
+    padding: 0.5em !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    display: block !important;
+    overflow-wrap: break-word !important;
+    white-space: pre-wrap !important;
+    font-size: 10pt !important;
+  }
+  
+  /* Links */
+  a, a:visited, a:active, a:hover {
+    color: #4183c4;
+    text-decoration: none;
+    margin: 10px 0 !important;
+  }
+  
+  /* Headers - prevent page breaks */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    margin: 0 !important;
+    margin-top: 10px !important;
+    padding: 5px 10px !important;
+  }
+  .feature-item h4 {
+    margin-top: 0 !important;
+  }
+  
+  /* =================================== */
+  /* IMAGE HANDLING */
+  /* =================================== */
+  
+  /* max-height: none; - Let PDF handle height naturally */
+  img:not(.footer-machine-image) {
+    /* max-width: 30%; */
+    /* A4 is height 29.7cm, i want the image to be max 50% height in this case */
+    max-height: calc(29.7cm * 0.48) !important; 
+    page-break-inside: avoid;
+    margin: 10px auto !important;
+    /* display: block; */
+  }
+  
+  .img-row {
+    page-break-inside: avoid;
+  }
+  
+  .img-half {
+    max-width: 45%;
+  }
+  
+  .img-third {
+    max-width: 30%;
+  }
+  
+  /* Three column images - optimize for print */
+  .three-column-images {
+    page-break-inside: avoid !important;
+  }
+  
+  .three-column-images img {
+    /* A4 is height 29.7cm, limit to 30% for multiple images per page */
+    max-height: calc(29.7cm * 0.3) !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+
+  .standalone-image-container img {
+    /* A4 is height 29.7cm, standalone images can use up to 35% */
+    max-height: calc(29.7cm * 0.35) !important;
+    width: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+  }
+  .standalone-image-container
+  {
+    margin: 0 auto !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Keep image groups together on same page */
+  .image-group,
+  .image-container,
+  .side-by-side-images,
+  .maintenance-images,
+  .setup-images,
+  .operation-images {
+    page-break-inside: avoid !important;
+    page-break-before: auto !important;
+    page-break-after: auto !important;
+  }
+
+  /* Force smaller image heights when multiple images are grouped together */
+  .image-group img,
+  .image-container img,
+  .maintenance-images img,
+  .setup-images img,
+  .operation-images img {
+    max-height: calc(29.7cm * 0.25) !important;
+  }
+  /* =================================== */
+  /* COMPONENT STYLES */
+  /* =================================== */
+  
+  /* Numbered steps - keep together */
+  .numbered-steps {
+    /* page-break-inside: avoid !important; */
+    margin: 0 !important;
+  }
+  .numbered-steps > div {
+    /* page-break-inside: avoid !important; */
+    margin-bottom: 10px !important;
+  }
+  
+  .numbered-steps-with-images .step-with-image {
+    /* page-break-inside: avoid !important; */
+    /* margin-bottom: 1em !important; */
+  }
+  
+  /* Feature grids - optimize layout */
+  .feature-grid {
+    /* page-break-inside: avoid !important; */
+    gap: 5px;
+    margin: 0 !important;
+
+  }
+  .feature-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    page-break-inside: avoid !important;
+    height: auto !important;
+  }
+  .feature-grid > div > img {
+    height: 70% !important;
+    flex-shrink: 0;
+  }
+  .feature-grid.grid-4 > div {
+    max-height: calc(29.7cm * 0.2) !important;
+  }
+  .feature-grid.grid-3 > div {
+    max-height: calc(29.7cm * 0.3) !important;
+  }
+  .feature-grid.grid-2 > div {
+    max-height: calc(29.7cm * 0.4) !important;
+  }
+
+  .feature-item {
+    page-break-inside: avoid !important;
+    padding: 5px !important;
+    margin: 0 !important;
+  }
+  
+  /* Callout boxes - keep together */
+  .important-box,
+  .warning-box,
+  .caution-box,
+  .info-box {
+    page-break-inside: avoid !important;
+    /* margin: 5px 0 !important; ading this makes the box full width */
+    padding: 0 5px !important;
+  }
+  
+  /* Tables - prevent breaking */
+  table {
+    /* page-break-inside: avoid !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .content table {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 11pt !important;
+  }
+  .content ul, .content ol {
+    margin: 0 !important;
+    /* padding: 0; */
+  }
+  .content ul li, .content ol li, td, tr, th {
+    margin: 0 !important;
+    padding: 2px !important;
+  }
+
+  /* Specs table */
+  .specs-table {
+    page-break-inside: avoid !important;
+  }
+  
+  .spec-row {
+    page-break-inside: avoid !important;
+  }
+  
+  /* =================================== */
+  /* TITLE PAGE */
+  /* =================================== */
+  
+  .title-page {
+    page-break-after: always !important;
+    min-height: 29.7cm !important;
+    /* height: 100vh !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    padding: 0 !important;
+    margin: 0 !important; */
+  }
+  
+  /* .title-page .footer-machine-image {
+    max-height: 7in !important;
+  } */
+  
+  /* Ensure title page links are not clickable in print */
+  .title-page h1 a,
+  .title-page h2 a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+ 
+  
+  /* =================================== */
+  /* PRINT HEADER */
+  /* =================================== */
+  
+  /* Compact print header */
+  .print-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 10pt !important;
+    color: #666 !important;
+    padding: 0.3cm 0 !important;
+    border-bottom: 1px solid #ddd !important;
+    margin-bottom: 0.5cm !important;
+    font-family: sans-serif !important;
+    position: running(header) !important;
+  }
+  
+  .print-header .manual-title {
+    font-weight: normal !important;
+  }
+  
+  .print-header .page-number::after {
+    content: counter(page) !important;
+  }
+  
+  /* =================================== */
+  /* PRINT-ONLY VISIBILITY */
+  /* =================================== */
+  
+  /* Show elements only in print */
+  .print-only,
+  .print-show {
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /* Print-condensed content - compact version for print */
+  .print-condensed {
+    display: block !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+    padding: 0.5em !important;
+    margin: 0.5em 0 !important;
+    font-size: 0.9em !important;
+    line-height: 1.4 !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* Hide the verbose version when print-condensed is shown */
+  .print-condensed + div,
+  .print-condensed ~ .verbose-content {
+    display: none !important;
+  }
+  
+  /* =================================== */
+  /* COLOR ADJUSTMENTS */
+  /* =================================== */
+  
+  /* Ensure colors print well */
+  .warning-box {
+    background-color: #fed7d7 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  .caution-box {
+    background-color: #fef3c7 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  .info-box {
+    background-color: #f0f9ff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  .important-box {
+    background-color: #e9d8fd !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  /* Headers with backgrounds */
+  h2 {
+    background-color: #dbeafe !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  /* =================================== */
+  /* ORPHAN AND WIDOW CONTROL */
+  /* =================================== */
+  
+  p {
+    orphans: 3;
+    widows: 3;
+    margin: 0 !important;
+  }
+  
+  /* =================================== */
+  /* DEBUGGING HELPERS */
+  /* =================================== */
+  
+  /* Uncomment to debug print layout issues */
+  
+  /* * {
+    border: 1px solid red !important;
+  } */
+ 
+  /* =================================== */
+  /* SPECIFIC FIXES */
+  /* =================================== */
+
+  #whats-included {
+    page-break-before: always !important;
+  }
+  .print-mode .numbered-steps {
+    --numbered-step-circle: 1.5em;
+  }
+}
+
+/* =================================== */
+/* PRINT UTILITY CLASSES */
+/* =================================== */
+
+/* Force page break before element */
+.page-break-before {
+  page-break-before: always !important;
+}
+
+/* Force page break after element */
+.page-break-after {
+  page-break-after: always !important;
+}
+
+/* Prevent page break inside element */
+.page-break-avoid {
+  page-break-inside: avoid !important;
+}
+
+/* Hide in print */
+.no-print {
+  display: none !important;
+}
+
+/* Show only in print */
+@media screen {
+  /* Hide print-only content on screen, except when body has show-print-content class */
+  body:not(.show-print-content) .print-only {
+    display: none !important;
+  }
+}
+
+@media print {
+  .conditional-controls, .manual-print-controls, #menu-bar-hover-placeholder, .image-placeholder {
+    display: none !important;
+  }
+}
+

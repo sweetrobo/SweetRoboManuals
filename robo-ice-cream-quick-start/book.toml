@@ -1,0 +1,33 @@
+[book]
+title = "Robo Ice Cream Quick Start Guide"
+description = "Quick setup guide for Robo Ice Cream F1/F2 machines"
+authors = ["Sweet Robo"]
+language = "en"
+multilingual = false
+src = "."
+
+[output.html]
+additional-css = [
+    "../shared/css/variables.css",
+    "../shared/css/typography.css",
+    "../shared/css/components.css",
+    "../shared/css/images.css",
+    "../shared/css/layout.css",
+    "../shared/css/custom-print.css",
+    "quick-start-theme.css"
+]
+mathjax-support = false
+copy-fonts = true
+no-section-label = true
+git-repository-url = "https://github.com/SweetRobo/manuals"
+edit-url-template = "https://github.com/SweetRobo/manuals/edit/main/robo-ice-cream-quick-start/{path}"
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.search]
+enable = false
+
+[preprocessor.links]
+# Convert .md links to .html for proper navigation

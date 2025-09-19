@@ -25,6 +25,18 @@
                 port: 4001
             },
             {
+                id: 'robo-ice-cream-quick-start',
+                title: 'Ice Cream Quick Start',
+                subtitle: 'Setup Guide for F1/F2 Models',
+                status: 'ready',
+                statusText: '✅ Ready',
+                image: 'robo-ice-cream/assets/setup/whats-included-partial.webp',
+                imageAlt: 'Quick setup components',
+                hasImage: true,
+                description: 'Print-optimized quick setup guide for Robo Ice Cream F1 and F2 machines. Under 10 pages with step-by-step instructions.',
+                port: 4004
+            },
+            {
                 id: 'candy-monster',
                 title: 'Candy Monster',
                 subtitle: 'Bulk Candy Vending Machine',
@@ -153,6 +165,7 @@
 
 # Start individual manual servers
 ./dev.sh ice     # Robo Ice Cream on port 4001
+./dev.sh quick   # Ice Cream Quick Start on port 4004
 ./dev.sh candy   # Candy Monster on port 4002
 ./dev.sh pop     # Pop Cart on port 4003
 

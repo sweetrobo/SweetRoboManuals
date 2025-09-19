@@ -1,0 +1,269 @@
+/* Quick Start Guide Print-Optimized Theme */
+
+/* Quick Start Two-Column Layout */
+.quick-start-content {
+    display: grid;
+    grid-template-columns: 60% 38%;
+    gap: 2%;
+    margin: 1rem 0;
+    page-break-inside: avoid;
+}
+
+.quick-start-text {
+    padding-right: 1rem;
+}
+
+.quick-start-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quick-start-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Setup Overview Infographic (Page 1) */
+.setup-overview {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.setup-overview h1 {
+    font-size: 2.5rem;
+    color: var(--primary-blue);
+    margin-bottom: 0.5rem;
+}
+
+.setup-overview .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.setup-flow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.setup-step {
+    background: #f8f9fa;
+    border: 2px solid var(--primary-blue);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.setup-step-number {
+    background: var(--primary-blue);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.setup-step h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-blue);
+    font-size: 1.1rem;
+}
+
+.setup-step p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* QR Code Styling */
+.qr-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f0f4f8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.qr-code {
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    border: 2px solid var(--primary-blue);
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.qr-text {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Simplified step lists for quick start */
+.quick-steps {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-steps li {
+    background: #f8f9fa;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    border-left: 4px solid var(--primary-blue);
+    border-radius: 0 8px 8px 0;
+    position: relative;
+}
+
+.quick-steps li::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    background: var(--primary-blue);
+    color: white;
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -12px;
+    top: 1rem;
+    font-size: 0.8rem;
+}
+
+.quick-steps {
+    counter-reset: step-counter;
+}
+
+/* Requirements boxes */
+.requirement-box {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.requirement-box h4 {
+    margin-top: 0;
+    color: #856404;
+    font-size: 1rem;
+}
+
+.requirement-box ul {
+    margin-bottom: 0;
+}
+
+.requirement-box li {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+/* Print-specific styles */
+@media print {
+    /* Ensure two-column layout works in print */
+    .quick-start-content {
+        display: grid;
+        grid-template-columns: 60% 38%;
+        gap: 2%;
+        page-break-inside: avoid;
+        margin: 0.5rem 0;
+    }
+
+    /* Page breaks */
+    .setup-overview {
+        page-break-after: always;
+    }
+
+    .qr-section {
+        page-break-inside: avoid;
+    }
+
+    /* Compact headers for print */
+    .content h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .content h2 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+    }
+
+    /* Hide navigation */
+    nav, .nav-wrapper, .nav-chapters, .sidebar {
+        display: none !important;
+    }
+
+    /* Adjust body for print */
+    .content {
+        margin: 0;
+        padding: 0.5in;
+        max-width: none;
+    }
+
+    /* QR codes smaller in print */
+    .qr-code {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Setup flow compact for print */
+    .setup-flow {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .setup-step {
+        padding: 1rem;
+    }
+
+    .setup-step h3 {
+        font-size: 1rem;
+    }
+
+    .setup-step p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .quick-start-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .setup-flow {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
