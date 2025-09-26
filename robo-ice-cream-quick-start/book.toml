@@ -8,12 +8,12 @@ src = "."
 
 [output.html]
 additional-css = [
-    "../shared/css/variables.css",
-    "../shared/css/typography.css",
-    "../shared/css/components.css",
-    "../shared/css/images.css",
-    "../shared/css/layout.css",
-    "../shared/css/custom-print.css",
+    "shared/css/variables.css",
+    "shared/css/typography.css",
+    "shared/css/components.css",
+    "shared/css/images.css",
+    "shared/css/layout.css",
+    "shared/css/custom-print.css",
     "quick-start-theme.css"
 ]
 mathjax-support = false
@@ -27,7 +27,16 @@ enable = true
 page-break = true
 
 [output.html.search]
-enable = false
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
 
 [preprocessor.links]
 # Convert .md links to .html for proper navigation
