@@ -22,19 +22,16 @@
                 imageAlt: 'Robo Ice Cream F2 Machine',
                 hasImage: true,
                 description: 'Automated ice cream vending machine with dual-flavor dispensing system and comprehensive manual coverage.',
-                port: 4001
-            },
-            {
-                id: 'robo-ice-cream-quick-start',
-                title: 'Ice Cream Quick Start',
-                subtitle: 'Setup Guide for F1/F2 Models',
-                status: 'ready',
-                statusText: '✅ Ready',
-                image: 'robo-ice-cream/assets/setup/whats-included-partial.webp',
-                imageAlt: 'Quick setup components',
-                hasImage: true,
-                description: 'Print-optimized quick setup guide for Robo Ice Cream F1 and F2 machines. Under 10 pages with step-by-step instructions.',
-                port: 4004
+                port: 4001,
+                hasMultipleManuals: true,
+                additionalManuals: [
+                    {
+                        id: 'robo-ice-cream-quick-start',
+                        title: 'Quick Start Guide',
+                        description: 'Print-optimized quick setup guide for F1/F2 models. Under 10 pages with step-by-step instructions.',
+                        port: 4004
+                    }
+                ]
             },
             {
                 id: 'candy-monster',
@@ -90,7 +87,7 @@
         function generateManualCards() {
             const grid = document.querySelector('.manuals-grid');
             if (!grid) return;
-            
+
             // Map over manuals array to create HTML for each card
             // Using template literals for cleaner HTML generation
             grid.innerHTML = manuals.map(manual => `
@@ -98,18 +95,26 @@
                     <h2 class="manual-title">${manual.title}</h2>
                     <div class="manual-subtitle">${manual.subtitle}</div>
                     <div class="manual-status status-${manual.status}">${manual.statusText}</div>
-                    
+
                     ${/* Conditionally render image or placeholder based on hasImage flag */ ''}
-                    ${manual.hasImage 
+                    ${manual.hasImage
                         ? `<img src="${manual.image}" alt="${manual.imageAlt}" class="manual-image" />`
                         : `<div class="placeholder-image">${manual.placeholderText}</div>`
                     }
-                    
+
                     <div class="manual-description">
                         ${manual.description}
                     </div>
-                    
-                    <a href="build/${manual.id}/index.html" id="${manual.id}-link" class="manual-link">View Manual</a>
+
+                    ${manual.hasMultipleManuals
+                        ? `<div class="manual-buttons">
+                            <a href="build/${manual.id}/index.html" id="${manual.id}-link" class="manual-link primary">Full Technical Manual</a>
+                            ${manual.additionalManuals.map(additional =>
+                                `<a href="build/${additional.id}/index.html" id="${additional.id}-link" class="manual-link secondary">${additional.title}</a>`
+                            ).join('')}
+                        </div>`
+                        : `<a href="build/${manual.id}/index.html" id="${manual.id}-link" class="manual-link">View Manual</a>`
+                    }
                 </div>
             `).join(''); // Join all card HTML strings into one
         }
@@ -143,12 +148,24 @@
                 const cards = document.querySelectorAll('.manual-card');
                 cards.forEach((card, index) => {
                     if (index < manuals.length) {
+                        const manual = manuals[index];
                         const serverInfo = document.createElement('div');
                         serverInfo.className = 'server-info';
-                        serverInfo.innerHTML = `
+
+                        let serverInfoContent = `
                             <span class="server-status"></span>
-                            Development server: <strong>localhost:${manuals[index].port}</strong>
+                            Development server: <strong>localhost:${manual.port}</strong>
                         `;
+
+                        // Add additional server info for manuals with multiple versions
+                        if (manual.additionalManuals) {
+                            manual.additionalManuals.forEach(additional => {
+                                serverInfoContent += `<br><span class="server-status"></span>
+                                    ${additional.title}: <strong>localhost:${additional.port}</strong>`;
+                            });
+                        }
+
+                        serverInfo.innerHTML = serverInfoContent;
                         card.appendChild(serverInfo);
                     }
                 });
@@ -188,12 +205,27 @@
             manuals.forEach(manual => {
                 const link = getManualPath(manual.id, manual.port);
                 const element = document.getElementById(`${manual.id}-link`);
-                
+
                 if (element) {
                     element.href = link;
                     console.log(`${manual.title} link updated to:`, element.href);
                 } else {
                     console.error(`Could not find ${manual.id}-link element`);
+                }
+
+                // Handle additional manuals if they exist
+                if (manual.additionalManuals) {
+                    manual.additionalManuals.forEach(additional => {
+                        const additionalLink = getManualPath(additional.id, additional.port);
+                        const additionalElement = document.getElementById(`${additional.id}-link`);
+
+                        if (additionalElement) {
+                            additionalElement.href = additionalLink;
+                            console.log(`${additional.title} link updated to:`, additionalElement.href);
+                        } else {
+                            console.error(`Could not find ${additional.id}-link element`);
+                        }
+                    });
                 }
             });
         });
@@ -285,6 +317,24 @@
         }
         .manual-link:hover {
             background: #2a4d79;
+        }
+        .manual-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .manual-link.primary {
+            background: #2c5282;
+        }
+        .manual-link.primary:hover {
+            background: #2a4d79;
+        }
+        .manual-link.secondary {
+            background: #4a5568;
+            font-size: 0.9em;
+        }
+        .manual-link.secondary:hover {
+            background: #2d3748;
         }
         .manual-image {
             width: 100%;

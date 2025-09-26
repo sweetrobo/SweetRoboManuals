@@ -299,54 +299,6 @@
         "suitable_for_sections": ["maintenance", "mix_preparation", "operation"]
       },
       {
-        "filename": "device-settings.webp",
-        "path": "./assets/operation/device-settings.webp",
-        "section": "operation",
-        "file_size_approx": "medium",
-        "format": "WebP",
-        "recommended_format": "WebP",
-        "tags": [
-          "device_settings",
-          "backend_interface",
-          "operator_screen",
-          "settings_menu",
-          "configuration"
-        ],
-        "description": "Device settings screen in the operator backend interface",
-        "correctness": "correct",
-        "ai_training_notes": "Shows device configuration options in backend system.",
-        "contains_text": true,
-        "suitable_for_sections": [
-          "operation",
-          "backend_settings",
-          "configuration"
-        ]
-      },
-      {
-        "filename": "management-interface.webp",
-        "path": "./assets/operation/management-interface.webp",
-        "section": "operation",
-        "file_size_approx": "medium",
-        "format": "WebP",
-        "recommended_format": "WebP",
-        "tags": [
-          "management_interface",
-          "backend_interface",
-          "operator_screen",
-          "admin_panel",
-          "system_management"
-        ],
-        "description": "Main management interface screen for operators",
-        "correctness": "correct",
-        "ai_training_notes": "Primary operator interface for managing the ice cream machine.",
-        "contains_text": true,
-        "suitable_for_sections": [
-          "operation",
-          "backend_interface",
-          "management"
-        ]
-      },
-      {
         "filename": "password-input-screen.webp",
         "path": "./assets/operation/password-input-screen.webp",
         "section": "operation",

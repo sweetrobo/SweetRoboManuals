@@ -153,10 +153,8 @@ To access the comprehensive operator interface:
 
 ### Management Interface Overview
 
-<div class="standalone-image-container">
-<img src="./assets/operation/management-interface.webp" alt="Management Interface" class="operation-screenshot" />
+<div class="image-placeholder">MANAGEMENT INTERFACE SCREENSHOT</div>
 <p class="image-caption">Main management screen showing device information and system controls</p>
-</div>
 
 The management screen provides access to six key sections:
 
@@ -558,7 +556,7 @@ Replace syrup bags and refill topping containers as needed, using only approved 
 
 ## Settings and Configuration
 
-![Device Settings Interface](assets/operation/device-settings.webp)
+<div class="image-placeholder">DEVICE SETTINGS INTERFACE</div>
 
 <div class="feature-grid grid-2">
 

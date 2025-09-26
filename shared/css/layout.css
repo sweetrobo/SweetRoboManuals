@@ -737,6 +737,15 @@
 }
 
 /* =================================== */
+/* SEARCH WRAPPER */
+/* =================================== */
+
+/* Fix search wrapper getting hidden behind sticky menu bar */
+#search-wrapper {
+  padding-top: calc(var(--menu-bar-height) + 10px);
+}
+
+/* =================================== */
 /* WIDTH & HEIGHT UTILITIES */
 /* =================================== */
 

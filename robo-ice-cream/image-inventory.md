@@ -33,8 +33,8 @@
 
 #### Operation (4)
 - `backend-access-position.webp` - DUPLICATE (remove)
-- `device-settings.webp` - Device settings screen
-- `management-interface.webp` - Management interface screen
+- `device-settings.webp` - MOVED TO CANDY MONSTER (was incorrectly placed)
+- `management-interface.webp` - MOVED TO CANDY MONSTER (was incorrectly placed)
 - `password-input-screen.webp` - Password entry screen
 
 #### Setup (4)

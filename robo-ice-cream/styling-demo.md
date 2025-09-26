@@ -1147,7 +1147,7 @@ This creates a distinctive visual element that's perfect for:
 Each step combines text instructions with a supporting image. The layout automatically numbers steps with blue circles matching the brand color. On desktop, text and images appear side-by-side for easy reference.
 </div>
 <div class="step-image">
-<img src="./assets/operation/device-settings.webp" alt="Device Settings Interface" />
+<div class="image-placeholder">DEVICE SETTINGS INTERFACE</div>
 </div>
 </div>
 
@@ -1157,7 +1157,7 @@ Each step combines text instructions with a supporting image. The layout automat
 On mobile devices, the layout stacks vertically with text above the image. This ensures readability on all screen sizes. The numbered circles remain prominent regardless of screen size.
 </div>
 <div class="step-image">
-<img src="./assets/operation/management-interface.webp" alt="Management Interface" />
+<div class="image-placeholder">MANAGEMENT INTERFACE</div>
 </div>
 </div>
 
