@@ -218,6 +218,22 @@
         margin-bottom: 0.6rem;
     }
 
+    /* Keep Critical Requirements heading prominent in print */
+    .content h3[style*="color: var(--primary-blue)"] {
+        font-size: 1.5rem !important;
+        font-weight: bold !important;
+        color: var(--primary-blue) !important;
+    }
+
+    /* Preserve blue background box for Critical Requirements in print */
+    div[style*="background: #e6f3ff"] {
+        background-color: #e6f3ff !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        border: 1px solid #b3d9ff !important;
+    }
+
     /* Hide navigation */
     nav, .nav-wrapper, .nav-chapters, .sidebar {
         display: none !important;
@@ -236,9 +252,9 @@
         height: 60px;
     }
 
-    /* Setup flow compact for print */
+    /* Setup flow compact 2-column for print */
     .setup-flow {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
 

@@ -6,6 +6,9 @@ language = "en"
 multilingual = false
 src = "."
 
+[build]
+build-dir = "../build/robo-ice-cream-quick-start"
+
 [output.html]
 additional-css = [
     "shared/css/variables.css",
@@ -13,9 +16,11 @@ additional-css = [
     "shared/css/components.css",
     "shared/css/images.css",
     "shared/css/layout.css",
+    "shared/css/conditional.css",
     "shared/css/custom-print.css",
     "quick-start-theme.css"
 ]
+additional-js = ["shared/js/custom.js"]
 mathjax-support = false
 copy-fonts = true
 no-section-label = true

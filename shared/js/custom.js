@@ -718,6 +718,13 @@
               position: fixed !important;
               z-index: 10000 !important;
             }
+
+            body.print-preview .manual-print-controls {
+              display: block !important;
+              visibility: visible !important;
+              position: fixed !important;
+              z-index: 10000 !important;
+            }
           }
 
           /* Ensure colors print correctly */
