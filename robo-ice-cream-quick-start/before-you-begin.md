@@ -1,9 +1,5 @@
 # Before You Begin
 
-<div class="quick-start-content">
-
-<div class="quick-start-text">
-
 ## Space Requirements
 
 <div class="requirement-box">
@@ -42,13 +38,9 @@ Your shipment contains:
 - **Digital multimeter:** MT87 for electrical diagnostics
 - **Power cord** with NEMA 6-20P plug and machine keys
 
-</div>
-
-<div class="quick-start-image">
-<img src="../robo-ice-cream/assets/setup/whats-included-partial.webp" alt="Essential components included with your Robo Ice Cream machine - key tools and accessories for quick setup" />
+<div style="text-align: center; margin: 2rem 0;">
+<img src="../robo-ice-cream/assets/setup/whats-included-partial.webp" alt="Essential components included with your Robo Ice Cream machine - key tools and accessories for quick setup" style="max-width: 100%; height: auto;" />
 <p style="margin-top: 1rem; text-align: center; font-style: italic; color: #666;">Components included with your machine</p>
-</div>
-
 </div>
 
 <hr style="margin: 2rem 0; border: none; border-top: 2px solid #e0e0e0;">
