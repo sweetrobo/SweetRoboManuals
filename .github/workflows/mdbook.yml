@@ -47,11 +47,13 @@ jobs:
       - name: Build all manuals
         run: |
           cd robo-ice-cream && mdbook build && cd ..
+          cd robo-ice-cream-quick-start && mdbook build && cd ..
           cd candy-monster && mdbook build && cd ..
           cd pop-cart && mdbook build && cd ..
       - name: Copy built manuals to site directory
         run: |
           cp -r build/robo-ice-cream site/
+          cp -r build/robo-ice-cream-quick-start site/
           cp -r build/candy-monster site/
           cp -r build/pop-cart site/
       - name: Upload artifact
