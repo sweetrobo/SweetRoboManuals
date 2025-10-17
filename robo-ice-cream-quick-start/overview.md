@@ -5,7 +5,7 @@
 <h1>Robo Ice Cream F1/F2</h1>
 <div class="subtitle">Quick Start Setup Guide</div>
 
-<div class="setup-flow">
+<div class="setup-flow print-two-column">
 
 <div class="setup-step">
 <div class="setup-step-number">1</div>

@@ -10,13 +10,39 @@
 <strong>F1/F2 Difference:</strong> F1 has single hopper, F2 has dual hoppers (Left & Right)
 </div>
 
-<ol class="quick-steps">
-<li><strong>Add warm water:</strong> Pour ~2L warm water into each hopper</li>
-<li><strong>Sanitize interior:</strong> Wipe with food-grade sanitizing solution</li>
-<li><strong>Rinse thoroughly:</strong> Use clean warm water to remove all sanitizer</li>
-<li><strong>Discharge water:</strong> Use backend system to open chambers and discharge water</li>
-<li><strong>Air dry:</strong> Wipe with clean, food-safe cloth and leave open to air dry</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Add warm water:</strong> Pour ~2L warm water into each hopper
+</div>
+</div>
+
+<div>
+<div>
+<strong>Sanitize interior:</strong> Wipe with food-grade sanitizing solution
+</div>
+</div>
+
+<div>
+<div>
+<strong>Rinse thoroughly:</strong> Use clean warm water to remove all sanitizer
+</div>
+</div>
+
+<div>
+<div>
+<strong>Discharge water:</strong> Use backend system to open chambers and discharge water
+</div>
+</div>
+
+<div>
+<div>
+<strong>Air dry:</strong> Wipe with clean, food-safe cloth and leave open to air dry
+</div>
+</div>
+
+</div>
 
 </div>
 
@@ -41,13 +67,39 @@ Hopper cleaning process
 <strong>🚨 CRITICAL:</strong> Never power on without mix - causes "core board error"!
 </div>
 
-<ol class="quick-steps">
-<li><strong>Mix ratio:</strong> 1 bag (1.5kg powder) + ~3.5L water per batch</li>
-<li><strong>Use mixing bucket:</strong> Combine ingredients in the 10L graduated bucket</li>
-<li><strong>Whisk thoroughly:</strong> Use provided whisk to ensure no lumps remain</li>
-<li><strong>Prepare both batches:</strong> F2 requires mix for both hoppers before powering on</li>
-<li><strong>Check consistency:</strong> Mix should be smooth and uniform</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Mix ratio:</strong> 1 bag (1.5kg powder) + ~3.5L water per batch
+</div>
+</div>
+
+<div>
+<div>
+<strong>Use mixing bucket:</strong> Combine ingredients in the 10L graduated bucket
+</div>
+</div>
+
+<div>
+<div>
+<strong>Whisk thoroughly:</strong> Use provided whisk to ensure no lumps remain
+</div>
+</div>
+
+<div>
+<div>
+<strong>Prepare both batches:</strong> F2 requires mix for both hoppers before powering on
+</div>
+</div>
+
+<div>
+<div>
+<strong>Check consistency:</strong> Mix should be smooth and uniform
+</div>
+</div>
+
+</div>
 
 <p style="margin-top: 1rem; font-style: italic; color: #666;">For detailed mixing instructions, scan QR code below.</p>
 
@@ -70,14 +122,45 @@ Mix preparation with bucket and whisk
 
 <div class="quick-start-text">
 
-<ol class="quick-steps">
-<li><strong>Open hopper lids:</strong> F1: single hopper / F2: both Left and Right hoppers</li>
-<li><strong>Pour slowly:</strong> Add prepared mix carefully to avoid splashing</li>
-<li><strong>Minimum fill:</strong> 2 liters per hopper (must fill all hoppers on your model)</li>
-<li><strong>Maximum capacity:</strong> 12 liters per hopper</li>
-<li><strong>Check fill level:</strong> Keep below square openings on white tubes (for air flow)</li>
-<li><strong>Close lids:</strong> Secure hopper lids after filling</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Open hopper lids:</strong> F1: single hopper / F2: both Left and Right hoppers
+</div>
+</div>
+
+<div>
+<div>
+<strong>Pour slowly:</strong> Add prepared mix carefully to avoid splashing
+</div>
+</div>
+
+<div>
+<div>
+<strong>Minimum fill:</strong> 2 liters per hopper (must fill all hoppers on your model)
+</div>
+</div>
+
+<div>
+<div>
+<strong>Maximum capacity:</strong> 12 liters per hopper
+</div>
+</div>
+
+<div>
+<div>
+<strong>Check fill level:</strong> Keep below square openings on white tubes (for air flow)
+</div>
+</div>
+
+<div>
+<div>
+<strong>Close lids:</strong> Secure hopper lids after filling
+</div>
+</div>
+
+</div>
 
 </div>
 

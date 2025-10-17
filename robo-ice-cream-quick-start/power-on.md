@@ -6,13 +6,39 @@
 
 <div class="quick-start-text">
 
-<ol class="quick-steps">
-<li><strong>Connect power:</strong> Plug NEMA 6-20P power cord into dedicated 220V/20A outlet</li>
-<li><strong>Power on machine:</strong> Turn on the main power switch</li>
-<li><strong>Initial startup:</strong> Allow system to initialize (may take 5-10 minutes)</li>
-<li><strong>Check displays:</strong> Verify all status indicators are normal</li>
-<li><strong>Wait for ready:</strong> System will indicate when ready for operation</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Connect power:</strong> Plug NEMA 6-20P power cord into dedicated 220V/20A outlet
+</div>
+</div>
+
+<div>
+<div>
+<strong>Power on machine:</strong> Turn on the main power switch
+</div>
+</div>
+
+<div>
+<div>
+<strong>Initial startup:</strong> Allow system to initialize (may take 5-10 minutes)
+</div>
+</div>
+
+<div>
+<div>
+<strong>Check displays:</strong> Verify all status indicators are normal
+</div>
+</div>
+
+<div>
+<div>
+<strong>Wait for ready:</strong> System will indicate when ready for operation
+</div>
+</div>
+
+</div>
 
 <div style="background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 8px; padding: 1rem; margin: 1rem 0;">
 <strong>⚡ Safety:</strong> If machine was tilted during transport, wait 24 hours before powering on.
@@ -37,21 +63,44 @@ Control panel and power connection
 
 <div class="quick-start-text">
 
-<ol class="quick-steps">
-<li><strong>Check temperature:</strong> Hopper temperatures should be below 5°C (41°F)</li>
-<li><strong>Verify cup supply:</strong> Ensure cups are loaded and dispensing properly</li>
-<li><strong>Test customer interface:</strong> Navigate through the touchscreen menus</li>
-<li><strong>Make test serving:</strong> Create your first ice cream to verify operation</li>
-<li><strong>Check consistency:</strong> Ice cream should be proper texture and temperature</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Check temperature:</strong> Hopper temperatures should be below 5°C (41°F)
+</div>
+</div>
+
+<div>
+<div>
+<strong>Verify cup supply:</strong> Ensure cups are loaded and dispensing properly
+</div>
+</div>
+
+<div>
+<div>
+<strong>Test customer interface:</strong> Navigate through the touchscreen menus
+</div>
+</div>
+
+<div>
+<div>
+<strong>Make test serving:</strong> Create your first ice cream to verify operation
+</div>
+</div>
+
+<div>
+<div>
+<strong>Check consistency:</strong> Ice cream should be proper texture and temperature
+</div>
+</div>
+
+</div>
 
 </div>
 
 <div class="quick-start-image">
-<div style="background: #f0f0f0; border: 2px dashed #ccc; border-radius: 8px; padding: 2rem; text-align: center; color: #666;">
-IMAGE PLACEHOLDER<br>
-First ice cream being dispensed
-</div>
+<img src="../robo-ice-cream/assets/ready/completed-ice-cream-cup.webp" alt="First completed ice cream cup" />
 </div>
 
 </div>
@@ -99,12 +148,16 @@ Your Robo Ice Cream machine is now ready for operation!
 
 <div class="quick-start-image">
 <div style="text-align: center;">
-<div class="qr-code" style="width: 120px; height: 120px; margin: 0 auto 1rem;">QR CODE</div>
+<div class="qr-code-wrapper" style="display: inline-block; margin: 0 auto 1rem;">
+<a href="https://manuals.sweetrobo.com/robo-ice-cream/" style="display: block;">
+<img src="../robo-ice-cream/assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" style="width: 120px; height: 120px; border-radius: 8px;" />
+</a>
+</div>
 <div class="qr-text" style="font-weight: bold;">Complete Technical Manual</div>
 <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
 Sweet Robo Support:<br>
 <strong>support@sweetrobo.com</strong><br>
-1-800-SWEET-RO
+1-844-SWEETRB | (844) 793-3872
 </p>
 </div>
 </div>

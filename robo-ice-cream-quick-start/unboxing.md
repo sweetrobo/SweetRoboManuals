@@ -6,13 +6,39 @@
 
 <div class="quick-start-text">
 
-<ol class="quick-steps">
-<li><strong>Check transport position:</strong> Confirm with delivery personnel that machine remained upright during entire transport</li>
-<li><strong>Inspect packaging:</strong> Check outer packaging for visible damage and note any issues on delivery receipt</li>
-<li><strong>Verify order:</strong> Confirm Model, Serial Number, and Delivery Date match your documentation</li>
-<li><strong>Document damage:</strong> If damage suspected, photograph before unboxing for insurance claims</li>
-<li><strong>Contact support:</strong> Report any damage or missing parts to Sweet Robo immediately</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Check transport position:</strong> Confirm with delivery personnel that machine remained upright during entire transport
+</div>
+</div>
+
+<div>
+<div>
+<strong>Inspect packaging:</strong> Check outer packaging for visible damage and note any issues on delivery receipt
+</div>
+</div>
+
+<div>
+<div>
+<strong>Verify order:</strong> Confirm Model, Serial Number, and Delivery Date match your documentation
+</div>
+</div>
+
+<div>
+<div>
+<strong>Document damage:</strong> If damage suspected, photograph before unboxing for insurance claims
+</div>
+</div>
+
+<div>
+<div>
+<strong>Contact support:</strong> Report any damage or missing parts to Sweet Robo immediately
+</div>
+</div>
+
+</div>
 
 </div>
 
@@ -37,13 +63,39 @@ Delivery inspection checklist
 <strong>⚠️ Two or more people required!</strong> Use pallet jack for long distances.
 </div>
 
-<ol class="quick-steps">
-<li><strong>Move carefully:</strong> Transport to final operating location using appropriate equipment</li>
-<li><strong>Keep upright:</strong> Never tilt or rock the machine due to refrigerant system</li>
-<li><strong>Level the machine:</strong> Ensure all four feet are firmly on ground and machine is level</li>
-<li><strong>Lock feet:</strong> Adjust feet as needed, then lock in place with locking collars</li>
-<li><strong>Verify clearances:</strong> Confirm all required clearances are met (see requirements)</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Move carefully:</strong> Transport to final operating location using appropriate equipment
+</div>
+</div>
+
+<div>
+<div>
+<strong>Keep upright:</strong> Never tilt or rock the machine due to refrigerant system
+</div>
+</div>
+
+<div>
+<div>
+<strong>Level the machine:</strong> Ensure all four feet are firmly on ground and machine is level
+</div>
+</div>
+
+<div>
+<div>
+<strong>Lock feet:</strong> Adjust feet as needed, then lock in place with locking collars
+</div>
+</div>
+
+<div>
+<div>
+<strong>Verify clearances:</strong> Confirm all required clearances are met (see requirements)
+</div>
+</div>
+
+</div>
 
 </div>
 
@@ -68,14 +120,45 @@ Machine positioning with clearance measurements
 <strong>🚨 Do NOT power on</strong> until this inspection is complete and ice cream mix is loaded!
 </div>
 
-<ol class="quick-steps">
-<li><strong>Open service door:</strong> Unlock and open using keys attached to power cord</li>
-<li><strong>Check components:</strong> Inspect for loose wires, plugs, pipes, or shifted components</li>
-<li><strong>Remove packaging:</strong> Clear ALL foam, zip ties (except permanent wire ties), and packaging materials</li>
-<li><strong>Check all areas:</strong> Inspect delivery bot area and all compartments</li>
-<li><strong>Locate accessories:</strong> Find accessory kit stored inside machine</li>
-<li><strong>Verify connections:</strong> Ensure all cables and connectors are properly seated and secure</li>
-</ol>
+<div class="numbered-steps">
+
+<div>
+<div>
+<strong>Open service door:</strong> Unlock and open using keys attached to power cord
+</div>
+</div>
+
+<div>
+<div>
+<strong>Check components:</strong> Inspect for loose wires, plugs, pipes, or shifted components
+</div>
+</div>
+
+<div>
+<div>
+<strong>Remove packaging:</strong> Clear ALL foam, zip ties (except permanent wire ties), and packaging materials
+</div>
+</div>
+
+<div>
+<div>
+<strong>Check all areas:</strong> Inspect delivery bot area and all compartments
+</div>
+</div>
+
+<div>
+<div>
+<strong>Locate accessories:</strong> Find accessory kit stored inside machine
+</div>
+</div>
+
+<div>
+<div>
+<strong>Verify connections:</strong> Ensure all cables and connectors are properly seated and secure
+</div>
+</div>
+
+</div>
 
 </div>
 

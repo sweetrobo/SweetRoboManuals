@@ -272,8 +272,16 @@
     margin: 0 !important;
     margin-top: 10px !important;
     padding: 5px 10px !important;
+    color: #000 !important;
   }
   .feature-item h4 {
+    margin-top: 0 !important;
+  }
+
+  /* Override header padding for headers inside numbered steps to prevent excessive indentation */
+  .numbered-steps h3,
+  .numbered-steps h4 {
+    padding: 2px 5px !important;
     margin-top: 0 !important;
   }
   
@@ -360,6 +368,32 @@
   .numbered-steps > div {
     /* page-break-inside: avoid !important; */
     margin-bottom: 10px !important;
+    /* Reduce padding to match smaller circle size in print */
+    padding-left: 2.5em !important;
+  }
+
+  /* Add spacing for content inside numbered steps */
+  .numbered-steps > div > div {
+    /* Adjust vertical alignment for smaller circles */
+    padding-top: 0.2em !important;
+  }
+
+  /* Ensure proper spacing between elements in steps */
+  .numbered-steps h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0.3em !important;
+    padding: 2px 5px !important;
+  }
+
+  .numbered-steps p,
+  .numbered-steps ul,
+  .numbered-steps ol {
+    margin-top: 0.2em !important;
+    margin-bottom: 0.3em !important;
+  }
+
+  .numbered-steps strong {
+    color: #000 !important;
   }
   
   .numbered-steps-with-images .step-with-image {
@@ -568,11 +602,18 @@
   /* =================================== */
   /* ORPHAN AND WIDOW CONTROL */
   /* =================================== */
-  
+
   p {
     orphans: 3;
     widows: 3;
     margin: 0 !important;
+    color: #000 !important;
+  }
+
+  /* Exception: Add spacing for paragraphs inside numbered steps */
+  .numbered-steps p {
+    margin-top: 0.2em !important;
+    margin-bottom: 0.3em !important;
   }
   
   /* =================================== */

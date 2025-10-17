@@ -184,13 +184,53 @@
 
 /* Print-specific styles */
 @media print {
-    /* Ensure two-column layout works in print */
+    /* Ensure two-column layout works in print - high specificity to override globals */
+    html body .content .quick-start-content,
     .quick-start-content {
-        display: grid;
-        grid-template-columns: 60% 38%;
-        gap: 2%;
-        page-break-inside: avoid;
-        margin: 0.5rem 0;
+        display: grid !important;
+        grid-template-columns: 60% 38% !important;
+        gap: 2% !important;
+        page-break-inside: avoid !important;
+        margin: 0.5rem 0 !important;
+    }
+
+    /* Preserve the text column */
+    html body .content .quick-start-text,
+    .quick-start-text {
+        display: block !important;
+    }
+
+    /* Preserve the image column */
+    html body .content .quick-start-image,
+    .quick-start-image {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    /* Two-column numbered steps for compact layouts */
+    .numbered-steps.two-column,
+    .numbered-steps-two-column {
+        column-count: 2 !important;
+        column-gap: 2em !important;
+        break-inside: avoid-column !important;
+    }
+
+    .numbered-steps.two-column > div,
+    .numbered-steps-two-column > div {
+        break-inside: avoid-column !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Adjust numbered steps for narrower columns in two-column layout */
+    .quick-start-content .numbered-steps > div {
+        padding-left: 3em !important;
+        margin-bottom: 0.8em !important;
+    }
+
+    .quick-start-content .numbered-steps > div::before {
+        width: 2em !important;
+        height: 2em !important;
+        font-size: 1em !important;
     }
 
     /* Page breaks */
