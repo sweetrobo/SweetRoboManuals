@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Ice Cream Quick Start Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            background: white;
+            padding: 40px 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #007bff, #0056b3, #007bff);
+            background-size: 200% 100%;
+            animation: gradient 3s ease infinite;
+        }
+
+        @keyframes gradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .header h1 {
+            color: #007bff;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 123, 255, 0.1);
+        }
+
+        .header h2 {
+            color: #6c757d;
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+
+        .critical-requirements {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .critical-requirements::before {
+            content: '⚠️';
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2rem;
+            opacity: 0.7;
+        }
+
+        .critical-requirements h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .critical-requirements h3::before {
+            content: '🚨';
+        }
+
+        .requirements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .requirement-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid white;
+        }
+
+        .requirement-item strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .step-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .step-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+        }
+
+        .step-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .step-description {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .footer-item::before {
+            content: '⏱️';
+            font-size: 1.2rem;
+        }
+
+        .footer-item:last-child::before {
+            content: '🤖';
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header h2 {
+                font-size: 1.1rem;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .requirements-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .step-card {
+                padding: 25px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 30px 15px;
+            }
+
+            .critical-requirements {
+                padding: 20px;
+            }
+
+            .step-card {
+                padding: 20px;
+            }
+
+            .step-number {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            .step-title {
+                font-size: 1.1rem;
+            }
+        }
+
+        /* Smooth scroll behavior */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Loading animation */
+        .step-card {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .step-card:nth-child(1) { animation-delay: 0.1s; }
+        .step-card:nth-child(2) { animation-delay: 0.2s; }
+        .step-card:nth-child(3) { animation-delay: 0.3s; }
+        .step-card:nth-child(4) { animation-delay: 0.4s; }
+        .step-card:nth-child(5) { animation-delay: 0.5s; }
+        .step-card:nth-child(6) { animation-delay: 0.6s; }
+        .step-card:nth-child(7) { animation-delay: 0.7s; }
+        .step-card:nth-child(8) { animation-delay: 0.8s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Pulse effect for critical requirements */
+        .critical-requirements {
+            animation: pulse 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse {
+            from {
+                box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+            }
+            to {
+                box-shadow: 0 8px 35px rgba(255, 107, 107, 0.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Robo Ice Cream Quick Start Guide</h1>
+            <h2>Robo Ice Cream F1/F2 Quick Start Setup Guide</h2>
+        </header>
+
+        <section class="critical-requirements">
+            <h3>Critical Requirements</h3>
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <strong>Power</strong>
+                    Requires 220V/20A dedicated circuit
+                </div>
+                <div class="requirement-item">
+                    <strong>Mix</strong>
+                    Never power on without ice cream mix in hoppers
+                </div>
+                <div class="requirement-item">
+                    <strong>Transport</strong>
+                    Machine must remain upright at all times
+                </div>
+            </div>
+        </section>
+
+        <main class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3 class="step-title">Unbox & Inspect</h3>
+                <p class="step-description">Carefully remove the machine from packaging and inspect for any shipping damage. Check that all components are included and undamaged before proceeding.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Position Machine</h3>
+                <p class="step-description">Place the machine in its final location with adequate ventilation space. Ensure the surface is level and can support the machine's weight (approximately 150 lbs).</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3 class="step-title">Interior Check</h3>
+                <p class="step-description">Open the machine and verify all internal components are properly secured. Check for any loose parts or damage that may have occurred during shipping.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h3 class="step-title">Install Hardware</h3>
+                <p class="step-description">Install the mixing blades, dispensing valves, and any other removable components according to the included hardware guide. Ensure all connections are secure.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">5</div>
+                <h3 class="step-title">Sanitize System</h3>
+                <p class="step-description">Run the sanitization cycle using approved cleaning solution. This ensures the machine is hygienically ready for food service and removes any manufacturing residues.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">6</div>
+                <h3 class="step-title">Prepare Mix</h3>
+                <p class="step-description">Prepare your ice cream mix according to manufacturer specifications. Ensure the mix is at the proper temperature and consistency before loading into hoppers.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">7</div>
+                <h3 class="step-title">Load Hoppers</h3>
+                <p class="step-description">Fill both hoppers with prepared ice cream mix. Check that hoppers are properly seated and sealed to prevent leaks during operation.</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">8</div>
+                <h3 class="step-title">Power On & Test</h3>
+                <p class="step-description">Connect to 220V power source and turn on the machine. Run initial test cycles to verify proper operation and dispense quality before opening for service.</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-item">Estimated setup time: 60-90 minutes</div>
+                <div class="footer-item">Works with both F1 and F2 models</div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

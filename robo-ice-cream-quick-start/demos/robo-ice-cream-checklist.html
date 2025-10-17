@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Ice Cream Quick Start Checklist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #fafafa;
+        }
+
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 3rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            border-bottom: 3px solid #007acc;
+            padding-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .checklist-item:hover {
+            border-color: #007acc;
+            box-shadow: 0 2px 8px rgba(0, 122, 204, 0.1);
+        }
+
+        .checklist-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 1rem;
+            margin-top: 0.2rem;
+            accent-color: #007acc;
+            cursor: pointer;
+        }
+
+        .checklist-content {
+            flex: 1;
+        }
+
+        .checklist-content h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.3rem;
+        }
+
+        .checklist-content p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: #007acc;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        .requirements {
+            background: #f8f9fa;
+            border: 1px solid #007acc;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .requirements h2 {
+            color: #007acc;
+            border-bottom: none;
+            margin-bottom: 1rem;
+        }
+
+        .requirement-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+        }
+
+        .requirement-item input[type="checkbox"] {
+            margin-right: 1rem;
+            accent-color: #dc3545;
+        }
+
+        .requirement-item strong {
+            color: #333;
+            margin-right: 0.5rem;
+        }
+
+        .notes-section {
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            padding: 2rem;
+            background: #fafafa;
+        }
+
+        .notes-section h2 {
+            border-bottom: none;
+            margin-bottom: 1rem;
+        }
+
+        .notes-area {
+            min-height: 120px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 1rem;
+            font-family: inherit;
+            line-height: 1.6;
+            resize: vertical;
+        }
+
+        .timestamp-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .timestamp-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .timestamp-item label {
+            font-weight: 500;
+            color: #666;
+            white-space: nowrap;
+        }
+
+        .timestamp-item input {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 0.5rem;
+            font-family: inherit;
+        }
+
+        .footer {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 1rem;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 1rem;
+            }
+
+            .checklist-item {
+                break-inside: avoid;
+                margin-bottom: 1rem;
+            }
+
+            .section {
+                break-inside: avoid;
+            }
+
+            .notes-area {
+                min-height: 80px;
+            }
+        }
+
+        /* Checked state styling */
+        .checklist-item input[type="checkbox"]:checked + .checklist-content {
+            opacity: 0.6;
+        }
+
+        .checklist-item input[type="checkbox"]:checked + .checklist-content h3 {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Robo Ice Cream Quick Start Guide</h1>
+            <div class="subtitle">Robo Ice Cream F1/F2 Setup Checklist</div>
+        </div>
+
+        <div class="section requirements">
+            <h2>⚠️ Critical Requirements</h2>
+            <div class="requirement-item">
+                <input type="checkbox" id="req-power">
+                <label for="req-power"><strong>Power:</strong> 220V/20A dedicated circuit with NEMA 6-20R outlet installed</label>
+            </div>
+            <div class="requirement-item">
+                <input type="checkbox" id="req-space">
+                <label for="req-space"><strong>Space:</strong> 137 × 170 × 265 cm minimum clearance verified</label>
+            </div>
+            <div class="requirement-item">
+                <input type="checkbox" id="req-upright">
+                <label for="req-upright"><strong>Transport:</strong> Machine remained upright during transport</label>
+            </div>
+            <div class="requirement-item">
+                <input type="checkbox" id="req-mix">
+                <label for="req-mix"><strong>Mix Ready:</strong> Ice cream mix prepared - never power on without mix!</label>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Setup Steps</h2>
+            <ul class="checklist">
+                <li class="checklist-item">
+                    <input type="checkbox" id="step1">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">1</span>Unbox & Inspect</h3>
+                        <p>Check for damage, verify contents, and confirm machine remained upright during transport</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step2">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">2</span>Position Machine</h3>
+                        <p>Move to location, level the machine, and verify required clearances</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step3">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">3</span>Interior Check</h3>
+                        <p>Remove packaging, inspect components, and locate accessory kit</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step4">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">4</span>Install Hardware</h3>
+                        <p>Attach LED panels (optional) and install cup tubes with cups</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step5">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">5</span>Sanitize System</h3>
+                        <p>Clean hoppers with food-grade sanitizer and rinse thoroughly</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step6">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">6</span>Prepare Mix</h3>
+                        <p>Mix ice cream powder with water according to ratios</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step7">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">7</span>Load Hoppers</h3>
+                        <p>Fill both hoppers with prepared mix (minimum 2L each)</p>
+                    </div>
+                </li>
+
+                <li class="checklist-item">
+                    <input type="checkbox" id="step8">
+                    <div class="checklist-content">
+                        <h3><span class="step-number">8</span>Power On & Test</h3>
+                        <p>Connect power, start system, and make your first ice cream</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section notes-section">
+            <h2>Notes & Timestamps</h2>
+            <textarea class="notes-area" placeholder="Record any observations, issues, or additional notes during setup..."></textarea>
+
+            <div class="timestamp-grid">
+                <div class="timestamp-item">
+                    <label for="start-time">Start Time:</label>
+                    <input type="time" id="start-time">
+                </div>
+                <div class="timestamp-item">
+                    <label for="end-time">End Time:</label>
+                    <input type="time" id="end-time">
+                </div>
+                <div class="timestamp-item">
+                    <label for="setup-date">Setup Date:</label>
+                    <input type="date" id="setup-date">
+                </div>
+                <div class="timestamp-item">
+                    <label for="technician">Technician:</label>
+                    <input type="text" id="technician" placeholder="Name">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Estimated setup time:</strong> 60-90 minutes</p>
+            <p><strong>Compatible models:</strong> F1 (single hopper) and F2 (dual hopper)</p>
+            <p><strong>Support:</strong> For assistance, contact Sweet Robo technical support</p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-populate setup date with today's date
+        document.getElementById('setup-date').valueAsDate = new Date();
+
+        // Save checkbox states to localStorage
+        function saveCheckboxState(checkbox) {
+            localStorage.setItem(checkbox.id, checkbox.checked);
+        }
+
+        function loadCheckboxStates() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                const saved = localStorage.getItem(checkbox.id);
+                if (saved !== null) {
+                    checkbox.checked = saved === 'true';
+                }
+            });
+        }
+
+        // Add event listeners to all checkboxes
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', () => saveCheckboxState(checkbox));
+        });
+
+        // Load saved states on page load
+        loadCheckboxStates();
+
+        // Save form data to localStorage
+        function saveFormData() {
+            const formElements = ['start-time', 'end-time', 'setup-date', 'technician'];
+            formElements.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    localStorage.setItem(id, element.value);
+                }
+            });
+
+            const notes = document.querySelector('.notes-area');
+            if (notes) {
+                localStorage.setItem('setup-notes', notes.value);
+            }
+        }
+
+        function loadFormData() {
+            const formElements = ['start-time', 'end-time', 'setup-date', 'technician'];
+            formElements.forEach(id => {
+                const element = document.getElementById(id);
+                const saved = localStorage.getItem(id);
+                if (element && saved) {
+                    element.value = saved;
+                }
+            });
+
+            const notes = document.querySelector('.notes-area');
+            const savedNotes = localStorage.getItem('setup-notes');
+            if (notes && savedNotes) {
+                notes.value = savedNotes;
+            }
+        }
+
+        // Add event listeners for form elements
+        document.querySelectorAll('input, textarea').forEach(element => {
+            element.addEventListener('input', saveFormData);
+            element.addEventListener('change', saveFormData);
+        });
+
+        // Load saved form data on page load
+        loadFormData();
+    </script>
+</body>
+</html>

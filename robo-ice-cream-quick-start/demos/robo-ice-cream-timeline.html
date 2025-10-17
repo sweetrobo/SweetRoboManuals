@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo Ice Cream Quick Start Guide - Timeline</title>
+    <style>
+        /* CSS Variables for consistent theming */
+        :root {
+            --primary-blue: #2563eb;
+            --accent-blue: #3b82f6;
+            --light-blue: #e6f3ff;
+            --warning-orange: #f59e0b;
+            --warning-light: #fef3c7;
+            --success-green: #10b981;
+            --text-dark: #1f2937;
+            --text-gray: #6b7280;
+            --border-gray: #d1d5db;
+            --bg-gray: #f9fafb;
+        }
+
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem 0.5rem;
+        }
+
+        /* Header section */
+        .header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--primary-blue);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            color: var(--primary-blue);
+            margin-bottom: 0.25rem;
+            font-weight: 700;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-gray);
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .header .meta-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: var(--text-gray);
+        }
+
+        .meta-info-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .meta-info-item .icon {
+            font-size: 1.1rem;
+        }
+
+        /* Timeline container */
+        .timeline {
+            position: relative;
+            margin: 1.5rem 0;
+            height: 1000px;
+        }
+
+        /* Vertical line */
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, var(--primary-blue), var(--accent-blue));
+            transform: translateX(-50%);
+            border-radius: 2px;
+            z-index: 1;
+        }
+
+        /* Timeline item */
+        .timeline-item {
+            position: absolute;
+            width: 50%;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) {
+            right: 0;
+            text-align: left;
+        }
+
+        .timeline-item:nth-child(1) { top: 0; }
+        .timeline-item:nth-child(2) { top: 130px; }
+        .timeline-item:nth-child(3) { top: 260px; }
+        .timeline-item:nth-child(4) { top: 390px; }
+        .timeline-item:nth-child(5) { top: 520px; }
+        .timeline-item:nth-child(6) { top: 650px; }
+        .timeline-item:nth-child(7) { top: 780px; }
+        .timeline-item:nth-child(8) { top: 910px; }
+
+        /* Timeline content box */
+        .timeline-content {
+            background: white;
+            border: 2px solid var(--border-gray);
+            border-radius: 12px;
+            padding: 1.2rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            width: 90%;
+            position: relative;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: 10px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: 10px;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            border-color: var(--primary-blue);
+        }
+
+        /* Arrow pointing to timeline */
+        .timeline-content::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 0;
+            height: 0;
+            border: 15px solid transparent;
+            transform: translateY(-50%);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content::before {
+            right: -30px;
+            border-left-color: var(--border-gray);
+        }
+
+        .timeline-item:nth-child(even) .timeline-content::before {
+            left: -30px;
+            border-right-color: var(--border-gray);
+        }
+
+        .timeline-content:hover::before {
+            border-left-color: var(--primary-blue);
+            border-right-color: var(--primary-blue);
+        }
+
+        /* Numbers positioned directly on the timeline */
+        .timeline-number {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: bold;
+            z-index: 10;
+            box-shadow: 0 3px 12px rgba(37, 99, 235, 0.4);
+            border: 4px solid white;
+        }
+
+        /* Connector lines from timeline numbers to cards */
+        .timeline-content::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 3px;
+            background: var(--primary-blue);
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content::before {
+            right: -40px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content::before {
+            left: -40px;
+        }
+
+        /* Content styling */
+        .timeline-content h3 {
+            color: var(--primary-blue);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .timeline-content p {
+            color: var(--text-gray);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-content .details {
+            background: var(--bg-gray);
+            padding: 0.75rem;
+            border-radius: 6px;
+            border-left: 3px solid var(--primary-blue);
+            font-size: 0.85rem;
+            color: var(--text-dark);
+        }
+
+        /* Critical requirements callout */
+        .critical-requirements {
+            background: linear-gradient(135deg, var(--warning-light), #fef7e3);
+            border: 2px solid var(--warning-orange);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin: 2rem 0;
+            position: relative;
+            box-shadow: 0 2px 12px rgba(245, 158, 11, 0.12);
+        }
+
+        .critical-requirements::before {
+            content: '⚠️';
+            position: absolute;
+            top: -15px;
+            left: 2rem;
+            background: var(--warning-orange);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+        }
+
+        .critical-requirements h3 {
+            color: #92400e;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            margin-left: 1.5rem;
+            font-weight: 600;
+        }
+
+        .requirements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .requirement-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 3px solid var(--warning-orange);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .requirement-item strong {
+            color: #92400e;
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .requirement-item p {
+            color: var(--text-dark);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        /* Footer info */
+        .footer-info {
+            background: var(--light-blue);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 3rem;
+            border: 1px solid #bfdbfe;
+        }
+
+        .footer-info p {
+            margin: 0.5rem 0;
+            color: var(--text-dark);
+        }
+
+        .footer-info .setup-time {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+
+        /* Progress indicator */
+        .progress-indicator {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            border: 2px solid var(--primary-blue);
+            border-radius: 50px;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            color: var(--primary-blue);
+            font-weight: 600;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                color: black;
+            }
+
+            .container {
+                max-width: none;
+                padding: 0.5in;
+            }
+
+            .header {
+                page-break-after: avoid;
+                margin-bottom: 2rem;
+            }
+
+            .timeline::before {
+                background: #333;
+            }
+
+            .timeline-number {
+                background: #333;
+                border-color: white;
+                box-shadow: none;
+            }
+
+            .timeline-content {
+                box-shadow: none;
+                border: 1px solid #ccc;
+                page-break-inside: avoid;
+                margin-bottom: 1rem;
+            }
+
+            .timeline-content:hover {
+                transform: none;
+                box-shadow: none;
+            }
+
+            .critical-requirements {
+                page-break-inside: avoid;
+                box-shadow: none;
+                border: 2px solid #333;
+            }
+
+            .requirement-item {
+                box-shadow: none;
+                border: 1px solid #ccc;
+            }
+
+            .progress-indicator {
+                display: none;
+            }
+
+            .footer-info {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .header .meta-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .timeline::before {
+                left: 30px;
+            }
+
+            .timeline-item {
+                flex-direction: row !important;
+                padding-left: 80px;
+            }
+
+            .timeline-content {
+                width: 100%;
+            }
+
+            .timeline-content::before {
+                display: none;
+            }
+
+            .timeline-number {
+                left: 30px;
+                transform: translateY(-50%);
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+
+            .requirements-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .progress-indicator {
+                position: static;
+                margin: 1rem auto;
+                display: inline-block;
+            }
+        }
+
+        /* Small mobile screens */
+        @media (max-width: 480px) {
+            .container {
+                padding: 1rem 0.5rem;
+            }
+
+            .timeline-content {
+                padding: 1.5rem;
+            }
+
+            .critical-requirements {
+                padding: 1.5rem;
+            }
+
+            .critical-requirements h3 {
+                margin-left: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Robo Ice Cream Quick Start Guide</h1>
+            <div class="subtitle">Robo Ice Cream F1/F2 Quick Start Setup Guide</div>
+            <div class="meta-info">
+                <div class="meta-info-item">
+                    <span class="icon">⏱️</span>
+                    <span>Setup Time: 60-90 minutes</span>
+                </div>
+                <div class="meta-info-item">
+                    <span class="icon">🤖</span>
+                    <span>Compatible: F1 & F2 Models</span>
+                </div>
+                <div class="meta-info-item">
+                    <span class="icon">📋</span>
+                    <span>8 Simple Steps</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Progress Indicator -->
+        <div class="progress-indicator">
+            Setup Progress: 0/8 Steps
+        </div>
+
+        <!-- Timeline -->
+        <div class="timeline">
+            <!-- Numbers on timeline -->
+            <div class="timeline-numbers">
+                <div class="timeline-number" style="top: 25px;">1</div>
+                <div class="timeline-number" style="top: 155px;">2</div>
+                <div class="timeline-number" style="top: 285px;">3</div>
+                <div class="timeline-number" style="top: 415px;">4</div>
+                <div class="timeline-number" style="top: 545px;">5</div>
+                <div class="timeline-number" style="top: 675px;">6</div>
+                <div class="timeline-number" style="top: 805px;">7</div>
+                <div class="timeline-number" style="top: 935px;">8</div>
+            </div>
+
+            <!-- Step 1 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Unbox & Inspect</h3>
+                    <p>Check for damage, verify contents, and confirm machine remained upright during transport</p>
+                    <div class="details">
+                        <strong>Key Actions:</strong> Visual inspection for shipping damage, inventory verification against packing list, ensure upright transport orientation was maintained throughout delivery process.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Position Machine</h3>
+                    <p>Move to location, level the machine, and verify required clearances</p>
+                    <div class="details">
+                        <strong>Requirements:</strong> Minimum 6" clearance on all sides, level surface within 1°, access to 220V/20A dedicated circuit with proper outlet configuration.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Interior Check</h3>
+                    <p>Remove packaging, inspect components, and locate accessory kit</p>
+                    <div class="details">
+                        <strong>Inspect:</strong> Remove all protective packaging materials, verify internal components are secure, locate and inventory accessory kit contents.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Install Hardware</h3>
+                    <p>Attach LED panels (optional) and install cup tubes with cups</p>
+                    <div class="details">
+                        <strong>Components:</strong> LED panel installation (if purchased), cup tube assembly, cup loading and alignment verification, secure all connections.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Sanitize System</h3>
+                    <p>Clean hoppers with food-grade sanitizer and rinse thoroughly</p>
+                    <div class="details">
+                        <strong>Process:</strong> Use food-grade sanitizer solution, clean all food-contact surfaces, rinse thoroughly with potable water, ensure no residue remains.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Prepare Mix</h3>
+                    <p>Mix ice cream powder with water according to ratios</p>
+                    <div class="details">
+                        <strong>Ratios:</strong> Follow manufacturer's mixing ratios precisely, use cold water (below 40°F), mix thoroughly until completely dissolved, strain if necessary.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 7 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Load Hoppers</h3>
+                    <p>Fill both hoppers with prepared mix (minimum 2L each)</p>
+                    <div class="details">
+                        <strong>Filling:</strong> Minimum 2L per hopper for proper operation, maximum fill line marked, ensure even distribution between hoppers for F2 models.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 8 -->
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Power On & Test</h3>
+                    <p>Connect power, start system, and make your first ice cream</p>
+                    <div class="details">
+                        <strong>Testing:</strong> Verify 220V power connection, system startup sequence, run initial test cycle, quality check first output, adjust settings as needed.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Critical Requirements -->
+        <div class="critical-requirements">
+            <h3>Critical Requirements</h3>
+            <div class="requirements-grid">
+                <div class="requirement-item">
+                    <strong>⚡ Power Requirements</strong>
+                    <p>220V/20A dedicated circuit with NEMA 6-20R outlet. Standard 110V household outlets will NOT work.</p>
+                </div>
+                <div class="requirement-item">
+                    <strong>🥤 Mix Requirements</strong>
+                    <p>Never power on without ice cream mix loaded. Minimum 2L per hopper required for safe operation.</p>
+                </div>
+                <div class="requirement-item">
+                    <strong>📦 Transport Requirements</strong>
+                    <p>Machine must remain upright at all times. Tilting can damage internal components and void warranty.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Information -->
+        <div class="footer-info">
+            <p class="setup-time">Estimated setup time: 60-90 minutes</p>
+            <p>This guide works with both F1 (single hopper) and F2 (dual hopper) models</p>
+            <p>For detailed instructions, refer to the complete manual or scan the QR code for digital access</p>
+        </div>
+    </div>
+
+    <script>
+        // Progress tracking functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const progressIndicator = document.querySelector('.progress-indicator');
+            const timelineItems = document.querySelectorAll('.timeline-item');
+            let completedSteps = 0;
+
+            // Add click handlers to timeline items
+            timelineItems.forEach((item, index) => {
+                const content = item.querySelector('.timeline-content');
+                const number = item.querySelector('.timeline-number');
+
+                content.addEventListener('click', function() {
+                    const isCompleted = item.classList.contains('completed');
+
+                    if (isCompleted) {
+                        item.classList.remove('completed');
+                        number.style.background = 'linear-gradient(135deg, var(--primary-blue), var(--accent-blue))';
+                        completedSteps--;
+                    } else {
+                        item.classList.add('completed');
+                        number.style.background = 'linear-gradient(135deg, var(--success-green), #059669)';
+                        completedSteps++;
+                    }
+
+                    updateProgress();
+                });
+            });
+
+            function updateProgress() {
+                progressIndicator.textContent = `Setup Progress: ${completedSteps}/8 Steps`;
+
+                if (completedSteps === 8) {
+                    progressIndicator.style.background = 'var(--success-green)';
+                    progressIndicator.style.color = 'white';
+                    progressIndicator.textContent = '✅ Setup Complete!';
+                } else {
+                    progressIndicator.style.background = 'white';
+                    progressIndicator.style.color = 'var(--primary-blue)';
+                }
+            }
+
+            // Add hover effects for better interactivity
+            timelineItems.forEach(item => {
+                const content = item.querySelector('.timeline-content');
+
+                content.addEventListener('mouseenter', function() {
+                    if (!item.classList.contains('completed')) {
+                        content.style.borderColor = 'var(--primary-blue)';
+                        content.style.cursor = 'pointer';
+                    }
+                });
+
+                content.addEventListener('mouseleave', function() {
+                    if (!item.classList.contains('completed')) {
+                        content.style.borderColor = 'var(--border-gray)';
+                    }
+                });
+            });
+
+            // Add print-friendly behavior
+            window.addEventListener('beforeprint', function() {
+                // Mark all steps as completed for print version
+                timelineItems.forEach(item => {
+                    item.classList.add('print-completed');
+                });
+            });
+        });
+
+        // Add smooth scrolling for better UX
+        document.addEventListener('click', function(e) {
+            if (e.target.matches('.timeline-number')) {
+                e.target.closest('.timeline-item').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+            }
+        });
+    </script>
+</body>
+</html>
