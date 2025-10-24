@@ -106,14 +106,14 @@
   gap: 0 !important;
   margin-top: auto;
   width: 100% !important;
-  padding-top: 2em !important;
+  padding: 2em 10px 0 10px !important;
   border-top: 2px solid var(--border-light);
   flex-direction: row !important;
+  box-sizing: border-box !important;
 }
 
 .title-page-footer p {
   margin: 0.25em 0;
-  margin-left: 0.3cm;
   font-size: 0.9em;
   color: var(--text-medium);
 }
@@ -121,12 +121,12 @@
 /* Footer left section - revision info */
 .footer-left {
   text-align: left !important;
-  padding: 0 0 10px 10px;
+  padding: 0 0 10px 0;
   flex: 0 0 130px !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: flex-end !important;
-  
+
 }
 
 /* Footer machine image specific */
