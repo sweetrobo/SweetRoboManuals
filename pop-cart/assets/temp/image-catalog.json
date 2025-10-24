@@ -1,0 +1,1329 @@
+{
+  "project": "Pop Cart Manual",
+  "catalog_version": "1.0",
+  "last_updated": "2025-10-24T05:57:52Z",
+  "images": [
+    {
+      "original_filename": "photo_1_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "electronics_control_board_assembly.webp",
+      "description": "Internal control board assembly showing main circuit board with white connectors, power cables, and mounting hardware on red chassis",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "electronics",
+        "control-board",
+        "internal-components",
+        "wiring",
+        "circuit-board",
+        "technical"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows internal electronics mounting and wiring connections - useful for technical service documentation",
+      "processed": true,
+      "final_location": "assets/parts-service/electronics_control_board_assembly.webp"
+    },
+    {
+      "original_filename": "photo_2_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "dispensing_chute_stainless_chamber.webp",
+      "description": "Stainless steel dispensing chute assembly installed in red chassis, showing interior chamber and curved output path",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "dispensing",
+        "chute",
+        "stainless-steel",
+        "assembly",
+        "internal-view",
+        "mechanism"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows dispensing mechanism assembly - good for maintenance and parts identification",
+      "processed": true,
+      "final_location": "assets/parts-service/dispensing_chute_stainless_chamber.webp"
+    },
+    {
+      "original_filename": "photo_3_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "dispensing_chamber_interior_detail.webp",
+      "description": "Close-up interior view of stainless steel dispensing chamber showing curved funnel design and central roller mechanism",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "dispensing",
+        "interior",
+        "chamber",
+        "mechanism",
+        "detail",
+        "stainless-steel"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Detailed view of dispensing mechanism interior - useful for cleaning and maintenance procedures",
+      "processed": true,
+      "final_location": "assets/parts-service/dispensing_chamber_interior_detail.webp"
+    },
+    {
+      "original_filename": "photo_4_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "kernel_hopper_opening_assembly.webp",
+      "description": "Top-down view of kernel hopper opening with white rim guide and mounting hardware, showing dark interior chamber",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "hopper",
+        "kernel-storage",
+        "assembly",
+        "top-view",
+        "loading",
+        "components"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows hopper assembly and access point for kernel loading - good for operation and maintenance sections",
+      "processed": true,
+      "final_location": "assets/parts-service/kernel_hopper_opening_assembly.webp"
+    },
+    {
+      "original_filename": "photo_5_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "popcorn_cup_dispensing_position.webp",
+      "description": "Branded popcorn cup with red and cream striped design positioned in stainless steel dispensing slot, ready for filling",
+      "content_type": "photo",
+      "suggested_category": "operation",
+      "tags": [
+        "cup",
+        "dispensing",
+        "branded",
+        "customer-view",
+        "serving",
+        "popcorn-cup"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows proper cup positioning for dispensing - excellent for operation manual and customer instructions",
+      "processed": true,
+      "final_location": "assets/operation/popcorn_cup_dispensing_position.webp"
+    },
+    {
+      "original_filename": "photo_11_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "dual-popcorn-dispensers-interior.webp",
+      "description": "Interior view of dual popcorn dispensing cylinders labeled A and B with purple LED lighting and visible wiring",
+      "content_type": "photo",
+      "suggested_category": "overview",
+      "tags": [
+        "dispenser",
+        "interior",
+        "dual-cylinder",
+        "led-lighting",
+        "purple-light",
+        "popcorn-chamber",
+        "machine-components"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows the dual dispenser system with clear plastic cylinders, internal LED accent lighting (purple), and electrical wiring. One cylinder shows popcorn kernels at the bottom. Red interior cabinet visible.",
+      "processed": true,
+      "final_location": "assets/overview/dual-popcorn-dispensers-interior.webp"
+    },
+    {
+      "original_filename": "photo_12_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "payment-screen-order-summary.webp",
+      "description": "Payment screen showing order total of $589 with Blue Burst popcorn, Chipotle and Garlic toppings, offering credit card and cash payment options",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "payment",
+        "checkout",
+        "user-interface",
+        "touchscreen",
+        "order-summary",
+        "payment-methods",
+        "customer-screen"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Customer-facing payment interface with decorative popcorn cloud theme. Shows itemized order (Blue Burst $588, Chipotle x1 $2, Garlic x1 $1, Test $12) and payment method selection buttons (Credit Card, Cash). Red navigation tabs at top (popcorn, topping, payment).",
+      "processed": true,
+      "final_location": "assets/operation/payment-screen-order-summary.webp"
+    },
+    {
+      "original_filename": "photo_13_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "error-screen-dispenser-jammed.webp",
+      "description": "System error screen displaying 'Popcorn Dispenser 2/B is jammed' with instructions to unblock and press OK",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "error-message",
+        "system-error",
+        "dispenser-jam",
+        "troubleshooting",
+        "error-screen",
+        "maintenance-alert",
+        "user-interface"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Error dialog with cloud-themed background showing specific dispenser jam error for dispenser 2/B. Includes OK button to acknowledge. This is an important troubleshooting screenshot showing common operational issue.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/error-screen-dispenser-jammed.webp"
+    },
+    {
+      "original_filename": "photo_14_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "popcorn-kernels-blue-package-front.webp",
+      "description": "Amish Country Popcorn brand blue variety kernels in 6-pound bag with nutrition facts label visible",
+      "content_type": "photo",
+      "suggested_category": "maintenance",
+      "tags": [
+        "popcorn-kernels",
+        "consumables",
+        "blue-variety",
+        "amish-country",
+        "supplies",
+        "refill-supplies",
+        "6-pound-bag"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Product photo showing the 'BLUE - Just A Little Sweeter' variety of Amish Country Popcorn kernels. 6-pound (89.6 oz / 6 lb 9.6 oz) bag. Shows nutrition facts panel. Important for maintenance section to identify correct kernel type and supplier.",
+      "processed": true,
+      "final_location": "assets/maintenance/popcorn-kernels-blue-package-front.webp"
+    },
+    {
+      "original_filename": "photo_15_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "popcorn-kernels-best-before-label.webp",
+      "description": "Back of popcorn kernel bag showing 'Best Before 10/2026' expiration date label",
+      "content_type": "photo",
+      "suggested_category": "maintenance",
+      "tags": [
+        "expiration-date",
+        "best-before",
+        "popcorn-kernels",
+        "product-labeling",
+        "shelf-life",
+        "supplies"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Close-up of best before date sticker showing October 2026 expiration. Important for maintenance documentation regarding supply freshness and rotation.",
+      "processed": true,
+      "final_location": "assets/maintenance/popcorn-kernels-best-before-label.webp"
+    },
+    {
+      "original_filename": "photo_6_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "dispensing_window_internal_mechanism.webp",
+      "description": "Internal view of dispensing window showing heating elements and collection area with orange directional arrow",
+      "content_type": "photo",
+      "suggested_category": "overview",
+      "tags": [
+        "dispensing-window",
+        "heating-elements",
+        "internal-mechanism",
+        "collection-area",
+        "front-view"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows the internal popping chamber with vertical heating rods and striped pattern, useful for explaining how popcorn is dispensed",
+      "processed": true,
+      "final_location": "assets/overview/dispensing_window_internal_mechanism.webp"
+    },
+    {
+      "original_filename": "photo_7_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "touchscreen_back_button_interface.webp",
+      "description": "Close-up of touchscreen interface showing 'Back' button with popcorn-themed decorative background",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "touchscreen",
+        "user-interface",
+        "back-button",
+        "navigation",
+        "customer-screen"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows UI navigation element with serial number visible, demonstrates customer-facing interface design",
+      "processed": true,
+      "final_location": "assets/operation/touchscreen_back_button_interface.webp"
+    },
+    {
+      "original_filename": "photo_8_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "chocolate_chips_dispensing_demo_step1.webp",
+      "description": "Hand holding paper cup with chocolate chips over dispensing chamber, demonstrating topping addition process",
+      "content_type": "photo",
+      "suggested_category": "operation",
+      "tags": [
+        "toppings",
+        "chocolate-chips",
+        "dispensing",
+        "operation-guide",
+        "step-by-step",
+        "customer-use"
+      ],
+      "dimensions": "964x1280",
+      "notes": "First image in sequence showing chocolate chip topping being added, cup held over transparent collection chamber with LED lighting",
+      "processed": true,
+      "final_location": "assets/operation/chocolate_chips_dispensing_demo_step1.webp"
+    },
+    {
+      "original_filename": "photo_9_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "chocolate_chips_dispensing_demo_step2.webp",
+      "description": "Hand pouring chocolate chips from cup into dispensing chamber, mid-action shot of topping distribution",
+      "content_type": "photo",
+      "suggested_category": "operation",
+      "tags": [
+        "toppings",
+        "chocolate-chips",
+        "dispensing",
+        "operation-guide",
+        "step-by-step",
+        "customer-use",
+        "pouring"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Second image in sequence showing active pouring of chocolate chips, demonstrates topping application in progress",
+      "processed": true,
+      "final_location": "assets/operation/chocolate_chips_dispensing_demo_step2.webp"
+    },
+    {
+      "original_filename": "photo_10_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "chocolate_chips_cup_ready_to_pour.webp",
+      "description": "Paper cup filled with chocolate chips held above dispensing chamber, ready to dispense toppings",
+      "content_type": "photo",
+      "suggested_category": "operation",
+      "tags": [
+        "toppings",
+        "chocolate-chips",
+        "dispensing",
+        "operation-guide",
+        "customer-use",
+        "preparation"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows prepared topping cup before dispensing, alternative angle of topping addition process",
+      "processed": true,
+      "final_location": "assets/operation/chocolate_chips_cup_ready_to_pour.webp"
+    },
+    {
+      "original_filename": "photo_21_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "operation_topping_selection_two_flavors.webp",
+      "description": "Topping selection screen showing 5 flavor options (Butter $1, Chipotle $2, Garlic $1, Jalapeno $2, Truffle $1) with instruction to select up to 2 flavors",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "topping-screen",
+        "flavor-selection",
+        "pricing",
+        "customer-flow"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows topping tab active with decorative popcorn cloud design, Back and Continue buttons visible",
+      "processed": true,
+      "final_location": "assets/operation/operation_topping_selection_two_flavors.webp"
+    },
+    {
+      "original_filename": "photo_22_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "operation_popcorn_selection_finger_pointing.webp",
+      "description": "Customer selecting popcorn type on touchscreen - finger pointing at Continue button with Blue Burst ($588) and Sunny Crunch ($4) options visible",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "popcorn-selection",
+        "touchscreen",
+        "customer-interaction",
+        "pricing"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows user interaction, popcorn tab active, appears to show test/demo pricing (note $588 unusual price)",
+      "processed": true,
+      "final_location": "assets/operation/operation_popcorn_selection_finger_pointing.webp"
+    },
+    {
+      "original_filename": "photo_23_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "operation_popcorn_selection_sunny_crunch.webp",
+      "description": "Popcorn selection screen showing Blue Burst ($588) and Sunny Crunch ($4) options with finger selecting Sunny Crunch",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "popcorn-selection",
+        "flavor-options",
+        "customer-choice",
+        "touchscreen"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Similar to photo_22 but slightly different angle, shows selection in progress",
+      "processed": true,
+      "final_location": "assets/operation/operation_popcorn_selection_sunny_crunch.webp"
+    },
+    {
+      "original_filename": "photo_24_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "operation_popcorn_selection_clean_view.webp",
+      "description": "Clean view of popcorn selection screen with Blue Burst ($588) and Sunny Crunch ($4) options, no hand visible",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "popcorn-selection",
+        "flavor-options",
+        "screen-capture",
+        "clean-screenshot"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Best clean screenshot of this screen state without user interaction, useful for documentation",
+      "processed": true,
+      "final_location": "assets/operation/operation_popcorn_selection_clean_view.webp"
+    },
+    {
+      "original_filename": "photo_25_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "operation_completion_enjoy_meal.webp",
+      "description": "Order completion screen displaying 'Enjoy your meal!' message with decorative popcorn bucket image featuring Sweet Robo branding",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "completion-screen",
+        "thank-you-message",
+        "branding",
+        "customer-experience"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Final screen in customer transaction flow, shows branded popcorn bucket with striped design",
+      "processed": true,
+      "final_location": "assets/operation/operation_completion_enjoy_meal.webp"
+    },
+    {
+      "original_filename": "photo_26_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "setup_packaging_bubble_wrap_roll.webp",
+      "description": "Roll of bubble wrap packaging material held in front of Pop Cart interior, showing protective shipping materials",
+      "content_type": "photo",
+      "suggested_category": "setup",
+      "tags": [
+        "setup",
+        "unpacking",
+        "packaging-material",
+        "bubble-wrap",
+        "shipping-protection",
+        "installation"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows packaging materials that need to be removed during unpacking. Interior components visible in background including warming chamber and dispensing mechanism.",
+      "processed": true,
+      "final_location": "assets/setup/setup_packaging_bubble_wrap_roll.webp"
+    },
+    {
+      "original_filename": "photo_27_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "overview_interior_full_view_side.webp",
+      "description": "Full side view of Pop Cart interior with door open, showing complete internal component layout and multi-level structure",
+      "content_type": "photo",
+      "suggested_category": "overview",
+      "tags": [
+        "overview",
+        "interior-view",
+        "component-layout",
+        "door-open",
+        "multi-level",
+        "internal-structure"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Comprehensive interior view showing all levels from top (popcorn storage) through middle (warming/dispensing) to bottom (waste collection). Excellent overview reference image.",
+      "processed": true,
+      "final_location": "assets/overview/overview_interior_full_view_side.webp"
+    },
+    {
+      "original_filename": "photo_28_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "overview_interior_full_view_angle.webp",
+      "description": "Angled full interior view of Pop Cart showing complete component arrangement from different perspective",
+      "content_type": "photo",
+      "suggested_category": "overview",
+      "tags": [
+        "overview",
+        "interior-view",
+        "component-layout",
+        "door-open",
+        "angled-view",
+        "internal-structure"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Alternative angle of interior layout. Shows same components as photo_27 but from slightly different perspective, useful for understanding spatial relationships.",
+      "processed": true,
+      "final_location": "assets/overview/overview_interior_full_view_angle.webp"
+    },
+    {
+      "original_filename": "photo_29_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "parts_door_lock_mechanism_detail.webp",
+      "description": "Close-up of Pop Cart door lock mechanism with blue indicator, showing locking handle and mounting hardware",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "parts",
+        "door-lock",
+        "locking-mechanism",
+        "security",
+        "access-control",
+        "hardware-detail"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Detailed view of door lock with visible blue status indicator. Shows lock in secured position. Useful for parts identification and lock operation instructions.",
+      "processed": true,
+      "final_location": "assets/parts-service/parts_door_lock_mechanism_detail.webp"
+    },
+    {
+      "original_filename": "photo_30_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "parts_door_lock_closeup_indicator.webp",
+      "description": "Extreme close-up of door lock mechanism showing blue locked indicator and lock mounting details",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "parts",
+        "door-lock",
+        "lock-indicator",
+        "security",
+        "close-up",
+        "hardware-detail"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Zoomed detail of lock mechanism showing blue indicator clearly. Companion image to photo_29 with tighter framing on the lock component itself.",
+      "processed": true,
+      "final_location": "assets/parts-service/parts_door_lock_closeup_indicator.webp"
+    },
+    {
+      "original_filename": "photo_31_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "door_lock_mechanism_keyhole.webp",
+      "description": "Close-up of the Pop Cart's front door lock mechanism with black handle and keyhole with numbered key insert",
+      "content_type": "photo",
+      "suggested_category": "parts-service",
+      "tags": [
+        "lock",
+        "security",
+        "door-mechanism",
+        "access-control",
+        "key-system",
+        "hardware"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows the cabinet door lock detail with vintage-style carnival theming visible in background. Important for service access documentation.",
+      "processed": true,
+      "final_location": "assets/parts-service/door_lock_mechanism_keyhole.webp"
+    },
+    {
+      "original_filename": "photo_32_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "machine_full_view_front.webp",
+      "description": "Full front view of Pop Cart popcorn vending machine with vintage carnival cart design, red and white striped awning, yellow wheels",
+      "content_type": "photo",
+      "suggested_category": "overview",
+      "tags": [
+        "full-view",
+        "exterior",
+        "front-view",
+        "carnival-design",
+        "branding",
+        "product-photo"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Complete machine view in office environment. Perfect for overview/introduction section. Shows full aesthetic design with decorative wheels and striped canopy.",
+      "processed": true,
+      "final_location": "assets/overview/machine_full_view_front.webp"
+    },
+    {
+      "original_filename": "photo_33_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "machine_wrapped_bubble_protection.webp",
+      "description": "Pop Cart partially wrapped in bubble wrap protective packaging material for shipping or storage",
+      "content_type": "photo",
+      "suggested_category": "setup",
+      "tags": [
+        "packaging",
+        "protection",
+        "shipping",
+        "unpacking",
+        "bubble-wrap",
+        "installation"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows machine with protective bubble wrap covering lower section. Useful for unpacking/setup instructions section.",
+      "processed": true,
+      "final_location": "assets/setup/machine_wrapped_bubble_protection.webp"
+    },
+    {
+      "original_filename": "photo_34_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "machine_wrapped_full_coverage.webp",
+      "description": "Pop Cart fully wrapped in protective bubble wrap material showing complete shipping/storage packaging",
+      "content_type": "photo",
+      "suggested_category": "setup",
+      "tags": [
+        "packaging",
+        "shipping",
+        "protection",
+        "bubble-wrap",
+        "unpacking",
+        "delivery"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows more extensive bubble wrap coverage of the machine body. Good companion image to photo_33 for unpacking sequence.",
+      "processed": true,
+      "final_location": "assets/setup/machine_wrapped_full_coverage.webp"
+    },
+    {
+      "original_filename": "photo_35_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "machine_wrapped_labeled_shipping.webp",
+      "description": "Pop Cart with shipping bubble wrap and handwritten label marking visible on protective packaging",
+      "content_type": "photo",
+      "suggested_category": "setup",
+      "tags": [
+        "shipping",
+        "packaging",
+        "label",
+        "bubble-wrap",
+        "unpacking",
+        "delivery-state"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows bubble-wrapped machine with shipping marks/labels. Final image in unpacking sequence showing as-delivered condition.",
+      "processed": true,
+      "final_location": "assets/setup/machine_wrapped_labeled_shipping.webp"
+    },
+    {
+      "original_filename": "photo_16_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "supply_popcorn_kernels_bag.webp",
+      "description": "Large bag of popcorn kernels showing size reference with hand, packaged product for machine refilling",
+      "content_type": "photo",
+      "suggested_category": "maintenance",
+      "tags": [
+        "popcorn-kernels",
+        "supplies",
+        "consumables",
+        "refill",
+        "product-packaging",
+        "maintenance"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows typical popcorn kernel supply bag with hand for scale, useful for maintenance/restocking documentation",
+      "processed": true,
+      "final_location": "assets/maintenance/supply_popcorn_kernels_bag.webp"
+    },
+    {
+      "original_filename": "photo_17_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "ui_payment_screen_card_cash.webp",
+      "description": "Payment method selection screen showing Credit Card and Cash options with order summary at $0.00 total",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "payment-screen",
+        "user-interface",
+        "credit-card",
+        "cash-payment",
+        "touchscreen",
+        "checkout"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Payment tab active, shows Sunny Crunch toppings selected, prompts user to choose payment method",
+      "processed": true,
+      "final_location": "assets/operation/ui_payment_screen_card_cash.webp"
+    },
+    {
+      "original_filename": "photo_18_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "ui_payment_screen_credits_applied.webp",
+      "description": "Payment screen with credits applied showing 12.0 credits reducing total from $5.00, same payment options",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "payment-screen",
+        "credits",
+        "user-interface",
+        "discount",
+        "loyalty-program",
+        "touchscreen"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Demonstrates credit/loyalty system functionality, credits shown reducing the total payment amount",
+      "processed": true,
+      "final_location": "assets/operation/ui_payment_screen_credits_applied.webp"
+    },
+    {
+      "original_filename": "photo_19_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "ui_topping_selection_five_flavors.webp",
+      "description": "Topping selection screen with five flavor options: Butter ($1), Chipotle ($2), Garlic ($1), Jalapeno ($2), Truffle ($1)",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "topping-screen",
+        "flavor-selection",
+        "user-interface",
+        "pricing",
+        "seasonings",
+        "customer-flow"
+      ],
+      "dimensions": "964x1280",
+      "notes": "User interacting with screen, shows instruction to select up to 2 flavors with Continue and Back buttons",
+      "processed": true,
+      "final_location": "assets/operation/ui_topping_selection_five_flavors.webp"
+    },
+    {
+      "original_filename": "photo_20_2025-10-22_17-06-26.jpg",
+      "suggested_filename": "ui_topping_selection_jalapeno_selected.webp",
+      "description": "Topping selection screen with Jalapeno flavor selected (indicated by selection marker), same five flavor options displayed",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "topping-screen",
+        "flavor-selection",
+        "jalapeno",
+        "user-interface",
+        "selection-state",
+        "customer-flow"
+      ],
+      "dimensions": "964x1280",
+      "notes": "Shows active selection state with Jalapeno marked as chosen, demonstrates UI interaction feedback",
+      "processed": true,
+      "final_location": "assets/operation/ui_topping_selection_jalapeno_selected.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 33.png",
+      "suggested_filename": "admin_product_edit_keyboard_price.webp",
+      "description": "Product management screen with on-screen keyboard active, editing product price field in admin interface",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "product-management",
+        "keyboard",
+        "price-editing",
+        "touchscreen",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "85KB",
+      "notes": "Shows admin backend with on-screen numeric keyboard for editing product prices. Product grid visible in background with various popcorn/topping items. Edit dialog shows 'name' and 'price' fields with blue Confirm and red Cancel buttons.",
+      "processed": true,
+      "final_location": "assets/operation/admin_product_edit_keyboard_price.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 34.png",
+      "suggested_filename": "admin_save_changes_confirmation.webp",
+      "description": "Admin confirmation dialog asking to save all changes with happy emoji icon and blue Confirm / red Cancel buttons",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "confirmation-dialog",
+        "save-changes",
+        "user-prompt",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "96KB",
+      "notes": "Modal dialog with text 'Save all changes' and 'Kindchips' heading, featuring yellow smiley emoji. Product grid visible in background showing various items like Mini Reeses Pieces, Chocolate Syrup, etc.",
+      "processed": true,
+      "final_location": "assets/operation/admin_save_changes_confirmation.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 35.png",
+      "suggested_filename": "admin_progress_counter_complete.webp",
+      "description": "Progress indicator showing 14/14 completion with green checkmark in white dialog box",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "progress-indicator",
+        "completion-status",
+        "success-message",
+        "counter"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "90KB",
+      "notes": "Clean progress dialog showing task completion (14 out of 14). Green checkmark indicates successful completion. Product grid visible in background.",
+      "processed": true,
+      "final_location": "assets/operation/admin_progress_counter_complete.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 36.png",
+      "suggested_filename": "admin_revert_changes_confirmation.webp",
+      "description": "Admin confirmation dialog asking to revert all changes with happy emoji icon and action buttons",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "confirmation-dialog",
+        "revert-changes",
+        "undo-function",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "96KB",
+      "notes": "Modal asking user to confirm reverting all changes with 'Kindchips' heading. Similar styling to save dialog but for canceling/reverting operations.",
+      "processed": true,
+      "final_location": "assets/operation/admin_revert_changes_confirmation.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 37.png",
+      "suggested_filename": "marketing_splash_screen_robo_mascot.webp",
+      "description": "Marketing splash screen featuring Robo Ice Cream branded popcorn bucket with robot mascot logo on vibrant pink/purple gradient",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "splash-screen",
+        "branding",
+        "marketing",
+        "robot-mascot",
+        "popcorn-bucket",
+        "customer-display"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "217KB",
+      "notes": "Eye-catching customer-facing display with 3D rendered popcorn bucket featuring Sweet Robo robot logo. Text reads 'Robo Meal a la Carte' in stylized chrome/gradient lettering. Floating candy spheres add visual interest. 'Res Tracks - ...' visible on left edge.",
+      "processed": true,
+      "final_location": "assets/operation/marketing_splash_screen_robo_mascot.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 38.png",
+      "suggested_filename": "marketing_splash_continue_button.webp",
+      "description": "Marketing splash screen with prominent white CONTINUE button in bottom right corner, same branded popcorn imagery",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "splash-screen",
+        "branding",
+        "continue-button",
+        "customer-flow",
+        "navigation",
+        "popcorn-bucket"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "214KB",
+      "notes": "Similar to image 37 but includes white CONTINUE button and shows price '0.00' in pink circle. Next/Back navigation arrows visible on right edge.",
+      "processed": true,
+      "final_location": "assets/operation/marketing_splash_continue_button.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 39.png",
+      "suggested_filename": "admin_product_grid_topping_selection.webp",
+      "description": "Admin product management grid showing 6 topping cards in 2x3 layout with product images, names, and prices",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "product-grid",
+        "topping-management",
+        "card-layout",
+        "inventory",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "252KB",
+      "notes": "Shows 'Touch the topping and syrup you want to choose' instruction text. Products displayed: Mini Reeses Pieces (0.00), White Chocolate Syrup (0.00), Caramel Sprinkles (0.00), Snickerdoodle Syrup (0.00), Rainbow Sprinkles (0.00), Blackberry Syrup (0.00). Each card has product image and pricing. NEXT and BACK buttons visible.",
+      "processed": true,
+      "final_location": "assets/operation/admin_product_grid_topping_selection.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 40.png",
+      "suggested_filename": "admin_product_grid_three_selected.webp",
+      "description": "Same product grid with three items selected/highlighted in purple: Mini Reeses Pieces, Snickerdoodle Syrup, and Rainbow Sprinkles",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "product-grid",
+        "selection-state",
+        "multiple-selection",
+        "highlighted-items",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "270KB",
+      "notes": "Demonstrates selection UI with purple highlight borders on three products. Shows how admin can select multiple toppings. Same layout as image 39 but with active selection states.",
+      "processed": true,
+      "final_location": "assets/operation/admin_product_grid_three_selected.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - all apps.png",
+      "suggested_filename": "android_all_apps_screen.webp",
+      "description": "Android app drawer showing all installed applications including Clock, Gallery, Sound Recorder, Camera, Explorer, Settings, Email, Search, Calculator, Downloads, Phone, Browser, Contacts, Music, APKInstaller, Commissant, Messaging, and SysUpdate",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "app-drawer",
+        "system-apps",
+        "user-interface",
+        "setup",
+        "navigation"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Shows complete list of system apps available on the Pop Cart Android system. Useful for setup and system navigation documentation.",
+      "processed": true,
+      "final_location": "assets/setup/android_all_apps_screen.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - main page.png",
+      "suggested_filename": "android_settings_main_page.webp",
+      "description": "Android Settings main page showing all configuration categories including Wi-Fi, Bluetooth, Data usage, Device info, Notifications, Sound, Apps, Storage, Memory, USB, Users, Location, Security, Languages & input, Backup & reset, Date & time, Accessibility, About tablet, and More Settings",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "settings",
+        "configuration",
+        "system-menu",
+        "setup",
+        "wifi"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Main Android settings screen - essential for setup procedures and system configuration documentation.",
+      "processed": true,
+      "final_location": "assets/setup/android_settings_main_page.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - Authentication problem.png",
+      "suggested_filename": "android_wifi_authentication_problem.webp",
+      "description": "Android Wi-Fi settings showing authentication problem error for SweetRobo212 network with error message 'Authentication problem' displayed below network name",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "troubleshooting",
+        "authentication-error",
+        "network-setup",
+        "error-state"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Shows Wi-Fi authentication failure state - important for troubleshooting section and setup documentation when password is incorrect.",
+      "processed": true,
+      "final_location": "assets/setup/android_wifi_authentication_problem.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - default page - no network saved.png",
+      "suggested_filename": "android_wifi_no_network_saved.webp",
+      "description": "Android Wi-Fi settings default state with WiFi enabled showing available networks (SpectrumSetup-E3, SweetRobo212, AddLitNetwork) and add network button, no saved networks configured",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "network-setup",
+        "initial-setup",
+        "available-networks",
+        "default-state"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Clean Wi-Fi settings screen with no saved networks - perfect for initial setup documentation showing available networks.",
+      "processed": true,
+      "final_location": "assets/setup/android_wifi_no_network_saved.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - much more wifi listed after chaning the placement of the antena.png",
+      "suggested_filename": "android_wifi_networks_after_antenna_adjustment.webp",
+      "description": "Android Wi-Fi settings showing extensive list of available networks after antenna adjustment, displaying 20+ networks including SweetRobo212, FishService-Res, MySpectrumWiFi17-2G, SpectrumSetup-E3, Verizon_LPZ-VVR, and many others",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "antenna-positioning",
+        "network-scanning",
+        "signal-strength",
+        "troubleshooting"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Demonstrates improved Wi-Fi reception after antenna adjustment - useful for troubleshooting weak signal issues and antenna positioning guidance.",
+      "processed": true,
+      "final_location": "assets/setup/android_wifi_networks_after_antenna_adjustment.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - Password input empty.png",
+      "suggested_filename": "android_wifi_password_input_empty.webp",
+      "description": "Android Wi-Fi password input dialog for SweetRobo212 network showing empty password field with virtual keyboard displayed, options for 'Show password' and 'Advanced options'",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "password-entry",
+        "network-connection",
+        "keyboard",
+        "setup-process"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Shows Wi-Fi password entry screen with empty field and keyboard - essential for step-by-step setup instructions.",
+      "processed": true,
+      "final_location": "assets/setup/android_wifi_password_input_empty.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - Password input full.png",
+      "suggested_filename": "android_wifi_password_input_filled.webp",
+      "description": "Android Wi-Fi password input dialog for SweetRobo212 network with password field filled (obscured dots), showing CANCEL and CONNECT buttons and virtual keyboard",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "password-entry",
+        "network-connection",
+        "connect-button",
+        "setup-process"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Shows Wi-Fi password field populated and ready to connect - demonstrates final step before network connection.",
+      "processed": true,
+      "final_location": "assets/setup/android_wifi_password_input_filled.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - Saved network - not connected.png",
+      "suggested_filename": "android_wifi_saved_not_connected.webp",
+      "description": "Android Wi-Fi settings showing saved networks (SweetRobo212, SpectrumSetup-E3) in 'Saved' state but not currently connected, with AddLitNetwork also visible and add network option",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "saved-networks",
+        "disconnected-state",
+        "network-management",
+        "configuration"
+      ],
+      "dimensions": "3840x2160",
+      "notes": "Shows saved networks that are not connected - useful for documenting network state and reconnection procedures.",
+      "processed": true,
+      "final_location": "assets/setup/android_wifi_saved_not_connected.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Product management - with error.png",
+      "suggested_filename": "error_product_management_hostname_exception.webp",
+      "description": "Error dialog displaying 'UnknownHostException: Unable to resolve host www.gzzhishu.cn: No address associated with hostname' on Product management screen",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "error-message",
+        "network-error",
+        "hostname-exception",
+        "system-error",
+        "troubleshooting",
+        "product-management",
+        "backend-error"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "41KB",
+      "notes": "Backend system error showing network connectivity issue with Chinese domain. Error appears on left side panel labeled 'Product management'. Shows technical exception message useful for troubleshooting connectivity problems.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/error_product_management_hostname_exception.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Shopping settings 2.png",
+      "suggested_filename": "settings_payment_coin_receptor.webp",
+      "description": "Shopping settings screen showing payment method configuration with Banknote machine, Pulse, and Coin receptor options, including TLT_QVTT and DBH_MBSS settings",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "settings",
+        "payment-methods",
+        "coin-receptor",
+        "banknote-machine",
+        "shopping-settings",
+        "admin-interface",
+        "payment-configuration"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "101KB",
+      "notes": "Admin settings screen showing payment hardware configuration. Displays item counts (10, 100, 0 across different fields), Clear/Delete/Set buttons. Right panel shows testing amount slider with value 0, and change settings including Open/Down value, Inventory quantity, Number of alerts, and Change limit options. Tabs at top: Shopping settings, Supporting time, Payment name, Show balance, Scanner test.",
+      "processed": true,
+      "final_location": "assets/operation/settings_payment_coin_receptor.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Shopping settings.png",
+      "suggested_filename": "settings_payment_methods.webp",
+      "description": "Shopping settings screen with payment method checkboxes for various options including TLT_QVTT, DBH_MBSS, Coin receptor, and T/Pos device selection dropdown showing 'Clear' with Remaining 1.0 value",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "settings",
+        "payment-configuration",
+        "checkboxes",
+        "shopping-settings",
+        "admin-interface",
+        "coin-receptor",
+        "payment-devices"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "97KB",
+      "notes": "Admin payment configuration screen showing multiple payment device options as checkboxes. Coin receptor is checked, with dropdown showing 'Clear' and value of 1.0. Shows options for wiper, point reader, alipay+on, alipay+on2, and invoice+on2. Right panel displays same testing sliders and change settings as settings_payment_coin_receptor.webp. Part of multi-screen settings configuration.",
+      "processed": true,
+      "final_location": "assets/operation/settings_payment_methods.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Software loading page.png",
+      "suggested_filename": "software_loading_splash_screen.webp",
+      "description": "Software initialization splash screen with 'Robo Ice Cream Machine is loading...' text and Sweet Robo Service branding with robot mascot logo and text 'Initialization is complete about to jump...'",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "splash-screen",
+        "loading",
+        "initialization",
+        "startup",
+        "branding",
+        "sweet-robo",
+        "boot-screen"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "165KB",
+      "notes": "Startup screen with gradient purple/pink background featuring 3D stylized 'Robo Ice Cream' text and 'Machine is loading...' subtitle. Bottom right shows Sweet Robo Service robot mascot with text 'Your Best Robo Service' and version identifier CFT100115. Displays during system boot/initialization. Text at bottom in Chinese indicates initialization complete and about to jump to main interface.",
+      "processed": true,
+      "final_location": "assets/operation/software_loading_splash_screen.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Stock setting - expired mix.png",
+      "suggested_filename": "settings_stock_expired_mix_warning.webp",
+      "description": "Stock setting screen showing inventory management with one item marked 'unknown' displaying 'Expired' in red warning text with 3 days remaining, alongside fresh items showing 100.0% stock levels",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "stock-management",
+        "inventory",
+        "expired-warning",
+        "admin-settings",
+        "supply-tracking",
+        "expiration-alert",
+        "maintenance-alert"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "114KB",
+      "notes": "Inventory management interface showing mix storage tanks with stock percentages. Left panel shows unknown item with red 'Expired' warning and 3-day countdown. Multiple tanks labeled 1-3 display 100.0% and 91.78% fill levels with Fill up/Clean up/1L toggle buttons. Blue 'Modify' buttons on right for updating stock. Critical screen for identifying expired supplies requiring replacement.",
+      "processed": true,
+      "final_location": "assets/operation/settings_stock_expired_mix_warning.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Stock setting - fresh mix.png",
+      "suggested_filename": "settings_stock_fresh_mix_levels.webp",
+      "description": "Stock setting screen displaying healthy inventory levels with all tanks showing fresh status at 100.0% or 91.78% capacity, no expiration warnings",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "stock-management",
+        "inventory",
+        "admin-settings",
+        "supply-tracking",
+        "tank-levels",
+        "fresh-stock",
+        "maintenance"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "111KB",
+      "notes": "Normal inventory management view showing all tanks with good status. Left panel shows 'unknown' item with 72 days remaining (fresh). Three storage tanks labeled with percentages (100.0%, 100.0%, 91.78%), each with Fill up/Clean up/1L control buttons and blue Modify buttons. Material section displays 199 remaining. Demonstrates properly maintained stock levels for comparison with expired state.",
+      "processed": true,
+      "final_location": "assets/operation/settings_stock_fresh_mix_levels.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - System setting.png",
+      "suggested_filename": "settings_system_menu.webp",
+      "description": "System setting menu with volume control slider set to 15, Shopping guide device toggle (Open/Play internal), and Work network mode toggle (Open/Play internal) options",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "system-settings",
+        "volume-control",
+        "network-settings",
+        "admin-interface",
+        "configuration",
+        "audio-settings",
+        "shopping-guide"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "74KB",
+      "notes": "System configuration screen with three main sections: Volume Setting (slider showing value 15), Shopping guide device (toggle between Open/Play internal), and Work network mode (toggle between Open/Play internal). Right side shows three action buttons: Master1, Repair, and Exit APP. Clean admin interface for basic system configuration. Part of admin settings menu accessed from main settings area.",
+      "processed": true,
+      "final_location": "assets/operation/settings_system_menu.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 22.png",
+      "suggested_filename": "admin_management_system_overview.webp",
+      "description": "Admin management system dashboard showing System Info panel with device details and menu tiles for settings, testing, and product management",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "management-system",
+        "dashboard",
+        "system-info",
+        "backend-ui",
+        "menu-navigation"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "135KB",
+      "notes": "Left panel displays System Info with device number CT100115, model CTX8220, connection status (WiFi Available, Bound, Connected), and master version v1 (XS). Right side shows 9 menu tiles: Device test, System sett., Opening ho., Device test, Stock setting, Opening ho., Param sett., Shopping s., Product ma. Gradient cyan-purple background.",
+      "processed": true,
+      "final_location": "assets/operation/admin_management_system_overview.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 26.png",
+      "suggested_filename": "admin_loading_black_screen.webp",
+      "description": "Black loading screen with system timestamp and device ID in corner during admin system initialization",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "loading-screen",
+        "system-boot",
+        "black-screen",
+        "initialization"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "24KB",
+      "notes": "Shows blank black screen with timestamp 'October 23, 2025 Thu 17:39:44' and device ID 'CT100115' visible in top left. Likely transition or loading state between admin screens.",
+      "processed": true,
+      "final_location": "assets/operation/admin_loading_black_screen.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 27.png",
+      "suggested_filename": "admin_management_system_overview_alt.webp",
+      "description": "Alternative view of admin management system dashboard, identical to Image 22 showing system info and navigation menu",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "management-system",
+        "dashboard",
+        "system-info",
+        "backend-ui",
+        "duplicate-view"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "135KB",
+      "notes": "Appears identical to Robo Ice Cream - 22.png. Same system info panel (Device No: CT100115, Model: CTX8220, WiFi Available, Bound, Connected) and same 9 menu tiles layout.",
+      "processed": true,
+      "final_location": "assets/operation/admin_management_system_overview_alt.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 28.png",
+      "suggested_filename": "admin_param_settings_config.webp",
+      "description": "Parameter settings configuration screen showing UI temp settings, cup position detection, jar adding time, and material interval time controls",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "parameter-settings",
+        "configuration",
+        "timing-controls",
+        "backend-ui",
+        "system-settings"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "121KB",
+      "notes": "Two-column layout showing various parameter groups. Left side: UI temp settings (Open/Starting time/Start time), Cup position detection sections with multiple timing controls. Right side: Jam adding time setting, Add material time setting with multiple numbered entries showing values like 1500ms, 2000ms. Blue gradient background.",
+      "processed": true,
+      "final_location": "assets/operation/admin_param_settings_config.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 29.png",
+      "suggested_filename": "admin_stock_setting_interface.webp",
+      "description": "Stock inventory management interface showing material stock levels with Fill up, Clean up, Signal buttons for jam dispensers",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "stock-management",
+        "inventory",
+        "material-levels",
+        "dispenser-control",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "113KB",
+      "notes": "Shows stock status with 'lack of materi.' warning dialog in top left. Grid displays multiple jam/material slots (Jam 1, Jam 2, Jam 3) each with 100.0% stock level, Clean up and Signal buttons. Three material containers shown at bottom (200g, 199g) with signal numbering.",
+      "processed": true,
+      "final_location": "assets/operation/admin_stock_setting_interface.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 30.png",
+      "suggested_filename": "admin_device_testing_interface.webp",
+      "description": "Comprehensive device testing panel with controls for sensors, sprinkles, cup dispensers, jam dispensers, and cup holder operations",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "device-testing",
+        "diagnostic-tools",
+        "component-testing",
+        "backend-ui",
+        "maintenance-mode"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "164KB",
+      "notes": "Complex grid layout with multiple testing sections: sensor status (have/have/have/without/have/without), sprinkle controls (1-5 with up/down arrows), door controls, disinfection lamp, cup dispenser (sprinkle 1-3 with direction/duration controls), jam dispensers (jam 1-3 with 2000 values), cup holder (left/right/sensor/shipper). Temperature controls (25C, tank temp, cup hold temp). Blue/gray color scheme with directional arrows.",
+      "processed": true,
+      "final_location": "assets/operation/admin_device_testing_interface.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 31.png",
+      "suggested_filename": "admin_product_management_grid.webp",
+      "description": "Product management grid displaying various popcorn flavors and toppings with images, names, and prices in admin backend",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "product-management",
+        "product-grid",
+        "pricing",
+        "inventory-display",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "165KB",
+      "notes": "Grid layout showing products: chocolate ($0.00), Mini Reeses Pieces ($0.00), White Chocolate Syrup ($0.00), Caramel Sprinkles ($0.00), Snake doodle Syrup ($0.00), Blackberry Syrup ($0.00), Rainbow Sprinkles ($0.00). Left sidebar has save/recover buttons. Gradient cyan-purple background matches main admin theme.",
+      "processed": true,
+      "final_location": "assets/operation/admin_product_management_grid.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 32.png",
+      "suggested_filename": "admin_product_edit_modal_keyboard.webp",
+      "description": "Product editing modal dialog with on-screen keyboard showing Rainbow Sprinkles product name edit interface",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "product-editing",
+        "on-screen-keyboard",
+        "modal-dialog",
+        "text-input",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "114KB",
+      "notes": "Edit dialog in center showing Rainbow Sprinkles product image, name field, price field. Right side displays full QWERTY on-screen keyboard with blue Confirm and red Cancel buttons. Product grid dimmed in background. Text entry shows 'rainbow' in lowercase with keyboard active.",
+      "processed": true,
+      "final_location": "assets/operation/admin_product_edit_modal_keyboard.webp"
+    }
+  ],
+  "schema": {
+    "description": "Each image entry should contain the following fields",
+    "fields": {
+      "original_filename": "The current filename in the temp folder",
+      "suggested_filename": "Descriptive filename (lowercase-with-hyphens.webp)",
+      "description": "Detailed description of what the image shows",
+      "content_type": "Type of content (photo|screenshot|diagram|label|other)",
+      "suggested_category": "Suggested folder (overview|setup|operation|maintenance|troubleshooting|safety|parts-service|unclear)",
+      "tags": "Array of descriptive tags for searching",
+      "dimensions": "Image dimensions if available (WxH)",
+      "notes": "Any additional observations or context",
+      "processed": "Boolean - has this image been moved to final location"
+    }
+  },
+  "categories": {
+    "overview": "Machine photos, diagrams, exterior views, key features",
+    "setup": "Unpacking, installation, initial setup, positioning",
+    "operation": "UI screenshots, customer interface, operator screens, menus",
+    "maintenance": "Cleaning procedures, maintenance supplies, routine tasks",
+    "troubleshooting": "Error screens, diagnostic displays, problem indicators",
+    "safety": "Warning labels, safety procedures, hazard information",
+    "parts-service": "Component diagrams, parts photos, exploded views"
+  },
+  "statistics": {
+    "total_images": 66,
+    "processed": 58,
+    "by_category": {
+      "overview": 5,
+      "setup": 12,
+      "operation": 37,
+      "maintenance": 3,
+      "troubleshooting": 2,
+      "safety": 0,
+      "parts-service": 7,
+      "unclear": 0
+    },
+    "by_content_type": {
+      "photo": 23,
+      "screenshot": 43,
+      "diagram": 0,
+      "label": 0,
+      "other": 0
+    }
+  }
+}

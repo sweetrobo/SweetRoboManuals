@@ -1,0 +1,173 @@
+{
+  "batch": "Robo Ice Cream UI Images - Management System Screens",
+  "date_processed": "2025-10-24",
+  "images": [
+    {
+      "original_filename": "Robo Ice Cream - Home page before software (maybe we should not show it).png",
+      "suggested_filename": "ui_ubuntu_desktop_pre_software.webp",
+      "description": "Ubuntu desktop home screen with pink gradient wallpaper showing application icons before software installation",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "ubuntu",
+        "desktop",
+        "pre-installation",
+        "operating-system",
+        "setup",
+        "initial-state"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "65KB",
+      "notes": "Shows the base Ubuntu OS before Sweet Robo software is installed. May be used to document initial system state.",
+      "processed": true,
+      "final_location": "assets/setup/ui_ubuntu_desktop_pre_software.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Input Keyboard.png",
+      "suggested_filename": "ui_input_keyboard_numeric.webp",
+      "description": "Numeric input keyboard overlay with 0-9 digits, operators, and Confirm/Clean buttons for parameter entry",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "keyboard",
+        "numeric-input",
+        "user-interface",
+        "data-entry",
+        "touchscreen",
+        "management-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "72KB",
+      "notes": "Shows the numeric keypad overlay used for entering values in management screens. Background shows stock setting interface.",
+      "processed": true,
+      "final_location": "assets/operation/ui_input_keyboard_numeric.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Input Password screen.png",
+      "suggested_filename": "ui_password_input_screen.webp",
+      "description": "Password input screen with masked entry showing six asterisks and numeric keypad with Confirm and Clean buttons",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "password",
+        "security",
+        "authentication",
+        "login",
+        "numeric-keypad",
+        "access-control"
+      ],
+      "dimensions": "1080x890",
+      "file_size": "16KB",
+      "notes": "Password entry interface for accessing management system. Shows 6-digit password format with asterisk masking.",
+      "processed": true,
+      "final_location": "assets/operation/ui_password_input_screen.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Management system - network connected - cooler is off (2nd red dot).png",
+      "suggested_filename": "ui_management_network_cooler_off.webp",
+      "description": "Management system dashboard showing network connected (green) but cooler unavailable (red dot), with system info and menu buttons",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "management-system",
+        "dashboard",
+        "status-indicators",
+        "network-status",
+        "cooler-warning",
+        "system-info"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "135KB",
+      "notes": "Shows system status with device info (CTT01015), network details, current version (VO1.57), and menu options. Red indicator shows cooler issue.",
+      "processed": true,
+      "final_location": "assets/operation/ui_management_network_cooler_off.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Management system - no network.png",
+      "suggested_filename": "ui_management_no_network.webp",
+      "description": "Management system dashboard showing unavailable network status (red dot) with loading spinner and system menu buttons",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "management-system",
+        "network-error",
+        "no-connection",
+        "troubleshooting",
+        "status-indicators",
+        "connectivity-issue"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "131KB",
+      "notes": "Troubleshooting screen showing network connectivity issue. Loading indicator visible, useful for network setup documentation.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/ui_management_no_network.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Management system.png",
+      "suggested_filename": "ui_management_system_normal.webp",
+      "description": "Management system dashboard with all systems normal, showing connected network and device information with menu options",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "management-system",
+        "dashboard",
+        "normal-operation",
+        "system-info",
+        "menu",
+        "operator-interface"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "132KB",
+      "notes": "Main management dashboard showing all systems operational. Device test, system settings, stock settings, and other menu buttons visible.",
+      "processed": true,
+      "final_location": "assets/operation/ui_management_system_normal.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Opening hours.png",
+      "suggested_filename": "ui_opening_hours_schedule.webp",
+      "description": "Opening hours configuration screen showing weekly schedule with time slots 09:00-20:00 and day selection checkboxes",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "opening-hours",
+        "schedule",
+        "configuration",
+        "business-hours",
+        "weekly-schedule",
+        "time-settings"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "85KB",
+      "notes": "Shows opening hours interface with start/end times for each day, checkboxes for day selection, and closing time configuration.",
+      "processed": true,
+      "final_location": "assets/operation/ui_opening_hours_schedule.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Param setting 1.png",
+      "suggested_filename": "ui_parameter_settings_advanced.webp",
+      "description": "Parameter settings screen showing advanced configuration options including ice cream settings, jar adding intervals, and tank temperature",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "parameters",
+        "settings",
+        "configuration",
+        "advanced-settings",
+        "system-configuration",
+        "technical-settings"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "120KB",
+      "notes": "Shows detailed parameter configuration with numeric values for machine operation, mixing times, temperatures, and intervals.",
+      "processed": true,
+      "final_location": "assets/operation/ui_parameter_settings_advanced.webp"
+    }
+  ],
+  "summary": {
+    "total_processed": 8,
+    "setup": 1,
+    "operation": 6,
+    "troubleshooting": 1,
+    "notes": "These are management system UI screenshots from the Robo Ice Cream software showing admin interfaces, configuration screens, and system status displays."
+  }
+}
