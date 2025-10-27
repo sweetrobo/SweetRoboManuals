@@ -4,12 +4,12 @@
   "images": [
     {
       "original_filename": "Robo Ice Cream - Home page before software (maybe we should not show it).png",
-      "suggested_filename": "ui_ubuntu_desktop_pre_software.webp",
-      "description": "Ubuntu desktop home screen with pink gradient wallpaper showing application icons before software installation",
+      "suggested_filename": "ui_android_desktop_pre_software.webp",
+      "description": "android desktop home screen with pink gradient wallpaper showing application icons before software installation",
       "content_type": "screenshot",
       "suggested_category": "setup",
       "tags": [
-        "ubuntu",
+        "android",
         "desktop",
         "pre-installation",
         "operating-system",
@@ -18,9 +18,9 @@
       ],
       "dimensions": "3840x2160",
       "file_size": "65KB",
-      "notes": "Shows the base Ubuntu OS before Sweet Robo software is installed. May be used to document initial system state.",
+      "notes": "Shows the base android OS before Sweet Robo software is installed. May be used to document initial system state.",
       "processed": true,
-      "final_location": "assets/setup/ui_ubuntu_desktop_pre_software.webp"
+      "final_location": "assets/setup/ui_android_desktop_pre_software.webp"
     },
     {
       "original_filename": "Robo Ice Cream - Input Keyboard.png",

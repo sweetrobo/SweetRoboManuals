@@ -1,7 +1,7 @@
 {
   "project": "Pop Cart Manual",
   "catalog_version": "1.0",
-  "last_updated": "2025-10-24T05:57:52Z",
+  "last_updated": "2025-10-24T14:13:27Z",
   "images": [
     {
       "original_filename": "photo_1_2025-10-22_17-06-26.jpg",
@@ -1280,6 +1280,322 @@
       "notes": "Edit dialog in center showing Rainbow Sprinkles product image, name field, price field. Right side displays full QWERTY on-screen keyboard with blue Confirm and red Cancel buttons. Product grid dimmed in background. Text entry shows 'rainbow' in lowercase with keyboard active.",
       "processed": true,
       "final_location": "assets/operation/admin_product_edit_modal_keyboard.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - wifi off.png",
+      "suggested_filename": "android_settings_wifi_disabled.webp",
+      "description": "Android Wi-Fi settings screen with Wi-Fi toggle switched off, showing 'To see available networks, turn Wi-Fi on' message in center",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "wifi",
+        "disabled-state",
+        "settings",
+        "network-setup",
+        "wifi-toggle"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "137KB",
+      "notes": "Shows Wi-Fi disabled state with toggle in OFF position. Essential for troubleshooting section when users need to enable Wi-Fi functionality.",
+      "processed": true,
+      "final_location": "assets/setup/android_settings_wifi_disabled.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Android turning on.png",
+      "suggested_filename": "android_boot_screen_startup.webp",
+      "description": "Android boot screen showing 'android' text in white lowercase letters centered on black background during system startup",
+      "content_type": "screenshot",
+      "suggested_category": "setup",
+      "tags": [
+        "android",
+        "boot-screen",
+        "startup",
+        "system-boot",
+        "power-on",
+        "initialization"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "24KB",
+      "notes": "Clean Android boot logo screen displayed during machine power-on sequence. Useful for setup documentation.",
+      "processed": true,
+      "final_location": "assets/setup/android_boot_screen_startup.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Core board connection error ( 5005 ).png",
+      "suggested_filename": "error_5005_core_board_connection.webp",
+      "description": "Error dialog displaying 'Reminder (CT00015)' with message 'Core board is not connected (error: 5005)' with quit button",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "error-5005",
+        "core-board",
+        "connection-error",
+        "hardware-error",
+        "troubleshooting",
+        "system-error",
+        "ct00015"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "137KB",
+      "notes": "Critical hardware error indicating core board communication failure. Essential for troubleshooting documentation.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/error_5005_core_board_connection.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - core board initialization failed ( 5006).png",
+      "suggested_filename": "error_5006_core_board_init_failed.webp",
+      "description": "Error dialog showing 'Core board initialization failed (5006)' error message with quit button",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "error-5006",
+        "core-board",
+        "initialization-error",
+        "hardware-error",
+        "troubleshooting",
+        "system-error",
+        "boot-failure"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "114KB",
+      "notes": "Hardware initialization failure error. Different from 5005 (connection error), this suggests board is detected but fails initialization.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/error_5006_core_board_init_failed.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - cup holder position correction.png",
+      "suggested_filename": "cup_holder_position_correction.webp",
+      "description": "Comprehensive cup holder position correction interface showing grid of cup positions with labeled sensors and directional controls",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "calibration",
+        "cup-holder",
+        "position-correction",
+        "sensor-adjustment",
+        "maintenance-ui",
+        "alignment",
+        "setup-interface"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "128KB",
+      "notes": "Advanced calibration screen for cup holder positioning. Essential for maintenance and calibration procedures.",
+      "processed": true,
+      "final_location": "assets/operation/cup_holder_position_correction.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - Device testing.png",
+      "suggested_filename": "device_testing_interface.webp",
+      "description": "Comprehensive device testing interface displaying multiple test panels for sensors, cup dispenser, jam detection, and diagnostics",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "device-testing",
+        "diagnostics",
+        "sensor-testing",
+        "maintenance-interface",
+        "system-check",
+        "calibration",
+        "testing-suite"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "161KB",
+      "notes": "Extensive testing dashboard showing all device systems. Critical for system diagnostics and maintenance procedures.",
+      "processed": true,
+      "final_location": "assets/operation/device_testing_interface.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - error checking update.png",
+      "suggested_filename": "error_checking_update_screen.webp",
+      "description": "System notification dialog with 'Query failed, please check network status or try again later' error message",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "error-message",
+        "network-error",
+        "update-failure",
+        "connectivity-issue",
+        "system-notification",
+        "troubleshooting"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "84KB",
+      "notes": "Network connectivity error during system update or query operation. Useful for troubleshooting network-related issues.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/error_checking_update_screen.webp"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 41.png",
+      "suggested_filename": "ui_order_details_topping_selection.webp",
+      "description": "Order details screen showing Vanilla, Rainbow Sprinkles, Mini Reeses Pieces, and Snickerdoodle Syrup toppings with PAY and BACK buttons",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "order-details",
+        "topping-list",
+        "order-summary",
+        "customer-screen",
+        "checkout-flow"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "154KB",
+      "notes": "Shows the order details/summary screen with selected items listed. Number 24 visible in top left corner. Decorative ice cream cone graphics on pink gradient background. Customer-facing checkout interface.",
+      "processed": true,
+      "final_location": "assets/operation/ui_order_details_topping_selection.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 42.png",
+      "suggested_filename": "ui_payment_method_cash_selection.webp",
+      "description": "Payment method selection screen with single 'Cash' button and instruction to select payment method",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "payment-method",
+        "cash-payment",
+        "payment-selection",
+        "customer-screen",
+        "checkout"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "131KB",
+      "notes": "Simple payment method screen showing only cash option. Number 26 in top left. BACK button visible on right side. Pink gradient background with ice cream cone branding.",
+      "processed": true,
+      "final_location": "assets/operation/ui_payment_method_cash_selection.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 43.png",
+      "suggested_filename": "ui_preparation_robot_chef_animation.webp",
+      "description": "Animated preparation screen showing tiny robot chefs working on ice cream with text 'Your perfect... Tiny robot chefs are mixing'",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "preparation-screen",
+        "animation",
+        "robot-chef",
+        "loading-screen",
+        "customer-experience",
+        "entertaining"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "193KB",
+      "notes": "Entertaining preparation/loading screen with animated purple robot characters mixing ice cream in a bowl. Shows customer that their order is being prepared. Timer showing 55 seconds in bottom right. Purple gradient background with scattered decorative dots.",
+      "processed": true,
+      "final_location": "assets/operation/ui_preparation_robot_chef_animation.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 44.png",
+      "suggested_filename": "ui_preparation_installing_core_module.webp",
+      "description": "Preparation status screen showing 'Installing Cremay Core Module' text with decorative ice cream cone graphics",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "user-interface",
+        "preparation-screen",
+        "status-message",
+        "loading-screen",
+        "core-module",
+        "customer-screen"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "177KB",
+      "notes": "Status screen showing core module installation message. Shows a playful ice cream cone with face being lifted by balloon graphic. Timer at 51 seconds. Blue-purple gradient background. Part of the preparation/waiting experience.",
+      "processed": true,
+      "final_location": "assets/operation/ui_preparation_installing_core_module.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 45.png",
+      "suggested_filename": "error_reminder_core_board_connection.webp",
+      "description": "Error notification displaying 'Reminder (CTO100115) Core board connection error (5005)' in white text on dark background",
+      "content_type": "screenshot",
+      "suggested_category": "troubleshooting",
+      "tags": [
+        "error-screen",
+        "system-error",
+        "connection-error",
+        "core-board",
+        "error-code-5005",
+        "troubleshooting",
+        "technical-alert"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "36KB",
+      "notes": "Critical error message showing core board connection failure with error code CTO100115 and code 5005. Small file size indicates mostly dark/black screen. Important for troubleshooting documentation. Percentage and cup icons visible in bottom right.",
+      "processed": true,
+      "final_location": "assets/troubleshooting/error_reminder_core_board_connection.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 46.png",
+      "suggested_filename": "admin_device_tasks_blank_screen.webp",
+      "description": "Blank/empty Device Tasks admin screen showing only date stamp October 23, 2025 and three RES3 TASK labels at bottom",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "device-tasks",
+        "management-screen",
+        "operator-interface",
+        "blank-state",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "26KB",
+      "notes": "Admin/operator screen labeled 'Device-No ctrl00115' at top left. Shows timestamp and three task indicators (RES3 TASK) at bottom. Very minimal content - appears to be initial/empty state. Date shown: October 23, 2025 Thu 17:24:058.",
+      "processed": true,
+      "final_location": "assets/operation/admin_device_tasks_blank_screen.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 47.png",
+      "suggested_filename": "admin_device_tasks_with_labels.webp",
+      "description": "Device Tasks admin screen with numbered labels (1, 2, 3, 4) overlaid on three task buttons at bottom",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "device-tasks",
+        "management-screen",
+        "operator-interface",
+        "labeled-guide",
+        "backend-ui",
+        "task-buttons"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "28KB",
+      "notes": "Same as Image 46 but with cyan-colored numbered labels (K 1/1, K 2/2, K 4/4) added to identify task buttons. Date: October 23, 2025 Thu 17:24:01. Appears to be annotated version for training/documentation purposes.",
+      "processed": true,
+      "final_location": "assets/operation/admin_device_tasks_with_labels.webp",
+      "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Robo Ice Cream - 48.png",
+      "suggested_filename": "admin_password_input_keypad.webp",
+      "description": "Password input screen with numeric keypad (0-9), Clean and Confirm buttons, requesting password for Sts3 access",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "password-screen",
+        "numeric-keypad",
+        "security",
+        "authentication",
+        "operator-access",
+        "backend-ui"
+      ],
+      "dimensions": "3840x2160",
+      "file_size": "105KB",
+      "notes": "Admin password entry interface with standard numeric keypad layout. Top shows Robo Ice Cream branding with icon. Instruction text reads 'Please input a password Sts3'. Keypad has numbers 1-9, 0, Clean, and Confirm buttons. Date visible: October 23, 2025 Thu 17:24:13.",
+      "processed": true,
+      "final_location": "assets/operation/admin_password_input_keypad.webp",
+      "date_added": "2025-10-24T00:00:00Z"
     }
   ],
   "schema": {
@@ -1306,24 +1622,19 @@
     "parts-service": "Component diagrams, parts photos, exploded views"
   },
   "statistics": {
-    "total_images": 66,
-    "processed": 58,
+    "total_images": 81,
+    "processed": 73,
     "by_category": {
-      "overview": 5,
-      "setup": 12,
-      "operation": 37,
-      "maintenance": 3,
-      "troubleshooting": 2,
-      "safety": 0,
       "parts-service": 7,
-      "unclear": 0
+      "operation": 45,
+      "overview": 5,
+      "troubleshooting": 6,
+      "maintenance": 3,
+      "setup": 14
     },
     "by_content_type": {
       "photo": 23,
-      "screenshot": 43,
-      "diagram": 0,
-      "label": 0,
-      "other": 0
+      "screenshot": 58
     }
   }
 }
