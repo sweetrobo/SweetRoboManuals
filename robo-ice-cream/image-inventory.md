@@ -16,7 +16,7 @@
 ### ✅ Already in JSON (7 images)
 1. **f2-machine-title-page.webp** - Machine UI for title/cover page
 2. **external-components.webp** - External components diagram
-3. **internal-components.webp** - Internal components (F2 dual hoppers)
+3. **internal-components.jpg** - Internal components (F2 dual hoppers)
 4. **serving-cups.webp** - Orange cups with integrated spoons
 5. **maintenance-and-mix-tools.webp** - Cleaning and mix prep tools
 6. **mixing-bucket.webp** - 10L measuring bucket

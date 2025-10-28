@@ -965,7 +965,7 @@ Chapter headers use Sweet Robo blue background (#2c5282) with white text for max
 
 <div class="image-text-layout">
 <div>
-<img src="./assets/overview/internal-components.webp" alt="Internal Components" />
+<img src="./assets/overview/internal-components.jpg" alt="Internal Components" />
 </div>
 <div class="text-with-line">
 

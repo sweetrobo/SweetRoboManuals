@@ -252,7 +252,7 @@ These components are designed for direct use by customers, including children, w
 ### Internal Components (F2 Dual-Hopper System)
 
 <div class="standalone-image-container">
-<img src="./assets/overview/internal-components.webp" alt="Internal Components Overview" />
+<img src="./assets/overview/internal-components.jpg" alt="Internal Components Overview" />
 <p class="image-caption">Internal view of the Robo Ice Cream F2 showing dual ice cream hoppers and internal systems</p>
 </div>
 

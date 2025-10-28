@@ -58,8 +58,8 @@
         "suitable_for_sections": ["overview", "components", "technical_specs"]
       },
       {
-        "filename": "internal-components.webp",
-        "path": "./assets/overview/internal-components.webp",
+        "filename": "internal-components.jpg",
+        "path": "./assets/overview/internal-components.jpg",
         "section": "overview",
         "file_size_approx": "large",
         "format": "WebP",
