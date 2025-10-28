@@ -229,7 +229,7 @@ Each F2 machine includes the following subsystems:
 | Blue Robo Delivery Bot | Automated system that gathers ingredients, prepares treats, and serves ice cream |
 
 <!-- | Refrigeration System | Maintains safe holding and freezing temperatures with compressor-based cooling | -->
-<!-- | UV Sanitizer | Disinfects the dispensing nozzle area regularly using built-in UV lamp | -->
+
 ## Hardware Components
 
 ### External Components (Customer-Facing)

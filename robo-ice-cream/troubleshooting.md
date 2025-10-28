@@ -36,8 +36,6 @@ This section provides step-by-step guidance for identifying and resolving common
 | Syrup not dispensing | Tubing clogged or bag empty | Clean tubing (see <a href="./maintenance.html#complete-3-step-cleaning-procedure">Cleaning Procedure</a>), replace syrup bag, run test |
 | Machine freezing or unresponsive | Overloaded system or background process stuck | Perform full restart via backend, then breaker |
 
-<!-- | UV lamp not turning on | Burned-out bulb or wiring issue | Contact Sweet Robo Support to replace lamp | -->
-
 </div>
 
 ### Machine Won't Make Ice Cream After Power On

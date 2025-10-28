@@ -253,7 +253,6 @@ The F2 provides comprehensive testing capabilities for dual-hopper operation:
 <div class="feature-item">
 
 #### System Controls
-• **UV Sanitizer**: Manual UV lamp control<br>
 • **Door Controls**: Lock/unlock and raise/lower collection door<br>
 • **System Reset**: Full system restart options
 
@@ -604,7 +603,7 @@ Configure customer experience for dual-flavor purchasing:<br>
 ## Daily Shutdown - F2 Protocol
 
 <div class="print-condensed">
-**Daily Shutdown - F2 Quick Reference:** 1) Record sales data & track swirl preferences 2) Check/record mix levels, plan next flavors 3) Wipe exterior, secure hoppers, close doors 4) Leave powered for overnight cooling & UV sanitizer
+**Daily Shutdown - F2 Quick Reference:** 1) Record sales data & track swirl preferences 2) Check/record mix levels, plan next flavors 3) Wipe exterior, secure hoppers, close doors 4) Leave powered for overnight cooling
 </div>
 
 <div class="numbered-steps">
@@ -633,8 +632,7 @@ Configure customer experience for dual-flavor purchasing:<br>
 <div>
 <div class="step-header">Overnight Operation</div>
 • Leave power on for temperature maintenance<br>
-• Both hoppers maintain optimal overnight cooling<br>
-• UV sanitizer continues automated cycles
+• Both hoppers maintain optimal overnight cooling
 </div>
 
 </div>
@@ -656,7 +654,6 @@ Configure customer experience for dual-flavor purchasing:<br>
 ### Safety Considerations
 - **Independent cooling systems** allow single-hopper operation if needed
 - **Regular cleaning** required every 3 days using <a href="./maintenance.html#complete-3-step-cleaning-procedure">3-Step Cleaning Procedure</a>
-- **UV sanitizer** activates between all servings regardless of flavor selection
 - **Temperature alarms** alert operators to hopper-specific issues
 
 </div>

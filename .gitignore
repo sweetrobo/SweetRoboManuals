@@ -45,3 +45,4 @@ book/
 cloudflare/credentials.json
 /.playwright-mcp
 .well-known/appspecific/com.chrome.devtools.json
+robo-ice-cream/assets/ui-images.zip
