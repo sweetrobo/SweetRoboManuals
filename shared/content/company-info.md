@@ -16,7 +16,7 @@ Sweet Robo is a leading innovator in automated food service technology, speciali
 **Technical Support, Parts & Service**
 - Email: support@sweetrobo.com
 - Phone: +1-844-793-3872 (+1-844-SWEETRB)
-- Hours: Monday-Friday, 9 AM - 5 PM PST
+- Hours: Monday-Friday, 9 AM - 5 PM EST
 
 **Sales Inquiries**
 - Email: sales@sweetrobo.com
