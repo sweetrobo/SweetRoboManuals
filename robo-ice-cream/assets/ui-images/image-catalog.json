@@ -1,0 +1,1724 @@
+{
+  "catalog_name": "Robo Ice Cream UI Images Catalog",
+  "created_date": "2025-10-28",
+  "images": [
+    {
+      "filename": "ui_management_system_menu.webp",
+      "original_filename": "Robo Ice Cream - 27.webp",
+      "description": "Management system main dashboard showing device info panel and menu grid with 9 options for configuration and testing",
+      "tags": [
+        "management-system",
+        "dashboard",
+        "main-menu",
+        "system-info",
+        "navigation",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T17:35:18Z",
+      "dimensions": "3840x2160",
+      "file_size": "138KB",
+      "content_details": {
+        "device_info": "CT100115, CTYXG220",
+        "version": "V0.57 (7.1.2)",
+        "status_indicators": [
+          "network",
+          "communication",
+          "binding"
+        ],
+        "menu_options": [
+          "Device test",
+          "System sett.",
+          "Stock setting",
+          "Param setti.",
+          "Opening ho.",
+          "Shopping s.",
+          "Product ma."
+        ]
+      },
+      "use_cases": [
+        "operation guide",
+        "management system overview",
+        "menu navigation reference"
+      ]
+    },
+    {
+      "filename": "ui_product_ingredient_confirmation_dialog.webp",
+      "original_filename": "Robo Ice Cream - 33.webp",
+      "description": "Product management screen with ingredient confirmation dialog showing vanilla selection and quantity input with confirm/cancel options",
+      "tags": [
+        "product-management",
+        "ingredient-dialog",
+        "confirmation-popup",
+        "vanilla",
+        "quantity-input",
+        "user-interface"
+      ],
+      "date_added": "2025-10-28T18:45:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "142KB",
+      "content_details": {
+        "dialog_type": "ingredient_confirmation",
+        "selected_ingredient": "vanilla",
+        "quantity_displayed": "0.00",
+        "buttons": [
+          "Confirm",
+          "Cancel"
+        ],
+        "background_context": "product management grid with various syrup/topping options including Reese's Pieces, White Chocolate, Snickerdoodle, Rainbows, and Blackberry"
+      },
+      "use_cases": [
+        "product configuration guide",
+        "ingredient management tutorial",
+        "operator training material"
+      ]
+    },
+    {
+      "filename": "ui_product_edit_rainbow_sprinkles_dialog.webp",
+      "original_filename": "Robo Ice Cream - 32.webp",
+      "description": "Product editing interface with confirmation dialog for Rainbow Sprinkles showing Confirm/Cancel buttons and virtual keyboard",
+      "tags": [
+        "product-management",
+        "edit-dialog",
+        "confirmation-modal",
+        "virtual-keyboard",
+        "rainbow-sprinkles",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T18:47:15Z",
+      "dimensions": "3840x2160",
+      "file_size": "142KB",
+      "content_details": {
+        "dialog_title": "Edit",
+        "product_being_edited": "Rainbow Sprinkles",
+        "price_shown": "0.00",
+        "action_buttons": [
+          "Confirm",
+          "Cancel"
+        ],
+        "keyboard_type": "virtual_qwerty",
+        "visible_products": [
+          "Reese's Pieces",
+          "White Chocolate Syrup",
+          "Snickerdoodle Syrup",
+          "Blackberry Syrup",
+          "Rainbows (candy)",
+          "chocolate (base flavor)"
+        ]
+      },
+      "use_cases": [
+        "product configuration guide",
+        "management system tutorial",
+        "editing workflow documentation"
+      ]
+    },
+    {
+      "filename": "ui_product_management_toppings_inventory.webp",
+      "original_filename": "Robo Ice Cream - 31.webp",
+      "description": "Product management screen displaying topping and syrup inventory with images and quantities for 7 items including candy pieces, syrups, and sprinkles",
+      "tags": [
+        "product-management",
+        "inventory",
+        "toppings",
+        "syrups",
+        "stock-levels",
+        "management-system",
+        "configuration"
+      ],
+      "date_added": "2025-10-28T18:00:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "156KB",
+      "content_details": {
+        "screen_title": "Product management",
+        "sidebar_buttons": [
+          "save",
+          "recover"
+        ],
+        "inventory_items": [
+          {
+            "name": "chocolate",
+            "quantity": "0.00",
+            "type": "base"
+          },
+          {
+            "name": "Mini Reese's Pieces",
+            "quantity": "0.00",
+            "type": "candy-topping"
+          },
+          {
+            "name": "White Chocolate Syrup",
+            "quantity": "0.00",
+            "type": "syrup"
+          },
+          {
+            "name": "Caramel Sprinkles",
+            "quantity": "0.00",
+            "type": "sprinkles"
+          },
+          {
+            "name": "Snickerdoodle Syrup",
+            "quantity": "0.00",
+            "type": "syrup"
+          },
+          {
+            "name": "Rainbow Sprinkles",
+            "quantity": "0.00",
+            "type": "sprinkles"
+          },
+          {
+            "name": "Blackberry Syrup",
+            "quantity": "0.00",
+            "type": "syrup"
+          }
+        ],
+        "display_format": "grid-layout-with-images"
+      },
+      "use_cases": [
+        "inventory management",
+        "product configuration",
+        "stock tracking",
+        "operator training",
+        "management system guide"
+      ]
+    },
+    {
+      "filename": "ui_revert_changes_confirmation_modal.webp",
+      "original_filename": "Robo Ice Cream - 36.webp",
+      "description": "Revert all changes confirmation modal dialog with emoji icon, kind tips text, and confirm/cancel action buttons",
+      "tags": [
+        "modal-dialog",
+        "confirmation",
+        "product-management",
+        "revert-changes",
+        "user-interface",
+        "action-confirmation"
+      ],
+      "date_added": "2025-10-28T18:50:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "96KB",
+      "content_details": {
+        "modal_title": "Revert all changes",
+        "modal_type": "confirmation",
+        "buttons": [
+          "Confirm (blue)",
+          "Cancel (red)"
+        ],
+        "ui_element": "emoji icon with arrow, vertical 'Kind tips' text",
+        "background_context": "Product management interface with toppings and syrups visible",
+        "visible_products": [
+          "Mini Reese's Pieces",
+          "White Chocolate Syrup",
+          "Caramel Sprinkles",
+          "Snickerdoodle Syrup",
+          "Rainbow Sprinkles",
+          "Blackberry Syrup"
+        ]
+      },
+      "use_cases": [
+        "product management guide",
+        "modal dialog reference",
+        "confirmation workflow documentation"
+      ]
+    },
+    {
+      "filename": "ui_product_grid_pagination_counter.webp",
+      "original_filename": "Robo Ice Cream - 35.webp",
+      "description": "Product management grid displaying toppings and syrups with active pagination counter showing page 14 of 14",
+      "tags": [
+        "product-management",
+        "pagination",
+        "toppings",
+        "syrups",
+        "inventory-grid",
+        "navigation-overlay"
+      ],
+      "date_added": "2025-10-28T18:52:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "91KB",
+      "content_details": {
+        "page_indicator": "14 / 14",
+        "visible_products": [
+          "Mini Reese's Pieces (0.00)",
+          "White Chocolate Syrup (0.00)",
+          "Caramel Sprinkles (0.00)",
+          "Snickerdoodle Syrup (0.00)",
+          "Vanilla (0.00)",
+          "Rainbow Sprinkles (0.00)",
+          "Blackberry Syrup (0.00)"
+        ],
+        "sidebar_buttons": [
+          "save",
+          "recover"
+        ],
+        "grid_layout": "2 columns of product cards"
+      },
+      "use_cases": [
+        "product management guide",
+        "pagination navigation reference",
+        "inventory configuration"
+      ]
+    },
+    {
+      "filename": "ui_topping_syrup_selection.webp",
+      "original_filename": "Robo Ice Cream - 39.webp",
+      "description": "Pick a Flavor screen showing topping and syrup selection grid with 6 customization options for ice cream orders",
+      "tags": [
+        "customer-interface",
+        "flavor-selection",
+        "toppings",
+        "syrups",
+        "customization",
+        "order-flow",
+        "user-interface"
+      ],
+      "date_added": "2025-10-28T18:52:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "156KB",
+      "content_details": {
+        "screen_title": "PICK A FLAVOR - Pick a Glaze",
+        "topping_options": [
+          "Mini Reese's Pieces (0.00)",
+          "Caramel Sprinkles (0.00)",
+          "Rainbow Sprinkles (0.00)"
+        ],
+        "syrup_options": [
+          "White Chocolate Syrup (0.00)",
+          "Snickerdoodle Syrup (0.00)",
+          "Raspberry Syrup (0.00)"
+        ],
+        "navigation_buttons": [
+          "NEXT",
+          "BACK"
+        ],
+        "page_number": "25"
+      },
+      "use_cases": [
+        "customer operation guide",
+        "topping selection workflow",
+        "customization options reference",
+        "order flow documentation"
+      ]
+    },
+    {
+      "filename": "ui_countdown_timer_completed.webp",
+      "original_filename": "Robo Ice Cream - 38.webp",
+      "description": "Customer-facing countdown timer at 00:00 showing order completion with ice cream visual, continue button, and order number 27",
+      "tags": [
+        "customer-interface",
+        "countdown-timer",
+        "order-complete",
+        "dispensing",
+        "user-experience",
+        "customer-display"
+      ],
+      "date_added": "2025-10-28T19:15:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "215KB",
+      "content_details": {
+        "timer_state": "00:00 (completed)",
+        "order_number": "27",
+        "product_shown": "Ice cream with colorful sprinkles",
+        "branding": "SWEET ROBO - TASTE THE FUTURE",
+        "ui_elements": [
+          "countdown display",
+          "continue button",
+          "circular progress indicator",
+          "product visualization"
+        ],
+        "background": "Purple gradient with decorative elements"
+      },
+      "use_cases": [
+        "customer operation flow",
+        "order completion state",
+        "user interface demonstration",
+        "dispensing process documentation"
+      ]
+    },
+    {
+      "filename": "ui_robo_ice_cream_splash_screen.webp",
+      "original_filename": "Robo Ice Cream - 37.webp",
+      "description": "Vibrant promotional splash screen featuring ice cream cone with rainbow sprinkles on cosmic purple background with Robo Ice Cream branding",
+      "tags": [
+        "splash-screen",
+        "branding",
+        "promotional",
+        "startup-screen",
+        "user-interface",
+        "sweet-robo"
+      ],
+      "date_added": "2025-10-28T19:20:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "217KB",
+      "content_details": {
+        "main_element": "Ice cream cone with colorful sprinkles",
+        "background": "Purple gradient with pink accents and geometric shapes",
+        "branding": "ROBO ICE CREAM text with 3D neon effect",
+        "logo": "Sweet Robo logo in cosmic circle design",
+        "visual_style": "Modern, playful, high-contrast with neon aesthetics",
+        "timestamp": "October 22, 2025 Thu 17:30:51",
+        "device_info": "CT100115"
+      },
+      "use_cases": [
+        "startup screen documentation",
+        "branding reference",
+        "UI design showcase",
+        "promotional materials"
+      ]
+    },
+    {
+      "filename": "ui_product_save_changes_dialog.webp",
+      "original_filename": "Robo Ice Cream - 34.webp",
+      "description": "Modal dialog prompting to save product configuration changes with Confirm and Cancel buttons over product management grid",
+      "tags": [
+        "dialog",
+        "modal",
+        "save-prompt",
+        "product-management",
+        "confirmation",
+        "user-interface"
+      ],
+      "date_added": "2025-10-28T19:20:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "96KB",
+      "content_details": {
+        "modal_title": "Save all changes",
+        "modal_type": "confirmation",
+        "icon": "smiley face emoji",
+        "heading": "Kind tips (vertical text)",
+        "buttons": [
+          "Confirm (blue)",
+          "Cancel (red)"
+        ],
+        "background_context": "Product management interface with toppings and syrups visible",
+        "visible_products": [
+          "Mini Reese's Pieces (0.00)",
+          "White Chocolate Syrup (0.00)",
+          "Caramel Sprinkles (0.00)",
+          "Snickerdoodle Syrup (0.00)",
+          "Rainbow Sprinkles (0.00)",
+          "Blackberry Syrup (0.00)"
+        ]
+      },
+      "use_cases": [
+        "product configuration guide",
+        "save workflow documentation",
+        "UI interaction reference",
+        "management system tutorial"
+      ]
+    },
+    {
+      "filename": "ui_robot_mixing_process_active.webp",
+      "original_filename": "Robo Ice Cream - 43.webp",
+      "description": "Active mixing process showing dual robotic arms (cyan and purple) blending ice cream with toppings in bowl, with progress indicator at 55%",
+      "tags": [
+        "customer-interface",
+        "mixing-process",
+        "robotic-arms",
+        "dispensing",
+        "in-progress",
+        "order-preparation",
+        "automation"
+      ],
+      "date_added": "2025-10-28T19:45:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "245KB",
+      "content_details": {
+        "process_stage": "active_mixing",
+        "progress_percentage": "55%",
+        "visible_robots": [
+          "Tiny Robot Chef (purple arms)",
+          "Small Robot Chef (cyan/teal arms)"
+        ],
+        "ice_cream_shown": "Vanilla and blue ice cream with colorful candy pieces",
+        "text_overlay": "TINY ROBOT CHEFS ARE MAKING ... YOUR PERFECT SMALL SWEET",
+        "visual_elements": [
+          "mixing bowl view from above",
+          "dual robotic arms in motion",
+          "ice cream icon indicator",
+          "progress bar at 55%"
+        ],
+        "background": "Purple gradient",
+        "message_tone": "Playful and engaging customer experience"
+      },
+      "use_cases": [
+        "customer operation flow",
+        "mixing process documentation",
+        "robotic automation showcase",
+        "order preparation visualization",
+        "user experience demonstration"
+      ]
+    },
+    {
+      "filename": "ui_installing_creamy_core_module.webp",
+      "original_filename": "Robo Ice Cream - 44.webp",
+      "description": "Installing Creamy Core Module instructional screen with animated jellyfish-style visual showing core installation at 51% progress",
+      "tags": [
+        "installation",
+        "core-module",
+        "setup-process",
+        "progress-indicator",
+        "animated-ui",
+        "system-initialization",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T19:30:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "180KB",
+      "content_details": {
+        "screen_title": "INSTALLING CREAMY CORE MODULE...",
+        "progress": "51%",
+        "visual_element": "Animated translucent jellyfish-like shape with golden core center",
+        "background": "Purple-to-blue gradient with pink accent elements",
+        "animation_indicators": [
+          "flowing translucent material",
+          "glowing yellow/orange core",
+          "floating particles",
+          "progress percentage"
+        ],
+        "ui_elements": [
+          "installation text",
+          "percentage counter",
+          "visual progress animation",
+          "book icon (bottom right)"
+        ],
+        "color_scheme": "Purple, blue, pink, yellow/gold"
+      },
+      "use_cases": [
+        "setup documentation",
+        "installation workflow guide",
+        "system initialization reference",
+        "operator training material",
+        "troubleshooting installation issues"
+      ]
+    },
+    {
+      "filename": "ui_password_input_numeric_keypad.webp",
+      "original_filename": "Robo Ice Cream - 48.webp",
+      "description": "Password authentication dialog with 3x3 numeric keypad (0-9), Clean and Confirm buttons for system access security",
+      "tags": [
+        "authentication",
+        "password-dialog",
+        "numeric-keypad",
+        "security",
+        "management-system",
+        "access-control",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T19:50:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "145KB",
+      "content_details": {
+        "dialog_title": "Please input a password 533",
+        "input_type": "numeric_password",
+        "keypad_layout": "3x3 grid",
+        "number_buttons": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "0"
+        ],
+        "action_buttons": [
+          "Confirm (blue)",
+          "Clean (white)"
+        ],
+        "security_feature": "password protected system access",
+        "background_context": "Robo Ice Cream machine display with purple gradient background and colorful decorative spheres"
+      },
+      "use_cases": [
+        "system access documentation",
+        "security setup guide",
+        "authentication workflow",
+        "operator login tutorial",
+        "management system access"
+      ]
+    },
+    {
+      "filename": "ui_core_board_connection_error_5005.webp",
+      "original_filename": "Robo Ice Cream - 45.webp",
+      "description": "Error dialog displaying core board connection failure with error code CT0100115 and detailed error 5005",
+      "tags": [
+        "error-dialog",
+        "system-error",
+        "core-board",
+        "connection-failure",
+        "troubleshooting",
+        "error-code-5005",
+        "reminder-modal"
+      ],
+      "date_added": "2025-10-28T19:55:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "37KB",
+      "content_details": {
+        "error_code": "CT0100115",
+        "detailed_error": "5005",
+        "error_type": "Core board connection error",
+        "dialog_title": "Reminder",
+        "display_format": "white card on purple gradient background",
+        "ui_elements": [
+          "error message card",
+          "utility icons (bottom right)"
+        ]
+      },
+      "use_cases": [
+        "troubleshooting guide",
+        "error code reference",
+        "system diagnostics documentation",
+        "technical support material"
+      ]
+    },
+    {
+      "filename": "ui_payment_method_cash_selection.webp",
+      "original_filename": "Robo Ice Cream - 42.webp",
+      "description": "Payment method selection screen showing Cash payment option with prominent white button on purple gradient background",
+      "tags": [
+        "customer-interface",
+        "payment-method",
+        "cash-payment",
+        "order-flow",
+        "checkout",
+        "user-interface"
+      ],
+      "date_added": "2025-10-28T19:35:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "131KB",
+      "content_details": {
+        "screen_title": "PICK A Glaze - Select payment method",
+        "payment_options": [
+          "Cash (large white rounded button with cash icon)"
+        ],
+        "navigation_buttons": [
+          "BACK"
+        ],
+        "page_number": "26",
+        "background": "Purple gradient with pink accents",
+        "branding": "Robo Ice Cream logo visible on left side"
+      },
+      "use_cases": [
+        "customer operation flow",
+        "payment selection workflow",
+        "checkout process documentation",
+        "order flow tutorial"
+      ]
+    },
+    {
+      "filename": "ui_customer_glaze_topping_selection.webp",
+      "original_filename": "Robo Ice Cream - 40.webp",
+      "description": "Customer interface showing Pick a Glaze screen with 6 topping and syrup options in grid layout with NEXT and BACK navigation buttons",
+      "tags": [
+        "customer-interface",
+        "glaze-selection",
+        "toppings",
+        "syrups",
+        "order-flow",
+        "navigation",
+        "customization"
+      ],
+      "date_added": "2025-10-28T19:35:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "270KB",
+      "content_details": {
+        "screen_title": "PICK A FLAVOR - Pick a Glaze",
+        "subtitle": "Touch the topping and syrup you want to choose!",
+        "page_number": "26",
+        "topping_options": [
+          {
+            "name": "Mini Reese's Pieces",
+            "price": "0.00",
+            "position": "top-left"
+          },
+          {
+            "name": "White Chocolate Syrup",
+            "price": "0.00",
+            "position": "top-right"
+          },
+          {
+            "name": "Caramel Sprinkles",
+            "price": "0.00",
+            "position": "middle-left"
+          },
+          {
+            "name": "Snickerdoodle Syrup",
+            "price": "0.00",
+            "position": "middle-right"
+          },
+          {
+            "name": "Rainbow Sprinkles",
+            "price": "0.00",
+            "position": "bottom-left"
+          },
+          {
+            "name": "Blackberry Syrup",
+            "price": "0.00",
+            "position": "bottom-right"
+          }
+        ],
+        "navigation_buttons": [
+          "NEXT (right side)",
+          "BACK (right side)"
+        ],
+        "card_style": "white rounded cards with product images and pricing",
+        "background": "purple gradient with pink accents"
+      },
+      "use_cases": [
+        "customer ordering guide",
+        "glaze and topping selection workflow",
+        "customization interface reference",
+        "order flow documentation",
+        "customer experience tutorial"
+      ]
+    },
+    {
+      "filename": "ui_device_task_selection_screen.webp",
+      "original_filename": "Robo Ice Cream - 47.webp",
+      "description": "Device task selection screen showing three available test tasks (TASK 1, 2, and 3) with device number display",
+      "tags": [
+        "device-testing",
+        "task-selection",
+        "management-system",
+        "component-test",
+        "operator-interface",
+        "diagnostic-screen"
+      ],
+      "date_added": "2025-10-28T19:35:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "28KB",
+      "content_details": {
+        "screen_type": "device_task_management",
+        "device_number": "cmonts",
+        "visible_tasks": [
+          "RES: TASK 1/ 1/",
+          "RES: TASK 2/ 2/",
+          "RES: TASK 3/ 3/ 4/"
+        ],
+        "ui_elements": [
+          "status icons (top left)",
+          "timestamp display",
+          "device number label (vertical)",
+          "three task selection buttons"
+        ],
+        "timestamp": "October 23, 2025 Thu 17:21:11",
+        "background": "black screen with minimal UI"
+      },
+      "use_cases": [
+        "device testing guide",
+        "component diagnostics",
+        "task selection workflow",
+        "management system operations",
+        "troubleshooting procedures"
+      ]
+    },
+    {
+      "filename": "ui_order_details_customization_grid.webp",
+      "original_filename": "Robo Ice Cream - 41.webp",
+      "description": "Order details screen showing flavor customization with grid layout for vanilla, rainbow sprinkles, mini pieces, and snickerdoodle syrup selections",
+      "tags": [
+        "customer-interface",
+        "order-details",
+        "customization",
+        "toppings",
+        "syrups",
+        "flavor-selection",
+        "order-summary"
+      ],
+      "date_added": "2025-10-28T19:35:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "142KB",
+      "content_details": {
+        "screen_title": "PICK A FLAVOR - Pick a Glaze",
+        "page_number": "24",
+        "selected_items": [
+          "vanilla (base)",
+          "Rainbow Sprinkles",
+          "Mini Reese's Pieces",
+          "Snickerdoodle Syrup"
+        ],
+        "grid_layout": "4 square tiles with product images",
+        "navigation_buttons": [
+          "PREV (left sidebar)",
+          "BACK (right sidebar)"
+        ],
+        "price_display": "0.00 shown for each item",
+        "visual_style": "Purple gradient background with product images in white rounded squares"
+      },
+      "use_cases": [
+        "customer order flow documentation",
+        "customization interface reference",
+        "order summary display",
+        "product selection demonstration"
+      ]
+    },
+    {
+      "filename": "ui_device_idle_screen_blank.webp",
+      "original_filename": "Robo Ice Cream - 46.webp",
+      "description": "Device idle screen showing blank black display with three RES TASK buttons in bottom left corner and timestamp",
+      "tags": [
+        "idle-screen",
+        "standby-mode",
+        "device-no-action",
+        "blank-display",
+        "res-task-buttons",
+        "user-interface"
+      ],
+      "date_added": "2025-10-28T19:35:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "26KB",
+      "content_details": {
+        "screen_state": "idle/blank",
+        "visible_elements": [
+          "Three identical RES TASK buttons",
+          "Timestamp: October 23, 2025 Thu 17:40:58",
+          "Device ID: CT100115"
+        ],
+        "button_location": "bottom-left corner",
+        "background": "solid black",
+        "ui_activity": "none - standby/idle state"
+      },
+      "use_cases": [
+        "idle state documentation",
+        "standby mode reference",
+        "device testing interface",
+        "troubleshooting no-display issues"
+      ]
+    },
+    {
+      "filename": "ui_system_settings_volume_network.webp",
+      "original_filename": "Robo Ice Cream - System setting.webp",
+      "description": "System settings configuration screen with volume controls, shopping guide voice toggle, and weak network mode options",
+      "tags": [
+        "system-settings",
+        "configuration",
+        "volume-control",
+        "network-mode",
+        "management-system",
+        "settings-screen",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T20:00:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "142KB",
+      "content_details": {
+        "screen_title": "System setting",
+        "settings_sections": [
+          {
+            "name": "Volume Setting",
+            "controls": [
+              "dosing volume slider (value: 15)",
+              "business volume slider (top)"
+            ]
+          },
+          {
+            "name": "Shopping guide voice",
+            "options": [
+              "Open toggle",
+              "Play interval toggle"
+            ]
+          },
+          {
+            "name": "Weak network mode",
+            "options": [
+              "Open toggle"
+            ]
+          }
+        ],
+        "action_buttons": [
+          "Restart (blue, right side)",
+          "Repair (blue, right side)",
+          "Exit APP (blue, right side)"
+        ],
+        "ui_elements": [
+          "vertical sliders for volume control",
+          "toggle switches for mode settings",
+          "action buttons sidebar"
+        ],
+        "background": "Purple gradient with pink accents"
+      },
+      "use_cases": [
+        "system configuration guide",
+        "volume adjustment tutorial",
+        "network settings documentation",
+        "management system operations",
+        "operator training material"
+      ]
+    },
+    {
+      "filename": "ui_android_system_boot_screen.webp",
+      "original_filename": "Robo Ice Cream - Android turning on.webp",
+      "description": "Android system boot screen displaying vertical white 'android' text on black background during machine startup initialization",
+      "tags": [
+        "boot-screen",
+        "android-os",
+        "system-startup",
+        "initialization",
+        "startup-sequence",
+        "operating-system"
+      ],
+      "date_added": "2025-10-28T20:05:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "23KB",
+      "content_details": {
+        "screen_type": "system_boot",
+        "text_displayed": "android (vertical orientation)",
+        "text_color": "white",
+        "background": "solid black",
+        "boot_stage": "initial Android OS startup",
+        "visual_elements": [
+          "android wordmark",
+          "vertical text layout",
+          "minimalist design"
+        ]
+      },
+      "use_cases": [
+        "startup documentation",
+        "system initialization guide",
+        "boot sequence reference",
+        "troubleshooting boot issues",
+        "operator training material"
+      ]
+    },
+    {
+      "filename": "ui_device_testing_comprehensive_dashboard.webp",
+      "original_filename": "Robo Ice Cream - Device testing.webp",
+      "description": "Comprehensive device testing dashboard showing multiple control panels for sensors, dispensers, doors, jams, and cup holders with real-time component testing",
+      "tags": [
+        "device-testing",
+        "diagnostic-dashboard",
+        "component-control",
+        "management-system",
+        "sensor-status",
+        "hardware-testing",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T20:15:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "161KB",
+      "content_details": {
+        "screen_title": "Device testing",
+        "visible_panels": [
+          {
+            "name": "sprinkles 1",
+            "controls": [
+              "Direction",
+              "Duration",
+              "up arrow button"
+            ],
+            "status_indicators": [
+              "R circle",
+              "2000"
+            ]
+          },
+          {
+            "name": "sprinkles 2",
+            "controls": [
+              "Direction",
+              "Duration",
+              "up arrow button"
+            ],
+            "status_indicators": [
+              "R circle",
+              "2000"
+            ]
+          },
+          {
+            "name": "sprinkles 3",
+            "controls": [
+              "Direction",
+              "Duration",
+              "up arrow button"
+            ],
+            "status_indicators": [
+              "R circle",
+              "2000"
+            ]
+          },
+          {
+            "name": "door",
+            "controls": [
+              "right arrow",
+              "Door lock",
+              "left arrow",
+              "Disinfection lamp"
+            ],
+            "status_indicators": [
+              "2000"
+            ]
+          },
+          {
+            "name": "sensor status",
+            "displays": [
+              "1. does the holder have...",
+              "2. cup dispenser door...",
+              "3. cup dispenser outlet...",
+              "4. cup dispenser turn...",
+              "5. cup holder lower limit...",
+              "6. cup holder left..."
+            ]
+          },
+          {
+            "name": "cup dispenser",
+            "controls": [
+              "Sensor",
+              "Duration",
+              "turntable",
+              "cup fall"
+            ],
+            "status_indicators": [
+              "unknown status",
+              "1000"
+            ]
+          },
+          {
+            "name": "jam 1",
+            "controls": [
+              "Duration",
+              "right arrow",
+              "left arrow"
+            ],
+            "status_indicators": [
+              "2000"
+            ]
+          },
+          {
+            "name": "jam 2",
+            "controls": [
+              "Duration",
+              "right arrow",
+              "left arrow"
+            ],
+            "status_indicators": [
+              "2000"
+            ]
+          },
+          {
+            "name": "jam 3",
+            "controls": [
+              "Duration",
+              "right arrow",
+              "left arrow"
+            ],
+            "status_indicators": [
+              "2000"
+            ]
+          },
+          {
+            "name": "device testing - lower section",
+            "controls": [
+              "cup out",
+              "reset cup holder",
+              "cooling",
+              "clean fresh",
+              "close",
+              "manual discharging",
+              "automatic discharging"
+            ],
+            "additional": [
+              "tank temperature -999\u00b0C",
+              "discharge conditions unknown",
+              "molding rate -1%",
+              "current speed -1",
+              "power voltage -1V",
+              "switch function"
+            ]
+          },
+          {
+            "name": "cup holder",
+            "controls": [
+              "left high",
+              "Sensor",
+              "Steps",
+              "up down",
+              "down"
+            ],
+            "status_indicators": [
+              "unknown",
+              "500"
+            ]
+          }
+        ],
+        "sidebar_navigation": "left arrow button for return",
+        "background_warning": "core board initialization failed (5000c)",
+        "display_style": "grid layout with multiple control panels showing real-time hardware status",
+        "color_coding": "blue buttons for active controls, gray for inactive, white background cards"
+      },
+      "use_cases": [
+        "hardware diagnostics guide",
+        "component testing procedures",
+        "troubleshooting hardware issues",
+        "operator training for device testing",
+        "maintenance verification procedures",
+        "sensor calibration reference"
+      ]
+    },
+    {
+      "filename": "ui_stock_setting_expired_mix_alert.webp",
+      "original_filename": "Robo Ice Cream - Stock setting - expired mix.webp",
+      "description": "Stock setting management screen showing inventory grid with expired mix warning alert highlighted for material station requiring attention",
+      "tags": [
+        "stock-setting",
+        "inventory-management",
+        "expired-mix",
+        "warning-alert",
+        "management-system",
+        "maintenance",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T20:10:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "114KB",
+      "content_details": {
+        "screen_title": "Stock setting",
+        "screen_layout": "grid of station cards",
+        "visible_stations": [
+          {
+            "station": "Material 1",
+            "status": "unknown",
+            "shelf_life": "3 days",
+            "reset_button": true
+          },
+          {
+            "station": "Cap",
+            "capacity": "199",
+            "modify_button": true
+          },
+          {
+            "station": "Jam 3",
+            "level": "100.0%",
+            "fill_up_button": true,
+            "clean_up_button": true,
+            "maximum_capacity": "1L"
+          },
+          {
+            "station": "Jam 2",
+            "level": "100.0%",
+            "fill_up_button": true,
+            "clean_up_button": true,
+            "maximum_capacity": "1L"
+          },
+          {
+            "station": "Sprinkles 3",
+            "level": "100.0%",
+            "fill_up_button": true,
+            "clean_up_button": true,
+            "maximum_capacity": "1L"
+          },
+          {
+            "station": "Sprinkles 2",
+            "level": "100.0%",
+            "fill_up_button": true,
+            "clean_up_button": true,
+            "maximum_capacity": "1L"
+          },
+          {
+            "station": "Sprinkles 1",
+            "level": "91.78%",
+            "fill_up_button": true,
+            "clean_up_button": true,
+            "maximum_capacity": "1L"
+          }
+        ],
+        "alert_details": {
+          "alert_type": "expired_error",
+          "affected_station": "Material station (bottom left)",
+          "severity": "warning",
+          "message": "Expired Error - No Cream Expired Error",
+          "visual_indicator": "red/pink warning text with info icon"
+        },
+        "ui_elements": [
+          "station cards with status displays",
+          "Fill up buttons (blue)",
+          "Clean up buttons (gray)",
+          "Modify button",
+          "Reset button",
+          "percentage indicators",
+          "capacity displays"
+        ],
+        "sidebar_navigation": "Stock setting label (vertical text on left)"
+      },
+      "use_cases": [
+        "inventory management guide",
+        "stock monitoring workflow",
+        "expired mix troubleshooting",
+        "maintenance alerts documentation",
+        "operator training material",
+        "station status reference"
+      ]
+    },
+    {
+      "filename": "ui_shopping_settings_payment_config.webp",
+      "original_filename": "Robo Ice Cream - Shopping settings 2.webp",
+      "description": "Shopping settings configuration screen showing payment method setup with banknote machine options, coin acceptor checkboxes, and change management panel",
+      "tags": [
+        "shopping-settings",
+        "payment-configuration",
+        "banknote-machine",
+        "coin-acceptor",
+        "change-settings",
+        "management-system",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T20:10:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "102KB",
+      "content_details": {
+        "screen_title": "Shopping settings",
+        "navigation_tabs": [
+          "Shopping settings (active)",
+          "Shopping time",
+          "Payment time",
+          "Show balance"
+        ],
+        "payment_method_section": {
+          "title": "Payment method",
+          "selected_option": "Banknote machine: Direct-2",
+          "radio_options": [
+            "Direct 1",
+            "Indirect",
+            "USB",
+            "USB-ICT"
+          ],
+          "remaining_value": "0.0",
+          "clear_button": true,
+          "checkboxes": [
+            "ITL NV11",
+            "CBH-KGBS",
+            "Coin acceptor",
+            "VPos",
+            "PAX"
+          ]
+        },
+        "change_settings_section": {
+          "title": "Change settings",
+          "fields": [
+            {
+              "label": "Open",
+              "value": "1.0"
+            },
+            {
+              "label": "Coin value",
+              "value": "1.0"
+            },
+            {
+              "label": "Inventory quantity",
+              "value": "0"
+            },
+            {
+              "label": "Number of alerts",
+              "value": "0"
+            },
+            {
+              "label": "Change limit",
+              "value": "0"
+            }
+          ],
+          "change_test_section": {
+            "label": "Change test",
+            "testing_amount": "0",
+            "checkbox": "No change reminder box"
+          }
+        },
+        "ui_layout": "three-panel horizontal split (navigation, payment config, change settings)"
+      },
+      "use_cases": [
+        "payment system configuration",
+        "cash handling setup",
+        "change management tutorial",
+        "operator setup guide",
+        "financial settings documentation"
+      ]
+    },
+    {
+      "filename": "ui_stock_setting_fresh_mix_inventory.webp",
+      "original_filename": "Robo Ice Cream - Stock setting - fresh mix.webp",
+      "description": "Stock setting screen displaying fresh mix inventory levels across 7 compartments with percentage indicators and action buttons",
+      "tags": [
+        "stock-setting",
+        "inventory-management",
+        "fresh-mix",
+        "compartments",
+        "management-system",
+        "operator-interface",
+        "stock-levels"
+      ],
+      "date_added": "2025-10-28T20:15:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "111KB",
+      "content_details": {
+        "screen_title": "Stock setting (left sidebar)",
+        "compartment_types": [
+          "Jam compartments (Jam 1, Jam 2, Jam 3)",
+          "Sprinkles compartments (Sprinks 1, Sprinks 2, Sprinks 3)",
+          "Cup compartment"
+        ],
+        "stock_status": [
+          {
+            "compartment": "Jam 3",
+            "level": "100.0%",
+            "action_buttons": [
+              "Fill up",
+              "Clean up"
+            ],
+            "capacity": "maximum capacity indicated by '1 L'"
+          },
+          {
+            "compartment": "Jam 2",
+            "level": "100.0%",
+            "action_buttons": [
+              "Fill up",
+              "Clean up"
+            ],
+            "capacity": "maximum capacity indicated by '1 L'"
+          },
+          {
+            "compartment": "Jam 1",
+            "level": "100.0%",
+            "action_buttons": [
+              "Fill up",
+              "Clean up"
+            ],
+            "capacity": "maximum capacity indicated by '1 L'"
+          },
+          {
+            "compartment": "Sprinks 3",
+            "level": "100.0%",
+            "action_buttons": [
+              "Fill up",
+              "Clean up"
+            ],
+            "capacity": "maximum capacity indicated"
+          },
+          {
+            "compartment": "Sprinks 2",
+            "level": "100.0%",
+            "action_buttons": [
+              "Fill up",
+              "Clean up"
+            ],
+            "capacity": "maximum capacity indicated"
+          },
+          {
+            "compartment": "Sprinks 1",
+            "level": "91.78%",
+            "action_buttons": [
+              "Fill up",
+              "Clean up"
+            ],
+            "capacity": "below maximum"
+          },
+          {
+            "compartment": "Cup",
+            "level": "199",
+            "action_buttons": [
+              "Modify"
+            ],
+            "capacity": "numerical count display"
+          }
+        ],
+        "ui_elements": [
+          "Manual button (left sidebar)",
+          "Stock setting label (vertical text, left side)",
+          "Grid layout with 7 compartment cards",
+          "Percentage indicators for liquid compartments",
+          "Numerical counter for cup compartment",
+          "Blue 'Fill up' buttons",
+          "Gray 'Clean up' buttons",
+          "Unknown status indicator (left sidebar showing '3 days Reset')"
+        ],
+        "background": "Light blue gradient",
+        "card_design": "White rounded cards with compartment labels and status displays"
+      },
+      "use_cases": [
+        "inventory management guide",
+        "stock level monitoring",
+        "compartment refill workflow",
+        "maintenance planning",
+        "operator training material",
+        "management system operations"
+      ]
+    },
+    {
+      "filename": "ui_system_loading_initialization_screen.webp",
+      "original_filename": "Robo Ice Cream - Software loading page.webp",
+      "description": "System initialization screen with 3D glossy Robo Ice Cream branding text and 'Machine is loading...' status message on vibrant purple gradient background",
+      "tags": [
+        "loading-screen",
+        "initialization",
+        "startup-screen",
+        "system-boot",
+        "branding",
+        "sweet-robo-logo",
+        "splash-screen"
+      ],
+      "date_added": "2025-10-28T20:05:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "215KB",
+      "content_details": {
+        "screen_type": "system_initialization",
+        "main_text": "Robo Ice Cream (3D glossy effect)",
+        "status_message": "Machine is loading...",
+        "background": "Purple-to-pink gradient with circular geometric elements",
+        "branding_elements": [
+          "Sweet Robo logo in circular badge (top right)",
+          "3D neon-style 'Robo Ice Cream' text with cyan/pink gradient",
+          "'Ice Cream' subtitle in pink"
+        ],
+        "visual_style": "Modern, playful, high-contrast with neon 3D text effects",
+        "color_scheme": "Purple, pink, cyan, magenta gradient",
+        "device_info": "CT010115 (bottom left)",
+        "tagline": "Initialization is complete about to jump..."
+      },
+      "use_cases": [
+        "startup sequence documentation",
+        "system boot process reference",
+        "initialization workflow guide",
+        "troubleshooting boot issues",
+        "operator training for power-on sequence"
+      ]
+    },
+    {
+      "filename": "ui_shopping_settings_payment_configuration.webp",
+      "original_filename": "Robo Ice Cream - Shopping settings.webp",
+      "description": "Shopping settings configuration screen with payment method options, VPos settings, change management controls, and testing interface",
+      "tags": [
+        "shopping-settings",
+        "payment-configuration",
+        "management-system",
+        "vpos-settings",
+        "change-management",
+        "coin-acceptor",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T20:20:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "97KB",
+      "content_details": {
+        "screen_title": "Shopping settings",
+        "sidebar_buttons": [
+          "Shopping time",
+          "Payment time",
+          "Show balance"
+        ],
+        "test_button": "Scanner test",
+        "payment_method_section": {
+          "title": "Payment method",
+          "subtitle": "If you want to modify, please restart the machine after setting. please confirm with the technical staff before modifying",
+          "options": [
+            "ITL NV11",
+            "OBH-K33S",
+            "Coin acceptor",
+            "linkage card reader",
+            "game card",
+            "always on",
+            "Remaining"
+          ],
+          "selected_options": [
+            "Coin acceptor (checked)"
+          ],
+          "clear_button": true,
+          "value_shown": "1.0"
+        },
+        "vpos_section": {
+          "title": "VPos",
+          "options": [
+            "VPos",
+            "PAX",
+            "MDB",
+            "MDB-NETS"
+          ],
+          "selected_options": [
+            "PAX (checked)"
+          ]
+        },
+        "change_settings_section": {
+          "title": "Change settings",
+          "fields": [
+            "Open",
+            "Coin value (1.0)",
+            "Inventory quantity (0)",
+            "Number of alerts (0)",
+            "Change limit (0)"
+          ]
+        },
+        "change_test_section": {
+          "title": "Change test",
+          "fields": [
+            "Testing amount",
+            "No change reminder box"
+          ]
+        },
+        "top_indicators": [
+          "30s",
+          "120s"
+        ]
+      },
+      "use_cases": [
+        "payment system configuration",
+        "cash handling setup",
+        "vpos integration guide",
+        "change management tutorial",
+        "shopping settings documentation",
+        "operator configuration reference"
+      ]
+    },
+    {
+      "filename": "ui_android_settings_wifi_disabled.webp",
+      "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - wifi off.webp",
+      "description": "Android Settings WiFi page showing disabled WiFi state with prompt to turn on WiFi to see available networks",
+      "tags": [
+        "android-settings",
+        "wifi-settings",
+        "network-configuration",
+        "wifi-disabled",
+        "settings-screen",
+        "connectivity",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T23:43:38Z",
+      "dimensions": "3840x2160",
+      "file_size": "26KB",
+      "content_details": {
+        "screen_title": "Wi-Fi",
+        "wifi_status": "OFF (disabled)",
+        "prompt_message": "To see available networks, turn Wi-Fi on.",
+        "sidebar_elements": [
+          "settings gear icon (top left)",
+          "three-dot menu (top left)",
+          "Wi-Fi label (vertical text on left side)"
+        ],
+        "toggle_state": "Off toggle switch visible at bottom",
+        "background": "dark teal/gray sidebar with light gray main area",
+        "ui_layout": "minimalist Android Settings design with vertical navigation sidebar"
+      },
+      "use_cases": [
+        "network configuration guide",
+        "WiFi setup documentation",
+        "connectivity troubleshooting",
+        "operator training for network settings",
+        "initial setup procedures",
+        "Android settings navigation reference"
+      ]
+    },
+    {
+      "filename": "ui_core_board_initialization_error_5006.webp",
+      "original_filename": "Robo Ice Cream - core board initialization failed ( 5006).webp",
+      "description": "System error reminder displaying core board initialization failure with error code CT0100115 and detailed error 5006",
+      "tags": [
+        "error-dialog",
+        "system-error",
+        "core-board",
+        "initialization-failure",
+        "troubleshooting",
+        "error-code-5006",
+        "reminder-modal"
+      ],
+      "date_added": "2025-10-28T23:55:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "114KB",
+      "content_details": {
+        "error_code": "CT0100115",
+        "detailed_error": "5006",
+        "error_type": "Core board initialization failed",
+        "dialog_title": "Reminder",
+        "display_format": "white card on purple gradient background with ice cream cone visual",
+        "ui_elements": [
+          "error message card centered",
+          "decorative ice cream cone with sprinkles",
+          "purple gradient background",
+          "pink circular accent elements",
+          "utility icons (bottom right)"
+        ],
+        "visual_context": "Error appears on branded customer-facing screen with playful Robo Ice Cream branding"
+      },
+      "use_cases": [
+        "troubleshooting guide",
+        "error code reference",
+        "system diagnostics documentation",
+        "core board failure resolution",
+        "technical support material",
+        "initialization failure diagnosis"
+      ]
+    },
+    {
+      "filename": "ui_network_query_failed_error_dialog.webp",
+      "original_filename": "Robo Ice Cream - error checking update.webp",
+      "description": "Network error dialog displaying 'Query failed, please check network status or try again' message with quit button",
+      "tags": [
+        "error-dialog",
+        "network-error",
+        "connectivity-issue",
+        "troubleshooting",
+        "modal-dialog",
+        "system-error",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-28T23:58:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "84KB",
+      "content_details": {
+        "error_type": "network_query_failure",
+        "error_message": "Query failed, please check network status or try again later",
+        "dialog_type": "error_notification",
+        "action_buttons": [
+          "quit (red)"
+        ],
+        "background_context": "Management system interface with device information panel showing CT100115, CTYXG220, and various menu options",
+        "visible_menu_items": [
+          "Device test",
+          "System sett.",
+          "Stock setting",
+          "Param setti.",
+          "Opening ho.",
+          "Shopping s.",
+          "Product ma."
+        ],
+        "device_status_indicators": [
+          "WiFi (Available)",
+          "Online",
+          "Bound (010115)"
+        ],
+        "network_info": "2311108",
+        "visual_style": "white modal card centered on screen with red quit button"
+      },
+      "use_cases": [
+        "network troubleshooting guide",
+        "connectivity error reference",
+        "error handling documentation",
+        "operator training for network issues",
+        "system diagnostics",
+        "troubleshooting workflow"
+      ]
+    },
+    {
+      "filename": "ui_product_management_network_error.webp",
+      "original_filename": "Robo Ice Cream - Product management - with error.webp",
+      "description": "Product management screen displaying network connectivity error dialog showing UnknownHostException for hostname resolution failure",
+      "tags": [
+        "error-dialog",
+        "network-error",
+        "product-management",
+        "connectivity-issue",
+        "hostname-resolution",
+        "troubleshooting",
+        "java-exception"
+      ],
+      "date_added": "2025-10-29T00:00:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "41KB",
+      "content_details": {
+        "error_type": "UnknownHostException",
+        "error_message": "java.net.UnknownHostException: Unable to resolve host www.gpchuji.cn: No address associated with hostname",
+        "dialog_format": "white modal card with error text",
+        "vertical_text": "Back",
+        "screen_context": "Product management interface with sidebar",
+        "background": "purple-to-blue gradient",
+        "ui_elements": [
+          "error modal dialog (center)",
+          "back button with vertical text (left)",
+          "product management sidebar label (vertical, left)",
+          "purple-blue gradient background"
+        ]
+      },
+      "use_cases": [
+        "network troubleshooting guide",
+        "connectivity error reference",
+        "hostname resolution issues",
+        "java exception documentation",
+        "operator error handling",
+        "technical support material"
+      ]
+    },
+    {
+      "filename": "ui_cup_holder_position_correction_dashboard.webp",
+      "original_filename": "Robo Ice Cream - cup holder position correction.webp",
+      "description": "Cup holder position correction diagnostic dashboard with offset adjustment grid showing 10 position values and control panels for sensors and automatic discharging",
+      "tags": [
+        "cup-holder-calibration",
+        "position-correction",
+        "diagnostic-dashboard",
+        "device-testing",
+        "offset-adjustment",
+        "sensor-calibration",
+        "management-system",
+        "operator-interface"
+      ],
+      "date_added": "2025-10-29T00:15:00Z",
+      "dimensions": "3840x2160",
+      "file_size": "165KB",
+      "content_details": {
+        "screen_title": "cup holder position correction",
+        "top_correction_panel": {
+          "title": "cup holder position correction",
+          "position_offsets": [
+            {"label": "the cup position is offset left and right", "value": "200"},
+            {"label": "the cup position is offset up and down", "value": "-1000"},
+            {"label": "position 3", "value": "0"},
+            {"label": "the ice cream discharging position is shifted left a...", "value": "0"},
+            {"label": "the ice cream discharging position is shifted up left", "value": "0"},
+            {"label": "jam position shifted left and right", "value": "0"},
+            {"label": "the sprinkles position offset left and right", "value": "0"},
+            {"label": "sprinkles position offset up and down", "value": "0"},
+            {"label": "the sprinkles position offset up and down", "value": "0"},
+            {"label": "the door position offset left and right", "value": "0"},
+            {"label": "the door position offset up and down", "value": "0"}
+          ],
+          "display_style": "grid layout with blue value indicators and adjustment controls"
+        },
+        "left_control_panel": {
+          "title": "cup holder",
+          "controls": ["cup out button", "reset cup hol... button"],
+          "position_controls": {
+            "label": "left right",
+            "sensor_status": "unknown",
+            "steps": "500",
+            "directional_buttons": ["up arrow", "equal/menu", "down arrow"]
+          }
+        },
+        "right_control_panel": {
+          "title": "Position",
+          "position_sections": [
+            {"name": "cup position", "controls": ["up triangle", "down triangle"]},
+            {"name": "discharging position", "controls": ["up triangle", "down triangle"]},
+            {"name": "automatic discharging", "controls": ["button 1", "button 2", "dash button"]},
+            {"name": "jam position", "controls": ["button 1", "button 2", "dash button"]},
+            {"name": "sprinkles position", "controls": ["up triangle", "down triangle"]},
+            {"name": "door position", "controls": ["up triangle", "down triangle"]}
+          ]
+        },
+        "ui_elements": [
+          "position offset grid with 10+ adjustment fields",
+          "sensor status indicators",
+          "step adjustment controls",
+          "directional navigation buttons",
+          "automatic discharging position selectors",
+          "reset and cup out control buttons"
+        ],
+        "background": "Light cyan/turquoise gradient",
+        "layout": "three-panel layout with top grid and two side control panels"
+      },
+      "use_cases": [
+        "cup holder calibration procedures",
+        "position offset troubleshooting",
+        "dispenser alignment adjustment",
+        "diagnostic testing workflow",
+        "sensor calibration reference",
+        "operator training for precision adjustment",
+        "maintenance position verification"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_images": 32,
+    "last_updated": "2025-10-29T00:15:00Z",
+    "categories": [
+      "operation",
+      "management-system",
+      "inventory",
+      "branding",
+      "settings"
+    ],
+    "notes": "This catalog tracks UI screenshots from the Robo Ice Cream F2 machine touchscreen interface for documentation purposes"
+  }
+}
