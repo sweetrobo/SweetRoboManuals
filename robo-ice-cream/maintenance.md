@@ -383,6 +383,13 @@ Perform these comprehensive maintenance tasks weekly:
 <h3>1. Temperature Sensor Inspection</h3>
 <img src="./assets/ui-images/ui_device_testing_comprehensive_dashboard.webp" alt="Sensor Status Panel" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Device testing dashboard showing sensor status indicators</p>
+
+<div class="info-box">
+
+**F1 vs F2 Interface Note:** This screenshot is from an F1 (single hopper) machine. On the F2 model, the device testing interface includes additional controls for dual-hopper operation such as **Cooling (Left/Right)**, **Manual Discharge (L/M/R)**, and **Thaw Fresh (Left/Right)** options for independent hopper management.
+
+</div>
+
 • Visually inspect temperature sensors in both hoppers<br>
 • Check for any ice buildup or obstruction around sensors<br>
 • Verify sensor readings match actual mix temperature<br>
@@ -453,8 +460,15 @@ Perform these comprehensive maintenance tasks weekly:
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: CHECKING TEMPERATURE DISPLAY</div>
 <img src="./assets/ui-images/ui_device_testing_comprehensive_dashboard.webp" alt="Temperature Monitoring Panel" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Backend temperature monitoring interface showing tank temperature readings</p>
 </div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Backend temperature monitoring interface showing tank temperature readings (F1 interface shown)</p>
+
+<div class="info-box">
+
+**Note:** The screenshot shows an F1 (single hopper) interface. On your F2 model, the device testing dashboard displays dual-hopper temperature monitoring with separate readings for Left and Right hoppers, allowing independent verification of both cooling systems.
+
+</div>
+
 • Test temperature sensors in both hoppers<br>
 • Verify automatic cutoff at 41°F (5°C)<br>
 • Check mix level sensors for accuracy<br>

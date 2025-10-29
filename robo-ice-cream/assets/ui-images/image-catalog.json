@@ -334,14 +334,15 @@
       ]
     },
     {
-      "filename": "ui_robo_ice_cream_splash_screen.webp",
+      "filename": "ui_customer_start_order_prompt.webp",
       "original_filename": "Robo Ice Cream - 37.webp",
-      "description": "Vibrant promotional splash screen featuring ice cream cone with rainbow sprinkles on cosmic purple background with Robo Ice Cream branding",
+      "description": "Start order prompt screen shown after customer dismisses advertisement, featuring Robo Ice Cream branding with ice cream cone visual on purple background",
       "tags": [
-        "splash-screen",
+        "customer-interface",
+        "start-order",
+        "order-prompt",
+        "touch-to-start",
         "branding",
-        "promotional",
-        "startup-screen",
         "user-interface",
         "sweet-robo"
       ],
@@ -349,19 +350,21 @@
       "dimensions": "3840x2160",
       "file_size": "217KB",
       "content_details": {
+        "screen_type": "start_order_prompt",
         "main_element": "Ice cream cone with colorful sprinkles",
         "background": "Purple gradient with pink accents and geometric shapes",
         "branding": "ROBO ICE CREAM text with 3D neon effect",
         "logo": "Sweet Robo logo in cosmic circle design",
         "visual_style": "Modern, playful, high-contrast with neon aesthetics",
+        "user_action": "Touch screen to begin order after dismissing advertisement",
         "timestamp": "October 22, 2025 Thu 17:30:51",
         "device_info": "CT100115"
       },
       "use_cases": [
-        "startup screen documentation",
-        "branding reference",
-        "UI design showcase",
-        "promotional materials"
+        "customer order flow documentation",
+        "start order screen reference",
+        "post-advertisement transition",
+        "F2 pre-flavor selection screen"
       ]
     },
     {

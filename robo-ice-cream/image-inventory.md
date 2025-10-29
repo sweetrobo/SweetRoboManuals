@@ -17,7 +17,7 @@
 1. **f2-machine-title-page.webp** - Machine UI for title/cover page
 2. **external-components.webp** - External components diagram
 3. **internal-components.jpg** - Internal components (F2 dual hoppers)
-4. **serving-cups.webp** - Orange cups with integrated spoons
+4. **serving-cups.webp** - cups with integrated spoons
 5. **maintenance-and-mix-tools.webp** - Cleaning and mix prep tools
 6. **mixing-bucket.webp** - 10L measuring bucket
 7. **backend-touch-position.webp** - Yellow circle showing backend access

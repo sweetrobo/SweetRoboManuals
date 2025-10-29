@@ -128,18 +128,30 @@ The following screens guide customers through the complete ordering process:
 
 <div class="step-with-image">
 <div class="step-content">
-<h3>Welcome Screen</h3>
-The vibrant splash screen welcomes customers with eye-catching Robo Ice Cream branding and colorful ice cream visuals. This idle screen attracts attention and invites customers to begin their order.
+<h3>Start Order Screen</h3>
+After dismissing the advertisement, customers see this vibrant screen featuring Robo Ice Cream branding with colorful ice cream visuals. Touching the screen begins the order process.
 </div>
 <div class="step-image">
-<img src="./assets/ui-images/ui_robo_ice_cream_splash_screen.webp" alt="Welcome Splash Screen" />
+<img src="./assets/ui-images/ui_customer_start_order_prompt.webp" alt="Start Order Prompt Screen" />
 </div>
 </div>
 
 <div class="step-with-image">
 <div class="step-content">
-<h3>Flavor Selection</h3>
-Customers select their desired ice cream flavor and toppings from an intuitive grid display. Each option shows product images and pricing with clear NEXT and BACK navigation buttons.
+<h3>F2 Flavor Selection (if applicable)</h3>
+<strong>On F2 dual-hopper models:</strong> Customers first select their base flavor choice - Left hopper, Right hopper, or Swirl combination. This screen appears before topping selection.<br>
+<br>
+<em>Note: Image not available - this screen shows the two hopper flavors with a swirl option between them.</em>
+</div>
+<div class="step-image">
+<div class="image-placeholder">F2 FLAVOR SELECTION SCREEN<br>(Left / Swirl / Right)</div>
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Topping & Syrup Selection</h3>
+Customers select their desired toppings and syrups from an intuitive grid display. Each option shows product images and pricing with clear NEXT and BACK navigation buttons.
 </div>
 <div class="step-image">
 <img src="./assets/ui-images/ui_topping_syrup_selection.webp" alt="Flavor Selection Screen" />
@@ -282,6 +294,16 @@ Critical settings for optimal F2 operation:
 <img src="./assets/ui-images/ui_stock_setting_fresh_mix_inventory.webp" alt="Stock Setting Screen" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Stock management interface showing inventory levels across all compartments</p>
 
+<div class="warning-box">
+
+**Note:** The screenshot above shows an F1 (single hopper) interface. On the F2 model, you will see:
+- **Material (Left)** - Ice cream mix status for left hopper
+- **Material (Right)** - Ice cream mix status for right hopper
+
+Both entries include shelf life timers and separate Fill Up/Clean Up/Modify buttons for independent hopper management.
+
+</div>
+
 <div class="info-box">
 
 Monitor and manage inventory for both hoppers independently:
@@ -410,6 +432,18 @@ The F2 provides comprehensive testing capabilities for dual-hopper operation:
 
 <img src="./assets/ui-images/ui_device_testing_comprehensive_dashboard.webp" alt="Device Testing Dashboard" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Comprehensive device testing dashboard with controls for all machine components</p>
+
+<div class="info-box">
+
+**F1 vs F2 Interface Note:** The screenshots above are from an F1 (single hopper) machine. On the F2 model, the device testing interface includes:
+- **Cooling (Left)** and **Cooling (Right)** buttons for independent hopper control
+- **Manual Discharge (L / M / R)** options for Left hopper, Middle (swirl), and Right hopper
+- **Thaw Fresh (Left)** and **Thaw Fresh (Right)** for individual hopper cleaning
+- **Keep Fresh (Left)** and **Keep Fresh (Right)** for independent freshness control
+
+All other testing functions (cup holder, syrups, toppings, door controls) remain the same across both models.
+
+</div>
 
 <img src="./assets/ui-images/ui_cup_holder_position_correction_dashboard.webp" alt="Cup Holder Calibration" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Advanced cup holder position correction and calibration interface</p>
@@ -681,7 +715,7 @@ Close lid securely and verify temperature recovery
 
 <div class="standalone-image-container">
 <img src="./assets/operation/serving-cups.webp" alt="Serving Cups" class="operation-screenshot" />
-<p class="image-caption">Orange Sweet Robo branded ice cream serving cups used by the F2 machine</p>
+<p class="image-caption">Sweet Robo branded ice cream serving cups with integrated spoons attached at the bottom for customer convenience</p>
 </div>
 
 ### Syrups & Toppings for F2

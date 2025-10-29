@@ -75,6 +75,14 @@ img {
   max-height: 50vh;
 }
 
+/* UI Screenshots - from ui-images folder */
+img[src*="ui-images/"] {
+  max-height: 90vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
 /* Standalone image with caption container */
 .standalone-image-container {
   margin: 2em auto;

@@ -115,7 +115,7 @@ Your F2 shipment includes:
 - Installation tool kit: Phillips screwdriver, hex key/allen wrench, spare sensor, Sweet Robo branded tool bag
 - Spare parts kit: Food-grade MP grease (NSF approved), O-rings, gaskets, tubing, cleaning brush, technical diagram
 - Cup dispenser tubes: 4 tubes (50 cups each)
-- Starter pack: Orange Sweet Robo cups with integrated spoons
+- Starter pack: Sweet Robo cups with integrated spoons
 - Power cord with NEMA 6-20P plug and keys (attached to power cord)
 - Cleaning and mixing supplies: Mixing bucket (10L), whisk, cleaning cloths, agitator brush
 - This operator's manual
