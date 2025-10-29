@@ -381,7 +381,8 @@ Perform these comprehensive maintenance tasks weekly:
 <div>
 <div>
 <h3>1. Temperature Sensor Inspection</h3>
-<div class="image-placeholder">IMAGE: TEMPERATURE SENSOR LOCATION</div>
+<img src="./assets/ui-images/ui_device_testing_comprehensive_dashboard.webp" alt="Sensor Status Panel" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Device testing dashboard showing sensor status indicators</p>
 • Visually inspect temperature sensors in both hoppers<br>
 • Check for any ice buildup or obstruction around sensors<br>
 • Verify sensor readings match actual mix temperature<br>
@@ -451,7 +452,8 @@ Perform these comprehensive maintenance tasks weekly:
 <h3>5. Temperature System Verification</h3>
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: CHECKING TEMPERATURE DISPLAY</div>
-<div class="image-placeholder">IMAGE: BACKEND TEMPERATURE READINGS</div>
+<img src="./assets/ui-images/ui_device_testing_comprehensive_dashboard.webp" alt="Temperature Monitoring Panel" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Backend temperature monitoring interface showing tank temperature readings</p>
 </div>
 • Test temperature sensors in both hoppers<br>
 • Verify automatic cutoff at 41°F (5°C)<br>

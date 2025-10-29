@@ -120,6 +120,84 @@ Customer completes payment via cash, coin, or card. F2 automatically executes th
 
 </div>
 
+### Customer Interface - Visual Walkthrough
+
+The following screens guide customers through the complete ordering process:
+
+<div class="numbered-steps-with-images">
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Welcome Screen</h3>
+The vibrant splash screen welcomes customers with eye-catching Robo Ice Cream branding and colorful ice cream visuals. This idle screen attracts attention and invites customers to begin their order.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_robo_ice_cream_splash_screen.webp" alt="Welcome Splash Screen" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Flavor Selection</h3>
+Customers select their desired ice cream flavor and toppings from an intuitive grid display. Each option shows product images and pricing with clear NEXT and BACK navigation buttons.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_topping_syrup_selection.webp" alt="Flavor Selection Screen" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Glaze & Topping Customization</h3>
+The "Pick a Glaze" screen allows customers to add syrups and additional toppings. Touch any option to add it to the order, with navigation buttons for easy browsing through available choices.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_customer_glaze_topping_selection.webp" alt="Glaze Selection Screen" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Order Summary</h3>
+Before payment, customers review their complete order showing the selected base flavor and all chosen toppings in a clear grid layout. The PREV and BACK buttons allow easy modifications.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_order_details_customization_grid.webp" alt="Order Summary Screen" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Payment Selection</h3>
+After reviewing their order, customers select their payment method. The machine accepts cash, coins, and card payments with clear visual prompts for each option.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_payment_method_cash_selection.webp" alt="Payment Method Selection" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Mixing Process</h3>
+During preparation, customers see an engaging animation of the "Tiny Robot Chefs" mixing their ice cream with toppings. The progress indicator shows real-time status with playful messaging.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_robot_mixing_process_active.webp" alt="Mixing Process Animation" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Order Complete</h3>
+When the countdown reaches 00:00, the order is ready for pickup. The CONTINUE button resets the machine for the next customer while displaying the completed ice cream with all customizations.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_countdown_timer_completed.webp" alt="Order Complete Screen" />
+</div>
+</div>
+
+</div>
+
 ## Operator Interface and Backend Management
 
 ### Accessing Backend Settings
@@ -153,8 +231,11 @@ To access the comprehensive operator interface:
 
 ### Management Interface Overview
 
-<div class="image-placeholder">MANAGEMENT INTERFACE SCREENSHOT</div>
-<p class="image-caption">Main management screen showing device information and system controls</p>
+<img src="./assets/ui-images/ui_management_system_menu.webp" alt="Management Interface" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Main management screen showing device information and system controls</p>
+
+<img src="./assets/ui-images/ui_password_input_numeric_keypad.webp" alt="Password Input Screen" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Numeric password entry dialog for backend access</p>
 
 The management screen provides access to six key sections:
 
@@ -198,6 +279,9 @@ Critical settings for optimal F2 operation:
 
 ### Stock Settings - Dual-Hopper Management
 
+<img src="./assets/ui-images/ui_stock_setting_fresh_mix_inventory.webp" alt="Stock Setting Screen" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Stock management interface showing inventory levels across all compartments</p>
+
 <div class="info-box">
 
 Monitor and manage inventory for both hoppers independently:
@@ -214,6 +298,70 @@ Monitor and manage inventory for both hoppers independently:
 
 **Important:** Use "Fill Up" to mark an item as fully restocked<br>
 Use "Clean Up" to clear stock status and remove from customer selection
+
+</div>
+
+<img src="./assets/ui-images/ui_stock_setting_expired_mix_alert.webp" alt="Expired Mix Alert" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Expired mix warning alert requiring operator attention</p>
+
+### Product Management
+
+Configure and manage product inventory, including toppings, syrups, and customization options:
+
+<img src="./assets/ui-images/ui_product_management_toppings_inventory.webp" alt="Product Management Grid" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Product management interface displaying topping and syrup inventory</p>
+
+<div class="numbered-steps-with-images">
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Edit Product Details</h3>
+Tap any product to open the edit dialog where you can modify names, prices, and availability. The virtual keyboard allows easy text input for product customization.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_product_edit_rainbow_sprinkles_dialog.webp" alt="Product Edit Dialog" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Ingredient Confirmation</h3>
+When adding or modifying ingredients, confirm selections with specific quantity inputs. This ensures accurate inventory tracking and pricing calculations.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_product_ingredient_confirmation_dialog.webp" alt="Ingredient Confirmation" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Save Changes</h3>
+After making modifications, the system prompts to save all changes. Click Confirm to apply updates or Cancel to discard modifications.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_product_save_changes_dialog.webp" alt="Save Changes Dialog" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Revert Options</h3>
+If you need to undo changes before saving, use the "Revert all changes" option to restore the previous configuration without losing your working state.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_revert_changes_confirmation_modal.webp" alt="Revert Changes Modal" />
+</div>
+</div>
+
+<div class="step-with-image">
+<div class="step-content">
+<h3>Product Pagination</h3>
+Navigate through multiple pages of products using the pagination counter. The interface shows your current position and allows easy browsing of extensive product catalogs.
+</div>
+<div class="step-image">
+<img src="./assets/ui-images/ui_product_grid_pagination_counter.webp" alt="Pagination Counter" />
+</div>
+</div>
 
 </div>
 
@@ -259,6 +407,12 @@ The F2 provides comprehensive testing capabilities for dual-hopper operation:
 </div>
 
 </div>
+
+<img src="./assets/ui-images/ui_device_testing_comprehensive_dashboard.webp" alt="Device Testing Dashboard" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Comprehensive device testing dashboard with controls for all machine components</p>
+
+<img src="./assets/ui-images/ui_cup_holder_position_correction_dashboard.webp" alt="Cup Holder Calibration" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Advanced cup holder position correction and calibration interface</p>
 
 ## Ice Cream Mix Preparation - F2 Dual-Hopper System
 
@@ -555,7 +709,8 @@ Replace syrup bags and refill topping containers as needed, using only approved 
 
 ## Settings and Configuration
 
-<div class="image-placeholder">DEVICE SETTINGS INTERFACE</div>
+<img src="./assets/ui-images/ui_system_settings_volume_network.webp" alt="System Settings" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">System settings with volume controls and network configuration options</p>
 
 <div class="feature-grid grid-2">
 
@@ -599,6 +754,12 @@ Configure customer experience for dual-flavor purchasing:<br>
 </div>
 
 </div>
+
+<img src="./assets/ui-images/ui_shopping_settings_payment_configuration.webp" alt="Shopping Settings" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Shopping settings for payment method configuration and change management</p>
+
+<img src="./assets/ui-images/ui_shopping_settings_payment_config.webp" alt="Payment Configuration Details" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Detailed payment configuration including banknote machine and coin acceptor settings</p>
 
 ## Daily Shutdown - F2 Protocol
 

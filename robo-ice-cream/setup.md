@@ -733,6 +733,19 @@ Machine requires 2-8 minutes to reach optimal freezing temperature.
 
 </div>
 
+#### Startup Screens
+
+During the boot process, you'll see the following screens in sequence:
+
+<div class="side-by-side-images">
+<img src="./assets/ui-images/ui_android_system_boot_screen.webp" alt="Android Boot Screen" />
+<img src="./assets/ui-images/ui_system_loading_initialization_screen.webp" alt="System Loading Screen" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Android OS boot screen | Right: Machine initialization "loading..." screen</p>
+
+<img src="./assets/ui-images/ui_installing_creamy_core_module.webp" alt="Core Module Installation" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Creamy Core Module installation screen showing progress indicator</p>
+
 </div>
 
 ## Step 7: Network Setup (WiFi/Ethernet)
@@ -796,6 +809,9 @@ Select `Exit App` to access the underlying Android system
 
 </div>
 
+<img src="./assets/ui-images/ui_android_settings_wifi_disabled.webp" alt="Android WiFi Settings" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Android WiFi settings screen - turn WiFi on to see available networks</p>
+
 ### 7.2 Ethernet Setup
 
 <!-- Print condensed version -->
@@ -852,7 +868,8 @@ For complete backend navigation, settings descriptions, and management interface
 <!-- Full version for screen -->
 <div class="no-print">
 
-<div class="image-placeholder">IMAGE: Device Testing screen showing test options</div>
+<img src="./assets/ui-images/ui_device_task_selection_screen.webp" alt="Device Testing Screen" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Device testing screen showing available test tasks</p>
 
 Navigate to `Device Testing` to verify:
 - Cup drop test (clear one tube to verify it auto turns to use the next tube)

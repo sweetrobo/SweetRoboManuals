@@ -59,6 +59,12 @@ This section provides step-by-step guidance for identifying and resolving common
 
 ### Core Board Error
 
+<div class="side-by-side-images">
+<img src="./assets/ui-images/ui_core_board_connection_error_5005.webp" alt="Core Board Error 5005" />
+<img src="./assets/ui-images/ui_core_board_initialization_error_5006.webp" alt="Core Board Error 5006" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Core board connection error (5005) | Right: Core board initialization error (5006)</p>
+
 <div class="print-condensed">
 **Core Board Error - EMERGENCY:** Turn OFF immediately → Fill hoppers 2L+ → Switch on hoppers → Restart machine
 </div>
@@ -118,6 +124,9 @@ Error should clear once liquid is detected
 </div>
 
 ### Mix Temperature Alert - "Mix Needs Replacement"
+
+<img src="./assets/ui-images/ui_stock_setting_expired_mix_alert.webp" alt="Expired Mix Alert" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Stock setting screen showing expired mix error requiring immediate attention</p>
 
 <div class="warning-box">
 
@@ -359,7 +368,37 @@ Run multiple times until syrup flows (air bubbles may need clearing)
 <strong>Nayax Issues:</strong> Check installation, COM2 connection, marshal cover, registration. Contact Nayax support if needed.
 </div>
 
+### Device Idle and Diagnostic States
+
+Understanding different screen states helps with troubleshooting:
+
+<div class="side-by-side-images">
+<img src="./assets/ui-images/ui_device_idle_screen_blank.webp" alt="Idle Screen" />
+<img src="./assets/ui-images/ui_device_task_selection_screen.webp" alt="Task Selection Screen" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Device idle state with task buttons | Right: Task selection interface for diagnostics</p>
+
+<div class="info-box">
+
+**Idle Screen State:**
+- Black screen with "RES TASK" buttons indicates device is in diagnostic mode
+- This is normal during testing or troubleshooting
+- Exit diagnostic mode by restarting the application
+
+**Task Selection Screen:**
+- Shows available diagnostic tasks (TASK 1, 2, 3)
+- Used for component-level testing
+- Access via backend Device Testing menu
+
+</div>
+
 ### WiFi Connection Problems
+
+<div class="side-by-side-images">
+<img src="./assets/ui-images/ui_network_query_failed_error_dialog.webp" alt="Network Query Failed" />
+<img src="./assets/ui-images/ui_product_management_network_error.webp" alt="Hostname Resolution Error" />
+</div>
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Left: Network query failure error | Right: Hostname resolution error (UnknownHostException)</p>
 
 <div class="step-header">Solution:</div>
 
@@ -402,6 +441,9 @@ Return to the app
 </div>
 
 </div>
+
+<img src="./assets/ui-images/ui_android_settings_wifi_disabled.webp" alt="Android WiFi Settings" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Android WiFi settings screen accessed via "Exit App" button</p>
 
 ### Mix Not Freezing Properly
 
@@ -499,6 +541,9 @@ The F2 system displays specific error codes for various conditions. Below are co
 
 ### Backend Error Log Access
 
+<img src="./assets/ui-images/ui_management_system_menu.webp" alt="Management System Menu" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">Management system menu showing navigation to System Settings</p>
+
 <div class="numbered-steps">
 
 <div>
@@ -531,6 +576,9 @@ If errors persist, export log for Sweet Robo support team
 </div>
 
 </div>
+
+<img src="./assets/ui-images/ui_system_settings_volume_network.webp" alt="System Settings with Repair Button" />
+<p style="text-align: center; font-style: italic; margin-top: -10px;">System settings screen showing Repair button for clearing cache and restarting</p>
 
 ---
 
