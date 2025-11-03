@@ -17,14 +17,14 @@ git-repository-url = "https://github.com/sweetrobo/SweetRoboManuals"
 git-repository-icon = "fa-github"
 additional-css = ["shared/css/manual-styles.css", "shared/css/variables.css", "shared/css/typography.css", "shared/css/components.css", "shared/css/images.css", "shared/css/layout.css", "shared/css/conditional.css", "shared/css/custom-print.css"]
 additional-js = ["shared/js/custom.js"]
-favicon = "assets/images/header/sweetrobo-logo.webp"
+favicon = "shared/images/sweetrobo-logo.webp"
 site-url = "https://sweetrobo.com/manuals/candy-monster/"
 
 [output.html.metadata]
 description = "Complete user manual for the Candy Monster machine. Learn about setup, operation, maintenance, and troubleshooting."
 keywords = "Candy Monster, Sweet Robo, candy machine, manual, setup, operation, maintenance"
 author = "Sweet Robo"
-image = "assets/images/header/sweetrobo-logo.webp"
+image = "shared/images/sweetrobo-logo.webp"
 
 [output.html.print]
 enable = true
