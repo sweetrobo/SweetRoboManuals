@@ -2,7 +2,7 @@
 
 <div class="title-page-header">
 <div class="title">Pop Cart - User Manual</div>
-<img src="./assets/images/header/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
+<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
 </div>
 
 <div class="title-page-main">

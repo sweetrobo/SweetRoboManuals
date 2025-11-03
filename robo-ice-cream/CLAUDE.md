@@ -323,7 +323,7 @@ Manuals provide detailed instructions and information on setup, operation, and m
 
 <div class="title-page-header">
 <div class="title">Sweet Robo - User Manual - Robo Ice Cream</div>
-<img src="./assets/logo.webp" alt="Sweet Robo Logo" class="logo" />
+<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
 </div>
 
 <div class="title-page-main">

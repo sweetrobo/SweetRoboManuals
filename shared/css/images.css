@@ -7,8 +7,10 @@
 /* BASE IMAGE STYLING */
 /* =================================== */
 
+.content img,
 img {
   max-width: 100%;
+  max-height: 90vh;
   height: auto;
   display: block;
   margin: 15px auto;
@@ -72,7 +74,7 @@ img {
 }
 
 .side-image {
-  max-height: 50vh;
+  max-height: 90vh;
 }
 
 /* UI Screenshots - from ui-images folder */
@@ -90,7 +92,7 @@ img[src*="ui-images/"] {
 }
 
 .standalone-image-container img {
-  max-height: 50vh;
+  max-height: 90vh;
   width: auto;
   height: auto;
 }
@@ -164,7 +166,7 @@ figure figcaption {
 .side-by-side-images img {
   flex: 1;
   max-width: 48%;
-  max-height: 50vh;
+  max-height: 90vh;
   margin: 0;
 }
 

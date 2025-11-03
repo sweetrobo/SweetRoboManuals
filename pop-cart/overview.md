@@ -96,37 +96,37 @@ Eye-catching carnival cart design with red and white striped awning, decorative 
 
 <div class="spec-row">
 <div class="spec-label">Dimensions (W×D×H)</div>
-<div class="spec-value">TBD × TBD × TBD cm (TBD × TBD × TBD in)</div>
+<div class="spec-value">520 × 450 × 1720 mm (20.5 × 17.7 × 67.7 in)</div>
 </div>
 
 <div class="spec-row">
-<div class="spec-label">Weight</div>
-<div class="spec-value">TBD kg (approx. TBD lbs)</div>
+<div class="spec-label">Net Weight</div>
+<div class="spec-value">140 kg (approx. 309 lbs)</div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Power Voltage</div>
-<div class="spec-value">110-125V or 220-240V (model dependent)</div>
+<div class="spec-value">110-125V AC (US variant) or 220-240V AC (International variant)</div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Power Consumption</div>
-<div class="spec-value">Max TBD W</div>
+<div class="spec-value">Max 2200 W (20A @ 110V, 10A @ 220V)</div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Popcorn Capacity</div>
-<div class="spec-value">Dual cylinder system (capacity TBD)</div>
+<div class="spec-value">Dual cylinder system (~3 kg per tube, 60-70 servings each)</div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Kernel Storage</div>
-<div class="spec-value">TBD kg capacity</div>
+<div class="spec-value">6 kg total capacity (3 kg per cylinder)</div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Seasoning Options</div>
-<div class="spec-value">5 flavor stations (expandable)</div>
+<div class="spec-value">5 flavor lanes (customizable selection)</div>
 </div>
 
 <div class="spec-row">
@@ -197,17 +197,18 @@ The Pop Cart interior is organized into distinct functional zones for efficient 
 - Waste collection bin
 - Service access panels
 
-<img src="./assets/overview/dual-popcorn-dispensers-interior.webp" alt="Dual Popcorn Dispensing Cylinders with LED Lighting" />
-*Dual popcorn dispensing cylinders labeled A and B with purple LED accent lighting*
+<img src="./assets/overview/dual-popcorn-dispensers-interior.webp" alt="Dual Popcorn Dispensing Cylinders Labeled A and B" />
+*Dual popcorn dispensing cylinders labeled A and B*
 
 ### Dual Dispensing System
 
-The Pop Cart utilizes two independent popcorn cylinders (A and B) to maintain continuous operation and offer different popcorn varieties:
+The Pop Cart features two independent popcorn cylinders (A and B) that allow operators to offer customers a choice:
 
-- **Cylinder A**: Primary popcorn variety (e.g., "Blue Burst")
-- **Cylinder B**: Secondary popcorn variety (e.g., "Sunny Crunch")
-- **LED Accent Lighting**: Purple interior lighting enhances visual appeal
-- **Independent Operation**: Each cylinder operates separately for reliability
+- **Cylinder A (Option 1)**: Can contain any popcorn variety selected by the operator
+- **Cylinder B (Option 2)**: Can contain a different variety, the same variety, or custom-mixed kernels
+- **Flexible Configuration**: Operators decide whether to offer two distinct options or use both cylinders for the same variety
+- **Customer Choice**: Software interface allows customers to select which cylinder option they prefer
+- **Independent Operation**: Each cylinder operates separately for reliability and continuous service
 - **Transparent Design**: Visible popcorn display creates customer excitement
 
 <hr class="section-divider">

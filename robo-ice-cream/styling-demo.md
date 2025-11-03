@@ -13,7 +13,7 @@ This page demonstrates how to use all official styling components for creating S
 <div class="title-page">
   <div class="title-page-header">
     <div class="title">Manual Title Here</div>
-    <img src="./assets/logo.webp" alt="Logo" class="logo" />
+    <img src="./shared/images/sweetrobo-logo.webp" alt="Logo" class="logo" />
   </div>
   <div class="title-page-main">
     <h1>Machine Name</h1>
@@ -33,7 +33,7 @@ This page demonstrates how to use all official styling components for creating S
 
 <div class="title-page-header">
 <div class="title">Sweet Robo - User Manual - Robo Ice Cream</div>
-<img src="./assets/logo.webp" alt="Sweet Robo Logo" class="logo" />
+<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
 </div>
 
 <div class="title-page-main">

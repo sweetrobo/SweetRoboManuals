@@ -2,7 +2,7 @@
 
 <div class="title-page-header">
 <div class="title">Robo Ice Cream F2 - User Manual</div>
-<img src="./assets/logo.webp" alt="Sweet Robo Logo" class="logo" />
+<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
 </div>
 
 <div class="title-page-main">

@@ -25,7 +25,7 @@
 ### ❌ Missing from JSON (15 images)
 
 #### Logo (1)
-- `logo.webp` - Sweet Robo logo
+- `sweetrobo-logo.webp` - Sweet Robo logo (now in /shared/images/)
 
 #### Maintenance (2)
 - `mix-preparation-step-1.webp` - Mix preparation step 1

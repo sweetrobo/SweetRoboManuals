@@ -269,17 +269,17 @@ After successful dispensing:
 
 ## Topping Addition Demonstration
 
-For customers adding additional toppings manually (chocolate chips, candies, or other mix-ins):
+For customers adding additional toppings manually (blue popcorn kernels, candies, or other mix-ins):
 
 <div class="numbered-steps-with-images">
 
 <div class="step-with-image">
 <div class="step-content">
 <h3>Position Topping Cup</h3>
-Hold topping cup (chocolate chips, candy pieces, etc.) above the dispensing chamber opening.
+Hold topping cup (blue popcorn kernels, candy pieces, etc.) above the dispensing chamber opening.
 </div>
 <div class="step-image">
-<img src="./assets/operation/chocolate_chips_cup_ready_to_pour.webp" alt="Chocolate Chips Cup Ready" />
+<img src="./assets/operation/kernels_ready_to_pour.webp" alt="Blue Popcorn Kernels Cup Ready" />
 </div>
 </div>
 
@@ -289,7 +289,7 @@ Hold topping cup (chocolate chips, candy pieces, etc.) above the dispensing cham
 Slowly pour toppings into the chamber while popcorn is dispensing or after dispensing is complete.
 </div>
 <div class="step-image">
-<img src="./assets/operation/chocolate_chips_dispensing_demo_step2.webp" alt="Pouring Chocolate Chips" />
+<img src="./assets/operation/kernels_dispensing_demo_step2.webp" alt="Pouring Blue Popcorn Kernels" />
 </div>
 </div>
 
@@ -299,7 +299,7 @@ Slowly pour toppings into the chamber while popcorn is dispensing or after dispe
 Toppings will mix with popcorn as they fall through the chamber into the cup below.
 </div>
 <div class="step-image">
-<img src="./assets/operation/chocolate_chips_dispensing_demo_step1.webp" alt="Chocolate Chips Over Chamber" />
+<img src="./assets/operation/kernels_dispensing_demo_step1.webp" alt="Blue Popcorn Kernels Over Chamber" />
 </div>
 </div>
 
@@ -307,7 +307,7 @@ Toppings will mix with popcorn as they fall through the chamber into the cup bel
 
 <div class="info-box">
 
-Manual topping additions (like chocolate chips) can be offered as premium add-ons. Configure the system to allow extended dispensing window access time for these customizations.
+Manual topping additions (like blue popcorn kernels) can be offered as premium add-ons. Configure the system to allow extended dispensing window access time for these customizations.
 
 </div>
 

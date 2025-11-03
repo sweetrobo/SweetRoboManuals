@@ -30,7 +30,7 @@ Before beginning installation, ensure you have:
 ### Space Requirements
 
 The Pop Cart requires adequate space for:
-- **Machine footprint**: TBD × TBD cm (TBD × TBD in)
+- **Machine footprint**: 520 × 450 mm (20.5 × 17.7 in)
 - **Service clearance**: Minimum 60 cm (24 in) on service door side
 - **Customer access**: Minimum 120 cm (48 in) clearance in front
 - **Ventilation**: Minimum 15 cm (6 in) clearance around ventilation openings
@@ -78,7 +78,7 @@ The Pop Cart requires adequate space for:
 
 <div class="spec-row">
 <div class="spec-label">Power Supply</div>
-<div class="spec-value">110-125V or 220-240V AC (model dependent)</div>
+<div class="spec-value">110-125V AC (US variant) or 220-240V AC (International variant)</div>
 </div>
 
 <div class="spec-row">
@@ -93,7 +93,7 @@ The Pop Cart requires adequate space for:
 
 <div class="spec-row">
 <div class="spec-label">Power Consumption</div>
-<div class="spec-value">TBD W maximum</div>
+<div class="spec-value">2200 W maximum (20A @ 110V, 10A @ 220V)</div>
 </div>
 
 <div class="spec-row">
@@ -218,7 +218,7 @@ Check for accessory boxes or consumables packed inside the machine (cups, kernel
 
 <div class="caution-box">
 
-**CAUTION**: Two or more people may be required for safely moving and positioning the machine. Use appropriate lifting equipment if necessary. The Pop Cart weighs approximately TBD kg (TBD lbs).
+**CAUTION**: Two or more people may be required for safely moving and positioning the machine. Use appropriate lifting equipment if necessary. The Pop Cart weighs approximately 140 kg (309 lbs).
 
 </div>
 
