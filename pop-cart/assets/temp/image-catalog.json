@@ -1,7 +1,7 @@
 {
   "project": "Pop Cart Manual",
   "catalog_version": "1.0",
-  "last_updated": "2025-10-24T14:13:27Z",
+  "last_updated": "2025-10-30T21:32:49.088751Z",
   "images": [
     {
       "original_filename": "photo_1_2025-10-22_17-06-26.jpg",
@@ -235,61 +235,64 @@
     },
     {
       "original_filename": "photo_8_2025-10-22_17-06-26.jpg",
-      "suggested_filename": "chocolate_chips_dispensing_demo_step1.webp",
-      "description": "Hand holding paper cup with chocolate chips over dispensing chamber, demonstrating topping addition process",
+      "suggested_filename": "kernels_dispensing_demo_step1.webp",
+      "description": "Hand holding paper cup with blue popcorn kernels over dispensing chamber, demonstrating topping addition process",
       "content_type": "photo",
       "suggested_category": "operation",
       "tags": [
         "toppings",
-        "chocolate-chips",
         "dispensing",
         "operation-guide",
         "step-by-step",
-        "customer-use"
+        "customer-use",
+        "blue-popcorn-kernels",
+        "kernels"
       ],
       "dimensions": "964x1280",
       "notes": "First image in sequence showing chocolate chip topping being added, cup held over transparent collection chamber with LED lighting",
       "processed": true,
-      "final_location": "assets/operation/chocolate_chips_dispensing_demo_step1.webp"
+      "final_location": "assets/operation/kernels_dispensing_demo_step1.webp"
     },
     {
       "original_filename": "photo_9_2025-10-22_17-06-26.jpg",
-      "suggested_filename": "chocolate_chips_dispensing_demo_step2.webp",
-      "description": "Hand pouring chocolate chips from cup into dispensing chamber, mid-action shot of topping distribution",
+      "suggested_filename": "kernels_dispensing_demo_step2.webp",
+      "description": "Hand pouring blue popcorn kernels from cup into dispensing chamber, mid-action shot of topping distribution",
       "content_type": "photo",
       "suggested_category": "operation",
       "tags": [
         "toppings",
-        "chocolate-chips",
         "dispensing",
         "operation-guide",
         "step-by-step",
         "customer-use",
-        "pouring"
+        "pouring",
+        "blue-popcorn-kernels",
+        "kernels"
       ],
       "dimensions": "964x1280",
-      "notes": "Second image in sequence showing active pouring of chocolate chips, demonstrates topping application in progress",
+      "notes": "Second image in sequence showing active pouring of blue popcorn kernels, demonstrates topping application in progress",
       "processed": true,
-      "final_location": "assets/operation/chocolate_chips_dispensing_demo_step2.webp"
+      "final_location": "assets/operation/kernels_dispensing_demo_step2.webp"
     },
     {
       "original_filename": "photo_10_2025-10-22_17-06-26.jpg",
-      "suggested_filename": "chocolate_chips_cup_ready_to_pour.webp",
-      "description": "Paper cup filled with chocolate chips held above dispensing chamber, ready to dispense toppings",
+      "suggested_filename": "kernels_ready_to_pour.webp",
+      "description": "Paper cup filled with blue popcorn kernels held above dispensing chamber, ready to dispense toppings",
       "content_type": "photo",
       "suggested_category": "operation",
       "tags": [
         "toppings",
-        "chocolate-chips",
         "dispensing",
         "operation-guide",
         "customer-use",
-        "preparation"
+        "preparation",
+        "blue-popcorn-kernels",
+        "kernels"
       ],
       "dimensions": "964x1280",
       "notes": "Shows prepared topping cup before dispensing, alternative angle of topping addition process",
       "processed": true,
-      "final_location": "assets/operation/chocolate_chips_cup_ready_to_pour.webp"
+      "final_location": "assets/operation/kernels_ready_to_pour.webp"
     },
     {
       "original_filename": "photo_21_2025-10-22_17-06-26.jpg",
@@ -784,46 +787,6 @@
       "final_location": "assets/operation/marketing_splash_continue_button.webp"
     },
     {
-      "original_filename": "Robo Ice Cream - 39.png",
-      "suggested_filename": "admin_product_grid_topping_selection.webp",
-      "description": "Admin product management grid showing 6 topping cards in 2x3 layout with product images, names, and prices",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "admin-interface",
-        "product-grid",
-        "topping-management",
-        "card-layout",
-        "inventory",
-        "backend-ui"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "252KB",
-      "notes": "Shows 'Touch the topping and syrup you want to choose' instruction text. Products displayed: Mini Reeses Pieces (0.00), White Chocolate Syrup (0.00), Caramel Sprinkles (0.00), Snickerdoodle Syrup (0.00), Rainbow Sprinkles (0.00), Blackberry Syrup (0.00). Each card has product image and pricing. NEXT and BACK buttons visible.",
-      "processed": true,
-      "final_location": "assets/operation/admin_product_grid_topping_selection.webp"
-    },
-    {
-      "original_filename": "Robo Ice Cream - 40.png",
-      "suggested_filename": "admin_product_grid_three_selected.webp",
-      "description": "Same product grid with three items selected/highlighted in purple: Mini Reeses Pieces, Snickerdoodle Syrup, and Rainbow Sprinkles",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "admin-interface",
-        "product-grid",
-        "selection-state",
-        "multiple-selection",
-        "highlighted-items",
-        "backend-ui"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "270KB",
-      "notes": "Demonstrates selection UI with purple highlight borders on three products. Shows how admin can select multiple toppings. Same layout as image 39 but with active selection states.",
-      "processed": true,
-      "final_location": "assets/operation/admin_product_grid_three_selected.webp"
-    },
-    {
       "original_filename": "Robo Ice Cream - all apps.png",
       "suggested_filename": "android_all_apps_screen.webp",
       "description": "Android app drawer showing all installed applications including Clock, Gallery, Sound Recorder, Camera, Explorer, Settings, Email, Search, Calculator, Downloads, Phone, Browser, Contacts, Music, APKInstaller, Commissant, Messaging, and SysUpdate",
@@ -1039,27 +1002,6 @@
       "final_location": "assets/operation/settings_payment_methods.webp"
     },
     {
-      "original_filename": "Robo Ice Cream - Software loading page.png",
-      "suggested_filename": "software_loading_splash_screen.webp",
-      "description": "Software initialization splash screen with 'Robo Ice Cream Machine is loading...' text and Sweet Robo Service branding with robot mascot logo and text 'Initialization is complete about to jump...'",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "splash-screen",
-        "loading",
-        "initialization",
-        "startup",
-        "branding",
-        "sweet-robo",
-        "boot-screen"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "165KB",
-      "notes": "Startup screen with gradient purple/pink background featuring 3D stylized 'Robo Ice Cream' text and 'Machine is loading...' subtitle. Bottom right shows Sweet Robo Service robot mascot with text 'Your Best Robo Service' and version identifier CFT100115. Displays during system boot/initialization. Text at bottom in Chinese indicates initialization complete and about to jump to main interface.",
-      "processed": true,
-      "final_location": "assets/operation/software_loading_splash_screen.webp"
-    },
-    {
       "original_filename": "Robo Ice Cream - Stock setting - expired mix.png",
       "suggested_filename": "settings_stock_expired_mix_warning.webp",
       "description": "Stock setting screen showing inventory management with one item marked 'unknown' displaying 'Expired' in red warning text with 3 days remaining, alongside fresh items showing 100.0% stock levels",
@@ -1222,26 +1164,6 @@
       "final_location": "assets/operation/admin_stock_setting_interface.webp"
     },
     {
-      "original_filename": "Robo Ice Cream - 30.png",
-      "suggested_filename": "admin_device_testing_interface.webp",
-      "description": "Comprehensive device testing panel with controls for sensors, sprinkles, cup dispensers, jam dispensers, and cup holder operations",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "admin-interface",
-        "device-testing",
-        "diagnostic-tools",
-        "component-testing",
-        "backend-ui",
-        "maintenance-mode"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "164KB",
-      "notes": "Complex grid layout with multiple testing sections: sensor status (have/have/have/without/have/without), sprinkle controls (1-5 with up/down arrows), door controls, disinfection lamp, cup dispenser (sprinkle 1-3 with direction/duration controls), jam dispensers (jam 1-3 with 2000 values), cup holder (left/right/sensor/shipper). Temperature controls (25C, tank temp, cup hold temp). Blue/gray color scheme with directional arrows.",
-      "processed": true,
-      "final_location": "assets/operation/admin_device_testing_interface.webp"
-    },
-    {
       "original_filename": "Robo Ice Cream - 31.png",
       "suggested_filename": "admin_product_management_grid.webp",
       "description": "Product management grid displaying various popcorn flavors and toppings with images, names, and prices in admin backend",
@@ -1260,26 +1182,6 @@
       "notes": "Grid layout showing products: chocolate ($0.00), Mini Reeses Pieces ($0.00), White Chocolate Syrup ($0.00), Caramel Sprinkles ($0.00), Snake doodle Syrup ($0.00), Blackberry Syrup ($0.00), Rainbow Sprinkles ($0.00). Left sidebar has save/recover buttons. Gradient cyan-purple background matches main admin theme.",
       "processed": true,
       "final_location": "assets/operation/admin_product_management_grid.webp"
-    },
-    {
-      "original_filename": "Robo Ice Cream - 32.png",
-      "suggested_filename": "admin_product_edit_modal_keyboard.webp",
-      "description": "Product editing modal dialog with on-screen keyboard showing Rainbow Sprinkles product name edit interface",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "admin-interface",
-        "product-editing",
-        "on-screen-keyboard",
-        "modal-dialog",
-        "text-input",
-        "backend-ui"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "114KB",
-      "notes": "Edit dialog in center showing Rainbow Sprinkles product image, name field, price field. Right side displays full QWERTY on-screen keyboard with blue Confirm and red Cancel buttons. Product grid dimmed in background. Text entry shows 'rainbow' in lowercase with keyboard active.",
-      "processed": true,
-      "final_location": "assets/operation/admin_product_edit_modal_keyboard.webp"
     },
     {
       "original_filename": "Robo Ice Cream - Android Settings - Wifi Page - wifi off.png",
@@ -1468,49 +1370,6 @@
       "date_added": "2025-10-24T00:00:00Z"
     },
     {
-      "original_filename": "Robo Ice Cream - 43.png",
-      "suggested_filename": "ui_preparation_robot_chef_animation.webp",
-      "description": "Animated preparation screen showing tiny robot chefs working on ice cream with text 'Your perfect... Tiny robot chefs are mixing'",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "user-interface",
-        "preparation-screen",
-        "animation",
-        "robot-chef",
-        "loading-screen",
-        "customer-experience",
-        "entertaining"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "193KB",
-      "notes": "Entertaining preparation/loading screen with animated purple robot characters mixing ice cream in a bowl. Shows customer that their order is being prepared. Timer showing 55 seconds in bottom right. Purple gradient background with scattered decorative dots.",
-      "processed": true,
-      "final_location": "assets/operation/ui_preparation_robot_chef_animation.webp",
-      "date_added": "2025-10-24T00:00:00Z"
-    },
-    {
-      "original_filename": "Robo Ice Cream - 44.png",
-      "suggested_filename": "ui_preparation_installing_core_module.webp",
-      "description": "Preparation status screen showing 'Installing Cremay Core Module' text with decorative ice cream cone graphics",
-      "content_type": "screenshot",
-      "suggested_category": "operation",
-      "tags": [
-        "user-interface",
-        "preparation-screen",
-        "status-message",
-        "loading-screen",
-        "core-module",
-        "customer-screen"
-      ],
-      "dimensions": "3840x2160",
-      "file_size": "177KB",
-      "notes": "Status screen showing core module installation message. Shows a playful ice cream cone with face being lifted by balloon graphic. Timer at 51 seconds. Blue-purple gradient background. Part of the preparation/waiting experience.",
-      "processed": true,
-      "final_location": "assets/operation/ui_preparation_installing_core_module.webp",
-      "date_added": "2025-10-24T00:00:00Z"
-    },
-    {
       "original_filename": "Robo Ice Cream - 45.png",
       "suggested_filename": "error_reminder_core_board_connection.webp",
       "description": "Error notification displaying 'Reminder (CTO100115) Core board connection error (5005)' in white text on dark background",
@@ -1622,11 +1481,11 @@
     "parts-service": "Component diagrams, parts photos, exploded views"
   },
   "statistics": {
-    "total_images": 81,
+    "total_images": 74,
     "processed": 73,
     "by_category": {
       "parts-service": 7,
-      "operation": 45,
+      "operation": 39,
       "overview": 5,
       "troubleshooting": 6,
       "maintenance": 3,
@@ -1634,7 +1493,7 @@
     },
     "by_content_type": {
       "photo": 23,
-      "screenshot": 58
+      "screenshot": 51
     }
   }
 }
