@@ -14,7 +14,46 @@ This naming convention ensures:
 3. Compatibility with web standards (lowercase URLs)
 4. Matching folder names in source, build, and deployment
 
-## Image Path Handling
+## Shared Assets System
+
+The project uses a shared assets structure to avoid duplication and maintain consistency across all manuals.
+
+### Shared Assets Location
+
+The `/shared/` directory contains resources used by all manuals:
+- `shared/css/` - Shared stylesheets (typography, components, layout, etc.)
+- `shared/js/` - Shared JavaScript utilities
+- `shared/images/` - Company-wide assets (logos, product images)
+- `shared/content/` - Legal and company information
+
+Each manual has a **symlink** to the shared directory: `manual-folder/shared -> ../shared`
+
+### Company Logo Usage
+
+**IMPORTANT:** The Sweet Robo company logo is a **shared asset** and must be referenced from `/shared/images/`:
+
+```html
+<!-- Correct - use shared logo -->
+<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
+
+<!-- Wrong - do not duplicate in manual assets -->
+<img src="./assets/logo.webp" alt="Sweet Robo Logo" class="logo" />
+```
+
+**Configuration files** should also reference the shared logo:
+```toml
+# In book.toml
+favicon = "shared/images/sweetrobo-logo.webp"
+image = "shared/images/sweetrobo-logo.webp"
+```
+
+**Benefits:**
+- Single source of truth for company branding
+- Logo updates happen in one place
+- Reduces file duplication (saves ~228KB across 3 manuals)
+- Consistent with shared CSS/JS pattern
+
+### Manual-Specific Images
 
 Images are stored in each manual's `assets/` folder with subdirectories for organization:
 - `assets/overview/` - Machine overview and diagrams
@@ -25,8 +64,13 @@ Images are stored in each manual's `assets/` folder with subdirectories for orga
 - `assets/safety/` - Safety warnings and procedures
 - `assets/parts-service/` - Component diagrams and parts
 
+**When to use shared vs manual-specific assets:**
+- **Shared (`/shared/images/`)**: Company logo, common branding elements
+- **Manual-specific (`manual/assets/`)**: Machine photos, UI screenshots, manual-specific diagrams
+
 When referencing images:
-- In markdown files: Use relative paths `./assets/section/image.webp`
+- **Shared assets**: `./shared/images/filename.webp`
+- **Manual assets**: `./assets/section/image.webp`
 - In the main index.html: Use direct paths `robo-ice-cream/assets/overview/image.webp`
 
 ## Build System
