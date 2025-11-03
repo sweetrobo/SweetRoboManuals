@@ -4,6 +4,37 @@
    for easier management and debugging
    ======================================== */
 
+/*
+==============================================
+PRINT DIMENSIONS REFERENCE
+==============================================
+
+Paper: A4 (21cm × 29.7cm / 8.27" × 11.69")
+Margins: 0.8cm top, 0.5cm sides, 0.2cm bottom
+Usable Area: 20cm × 28.7cm (7.87" × 11.3")
+
+HEIGHT PERCENTAGES (of 29.7cm total page height):
+├─ 50% = 14.85cm (5.85", out of 11.69" page) - Half page
+├─ 48% = 14.26cm (5.61", out of 11.69" page) - Default images
+├─ 40% = 11.88cm (4.68", out of 11.69" page) - Large images
+├─ 35% = 10.40cm (4.09", out of 11.69" page) - Medium images
+├─ 30% = 8.91cm  (3.51", out of 11.69" page) - Small images
+├─ 25% = 7.43cm  (2.92", out of 11.69" page) - Grid images
+└─ 20% = 5.94cm  (2.34", out of 11.69" page) - Tiny images
+
+WIDTH PERCENTAGES (of 20cm usable width):
+├─ 100% = 20cm (7.87") - Full width single image
+├─ 48% = 9.6cm (3.78")  - Side-by-side (2 images)
+└─ 30% = 6cm   (2.36")  - Three-column layout
+
+LAYOUT RECOMMENDATIONS:
+- Single detailed image: 35-48% height (allows text above/below)
+- Two images side-by-side: 30-35% height each
+- Three images: 25-30% height each
+- Four+ images: 20-25% height each
+==============================================
+*/
+
 /* Higher specificity print styles that override mdBook defaults */
 @media print {
   /* =================================== */
@@ -636,6 +667,57 @@
   .print-mode .numbered-steps {
     --numbered-step-circle: 1.5em;
   }
+
+  /* =================================== */
+  /* QR CODES (from components.css) */
+  /* =================================== */
+
+  .qr-code-wrapper {
+    page-break-inside: avoid;
+  }
+
+  .qr-code-link {
+    cursor: default;
+    pointer-events: none;
+  }
+
+  .qr-code-wrapper img {
+    border: 1px solid #ddd;
+    box-shadow: none;
+  }
+
+  .qr-tooltip {
+    display: none !important;
+  }
+
+  .qr-code-description {
+    color: #333;
+    font-size: 0.8em;
+  }
+
+  /* =================================== */
+  /* CONDITIONAL CONTENT (from conditional.css) */
+  /* =================================== */
+
+  /* Hide all debug indicators */
+  .conditional-visible::before,
+  [data-show-when]::before,
+  .role-badge {
+    display: none !important;
+  }
+
+  /* Optionally hide role-specific content in print */
+  .no-print-conditional {
+    display: none !important;
+  }
+
+  /* Hide UI controls and placeholders */
+  .conditional-controls,
+  .manual-print-controls,
+  #menu-bar-hover-placeholder,
+  .image-placeholder {
+    display: none !important;
+  }
 }
 
 /* =================================== */
@@ -666,12 +748,6 @@
 @media screen {
   /* Hide print-only content on screen, except when body has show-print-content class */
   body:not(.show-print-content) .print-only {
-    display: none !important;
-  }
-}
-
-@media print {
-  .conditional-controls, .manual-print-controls, #menu-bar-hover-placeholder, .image-placeholder {
     display: none !important;
   }
 }

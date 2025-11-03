@@ -71,12 +71,33 @@ The caption will automatically be:
 
 Note: Remove any asterisks (*) that are meant to surround the caption text - use proper markdown or HTML italic formatting instead.
 
-#### Legacy Image Classes (Still Supported)
-- `setup-image` - Adds border and padding for setup instructions
-- `overview-diagram` - For technical diagrams
-- `operation-screenshot` - Orange border for operation screens
-- `maintenance-photo` - Green border for maintenance images
-- `component-detail` - Purple border for component close-ups
+#### ⚠️ Deprecated Image Classes (Remove by v2.0 - Q2 2026)
+
+**Migration Required:** The following classes are deprecated and will be removed in v2.0 (Q2 2026). Please migrate to the new hybrid system documented in `/STYLE-GUIDE.md`.
+
+| ❌ Deprecated Class | ✅ New Class | Migration Notes |
+|---------------------|-------------|-----------------|
+| `.setup-image` | `.img-large` or `.img-xl` | Use generic size class for flexibility |
+| `.overview-diagram` | `.img-diagram` | Use semantic alias for self-documenting code |
+| `.operation-screenshot` | `.img-ui-screenshot` | Use semantic alias for UI screenshots |
+| `.maintenance-photo` | `.img-detail-photo` | Use semantic alias for component photos |
+| `.component-detail` | `.img-small` | Use generic size class |
+| `.side-image` | (remove class) | Default image sizing is appropriate |
+
+**New System Benefits:**
+- **Generic sizes**: `.img-small`, `.img-medium`, `.img-large`, `.img-xl` for straightforward size control
+- **Semantic aliases**: `.img-ui-screenshot`, `.img-diagram`, `.img-detail-photo`, `.img-icon` for self-documenting purpose
+- **Print-aware**: Inline `@media print` styles ensure proper dimensions on paper
+- **Comprehensive documentation**: See `/STYLE-GUIDE.md` for complete reference with print dimensions
+
+**Example Migration:**
+```html
+<!-- OLD (deprecated) -->
+<img src="./assets/ui.webp" class="operation-screenshot" alt="UI Screen" />
+
+<!-- NEW (recommended) -->
+<img src="./assets/ui.webp" class="img-ui-screenshot" alt="UI Screen" />
+```
 
 ### Image Organization
 - Place images in appropriate section folders:

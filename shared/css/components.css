@@ -212,30 +212,7 @@
 }
 
 /* Print-specific QR code adjustments */
-@media print {
-  .qr-code-wrapper {
-    page-break-inside: avoid;
-  }
-  
-  .qr-code-link {
-    cursor: default;
-    pointer-events: none;
-  }
-  
-  .qr-code-wrapper img {
-    border: 1px solid #ddd;
-    box-shadow: none;
-  }
-  
-  .qr-tooltip {
-    display: none !important;
-  }
-  
-  .qr-code-description {
-    color: #333;
-    font-size: 0.8em;
-  }
-}
+/* QR code print styles moved to custom-print.css for consolidation */
 
 /* =================================== */
 /* NUMBERED STEPS */

@@ -252,6 +252,30 @@ body:not(.role-internal) tr.internal-row {
 }
 
 /* =================================== */
+/* PENDING CONTENT (NEW) */
+/* =================================== */
+
+/* Pending: Content under review - visible with warning banner */
+.pending {
+  border-left: 4px solid #f59e0b;
+  padding: 15px 15px 15px 20px;
+  margin: 15px 0;
+  background: #fffbeb;
+  border-radius: 4px;
+}
+
+.pending::before {
+  content: "⚠️ PENDING REVIEW";
+  display: block;
+  font-weight: bold;
+  color: #f59e0b;
+  font-size: 0.85em;
+  margin-bottom: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* =================================== */
 /* MOBILE RESPONSIVE */
 /* =================================== */
 
@@ -260,7 +284,8 @@ body:not(.role-internal) tr.internal-row {
   .technician-warning,
   .technician-tip,
   .operator-note,
-  .customer-info {
+  .customer-info,
+  .pending {
     margin-left: -15px;
     margin-right: -15px;
     border-radius: 0;
@@ -278,16 +303,18 @@ body:not(.role-internal) tr.internal-row {
 /* PRINT HANDLING */
 /* =================================== */
 
-@media print {
-  /* Hide all debug indicators */
-  .conditional-visible::before,
-  [data-show-when]::before,
-  .role-badge {
-    display: none !important;
-  }
+/* Print styles moved to custom-print.css for consolidation */
 
-  /* Optionally hide role-specific content in print */
-  .no-print-conditional {
-    display: none !important;
+/* Pending content print behavior */
+@media print {
+  /* Hide pending indicator in print */
+  .pending::before {
+    display: none;
+  }
+  /* Remove pending styling in print */
+  .pending {
+    border-left: none;
+    background: transparent;
+    padding: 0;
   }
 }

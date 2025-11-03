@@ -19,13 +19,7 @@
 @import url('conditional.css');
 
 /* All print-specific styles */
-@import url('custom-print.css'); 
-
-/* Image styles */
-@import url('images.css');      
-
-/* Conditional content styles */
-@import url('conditional.css'); 
+@import url('custom-print.css');
 
 /* =================================== */
 /* ADDITIONAL OVERRIDES */

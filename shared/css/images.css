@@ -1,6 +1,6 @@
 /* Sweet Robo Manual - Image Styles
    ========================================
-   All image-related styling and layouts
+   Modern hybrid sizing system with print styles inline
    ======================================== */
 
 /* =================================== */
@@ -10,7 +10,7 @@
 .content img,
 img {
   max-width: 100%;
-  max-height: 90vh;
+  max-height: 50vh;  /* Screen: 50% viewport height - reasonable default */
   height: auto;
   display: block;
   margin: 15px auto;
@@ -21,88 +21,112 @@ img {
   border-radius: 0;
 }
 
+@media print {
+  .content img,
+  img {
+    max-height: calc(29.7cm * 0.48);  /* Print: 14.26cm (5.61", 48% of page height) */
+  }
+}
+
 /* =================================== */
-/* IMAGE SIZE CLASSES */
+/* GENERIC SIZE TIERS */
 /* =================================== */
 
+/* Small: Icons, badges, small UI elements */
 .img-small {
-  max-width: var(--img-small-max);
+  max-width: 300px;
+  max-height: 30vh;  /* Screen: 30% viewport height */
+}
+@media print {
+  .img-small {
+    max-height: calc(29.7cm * 0.20);  /* Print: 5.94cm (2.34", 20% of page height) */
+  }
 }
 
+/* Medium: Standard photos and screenshots */
 .img-medium {
-  max-width: var(--img-medium-max);
+  max-width: 500px;
+  max-height: 50vh;  /* Screen: 50% viewport height */
+}
+@media print {
+  .img-medium {
+    max-height: calc(29.7cm * 0.35);  /* Print: 10.40cm (4.09", 35% of page height) */
+  }
 }
 
+/* Large: Detailed diagrams and schematics */
 .img-large {
-  max-width: var(--img-large-max);
+  max-width: 700px;
+  max-height: 70vh;  /* Screen: 70% viewport height */
+}
+@media print {
+  .img-large {
+    max-height: calc(29.7cm * 0.40);  /* Print: 11.88cm (4.68", 40% of page height) */
+  }
 }
 
+/* Extra Large: Full-detail UI screenshots */
+.img-xl {
+  max-width: 900px;
+  max-height: 90vh;  /* Screen: 90% viewport height */
+}
+@media print {
+  .img-xl {
+    max-height: calc(29.7cm * 0.48);  /* Print: 14.26cm (5.61", 48% of page height) */
+  }
+}
+
+/* Full width: Spans available width */
 .img-full {
   max-width: var(--img-full-max);
 }
 
 /* =================================== */
-/* SECTION-SPECIFIC IMAGE SIZING */
+/* SEMANTIC ALIASES (Use-Case Specific) */
 /* =================================== */
 
-.setup-image {
+/* UI Screenshot: Complex interface requiring detail */
+.img-ui-screenshot {
   max-width: 600px;
-  max-height: 80vh;
-  margin: 20px auto;
+  max-height: 80vh;  /* Screen: 80% viewport height */
+}
+@media print {
+  .img-ui-screenshot {
+    max-height: calc(29.7cm * 0.48);  /* Print: 14.26cm (5.61", 48% of page height) */
+  }
 }
 
-.overview-diagram {
+/* Diagram: Technical drawings and schematics */
+.img-diagram {
   max-width: 700px;
-  max-height: 80vh;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
+  max-height: 70vh;  /* Screen: 70% viewport height */
+}
+@media print {
+  .img-diagram {
+    max-height: calc(29.7cm * 0.40);  /* Print: 11.88cm (4.68", 40% of page height) */
+  }
 }
 
-.operation-screenshot {
-  max-width: 500px;
-  max-height: 80vh;
-}
-
-.maintenance-photo {
+/* Detail Photo: Component close-ups and part photos */
+.img-detail-photo {
   max-width: 400px;
+  max-height: 40vh;  /* Screen: 40% viewport height */
+}
+@media print {
+  .img-detail-photo {
+    max-height: calc(29.7cm * 0.30);  /* Print: 8.91cm (3.51", 30% of page height) */
+  }
 }
 
-.component-detail {
-  max-width: 350px;
+/* Icon: Small icons and UI badges */
+.img-icon {
+  max-width: 150px;
+  max-height: 20vh;  /* Screen: 20% viewport height */
 }
-
-.side-image {
-  max-height: 90vh;
-}
-
-/* UI Screenshots - from ui-images folder */
-img[src*="ui-images/"] {
-  max-height: 90vh;
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
-/* Standalone image with caption container */
-.standalone-image-container {
-  margin: 2em auto;
-  text-align: center;
-}
-
-.standalone-image-container img {
-  max-height: 90vh;
-  width: auto;
-  height: auto;
-}
-
-.standalone-image-container .image-caption {
-  text-align: center;
-  font-style: italic;
-  margin-top: 8px;
-  font-size: 0.85em;
-  color: #666;
+@media print {
+  .img-icon {
+    max-height: calc(29.7cm * 0.15);  /* Print: 4.46cm (1.75", 15% of page height) */
+  }
 }
 
 /* =================================== */
@@ -128,6 +152,31 @@ figure figcaption {
   font-style: italic;
   margin-top: 0.5em;
   margin-bottom: 1em;
+}
+
+/* Standalone image with caption container */
+.standalone-image-container {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.standalone-image-container img {
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+}
+@media print {
+  .standalone-image-container img {
+    max-height: calc(29.7cm * 0.48);  /* Print: 14.26cm (5.61", 48% of page height) */
+  }
+}
+
+.standalone-image-container .image-caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #666;
 }
 
 /* =================================== */
@@ -169,6 +218,11 @@ figure figcaption {
   max-height: 90vh;
   margin: 0;
 }
+@media print {
+  .side-by-side-images img {
+    max-height: calc(29.7cm * 0.35);  /* Print: 10.40cm (4.09", 35% of page height) */
+  }
+}
 
 /* Three column images */
 .three-column-images {
@@ -186,6 +240,11 @@ figure figcaption {
   height: auto;
   object-fit: contain;
   margin: 0;
+}
+@media print {
+  .three-column-images img {
+    max-height: calc(29.7cm * 0.30);  /* Print: 8.91cm (3.51", 30% of page height) */
+  }
 }
 
 /* =================================== */
@@ -256,6 +315,49 @@ figure img {
 }
 
 /* =================================== */
+/* SPECIAL SELECTORS */
+/* =================================== */
+
+/* UI Screenshots - auto-styling for ui-images folder */
+img[src*="ui-images/"] {
+  max-height: 90vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+@media print {
+  img[src*="ui-images/"] {
+    max-height: calc(29.7cm * 0.48);  /* Print: 14.26cm (5.61", 48% of page height) */
+  }
+}
+
+/* Lazy loading placeholder */
+img[loading="lazy"] {
+  background: var(--background-light);
+  min-height: 100px;
+}
+
+/* Inline images */
+.inline-image,
+img.inline {
+  display: inline-block;
+  margin: 0 0.5em;
+  vertical-align: middle;
+  max-height: 1.5em;
+  width: auto;
+}
+
+/* Image zoom effect */
+.img-zoom {
+  transition: transform var(--transition-base);
+  cursor: zoom-in;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+/* =================================== */
 /* RESPONSIVE IMAGE ADJUSTMENTS */
 /* =================================== */
 
@@ -263,13 +365,6 @@ figure img {
   img {
     max-width: 95%;
     margin: 10px auto;
-  }
-
-  .setup-image,
-  .overview-diagram,
-  .operation-screenshot,
-  .maintenance-photo {
-    max-width: 100%;
   }
 
   /* Stack side-by-side images on mobile */
@@ -311,36 +406,54 @@ figure img {
 }
 
 /* =================================== */
-/* LAZY LOADING PLACEHOLDER */
+/* DEPRECATED LEGACY CLASSES */
+/* Will be removed in v2.0 (Q2 2026)
 /* =================================== */
 
-img[loading="lazy"] {
-  background: var(--background-light);
-  min-height: 100px;
+/* @deprecated Use .img-large or .img-xl instead */
+.setup-image {
+  max-width: 600px;
+  max-height: 80vh;
+  margin: 20px auto;
 }
 
-/* =================================== */
-/* IMAGE ZOOM EFFECT */
-/* =================================== */
-
-.img-zoom {
-  transition: transform var(--transition-base);
-  cursor: zoom-in;
+/* @deprecated Use .img-diagram instead */
+.overview-diagram {
+  max-width: 700px;
+  max-height: 80vh;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
-.img-zoom:hover {
-  transform: scale(1.1);
+/* @deprecated Use .img-ui-screenshot instead */
+.operation-screenshot {
+  max-width: 500px;
+  max-height: 80vh;
 }
 
-/* =================================== */
-/* INLINE IMAGES */
-/* =================================== */
+/* @deprecated Use .img-detail-photo instead */
+.maintenance-photo {
+  max-width: 400px;
+}
 
-.inline-image,
-img.inline {
-  display: inline-block;
-  margin: 0 0.5em;
-  vertical-align: middle;
-  max-height: 1.5em;
-  width: auto;
+/* @deprecated Use .img-small instead */
+.component-detail {
+  max-width: 350px;
+}
+
+/* @deprecated Remove class, default img sizing is appropriate */
+.side-image {
+  max-height: 90vh;
+}
+
+@media screen and (max-width: 768px) {
+  /* Deprecated classes mobile adjustments */
+  .setup-image,
+  .overview-diagram,
+  .operation-screenshot,
+  .maintenance-photo {
+    max-width: 100%;
+  }
 }
