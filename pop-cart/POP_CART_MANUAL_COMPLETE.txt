@@ -1,0 +1,5242 @@
+# Pop Cart Manual - Complete Edition
+
+Combined manual for team review and editing
+
+---
+
+## 📝 Notes for Editing
+
+👥 Team Editors: See TEAM_EDITING_GUIDE.md for detailed instructions!
+
+### Key Points:
+
+- Images: Image references appear as [IMAGE: Description - Path: ./assets/path/image.webp]
+  - This is normal - images are local files and won't display in Google Docs
+  - You CAN edit the description (text in brackets)
+  - DON'T delete the file paths
+
+- Section Markers: Comments like <!-- SECTION: filename.md --> must stay!
+  - These help us split the document back into individual files
+
+- Focus: Edit the text content - fix typos, clarify instructions, improve wording
+
+---
+
+<!-- SECTION: title-page.md -->
+
+
+
+
+
+
+
+Pop Cart - User Manual
+
+[IMAGE: Sweet Robo Logo - Path: ./shared/images/sweetrobo-logo.webp]
+
+
+
+
+
+<h1>Pop Cart</h1>
+<h2>User Manual</h2>
+
+
+
+
+
+    
+
+        <p>Revision & Date:</p>
+        <p>Rev 1. 10.2025</p>
+    
+
+    [IMAGE: Pop Cart Popcorn Vending Machine - Path: ./assets/images/header/PopCart.webp]
+    
+
+        
+
+            <a href="https://manuals.sweetrobo.com/pop-cart/">
+                View Online Manual
+                [IMAGE: QR Code for Online Manual - Path: ./assets/troubleshooting/qr-code-manual-temp.webp]
+                
+Scan for latest
+online manual
+
+            </a>
+        
+
+    
+
+
+
+
+
+
+
+
+---
+
+<!-- SECTION: overview.md -->
+
+# Overview
+
+# Overview
+
+[IMAGE: Pop Cart Popcorn Vending Machine - Full Front View - Path: ./assets/overview/machine_full_view_front.webp]
+Pop Cart - Vintage carnival-style automated popcorn vending machine
+
+## About the Pop Cart
+
+The Pop Cart is Sweet Robo's automated popcorn vending machine that combines nostalgic carnival aesthetics with modern automated technology. Designed to produce fresh, hot popcorn on demand, the Pop Cart delivers a delightful customer experience while maintaining reliable, hands-off operation for venue operators.
+
+This manual provides comprehensive information for operators, maintenance personnel, and technicians to ensure optimal performance and longevity of your Pop Cart system.
+
+<hr>
+
+## Machine Purpose
+
+The Pop Cart produces fresh popcorn on-demand using fully automated popping, flavoring, and dispensing systems. Customers interact with an intuitive touchscreen interface to select their preferred popcorn variety and toppings, make payment, and receive freshly popped popcorn in branded containers.
+
+### Ideal Venues
+- Movie theaters and entertainment centers
+- Shopping malls and retail spaces
+- Amusement parks and recreational facilities
+- Office buildings and corporate campuses
+- Educational institutions
+- Transportation hubs
+
+<hr>
+
+## Key Features
+
+
+
+
+
+
+
+#### Fresh Popping System
+Advanced dual-cylinder popping mechanism creates fresh popcorn on demand with optimal kernel-to-pop ratios and consistent quality batch after batch.
+
+
+
+
+
+
+
+#### Multiple Flavor Options
+Support for various seasoning dispensers allowing diverse flavor combinations including butter, garlic, chipotle, jalapeño, and truffle options.
+
+
+
+
+
+
+
+#### Touchscreen Interface
+Intuitive customer-facing touchscreen interface with vintage carnival theming guides users through popcorn selection, topping choices, and payment processing.
+
+
+
+
+
+
+
+#### Automated Dispensing
+Precise portion control and automated dispensing ensure consistent servings and minimize waste while maximizing profitability.
+
+
+
+
+
+
+
+#### Payment Flexibility
+Integrated payment system supports credit/debit cards, cash payments, and optional loyalty credits for seamless customer transactions.
+
+
+
+
+
+
+
+#### Vintage Aesthetic
+Eye-catching carnival cart design with red and white striped awning, decorative wheels, and nostalgic styling attracts customers and enhances venue ambiance.
+
+
+
+
+
+
+
+<hr>
+
+## Technical Specifications
+
+
+
+
+
+
+
+Machine Name
+
+
+Pop Cart
+
+
+
+
+
+
+
+Machine Type
+
+
+Automated Popcorn Vending Machine
+
+
+
+
+
+
+
+Manufacturer
+
+
+Sweet Robo
+
+
+
+
+
+
+
+Dimensions (W×D×H)
+
+
+520 × 450 × 1720 mm (20.5 × 17.7 × 67.7 in)
+
+
+
+
+
+
+
+Net Weight
+
+
+140 kg (approx. 309 lbs)
+
+
+
+
+
+
+
+Power Voltage
+
+
+110-125V AC (US variant) or 220-240V AC (International variant)
+
+
+
+
+
+
+
+Power Consumption
+
+
+Max 2200 W (20A @ 110V, 10A @ 220V)
+
+
+
+
+
+
+
+Popcorn Capacity
+
+
+Dual cylinder system (~3 kg per tube, 60-70 servings each)
+
+
+
+
+
+
+
+Kernel Storage
+
+
+6 kg total capacity (3 kg per cylinder)
+
+
+
+
+
+
+
+Seasoning Options
+
+
+5 flavor lanes (customizable selection)
+
+
+
+
+
+
+
+User Interface
+
+
+Touchscreen display with customer-facing operation
+
+
+
+
+
+
+
+Payment Methods
+
+
+Credit/Debit Card, Cash, Loyalty Credits
+
+
+
+
+
+
+
+Operating Environment
+
+
+Indoor use, 15-30°C (59-86°F), humidity 20-80% non-condensing
+
+
+
+
+
+
+
+
+
+
+The Pop Cart requires adequate ventilation and climate-controlled indoor environments for optimal performance. Consult the Setup section for detailed site requirements and environmental specifications.
+
+
+
+
+<hr>
+
+## System Components
+
+### External Features
+
+The Pop Cart features a distinctive vintage carnival cart aesthetic designed to attract customers and complement entertainment venues. The red and white striped canopy, decorative yellow wheels, and classic popcorn branding create an inviting presence.
+
+[IMAGE: Pop Cart Dispensing Window with Internal Heating Elements - Path: ./assets/overview/dispensing_window_internal_mechanism.webp]
+Front dispensing window showing internal popping chamber with heating elements
+
+Customer Interaction Points:
+- Touchscreen Display: Primary customer interface for selections and payment
+- Dispensing Window: Collection point for finished popcorn containers
+- Payment Area: Integrated card reader and cash acceptance
+- Security Lock: Keyed access for operator maintenance and restocking
+
+### Internal Component Layout
+
+
+
+[IMAGE: Pop Cart Interior Full Side View - Path: ./assets/overview/overview_interior_full_view_side.webp]
+[IMAGE: Pop Cart Interior Angled View - Path: ./assets/overview/overview_interior_full_view_angle.webp]
+
+
+
+Complete interior layout showing multi-level component organization
+
+The Pop Cart interior is organized into distinct functional zones for efficient operation and maintenance:
+
+Upper Level - Storage & Supply
+- Kernel hopper with top-loading access
+- Seasoning dispensers (5 positions)
+- Supply monitoring systems
+
+Middle Level - Production
+- Dual-cylinder popping chambers (A & B)
+- Heating element arrays
+- Oil dispensing system
+- Temperature monitoring
+
+Lower Level - Dispensing & Collection
+- Stainless steel dispensing chute
+- Cup positioning mechanism
+- Waste collection bin
+- Service access panels
+
+[IMAGE: Dual Popcorn Dispensing Cylinders Labeled A and B - Path: ./assets/overview/dual-popcorn-dispensers-interior.webp]
+Dual popcorn dispensing cylinders labeled A and B
+
+### Dual Dispensing System
+
+The Pop Cart features two independent popcorn cylinders (A and B) that allow operators to offer customers a choice:
+
+- Cylinder A (Option 1): Can contain any popcorn variety selected by the operator
+- Cylinder B (Option 2): Can contain a different variety, the same variety, or custom-mixed kernels
+- Flexible Configuration: Operators decide whether to offer two distinct options or use both cylinders for the same variety
+- Customer Choice: Software interface allows customers to select which cylinder option they prefer
+- Independent Operation: Each cylinder operates separately for reliability and continuous service
+- Transparent Design: Visible popcorn display creates customer excitement
+
+<hr>
+
+## Machine Architecture
+
+### 1. Production System
+The Pop Cart's production system handles the complete popping process from kernel storage through finished product:
+
+- Kernel Metering: Precise measurement ensures consistent batch sizes
+- Oil Application: Automated oil dispensing for optimal popping
+- Heat Management: Controlled heating elements maintain ideal popping temperatures
+- Quality Monitoring: Sensors detect pop completion and prevent burning
+
+### 2. Dispensing Mechanism
+Once popping is complete, the automated dispensing system delivers popcorn to customers:
+
+- Gravity Feed: Dual cylinders use gravity to move popcorn downward
+- Portion Control: Measured dispensing ensures consistent serving sizes
+- Cup Positioning: Sensors detect proper cup placement before dispensing
+- Chute Design: Stainless steel curved chute guides popcorn smoothly
+
+### 3. Control System
+An integrated electronic control system manages all machine functions:
+
+- Customer Interface: Android-based touchscreen for intuitive operation
+- Payment Processing: Secure transaction handling and receipt generation
+- Inventory Tracking: Monitors kernel and seasoning levels
+- Error Detection: Real-time monitoring and diagnostic alerts
+- Remote Management: Optional network connectivity for remote monitoring
+
+### 4. Safety Systems
+Multiple safety features protect customers, operators, and the machine:
+
+- Temperature Limits: Automatic shutdown prevents overheating
+- Door Interlocks: Safety switches disable operation when doors open
+- Emergency Stop: Accessible emergency shutdown capability
+- Component Protection: Thermal and electrical protection circuits
+
+<hr>
+
+## Next Steps
+
+Now that you understand the Pop Cart's capabilities and components, proceed to:
+
+- Setup & Installation - Learn how to unpack, position, and configure your Pop Cart
+- Operation Guide - Master daily operations and customer service procedures
+- Maintenance - Establish cleaning schedules and preventive maintenance routines
+
+For immediate assistance or technical support, see Company Information.
+
+
+---
+
+<!-- SECTION: setup.md -->
+
+# Setup & Installation
+
+# Setup & Installation
+
+This section guides you through unpacking, positioning, and configuring your Pop Cart for first-time operation.
+
+
+
+
+IMPORTANT
+
+Some accessories or consumables may be packaged and stored inside the machine body for secure transit. Before powering on the machine, carefully open all access doors and inspect the interior.
+
+
+
+
+<hr>
+
+## Pre-Installation Checklist
+
+Before beginning installation, ensure you have:
+
+- [ ] Verified delivery contents against packing list
+- [ ] Inspected exterior for shipping damage
+- [ ] Confirmed site meets requirements (see below)
+- [ ] Arranged for 2+ people for positioning
+- [ ] Verified power requirements match your facility
+- [ ] Prepared network connection (if using remote management)
+
+<hr>
+
+## Site Requirements
+
+### Space Requirements
+
+The Pop Cart requires adequate space for:
+- Machine footprint: 520 × 450 mm (20.5 × 17.7 in)
+- Service clearance: Minimum 60 cm (24 in) on service door side
+- Customer access: Minimum 120 cm (48 in) clearance in front
+- Ventilation: Minimum 15 cm (6 in) clearance around ventilation openings
+
+### Environmental Conditions
+
+
+
+
+
+
+
+Operating Temperature
+
+
+15-30°C (59-86°F)
+
+
+
+
+
+
+
+Storage Temperature
+
+
+-10 to 40°C (14 to 104°F)
+
+
+
+
+
+
+
+Humidity
+
+
+20-80% relative humidity, non-condensing
+
+
+
+
+
+
+
+Location
+
+
+Indoor use only, level floor surface
+
+
+
+
+
+
+
+Ventilation
+
+
+Adequate air circulation, avoid enclosed spaces
+
+
+
+
+
+
+
+
+
+
+WARNING: Do not install in damp, wet, or outdoor environments. Exposure to moisture may cause electrical hazards and equipment damage.
+
+
+
+
+### Electrical Requirements
+
+
+
+
+
+
+
+Power Supply
+
+
+110-125V AC (US variant) or 220-240V AC (International variant)
+
+
+
+
+
+
+
+Frequency
+
+
+50/60 Hz
+
+
+
+
+
+
+
+Circuit Type
+
+
+Dedicated circuit recommended
+
+
+
+
+
+
+
+Power Consumption
+
+
+2200 W maximum (20A @ 110V, 10A @ 220V)
+
+
+
+
+
+
+
+Plug Type
+
+
+Standard grounded plug for region
+
+
+
+
+
+
+
+
+
+
+The Pop Cart supports remote management requiring an internet connection. Ensure a stable Wi-Fi signal or an accessible Ethernet port is available near the machine.
+
+
+
+
+<hr>
+
+## Unpacking Instructions
+
+The Pop Cart ships with protective packaging to prevent damage during transport. Follow these steps to safely unpack your machine.
+
+### 1. Inspect Shipping Container
+
+
+
+
+
+
+
+
+Visually inspect the exterior packaging for obvious damage (crushed corners, punctures, or water damage).
+
+
+
+
+
+
+
+
+
+Document any damage with photographs before unpacking.
+
+
+
+
+
+
+
+
+
+If significant damage is observed, contact the carrier and Sweet Robo support before proceeding.
+
+
+
+
+
+
+
+
+### 2. Remove Protective Wrapping
+
+[IMAGE: Pop Cart with Shipping Labels and Bubble Wrap - Path: ./assets/setup/machine_wrapped_labeled_shipping.webp]
+Pop Cart as delivered with shipping protection and labels
+
+
+
+
+
+
+
+
+Carefully cut and remove exterior strapping or tape.
+
+
+
+
+
+
+
+
+
+Peel away bubble wrap protective covering, being careful not to damage the machine exterior or decorative elements.
+
+
+
+
+
+
+
+
+
+Keep protective materials until installation is complete in case return shipping is needed.
+
+
+
+
+
+
+
+
+
+
+[IMAGE: Pop Cart Fully Wrapped in Bubble Wrap - Path: ./assets/setup/machine_wrapped_full_coverage.webp]
+[IMAGE: Pop Cart Partially Unwrapped - Path: ./assets/setup/machine_wrapped_bubble_protection.webp]
+
+
+
+Unpacking sequence: fully protected (left) and partially unwrapped (right)
+
+### 3. Remove Interior Packing Materials
+
+[IMAGE: Interior Bubble Wrap Packing Material - Path: ./assets/setup/setup_packaging_bubble_wrap_roll.webp]
+Interior protective materials that must be removed before operation
+
+
+
+
+
+
+
+
+Unlock and open all service access doors using the provided keys.
+
+
+
+
+
+
+
+
+
+Remove all interior protective materials including foam inserts, bubble wrap, and cardboard spacers.
+
+
+
+
+
+
+
+
+
+Verify that internal components move freely and are not obstructed by packing materials.
+
+
+
+
+
+
+
+
+
+Check for accessory boxes or consumables packed inside the machine (cups, kernel samples, cleaning supplies, etc.).
+
+
+
+
+
+
+
+
+
+
+
+CAUTION: Failure to remove all packing materials before operation may cause equipment malfunction, jamming, or damage. Thoroughly inspect all interior compartments.
+
+
+
+
+<hr>
+
+## Positioning the Machine
+
+
+
+
+CAUTION: Two or more people may be required for safely moving and positioning the machine. Use appropriate lifting equipment if necessary. The Pop Cart weighs approximately 140 kg (309 lbs).
+
+
+
+
+
+1. Move to Final Location
+
+
+
+
+
+
+
+
+
+Carefully move the Pop Cart to its final operating location, ensuring it meets all site requirements.
+
+
+
+
+
+
+
+
+
+Position the machine to allow adequate service access on the door side and customer access on the front.
+
+
+
+
+
+
+
+
+
+Ensure the machine is not blocking emergency exits, fire equipment, or facility traffic flow.
+
+
+
+
+
+
+
+
+
+2. Level the Machine
+
+
+
+
+
+
+
+
+
+Use a bubble level to check that the machine is level front-to-back and side-to-side.
+
+
+
+
+
+
+
+
+
+Adjust leveling feet as needed to compensate for floor irregularities.
+
+
+
+
+
+
+
+
+
+Verify the machine does not rock or wobble when gently pushed.
+
+
+
+
+
+
+
+
+
+Lock leveling feet in position once the machine is level and stable.
+
+
+
+
+
+
+
+
+
+
+
+Proper leveling is critical for accurate popcorn dispensing and prevents uneven wear on internal components. Take time to ensure the machine is perfectly level.
+
+
+
+
+<hr>
+
+## Power Connection
+
+
+
+
+WARNING: Electrical Shock Hazard. Ensure your hands are dry and you are not standing in water when connecting the power cord. Have a qualified electrician verify proper grounding before operation.
+
+
+
+
+
+
+
+
+
+
+
+Verify that the power outlet voltage and type match the machine requirements printed on the data plate.
+
+
+
+
+
+
+
+
+
+Confirm the circuit breaker is OFF before plugging in the machine.
+
+
+
+
+
+
+
+
+
+Fully insert the power plug into a properly grounded outlet.
+
+
+
+
+
+
+
+
+
+Turn ON the circuit breaker and verify no faults or tripped breakers.
+
+
+
+
+
+
+
+
+
+
+
+IMPORTANT
+
+Use a dedicated circuit for the Pop Cart when possible. Sharing circuits with other high-power equipment may cause voltage fluctuations and affect machine performance.
+
+
+
+
+<hr>
+
+## Network Connection (Optional)
+
+If using remote management features:
+
+
+
+
+
+
+
+
+Access the operator settings menu on the touchscreen (see Operation section for menu access).
+
+
+
+
+
+
+
+
+
+Navigate to Network Settings and select your connection type (Wi-Fi or Ethernet).
+
+
+
+
+
+
+
+
+
+For Wi-Fi: Select your network SSID and enter the password.
+
+
+
+
+
+
+
+
+
+For Ethernet: Connect network cable to the RJ45 port on the rear of the machine.
+
+
+
+
+
+
+
+
+
+Verify network connection status shows "Connected" in settings.
+
+
+
+
+
+
+
+
+
+Contact Sweet Robo support for remote management portal setup and credentials.
+
+
+
+
+
+
+
+
+<hr>
+
+## Initial Configuration
+
+### System Check
+
+After powering on for the first time:
+
+
+
+
+
+
+
+
+The machine will perform a self-test sequence. Observe for any error messages or unusual sounds.
+
+
+
+
+
+
+
+
+
+Allow the touchscreen to fully boot (approximately 30-60 seconds).
+
+
+
+
+
+
+
+
+
+Verify the customer interface displays the welcome screen correctly.
+
+
+
+
+
+
+
+
+
+Access the operator menu to configure initial settings (see Operation section).
+
+
+
+
+
+
+
+
+### Load Initial Supplies
+
+Before operation, the machine requires:
+
+
+
+
+
+
+
+#### Popcorn Kernels
+Fill kernel hopper with approved popcorn kernels. Recommended: Amish Country Popcorn Blue variety or equivalent.
+
+
+
+
+
+
+
+#### Seasonings
+Stock seasoning dispensers with desired flavors (Butter, Chipotle, Garlic, Jalapeño, Truffle, etc.).
+
+
+
+
+
+
+
+#### Cups
+Load branded popcorn cups into the cup dispenser mechanism.
+
+
+
+
+
+
+
+#### Oil/Butter
+Fill oil reservoir with food-grade popping oil or clarified butter as specified.
+
+
+
+
+
+
+
+Refer to the Maintenance section for detailed loading procedures and approved consumables.
+
+<hr>
+
+## First Start Checklist
+
+Before allowing customer use, verify:
+
+- [ ] All packing materials removed from interior
+- [ ] Machine is level and stable
+- [ ] Power connection is secure and grounded
+- [ ] Network connection established (if applicable)
+- [ ] Kernel hopper is filled
+- [ ] Seasoning dispensers are stocked
+- [ ] Cups are loaded
+- [ ] Oil/butter reservoir is filled
+- [ ] Customer interface is responsive
+- [ ] Payment system is configured and tested
+- [ ] Test transaction completed successfully
+- [ ] Operator familiar with Operation Guide
+- [ ] Emergency shutdown procedure understood
+- [ ] Support contact information posted
+
+
+
+
+<h4>Test Transaction Required</h4>
+
+Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, topping dispensing, payment processing, and product delivery.
+
+
+
+
+<hr>
+
+## Installation Complete
+
+Your Pop Cart is now ready for operation! Proceed to the Operation Guide to learn daily operation procedures, or refer to Maintenance for cleaning and restocking information.
+
+For setup assistance or questions, contact Sweet Robo support:
+
+Support Contact: See Company Information
+
+
+---
+
+<!-- SECTION: operation.md -->
+
+# Operation Guide
+
+# Operation Guide
+
+This section covers daily operations, customer service procedures, and operator controls for the Pop Cart popcorn vending machine.
+
+<hr>
+
+## Daily Startup Procedure
+
+Perform these steps at the beginning of each operating day:
+
+
+
+
+
+
+
+
+Verify Supply Levels
+
+• Check kernel hopper is adequately filled
+
+• Confirm seasoning dispensers are stocked
+
+• Verify cup supply is sufficient
+
+• Check oil/butter reservoir level
+
+
+
+
+
+
+
+
+
+Inspect Machine Condition
+
+• Visually inspect exterior for damage or tampering
+
+• Verify dispensing window is clean and clear
+
+• Check for any error messages on screen
+
+• Ensure no obstructions in customer access area
+
+
+
+
+
+
+
+
+
+Power On System
+
+• Turn on main power if switched off overnight
+
+• Allow 30-60 seconds for system boot
+
+• Verify touchscreen displays welcome screen
+
+• Check that all LEDs indicate normal operation
+
+
+
+
+
+
+
+
+
+Perform Test Cycle
+
+• Run one test transaction (see Test Mode below)
+
+• Verify popping mechanism operates correctly
+
+• Confirm dispensing works properly
+
+• Test payment processing if possible
+
+
+
+
+
+
+
+
+
+Enable Customer Access
+
+• Unlock any overnight security features
+
+• Post operating hours if applicable
+
+• Ensure area lighting is adequate
+
+• Mark machine as "In Service"
+
+
+
+
+
+
+
+
+<hr>
+
+## Customer Operation Flow
+
+The Pop Cart provides an intuitive touchscreen interface guiding customers through the purchasing process. Understanding this flow helps operators assist customers and troubleshoot issues.
+
+### Step 1: Popcorn Selection
+
+[IMAGE: Popcorn Selection Screen - Path: ./assets/operation/operation_popcorn_selection_clean_view.webp]
+Customer selects their preferred popcorn variety
+
+The customer journey begins with popcorn selection:
+
+Available Options:
+- Blue Burst: Premium blue popcorn variety with slightly sweeter flavor
+- Sunny Crunch: Classic yellow popcorn with traditional taste
+
+
+
+[IMAGE: Customer Selecting Popcorn - Path: ./assets/operation/operation_popcorn_selection_finger_pointing.webp]
+[IMAGE: Sunny Crunch Selected - Path: ./assets/operation/operation_popcorn_selection_sunny_crunch.webp]
+
+
+
+Customer interaction: selecting Sunny Crunch popcorn variety
+
+Customer Actions:
+1. Tap desired popcorn variety on the touchscreen
+2. Selection highlights to confirm choice
+3. Tap "Continue" button to proceed to toppings
+
+
+
+
+Pricing displays next to each popcorn option. The system can be configured for different pricing tiers based on size or variety through the operator menu.
+
+
+
+
+### Step 2: Topping Selection
+
+[IMAGE: Topping Selection Screen with Five Flavors - Path: ./assets/operation/ui_topping_selection_five_flavors.webp]
+Customer can choose up to 2 flavor toppings
+
+After selecting popcorn, customers add flavor toppings:
+
+Available Toppings:
+- Butter - Classic butter flavor ($1)
+- Chipotle - Smoky spice ($2)
+- Garlic - Savory garlic seasoning ($1)
+- Jalapeño - Spicy pepper kick ($2)
+- Truffle - Gourmet truffle essence ($1)
+
+
+
+[IMAGE: Select Up To 2 Flavors - Path: ./assets/operation/operation_topping_selection_two_flavors.webp]
+[IMAGE: Jalapeño Topping Selected - Path: ./assets/operation/ui_topping_selection_jalapeno_selected.webp]
+
+
+
+Topping selection interface and selection confirmation
+
+Selection Rules:
+- Customers can select up to 2 different toppings
+- Each topping has individual pricing
+- Selections are highlighted when chosen
+- Tap selected topping again to deselect
+
+
+
+
+Topping prices and availability can be configured in the operator menu. Seasonings must be physically stocked for options to remain active.
+
+
+
+
+### Step 3: Payment
+
+[IMAGE: Payment Method Selection - Path: ./assets/operation/ui_payment_screen_card_cash.webp]
+Customer chooses payment method after reviewing order
+
+The payment screen displays the complete order summary:
+
+Payment Options:
+- Credit Card: Contactless or chip reader
+- Cash: Bills and coins (if cash system installed)
+- Loyalty Credits: Applied automatically if account detected
+
+[IMAGE: Payment Screen with Loyalty Credits Applied - Path: ./assets/operation/ui_payment_screen_credits_applied.webp]
+Loyalty credits automatically reduce the total amount due
+
+
+
+
+
+
+
+
+System displays itemized order with total amount
+
+
+
+
+
+
+
+
+
+Loyalty credits automatically apply if customer has account
+
+
+
+
+
+
+
+
+
+Customer selects payment method
+
+
+
+
+
+
+
+
+
+System processes payment securely
+
+
+
+
+
+
+
+
+
+Upon successful payment, popcorn production begins
+
+
+
+
+
+
+
+
+[IMAGE: Complete Order Summary Before Payment - Path: ./assets/operation/payment-screen-order-summary.webp]
+Detailed order summary showing popcorn selection and toppings
+
+
+
+
+Payment Processing: If payment fails, the order is cancelled and the customer must restart. No product is dispensed until payment is confirmed successful.
+
+
+
+
+### Step 4: Production & Dispensing
+
+Once payment is confirmed, the Pop Cart begins fresh popcorn production:
+
+
+
+
+
+
+
+
+Heating Cycle
+
+Heating elements warm to optimal popping temperature
+
+
+
+
+
+
+
+
+
+Kernel & Oil Release
+
+Precise amounts of kernels and oil dispense into popping chamber
+
+
+
+
+
+
+
+
+
+Popping Process
+
+Kernels pop fresh while customer waits (approximately 90-120 seconds)
+
+
+
+
+
+
+
+
+
+Seasoning Application
+
+Selected toppings automatically dispense onto fresh popcorn
+
+
+
+
+
+
+
+
+
+Cup Positioning
+
+System signals customer to place cup in dispensing window
+
+
+
+
+
+
+
+
+
+Dispensing
+
+Fresh, seasoned popcorn fills the cup automatically
+
+
+
+
+
+
+
+
+[IMAGE: Branded Cup in Dispensing Position - Path: ./assets/operation/popcorn_cup_dispensing_position.webp]
+Customer places branded cup in dispensing slot for filling
+
+Cup Positioning:
+- Customer places cup in stainless steel dispensing slot
+- Sensors detect proper cup placement
+- System dispenses measured portion into cup
+- Customer retrieves filled cup from window
+
+
+
+
+CAUTION: Customers should not reach into the dispensing window until the cycle is complete. Popcorn and internal components may be hot during production.
+
+
+
+
+### Step 5: Order Completion
+
+[IMAGE: Order Complete - Enjoy Your Meal Screen - Path: ./assets/operation/operation_completion_enjoy_meal.webp]
+Completion screen with thank you message
+
+After successful dispensing:
+
+1. Completion Message: "Enjoy your meal!" displays with branding
+2. Receipt (if configured): Printed or emailed receipt provided
+3. Screen Reset: System returns to welcome screen for next customer
+4. Cleaning Cycle: Internal cleaning sequence may run between orders
+
+<hr>
+
+## Topping Addition Demonstration
+
+For customers adding additional toppings manually (blue popcorn kernels, candies, or other mix-ins):
+
+
+
+
+
+
+
+
+<h3>Position Topping Cup</h3>
+Hold topping cup (blue popcorn kernels, candy pieces, etc.) above the dispensing chamber opening.
+
+
+
+
+[IMAGE: Blue Popcorn Kernels Cup Ready - Path: ./assets/operation/kernels_ready_to_pour.webp]
+
+
+
+
+
+
+
+
+
+<h3>Begin Pouring</h3>
+Slowly pour toppings into the chamber while popcorn is dispensing or after dispensing is complete.
+
+
+
+
+[IMAGE: Pouring Blue Popcorn Kernels - Path: ./assets/operation/kernels_dispensing_demo_step2.webp]
+
+
+
+
+
+
+
+
+
+<h3>Mix with Popcorn</h3>
+Toppings will mix with popcorn as they fall through the chamber into the cup below.
+
+
+
+
+[IMAGE: Blue Popcorn Kernels Over Chamber - Path: ./assets/operation/kernels_dispensing_demo_step1.webp]
+
+
+
+
+
+
+
+
+
+
+
+Manual topping additions (like blue popcorn kernels) can be offered as premium add-ons. Configure the system to allow extended dispensing window access time for these customizations.
+
+
+
+
+<hr>
+
+## User Interface Navigation
+
+[IMAGE: Touchscreen Back Button - Path: ./assets/operation/touchscreen_back_button_interface.webp]
+Navigation controls including Back button for correcting selections
+
+Customer Navigation:
+- Back Button: Returns to previous screen to change selections
+- Continue Button: Advances to next step in ordering process
+- Tab Navigation: Visual indicators show current step (Popcorn → Topping → Payment)
+- Timeout: Screen resets to welcome if inactive for 60 seconds
+
+Interface Features:
+- Vintage carnival-themed graphics maintain Pop Cart aesthetic
+- Large touch targets for easy selection
+- Clear visual feedback for all interactions
+- Progress indicators show order flow position
+
+<hr>
+
+## Operator Menu Access
+
+Operators can access advanced settings and diagnostics through a protected menu:
+
+### Accessing Operator Mode
+
+
+
+
+
+
+
+
+From the welcome screen, tap the Sweet Robo logo in the corner (hold for 3 seconds)
+
+
+
+
+
+
+
+
+
+Enter operator PIN code when prompted (default: check machine documentation or contact support)
+
+
+
+
+
+
+
+
+
+Operator menu displays with configuration and diagnostic options
+
+
+
+
+
+
+
+
+### Operator Menu Options
+
+
+
+
+
+
+
+#### Pricing Configuration
+Set individual prices for popcorn varieties, toppings, and size options. Configure loyalty credit values and promotional pricing.
+
+
+
+
+
+
+
+#### Inventory Tracking
+View current levels of kernels, seasonings, cups, and other consumables. Set low-level alerts.
+
+
+
+
+
+
+
+#### Sales Reports
+Access transaction history, sales totals, and revenue reports. Export data for accounting purposes.
+
+
+
+
+
+
+
+#### System Diagnostics
+Run component tests, view error logs, check sensor status, and perform calibration procedures.
+
+
+
+
+
+
+
+#### Network Settings
+Configure Wi-Fi or Ethernet connections, remote management access, and system update settings.
+
+
+
+
+
+
+
+#### User Management
+Add/remove operator accounts, change PIN codes, set permission levels for different users.
+
+
+
+
+
+
+
+
+
+
+IMPORTANT
+
+Keep operator PIN codes secure and confidential. Unauthorized access to operator settings can disrupt machine operation or compromise payment security.
+
+
+
+
+<hr>
+
+## Test Mode
+
+Operators can run test cycles without charging customers:
+
+
+
+
+
+
+
+
+Enter Operator Menu (see above)
+
+
+
+
+
+
+
+
+
+Select "Test Mode" or "Device Testing"
+
+
+
+
+
+
+
+
+
+Choose component to test (popping cycle, dispenser, payment, etc.)
+
+
+
+
+
+
+
+
+
+System runs test without customer payment required
+
+
+
+
+
+
+
+
+
+Observe results and verify proper operation
+
+
+
+
+
+
+
+
+
+Exit Test Mode to return to normal customer operation
+
+
+
+
+
+
+
+
+Recommended Test Schedule:
+- Daily: Quick dispense test at startup
+- Weekly: Complete popping cycle test
+- Monthly: Full system diagnostic including all components
+
+<hr>
+
+## Assisting Customers
+
+### Common Customer Questions
+
+"How long does it take?"
+- Fresh popcorn takes approximately 90-120 seconds from payment to dispensing
+- Customers can watch the popping process through the dispensing window
+
+"Can I get no toppings?"
+- Yes, customers can skip the topping screen by pressing Continue without selecting
+
+"What if I selected the wrong thing?"
+- Use the Back button before payment to return and change selections
+- After payment, refunds must be processed through operator menu
+
+"The machine says error - what do I do?"
+- Note the error message displayed
+- Contact operator/staff for assistance
+- Refer to Troubleshooting section
+
+### Handling Issues During Service
+
+
+
+
+
+
+
+#### Payment Declined
+Inform customer their payment was not accepted. Suggest trying different card or cash payment. Order will not proceed without successful payment.
+
+
+
+
+
+
+
+#### Dispenser Jam
+If popcorn does not dispense properly, enter operator mode and run dispenser diagnostic. May require manual clearing (see Troubleshooting).
+
+
+
+
+
+
+
+#### Out of Supply
+If kernel, seasoning, or cup supply is depleted, system alerts operator. Temporarily disable affected options until restocked.
+
+
+
+
+
+
+
+#### Screen Unresponsive
+If touchscreen becomes unresponsive, perform soft reset through power cycle. May indicate calibration needed.
+
+
+
+
+
+
+
+<hr>
+
+## End of Day Procedures
+
+At the close of operations each day:
+
+
+
+
+
+
+
+
+Run Sales Report
+
+Access operator menu and generate end-of-day sales report. Record transactions and revenue.
+
+
+
+
+
+
+
+
+
+Empty Cash Box (if applicable)
+
+Remove and secure cash from payment system following your facility's cash handling procedures.
+
+
+
+
+
+
+
+
+
+Check Supply Levels
+
+Note which consumables need restocking for next operating day. Order supplies as needed.
+
+
+
+
+
+
+
+
+
+Perform Basic Cleaning
+
+Wipe down touchscreen and exterior surfaces. Clean dispensing window. See Maintenance section for details.
+
+
+
+
+
+
+
+
+
+Enable Overnight Mode (optional)
+
+Some operators power down machines overnight or enable energy-saving mode through operator settings.
+
+
+
+
+
+
+
+
+
+Secure Machine
+
+Lock service doors, enable security features if available, and secure the area.
+
+
+
+
+
+
+
+
+<hr>
+
+## Best Practices
+
+### Maximizing Customer Satisfaction
+
+- Keep it stocked: Never run out of popular items during peak hours
+- Stay clean: Wipe exterior surfaces multiple times per day
+- Test regularly: Catch and fix small issues before they affect customers
+- Monitor remotely: Use remote management to track performance in real-time
+- Respond quickly: Address error alerts promptly to minimize downtime
+
+### Optimizing Performance
+
+- Track popular items: Use sales data to stock appropriate ratios of varieties and toppings
+- Peak hour prep: Ensure full supply levels before busy periods
+- Temperature management: Maintain proper ambient temperature for consistent popping
+- Regular maintenance: Follow preventive maintenance schedule (see Maintenance section)
+- Staff training: Ensure multiple staff members understand operation and basic troubleshooting
+
+<hr>
+
+## Next Steps
+
+- Maintenance - Learn cleaning procedures and supply restocking
+- Troubleshooting - Diagnose and resolve common issues
+- Parts & Service - Component identification and service contacts
+
+For operational support questions, contact Sweet Robo: Company Information
+
+
+---
+
+<!-- SECTION: maintenance.md -->
+
+# Maintenance
+
+# Maintenance
+
+Proper maintenance ensures optimal performance, longevity, and food safety for your Pop Cart. This section covers cleaning procedures, supply restocking, and preventive maintenance schedules.
+
+
+
+
+IMPORTANT
+
+Always disconnect power before performing any internal cleaning or maintenance. Allow heating elements to cool completely before touching internal components.
+
+
+
+
+<hr>
+
+## Maintenance Schedule
+
+
+
+
+
+
+
+Daily
+
+
+Exterior wipe-down, touchscreen cleaning, dispensing window cleaning, visual supply check
+
+
+
+
+
+
+
+Weekly
+
+
+Interior cleaning, deep clean of dispensing chute, restock supplies, waste bin emptying
+
+
+
+
+
+
+
+Monthly
+
+
+Component inspection, calibration check, deep cleaning of popping chambers, filter cleaning
+
+
+
+
+
+
+
+Quarterly
+
+
+Professional service inspection, system diagnostics, component replacement if needed
+
+
+
+
+
+
+
+Annually
+
+
+Comprehensive service, electrical inspection, safety system verification
+
+
+
+
+
+
+
+<hr>
+
+## Daily Maintenance
+
+### Exterior Cleaning
+
+
+
+
+
+
+
+
+Touchscreen Display
+
+Use a microfiber cloth slightly dampened with water or approved screen cleaner. Avoid harsh chemicals or abrasive materials.
+
+
+
+
+
+
+
+
+
+Exterior Surfaces
+
+Wipe down all exterior panels with damp cloth and mild detergent. Pay special attention to high-touch areas.
+
+
+
+
+
+
+
+
+
+Dispensing Window
+
+Clean glass with glass cleaner and lint-free cloth. Remove any popcorn residue or fingerprints.
+
+
+
+
+
+
+
+
+
+Decorative Elements
+
+Dust carnival canopy and decorative wheels. Maintain the attractive appearance to draw customers.
+
+
+
+
+
+
+
+
+### Supply Level Check
+
+
+
+
+
+
+
+
+Check kernel hopper level - refill if below 25%
+
+
+
+
+
+
+
+
+
+Verify each seasoning dispenser has adequate supply
+
+
+
+
+
+
+
+
+
+Confirm cup dispenser is fully stocked
+
+
+
+
+
+
+
+
+
+Check oil/butter reservoir level
+
+
+
+
+
+
+
+
+
+Note any supplies needed for next restocking
+
+
+
+
+
+
+
+
+<hr>
+
+## Weekly Maintenance
+
+### Interior Cleaning
+
+
+
+
+WARNING: Disconnect power and allow all components to cool before performing interior cleaning. Lock out power source to prevent accidental startup.
+
+
+
+
+
+1. Prepare for Cleaning
+
+
+
+
+
+
+
+
+
+Power off the machine and disconnect from electrical outlet
+
+
+
+
+
+
+
+
+
+Wait 30 minutes for heating elements to cool completely
+
+
+
+
+
+
+
+
+
+Unlock and open service access door with provided key
+
+
+
+
+
+
+
+
+
+Gather cleaning supplies: food-safe cleaner, microfiber cloths, soft brushes, sanitizer
+
+
+
+
+
+
+
+
+
+2. Clean Popping Chambers
+
+
+
+
+
+
+
+
+
+Remove any unpopped kernels or debris from cylinders A and B
+
+
+
+
+
+
+
+
+
+Wipe interior walls with food-safe cleaner and soft cloth
+
+
+
+
+
+
+
+
+
+Clean heating elements carefully with dry brush (do not wet electrical components)
+
+
+
+
+
+
+
+
+
+Inspect for any buildup or damage requiring attention
+
+
+
+
+
+
+
+
+
+3. Clean Dispensing System
+
+
+
+
+
+
+
+
+
+Remove and wash stainless steel dispensing chute with hot soapy water
+
+
+
+
+
+
+
+
+
+Clean sensors and detection points with dry microfiber cloth
+
+
+
+
+
+
+
+
+
+Verify smooth operation of dispensing mechanism
+
+
+
+
+
+
+
+
+
+Reinstall chute ensuring proper seating and alignment
+
+
+
+
+
+
+
+
+### Empty Waste Collection
+
+
+
+
+
+
+
+
+Remove waste collection bin from lower compartment
+
+
+
+
+
+
+
+
+
+Dispose of unpopped kernels and popcorn waste properly
+
+
+
+
+
+
+
+
+
+Wash bin with hot soapy water and dry completely
+
+
+
+
+
+
+
+
+
+Reinstall clean bin in proper position
+
+
+
+
+
+
+
+
+<hr>
+
+## Supply Restocking
+
+### Popcorn Kernels
+
+[IMAGE: Amish Country Popcorn Blue Variety Package - Path: ./assets/maintenance/popcorn-kernels-blue-package-front.webp]
+Recommended popcorn kernels: Amish Country Popcorn Blue variety
+
+Approved Kernel Types:
+- Amish Country Popcorn - Blue Variety: Premium kernels with slightly sweet flavor
+- Amish Country Popcorn - Yellow Variety: Classic yellow popcorn
+- Other Premium Brands: Contact Sweet Robo for approved alternatives
+
+
+
+[IMAGE: Popcorn Kernel Bag Size Reference - Path: ./assets/maintenance/supply_popcorn_kernels_bag.webp]
+[IMAGE: Best Before Date Label - Path: ./assets/maintenance/popcorn-kernels-best-before-label.webp]
+
+
+
+Typical 6-pound bag size (left) and expiration date tracking (right)
+
+Loading Procedure:
+
+
+
+
+
+
+
+
+Check Expiration Date
+
+Verify kernels are within best-before date. Amish Country Popcorn typically has 18-24 month shelf life.
+
+
+
+
+
+
+
+
+
+Access Hopper
+
+Open top access panel to reach kernel hopper
+
+
+
+
+
+
+
+
+
+Pour Kernels
+
+Carefully pour kernels into hopper opening. Use funnel if needed to avoid spillage.
+
+
+
+
+
+
+
+
+
+Verify Level
+
+Check hopper fill level on screen or through inspection window. Maintain minimum 2 kg (4.4 lbs) at all times.
+
+
+
+
+
+
+
+
+
+Close Access Panel
+
+Secure top panel and verify proper seal
+
+
+
+
+
+
+
+
+
+
+
+IMPORTANT - Kernel Storage
+
+Store unopened kernel bags in cool, dry location away from moisture. Once opened, use within 60 days for optimal freshness and popping performance. Always check expiration dates and rotate stock (first in, first out).
+
+
+
+
+### Seasoning Dispensers
+
+The Pop Cart has 5 seasoning stations that require regular refilling:
+
+
+
+
+
+
+Butter Seasoning
+
+Classic butter flavor powder
+
+
+
+
+
+Chipotle Seasoning
+
+Smoky spice blend
+
+
+
+
+
+Garlic Seasoning
+
+Savory garlic powder
+
+
+
+
+
+Jalapeño Seasoning
+
+Spicy pepper seasoning
+
+
+
+
+
+Truffle Seasoning
+
+Gourmet truffle blend
+
+
+
+
+
+
+Refilling Procedure:
+
+
+
+
+
+
+
+
+Access seasoning compartment through top service panel
+
+
+
+
+
+
+
+
+
+Remove empty seasoning container by unscrewing cap
+
+
+
+
+
+
+
+
+
+Refill with approved seasoning powder - do not overfill
+
+
+
+
+
+
+
+
+
+Replace cap and ensure secure seal to prevent moisture contamination
+
+
+
+
+
+
+
+
+
+Verify dispensing mechanism operates smoothly after refilling
+
+
+
+
+
+
+
+
+
+
+
+CAUTION: Use only food-grade seasonings approved for popcorn vending machines. Non-approved seasonings may cause clogging, contamination, or equipment damage.
+
+
+
+
+### Oil/Butter Reservoir
+
+
+
+
+
+
+
+
+Check Level
+
+Access oil reservoir through service panel. Check level indicator or dipstick.
+
+
+
+
+
+
+
+
+
+Use Approved Oil
+
+Only use food-grade popping oil or clarified butter specified for commercial popcorn equipment.
+
+
+
+
+
+
+
+
+
+Refill Carefully
+
+Pour oil slowly to avoid overflow. Do not exceed maximum fill line.
+
+
+
+
+
+
+
+
+
+Wipe Spills
+
+Clean any spilled oil immediately to prevent fire hazard and slippery surfaces.
+
+
+
+
+
+
+
+
+
+Secure Panel
+
+Close and lock oil compartment access panel
+
+
+
+
+
+
+
+
+### Cups and Containers
+
+
+
+
+
+
+
+
+Open cup dispenser access (location varies by model)
+
+
+
+
+
+
+
+
+
+Load branded popcorn cups into dispenser stack
+
+
+
+
+
+
+
+
+
+Ensure cups are oriented correctly for proper dispensing
+
+
+
+
+
+
+
+
+
+Do not overload - follow manufacturer maximum capacity
+
+
+
+
+
+
+
+
+
+Test dispenser operation to verify smooth cup delivery
+
+
+
+
+
+
+
+
+<hr>
+
+## Monthly Maintenance
+
+### Component Inspection
+
+
+
+
+
+
+
+#### Heating Elements
+Inspect for discoloration, damage, or excessive buildup. Clean with soft brush. Replace if damaged.
+
+
+
+
+
+
+
+#### Sensors
+Test all sensors (cup detection, level sensors, temperature probes). Clean sensor lenses with dry cloth.
+
+
+
+
+
+
+
+#### Door Seals
+Check gaskets and seals for wear, cracks, or gaps. Replace if damaged to maintain proper temperature.
+
+
+
+
+
+
+
+#### Electrical Connections
+Visually inspect wiring for wear, loose connections, or damage. Tighten connections as needed.
+
+
+
+
+
+
+
+#### Dispensing Mechanism
+Lubricate moving parts per manufacturer specifications. Check for wear or binding.
+
+
+
+
+
+
+
+#### Ventilation
+Clean air intake and exhaust filters. Replace filters per schedule or if visibly dirty.
+
+
+
+
+
+
+
+### Calibration Check
+
+
+
+
+
+
+
+
+Enter operator menu and access diagnostic mode
+
+
+
+
+
+
+
+
+
+Run calibration test for portion control
+
+
+
+
+
+
+
+
+
+Verify dispensed portions match configured settings
+
+
+
+
+
+
+
+
+
+Adjust calibration if portions are under/over target
+
+
+
+
+
+
+
+
+
+Document calibration results for tracking
+
+
+
+
+
+
+
+
+### Deep Cleaning
+
+Perform comprehensive deep cleaning of entire machine:
+
+- Remove and wash all removable components
+- Clean behind and under machine (if accessible)
+- Detail clean all interior surfaces
+- Sanitize food-contact surfaces
+- Clean and organize cable management
+- Inspect for any pest activity
+
+<hr>
+
+## Preventive Maintenance
+
+### Recommended Service Intervals
+
+
+
+
+
+
+
+Heating Element Replacement
+
+
+Every 12-18 months or as needed
+
+
+
+
+
+
+
+Door Seal Replacement
+
+
+Every 12 months or if damaged
+
+
+
+
+
+
+
+Filter Replacement
+
+
+Every 3-6 months depending on environment
+
+
+
+
+
+
+
+Sensor Calibration
+
+
+Every 6 months
+
+
+
+
+
+
+
+Professional Service
+
+
+Every 3-6 months recommended
+
+
+
+
+
+
+
+Safety Inspection
+
+
+Annually by certified technician
+
+
+
+
+
+
+
+### Professional Service
+
+Schedule professional service when:
+
+- Machine displays persistent error codes
+- Performance degrades despite proper cleaning
+- Annual safety inspection is due
+- Major component replacement is needed
+- You notice unusual sounds, smells, or behavior
+
+
+
+
+<h4>Service Contact</h4>
+
+For professional service scheduling, parts ordering, or technical support, contact Sweet Robo Support. See Company Information for contact details.
+
+
+
+
+<hr>
+
+## Food Safety Guidelines
+
+### Handling Consumables
+
+- Store all food products in clean, dry environments
+- Check expiration dates regularly and rotate stock
+- Never use expired kernels, seasonings, or oil
+- Keep consumables away from chemicals or cleaning supplies
+- Use dedicated scoops or containers for each seasoning type
+
+### Sanitization
+
+
+
+
+
+
+
+
+Wash hands thoroughly before handling food products
+
+
+
+
+
+
+
+
+
+Use food-safe cleaning products and sanitizers
+
+
+
+
+
+
+
+
+
+Allow proper contact time for sanitizers (per product instructions)
+
+
+
+
+
+
+
+
+
+Rinse food-contact surfaces with potable water after sanitizing
+
+
+
+
+
+
+
+
+
+Air dry or use clean towels - do not reuse contaminated cloths
+
+
+
+
+
+
+
+
+### Temperature Monitoring
+
+- Verify ambient temperature stays within operating range (15-30°C / 59-86°F)
+- Monitor internal component temperatures through diagnostics
+- Address any overheating issues immediately
+- Ensure adequate ventilation around machine
+
+<hr>
+
+## Maintenance Log
+
+Keep a maintenance log documenting:
+
+- Date and type of maintenance performed
+- Consumables restocked and quantities
+- Any issues observed or repairs made
+- Component replacements with part numbers
+- Professional service visits and findings
+- Cleaning schedule completion
+
+
+
+
+Regular documentation helps identify patterns, track component lifespan, and maintain warranty compliance. Many issues can be prevented by consistent maintenance tracking.
+
+
+
+
+<hr>
+
+## Troubleshooting Maintenance Issues
+
+If you encounter problems during maintenance:
+
+- Difficult to clean buildup: May indicate operating temperature issues or need for more frequent cleaning
+- Excessive waste: Check portion calibration and popping temperature settings
+- Rapid seasoning depletion: Verify dispensing mechanism isn't over-dispensing
+- Frequent supply alerts: Adjust alert thresholds in operator menu or increase restocking frequency
+
+For persistent issues, refer to the Troubleshooting section or contact Sweet Robo support.
+
+<hr>
+
+## Next Steps
+
+- Troubleshooting - Diagnose and resolve operational issues
+- Parts & Service - Component identification and replacement procedures
+- Operation Guide - Return to daily operation procedures
+
+For maintenance support, contact Sweet Robo: Company Information
+
+
+---
+
+<!-- SECTION: troubleshooting.md -->
+
+# Troubleshooting
+
+# Troubleshooting
+
+This section helps diagnose and resolve common issues with the Pop Cart. For problems not covered here, contact Sweet Robo support.
+
+
+
+
+IMPORTANT
+
+Before troubleshooting, ensure the machine is powered on, properly connected, and has adequate supplies (kernels, seasonings, cups, oil). Many issues are resolved by checking these basics first.
+
+
+
+
+<hr>
+
+## Quick Diagnostic Checklist
+
+When experiencing issues, check these items first:
+
+- [ ] Machine is plugged in and power is ON
+- [ ] Circuit breaker has not tripped
+- [ ] All service doors are properly closed
+- [ ] Kernel hopper has adequate supply
+- [ ] Seasonings are stocked
+- [ ] Cups are loaded
+- [ ] Oil/butter reservoir is filled
+- [ ] No obstructions in dispensing path
+- [ ] Touchscreen is responsive
+- [ ] No error messages displayed
+
+<hr>
+
+## Error Messages
+
+The Pop Cart displays error messages when it detects issues requiring attention.
+
+### Dispenser Jam Error
+
+[IMAGE: Dispenser Jammed Error Screen - Path: ./assets/troubleshooting/error-screen-dispenser-jammed.webp]
+Error message indicating popcorn dispenser 2/B is jammed
+
+Error: "Popcorn Dispenser 2/B is jammed"
+
+Cause: Popcorn or debris blocking dispensing mechanism in cylinder B
+
+Solution:
+
+
+
+
+
+
+
+
+Press OK to acknowledge error (do not attempt to clear while system is active)
+
+
+
+
+
+
+
+
+
+Power off machine and wait 5 minutes for components to cool
+
+
+
+
+
+
+
+
+
+Open service access door using provided key
+
+
+
+
+
+
+
+
+
+Locate cylinder B dispenser and visually inspect for blockage
+
+
+
+
+
+
+
+
+
+Carefully remove any visible popcorn, kernels, or debris obstructing the path
+
+
+
+
+
+
+
+
+
+Verify dispensing mechanism moves freely (rotate manually if accessible)
+
+
+
+
+
+
+
+
+
+Close service door and power machine back on
+
+
+
+
+
+
+
+
+
+Run test cycle through operator menu to verify jam is cleared
+
+
+
+
+
+
+
+
+
+
+
+CAUTION: Do not force stuck mechanisms. If blockage cannot be easily removed, or if error persists after clearing, contact Sweet Robo support for professional service.
+
+
+
+
+### Common Error Codes
+
+
+
+
+
+
+ERR-001
+
+Temperature Sensor Fault
+
+
+
+
+
+ERR-002
+
+Heating Element Failure
+
+
+
+
+
+ERR-003
+
+Cup Detection Error
+
+
+
+
+
+ERR-004
+
+Payment System Fault
+
+
+
+
+
+ERR-005
+
+Low Kernel Level
+
+
+
+
+
+ERR-006
+
+Seasoning Dispenser Fault
+
+
+
+
+
+ERR-007
+
+Door Interlock Open
+
+
+
+
+
+ERR-008
+
+Network Connection Lost
+
+
+
+
+
+
+<hr>
+
+## Common Issues and Solutions
+
+### Power and Electrical
+
+
+
+
+
+
+
+#### Machine Won't Power On
+
+Symptoms: No lights, screen dark, no response
+
+Possible Causes:
+- Power cord unplugged or loose
+- Circuit breaker tripped
+- Electrical outlet not working
+- Internal fuse blown
+
+Solutions:
+1. Verify power cord is securely plugged in
+2. Check circuit breaker and reset if tripped
+3. Test outlet with another device
+4. Contact electrician if outlet is faulty
+5. Contact Sweet Robo if internal fuse issue suspected
+
+
+
+
+
+
+
+#### Intermittent Power Loss
+
+Symptoms: Machine randomly shuts off or reboots
+
+Possible Causes:
+- Loose power connection
+- Overloaded circuit
+- Voltage fluctuations
+- Internal electrical fault
+
+Solutions:
+1. Ensure power plug is fully seated
+2. Verify circuit is not shared with high-power equipment
+3. Have electrician test voltage stability
+4. Contact Sweet Robo for internal diagnostics
+
+
+
+
+
+
+
+### Touchscreen Issues
+
+
+
+
+
+
+
+#### Screen Not Responding
+
+Symptoms: Touch inputs ignored, screen frozen
+
+Possible Causes:
+- Software freeze
+- Touchscreen calibration needed
+- Hardware malfunction
+
+Solutions:
+1. Perform soft reset: power off, wait 30 seconds, power on
+2. Access operator menu and run touchscreen calibration
+3. Clean screen with microfiber cloth (dirt can affect sensitivity)
+4. If persistent, contact Sweet Robo for service
+
+
+
+
+
+
+
+#### Display Flickering or Distorted
+
+Symptoms: Screen flashes, colors wrong, lines visible
+
+Possible Causes:
+- Loose display cable
+- Graphics hardware issue
+- Power supply problem
+
+Solutions:
+1. Power cycle machine
+2. Check for any loose connections (if accessible)
+3. Contact Sweet Robo for hardware repair
+
+
+
+
+
+
+
+### Popping and Dispensing
+
+
+
+
+
+
+
+#### No Popcorn Popping
+
+Symptoms: Machine accepts payment but no popcorn produced
+
+Possible Causes:
+- Empty kernel hopper
+- Heating element failure
+- Kernel metering mechanism jammed
+- Temperature sensor fault
+
+Solutions:
+1. Verify kernel hopper has adequate supply (check through inspection window)
+2. Check for error codes related to heating or temperature
+3. Run diagnostic test through operator menu
+4. Inspect kernel metering mechanism for jams
+5. Contact Sweet Robo if heating elements need replacement
+
+
+
+
+
+
+
+#### Insufficient Popping / Many Unpopped Kernels
+
+Symptoms: Lots of unpopped kernels in finished product
+
+Possible Causes:
+- Old or poor quality kernels
+- Incorrect popping temperature
+- Insufficient oil
+- Heating element degraded
+
+Solutions:
+1. Check kernel expiration date and freshness
+2. Verify oil reservoir is adequately filled
+3. Run temperature calibration through operator menu
+4. Replace with fresh, approved kernels
+5. Contact Sweet Robo if heating elements need inspection
+
+
+
+
+
+
+
+#### Popcorn Burns or Smokes
+
+Symptoms: Burnt smell, dark popcorn, smoke visible
+
+Possible Causes:
+- Temperature set too high
+- Cycle time too long
+- Insufficient oil
+- Sensor malfunction
+
+Solutions:
+1. Immediately stop operation and power off
+2. Allow machine to cool completely
+3. Access operator menu and reduce temperature settings
+4. Verify oil dispensing is working correctly
+5. Run diagnostic to check temperature sensors
+6. Contact Sweet Robo if issue persists
+
+
+
+
+
+
+
+#### Dispensing Jams Frequently
+
+Symptoms: Popcorn gets stuck, won't dispense smoothly
+
+Possible Causes:
+- Buildup in chute or cylinder
+- Mechanical wear on dispensing mechanism
+- Overfilling portions
+- Moisture in system
+
+Solutions:
+1. Perform thorough cleaning of dispensing chute and cylinders
+2. Check portion size calibration (may be dispensing too much)
+3. Inspect for worn or damaged parts in dispensing mechanism
+4. Ensure proper ambient humidity (not too high)
+5. Contact Sweet Robo for parts replacement if needed
+
+
+
+
+
+
+
+### Seasoning System
+
+
+
+
+
+
+
+#### Seasonings Not Dispensing
+
+Symptoms: Customer selects topping but none applied
+
+Possible Causes:
+- Empty seasoning container
+- Clogged dispenser
+- Mechanical failure
+- Software configuration issue
+
+Solutions:
+1. Check seasoning container is adequately filled
+2. Inspect dispenser opening for clogs or hardened seasoning
+3. Run dispenser test through operator menu
+4. Verify seasoning is enabled in system settings
+5. Contact Sweet Robo if mechanical repair needed
+
+
+
+
+
+
+
+#### Excessive Seasoning Dispensed
+
+Symptoms: Too much seasoning on popcorn, waste
+
+Possible Causes:
+- Calibration incorrect
+- Dispenser mechanism worn
+- Software settings wrong
+
+Solutions:
+1. Access operator menu and adjust seasoning portion sizes
+2. Run calibration procedure for affected dispensers
+3. Inspect dispenser mechanism for wear
+4. Document settings before and after adjustment
+5. Contact Sweet Robo if calibration doesn't resolve issue
+
+
+
+
+
+
+
+### Payment System
+
+
+
+
+
+
+
+#### Card Reader Not Working
+
+Symptoms: Cards declined, reader unresponsive, errors
+
+Possible Causes:
+- Reader needs cleaning
+- Network connection issue
+- Reader hardware malfunction
+- Payment processor issue
+
+Solutions:
+1. Clean card reader slot with approved cleaning card
+2. Verify network connection is active
+3. Restart payment system through operator menu
+4. Test with different card (ensure it's not card-specific issue)
+5. Contact payment processor support
+6. Contact Sweet Robo for hardware replacement if needed
+
+
+
+
+
+
+
+#### Cash Acceptor Rejects Bills
+
+Symptoms: Bills returned, not accepted
+
+Possible Causes:
+- Bill acceptor needs cleaning
+- Bills damaged or counterfeit
+- Cash box full
+- Acceptor calibration issue
+
+Solutions:
+1. Clean bill acceptor per manufacturer instructions
+2. Empty cash box if full
+3. Try crisp, undamaged bills
+4. Run cash system diagnostic
+5. Contact Sweet Robo for calibration or repair
+
+
+
+
+
+
+
+### Supply and Sensor Issues
+
+
+
+
+
+
+
+#### False "Empty Supply" Warnings
+
+Symptoms: Error says empty but supply is adequate
+
+Possible Causes:
+- Sensor dirty or misaligned
+- Supply not properly loaded
+- Sensor malfunction
+
+Solutions:
+1. Remove and reload supply (kernels, cups, etc.)
+2. Clean sensors with dry microfiber cloth
+3. Check sensor alignment
+4. Run sensor diagnostic through operator menu
+5. Temporarily disable problematic sensor alerts if necessary
+6. Contact Sweet Robo for sensor replacement
+
+
+
+
+
+
+
+#### Cup Detection Errors
+
+Symptoms: Machine says no cup when cup is present
+
+Possible Causes:
+- Cup not properly positioned
+- Sensor blocked or dirty
+- Wrong cup type or size
+- Sensor failure
+
+Solutions:
+1. Ensure cup is fully inserted in dispensing slot
+2. Clean cup detection sensor
+3. Verify using approved cup type and size
+4. Test sensor in operator diagnostic mode
+5. Contact Sweet Robo if sensor needs replacement
+
+
+
+
+
+
+
+<hr>
+
+## Maintenance-Related Problems
+
+### Performance Degradation
+
+If machine performance gradually declines:
+
+- Review maintenance log to ensure schedule is followed
+- Perform deep cleaning of all components
+- Check for worn parts requiring replacement
+- Verify consumable quality (fresh kernels, clean oil)
+- Run full system diagnostic through operator menu
+
+### Unusual Noises
+
+
+
+
+
+
+
+#### Grinding or Scraping
+
+Possible Causes: Worn bearings, foreign object, mechanical binding
+
+Action: Stop use immediately, inspect mechanism, remove debris, lubricate as needed, replace worn parts
+
+
+
+
+
+
+
+#### Clicking or Rattling
+
+Possible Causes: Loose component, worn motor mount, loose fastener
+
+Action: Inspect for loose parts, tighten fasteners, verify all components properly secured
+
+
+
+
+
+
+
+#### Buzzing or Humming
+
+Possible Causes: Electrical issue, failing motor, loose electrical connection
+
+Action: Check electrical connections, run diagnostic, contact Sweet Robo if electrical problem
+
+
+
+
+
+
+
+#### Excessive Fan Noise
+
+Possible Causes: Dirty fan, failing bearing, blocked airflow
+
+Action: Clean fan and vents, verify proper ventilation clearance, replace fan if bearing failing
+
+
+
+
+
+
+
+<hr>
+
+## Diagnostic Mode
+
+Access advanced diagnostics through the operator menu:
+
+
+
+
+
+
+
+
+Enter operator menu (hold logo for 3 seconds, enter PIN)
+
+
+
+
+
+
+
+
+
+Navigate to "System Diagnostics" or "Device Testing"
+
+
+
+
+
+
+
+
+
+Select component to test (heating, dispensing, sensors, etc.)
+
+
+
+
+
+
+
+
+
+Run test and observe results
+
+
+
+
+
+
+
+
+
+Document any failures or error codes
+
+
+
+
+
+
+
+
+Available Diagnostic Tests:
+- Heating Elements: Test heating cycle and temperature sensors
+- Dispensing Mechanism: Verify smooth operation and alignment
+- Cup Detection: Test all cup position sensors
+- Seasoning Dispensers: Individual dispenser function tests
+- Payment System: Card reader and cash acceptor tests
+- Network: Connectivity and remote management tests
+- Sensors: All level, position, and safety sensors
+
+
+
+
+<h4>Error Code Logging</h4>
+
+The system automatically logs all error codes with timestamps. Access error history through operator menu > System Diagnostics > Error Log to review recent issues and patterns.
+
+
+
+
+<hr>
+
+## When to Contact Support
+
+Contact Sweet Robo support immediately if:
+
+- Safety concerns: Smoke, sparks, burning smell, electrical shock risk
+- Repeated failures: Same error occurs multiple times despite troubleshooting
+- Hardware damage: Broken components, cracked displays, physical damage
+- Payment issues: Cannot resolve payment system problems
+- Software errors: System won't boot, severe software malfunction
+- Professional service needed: Component replacement, calibration beyond operator capability
+
+
+
+
+IMPORTANT - Safety First
+
+Never attempt repairs beyond your skill level. Some repairs require certified technicians to maintain safety and warranty coverage. When in doubt, contact Sweet Robo support.
+
+
+
+
+<hr>
+
+## Support Contact Information
+
+Sweet Robo Technical Support
+
+For troubleshooting assistance, see complete contact information including phone, email, and business hours: Company Information
+
+When Contacting Support, Have Ready:
+- Machine serial number (located on data plate)
+- Error codes and messages (take photos if possible)
+- Description of problem and when it started
+- Recent maintenance performed
+- Software version (found in operator menu)
+
+<hr>
+
+## Preventive Troubleshooting
+
+Avoid problems before they occur:
+
+✅ Follow Maintenance Schedule - Regular cleaning prevents 90% of issues
+
+✅ Use Quality Supplies - Approved kernels, seasonings, and consumables ensure reliable operation
+
+✅ Monitor Performance - Use remote management to track trends and catch issues early
+
+✅ Train Staff - Ensure multiple people understand basic troubleshooting
+
+✅ Document Issues - Keep log of problems and solutions for pattern identification
+
+✅ Respond Quickly - Address small issues before they become major problems
+
+<hr>
+
+## Next Steps
+
+- Maintenance - Return to maintenance procedures
+- Parts & Service - Component identification and replacement
+- Operation Guide - Review proper operation procedures
+
+For technical support, contact Sweet Robo: Company Information
+
+
+---
+
+<!-- SECTION: parts-service.md -->
+
+# Parts & Service
+
+# Parts & Service
+
+This section provides component identification, parts ordering information, and service contact details for the Pop Cart.
+
+
+
+
+IMPORTANT
+
+Only use genuine Sweet Robo replacement parts. Third-party or unapproved parts may compromise safety, void warranty, and cause equipment damage. Always consult Sweet Robo before performing component replacements.
+
+
+
+
+<hr>
+
+## Component Identification
+
+### Control System Components
+
+[IMAGE: Control Board Assembly with Connectors and Wiring - Path: ./assets/parts-service/electronics_control_board_assembly.webp]
+Main control board assembly showing circuit board, connectors, and power cables
+
+Control Board Assembly
+
+The main control board manages all machine functions including heating, dispensing, payment processing, and user interface. This critical component requires professional service for replacement.
+
+Key Features:
+- Central processing unit for all machine operations
+- Multiple white connectors for component interfaces
+- Power distribution to all subsystems
+- Mounted on red chassis for easy identification
+- Contains diagnostic LED indicators
+
+Service Notes:
+- Replacement requires certified technician
+- Settings and calibration must be transferred or reconfigured
+- Always disconnect power before inspection
+- Document all connector positions before removal
+
+### Dispensing System Components
+
+
+
+[IMAGE: Stainless Steel Dispensing Chute Assembly - Path: ./assets/parts-service/dispensing_chute_stainless_chamber.webp]
+[IMAGE: Interior Detail of Dispensing Chamber - Path: ./assets/parts-service/dispensing_chamber_interior_detail.webp]
+
+
+
+Dispensing chute assembly (left) and interior chamber mechanism (right)
+
+Dispensing Chute Assembly
+
+The stainless steel dispensing chute guides popcorn from the production cylinders to the customer collection point. This food-contact surface requires regular cleaning and occasional replacement.
+
+Components:
+- Curved stainless steel chute
+- Interior chamber with funnel design
+- Central roller mechanism for smooth dispensing
+- Mounting brackets and seals
+- Sensor mounting points
+
+Maintenance Requirements:
+- Clean weekly with hot soapy water
+- Inspect for wear, scratches, or damage monthly
+- Replace if coating damaged or severe scratches present
+- Verify smooth operation after reinstallation
+
+Replacement Procedure:
+1. Power off machine and allow cooling period
+2. Remove mounting screws securing chute
+3. Disconnect any sensor wiring
+4. Carefully lift out old chute
+5. Install new chute ensuring proper alignment
+6. Reconnect sensors and secure mounting screws
+7. Run test cycle to verify operation
+
+### Kernel Storage System
+
+[IMAGE: Kernel Hopper Opening with White Rim and Mounting Hardware - Path: ./assets/parts-service/kernel_hopper_opening_assembly.webp]
+Top-down view of kernel hopper assembly and loading access point
+
+Kernel Hopper Assembly
+
+The kernel hopper stores popcorn kernels and feeds them to the metering system. The assembly includes loading access, level sensors, and distribution mechanism.
+
+Components:
+- White rim guide for loading
+- Dark interior storage chamber
+- Mounting hardware for secure installation
+- Level sensor brackets
+- Feed mechanism connection point
+
+Capacity: TBD kg of kernels
+
+Service Notes:
+- Inspect seal integrity monthly
+- Clean interior quarterly to prevent oil buildup
+- Verify level sensors functioning properly
+- Check for kernel bridging or jamming
+- Replace seals if leaking or damaged
+
+### Access and Security Components
+
+
+
+[IMAGE: Front Door Lock with Keyhole - Path: ./assets/parts-service/door_lock_mechanism_keyhole.webp]
+[IMAGE: Door Lock Mechanism Detail with Blue Indicator - Path: ./assets/parts-service/parts_door_lock_mechanism_detail.webp]
+
+
+
+Front door lock assembly (left) and internal lock mechanism with status indicator (right)
+
+Door Lock System
+
+The Pop Cart features keyed lock access for operator service and security. The lock mechanism includes visual status indicators showing locked/unlocked state.
+
+[IMAGE: Close-up of Lock Mechanism with Blue Indicator - Path: ./assets/parts-service/parts_door_lock_closeup_indicator.webp]
+Detailed view of lock mechanism showing blue locked status indicator
+
+Lock Components:
+- Black exterior lock handle with keyhole
+- Blue indicator shows lock status
+- Internal locking mechanism
+- Mounting hardware on red chassis
+- Interlock safety switch
+
+Key Management:
+- Store spare keys in secure location
+- Document key holders and access permissions
+- Replace locks if keys lost or security compromised
+- Test interlock switch function monthly
+
+Replacement Procedure:
+1. Obtain replacement lock and new keys from Sweet Robo
+2. Power off machine completely
+3. Remove interior access panel to reach lock mounting
+4. Disconnect interlock switch wiring (document connections)
+5. Remove mounting screws and extract old lock
+6. Install new lock and reconnect interlock switch
+7. Test lock operation and interlock function
+8. Update key log with new key numbers
+
+<hr>
+
+## Parts Categories
+
+### Consumables (Regular Replacement)
+
+
+
+
+
+
+
+#### Filters
+- Air intake filters
+- Exhaust filters
+- Replace every 3-6 months
+
+
+
+
+
+
+
+#### Seals and Gaskets
+- Door seals
+- Component gaskets
+- Replace annually or if damaged
+
+
+
+
+
+
+
+#### Cleaning Supplies
+- Food-safe cleaners
+- Microfiber cloths
+- Approved sanitizers
+
+
+
+
+
+
+
+#### Branded Consumables
+- Popcorn cups
+- Receipt paper
+- Packaging materials
+
+
+
+
+
+
+
+### Wear Components (Periodic Replacement)
+
+
+
+
+
+
+
+#### Heating Elements
+- Typically last 12-18 months
+- Professional replacement recommended
+- Signs of wear: uneven heating, slow cycles
+
+
+
+
+
+
+
+#### Sensors
+- Cup detection sensors
+- Level sensors
+- Temperature probes
+- Calibrate every 6 months, replace as needed
+
+
+
+
+
+
+
+#### Mechanical Components
+- Dispensing mechanism parts
+- Motor brushes
+- Bearings
+- Lubricate regularly, replace if worn
+
+
+
+
+
+
+
+#### Display Components
+- Touchscreen (impact damage)
+- LED indicators
+- Display cables
+
+
+
+
+
+
+
+### Critical Components (Professional Service Required)
+
+
+
+
+
+
+
+Control Board
+
+Main processor - requires certified tech
+
+
+
+
+
+
+
+Power Supply
+
+Electrical safety critical component
+
+
+
+
+
+
+
+Payment System
+
+PCI compliance requires certified service
+
+
+
+
+
+
+
+Safety Interlocks
+
+Must maintain proper function
+
+
+
+
+
+
+
+Motor Assemblies
+
+Professional diagnosis and replacement
+
+
+
+
+
+
+
+<hr>
+
+## Parts Ordering
+
+### Information Required
+
+When ordering replacement parts, provide:
+
+- Machine Serial Number: Located on data plate (record here: ______________)
+- Part Number: Found in parts list or service documentation
+- Part Description: Name and function of component
+- Quantity Needed: Number of units to order
+- Installation Date Needed: Lead time for delivery
+- Contact Information: Your name, facility, phone, email
+
+### Ordering Methods
+
+
+
+
+
+
+
+#### Direct from Sweet Robo
+
+Online: [Sweet Robo Parts Portal]
+Phone: See contact information below
+Email: parts@sweetrobo.com (if applicable)
+
+Benefits: Guaranteed genuine parts, technical support, warranty coverage
+
+
+
+
+
+
+
+#### Authorized Distributors
+
+Contact Sweet Robo for list of authorized distributors in your region.
+
+Benefits: Local stock, faster delivery, regional support
+
+
+
+
+
+
+
+### Lead Times
+
+
+
+
+
+
+
+Consumables (filters, seals)
+
+
+1-3 business days
+
+
+
+
+
+
+
+Common Wear Parts
+
+
+3-5 business days
+
+
+
+
+
+
+
+Electronic Components
+
+
+5-10 business days
+
+
+
+
+
+
+
+Custom or Special Order
+
+
+2-4 weeks
+
+
+
+
+
+
+
+Emergency/Expedited
+
+
+Overnight available (additional fees apply)
+
+
+
+
+
+
+
+
+
+
+Stock common replacement parts on-site to minimize downtime. Recommended spare parts inventory: filters (2 sets), door seals (1 set), heating elements (1 set), sensors (cup detection, level).
+
+
+
+
+<hr>
+
+## Service Contact Information
+
+### Sweet Robo Technical Support
+
+For parts ordering, technical support, and service scheduling, see complete contact information:
+
+Company Information
+
+### Service Types
+
+
+
+
+
+
+
+#### Warranty Service
+Covers manufacturing defects and component failures during warranty period. Registration required.
+
+
+
+
+
+
+
+#### Preventive Maintenance
+Scheduled service visits for cleaning, calibration, and inspection. Recommended quarterly.
+
+
+
+
+
+
+
+#### Emergency Repair
+Same-day or next-day service for critical failures. Premium rates may apply.
+
+
+
+
+
+
+
+#### Component Upgrade
+Installation of improved components or new features. Scheduled service.
+
+
+
+
+
+
+
+### Service Request Information
+
+When requesting service, provide:
+
+1. Contact Details: Name, phone, email, facility address
+2. Machine Information: Serial number, model, installation date
+3. Problem Description: Symptoms, error codes, when started
+4. Urgency Level: Routine, priority, or emergency
+5. Access Details: Facility hours, access requirements, parking
+
+<hr>
+
+## Warranty Information
+
+### Standard Warranty Coverage
+
+- Duration: 12 months from installation date (verify with purchase documentation)
+- Covered: Manufacturing defects, component failures under normal use
+- Not Covered: Damage from misuse, unauthorized modifications, lack of maintenance
+
+### Warranty Registration
+
+Register your Pop Cart within 30 days of installation:
+
+1. Visit Sweet Robo warranty registration portal
+2. Provide serial number and installation date
+3. Complete facility and contact information
+4. Submit proof of purchase
+5. Retain confirmation for records
+
+
+
+
+IMPORTANT - Warranty Requirements
+
+To maintain warranty coverage:
+- Follow recommended maintenance schedules
+- Use only genuine Sweet Robo parts
+- Have service performed by authorized technicians
+- Keep records of all maintenance and service
+- Do not modify or alter machine components
+
+
+
+
+### Extended Warranty Options
+
+Contact Sweet Robo for extended warranty and service contract options:
+
+- Extended Coverage: Additional 12-24 months beyond standard warranty
+- Service Contracts: Includes preventive maintenance visits
+- Parts & Labor: Comprehensive coverage with priority service
+- Remote Monitoring: Proactive issue detection and support
+
+<hr>
+
+## Service Records
+
+### Recommended Documentation
+
+Maintain a service log including:
+
+- Installation Date: ____________
+- Serial Number: ____________
+- Warranty Expiration: ____________
+- Last Service Date: ____________
+- Next Scheduled Service: ____________
+
+### Service History Log
+
+| Date | Service Type | Parts Replaced | Technician | Notes |
+|------|--------------|----------------|------------|-------|
+|      |              |                |            |       |
+|      |              |                |            |       |
+|      |              |                |            |       |
+
+
+
+
+<h4>Digital Service Records</h4>
+
+If your Pop Cart is connected to Sweet Robo's remote management system, service records are automatically maintained in your online portal. Access your account to view complete service history and schedule future maintenance.
+
+
+
+
+<hr>
+
+## Common Part Numbers
+
+Note: This is a general reference. Always verify current part numbers with Sweet Robo before ordering.
+
+### Consumables
+
+| Part Description | Typical Part Number | Replacement Interval |
+|------------------|---------------------|----------------------|
+| Air Intake Filter | PC-FILT-001 | 3-6 months |
+| Exhaust Filter | PC-FILT-002 | 3-6 months |
+| Door Seal Kit | PC-SEAL-100 | 12 months |
+| Hopper Gasket | PC-SEAL-110 | 12 months |
+
+### Wear Components
+
+| Part Description | Typical Part Number | Replacement Interval |
+|------------------|---------------------|----------------------|
+| Heating Element Set | PC-HEAT-200 | 12-18 months |
+| Cup Detection Sensor | PC-SENS-301 | As needed |
+| Level Sensor | PC-SENS-302 | As needed |
+| Temperature Probe | PC-SENS-310 | As needed |
+
+### Structural Components
+
+| Part Description | Typical Part Number | Replacement Interval |
+|------------------|---------------------|----------------------|
+| Dispensing Chute | PC-DISP-400 | As needed |
+| Door Lock Assembly | PC-LOCK-500 | As needed |
+| Hopper Assembly | PC-HOPR-600 | As needed |
+
+
+
+
+CAUTION: Part numbers shown are examples only. Always obtain current part numbers from Sweet Robo before placing orders. Using incorrect parts may cause damage or safety hazards.
+
+
+
+
+<hr>
+
+## Installation and Replacement Guidelines
+
+### General Replacement Procedure
+
+For any component replacement:
+
+
+
+
+
+
+
+
+Document Current State
+
+Take photos of component before removal, note wire positions, document settings
+
+
+
+
+
+
+
+
+
+Power Off and Lockout
+
+Disconnect power and prevent accidental reconnection during service
+
+
+
+
+
+
+
+
+
+Allow Cooling Period
+
+Wait appropriate time for hot components to cool (minimum 30 minutes)
+
+
+
+
+
+
+
+
+
+Follow Proper Procedure
+
+Consult service manual or Sweet Robo support for specific component instructions
+
+
+
+
+
+
+
+
+
+Use Correct Tools
+
+Employ appropriate tools and avoid forcing components
+
+
+
+
+
+
+
+
+
+Test After Installation
+
+Run diagnostic tests to verify proper installation and operation
+
+
+
+
+
+
+
+
+
+Document Service
+
+Record part numbers, installation date, and any configuration changes
+
+
+
+
+
+
+
+
+### Professional Service Required
+
+The following components require certified technician installation:
+
+- Control board and electronics
+- Heating element assemblies
+- Payment system components
+- Safety interlock systems
+- Power supply and distribution
+- Motor assemblies
+- Touchscreen replacement
+- Software updates or reconfiguration
+
+
+
+
+WARNING: Attempting unauthorized repairs on electrical components may result in electric shock, fire hazard, equipment damage, voided warranty, and personal injury. Contact Sweet Robo for professional service.
+
+
+
+
+<hr>
+
+## Technical Support Resources
+
+### Available Support Channels
+
+
+
+
+
+
+
+#### Phone Support
+Speak directly with technical support specialists during business hours. Fastest resolution for urgent issues.
+
+
+
+
+
+
+
+#### Email Support
+Detailed technical questions with documentation or photos. Response within 1 business day.
+
+
+
+
+
+
+
+#### Online Portal
+Access service history, download manuals, track service requests, order parts online 24/7.
+
+
+
+
+
+
+
+#### Remote Diagnostics
+For network-connected machines, technicians can access diagnostic data remotely for faster troubleshooting.
+
+
+
+
+
+
+
+### Support Documentation
+
+Available resources:
+- Service Manuals: Component-specific repair procedures
+- Parts Diagrams: Exploded views and part identification
+- Video Tutorials: Common maintenance and replacement procedures
+- Technical Bulletins: Updates, modifications, and important notices
+- FAQ Database: Answers to common technical questions
+
+<hr>
+
+## Safety Recalls and Updates
+
+Sweet Robo will notify registered owners of any safety recalls, critical updates, or recommended modifications. Ensure your contact information is current in the warranty registration system.
+
+Check for Updates: Contact Sweet Robo or visit the support portal to verify your Pop Cart has all current safety updates and modifications installed.
+
+<hr>
+
+## Decommissioning and Disposal
+
+When retiring a Pop Cart from service:
+
+1. Data Removal: Clear all payment data and customer information
+2. Consumables: Remove and properly dispose of food products
+3. Environmental: Follow local regulations for electronic waste disposal
+4. Recycling: Contact Sweet Robo for component recycling programs
+5. Documentation: Retain service records per regulatory requirements
+
+<hr>
+
+## Next Steps
+
+- Maintenance - Regular maintenance procedures
+- Troubleshooting - Diagnose and resolve issues
+- Operation Guide - Daily operation procedures
+
+For parts ordering or service requests, contact Sweet Robo: Company Information
+
+
+---
+
+<!-- SECTION: safety.md -->
+
+# Safety
+
+# Safety & Regulatory Compliance
+
+Your safety and the safety of others are of utmost importance when operating and maintaining the Pop Cart machine. Please read, understand, and follow all safety precautions and instructions in this manual before operating or servicing the machine.
+
+Failure to adhere to these safety precautions could result in personal injury, damage to the machine, or hazardous situations.
+
+## User Roles
+
+The Pop Cart machine is designed for two distinct types of users:
+
+
+
+
+- Customer Users: Any member of the public — including children — who interacts with the machine via the touchscreen to place and pay for an order. This interaction is safe, guided, and limited to external controls only.
+
+- Operators / Authorized Staff: Trained personnel responsible for machine setup, internal access, maintenance, troubleshooting, and sanitation. These users must understand both the mechanical and food safety protocols outlined in this manual.
+
+
+
+
+
+
+
+WARNING: Only operators may open the machine cabinet, access internal components, or modify hardware or system settings.
+
+
+
+
+---
+
+## General Safety
+
+
+
+
+### Read the Entire Manual
+- Before operating the Pop Cart, thoroughly read and understand this entire manual
+- Familiarize yourself with all operating procedures, safety guidelines, and warnings
+- Keep this manual accessible for future reference
+
+### Intended Use Only
+- Operate the Pop Cart only for its intended purpose of making popcorn
+- Do not modify the machine or use it for other purposes
+
+### Adult Supervision
+- This machine is not a toy
+- It should only be operated by adults or under adult supervision
+- Keep un-supervised children and pets away from the machine during operation
+
+
+
+
+---
+
+## Customer Safety
+
+The machine is designed to be safe for public interaction, including use by children. Key features include:
+
+
+
+
+
+
+
+#### Touchscreen-Only Interface
+Customers interact solely through a sealed touchscreen interface.
+
+
+
+
+
+
+
+#### Automatic Dispensing Window
+Opens only when popcorn is ready and provides safe access to finished product.
+
+
+
+
+
+
+
+#### No Exposed Moving Parts
+All internal mechanisms, heating elements, and popping chambers are fully enclosed and inaccessible to users.
+
+
+
+
+
+
+
+#### Child-Safe Design
+The dispensing area is designed to prevent access to internal components during operation.
+
+
+
+
+
+
+
+
+
+
+CAUTION: Customers or untrained individuals must never interact with the machine's internals. Children should not insert hands or objects into the dispensing chute or topping drop area.
+
+
+
+
+---
+
+## Electrical Safety
+
+
+
+
+WARNING: Electrical Shock Hazard. Can cause serious injury or death.
+
+
+
+
+### Power Requirements
+* Requires: 110-125V AC (US variant) or 220-240V AC (International variant)
+* Use a grounded 3-prong outlet appropriate for your model
+* Never bypass grounding - verify with socket tester if unsure
+* For complete electrical specifications, see Electrical Requirements
+
+### Power Cord Safety
+* Before each use, inspect the power cord for any damage, cuts, or fraying.
+* If the cord is damaged, do not operate the machine. Contact customer support for a replacement.
+* Use only the power cord supplied with the Pop Cart machine or an identical replacement recommended by the manufacturer.
+* Do not use damaged cords or extension cables.
+
+### General Electrical Safety
+
+
+
+
+- Keep all liquids away from the machine's electrical components, power inlet, and internal electronics
+- Do not immerse the machine or its electrical parts in water or any liquid
+- Never operate near water or in wet environments
+- Always disconnect the machine from the power source (unplug it) before cleaning, performing maintenance, servicing, or when it's not in use for extended periods
+- Do not open electrical panels unless trained
+- Only personnel with appropriate electrical knowledge should service the machine
+
+
+
+
+### Shutdown Procedures
+
+
+
+
+
+
+
+
+Always use the backend <strong>software shutdown button</strong> to power down the internal PC before disconnecting power or turning off the main breaker.
+
+
+
+
+
+
+
+
+
+Use the <strong>Power Switch</strong> to safely isolate the system.
+
+
+
+
+
+
+
+
+
+Never unplug the machine while it is powered on.
+
+
+
+
+
+
+
+
+
+Unplug the unit only after switching off the <strong>power switch</strong> (not during operation).
+
+
+
+
+
+
+
+
+
+
+
+Important: All electrical work must comply with local codes. Certification bodies may inspect for proper grounding and power isolation.
+
+
+
+
+---
+
+## Operational Safety
+
+### Machine Placement
+* Operate the machine on a stable, flat, and level surface to prevent tipping or instability.
+* Keep the machine on a level, hard floor
+* Allow at least 50 cm (20 inches) of clearance behind the unit for ventilation
+* Do not block ventilation grilles or exhaust vents
+* Maintain at least 20 cm between machines if placed side by side
+* Ensure the door can open fully for service access
+
+### Environment
+* Keep the area around the machine clear of obstructions.
+* Do not place the machine near flammable materials, heat sources (like direct sunlight or heaters), or excessive moisture.
+* Ensure adequate ventilation to dissipate heat from popping operations.
+
+### Heat Safety
+
+
+
+
+WARNING: Hot Surface Hazard
+
+The popping chambers, heating elements, and freshly popped popcorn reach high temperatures during operation. Allow adequate cooling time before accessing internal components.
+
+
+
+
+* Popping chambers and heating elements can reach temperatures exceeding 200°C (392°F)
+* Freshly dispensed popcorn may be very hot
+* Allow the machine to cool for at least 30 minutes after shutdown before accessing internal components
+* Never touch heating elements or internal components during or immediately after operation
+
+### Operation Guidelines
+* Follow the manufacturer's recommendations for kernel and seasoning loading quantities.
+* Do not insert hands, fingers, tools, or any foreign objects into the dispensing chutes, seasoning dispensers, topping drop area, or any openings in the machine, especially during operation.
+* Do not allow children or untrained staff near the machine while it is active.
+* Always power off before refilling internal components.
+
+### Emergency Procedures
+* Familiarize yourself with the main power switch to quickly shut down the machine in an emergency.
+* If you observe any abnormalities, unusual noises, smoke, or overheating, immediately turn off and unplug the machine from its power source and contact customer support.
+
+---
+
+## Mechanical Safety
+
+* Never insert hands or tools into moving parts during operation.
+* Popcorn jams or seasoning clogs must be cleared with the machine powered down.
+* Never bypass safety interlocks or sensors.
+* Keep all protective covers and guards in place.
+
+### Machine Transportation
+
+
+
+
+CAUTION: Heavy Equipment
+
+The Pop Cart weighs approximately 140 kg (309 lbs). Use proper lifting equipment and techniques when moving or repositioning the machine.
+
+
+
+
+* Two or more people are required for safe transport
+* Use a sturdy hand truck or lifting equipment rated for the machine's weight
+* Keep the machine upright during transport to prevent damage to internal components
+* Avoid rolling the machine long distances as this may damage wheels and internal mechanisms
+* Secure the machine properly during vehicle transport to prevent shifting
+
+---
+
+## Cleaning and Maintenance Safety
+
+
+
+
+CAUTION: Risk of minor injury or equipment damage.
+
+
+
+
+
+
+
+For detailed cleaning instructions: Follow the comprehensive cleaning procedures in the Maintenance section.
+
+
+
+
+### Safety Precautions
+* Disconnect Power First: ALWAYS disconnect the Pop Cart from the electrical outlet before performing any cleaning or maintenance tasks.
+* Cool Down: Allow heating elements and popping chambers to cool completely (minimum 30 minutes) before cleaning or touching.
+
+### Protective Measures
+* Wear appropriate protective gear if recommended for specific cleaning tasks (e.g., gloves when handling cleaning chemicals).
+* Avoid loose clothing, jewelry, or long hair that could get caught in any moving parts if internal access is required.
+* Be mindful of potential electrostatic discharge (ESD) when working near electronic components. Consider using an ESD wrist strap if servicing internal electronics.
+
+### Approved Cleaning Materials
+
+Safe to Use:
+* Warm water with grease-removing dish soap (e.g., Dawn) for general cleaning
+* Cool or room temperature water for rinsing
+* Multi-Quat sanitizer (quaternary ammonium-based product approved for food contact surfaces)
+* 70% isopropyl alcohol (for cleaning the touchscreen and outer surfaces only)
+* Food-grade stainless steel cleaner for metal surfaces
+
+Do Not Use:
+* Paint thinner
+* Volatile oils
+* Bleach or alkaline cleaners
+* Abrasive powders or scouring pads
+* Acetone or solvent-based chemicals
+* Harsh chemicals that could damage surfaces or internal components
+
+These substances may corrode plastics, strip protective coatings, or damage sensitive components.
+
+### Special Cleaning Considerations
+* Water Temperature: Use warm water (comfortable to touch, not boiling) for washing
+* Thorough Rinsing: Always rinse multiple times to remove all soap residue
+* Sanitizer Evaporation: Allow sanitizer to fully evaporate before loading fresh kernels or seasonings
+* Use only cleaning agents and materials recommended by the manufacturer unless instructed to do so by Sweet Robo support staff.
+
+Required Cleaning Frequency:
+* Daily Cleaning: Wipe down exterior surfaces and touchscreen
+* Weekly Deep Clean: Clean popping chambers, seasoning dispensers, and internal chutes
+* Monthly Maintenance: Full system inspection and deep cleaning (see Maintenance)
+
+---
+
+## Food Safety Compliance
+
+The Pop Cart machine is designed with food-contact safety in mind:
+
+* All hoppers, tubes, chutes, and serving components must be food-grade certified
+* Internal surfaces must be cleaned and sanitized regularly using approved cleaning procedures
+* Operators must discard expired kernels, seasonings, or other consumables
+* No foreign materials may enter the hoppers, seasoning dispensers, or popping chambers
+* Use only approved popcorn kernels and food-grade seasonings
+* Use only approved consumables and replacement parts
+
+### NAMA Food Safe Certification
+
+The Pop Cart is designed to meet NAMA (National Automatic Merchandising Association) food safety standards:
+
+* Food-Contact Materials: All surfaces that contact food are made from food-grade materials
+* Sanitation Design: Components are designed for easy cleaning and sanitization
+* Temperature Control: Heating systems maintain proper popping temperatures while preventing overheating
+* Contamination Prevention: Sealed pathways prevent foreign material contamination
+
+---
+
+## Auto Shut-Off Safety Features
+
+The machine includes several built-in safety triggers:
+
+* Temperature sensors monitor heating element conditions
+* Internal diagnostic sensors
+* Dispenser malfunctions
+* Hardware stalls or failure conditions
+
+When triggered:
+* Dispensing, heating, and motor systems shut down automatically
+* The touchscreen may remain powered for diagnosis
+* Logs of the event are stored for technician review
+
+Always resolve the root issue before restarting the machine.
+
+---
+
+## Servicing and Repairs
+
+* Qualified Technicians Only: Repairs, modifications, or servicing beyond routine cleaning and operator-level maintenance (as described in this manual) should only be performed by qualified service technicians authorized by the manufacturer.
+* No Unauthorized Disassembly: Attempting to disassemble or repair complex internal components yourself may void the warranty, result in further damage to the machine, or cause personal injury.
+
+
+
+
+WARNING: Unauthorized repairs or alterations may void the warranty. Always contact Sweet Robo support for approval before making internal changes.
+
+
+
+
+Sweet Robo recommends notifying a certified technician before performing service or repairs.
+
+---
+
+## Operator Responsibility
+
+Operators must:
+
+* Follow the cleaning procedures outlined in the Maintenance section
+* Keep all protective covers and guards in place
+* Avoid bypassing safety interlocks or sensors
+* Disconnect power before servicing or manual cleaning
+* Use only approved consumables and replacement parts
+* Open machine panels or internal compartments only when authorized
+* Refill or replace internal components (kernels, seasonings, cups)
+* Perform regular cleaning and servicing tasks
+* Access backend diagnostic settings when needed for troubleshooting
+
+---
+
+## Inspection & Regulatory Compliance
+
+The Pop Cart is designed to meet industry safety and food handling standards:
+
+### Certifications
+
+
+
+* NAMA Food Safe Certification: Designed to meet National Automatic Merchandising Association food safety standards
+* UL / TUV Electrical Safety: Electrical systems certified for safe operation
+<!-- * CE Marking: European Conformity certification (applicable models) -->
+
+
+
+
+### Documentation Requirements
+To meet regulatory requirements:
+
+* Keep a written log of cleaning procedures, maintenance activities, and supply refills
+* Ensure documentation is readily available for inspection by health authorities
+* Contact Sweet Robo support for certification documents as needed
+
+### Safety Labels
+
+The machine includes labeling for:
+
+* Electrical input ratings
+* Manufacturer and model identification
+* Serial number and date of production
+* Safety warning symbols (hot surfaces, electrical hazard, pinch hazard)
+
+If a label becomes damaged or unreadable, it must be replaced before the machine returns to service.
+
+---
+
+## Training Requirements
+
+All operators must be trained on:
+- Proper startup/shutdown procedures
+- Emergency procedures
+- Food safety protocols
+- Basic troubleshooting
+- Cleaning and maintenance schedules
+- When to call for service
+
+---
+
+## Emergency Contact
+
+In case of any doubts, concerns, emergencies related to the machine's operation, or if servicing is required:
+
+* Emergency Support: support@sweetrobo.com | +1-844-SWEETRB
+* For complete contact information, see Company Information
+
+Remember that failure to adhere to these safety precautions could result in injuries, damage to the machine, or hazardous situations. By following these guidelines, you ensure a safe and enjoyable experience while using the Pop Cart.
+
+Keep emergency numbers posted near machine.
+
+
+---
+
+<!-- END OF MANUAL -->
+
+Generated from individual sections on /Users/lightwing/Documents/GitHub/SweetRoboManuals/pop-cart
