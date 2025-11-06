@@ -16,3 +16,7 @@
 
 - [Legal and Warranty](shared/content/legal.md)
 - [Company Information](shared/content/company-info.md)
+
+# Development
+
+- [CSS Test Page](css-test.md)
