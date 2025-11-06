@@ -1,5 +1,47 @@
 # Pop Cart Manual - Complete Styling Guide
 
+## Pop Cart Machine Specifications
+
+### Key Machine Facts
+
+**IMPORTANT: When updating specifications, ensure changes are reflected in ALL locations:**
+- `overview.md` - Technical Specifications section
+- `operation.md` - Any references to storage, dispensers, or capacities
+- `maintenance.md` - Supply capacity and refill quantities
+- `parts-service.md` - Component specifications
+- This CLAUDE.md file - Keep this section updated as the single source of truth
+
+### Technical Overview
+
+**Popcorn Storage System:**
+- **2 storage containers** (dual cylinder system)
+- Each container holds 3 kg of kernels (maximum capacity)
+- Total capacity: 6 kg (60-70 servings per cylinder)
+- Minimum operating level: 1 kg per cylinder (approximately 1/3 full)
+
+**Seasoning Dispensing System:**
+- **5 flavor lanes** (customizable seasonings)
+- Individual dispensers assigned to lanes 1-5
+- Each lane can hold different seasoning types
+
+**Machine Specifications:**
+- **Dimensions**: 520 × 450 × 1720 mm (20.5 × 17.7 × 67.7 in)
+- **Weight**: 140 kg (309 lbs)
+- **Power**: 110-125V AC or 220-240V AC, Max 2200W
+- **Interface**: Touchscreen display with customer-facing operation
+- **Payment**: Credit/Debit Card, Cash, Loyalty Credits
+- **Environment**: Indoor use, 15-30°C (59-86°F)
+
+### Writing Guidelines
+
+When documenting the Pop Cart:
+- Use **"both hoppers"** or **"both storage containers"** when referring to the popcorn storage (no need to add "dual cylinder system" every time - it's mentioned in specs)
+- Use **"5 flavor lanes"** or **"all five lanes"** when referring to seasoning dispensers
+- The admin interface is **built into the machine's app** (not web-based)
+- WiFi is used for **backend data tracking and reporting** (not for app access)
+- WiFi configuration is the **only setting requiring external configuration** (via Android settings)
+- Don't repeat "(dual cylinder system)" everywhere - it's redundant since the machine only comes in one configuration
+
 ## Image Guidelines
 
 ### Image Format

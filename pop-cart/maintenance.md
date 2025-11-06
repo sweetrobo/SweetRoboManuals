@@ -283,22 +283,22 @@ Verify kernels are within best-before date. Amish Country Popcorn typically has 
 
 <div>
 <div>
-**Access Hopper**<br>
-Open top access panel to reach kernel hopper
+**Access Hoppers**<br>
+Open top access panel to reach both kernel hoppers
 </div>
 </div>
 
 <div>
 <div>
 **Pour Kernels**<br>
-Carefully pour kernels into hopper opening. Use funnel if needed to avoid spillage.
+Carefully pour kernels into both hopper openings. Use funnel if needed to avoid spillage. Each cylinder holds up to 3 kg (6 kg total capacity).
 </div>
 </div>
 
 <div>
 <div>
 **Verify Level**<br>
-Check hopper fill level on screen or through inspection window. Maintain minimum 2 kg (4.4 lbs) at all times.
+Check hopper fill levels on screen or through inspection window. Maintain minimum 1 kg (2.2 lbs) in each cylinder at all times for continuous operation.
 </div>
 </div>
 

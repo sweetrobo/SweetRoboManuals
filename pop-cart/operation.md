@@ -13,8 +13,8 @@ Perform these steps at the beginning of each operating day:
 <div>
 <div>
 **Verify Supply Levels**<br>
-• Check kernel hopper is adequately filled<br>
-• Confirm seasoning dispensers are stocked<br>
+• Check both kernel hoppers are adequately filled<br>
+• Confirm all 5 seasoning dispensers are stocked<br>
 • Verify cup supply is sufficient<br>
 • Check oil/butter reservoir level
 </div>
@@ -70,8 +70,8 @@ The Pop Cart provides an intuitive touchscreen interface guiding customers throu
 
 ### Step 1: Popcorn Selection
 
-<img src="./assets/operation/operation_popcorn_selection_clean_view.webp" alt="Popcorn Selection Screen" />
-*Customer selects their preferred popcorn variety*
+<img src="./assets/operation/customer_popcorn_flavor_selection.webp" alt="Popcorn Selection Screen" />
+*Customer selects their preferred popcorn variety from the Two Popcorn options*
 
 The customer journey begins with popcorn selection:
 
@@ -99,8 +99,8 @@ Pricing displays next to each popcorn option. The system can be configured for d
 
 ### Step 2: Topping Selection
 
-<img src="./assets/operation/ui_topping_selection_five_flavors.webp" alt="Topping Selection Screen with Five Flavors" />
-*Customer can choose up to 2 flavor toppings*
+<img src="./assets/operation/customer_topping_flavor_selection.webp" alt="Topping Selection Screen with Flavor Options" />
+*Customer can choose up to 2 flavor toppings with individual pricing*
 
 After selecting popcorn, customers add flavor toppings:
 
@@ -132,8 +132,8 @@ Topping prices and availability can be configured in the operator menu. Seasonin
 
 ### Step 3: Payment
 
-<img src="./assets/operation/ui_payment_screen_card_cash.webp" alt="Payment Method Selection" />
-*Customer chooses payment method after reviewing order*
+<img src="./assets/operation/customer_payment_order_summary.webp" alt="Payment Screen with Order Summary" />
+*Complete order summary showing item details, total, and payment method selection*
 
 The payment screen displays the complete order summary:
 
@@ -360,51 +360,85 @@ Operator menu displays with configuration and diagnostic options
 
 </div>
 
-### Operator Menu Options
+<img src="./assets/operation/admin_login_password_entry.webp" alt="Admin Login Screen" />
+*Admin login screen with password entry for secure access to management system*
 
-<div class="feature-grid grid-2">
+<div class="info-box">
 
-<div class="feature-item">
-
-#### Pricing Configuration
-Set individual prices for popcorn varieties, toppings, and size options. Configure loyalty credit values and promotional pricing.
+The admin interface is built into the machine's app and accessed directly on the touchscreen. WiFi connectivity is required for backend data tracking and reporting, but all management functions are performed locally on the device.
 
 </div>
 
-<div class="feature-item">
+### Management Dashboard
 
-#### Inventory Tracking
-View current levels of kernels, seasonings, cups, and other consumables. Set low-level alerts.
+After logging in, operators see the main management dashboard with four primary sections:
 
-</div>
+<img src="./assets/operation/admin_manage_dashboard_four_tiles.webp" alt="Admin Management Dashboard" />
+*Main dashboard with Device, Testing, Statistics, and Inventory management tiles*
 
-<div class="feature-item">
+The dashboard provides quick access to:
+- **Device**: Machine settings, WiFi configuration, payment methods, popcorn parameters
+- **Testing**: Diagnostic tools, sensor testing, dispenser controls
+- **Statistics**: Sales tracking, revenue reports, transaction history
+- **Inventory**: Stock levels, cup count, popcorn and seasoning management
 
-#### Sales Reports
-Access transaction history, sales totals, and revenue reports. Export data for accounting purposes.
+### Device Settings
 
-</div>
+<img src="./assets/operation/admin_device_settings_wifi_payment.webp" alt="Device Settings Screen" />
+*Device configuration including WiFi setup, device ID, I/O board connections, and payment methods*
 
-<div class="feature-item">
+**Configuration Options:**
+- **WiFi Setup**: Connect to network for backend data sync (only setting requiring external configuration)
+- **Device ID**: Unique machine identifier for tracking
+- **I/O Board**: Hardware interface connections and status
+- **Payment Methods**: Enable/disable credit card, cash, or other payment options
+- **System Settings**: Temperature units, language, timezone
 
-#### System Diagnostics
-Run component tests, view error logs, check sensor status, and perform calibration procedures.
+<img src="./assets/operation/admin_device_popcorn_parameters.webp" alt="Popcorn Cooking Parameters" />
+*Dual-side popcorn cooking parameters with temperature, speed, and timing controls*
 
-</div>
+**Popcorn Parameters:**
+- **Temperature Control**: Set optimal popping temperature for each side
+- **Popping Speed**: Adjust rotation speed for consistent results
+- **Timing**: Configure heating, popping, and dispensing cycles
+- **Dual-Side Settings**: Independent parameters for left and right chambers
 
-<div class="feature-item">
+### Inventory Management
 
-#### Network Settings
-Configure Wi-Fi or Ethernet connections, remote management access, and system update settings.
+<img src="./assets/operation/admin_inventory_popcorn_cup_count.webp" alt="Inventory - Popcorn and Cups" />
+*Cup inventory count and popcorn flavor management with pricing*
 
-</div>
+**Popcorn & Cups:**
+- **Cup Count**: Track remaining cups (shows current count)
+- **Popcorn Varieties**: Manage available flavors with individual pricing
+- **Stock Levels**: Monitor supply levels and set low-stock alerts
+- **Pricing**: Configure per-item pricing for each variety
 
-<div class="feature-item">
+<img src="./assets/operation/admin_inventory_seasonings_list.webp" alt="Inventory - Seasonings" />
+*Seasoning inventory showing five flavors with pricing, quantities, and lane assignments*
 
-#### User Management
-Add/remove operator accounts, change PIN codes, set permission levels for different users.
+**Seasoning Management:**
+- **Five Lanes**: Track individual seasoning dispensers (Lanes 1-5)
+- **Flavor Types**: Assign flavors to specific dispenser lanes
+- **Quantities**: Monitor remaining seasoning levels per lane
+- **Pricing**: Set individual prices for each topping option
+- **Lane Assignment**: Configure which physical dispenser contains each flavor
 
-</div>
+### Statistics & Sales
+
+<img src="./assets/operation/admin_statistics_sales_dashboard.webp" alt="Statistics Dashboard" />
+*Sales tracking dashboard showing total sales count, income, and change metrics*
+
+**Sales Tracking:**
+- **Total Sales**: Complete transaction count for reporting period
+- **Total Income**: Revenue generated (shown in local currency)
+- **Change Given**: Cash transaction tracking (if cash payment enabled)
+- **Transaction History**: Detailed logs of individual sales
+- **Export Data**: Generate reports for accounting purposes
+
+<div class="info-box">
+
+Backend data tracking syncs sales statistics and inventory levels to web-based reporting when WiFi is connected. This enables remote monitoring and multi-location management.
 
 </div>
 
@@ -420,7 +454,7 @@ Keep operator PIN codes secure and confidential. Unauthorized access to operator
 
 ## Test Mode
 
-Operators can run test cycles without charging customers:
+Operators can run test cycles and diagnostics without charging customers:
 
 <div class="numbered-steps">
 
@@ -432,13 +466,13 @@ Enter Operator Menu (see above)
 
 <div>
 <div>
-Select "Test Mode" or "Device Testing"
+Select "Testing" from the management dashboard
 </div>
 </div>
 
 <div>
 <div>
-Choose component to test (popping cycle, dispenser, payment, etc.)
+Choose component to test (sensors, dispensers, temperature, etc.)
 </div>
 </div>
 
@@ -462,10 +496,34 @@ Exit Test Mode to return to normal customer operation
 
 </div>
 
+### Temperature & Sensor Testing
+
+<img src="./assets/operation/admin_testing_controls_temperature.webp" alt="Testing Controls - Temperature and Sensors" />
+*Temperature monitoring and sensor testing for dual-side popcorn chambers*
+
+**Testing Features:**
+- **Sensor Testing**: Verify all sensors are responding correctly
+- **Temperature Monitoring**: Check real-time temperature readings for both sides
+- **Speed Controls**: Test chamber rotation speed
+- **Dual-Side Testing**: Independent testing for left and right chambers
+- **Sensor Status**: Visual indicators show sensor health
+
+### Dispenser & Lane Testing
+
+<img src="./assets/operation/admin_testing_cargo_lane_controls.webp" alt="Testing Controls - Cargo Lanes" />
+*Cargo lane testing interface for seasoning dispensers and hopper cleaning*
+
+**Dispenser Controls:**
+- **Cargo Lanes 1-5**: Individual testing for each seasoning dispenser
+- **Dispense Test**: Trigger manual dispensing to verify mechanism operation
+- **Hopper Cleaning**: Run cleaning cycles for both popcorn hoppers
+- **Lane Status**: Check if each dispenser is functioning properly
+- **Clear Jams**: Manual controls for clearing dispenser blockages
+
 **Recommended Test Schedule:**
 - **Daily**: Quick dispense test at startup
-- **Weekly**: Complete popping cycle test
-- **Monthly**: Full system diagnostic including all components
+- **Weekly**: Complete popping cycle test with both storage containers
+- **Monthly**: Full system diagnostic including all sensors and dispensers
 
 <hr class="section-divider">
 

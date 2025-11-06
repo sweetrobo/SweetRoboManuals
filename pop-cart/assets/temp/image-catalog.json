@@ -1,7 +1,7 @@
 {
   "project": "Pop Cart Manual",
   "catalog_version": "1.0",
-  "last_updated": "2025-10-30T21:32:49.088751Z",
+  "last_updated": "2025-11-06T16:01:44Z",
   "images": [
     {
       "original_filename": "photo_1_2025-10-22_17-06-26.jpg",
@@ -1455,6 +1455,262 @@
       "processed": true,
       "final_location": "assets/operation/admin_password_input_keypad.webp",
       "date_added": "2025-10-24T00:00:00Z"
+    },
+    {
+      "original_filename": "Device1.JPG",
+      "suggested_filename": "admin_device_settings_wifi_payment.webp",
+      "description": "Device configuration screen showing WiFi setup, device ID, I/O board connections, payment methods, and system volume settings",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "device-settings",
+        "wifi-configuration",
+        "payment-methods",
+        "system-settings",
+        "io-board",
+        "device-management"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "93KB",
+      "notes": "Comprehensive device settings screen showing WiFi toggle (Not Connected status), Device ID input field with edit button, Device Connections section (I/O Board: /dev/ttyS1 - Disconnected, MDB Serial - Disconnected), Payment Methods (Cash/Coin checkboxes with value per pulse settings, Currency Icon selector, Free Mode toggle), System Volume slider, and Return home time setting (30). Critical for initial setup and configuration procedures.",
+      "processed": true,
+      "final_location": "assets/operation/admin_device_settings_wifi_payment.webp"
+    },
+    {
+      "original_filename": "Device2.png",
+      "suggested_filename": "admin_device_popcorn_parameters.webp",
+      "description": "Device settings showing popcorn parameter configuration for dual-side cooking with temperature, speed, and timing controls",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "popcorn-parameters",
+        "cooking-settings",
+        "temperature-control",
+        "dual-side-config",
+        "device-settings",
+        "technical-configuration"
+      ],
+      "dimensions": "529x840",
+      "file_size": "69KB",
+      "notes": "Advanced configuration screen for popcorn cooking parameters with separate settings for Side A and Side B. Shows Temperature in Celsius with Preheat Temp (220\u00b0C), Cook Temp (240\u00b0C), Preheat Speed (6000), Cook Speed (16200), Serving Speed (30000), Serving Time (8), Preheat Time (35), and Cook Time (75). Includes Reset Password button and navigation buttons (Repair App, Settings App, Exit App). Essential for machine calibration and cooking optimization.",
+      "processed": true,
+      "final_location": "assets/operation/admin_device_popcorn_parameters.webp"
+    },
+    {
+      "original_filename": "Inv1.JPG",
+      "suggested_filename": "admin_inventory_popcorn_cup_count.webp",
+      "description": "Inventory management screen showing cup inventory (60) and dual popcorn flavors with pricing, display toggles, and quantities",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "inventory-management",
+        "popcorn-flavors",
+        "cup-inventory",
+        "stock-tracking",
+        "pricing",
+        "flavor-configuration"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "130KB",
+      "notes": "Inventory tracking interface showing Cup Inventory: 60 at top. Popcorn Inventory section displays Side A (Butter Popcorn, $4.00 price, display toggle, qty: 60) and Side B (Caramel Popcorn, $4.00 price, display toggle, qty: 60). Each side has popcorn image with edit button. Bottom shows 'Skip Packet Selection Mode' toggle and Seasonings Inventory section starting with Seasoning #1 (Brown Butter, $1.00 price, qty: 30). Critical for managing stock levels and product availability.",
+      "processed": true,
+      "final_location": "assets/operation/admin_inventory_popcorn_cup_count.webp"
+    },
+    {
+      "original_filename": "Inv2.JPG",
+      "suggested_filename": "admin_inventory_seasonings_list.webp",
+      "description": "Seasonings inventory section showing five flavor options with images, pricing, quantities, display toggles, and lane assignments",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "inventory-management",
+        "seasonings",
+        "toppings",
+        "flavor-packets",
+        "lane-assignment",
+        "stock-management"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "132KB",
+      "notes": "Detailed seasonings inventory showing: Seasoning #2 (Jalape\u00f1o & Chipotle, $0.0, qty: 30, Display toggle, Lane: 2, Always Charge toggle), Seasoning #3 (Black Truffles, $1.00, qty: 30, Display toggle, Lane: 3, Always Charge toggle), Seasoning #4 (Sicily Sensation, $1.00, qty: 30, Display toggle, Lane: 4, Always Charge disabled), Seasoning #5 (Key Lime, $1.00, qty: 30, Display toggle, Lane: 5, Always Charge disabled). Each seasoning packet has visual image with edit button. Important for topping management and dispenser lane configuration.",
+      "processed": true,
+      "final_location": "assets/operation/admin_inventory_seasonings_list.webp"
+    },
+    {
+      "original_filename": "Login.JPG",
+      "suggested_filename": "admin_login_password_entry.webp",
+      "description": "Admin login screen with Sweet Robo branding, password input field, and login/exit buttons on red background",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "login-screen",
+        "authentication",
+        "password-entry",
+        "security",
+        "sweet-robo-branding",
+        "operator-access"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "42KB",
+      "notes": "Clean admin authentication screen featuring Sweet Robo robot logo with 'TASTE THE FUTURE' tagline. White rounded card contains 'Welcome! Please Enter Password' heading in red, password input field with placeholder text, and two action buttons (LOGIN in red, EXIT in red). Red gradient background. First screen operators see when accessing admin functions. Essential for security and access control documentation.",
+      "processed": true,
+      "final_location": "assets/operation/admin_login_password_entry.webp"
+    },
+    {
+      "original_filename": "Manage.JPG",
+      "suggested_filename": "admin_manage_dashboard_four_tiles.webp",
+      "description": "Main management dashboard with four tile navigation: Device, Testing, Statistics, and Inventory sections",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "management-dashboard",
+        "navigation-menu",
+        "main-screen",
+        "device-management",
+        "testing",
+        "statistics",
+        "inventory"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "92KB",
+      "notes": "Primary admin navigation screen with logout button in top right. Four main sections displayed as large tiles: 1) Device (chip icon, Payment/Language/Cooking Settings), 2) Testing (warning icon, Systems Check/Hardware Check), 3) Statistics (receipt icon, Income/Sales count), 4) Inventory (popcorn bucket icon, Popcorn/Flavors/Stock). Clean interface for accessing all major admin functions. Central hub for machine management and configuration.",
+      "processed": true,
+      "final_location": "assets/operation/admin_manage_dashboard_four_tiles.webp"
+    },
+    {
+      "original_filename": "PaymentPage.JPG",
+      "suggested_filename": "customer_payment_order_summary.webp",
+      "description": "Customer payment screen showing order summary with Butter Popcorn, two toppings ($6.00 total), cash inserted amount, and payment method selection",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "customer-ui",
+        "payment-screen",
+        "order-summary",
+        "checkout",
+        "cash-payment",
+        "credit-card",
+        "payment-selection",
+        "transaction-flow"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "156KB",
+      "notes": "Customer-facing payment interface with three navigation tabs at top (popcorn, topping, payment - payment tab active in red). Order summary card shows popcorn image with itemized list: Butter Popcorn ($4.00), Brown Butter x1 ($1.00), Black Truffles x1 ($1.00), Total: $6.00, Cash Inserted: $0.00. Bottom section prompts 'Select your Payment' with two large buttons: Cash (dollar bills icon) and Credit Card (card icon), plus Back button. Popcorn cloud background theme. Critical for explaining checkout process to customers and operators.",
+      "processed": true,
+      "final_location": "assets/operation/customer_payment_order_summary.webp"
+    },
+    {
+      "original_filename": "PopcornSelect.png",
+      "suggested_filename": "customer_popcorn_flavor_selection.webp",
+      "description": "Customer popcorn selection screen with two Popcorn flavors options at $6.00 each and Continue button",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "customer-ui",
+        "popcorn-selection",
+        "flavor-choice",
+        "customer-flow",
+        "touchscreen-interface",
+        "sunny-popcorn",
+        "order-start"
+      ],
+      "dimensions": "394x700",
+      "file_size": "240KB",
+      "notes": "First step in customer ordering flow with three navigation tabs (popcorn active in red, topping, payment). Header reads 'Choose your popcorn'. Two identical selection cards showing popcorn bowl images labeled 'Sunny Popcorn $6.00'. Large red Continue button at bottom with Back button in beige. Time display '18:00' in top left corner. Popcorn cloud decorative background. Essential for demonstrating the start of customer order process and flavor selection interface.",
+      "processed": true,
+      "final_location": "assets/operation/customer_popcorn_flavor_selection.webp"
+    },
+    {
+      "original_filename": "Stats.JPG",
+      "suggested_filename": "admin_statistics_sales_dashboard.webp",
+      "description": "Statistics dashboard showing total sales, side-specific sales, total income, and change owed metrics with clear buttons",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "statistics-dashboard",
+        "sales-tracking",
+        "revenue-reporting",
+        "performance-metrics",
+        "sales-data",
+        "financial-tracking"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "57KB",
+      "notes": "Financial tracking interface with back arrow navigation. Five data cards displaying: Total Sales (0 with Clear button), Side A/1 Sales (0 with Clear button), Side B/2 Sales (0 with Clear button), Total Sales Income (0 with Clear button), and Change Owed (0 with Clear button). All metrics show zero values indicating new/reset state. Essential for operators to track machine performance, sales volumes, and financial metrics. Useful for daily reconciliation and performance monitoring documentation.",
+      "processed": true,
+      "final_location": "assets/operation/admin_statistics_sales_dashboard.webp"
+    },
+    {
+      "original_filename": "Testing1.JPG",
+      "suggested_filename": "admin_testing_controls_temperature.webp",
+      "description": "Testing interface showing sensor testing options, current temperature (360\u00b0C) and speed (12345 RPM), and testing controls for both popcorn sides",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "testing-interface",
+        "diagnostics",
+        "temperature-monitoring",
+        "speed-monitoring",
+        "sensor-testing",
+        "hardware-testing",
+        "dual-side-testing"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "121KB",
+      "notes": "Comprehensive testing dashboard with back navigation. Top section 'Sensor Testing / Error Log' shows three buttons: Sensor Status, Heater Graph, Error Log. Middle section displays 'Temperature & Speed' with Current Temperature: 360\u00b0C and Current Speed: 12345 RPM. Bottom 'Testing Controls' section shows dual-cylinder diagram (A and B) with controls: Drop A, Drop B, Produce A, Produce B, Open Door, Close Door, Drop Cup buttons. Bottom panel shows 'Fan & Heat Test' with Fan Test (RPM Speed: 10000, Start/Stop button) and Heat Test (Temp.: 100, Start/Stop button). Essential for system diagnostics and hardware validation procedures.",
+      "processed": true,
+      "final_location": "assets/operation/admin_testing_controls_temperature.webp"
+    },
+    {
+      "original_filename": "Testing2.JPG",
+      "suggested_filename": "admin_testing_cargo_lane_controls.webp",
+      "description": "Lower testing controls showing cargo lane testing buttons (Lane 1-5), set lane retry option, and hopper cleaning controls",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "admin-interface",
+        "testing-interface",
+        "cargo-lanes",
+        "lane-testing",
+        "dispenser-testing",
+        "hopper-cleaning",
+        "maintenance-controls",
+        "seasoning-dispensers"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "118KB",
+      "notes": "Continuation of testing screen focusing on dispenser/cargo lane controls. Testing Controls section (continued from Testing1) shows dual-cylinder diagram with control buttons. 'Cargo lane test' section has 'Set Lane Retry: 3' input field and five lane buttons (Lane 1, Lane 2, Lane 3, Lane 4, Lane 5) for testing individual seasoning dispensers. 'Clean Out Hopper' section at bottom shows Clean Drop A and Clean Drop B buttons. Critical for testing seasoning dispensers and troubleshooting lane-specific issues. Complements Testing1 screen for complete testing documentation.",
+      "processed": true,
+      "final_location": "assets/operation/admin_testing_cargo_lane_controls.webp"
+    },
+    {
+      "original_filename": "ToppingPage.JPG",
+      "suggested_filename": "customer_topping_flavor_selection.webp",
+      "description": "Customer topping selection screen displaying five seasoning packet options with pricing and selection limit of 2 flavors",
+      "content_type": "screenshot",
+      "suggested_category": "operation",
+      "tags": [
+        "customer-ui",
+        "topping-selection",
+        "flavor-selection",
+        "seasoning-packets",
+        "customer-flow",
+        "pricing-display",
+        "multi-select-interface"
+      ],
+      "dimensions": "800x1200",
+      "file_size": "181KB",
+      "notes": "Second step in customer ordering with three navigation tabs (topping active in red between popcorn and payment). Header instructs 'Select up to 2 flavors'. Five topping cards arranged in grid: Brown Butter ($1.00), Jalape\u00f1o & Chipotle (center card with packet image), Black Truffles ($1.00), Sicily Sensation (bottom left green packet), and Key Lime (bottom right green packet). Each card shows seasoning packet image with flavor name and price below. Navigation includes Back, Continue, and Skip buttons at bottom. Popcorn cloud background. Essential for demonstrating topping selection interface and explaining multi-select limit to customers.",
+      "processed": true,
+      "final_location": "assets/operation/customer_topping_flavor_selection.webp"
     }
   ],
   "schema": {
@@ -1481,11 +1737,11 @@
     "parts-service": "Component diagrams, parts photos, exploded views"
   },
   "statistics": {
-    "total_images": 74,
+    "total_images": 86,
     "processed": 73,
     "by_category": {
       "parts-service": 7,
-      "operation": 39,
+      "operation": 51,
       "overview": 5,
       "troubleshooting": 6,
       "maintenance": 3,
@@ -1493,7 +1749,7 @@
     },
     "by_content_type": {
       "photo": 23,
-      "screenshot": 51
+      "screenshot": 63
     }
   }
 }
