@@ -41,6 +41,7 @@ When documenting the Pop Cart:
 - WiFi is used for **backend data tracking and reporting** (not for app access)
 - WiFi configuration is the **only setting requiring external configuration** (via Android settings)
 - Don't repeat "(dual cylinder system)" everywhere - it's redundant since the machine only comes in one configuration
+- **Never hardcode pricing** in documentation - all pricing is configurable by operators through the admin interface
 
 ## Image Guidelines
 

@@ -27,44 +27,13 @@ Before beginning installation, ensure you have:
 
 ## Site Requirements
 
-### Space Requirements
+**Space:** Machine footprint 520×450mm. Minimum clearances: 60cm service side, 120cm front (customer access), 15cm around ventilation.
 
-The Pop Cart requires adequate space for:
-- **Machine footprint**: 520 × 450 mm (20.5 × 17.7 in)
-- **Service clearance**: Minimum 60 cm (24 in) on service door side
-- **Customer access**: Minimum 120 cm (48 in) clearance in front
-- **Ventilation**: Minimum 15 cm (6 in) clearance around ventilation openings
+**Environment:** Indoor use only, level floor. Operating temperature 15-30°C (59-86°F), humidity 20-80% non-condensing. Adequate air circulation required.
 
-### Environmental Conditions
+**Power:** 110-125V or 220-240V AC, 50/60Hz, 2200W max. Dedicated circuit recommended. Standard grounded plug for region.
 
-<div class="specs-table">
-
-<div class="spec-row">
-<div class="spec-label">Operating Temperature</div>
-<div class="spec-value">15-30°C (59-86°F)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Storage Temperature</div>
-<div class="spec-value">-10 to 40°C (14 to 104°F)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Humidity</div>
-<div class="spec-value">20-80% relative humidity, non-condensing</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Location</div>
-<div class="spec-value">Indoor use only, level floor surface</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Ventilation</div>
-<div class="spec-value">Adequate air circulation, avoid enclosed spaces</div>
-</div>
-
-</div>
+**Network:** WiFi or Ethernet for remote management and backend data sync.
 
 <div class="warning-box">
 
@@ -72,42 +41,7 @@ The Pop Cart requires adequate space for:
 
 </div>
 
-### Electrical Requirements
-
-<div class="specs-table">
-
-<div class="spec-row">
-<div class="spec-label">Power Supply</div>
-<div class="spec-value">110-125V AC (US variant) or 220-240V AC (International variant)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Frequency</div>
-<div class="spec-value">50/60 Hz</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Circuit Type</div>
-<div class="spec-value">Dedicated circuit recommended</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Power Consumption</div>
-<div class="spec-value">2200 W maximum (20A @ 110V, 10A @ 220V)</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Plug Type</div>
-<div class="spec-value">Standard grounded plug for region</div>
-</div>
-
-</div>
-
-<div class="info-box">
-
-The Pop Cart supports remote management requiring an internet connection. Ensure a stable Wi-Fi signal or an accessible Ethernet port is available near the machine.
-
-</div>
+*For complete technical specifications, see [Overview](overview.md#technical-specifications)*
 
 <hr class="section-divider">
 
