@@ -1075,8 +1075,6 @@ Perform these steps at the beginning of each operating day:
 
 • Verify cup supply is sufficient
 
-• Check oil/butter reservoir level
-
 
 
 
@@ -1121,33 +1119,9 @@ Perform these steps at the beginning of each operating day:
 
 
 
-**Perform Test Cycle**
+**Perform Test Cycle (Optional)**
 
-• Run one test transaction (see Test Mode below)
-
-• Verify popping mechanism operates correctly
-
-• Confirm dispensing works properly
-
-• Test payment processing if possible
-
-
-
-
-
-
-
-
-
-**Enable Customer Access**
-
-• Unlock any overnight security features
-
-• Post operating hours if applicable
-
-• Ensure area lighting is adequate
-
-• Mark machine as "In Service"
+Run a test transaction to verify proper operation (see Testing & Diagnostics section)
 
 
 
@@ -1166,25 +1140,31 @@ The Pop Cart provides an intuitive touchscreen interface guiding customers throu
 
 ![Popcorn Selection Screen](./assets/operation/customer_popcorn_flavor_selection.webp)
 
-Customers select their preferred popcorn variety (**Blue Burst** or **Sunny Crunch**). Pricing displays next to each option and can be configured through the admin Inventory section.
+Customers select their preferred popcorn variety. Available options are configurable and may vary. Pricing displays next to each option and can be configured through the admin Inventory section.
 
 ### Step 2: Topping Selection
 
 ![Topping Selection Screen with Flavor Options](./assets/operation/customer_topping_flavor_selection.webp)
 
-Customers choose up to 2 flavor toppings from 5 available options (Butter, Chipotle, Garlic, Jalapeño, Truffle). Pricing and availability are configured in the admin Inventory section and require physical seasoning stock.
+Customers choose up to 2 flavor toppings from 5 available lanes. Available topping options may vary (e.g., Butter, Chipotle, Garlic, Jalapeño, Truffle). Pricing and availability are configured in the admin Inventory section and require physical seasoning stock.
 
 ### Step 3: Payment
 
 ![Payment Screen with Order Summary](./assets/operation/customer_payment_order_summary.webp)
 
-The payment screen shows the complete order summary with itemized selections and total. Customers pay via credit card, cash (if installed), or loyalty credits. Payment must complete successfully before production begins; failed payments cancel the order.
+The payment screen shows the complete order summary with itemized selections and total. Customers pay via credit card, cash, or loyalty credits (if available/installed). Payment must complete successfully before production begins; failed payments allow retry.
 
 ### Step 4: Production & Dispensing
 
 ![Branded Cup in Dispensing Position](./assets/operation/popcorn_cup_dispensing_position.webp)
 
-After payment, the machine automatically heats, pops kernels, applies toppings, and signals the customer to place their cup for filling (~90-120 seconds total). Customers should not reach into the dispensing window until the cycle completes.
+After payment, the machine begins the automated production cycle (~90-120 seconds):
+1. Cup drops into holder
+2. Kernels drop into air oven
+3. Oven heats and pops the kernels
+4. Blower pushes popcorn down the chute into the cup
+5. Door opens
+6. Seasoning toppings drop onto the side (customer manually applies desired amount)
 
 
 
@@ -1205,7 +1185,7 @@ After payment, the machine automatically heats, pops kernels, applies toppings, 
 
 ![Admin Login Screen](./assets/operation/admin_login_password_entry.webp)
 
-Access the admin interface by tapping and holding the Sweet Robo logo on the welcome screen (3 seconds), then entering your operator PIN. All management functions are performed locally on the touchscreen; WiFi is only required for backend data sync.
+Access the admin interface by tapping 3-5 times in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen; WiFi is only required for backend data sync.
 
 ### Management Dashboard
 
@@ -1235,7 +1215,7 @@ Manage stock levels, configure pricing, and assign seasonings to the 5 dispenser
 
 ![Statistics Dashboard](./assets/operation/admin_statistics_sales_dashboard.webp)
 
-View sales count, total income, and transaction history. Export data for accounting. Backend syncing (when WiFi connected) enables remote monitoring across multiple locations.
+View sales count, total income, and transaction history. Backend syncing (requires WiFi connection) enables remote monitoring and data export through the Sweet Robo tracking system.
 
 
 
