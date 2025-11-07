@@ -6,7 +6,7 @@ This section helps diagnose and resolve common issues with the Pop Cart. For pro
 
 **IMPORTANT**
 
-Before troubleshooting, ensure the machine is powered on, properly connected, and has adequate supplies (kernels, seasonings, cups, oil). Many issues are resolved by checking these basics first.
+Before troubleshooting, ensure the machine is powered on, properly connected, and has adequate supplies (kernels, seasonings, cups). Many issues are resolved by checking these basics first.
 
 </div>
 
@@ -22,7 +22,6 @@ When experiencing issues, check these items first:
 - [ ] Kernel hopper has adequate supply
 - [ ] Seasonings are stocked
 - [ ] Cups are loaded
-- [ ] Oil/butter reservoir is filled
 - [ ] No obstructions in dispensing path
 - [ ] Touchscreen is responsive
 - [ ] No error messages displayed
@@ -276,15 +275,13 @@ Network Connection Lost
 **Possible Causes**:
 - Old or poor quality kernels
 - Incorrect popping temperature
-- Insufficient oil
 - Heating element degraded
 
 **Solutions**:
 1. Check kernel expiration date and freshness
-2. Verify oil reservoir is adequately filled
-3. Run temperature calibration through operator menu
-4. Replace with fresh, approved kernels
-5. Contact Sweet Robo if heating elements need inspection
+2. Run temperature calibration through operator menu
+3. Replace with fresh, approved kernels
+4. Contact Sweet Robo if heating elements need inspection
 
 </div>
 
@@ -297,16 +294,14 @@ Network Connection Lost
 **Possible Causes**:
 - Temperature set too high
 - Cycle time too long
-- Insufficient oil
 - Sensor malfunction
 
 **Solutions**:
 1. Immediately stop operation and power off
 2. Allow machine to cool completely
 3. Access operator menu and reduce temperature settings
-4. Verify oil dispensing is working correctly
-5. Run diagnostic to check temperature sensors
-6. Contact Sweet Robo if issue persists
+4. Run diagnostic to check temperature sensors
+5. Contact Sweet Robo if issue persists
 
 </div>
 
@@ -488,7 +483,7 @@ If machine performance gradually declines:
 - Review maintenance log to ensure schedule is followed
 - Perform deep cleaning of all components
 - Check for worn parts requiring replacement
-- Verify consumable quality (fresh kernels, clean oil)
+- Verify consumable quality (fresh kernels)
 - Run full system diagnostic through operator menu
 
 ### Unusual Noises
@@ -547,7 +542,7 @@ Access advanced diagnostics through the operator menu:
 
 <div>
 <div>
-Enter operator menu (hold logo for 3 seconds, enter PIN)
+Enter operator menu (tap 3-5 times top left corner, enter PIN)
 </div>
 </div>
 

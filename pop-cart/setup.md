@@ -371,12 +371,6 @@ Load branded popcorn cups into the cup dispenser mechanism.
 
 </div>
 
-<div class="feature-item">
-
-#### Oil/Butter
-Fill oil reservoir with food-grade popping oil or clarified butter as specified.
-
-</div>
 
 </div>
 
@@ -395,7 +389,6 @@ Before allowing customer use, verify:
 - [ ] Kernel hopper is filled
 - [ ] Seasoning dispensers are stocked
 - [ ] Cups are loaded
-- [ ] Oil/butter reservoir is filled
 - [ ] Customer interface is responsive
 - [ ] Payment system is configured and tested
 - [ ] Test transaction completed successfully

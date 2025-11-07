@@ -188,7 +188,6 @@ The Pop Cart interior is organized into distinct functional zones for efficient 
 **Middle Level - Production**
 - Dual-cylinder popping chambers (A & B)
 - Heating element arrays
-- Oil dispensing system
 - Temperature monitoring
 
 **Lower Level - Dispensing & Collection**
@@ -219,7 +218,6 @@ The Pop Cart features two independent popcorn cylinders (A and B) that allow ope
 The Pop Cart's production system handles the complete popping process from kernel storage through finished product:
 
 - **Kernel Metering**: Precise measurement ensures consistent batch sizes
-- **Oil Application**: Automated oil dispensing for optimal popping
 - **Heat Management**: Controlled heating elements maintain ideal popping temperatures
 - **Quality Monitoring**: Sensors detect pop completion and prevent burning
 

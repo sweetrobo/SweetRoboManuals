@@ -369,7 +369,6 @@ The Pop Cart interior is organized into distinct functional zones for efficient 
 **Middle Level - Production**
 - Dual-cylinder popping chambers (A & B)
 - Heating element arrays
-- Oil dispensing system
 - Temperature monitoring
 
 **Lower Level - Dispensing & Collection**
@@ -400,7 +399,6 @@ The Pop Cart features two independent popcorn cylinders (A and B) that allow ope
 The Pop Cart's production system handles the complete popping process from kernel storage through finished product:
 
 - **Kernel Metering**: Precise measurement ensures consistent batch sizes
-- **Oil Application**: Automated oil dispensing for optimal popping
 - **Heat Management**: Controlled heating elements maintain ideal popping temperatures
 - **Quality Monitoring**: Sensors detect pop completion and prevent burning
 
@@ -991,14 +989,6 @@ Load branded popcorn cups into the cup dispenser mechanism.
 
 
 
-#### Oil/Butter
-Fill oil reservoir with food-grade popping oil or clarified butter as specified.
-
-
-
-
-
-
 
 Refer to the [Maintenance](maintenance.md) section for detailed loading procedures and approved consumables.
 
@@ -1015,7 +1005,6 @@ Before allowing customer use, verify:
 - [ ] Kernel hopper is filled
 - [ ] Seasoning dispensers are stocked
 - [ ] Cups are loaded
-- [ ] Oil/butter reservoir is filled
 - [ ] Customer interface is responsive
 - [ ] Payment system is configured and tested
 - [ ] Test transaction completed successfully
@@ -1350,7 +1339,7 @@ Comprehensive service, electrical inspection, safety system verification
 
 **Cleaning:** Wipe touchscreen with microfiber cloth, clean exterior panels with damp cloth and mild detergent, clean dispensing window, dust decorative elements.
 
-**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock, check oil/butter reservoir.
+**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock.
 
 <hr>
 
@@ -1594,74 +1583,6 @@ Verify dispensing mechanism operates smoothly after refilling
 
 
 **CAUTION**: Use only food-grade seasonings approved for popcorn vending machines. Non-approved seasonings may cause clogging, contamination, or equipment damage.
-
-
-
-
-### Oil/Butter Reservoir
-
-
-
-
-
-
-
-
-**Check Level**
-
-Access oil reservoir through service panel. Check level indicator or dipstick.
-
-
-
-
-
-
-
-
-
-**Use Approved Oil**
-
-Only use food-grade popping oil or clarified butter specified for commercial popcorn equipment.
-
-
-
-
-
-
-
-
-
-**Refill Carefully**
-
-Pour oil slowly to avoid overflow. Do not exceed maximum fill line.
-
-
-
-
-
-
-
-
-
-**Wipe Spills**
-
-Clean any spilled oil immediately to prevent fire hazard and slippery surfaces.
-
-
-
-
-
-
-
-
-
-**Secure Panel**
-
-Close and lock oil compartment access panel
-
-
-
-
 
 
 
@@ -1965,7 +1886,7 @@ For professional service scheduling, parts ordering, or technical support, conta
 
 - Store all food products in clean, dry environments
 - Check expiration dates regularly and rotate stock
-- Never use expired kernels, seasonings, or oil
+- Never use expired kernels or seasonings
 - Keep consumables away from chemicals or cleaning supplies
 - Use dedicated scoops or containers for each seasoning type
 
@@ -2094,7 +2015,7 @@ This section helps diagnose and resolve common issues with the Pop Cart. For pro
 
 **IMPORTANT**
 
-Before troubleshooting, ensure the machine is powered on, properly connected, and has adequate supplies (kernels, seasonings, cups, oil). Many issues are resolved by checking these basics first.
+Before troubleshooting, ensure the machine is powered on, properly connected, and has adequate supplies (kernels, seasonings, cups). Many issues are resolved by checking these basics first.
 
 
 
@@ -2111,7 +2032,6 @@ When experiencing issues, check these items first:
 - [ ] Kernel hopper has adequate supply
 - [ ] Seasonings are stocked
 - [ ] Cups are loaded
-- [ ] Oil/butter reservoir is filled
 - [ ] No obstructions in dispensing path
 - [ ] Touchscreen is responsive
 - [ ] No error messages displayed
@@ -2443,15 +2363,13 @@ Network Connection Lost
 **Possible Causes**:
 - Old or poor quality kernels
 - Incorrect popping temperature
-- Insufficient oil
 - Heating element degraded
 
 **Solutions**:
 1. Check kernel expiration date and freshness
-2. Verify oil reservoir is adequately filled
-3. Run temperature calibration through operator menu
-4. Replace with fresh, approved kernels
-5. Contact Sweet Robo if heating elements need inspection
+2. Run temperature calibration through operator menu
+3. Replace with fresh, approved kernels
+4. Contact Sweet Robo if heating elements need inspection
 
 
 
@@ -2466,16 +2384,14 @@ Network Connection Lost
 **Possible Causes**:
 - Temperature set too high
 - Cycle time too long
-- Insufficient oil
 - Sensor malfunction
 
 **Solutions**:
 1. Immediately stop operation and power off
 2. Allow machine to cool completely
 3. Access operator menu and reduce temperature settings
-4. Verify oil dispensing is working correctly
-5. Run diagnostic to check temperature sensors
-6. Contact Sweet Robo if issue persists
+4. Run diagnostic to check temperature sensors
+5. Contact Sweet Robo if issue persists
 
 
 
@@ -2679,7 +2595,7 @@ If machine performance gradually declines:
 - Review maintenance log to ensure schedule is followed
 - Perform deep cleaning of all components
 - Check for worn parts requiring replacement
-- Verify consumable quality (fresh kernels, clean oil)
+- Verify consumable quality (fresh kernels)
 - Run full system diagnostic through operator menu
 
 ### Unusual Noises
@@ -2751,7 +2667,7 @@ Access advanced diagnostics through the operator menu:
 
 
 
-Enter operator menu (hold logo for 3 seconds, enter PIN)
+Enter operator menu (tap 3-5 times top left corner, enter PIN)
 
 
 

@@ -49,7 +49,7 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 **Cleaning:** Wipe touchscreen with microfiber cloth, clean exterior panels with damp cloth and mild detergent, clean dispensing window, dust decorative elements.
 
-**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock, check oil/butter reservoir.
+**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock.
 
 <hr class="section-divider">
 
@@ -215,47 +215,6 @@ Verify dispensing mechanism operates smoothly after refilling
 <div class="caution-box">
 
 **CAUTION**: Use only food-grade seasonings approved for popcorn vending machines. Non-approved seasonings may cause clogging, contamination, or equipment damage.
-
-</div>
-
-### Oil/Butter Reservoir
-
-<div class="numbered-steps">
-
-<div>
-<div>
-**Check Level**<br>
-Access oil reservoir through service panel. Check level indicator or dipstick.
-</div>
-</div>
-
-<div>
-<div>
-**Use Approved Oil**<br>
-Only use food-grade popping oil or clarified butter specified for commercial popcorn equipment.
-</div>
-</div>
-
-<div>
-<div>
-**Refill Carefully**<br>
-Pour oil slowly to avoid overflow. Do not exceed maximum fill line.
-</div>
-</div>
-
-<div>
-<div>
-**Wipe Spills**<br>
-Clean any spilled oil immediately to prevent fire hazard and slippery surfaces.
-</div>
-</div>
-
-<div>
-<div>
-**Secure Panel**<br>
-Close and lock oil compartment access panel
-</div>
-</div>
 
 </div>
 
@@ -460,7 +419,7 @@ For professional service scheduling, parts ordering, or technical support, conta
 
 - Store all food products in clean, dry environments
 - Check expiration dates regularly and rotate stock
-- Never use expired kernels, seasonings, or oil
+- Never use expired kernels or seasonings
 - Keep consumables away from chemicals or cleaning supplies
 - Use dedicated scoops or containers for each seasoning type
 
