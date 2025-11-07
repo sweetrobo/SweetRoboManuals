@@ -1,12 +1,12 @@
 # Troubleshooting
 
-This section helps diagnose and resolve common issues with the Pop Cart. For problems not covered here, contact Sweet Robo support.
+This section helps diagnose and resolve common issues with the Pop Cart. For problems not covered here, see contact information at the end of this section.
 
 <div class="important-box">
 
 **IMPORTANT**
 
-Before troubleshooting, ensure the machine is powered on, properly connected, and has adequate supplies (kernels, seasonings, cups). Many issues are resolved by checking these basics first.
+Before troubleshooting, verify the [Supply Checklist](operation.md#supply-checklist) is complete and the machine is powered on and properly connected. Many issues are resolved by checking these basics first.
 
 </div>
 
@@ -19,9 +19,7 @@ When experiencing issues, check these items first:
 - [ ] Machine is plugged in and power is ON
 - [ ] Circuit breaker has not tripped
 - [ ] All service doors are properly closed
-- [ ] Kernel hopper has adequate supply
-- [ ] Seasonings are stocked
-- [ ] Cups are loaded
+- [ ] **Supply levels adequate** - see [Supply Checklist](operation.md#supply-checklist)
 - [ ] No obstructions in dispensing path
 - [ ] Touchscreen is responsive
 - [ ] No error messages displayed
@@ -53,7 +51,7 @@ Press OK to acknowledge error (do not attempt to clear while system is active)
 
 <div>
 <div>
-Power off machine and wait 5 minutes for components to cool
+Power off machine and wait 30 minutes for components to cool
 </div>
 </div>
 
@@ -89,7 +87,7 @@ Close service door and power machine back on
 
 <div>
 <div>
-Run test cycle through operator menu to verify jam is cleared
+Run test cycle through operator menu to verify jam is cleared (see [Testing & Diagnostics](operation.md#testing--diagnostics))
 </div>
 </div>
 
@@ -97,52 +95,76 @@ Run test cycle through operator menu to verify jam is cleared
 
 <div class="caution-box">
 
-**CAUTION**: Do not force stuck mechanisms. If blockage cannot be easily removed, or if error persists after clearing, contact Sweet Robo support for professional service.
+**CAUTION**: Do not force stuck mechanisms. If blockage cannot be easily removed, or if error persists after clearing, see "When to Contact Support" section below.
 
 </div>
 
 ### Common Error Codes
 
-<div class="feature-grid grid-4">
+<div class="feature-grid grid-2">
 
-<div class="feature-item text-center">
-**ERR-001**<br>
-Temperature Sensor Fault
+<div class="feature-item">
+
+**ERR-001: Temperature Sensor Fault**
+
+Temperature sensor not reading correctly. Run diagnostics to identify faulty sensor. May require sensor cleaning or replacement. Contact support if issue persists.
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-002**<br>
-Heating Element Failure
+<div class="feature-item">
+
+**ERR-002: Heating Element Failure**
+
+Heating element not reaching proper temperature. Check power connections and run heating diagnostic. Element may need replacement (~12-18 month lifespan). Contact support for service.
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-003**<br>
-Cup Detection Error
+<div class="feature-item">
+
+**ERR-003: Cup Detection Error**
+
+Machine cannot detect cup presence. Verify cup is properly positioned and sensor area is clean. Remove and reload cup. See "Cup Detection Errors" section below for detailed troubleshooting.
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-004**<br>
-Payment System Fault
+<div class="feature-item">
+
+**ERR-004: Payment System Fault**
+
+Payment processing failure. Restart payment system through [Admin Interface](operation.md#admin-interface). Clean card reader. Verify network connection. Contact payment processor if unresolved.
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-005**<br>
-Low Kernel Level
+<div class="feature-item">
+
+**ERR-005: Low Kernel Level**
+
+Kernel supply below minimum operating level. Refill both kernel hoppers using [Supply Checklist](operation.md#supply-checklist). Error will clear automatically once levels are adequate.
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-006**<br>
-Seasoning Dispenser Fault
+<div class="feature-item">
+
+**ERR-006: Seasoning Dispenser Fault**
+
+Seasoning dispenser clogged or empty. Check seasoning levels and refill if needed. Inspect dispenser opening for clogs. Run dispenser test through [Admin Interface](operation.md#admin-interface).
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-007**<br>
-Door Interlock Open
+<div class="feature-item">
+
+**ERR-007: Door Interlock Open**
+
+Service door is open or interlock switch malfunctioning. Ensure all doors are fully closed and latched. If error persists with doors closed, interlock switch may need adjustment or replacement.
+
 </div>
 
-<div class="feature-item text-center">
-**ERR-008**<br>
-Network Connection Lost
+<div class="feature-item">
+
+**ERR-008: Network Connection Lost**
+
+WiFi or ethernet connection interrupted. Check network settings in [Admin Interface](operation.md#admin-interface). Machine will continue operating without network but backend sync will be disabled. See [Setup](setup.md) for network configuration.
+
 </div>
 
 </div>
@@ -542,7 +564,7 @@ Access advanced diagnostics through the operator menu:
 
 <div>
 <div>
-Enter operator menu (tap 3-5 times top left corner, enter PIN)
+Enter operator menu (see [Admin Interface](operation.md#admin-interface) for access instructions)
 </div>
 </div>
 
@@ -606,7 +628,7 @@ Contact Sweet Robo support immediately if:
 
 **IMPORTANT - Safety First**
 
-Never attempt repairs beyond your skill level. Some repairs require certified technicians to maintain safety and warranty coverage. When in doubt, contact Sweet Robo support.
+Never attempt repairs beyond your skill level. Some repairs require certified technicians to maintain safety and warranty coverage. When in doubt, contact support (details below).
 
 </div>
 

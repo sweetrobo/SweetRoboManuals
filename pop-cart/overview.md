@@ -60,7 +60,7 @@ Precise portion control and automated dispensing ensure consistent servings and 
 <div class="feature-item">
 
 #### Payment Flexibility
-Integrated payment system supports credit/debit cards, cash payments, and optional loyalty credits for seamless customer transactions.
+Integrated payment system supports multiple payment methods for seamless customer transactions (see Technical Specifications).
 
 </div>
 
@@ -166,7 +166,6 @@ The Pop Cart features a distinctive vintage carnival cart aesthetic designed to 
 **Customer Interaction Points:**
 - **Touchscreen Display**: Primary customer interface for selections and payment
 - **Dispensing Window**: Collection point for finished popcorn containers
-- **Payment Area**: Integrated card reader and cash acceptance
 - **Security Lock**: Keyed access for operator maintenance and restocking
 
 ### Internal Component Layout
@@ -201,13 +200,11 @@ The Pop Cart interior is organized into distinct functional zones for efficient 
 
 ### Dual Dispensing System
 
-The Pop Cart features two independent popcorn cylinders (A and B) that allow operators to offer customers a choice:
+The Pop Cart features two independent popcorn cylinders (A and B) providing operational flexibility:
 
-- **Cylinder A (Option 1)**: Can contain any popcorn variety selected by the operator
-- **Cylinder B (Option 2)**: Can contain a different variety, the same variety, or custom-mixed kernels
-- **Flexible Configuration**: Operators decide whether to offer two distinct options or use both cylinders for the same variety
-- **Customer Choice**: Software interface allows customers to select which cylinder option they prefer
 - **Independent Operation**: Each cylinder operates separately for reliability and continuous service
+- **Flexible Configuration**: Use both for the same variety or offer customers different options
+- **Storage Capacity**: 3 kg per cylinder (6 kg total)
 - **Transparent Design**: Visible popcorn display creates customer excitement
 
 <hr class="section-divider">

@@ -643,7 +643,7 @@ Available resources:
 
 Sweet Robo will notify registered owners of any safety recalls, critical updates, or recommended modifications. Ensure your contact information is current in the warranty registration system.
 
-**Check for Updates**: Contact Sweet Robo or visit the support portal to verify your Pop Cart has all current safety updates and modifications installed.
+**Check for Updates**: Visit the support portal to verify your Pop Cart has all current safety updates and modifications installed.
 
 <hr class="section-divider">
 

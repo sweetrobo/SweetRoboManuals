@@ -6,7 +6,7 @@ Proper maintenance ensures optimal performance, longevity, and food safety for y
 
 **IMPORTANT**
 
-Always disconnect power before performing any internal cleaning or maintenance. Allow heating elements to cool completely before touching internal components.
+Always disconnect power before performing any internal cleaning or maintenance. Allow heating elements to cool completely (30 minutes minimum) before touching internal components. See [Safety & Regulatory Compliance](safety.md) for complete safety procedures.
 
 </div>
 
@@ -49,7 +49,7 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 **Cleaning:** Wipe touchscreen with microfiber cloth, clean exterior panels with damp cloth and mild detergent, clean dispensing window, dust decorative elements.
 
-**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock.
+**Supplies:** Complete [Supply Checklist](operation.md#supply-checklist) - verify kernel hoppers, seasonings, and cups.
 
 <hr class="section-divider">
 
@@ -80,19 +80,14 @@ Reinstall clean bin in proper position
 ### Popcorn Kernels
 
 <img src="./assets/maintenance/popcorn-kernels-blue-package-front.webp" alt="Amish Country Popcorn Blue Variety Package" />
-*Recommended popcorn kernels: Amish Country Popcorn Blue variety*
-
-**Approved Kernel Types:**
-- **Amish Country Popcorn - Blue Variety**: Premium kernels with slightly sweet flavor
-- **Amish Country Popcorn - Yellow Variety**: Classic yellow popcorn
-- **Other Premium Brands**: Contact Sweet Robo for approved alternatives
+*Recommended: Amish Country Popcorn Blue or Yellow variety (contact support for other approved brands)*
 
 <div class="side-by-side-images">
 <img src="./assets/maintenance/supply_popcorn_kernels_bag.webp" alt="Popcorn Kernel Bag Size Reference" />
 <img src="./assets/maintenance/popcorn-kernels-best-before-label.webp" alt="Best Before Date Label" />
 </div>
 
-*Typical 6-pound bag size (left) and expiration date tracking (right)*
+*6-pound bag size and best-before date label*
 
 **Loading Procedure:**
 
@@ -100,46 +95,24 @@ Reinstall clean bin in proper position
 
 <div>
 <div>
-**Check Expiration Date**<br>
-Verify kernels are within best-before date. Amish Country Popcorn typically has 18-24 month shelf life.
-</div>
-</div>
-
-<div>
-<div>
-**Access Hoppers**<br>
-Open top access panel to reach both kernel hoppers
-</div>
-</div>
-
-<div>
-<div>
-**Pour Kernels**<br>
-Carefully pour kernels into both hopper openings. Use funnel if needed to avoid spillage. Each cylinder holds up to 3 kg (6 kg total capacity).
+**Check and Fill**<br>
+Verify kernels are within best-before date (typically 18-24 month shelf life). Open top access panel and pour into both hopper openings. Each holds up to 3 kg (6 kg total).
 </div>
 </div>
 
 <div>
 <div>
 **Verify Level**<br>
-Check hopper fill levels on screen or through inspection window. Maintain minimum 1 kg (2.2 lbs) in each cylinder at all times for continuous operation.
+Check fill levels on screen or through inspection window. Maintain minimum 1 kg per cylinder for continuous operation.
 </div>
 </div>
 
 <div>
 <div>
-**Close Access Panel**<br>
-Secure top panel and verify proper seal
+**Storage**<br>
+Store unopened bags in cool, dry location. Once opened, use within 60 days. Rotate stock (first in, first out).
 </div>
 </div>
-
-</div>
-
-<div class="important-box">
-
-**IMPORTANT - Kernel Storage**
-
-Store unopened kernel bags in cool, dry location away from moisture. Once opened, use within 60 days for optimal freshness and popping performance. Always check expiration dates and rotate stock (first in, first out).
 
 </div>
 
@@ -407,7 +380,7 @@ Schedule professional service when:
 
 <h4>Service Contact</h4>
 
-For professional service scheduling, parts ordering, or technical support, contact Sweet Robo Support. See [Company Information](../shared/company-info.md) for contact details.
+For professional service scheduling, parts ordering, or technical support, see contact details at the end of this section.
 
 </div>
 
@@ -496,7 +469,7 @@ If you encounter problems during maintenance:
 - **Rapid seasoning depletion**: Verify dispensing mechanism isn't over-dispensing
 - **Frequent supply alerts**: Adjust alert thresholds in operator menu or increase restocking frequency
 
-For persistent issues, refer to the [Troubleshooting](troubleshooting.md) section or contact Sweet Robo support.
+For persistent issues, refer to the [Troubleshooting](troubleshooting.md) section.
 
 <hr class="section-divider">
 

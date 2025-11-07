@@ -13,9 +13,7 @@ Perform these steps at the beginning of each operating day:
 <div>
 <div>
 **Verify Supply Levels**<br>
-• Check both kernel hoppers are adequately filled<br>
-• Confirm all 5 seasoning dispensers are stocked<br>
-• Verify cup supply is sufficient
+Complete the [Supply Checklist](#supply-checklist) below: kernel hoppers, seasonings, and cups
 </div>
 </div>
 
@@ -45,6 +43,58 @@ Perform these steps at the beginning of each operating day:
 Run a test transaction to verify proper operation (see Testing & Diagnostics section)
 </div>
 </div>
+
+</div>
+
+<hr class="section-divider">
+
+## Supply Checklist
+
+Use this checklist for daily startup, restocking, and troubleshooting supply-related issues.
+
+<div class="specs-table">
+
+<div class="spec-row">
+<div class="spec-label">Kernel Hoppers (both cylinders)</div>
+<div class="spec-value">
+✓ Minimum level: 1 kg per hopper (≈33% full)<br>
+✓ Maximum capacity: 3 kg per hopper<br>
+✓ Refill when below 25% to ensure continuous operation
+</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Seasoning Dispensers (5 lanes)</div>
+<div class="spec-value">
+✓ Verify all active lanes are adequately stocked<br>
+✓ Check dispenser openings are clear and unclogged<br>
+✓ Confirm seasonings match inventory configuration
+</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Cup Supply</div>
+<div class="spec-value">
+✓ Minimum: 20 cups for short operation periods<br>
+✓ Recommended: 50+ cups for full day operation<br>
+✓ Ensure cups are correctly oriented in dispenser
+</div>
+</div>
+
+<div class="spec-row">
+<div class="spec-label">Visual Inspection</div>
+<div class="spec-value">
+✓ Check through hopper inspection windows<br>
+✓ Verify supply levels on admin interface if available<br>
+✓ Look for blockages or bridging in hoppers
+</div>
+</div>
+
+</div>
+
+<div class="info-box">
+
+**Quick Reference**: For detailed restocking procedures, see [Supply Restocking](maintenance.md#supply-restocking) in the Maintenance section.
 
 </div>
 
@@ -101,7 +151,7 @@ After payment, the machine begins the automated production cycle (~90-120 second
 
 <img src="./assets/operation/admin_login_password_entry.webp" alt="Admin Login Screen" />
 
-Access the admin interface by tapping 3-5 times in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen; WiFi is only required for backend data sync.
+Access the admin interface by tapping 3-5 times in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen.
 
 ### Management Dashboard
 
@@ -113,7 +163,7 @@ The dashboard provides access to **Device** (WiFi, payment methods, popcorn para
 
 <img src="./assets/operation/admin_device_settings_wifi_payment.webp" alt="Device Settings Screen" />
 
-- **Device Settings**: WiFi setup (only external configuration required), payment methods, device ID, system settings
+- **Device Settings**: WiFi, payment methods, device ID, system settings
 - **Popcorn Parameters**: Temperature, speed, and timing controls for both chambers
 
 ### Inventory & Pricing
@@ -156,11 +206,11 @@ Access Testing from the management dashboard to run diagnostics without charging
 
 ## Daily Operations
 
-**Startup:** Verify supply levels (both hoppers, 5 seasoning lanes, cups), check for errors, run test cycle.
+**Startup:** Complete [Supply Checklist](#supply-checklist), check for errors, run test cycle.
 
 **Customer Assistance:** Process takes 90-120 seconds. Back button allows selection changes before payment. For errors or issues, see [Troubleshooting](troubleshooting.md).
 
-**End of Day:** Run sales report, empty cash box (if applicable), check supply levels, basic cleaning (see [Maintenance](maintenance.md)), secure machine.
+**End of Day:** Run sales report, empty cash box (if applicable), verify [Supply Checklist](#supply-checklist), basic cleaning (see [Maintenance](maintenance.md)), secure machine.
 
 **Best Practices:** Keep supplies stocked for peak hours, clean surfaces regularly, run diagnostics daily, use sales data to optimize inventory.
 

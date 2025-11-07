@@ -222,7 +222,7 @@ Proper leveling is critical for accurate popcorn dispensing and prevents uneven 
 
 <div class="warning-box">
 
-**WARNING: Electrical Shock Hazard.** Ensure your hands are dry and you are not standing in water when connecting the power cord. Have a qualified electrician verify proper grounding before operation.
+**WARNING: Electrical Shock Hazard.** Ensure your hands are dry and you are not standing in water when connecting the power cord. Have a qualified electrician verify proper grounding before operation. See [Electrical Safety](safety.md#electrical-safety) for complete safety requirements.
 
 </div>
 
@@ -302,7 +302,7 @@ Verify network connection status shows "Connected" in settings.
 
 <div>
 <div>
-Contact Sweet Robo support for remote management portal setup and credentials.
+Remote management portal credentials will be provided upon purchase. See support contact at end of this section if needed.
 </div>
 </div>
 
@@ -338,7 +338,7 @@ Verify the customer interface displays the welcome screen correctly.
 
 <div>
 <div>
-Access the operator menu to configure initial settings (see Operation section).
+Access the operator menu to configure initial settings (see [Admin Interface](operation.md#admin-interface)).
 </div>
 </div>
 
@@ -374,7 +374,7 @@ Load branded popcorn cups into the cup dispenser mechanism.
 
 </div>
 
-Refer to the [Maintenance](maintenance.md) section for detailed loading procedures and approved consumables.
+Refer to [Supply Restocking](maintenance.md#supply-restocking) for detailed loading procedures and approved consumables. For daily checks, use the [Supply Checklist](operation.md#supply-checklist).
 
 <hr class="section-divider">
 
@@ -386,9 +386,7 @@ Before allowing customer use, verify:
 - [ ] Machine is level and stable
 - [ ] Power connection is secure and grounded
 - [ ] Network connection established (if applicable)
-- [ ] Kernel hopper is filled
-- [ ] Seasoning dispensers are stocked
-- [ ] Cups are loaded
+- [ ] **Initial supplies loaded** - complete [Supply Checklist](operation.md#supply-checklist)
 - [ ] Customer interface is responsive
 - [ ] Payment system is configured and tested
 - [ ] Test transaction completed successfully
@@ -400,7 +398,7 @@ Before allowing customer use, verify:
 
 <h4>Test Transaction Required</h4>
 
-Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, topping dispensing, payment processing, and product delivery.
+Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, topping dispensing, payment processing, and product delivery. See [Testing & Diagnostics](operation.md#testing--diagnostics) for test procedures.
 
 </div>
 
