@@ -479,76 +479,13 @@ Before beginning installation, ensure you have:
 
 ## Site Requirements
 
-### Space Requirements
+**Space:** Machine footprint 520×450mm. Minimum clearances: 60cm service side, 120cm front (customer access), 15cm around ventilation.
 
-The Pop Cart requires adequate space for:
-- **Machine footprint**: 520 × 450 mm (20.5 × 17.7 in)
-- **Service clearance**: Minimum 60 cm (24 in) on service door side
-- **Customer access**: Minimum 120 cm (48 in) clearance in front
-- **Ventilation**: Minimum 15 cm (6 in) clearance around ventilation openings
+**Environment:** Indoor use only, level floor. Operating temperature 15-30°C (59-86°F), humidity 20-80% non-condensing. Adequate air circulation required.
 
-### Environmental Conditions
+**Power:** 110-125V or 220-240V AC, 50/60Hz, 2200W max. Dedicated circuit recommended. Standard grounded plug for region.
 
-
-
-
-
-
-
-Operating Temperature
-
-
-15-30°C (59-86°F)
-
-
-
-
-
-
-
-Storage Temperature
-
-
--10 to 40°C (14 to 104°F)
-
-
-
-
-
-
-
-Humidity
-
-
-20-80% relative humidity, non-condensing
-
-
-
-
-
-
-
-Location
-
-
-Indoor use only, level floor surface
-
-
-
-
-
-
-
-Ventilation
-
-
-Adequate air circulation, avoid enclosed spaces
-
-
-
-
-
-
+**Network:** WiFi or Ethernet for remote management and backend data sync.
 
 
 
@@ -558,76 +495,7 @@ Adequate air circulation, avoid enclosed spaces
 
 
 
-### Electrical Requirements
-
-
-
-
-
-
-
-Power Supply
-
-
-110-125V AC (US variant) or 220-240V AC (International variant)
-
-
-
-
-
-
-
-Frequency
-
-
-50/60 Hz
-
-
-
-
-
-
-
-Circuit Type
-
-
-Dedicated circuit recommended
-
-
-
-
-
-
-
-Power Consumption
-
-
-2200 W maximum (20A @ 110V, 10A @ 220V)
-
-
-
-
-
-
-
-Plug Type
-
-
-Standard grounded plug for region
-
-
-
-
-
-
-
-
-
-
-The Pop Cart supports remote management requiring an internet connection. Ensure a stable Wi-Fi signal or an accessible Ethernet port is available near the machine.
-
-
-
+*For complete technical specifications, see [Overview](overview.md#technical-specifications)*
 
 <hr>
 
@@ -1297,482 +1165,77 @@ The Pop Cart provides an intuitive touchscreen interface guiding customers throu
 ### Step 1: Popcorn Selection
 
 ![Popcorn Selection Screen](./assets/operation/customer_popcorn_flavor_selection.webp)
-*Customer selects their preferred popcorn variety from the Two Popcorn options*
 
-The customer journey begins with popcorn selection:
-
-**Available Options:**
-- **Blue Burst**: Premium blue popcorn variety with slightly sweeter flavor
-- **Sunny Crunch**: Classic yellow popcorn with traditional taste
-
-
-
-![Customer Selecting Popcorn](./assets/operation/operation_popcorn_selection_finger_pointing.webp)
-![Sunny Crunch Selected](./assets/operation/operation_popcorn_selection_sunny_crunch.webp)
-
-
-
-*Customer interaction: selecting Sunny Crunch popcorn variety*
-
-**Customer Actions:**
-1. Tap desired popcorn variety on the touchscreen
-2. Selection highlights to confirm choice
-3. Tap "Continue" button to proceed to toppings
-
-
-
-
-Pricing displays next to each popcorn option. The system can be configured for different pricing tiers based on size or variety through the operator menu.
-
-
-
+Customers select their preferred popcorn variety (**Blue Burst** or **Sunny Crunch**). Pricing displays next to each option and can be configured through the admin Inventory section.
 
 ### Step 2: Topping Selection
 
 ![Topping Selection Screen with Flavor Options](./assets/operation/customer_topping_flavor_selection.webp)
-*Customer can choose up to 2 flavor toppings with individual pricing*
 
-After selecting popcorn, customers add flavor toppings:
-
-**Available Toppings:**
-- **Butter** - Classic butter flavor ($1)
-- **Chipotle** - Smoky spice ($2)
-- **Garlic** - Savory garlic seasoning ($1)
-- **Jalapeño** - Spicy pepper kick ($2)
-- **Truffle** - Gourmet truffle essence ($1)
-
-
-
-![Select Up To 2 Flavors](./assets/operation/operation_topping_selection_two_flavors.webp)
-![Jalapeño Topping Selected](./assets/operation/ui_topping_selection_jalapeno_selected.webp)
-
-
-
-*Topping selection interface and selection confirmation*
-
-**Selection Rules:**
-- Customers can select up to 2 different toppings
-- Each topping has individual pricing
-- Selections are highlighted when chosen
-- Tap selected topping again to deselect
-
-
-
-
-Topping prices and availability can be configured in the operator menu. Seasonings must be physically stocked for options to remain active.
-
-
-
+Customers choose up to 2 flavor toppings from 5 available options (Butter, Chipotle, Garlic, Jalapeño, Truffle). Pricing and availability are configured in the admin Inventory section and require physical seasoning stock.
 
 ### Step 3: Payment
 
 ![Payment Screen with Order Summary](./assets/operation/customer_payment_order_summary.webp)
-*Complete order summary showing item details, total, and payment method selection*
 
-The payment screen displays the complete order summary:
-
-**Payment Options:**
-- **Credit Card**: Contactless or chip reader
-- **Cash**: Bills and coins (if cash system installed)
-- **Loyalty Credits**: Applied automatically if account detected
-
-![Payment Screen with Loyalty Credits Applied](./assets/operation/ui_payment_screen_credits_applied.webp)
-*Loyalty credits automatically reduce the total amount due*
-
-
-
-
-
-
-
-
-System displays itemized order with total amount
-
-
-
-
-
-
-
-
-
-Loyalty credits automatically apply if customer has account
-
-
-
-
-
-
-
-
-
-Customer selects payment method
-
-
-
-
-
-
-
-
-
-System processes payment securely
-
-
-
-
-
-
-
-
-
-Upon successful payment, popcorn production begins
-
-
-
-
-
-
-
-
-![Complete Order Summary Before Payment](./assets/operation/payment-screen-order-summary.webp)
-*Detailed order summary showing popcorn selection and toppings*
-
-
-
-
-**Payment Processing**: If payment fails, the order is cancelled and the customer must restart. No product is dispensed until payment is confirmed successful.
-
-
-
+The payment screen shows the complete order summary with itemized selections and total. Customers pay via credit card, cash (if installed), or loyalty credits. Payment must complete successfully before production begins; failed payments cancel the order.
 
 ### Step 4: Production & Dispensing
 
-Once payment is confirmed, the Pop Cart begins fresh popcorn production:
-
-
-
-
-
-
-
-
-**Heating Cycle**
-
-Heating elements warm to optimal popping temperature
-
-
-
-
-
-
-
-
-
-**Kernel & Oil Release**
-
-Precise amounts of kernels and oil dispense into popping chamber
-
-
-
-
-
-
-
-
-
-**Popping Process**
-
-Kernels pop fresh while customer waits (approximately 90-120 seconds)
-
-
-
-
-
-
-
-
-
-**Seasoning Application**
-
-Selected toppings automatically dispense onto fresh popcorn
-
-
-
-
-
-
-
-
-
-**Cup Positioning**
-
-System signals customer to place cup in dispensing window
-
-
-
-
-
-
-
-
-
-**Dispensing**
-
-Fresh, seasoned popcorn fills the cup automatically
-
-
-
-
-
-
-
-
 ![Branded Cup in Dispensing Position](./assets/operation/popcorn_cup_dispensing_position.webp)
-*Customer places branded cup in dispensing slot for filling*
 
-**Cup Positioning:**
-- Customer places cup in stainless steel dispensing slot
-- Sensors detect proper cup placement
-- System dispenses measured portion into cup
-- Customer retrieves filled cup from window
+After payment, the machine automatically heats, pops kernels, applies toppings, and signals the customer to place their cup for filling (~90-120 seconds total). Customers should not reach into the dispensing window until the cycle completes.
 
 
 
 
-**CAUTION**: Customers should not reach into the dispensing window until the cycle is complete. Popcorn and internal components may be hot during production.
+**CAUTION**: Popcorn and internal components may be hot during production.
 
 
 
 
-### Step 5: Order Completion
-
-![Order Complete - Enjoy Your Meal Screen](./assets/operation/operation_completion_enjoy_meal.webp)
-*Completion screen with thank you message*
-
-After successful dispensing:
-
-1. **Completion Message**: "Enjoy your meal!" displays with branding
-2. **Receipt** (if configured): Printed or emailed receipt provided
-3. **Screen Reset**: System returns to welcome screen for next customer
-4. **Cleaning Cycle**: Internal cleaning sequence may run between orders
+**Customer Assistance:**
+- Back button allows customers to change selections before payment
+- Screen timeout resets to welcome after 60 seconds of inactivity
+- Manual topping additions (like blue popcorn kernels) can be offered as premium add-ons by extending dispensing window access time in settings
 
 <hr>
 
-## Topping Addition Demonstration
-
-For customers adding additional toppings manually (blue popcorn kernels, candies, or other mix-ins):
-
-
-
-
-
-
-
-
-<h3>Position Topping Cup</h3>
-Hold topping cup (blue popcorn kernels, candy pieces, etc.) above the dispensing chamber opening.
-
-
-
-
-![Blue Popcorn Kernels Cup Ready](./assets/operation/kernels_ready_to_pour.webp)
-
-
-
-
-
-
-
-
-
-<h3>Begin Pouring</h3>
-Slowly pour toppings into the chamber while popcorn is dispensing or after dispensing is complete.
-
-
-
-
-![Pouring Blue Popcorn Kernels](./assets/operation/kernels_dispensing_demo_step2.webp)
-
-
-
-
-
-
-
-
-
-<h3>Mix with Popcorn</h3>
-Toppings will mix with popcorn as they fall through the chamber into the cup below.
-
-
-
-
-![Blue Popcorn Kernels Over Chamber](./assets/operation/kernels_dispensing_demo_step1.webp)
-
-
-
-
-
-
-
-
-
-
-
-Manual topping additions (like blue popcorn kernels) can be offered as premium add-ons. Configure the system to allow extended dispensing window access time for these customizations.
-
-
-
-
-<hr>
-
-## User Interface Navigation
-
-![Touchscreen Back Button](./assets/operation/touchscreen_back_button_interface.webp)
-*Navigation controls including Back button for correcting selections*
-
-**Customer Navigation:**
-- **Back Button**: Returns to previous screen to change selections
-- **Continue Button**: Advances to next step in ordering process
-- **Tab Navigation**: Visual indicators show current step (Popcorn → Topping → Payment)
-- **Timeout**: Screen resets to welcome if inactive for 60 seconds
-
-**Interface Features:**
-- Vintage carnival-themed graphics maintain Pop Cart aesthetic
-- Large touch targets for easy selection
-- Clear visual feedback for all interactions
-- Progress indicators show order flow position
-
-<hr>
-
-## Operator Menu Access
-
-Operators can access advanced settings and diagnostics through a protected menu:
-
-### Accessing Operator Mode
-
-
-
-
-
-
-
-
-From the welcome screen, tap the Sweet Robo logo in the corner (hold for 3 seconds)
-
-
-
-
-
-
-
-
-
-Enter operator PIN code when prompted (default: check machine documentation or contact support)
-
-
-
-
-
-
-
-
-
-Operator menu displays with configuration and diagnostic options
-
-
-
-
-
-
-
+## Admin Interface
 
 ![Admin Login Screen](./assets/operation/admin_login_password_entry.webp)
-*Admin login screen with password entry for secure access to management system*
 
-
-
-
-The admin interface is built into the machine's app and accessed directly on the touchscreen. WiFi connectivity is required for backend data tracking and reporting, but all management functions are performed locally on the device.
-
-
-
+Access the admin interface by tapping and holding the Sweet Robo logo on the welcome screen (3 seconds), then entering your operator PIN. All management functions are performed locally on the touchscreen; WiFi is only required for backend data sync.
 
 ### Management Dashboard
 
-After logging in, operators see the main management dashboard with four primary sections:
-
 ![Admin Management Dashboard](./assets/operation/admin_manage_dashboard_four_tiles.webp)
-*Main dashboard with Device, Testing, Statistics, and Inventory management tiles*
 
-The dashboard provides quick access to:
-- **Device**: Machine settings, WiFi configuration, payment methods, popcorn parameters
-- **Testing**: Diagnostic tools, sensor testing, dispenser controls
-- **Statistics**: Sales tracking, revenue reports, transaction history
-- **Inventory**: Stock levels, cup count, popcorn and seasoning management
+The dashboard provides access to **Device** (WiFi, payment methods, popcorn parameters), **Testing** (diagnostics, sensors, dispensers), **Statistics** (sales, revenue, reports), and **Inventory** (stock, pricing).
 
-### Device Settings
+**Key Configuration Screens:**
 
 ![Device Settings Screen](./assets/operation/admin_device_settings_wifi_payment.webp)
-*Device configuration including WiFi setup, device ID, I/O board connections, and payment methods*
 
-**Configuration Options:**
-- **WiFi Setup**: Connect to network for backend data sync (only setting requiring external configuration)
-- **Device ID**: Unique machine identifier for tracking
-- **I/O Board**: Hardware interface connections and status
-- **Payment Methods**: Enable/disable credit card, cash, or other payment options
-- **System Settings**: Temperature units, language, timezone
+- **Device Settings**: WiFi setup (only external configuration required), payment methods, device ID, system settings
+- **Popcorn Parameters**: Temperature, speed, and timing controls for both chambers
 
-![Popcorn Cooking Parameters](./assets/operation/admin_device_popcorn_parameters.webp)
-*Dual-side popcorn cooking parameters with temperature, speed, and timing controls*
+### Inventory & Pricing
 
-**Popcorn Parameters:**
-- **Temperature Control**: Set optimal popping temperature for each side
-- **Popping Speed**: Adjust rotation speed for consistent results
-- **Timing**: Configure heating, popping, and dispensing cycles
-- **Dual-Side Settings**: Independent parameters for left and right chambers
 
-### Inventory Management
 
 ![Inventory - Popcorn and Cups](./assets/operation/admin_inventory_popcorn_cup_count.webp)
-*Cup inventory count and popcorn flavor management with pricing*
-
-**Popcorn & Cups:**
-- **Cup Count**: Track remaining cups (shows current count)
-- **Popcorn Varieties**: Manage available flavors with individual pricing
-- **Stock Levels**: Monitor supply levels and set low-stock alerts
-- **Pricing**: Configure per-item pricing for each variety
-
 ![Inventory - Seasonings](./assets/operation/admin_inventory_seasonings_list.webp)
-*Seasoning inventory showing five flavors with pricing, quantities, and lane assignments*
 
-**Seasoning Management:**
-- **Five Lanes**: Track individual seasoning dispensers (Lanes 1-5)
-- **Flavor Types**: Assign flavors to specific dispenser lanes
-- **Quantities**: Monitor remaining seasoning levels per lane
-- **Pricing**: Set individual prices for each topping option
-- **Lane Assignment**: Configure which physical dispenser contains each flavor
+
+
+Manage stock levels, configure pricing, and assign seasonings to the 5 dispenser lanes. Track cup count, popcorn varieties, and seasoning quantities. All pricing changes take effect immediately on the customer interface.
 
 ### Statistics & Sales
 
 ![Statistics Dashboard](./assets/operation/admin_statistics_sales_dashboard.webp)
-*Sales tracking dashboard showing total sales count, income, and change metrics*
 
-**Sales Tracking:**
-- **Total Sales**: Complete transaction count for reporting period
-- **Total Income**: Revenue generated (shown in local currency)
-- **Change Given**: Cash transaction tracking (if cash payment enabled)
-- **Transaction History**: Detailed logs of individual sales
-- **Export Data**: Generate reports for accounting purposes
-
-
-
-
-Backend data tracking syncs sales statistics and inventory levels to web-based reporting when WiFi is connected. This enables remote monitoring and multi-location management.
-
-
-
+View sales count, total income, and transaction history. Export data for accounting. Backend syncing (when WiFi connected) enables remote monitoring across multiple locations.
 
 
 
@@ -1786,284 +1249,34 @@ Keep operator PIN codes secure and confidential. Unauthorized access to operator
 
 <hr>
 
-## Test Mode
-
-Operators can run test cycles and diagnostics without charging customers:
+## Testing & Diagnostics
 
 
-
-
-
-
-
-
-Enter Operator Menu (see above)
-
-
-
-
-
-
-
-
-
-Select "Testing" from the management dashboard
-
-
-
-
-
-
-
-
-
-Choose component to test (sensors, dispensers, temperature, etc.)
-
-
-
-
-
-
-
-
-
-System runs test without customer payment required
-
-
-
-
-
-
-
-
-
-Observe results and verify proper operation
-
-
-
-
-
-
-
-
-
-Exit Test Mode to return to normal customer operation
-
-
-
-
-
-
-
-
-### Temperature & Sensor Testing
 
 ![Testing Controls - Temperature and Sensors](./assets/operation/admin_testing_controls_temperature.webp)
-*Temperature monitoring and sensor testing for dual-side popcorn chambers*
-
-**Testing Features:**
-- **Sensor Testing**: Verify all sensors are responding correctly
-- **Temperature Monitoring**: Check real-time temperature readings for both sides
-- **Speed Controls**: Test chamber rotation speed
-- **Dual-Side Testing**: Independent testing for left and right chambers
-- **Sensor Status**: Visual indicators show sensor health
-
-### Dispenser & Lane Testing
-
 ![Testing Controls - Cargo Lanes](./assets/operation/admin_testing_cargo_lane_controls.webp)
-*Cargo lane testing interface for seasoning dispensers and hopper cleaning*
 
-**Dispenser Controls:**
-- **Cargo Lanes 1-5**: Individual testing for each seasoning dispenser
-- **Dispense Test**: Trigger manual dispensing to verify mechanism operation
-- **Hopper Cleaning**: Run cleaning cycles for both popcorn hoppers
-- **Lane Status**: Check if each dispenser is functioning properly
-- **Clear Jams**: Manual controls for clearing dispenser blockages
 
-**Recommended Test Schedule:**
-- **Daily**: Quick dispense test at startup
-- **Weekly**: Complete popping cycle test with both storage containers
-- **Monthly**: Full system diagnostic including all sensors and dispensers
+
+Access Testing from the management dashboard to run diagnostics without charging customers. Test sensors, temperature, chamber speed, and all 5 seasoning dispensers individually. Run hopper cleaning cycles and clear jams.
+
+**Test Schedule:** Daily (quick dispense test), Weekly (complete popping cycle), Monthly (full system diagnostic)
 
 <hr>
 
-## Assisting Customers
+## Daily Operations
 
-### Common Customer Questions
+**Startup:** Verify supply levels (both hoppers, 5 seasoning lanes, cups), check for errors, run test cycle.
 
-**"How long does it take?"**
-- Fresh popcorn takes approximately 90-120 seconds from payment to dispensing
-- Customers can watch the popping process through the dispensing window
+**Customer Assistance:** Process takes 90-120 seconds. Back button allows selection changes before payment. For errors or issues, see [Troubleshooting](troubleshooting.md).
 
-**"Can I get no toppings?"**
-- Yes, customers can skip the topping screen by pressing Continue without selecting
+**End of Day:** Run sales report, empty cash box (if applicable), check supply levels, basic cleaning (see [Maintenance](maintenance.md)), secure machine.
 
-**"What if I selected the wrong thing?"**
-- Use the Back button before payment to return and change selections
-- After payment, refunds must be processed through operator menu
+**Best Practices:** Keep supplies stocked for peak hours, clean surfaces regularly, run diagnostics daily, use sales data to optimize inventory.
 
-**"The machine says error - what do I do?"**
-- Note the error message displayed
-- Contact operator/staff for assistance
-- Refer to [Troubleshooting](troubleshooting.md) section
+---
 
-### Handling Issues During Service
-
-
-
-
-
-
-
-#### Payment Declined
-Inform customer their payment was not accepted. Suggest trying different card or cash payment. Order will not proceed without successful payment.
-
-
-
-
-
-
-
-#### Dispenser Jam
-If popcorn does not dispense properly, enter operator mode and run dispenser diagnostic. May require manual clearing (see Troubleshooting).
-
-
-
-
-
-
-
-#### Out of Supply
-If kernel, seasoning, or cup supply is depleted, system alerts operator. Temporarily disable affected options until restocked.
-
-
-
-
-
-
-
-#### Screen Unresponsive
-If touchscreen becomes unresponsive, perform soft reset through power cycle. May indicate calibration needed.
-
-
-
-
-
-
-
-<hr>
-
-## End of Day Procedures
-
-At the close of operations each day:
-
-
-
-
-
-
-
-
-**Run Sales Report**
-
-Access operator menu and generate end-of-day sales report. Record transactions and revenue.
-
-
-
-
-
-
-
-
-
-**Empty Cash Box** (if applicable)
-
-Remove and secure cash from payment system following your facility's cash handling procedures.
-
-
-
-
-
-
-
-
-
-**Check Supply Levels**
-
-Note which consumables need restocking for next operating day. Order supplies as needed.
-
-
-
-
-
-
-
-
-
-**Perform Basic Cleaning**
-
-Wipe down touchscreen and exterior surfaces. Clean dispensing window. See Maintenance section for details.
-
-
-
-
-
-
-
-
-
-**Enable Overnight Mode** (optional)
-
-Some operators power down machines overnight or enable energy-saving mode through operator settings.
-
-
-
-
-
-
-
-
-
-**Secure Machine**
-
-Lock service doors, enable security features if available, and secure the area.
-
-
-
-
-
-
-
-
-<hr>
-
-## Best Practices
-
-### Maximizing Customer Satisfaction
-
-- **Keep it stocked**: Never run out of popular items during peak hours
-- **Stay clean**: Wipe exterior surfaces multiple times per day
-- **Test regularly**: Catch and fix small issues before they affect customers
-- **Monitor remotely**: Use remote management to track performance in real-time
-- **Respond quickly**: Address error alerts promptly to minimize downtime
-
-### Optimizing Performance
-
-- **Track popular items**: Use sales data to stock appropriate ratios of varieties and toppings
-- **Peak hour prep**: Ensure full supply levels before busy periods
-- **Temperature management**: Maintain proper ambient temperature for consistent popping
-- **Regular maintenance**: Follow preventive maintenance schedule (see Maintenance section)
-- **Staff training**: Ensure multiple staff members understand operation and basic troubleshooting
-
-<hr>
-
-## Next Steps
-
-- **[Maintenance](maintenance.md)** - Learn cleaning procedures and supply restocking
-- **[Troubleshooting](troubleshooting.md)** - Diagnose and resolve common issues
-- **[Parts & Service](parts-service.md)** - Component identification and service contacts
-
-For operational support questions, contact Sweet Robo: [Company Information](../shared/company-info.md)
+For support, see [Company Information](../shared/company-info.md) | Learn more: [Maintenance](maintenance.md) · [Troubleshooting](troubleshooting.md) · [Parts & Service](parts-service.md)
 
 
 ---
@@ -2155,318 +1368,25 @@ Comprehensive service, electrical inspection, safety system verification
 
 ## Daily Maintenance
 
-### Exterior Cleaning
+**Cleaning:** Wipe touchscreen with microfiber cloth, clean exterior panels with damp cloth and mild detergent, clean dispensing window, dust decorative elements.
 
-
-
-
-
-
-
-
-**Touchscreen Display**
-
-Use a microfiber cloth slightly dampened with water or approved screen cleaner. Avoid harsh chemicals or abrasive materials.
-
-
-
-
-
-
-
-
-
-**Exterior Surfaces**
-
-Wipe down all exterior panels with damp cloth and mild detergent. Pay special attention to high-touch areas.
-
-
-
-
-
-
-
-
-
-**Dispensing Window**
-
-Clean glass with glass cleaner and lint-free cloth. Remove any popcorn residue or fingerprints.
-
-
-
-
-
-
-
-
-
-**Decorative Elements**
-
-Dust carnival canopy and decorative wheels. Maintain the attractive appearance to draw customers.
-
-
-
-
-
-
-
-
-### Supply Level Check
-
-
-
-
-
-
-
-
-Check kernel hopper level - refill if below 25%
-
-
-
-
-
-
-
-
-
-Verify each seasoning dispenser has adequate supply
-
-
-
-
-
-
-
-
-
-Confirm cup dispenser is fully stocked
-
-
-
-
-
-
-
-
-
-Check oil/butter reservoir level
-
-
-
-
-
-
-
-
-
-Note any supplies needed for next restocking
-
-
-
-
-
-
-
+**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock, check oil/butter reservoir.
 
 <hr>
 
 ## Weekly Maintenance
 
-### Interior Cleaning
 
 
 
+**WARNING**: Disconnect power and wait 30 minutes for cooling before interior cleaning.
 
-**WARNING**: Disconnect power and allow all components to cool before performing interior cleaning. Lock out power source to prevent accidental startup.
 
 
 
+**Interior Cleaning:** Remove unpopped kernels from both chambers, wipe interior walls with food-safe cleaner, clean heating elements with dry brush (never wet), wash dispensing chute with hot soapy water, clean sensors with dry cloth.
 
-
-1. Prepare for Cleaning
-
-
-
-
-
-
-
-
-
-Power off the machine and disconnect from electrical outlet
-
-
-
-
-
-
-
-
-
-Wait 30 minutes for heating elements to cool completely
-
-
-
-
-
-
-
-
-
-Unlock and open service access door with provided key
-
-
-
-
-
-
-
-
-
-Gather cleaning supplies: food-safe cleaner, microfiber cloths, soft brushes, sanitizer
-
-
-
-
-
-
-
-
-
-2. Clean Popping Chambers
-
-
-
-
-
-
-
-
-
-Remove any unpopped kernels or debris from cylinders A and B
-
-
-
-
-
-
-
-
-
-Wipe interior walls with food-safe cleaner and soft cloth
-
-
-
-
-
-
-
-
-
-Clean heating elements carefully with dry brush (do not wet electrical components)
-
-
-
-
-
-
-
-
-
-Inspect for any buildup or damage requiring attention
-
-
-
-
-
-
-
-
-
-3. Clean Dispensing System
-
-
-
-
-
-
-
-
-
-Remove and wash stainless steel dispensing chute with hot soapy water
-
-
-
-
-
-
-
-
-
-Clean sensors and detection points with dry microfiber cloth
-
-
-
-
-
-
-
-
-
-Verify smooth operation of dispensing mechanism
-
-
-
-
-
-
-
-
-
-Reinstall chute ensuring proper seating and alignment
-
-
-
-
-
-
-
-
-### Empty Waste Collection
-
-
-
-
-
-
-
-
-Remove waste collection bin from lower compartment
-
-
-
-
-
-
-
-
-
-Dispose of unpopped kernels and popcorn waste properly
-
-
-
-
-
-
-
-
-
-Wash bin with hot soapy water and dry completely
-
-
-
-
+**Waste Collection:** Empty and wash waste bin.
 
 
 

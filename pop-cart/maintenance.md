@@ -47,199 +47,23 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 ## Daily Maintenance
 
-### Exterior Cleaning
+**Cleaning:** Wipe touchscreen with microfiber cloth, clean exterior panels with damp cloth and mild detergent, clean dispensing window, dust decorative elements.
 
-<div class="numbered-steps">
-
-<div>
-<div>
-**Touchscreen Display**<br>
-Use a microfiber cloth slightly dampened with water or approved screen cleaner. Avoid harsh chemicals or abrasive materials.
-</div>
-</div>
-
-<div>
-<div>
-**Exterior Surfaces**<br>
-Wipe down all exterior panels with damp cloth and mild detergent. Pay special attention to high-touch areas.
-</div>
-</div>
-
-<div>
-<div>
-**Dispensing Window**<br>
-Clean glass with glass cleaner and lint-free cloth. Remove any popcorn residue or fingerprints.
-</div>
-</div>
-
-<div>
-<div>
-**Decorative Elements**<br>
-Dust carnival canopy and decorative wheels. Maintain the attractive appearance to draw customers.
-</div>
-</div>
-
-</div>
-
-### Supply Level Check
-
-<div class="numbered-steps">
-
-<div>
-<div>
-Check kernel hopper level - refill if below 25%
-</div>
-</div>
-
-<div>
-<div>
-Verify each seasoning dispenser has adequate supply
-</div>
-</div>
-
-<div>
-<div>
-Confirm cup dispenser is fully stocked
-</div>
-</div>
-
-<div>
-<div>
-Check oil/butter reservoir level
-</div>
-</div>
-
-<div>
-<div>
-Note any supplies needed for next restocking
-</div>
-</div>
-
-</div>
+**Supplies:** Check kernel hoppers (refill if below 25%), verify 5 seasoning dispensers, confirm cup stock, check oil/butter reservoir.
 
 <hr class="section-divider">
 
 ## Weekly Maintenance
 
-### Interior Cleaning
-
 <div class="warning-box">
 
-**WARNING**: Disconnect power and allow all components to cool before performing interior cleaning. Lock out power source to prevent accidental startup.
+**WARNING**: Disconnect power and wait 30 minutes for cooling before interior cleaning.
 
 </div>
 
-<div class="step-header">1. Prepare for Cleaning</div>
+**Interior Cleaning:** Remove unpopped kernels from both chambers, wipe interior walls with food-safe cleaner, clean heating elements with dry brush (never wet), wash dispensing chute with hot soapy water, clean sensors with dry cloth.
 
-<div class="numbered-steps">
-
-<div>
-<div>
-Power off the machine and disconnect from electrical outlet
-</div>
-</div>
-
-<div>
-<div>
-Wait 30 minutes for heating elements to cool completely
-</div>
-</div>
-
-<div>
-<div>
-Unlock and open service access door with provided key
-</div>
-</div>
-
-<div>
-<div>
-Gather cleaning supplies: food-safe cleaner, microfiber cloths, soft brushes, sanitizer
-</div>
-</div>
-
-</div>
-
-<div class="step-header">2. Clean Popping Chambers</div>
-
-<div class="numbered-steps">
-
-<div>
-<div>
-Remove any unpopped kernels or debris from cylinders A and B
-</div>
-</div>
-
-<div>
-<div>
-Wipe interior walls with food-safe cleaner and soft cloth
-</div>
-</div>
-
-<div>
-<div>
-Clean heating elements carefully with dry brush (do not wet electrical components)
-</div>
-</div>
-
-<div>
-<div>
-Inspect for any buildup or damage requiring attention
-</div>
-</div>
-
-</div>
-
-<div class="step-header">3. Clean Dispensing System</div>
-
-<div class="numbered-steps">
-
-<div>
-<div>
-Remove and wash stainless steel dispensing chute with hot soapy water
-</div>
-</div>
-
-<div>
-<div>
-Clean sensors and detection points with dry microfiber cloth
-</div>
-</div>
-
-<div>
-<div>
-Verify smooth operation of dispensing mechanism
-</div>
-</div>
-
-<div>
-<div>
-Reinstall chute ensuring proper seating and alignment
-</div>
-</div>
-
-</div>
-
-### Empty Waste Collection
-
-<div class="numbered-steps">
-
-<div>
-<div>
-Remove waste collection bin from lower compartment
-</div>
-</div>
-
-<div>
-<div>
-Dispose of unpopped kernels and popcorn waste properly
-</div>
-</div>
-
-<div>
-<div>
-Wash bin with hot soapy water and dry completely
-</div>
-</div>
+**Waste Collection:** Empty and wash waste bin.
 
 <div>
 <div>
