@@ -369,6 +369,18 @@ If a label becomes damaged or unreadable, it must be replaced before the machine
 
 ---
 
+## Certifications & Compliance
+
+<div class="info-box">
+
+✅ **Certifications & Compliance**
+
+Sweet Robo's Robo Ice Cream machine is **ETL-listed** (UL-571, UL 197, CSA C22.2#128, CSA C22.2#109 for electrical safety) and holds a **NAMA** (NSF- Std. 25 equivalent) **food vending machine sanitation safety certification** – required for legal operation in many U.S. states and international markets.
+
+</div>
+
+---
+
 ## Training Requirements
 
 All operators must be trained on:
