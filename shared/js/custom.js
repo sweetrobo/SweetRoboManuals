@@ -751,14 +751,140 @@
   }
 
   /* ========================================
+       Print Page TOC Generation
+       ======================================== */
+
+  function generatePrintTOC() {
+    if (!isPrintPage()) {
+      return;
+    }
+
+    // Check if TOC already exists
+    if (document.getElementById("print-toc-container")) {
+      return;
+    }
+
+    // Wait for DOM to be fully loaded
+    setTimeout(() => {
+      // Collect all headings (h1, h2, h3) from the document
+      const headings = Array.from(
+        document.querySelectorAll("h1, h2, h3"),
+      ).filter((h) => {
+        // Exclude headings in the title page or hidden sections
+        const isInTitlePage = h.closest(".title-page");
+        const isHidden = h.closest(
+          '.no-print, .dev-only, [style*="display: none"]',
+        );
+        const isStylingDemo =
+          h.textContent.includes("Styling Demo") ||
+          h.textContent.includes("Styling Guide");
+        const isCSSTest = h.textContent.includes("CSS Test");
+
+        return !isInTitlePage && !isHidden && !isStylingDemo && !isCSSTest;
+      });
+
+      if (headings.length === 0) {
+        console.log("No headings found for TOC generation");
+        return;
+      }
+
+      // Create TOC container
+      const tocContainer = document.createElement("div");
+      tocContainer.id = "print-toc-container";
+      tocContainer.className = "print-toc-container";
+
+      // Create TOC header
+      const tocHeader = document.createElement("div");
+      tocHeader.className = "print-toc-header";
+      tocHeader.innerHTML = "<h1>Table of Contents</h1>";
+      tocContainer.appendChild(tocHeader);
+
+      // Create TOC list
+      const tocList = document.createElement("div");
+      tocList.className = "print-toc-list";
+
+      let currentSection = null;
+      let currentSubsection = null;
+
+      headings.forEach((heading, index) => {
+        const level = parseInt(heading.tagName.substring(1));
+        const text = heading.textContent.trim();
+
+        // Skip empty headings
+        if (!text) return;
+
+        // Create TOC entry
+        const tocEntry = document.createElement("div");
+        tocEntry.className = `print-toc-entry print-toc-level-${level}`;
+
+        // Create the text span
+        const textSpan = document.createElement("span");
+        textSpan.className = "print-toc-text";
+        textSpan.textContent = text;
+
+        // Create the dots leader span
+        const dotsSpan = document.createElement("span");
+        dotsSpan.className = "print-toc-dots";
+
+        // Create the page number span (will be filled by CSS counter)
+        const pageSpan = document.createElement("span");
+        pageSpan.className = "print-toc-page";
+
+        tocEntry.appendChild(textSpan);
+        tocEntry.appendChild(dotsSpan);
+        tocEntry.appendChild(pageSpan);
+
+        // Organize by hierarchy
+        if (level === 1) {
+          currentSection = tocEntry;
+          currentSubsection = null;
+          tocList.appendChild(tocEntry);
+        } else if (level === 2 && currentSection) {
+          currentSubsection = tocEntry;
+          tocList.appendChild(tocEntry);
+        } else if (level === 3 && currentSubsection) {
+          tocList.appendChild(tocEntry);
+        }
+      });
+
+      tocContainer.appendChild(tocList);
+
+      // Insert TOC after the title page or at the beginning of content
+      const titlePage = document.querySelector(".title-page");
+      const content = document.querySelector("main, #content, .content");
+
+      if (titlePage && titlePage.nextSibling) {
+        titlePage.parentNode.insertBefore(tocContainer, titlePage.nextSibling);
+      } else if (content && content.firstChild) {
+        content.insertBefore(tocContainer, content.firstChild);
+      } else {
+        document.body.insertBefore(tocContainer, document.body.firstChild);
+      }
+
+      console.log(`Generated TOC with ${headings.length} entries`);
+    }, 500); // Wait for content to load
+  }
+
+  /* ========================================
        Print Page Modifications
        ======================================== */
 
   function modifyPrintPage() {
     // This works on all pages, not just print.html
 
+    // Generate TOC when entering print mode
+    if (isPrintPage()) {
+      // Use a longer delay to ensure all content is loaded
+      setTimeout(() => {
+        generatePrintTOC();
+      }, 1000);
+    }
+
     // Find and remove introduction chapter from print view
     window.addEventListener("beforeprint", function () {
+      // Generate TOC on all pages before printing (always generate it)
+      generatePrintTOC();
+
       // For print.html, hide the entire chapter
       if (isPrintPage()) {
         const chapters = document.querySelectorAll(".chapter");

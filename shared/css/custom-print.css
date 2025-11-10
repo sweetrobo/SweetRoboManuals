@@ -509,23 +509,231 @@ LAYOUT RECOMMENDATIONS:
   /* =================================== */
   /* TITLE PAGE */
   /* =================================== */
-  
+
   .title-page {
     page-break-after: always !important;
     min-height: 29.7cm !important;
-    /* height: 100vh !important;
-    width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
     padding: 0 !important;
-    margin: 0 !important; */
+    margin: 0 !important;
+    box-sizing: border-box !important;
   }
-  
+
+  /* Title page header - ensure logo stays on the right */
+  .title-page-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 5px 10px !important;
+    margin-bottom: 0.5em !important;
+    border-bottom: 2px solid #ddd !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .title-page-header .title {
+    flex: 1 !important;
+    text-align: left !important;
+    font-size: 1.2em !important;
+    color: #333 !important;
+  }
+
+  .title-page-header .logo {
+    flex-shrink: 0 !important;
+    height: 40px !important;
+    width: auto !important;
+    margin-left: auto !important;
+  }
+
+  /* Center title page machine image properly */
+  .title-page-main {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-grow: 1 !important;
+  }
+
+  .title-page .machine-image {
+    max-width: 80% !important;
+    max-height: calc(29.7cm * 0.5) !important;
+    width: auto !important;
+    height: auto !important;
+    margin: auto !important;
+    display: block !important;
+    object-fit: contain !important;
+  }
+
+  /* Title page footer - constrain to page width */
+  .title-page-footer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-end !important;
+    width: 100% !important;
+    max-width: 21cm !important;
+    padding: 2em 0.5cm 0.5cm 0.5cm !important;
+    margin: 0 auto !important;
+    border-top: 2px solid #ddd !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Footer left section - revision info */
+  .footer-left {
+    flex: 0 0 auto !important;
+    min-width: 100px !important;
+    max-width: 120px !important;
+    text-align: left !important;
+    padding: 0 !important;
+  }
+
+  .footer-left p {
+    margin: 0.2em 0 !important;
+    font-size: 0.8em !important;
+    color: #666 !important;
+  }
+
+  /* Constrain footer machine image */
+  .footer-machine-image {
+    flex: 1 1 auto !important;
+    max-width: 60% !important;
+    max-height: calc(29.7cm * 0.2) !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain !important;
+    margin: 0 0.5cm !important;
+  }
+
+  /* Footer right section - QR code */
+  .footer-right {
+    flex: 0 0 auto !important;
+    min-width: 80px !important;
+    max-width: 100px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    text-align: center !important;
+  }
+
+  /* Constrain QR code size for print */
+  .footer-right .qr-code-wrapper {
+    width: 80px !important;
+    max-width: 80px !important;
+  }
+
+  .footer-right .qr-code-wrapper img,
+  .footer-right .qr-code,
+  .title-page .qr-code-wrapper img,
+  .title-page .qr-code {
+    max-width: 80px !important;
+    max-height: 80px !important;
+    width: 80px !important;
+    height: 80px !important;
+    padding: 4px !important;
+    box-sizing: border-box !important;
+  }
+
+  .footer-right .qr-code-description {
+    font-size: 0.65em !important;
+    line-height: 1.2 !important;
+    margin-top: 0.3em !important;
+    color: #666 !important;
+  }
+
+  /* =================================== */
+  /* TABLE OF CONTENTS (TOC) */
+  /* =================================== */
+
+  .print-toc-container {
+    page-break-after: always !important;
+    page-break-before: auto !important;
+    page-break-inside: avoid !important;
+    padding: 2cm 1cm !important;
+    margin: 0 !important;
+  }
+
+  .print-toc-header h1 {
+    font-size: 24pt !important;
+    font-weight: bold !important;
+    color: #2c5282 !important;
+    text-align: center !important;
+    margin-bottom: 1.5cm !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  .print-toc-list {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-toc-entry {
+    display: flex !important;
+    align-items: baseline !important;
+    margin: 0.3cm 0 !important;
+    padding: 0 !important;
+    line-height: 1.4 !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Level 1 (h1) - Main sections */
+  .print-toc-level-1 {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    margin-top: 0.5cm !important;
+    padding-left: 0 !important;
+  }
+
+  /* Level 2 (h2) - Subsections */
+  .print-toc-level-2 {
+    font-size: 11pt !important;
+    font-weight: normal !important;
+    color: #333 !important;
+    padding-left: 0.5cm !important;
+  }
+
+  /* Level 3 (h3) - Sub-subsections */
+  .print-toc-level-3 {
+    font-size: 10pt !important;
+    font-weight: normal !important;
+    color: #666 !important;
+    padding-left: 1cm !important;
+  }
+
+  .print-toc-text {
+    flex-shrink: 0 !important;
+    padding-right: 0.3cm !important;
+  }
+
+  .print-toc-dots {
+    flex-grow: 1 !important;
+    border-bottom: 1px dotted #999 !important;
+    margin: 0 0.2cm !important;
+    height: 0.7em !important;
+  }
+
+  .print-toc-page {
+    flex-shrink: 0 !important;
+    padding-left: 0.3cm !important;
+    min-width: 1cm !important;
+    text-align: right !important;
+    font-weight: normal !important;
+  }
+
+  /* Page number pseudo-content - Note: This won't work in most browsers for PDF generation,
+     but it's here for completeness. Browsers typically don't support target-counter() */
+  .print-toc-page::after {
+    content: "•" !important;
+  }
+
   /* .title-page .footer-machine-image {
     max-height: 7in !important;
   } */
-  
+
   /* Ensure title page links are not clickable in print */
   .title-page h1 a,
   .title-page h2 a {
@@ -748,6 +956,11 @@ LAYOUT RECOMMENDATIONS:
 @media screen {
   /* Hide print-only content on screen, except when body has show-print-content class */
   body:not(.show-print-content) .print-only {
+    display: none !important;
+  }
+
+  /* Hide TOC on screen - it should only appear when printing */
+  .print-toc-container {
     display: none !important;
   }
 }
