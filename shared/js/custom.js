@@ -872,19 +872,8 @@
   function modifyPrintPage() {
     // This works on all pages, not just print.html
 
-    // Generate TOC when entering print mode
-    if (isPrintPage()) {
-      // Use a longer delay to ensure all content is loaded
-      setTimeout(() => {
-        generatePrintTOC();
-      }, 1000);
-    }
-
     // Find and remove introduction chapter from print view
     window.addEventListener("beforeprint", function () {
-      // Generate TOC on all pages before printing (always generate it)
-      generatePrintTOC();
-
       // For print.html, hide the entire chapter
       if (isPrintPage()) {
         const chapters = document.querySelectorAll(".chapter");

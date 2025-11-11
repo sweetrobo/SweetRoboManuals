@@ -1,6 +1,7 @@
 # Summary
 
 [Title Page](title-page.md)
+[Table of Contents](toc.md)
 
 # User Guide
 

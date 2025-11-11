@@ -512,13 +512,17 @@ LAYOUT RECOMMENDATIONS:
 
   .title-page {
     page-break-after: always !important;
+    page-break-inside: avoid !important;
     min-height: 29.7cm !important;
+    max-height: 29.7cm !important;
+    height: 29.7cm !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
     padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box !important;
+    overflow: hidden !important;
   }
 
   /* Title page header - ensure logo stays on the right */
@@ -647,87 +651,57 @@ LAYOUT RECOMMENDATIONS:
   /* TABLE OF CONTENTS (TOC) */
   /* =================================== */
 
-  .print-toc-container {
-    page-break-after: always !important;
-    page-break-before: auto !important;
-    page-break-inside: avoid !important;
-    padding: 2cm 1cm !important;
-    margin: 0 !important;
-  }
-
-  .print-toc-header h1 {
-    font-size: 24pt !important;
-    font-weight: bold !important;
+  /* TOC main heading - title page already has page-break-after */
+  #table-of-contents {
+    font-size: 28pt !important;
+    margin-bottom: 0.8cm !important;
     color: #2c5282 !important;
-    text-align: center !important;
-    margin-bottom: 1.5cm !important;
-    padding: 0 !important;
-    background: none !important;
   }
 
-  .print-toc-list {
-    margin: 0 !important;
-    padding: 0 !important;
+  /* TOC section headings (User Guide, Reference) */
+  #user-guide,
+  #reference {
+    font-size: 16pt !important;
+    margin-top: 0.6cm !important;
+    margin-bottom: 0.3cm !important;
+    color: #2c5282 !important;
+    page-break-after: avoid !important;
   }
 
-  .print-toc-entry {
-    display: flex !important;
-    align-items: baseline !important;
-    margin: 0.3cm 0 !important;
-    padding: 0 !important;
-    line-height: 1.4 !important;
+  /* Keep TOC sections together with their lists */
+  #user-guide,
+  #reference {
     page-break-inside: avoid !important;
   }
 
-  /* Level 1 (h1) - Main sections */
-  .print-toc-level-1 {
+  /* TOC list items */
+  #table-of-contents ~ ol,
+  #table-of-contents ~ h2 ~ ol,
+  #table-of-contents ~ h2 ~ ul,
+  #user-guide ~ ol,
+  #reference ~ ul {
+    line-height: 1.8 !important;
     font-size: 12pt !important;
-    font-weight: bold !important;
-    color: #000 !important;
-    margin-top: 0.5cm !important;
-    padding-left: 0 !important;
+    page-break-inside: avoid !important;
   }
 
-  /* Level 2 (h2) - Subsections */
-  .print-toc-level-2 {
-    font-size: 11pt !important;
-    font-weight: normal !important;
+  /* Individual TOC list items */
+  #table-of-contents ~ ol li,
+  #table-of-contents ~ h2 ~ ol li,
+  #table-of-contents ~ h2 ~ ul li,
+  #user-guide ~ ol li,
+  #reference ~ ul li {
+    margin-bottom: 0.2cm !important;
+  }
+
+  /* TOC links should look like regular text in print */
+  #table-of-contents ~ ol a,
+  #table-of-contents ~ h2 ~ ol a,
+  #table-of-contents ~ h2 ~ ul a,
+  #user-guide ~ ol a,
+  #reference ~ ul a {
     color: #333 !important;
-    padding-left: 0.5cm !important;
-  }
-
-  /* Level 3 (h3) - Sub-subsections */
-  .print-toc-level-3 {
-    font-size: 10pt !important;
-    font-weight: normal !important;
-    color: #666 !important;
-    padding-left: 1cm !important;
-  }
-
-  .print-toc-text {
-    flex-shrink: 0 !important;
-    padding-right: 0.3cm !important;
-  }
-
-  .print-toc-dots {
-    flex-grow: 1 !important;
-    border-bottom: 1px dotted #999 !important;
-    margin: 0 0.2cm !important;
-    height: 0.7em !important;
-  }
-
-  .print-toc-page {
-    flex-shrink: 0 !important;
-    padding-left: 0.3cm !important;
-    min-width: 1cm !important;
-    text-align: right !important;
-    font-weight: normal !important;
-  }
-
-  /* Page number pseudo-content - Note: This won't work in most browsers for PDF generation,
-     but it's here for completeness. Browsers typically don't support target-counter() */
-  .print-toc-page::after {
-    content: "•" !important;
+    text-decoration: none !important;
   }
 
   /* .title-page .footer-machine-image {
@@ -959,9 +933,5 @@ LAYOUT RECOMMENDATIONS:
     display: none !important;
   }
 
-  /* Hide TOC on screen - it should only appear when printing */
-  .print-toc-container {
-    display: none !important;
-  }
 }
 
