@@ -17,7 +17,7 @@ Only use genuine Sweet Robo replacement parts. Third-party or unapproved parts m
 ### Control System Components
 
 <img src="./assets/parts-service/electronics_control_board_assembly.webp" alt="Control Board Assembly with Connectors and Wiring" />
-*Main control board assembly showing circuit board, connectors, and power cables*
+<p><em>Main control board assembly showing circuit board, connectors, and power cables</em></p>
 
 **Control Board Assembly**
 
@@ -43,7 +43,7 @@ The main control board manages all machine functions including heating, dispensi
 <img src="./assets/parts-service/dispensing_chamber_interior_detail.webp" alt="Interior Detail of Dispensing Chamber" />
 </div>
 
-*Dispensing chute assembly (left) and interior chamber mechanism (right)*
+<p><em>Dispensing chute assembly (left) and interior chamber mechanism (right)</em></p>
 
 **Dispensing Chute Assembly**
 
@@ -74,7 +74,7 @@ The stainless steel dispensing chute guides popcorn from the production cylinder
 ### Kernel Storage System
 
 <img src="./assets/parts-service/kernel_hopper_opening_assembly.webp" alt="Kernel Hopper Opening with White Rim and Mounting Hardware" />
-*Top-down view of kernel hopper assembly and loading access point*
+<p><em>Top-down view of kernel hopper assembly and loading access point</em></p>
 
 **Kernel Hopper Assembly**
 
@@ -91,7 +91,7 @@ The kernel hopper stores popcorn kernels and feeds them to the metering system. 
 
 **Service Notes:**
 - Inspect seal integrity monthly
-- Clean interior quarterly to prevent oil buildup
+- Clean interior quarterly to prevent residue buildup
 - Verify level sensors functioning properly
 - Check for kernel bridging or jamming
 - Replace seals if leaking or damaged
@@ -103,14 +103,14 @@ The kernel hopper stores popcorn kernels and feeds them to the metering system. 
 <img src="./assets/parts-service/parts_door_lock_mechanism_detail.webp" alt="Door Lock Mechanism Detail with Blue Indicator" />
 </div>
 
-*Front door lock assembly (left) and internal lock mechanism with status indicator (right)*
+<p><em>Front door lock assembly (left) and internal lock mechanism with status indicator (right)</em></p>
 
 **Door Lock System**
 
 The Pop Cart features keyed lock access for operator service and security. The lock mechanism includes visual status indicators showing locked/unlocked state.
 
 <img src="./assets/parts-service/parts_door_lock_closeup_indicator.webp" alt="Close-up of Lock Mechanism with Blue Indicator" />
-*Detailed view of lock mechanism showing blue locked status indicator*
+<p><em>Detailed view of lock mechanism showing blue locked status indicator</em></p>
 
 **Lock Components:**
 - Black exterior lock handle with keyhole
