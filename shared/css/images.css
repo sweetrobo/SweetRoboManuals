@@ -133,14 +133,23 @@ img {
 /* IMAGE CAPTIONS */
 /* =================================== */
 
-/* Style for italic text immediately after images */
+/* Remove paragraph margins when it immediately follows an image and contains a caption */
+img + p {
+  margin-top: 0;    /* Remove top margin - caption handles its own spacing */
+  margin-bottom: 0; /* Remove bottom margin - caption handles its own spacing */
+}
+
+/* Style for italic text in captions (paragraphs after images) */
+img + p em,
 p em {
   font-style: italic;
   color: var(--text-caption);
   text-align: center;
   display: block;
-  margin-top: 8px;
+  margin-top: 8px;      /* Keep caption close to image */
+  margin-bottom: 1.5em; /* Add space after caption to separate from next content */
   font-size: 0.9em;
+  line-height: 1.4;     /* Improve readability */
 }
 
 /* Direct caption styling */
