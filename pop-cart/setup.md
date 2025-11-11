@@ -353,7 +353,7 @@ Before operation, the machine requires:
 <div class="feature-item">
 
 #### Popcorn Kernels
-Fill kernel hopper with approved popcorn kernels. Recommended: Amish Country Popcorn Blue variety or equivalent.
+Fill kernel hopper with **Sweet Robo branded popcorn kernels only**. Machine settings are calibrated and tested specifically for Sweet Robo kernels.
 
 </div>
 

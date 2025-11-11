@@ -79,15 +79,23 @@ Reinstall clean bin in proper position
 
 ### Popcorn Kernels
 
-<img src="./assets/maintenance/popcorn-kernels-blue-package-front.webp" alt="Amish Country Popcorn Blue Variety Package" />
-*Recommended: Amish Country Popcorn Blue or Yellow variety (contact support for other approved brands)*
+<div class="important-box">
+
+**IMPORTANT: Use Only Sweet Robo Popcorn Kernels**
+
+The Pop Cart is calibrated and tested exclusively with Sweet Robo branded popcorn kernels. Our cooking parameters, temperature settings, and timing controls are optimized for these specific kernels to ensure consistent quality and optimal popping performance. Using other brands may result in poor popping results, increased waste, or machine errors.
+
+</div>
+
+<img src="./assets/maintenance/popcorn-kernels-blue-package-front.webp" alt="Sweet Robo Popcorn Kernels Package" />
+<p><em>Use only Sweet Robo branded popcorn kernels - machine settings are optimized for these kernels</em></p>
 
 <div class="side-by-side-images">
 <img src="./assets/maintenance/supply_popcorn_kernels_bag.webp" alt="Popcorn Kernel Bag Size Reference" />
 <img src="./assets/maintenance/popcorn-kernels-best-before-label.webp" alt="Best Before Date Label" />
 </div>
 
-*6-pound bag size and best-before date label*
+<p><em>6-pound bag size and best-before date label</em></p>
 
 **Loading Procedure:**
 

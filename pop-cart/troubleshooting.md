@@ -276,14 +276,14 @@ WiFi or ethernet connection interrupted. Check network settings in [Admin Interf
 **Possible Causes**:
 - Empty kernel hopper
 - Heating element failure
-- Kernel metering mechanism jammed
+- Kernel feed blockage
 - Temperature sensor fault
 
 **Solutions**:
 1. Verify kernel hopper has adequate supply (check through inspection window)
 2. Check for error codes related to heating or temperature
 3. Run diagnostic test through operator menu
-4. Inspect kernel metering mechanism for jams
+4. Inspect kernel feed path for blockages or jams
 5. Contact Sweet Robo if heating elements need replacement
 
 </div>
@@ -295,14 +295,15 @@ WiFi or ethernet connection interrupted. Check network settings in [Admin Interf
 **Symptoms**: Lots of unpopped kernels in finished product
 
 **Possible Causes**:
-- Old or poor quality kernels
+- Old or expired kernels
+- Using non-Sweet Robo branded kernels
 - Incorrect popping temperature
 - Heating element degraded
 
 **Solutions**:
 1. Check kernel expiration date and freshness
-2. Run temperature calibration through operator menu
-3. Replace with fresh, approved kernels
+2. Verify you are using Sweet Robo branded kernels only
+3. Run temperature calibration through operator menu
 4. Contact Sweet Robo if heating elements need inspection
 
 </div>
@@ -505,7 +506,7 @@ If machine performance gradually declines:
 - Review maintenance log to ensure schedule is followed
 - Perform deep cleaning of all components
 - Check for worn parts requiring replacement
-- Verify consumable quality (fresh kernels)
+- Verify consumable quality (fresh Sweet Robo branded kernels)
 - Run full system diagnostic through operator menu
 
 ### Unusual Noises
