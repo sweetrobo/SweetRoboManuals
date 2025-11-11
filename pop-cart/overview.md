@@ -1,7 +1,7 @@
 # Overview
 
 <img src="./assets/overview/machine_full_view_front.webp" alt="Pop Cart Popcorn Vending Machine - Full Front View" />
-*Pop Cart - Vintage carnival-style automated popcorn vending machine*
+<p><em>Pop Cart - Vintage carnival-style automated popcorn vending machine</em></p>
 
 ## About the Pop Cart
 
@@ -96,7 +96,7 @@ Eye-catching carnival cart design with red and white striped awning, decorative 
 
 <div class="spec-row">
 <div class="spec-label">Dimensions (W×D×H)</div>
-<div class="spec-value">520 × 450 × 1720 mm (20.5 × 17.7 × 67.7 in)</div>
+<div class="spec-value">947 × 654 × 2097 mm with sign (37.3 × 25.7 × 82.6 in)<br>947 × 654 × 1720 mm without sign (37.3 × 25.7 × 67.7 in)</div>
 </div>
 
 <div class="spec-row">
@@ -106,12 +106,12 @@ Eye-catching carnival cart design with red and white striped awning, decorative 
 
 <div class="spec-row">
 <div class="spec-label">Power Voltage</div>
-<div class="spec-value">110-125V AC (US variant) or 220-240V AC (International variant)</div>
+<div class="spec-value">110V AC (US variant) or 220V AC (International variant)</div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Power Consumption</div>
-<div class="spec-value">Max 2200 W (20A @ 110V, 10A @ 220V)</div>
+<div class="spec-value">800-2200W (20A @ 110V, 10A @ 220V)</div>
 </div>
 
 <div class="spec-row">
@@ -161,7 +161,7 @@ The Pop Cart requires adequate ventilation and climate-controlled indoor environ
 The Pop Cart features a distinctive vintage carnival cart aesthetic designed to attract customers and complement entertainment venues. The red and white striped canopy, decorative yellow wheels, and classic popcorn branding create an inviting presence.
 
 <img src="./assets/overview/dispensing_window_internal_mechanism.webp" alt="Pop Cart Dispensing Window with Internal Heating Elements" />
-*Front dispensing window showing internal popping chamber with heating elements*
+<p><em>Front dispensing window showing internal popping chamber with heating elements</em></p>
 
 **Customer Interaction Points:**
 - **Touchscreen Display**: Primary customer interface for selections and payment
@@ -171,11 +171,12 @@ The Pop Cart features a distinctive vintage carnival cart aesthetic designed to 
 ### Internal Component Layout
 
 <div class="side-by-side-images">
-<img src="./assets/overview/overview_interior_full_view_side.webp" alt="Pop Cart Interior Full Side View" />
-<img src="./assets/overview/overview_interior_full_view_angle.webp" alt="Pop Cart Interior Angled View" />
+<img src="./assets/parts-service/electronics_control_board_assembly.webp" alt="Pop Cart Control Board Assembly with Connectors and Wiring" />
+<img src="./assets/parts-service/kernel_hopper_opening_assembly.webp" alt="Cup Holding and Positioning Mechanism - Top-Down View" />
+<img src="./assets/parts-service/dispensing_chamber_interior_detail.webp" alt="Stainless Steel Dispensing Chamber Interior Detail" />
 </div>
 
-*Complete interior layout showing multi-level component organization*
+<p><em>Left: Control board assembly (upper level). Center: Cup holding and positioning mechanism. Right: Dispensing chamber mechanism (lower level)</em></p>
 
 The Pop Cart interior is organized into distinct functional zones for efficient operation and maintenance:
 
@@ -196,16 +197,15 @@ The Pop Cart interior is organized into distinct functional zones for efficient 
 - Service access panels
 
 <img src="./assets/overview/dual-popcorn-dispensers-interior.webp" alt="Dual Popcorn Dispensing Cylinders Labeled A and B" />
-*Dual popcorn dispensing cylinders labeled A and B*
+<p><em>Dual popcorn dispensing cylinders labeled A and B</em></p>
 
 ### Dual Dispensing System
 
 The Pop Cart features two independent popcorn cylinders (A and B) providing operational flexibility:
 
 - **Independent Operation**: Each cylinder operates separately for reliability and continuous service
-- **Flexible Configuration**: Use both for the same variety or offer customers different options
 - **Storage Capacity**: 3 kg per cylinder (6 kg total)
-- **Transparent Design**: Visible popcorn display creates customer excitement
+- **Transparent Design**: Visible popcorn display
 
 <hr class="section-divider">
 
@@ -214,17 +214,16 @@ The Pop Cart features two independent popcorn cylinders (A and B) providing oper
 ### 1. Production System
 The Pop Cart's production system handles the complete popping process from kernel storage through finished product:
 
-- **Kernel Metering**: Precise measurement ensures consistent batch sizes
 - **Heat Management**: Controlled heating elements maintain ideal popping temperatures
-- **Quality Monitoring**: Sensors detect pop completion and prevent burning
+- **Quality Monitoring**: Temperature sensors and precisely timed cooking cycles ensure consistent results
 
 ### 2. Dispensing Mechanism
 Once popping is complete, the automated dispensing system delivers popcorn to customers:
 
-- **Gravity Feed**: Dual cylinders use gravity to move popcorn downward
+- **Air-Driven Movement**: Hot air and popping action propel kernels forward and downward into collection cylinders
 - **Portion Control**: Measured dispensing ensures consistent serving sizes
 - **Cup Positioning**: Sensors detect proper cup placement before dispensing
-- **Chute Design**: Stainless steel curved chute guides popcorn smoothly
+- **Chute Design**: Stainless steel curved chute guides popcorn smoothly into cups
 
 ### 3. Control System
 An integrated electronic control system manages all machine functions:
