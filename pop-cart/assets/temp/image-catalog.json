@@ -62,22 +62,24 @@
     },
     {
       "original_filename": "photo_4_2025-10-22_17-06-26.jpg",
-      "suggested_filename": "kernel_hopper_opening_assembly.webp",
-      "description": "Top-down view of kernel hopper opening with white rim guide and mounting hardware, showing dark interior chamber",
+      "suggested_filename": "cup_holder_positioning_mechanism.webp",
+      "description": "Top-down view of cup holding and dropping mechanism with white rim guide and mounting hardware for positioning cups during dispensing",
       "content_type": "photo",
       "suggested_category": "parts-service",
       "tags": [
-        "hopper",
-        "kernel-storage",
+        "cup-holder",
+        "cup-positioning",
+        "dispensing-mechanism",
+        "cup-drop",
         "assembly",
         "top-view",
-        "loading",
         "components"
       ],
       "dimensions": "964x1280",
-      "notes": "Shows hopper assembly and access point for kernel loading - good for operation and maintenance sections",
+      "notes": "Shows cup holder mechanism assembly used for positioning and dropping cups during the popcorn dispensing process - good for parts identification and maintenance sections",
       "processed": true,
-      "final_location": "assets/parts-service/kernel_hopper_opening_assembly.webp"
+      "final_location": "assets/parts-service/kernel_hopper_opening_assembly.webp",
+      "correction_note": "Originally mislabeled as kernel hopper - actually shows cup holding and dropping mechanism"
     },
     {
       "original_filename": "photo_5_2025-10-22_17-06-26.jpg",
