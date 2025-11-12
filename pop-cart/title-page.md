@@ -20,7 +20,7 @@
         <div class="qr-code-wrapper">
             <a href="https://manuals.sweetrobo.com/pop-cart/" class="qr-code-link">
                 <span class="qr-tooltip">View Online Manual</span>
-                <img src="./assets/troubleshooting/qr-code-manual-temp.webp" alt="QR Code for Online Manual" />
+                <img src="./assets/images/header/http-qr-sweetrobo-com-manual-popcart.jpg" alt="QR Code for Online Manual" />
                 <div class="qr-code-description print-only">Scan for latest<br/>online manual</div>
             </a>
         </div>
