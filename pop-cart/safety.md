@@ -404,7 +404,7 @@ All operators must be trained on:
 In case of any doubts, concerns, emergencies related to the machine's operation, or if servicing is required:
 
 * **Emergency Support:** support@sweetrobo.com | +1-844-SWEETRB
-* For complete contact information, see [Company Information](../shared/company-info.md)
+* For complete contact information, see [Company Information](../shared/content/company-info.md)
 
 Remember that failure to adhere to these safety precautions could result in injuries, damage to the machine, or hazardous situations. By following these guidelines, you ensure a safe and enjoyable experience while using the Pop Cart.
 

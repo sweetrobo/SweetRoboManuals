@@ -175,10 +175,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 
 ### Power and Electrical
 
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
-
 #### Machine Won't Power On
 
 **Symptoms**: No lights, screen dark, no response
@@ -196,10 +192,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Contact electrician if outlet is faulty
 5. Contact Sweet Robo if internal fuse issue suspected
 
-</div>
-
-<div class="feature-item">
-
 #### Intermittent Power Loss
 
 **Symptoms**: Machine randomly shuts off or reboots
@@ -216,15 +208,7 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 3. Have electrician test voltage stability
 4. Contact Sweet Robo for internal diagnostics
 
-</div>
-
-</div>
-
 ### Touchscreen Issues
-
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
 
 #### Screen Not Responding
 
@@ -241,10 +225,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 3. Clean screen with microfiber cloth (dirt can affect sensitivity)
 4. If persistent, contact Sweet Robo for service
 
-</div>
-
-<div class="feature-item">
-
 #### Display Flickering or Distorted
 
 **Symptoms**: Screen flashes, colors wrong, lines visible
@@ -259,15 +239,7 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 2. Check for any loose connections (if accessible)
 3. Contact Sweet Robo for hardware repair
 
-</div>
-
-</div>
-
 ### Popping and Dispensing
-
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
 
 #### No Popcorn Popping
 
@@ -286,10 +258,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Inspect kernel feed path for blockages or jams
 5. Contact Sweet Robo if heating elements need replacement
 
-</div>
-
-<div class="feature-item">
-
 #### Insufficient Popping / Many Unpopped Kernels
 
 **Symptoms**: Lots of unpopped kernels in finished product
@@ -306,10 +274,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 3. Run temperature calibration through operator menu
 4. Contact Sweet Robo if heating elements need inspection
 
-</div>
-
-<div class="feature-item">
-
 #### Popcorn Burns or Smokes
 
 **Symptoms**: Burnt smell, dark popcorn, smoke visible
@@ -325,10 +289,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 3. Access operator menu and reduce temperature settings
 4. Run diagnostic to check temperature sensors
 5. Contact Sweet Robo if issue persists
-
-</div>
-
-<div class="feature-item">
 
 #### Dispensing Jams Frequently
 
@@ -347,15 +307,7 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Ensure proper ambient humidity (not too high)
 5. Contact Sweet Robo for parts replacement if needed
 
-</div>
-
-</div>
-
 ### Seasoning System
-
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
 
 #### Seasonings Not Dispensing
 
@@ -374,10 +326,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Verify seasoning is enabled in system settings
 5. Contact Sweet Robo if mechanical repair needed
 
-</div>
-
-<div class="feature-item">
-
 #### Excessive Seasoning Dispensed
 
 **Symptoms**: Too much seasoning on popcorn, waste
@@ -394,15 +342,7 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Document settings before and after adjustment
 5. Contact Sweet Robo if calibration doesn't resolve issue
 
-</div>
-
-</div>
-
 ### Payment System
-
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
 
 #### Card Reader Not Working
 
@@ -422,10 +362,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 5. Contact payment processor support
 6. Contact Sweet Robo for hardware replacement if needed
 
-</div>
-
-<div class="feature-item">
-
 #### Cash Acceptor Rejects Bills
 
 **Symptoms**: Bills returned, not accepted
@@ -443,15 +379,7 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Run cash system diagnostic
 5. Contact Sweet Robo for calibration or repair
 
-</div>
-
-</div>
-
 ### Supply and Sensor Issues
-
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
 
 #### False "Empty Supply" Warnings
 
@@ -470,10 +398,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 5. Temporarily disable problematic sensor alerts if necessary
 6. Contact Sweet Robo for sensor replacement
 
-</div>
-
-<div class="feature-item">
-
 #### Cup Detection Errors
 
 **Symptoms**: Machine says no cup when cup is present
@@ -491,10 +415,6 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Test sensor in operator diagnostic mode
 5. Contact Sweet Robo if sensor needs replacement
 
-</div>
-
-</div>
-
 <hr class="section-divider">
 
 ## Maintenance-Related Problems
@@ -511,19 +431,11 @@ If machine performance gradually declines:
 
 ### Unusual Noises
 
-<div class="feature-grid grid-2">
-
-<div class="feature-item">
-
 #### Grinding or Scraping
 
 **Possible Causes**: Worn bearings, foreign object, mechanical binding
 
 **Action**: Stop use immediately, inspect mechanism, remove debris, lubricate as needed, replace worn parts
-
-</div>
-
-<div class="feature-item">
 
 #### Clicking or Rattling
 
@@ -531,29 +443,17 @@ If machine performance gradually declines:
 
 **Action**: Inspect for loose parts, tighten fasteners, verify all components properly secured
 
-</div>
-
-<div class="feature-item">
-
 #### Buzzing or Humming
 
 **Possible Causes**: Electrical issue, failing motor, loose electrical connection
 
 **Action**: Check electrical connections, run diagnostic, contact Sweet Robo if electrical problem
 
-</div>
-
-<div class="feature-item">
-
 #### Excessive Fan Noise
 
 **Possible Causes**: Dirty fan, failing bearing, blocked airflow
 
 **Action**: Clean fan and vents, verify proper ventilation clearance, replace fan if bearing failing
-
-</div>
-
-</div>
 
 <hr class="section-divider">
 
@@ -639,7 +539,7 @@ Never attempt repairs beyond your skill level. Some repairs require certified te
 
 **Sweet Robo Technical Support**
 
-For troubleshooting assistance, see complete contact information including phone, email, and business hours: [Company Information](../shared/company-info.md)
+For troubleshooting assistance, see complete contact information including phone, email, and business hours: [Company Information](../shared/content/company-info.md)
 
 **When Contacting Support, Have Ready:**
 - Machine serial number (located on data plate)
@@ -674,4 +574,4 @@ Avoid problems before they occur:
 - **[Parts & Service](parts-service.md)** - Component identification and replacement
 - **[Operation Guide](operation.md)** - Review proper operation procedures
 
-For technical support, contact Sweet Robo: [Company Information](../shared/company-info.md)
+For technical support, contact Sweet Robo: [Company Information](../shared/content/company-info.md)
