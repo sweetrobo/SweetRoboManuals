@@ -393,8 +393,11 @@ All components automatically adapt to:
 
 ## Internal Links in mdBook
 
+### mdBook Markdown Limitation
+
+**IMPORTANT:** mdBook does not process markdown syntax inside raw HTML tags (like `<div>`). Markdown links `[text](url)` will appear as plain text (not clickable) when placed inside HTML elements.
+
 ### Cross-Reference Links
-When linking between manual sections:
 
 #### In Regular Markdown Content
 ```markdown
@@ -413,10 +416,18 @@ Access backend system (see <a href="./operation.html#device-testing---component-
 
 **Important Notes:**
 - mdBook converts `.md` files to `.html` in rendered output
-- Use `.html` extension for links: `operation.html` not `operation.md`
+- **In markdown context**: Use `.md` extension → `operation.md#section-id`
+- **In HTML elements**: Use `.html` extension → `operation.html#section-id`
 - Anchors are generated from headings using lowercase with hyphens
 - Example: `### Device Testing - Component Control` becomes `#device-testing---component-control`
-- Inside HTML elements, markdown links won't be processed - use `<a href="">` tags
+- Inside HTML elements, markdown links won't be processed - always use `<a href="">` tags
+
+### Common HTML Contexts Requiring HTML Links
+- `<div class="numbered-steps">` - Sequential instruction steps
+- `<div class="numbered-steps-with-images">` - Visual step guides
+- `<div class="feature-grid">` and `<div class="feature-item">` - Feature showcases
+- Callout boxes: `warning-box`, `caution-box`, `info-box`, `important-box`
+- Any custom HTML structure
 
 ## Numbered Steps with Images
 

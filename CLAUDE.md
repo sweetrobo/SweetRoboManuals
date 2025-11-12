@@ -99,3 +99,40 @@ Use the `dev.sh` script to start development servers:
 - **Use extraction and reuse** - Extract common patterns into reusable functions/styles
 - **Dynamic over static** - Use JavaScript to dynamically apply styles rather than duplicating CSS
 - **Example**: Print preview extracts @media print styles dynamically instead of duplicating them in a separate CSS file
+
+## mdBook Cross-References and Links
+
+### Important Limitation: Markdown Inside HTML
+
+**mdBook does not process markdown syntax inside raw HTML tags.** This means markdown links `[text](url)` will appear as plain text (not clickable) when inside HTML elements like `<div>`.
+
+### When to Use HTML vs Markdown Links
+
+**Use HTML anchor tags inside HTML elements:**
+```html
+<div class="numbered-steps">
+<div>
+<div>
+See <a href="operation.html#admin-interface">Admin Interface</a> for details
+</div>
+</div>
+</div>
+```
+
+**Use markdown syntax in plain markdown:**
+```markdown
+For specifications, see [Overview](overview.md#technical-specifications)
+```
+
+### Link Path Convention
+- **In markdown**: Use `.md` extension → `operation.md#section-id`
+- **In HTML elements**: Use `.html` extension → `operation.html#section-id`
+- mdBook converts `.md` to `.html` during build
+
+### Common HTML Contexts Requiring HTML Links
+- `<div class="numbered-steps">` - Sequential instruction steps
+- `<div class="feature-grid">` and `<div class="feature-item">` - Feature showcases
+- Callout boxes: `warning-box`, `caution-box`, `info-box`, `important-box`
+- Any custom HTML structure
+
+**Note:** Each manual's CLAUDE.md contains additional detail and examples specific to that manual's content structure.
