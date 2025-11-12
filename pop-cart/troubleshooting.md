@@ -523,7 +523,7 @@ Never attempt repairs beyond your skill level. Some repairs require certified te
 
 **Sweet Robo Technical Support**
 
-For troubleshooting assistance, see complete contact information including phone, email, and business hours: [Company Information](../shared/content/company-info.md)
+For troubleshooting assistance, see complete contact information including phone, email, and business hours: [Company Information](shared/content/company-info.md)
 
 **When Contacting Support, Have Ready:**
 - Machine serial number (located on data plate)
@@ -558,4 +558,4 @@ Avoid problems before they occur:
 - **[Parts & Service](parts-service.md)** - Component identification and replacement
 - **[Operation Guide](operation.md)** - Review proper operation procedures
 
-For technical support, contact Sweet Robo: [Company Information](../shared/content/company-info.md)
+For technical support, contact Sweet Robo: [Company Information](shared/content/company-info.md)

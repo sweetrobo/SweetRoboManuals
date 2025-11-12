@@ -252,4 +252,4 @@ Now that you understand the Pop Cart's capabilities and components, proceed to:
 - **[Operation Guide](operation.md)** - Master daily operations and customer service procedures
 - **[Maintenance](maintenance.md)** - Establish cleaning schedules and preventive maintenance routines
 
-For immediate assistance or technical support, see [Company Information](../shared/content/company-info.md).
+For immediate assistance or technical support, see [Company Information](shared/content/company-info.md).

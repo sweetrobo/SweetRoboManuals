@@ -215,4 +215,4 @@ Access Testing from the management dashboard to run diagnostics without charging
 
 ---
 
-For support, see [Company Information](../shared/content/company-info.md) | Learn more: [Maintenance](maintenance.md) · [Troubleshooting](troubleshooting.md) · [Parts & Service](parts-service.md)
+For support, see [Company Information](shared/content/company-info.md) | Learn more: [Maintenance](maintenance.md) · [Troubleshooting](troubleshooting.md) · [Parts & Service](parts-service.md)

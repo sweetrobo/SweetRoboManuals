@@ -354,7 +354,7 @@ Stock common replacement parts on-site to minimize downtime. Recommended spare p
 
 For parts ordering, technical support, and service scheduling, see complete contact information:
 
-**[Company Information](../shared/content/company-info.md)**
+**[Company Information](shared/content/company-info.md)**
 
 ### Service Types
 
@@ -665,4 +665,4 @@ When retiring a Pop Cart from service:
 - **[Troubleshooting](troubleshooting.md)** - Diagnose and resolve issues
 - **[Operation Guide](operation.md)** - Daily operation procedures
 
-For parts ordering or service requests, contact Sweet Robo: [Company Information](../shared/content/company-info.md)
+For parts ordering or service requests, contact Sweet Robo: [Company Information](shared/content/company-info.md)

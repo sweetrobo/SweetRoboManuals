@@ -566,4 +566,4 @@ For persistent issues, refer to the [Troubleshooting](troubleshooting.md) sectio
 - **[Parts & Service](parts-service.md)** - Component identification and replacement procedures
 - **[Operation Guide](operation.md)** - Return to daily operation procedures
 
-For maintenance support, contact Sweet Robo: [Company Information](../shared/content/company-info.md)
+For maintenance support, contact Sweet Robo: [Company Information](shared/content/company-info.md)

@@ -24,7 +24,7 @@
 
 ## Support
 
-For technical support, refer to [Sweet Robo Contact Information](../shared/content/company-info.md).
+For technical support, refer to [Sweet Robo Contact Information](shared/content/company-info.md).
 
 <div class="conditional-content" data-show-when="dev">
 
