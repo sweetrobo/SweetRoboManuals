@@ -131,7 +131,7 @@ Machine cannot detect cup presence. Verify cup is properly positioned and sensor
 
 **ERR-004: Payment System Fault**
 
-Payment processing failure. Restart payment system through [Admin Interface](operation.md#admin-interface). Clean card reader. Verify network connection. Contact payment processor if unresolved.
+Payment processing failure. Restart payment system through <a href="operation.html#admin-interface">Admin Interface</a>. Clean card reader. Verify network connection. Contact payment processor if unresolved.
 
 </div>
 
@@ -147,7 +147,7 @@ Kernel supply below minimum operating level. Refill both kernel hoppers using [S
 
 **ERR-006: Seasoning Dispenser Fault**
 
-Seasoning dispenser clogged or empty. Check seasoning levels and refill if needed. Inspect dispenser opening for clogs. Run dispenser test through [Admin Interface](operation.md#admin-interface).
+Seasoning dispenser clogged or empty. Check seasoning levels and refill if needed. Inspect dispenser opening for clogs. Run dispenser test through <a href="operation.html#admin-interface">Admin Interface</a>.
 
 </div>
 
@@ -163,7 +163,7 @@ Service door is open or interlock switch malfunctioning. Ensure all doors are fu
 
 **ERR-008: Network Connection Lost**
 
-WiFi or ethernet connection interrupted. Check network settings in [Admin Interface](operation.md#admin-interface). Machine will continue operating without network but backend sync will be disabled. See [Setup](setup.md) for network configuration.
+WiFi or ethernet connection interrupted. Check network settings in <a href="operation.html#admin-interface">Admin Interface</a>. Machine will continue operating without network but backend sync will be disabled. See <a href="setup.html">Setup</a> for network configuration.
 
 </div>
 
@@ -565,7 +565,7 @@ Access advanced diagnostics through the operator menu:
 
 <div>
 <div>
-Enter operator menu (see [Admin Interface](operation.md#admin-interface) for access instructions)
+Enter operator menu (see <a href="operation.html#admin-interface">Admin Interface</a> for access instructions)
 </div>
 </div>
 

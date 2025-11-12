@@ -294,6 +294,42 @@ Designed for straightforward access to popping chamber, seasoning dispensers, an
 5. **Use image placeholders** until real images are available
 6. **Maintain consistent spacing** between sections
 
+## Cross-References and Links
+
+### mdBook Markdown Limitation
+
+**IMPORTANT:** mdBook does not process markdown syntax inside raw HTML tags (like `<div>`). This means markdown links `[text](url)` will appear as plain text instead of clickable links when placed inside HTML elements.
+
+#### When to Use HTML Links vs Markdown Links
+
+**Use HTML anchor tags** when inside any HTML element:
+```html
+<!-- Inside numbered-steps, feature-grids, callout boxes, or any <div> -->
+<div class="numbered-steps">
+<div>
+<div>
+Access the operator menu (see <a href="operation.html#admin-interface">Admin Interface</a> for details)
+</div>
+</div>
+</div>
+```
+
+**Use markdown syntax** when in plain markdown (not inside HTML tags):
+```markdown
+For complete specifications, see [Overview](overview.md#technical-specifications)
+```
+
+#### Link Path Convention
+- **In source files**: Reference other markdown files: `operation.md#section-id`
+- **In HTML elements**: Use `.html` extension: `operation.html#section-id`
+- mdBook automatically converts `.md` to `.html` during build
+
+#### Common Locations Requiring HTML Links
+- Inside `<div class="numbered-steps">`
+- Inside `<div class="feature-grid">` and `<div class="feature-item">`
+- Inside callout boxes (`warning-box`, `caution-box`, `info-box`, `important-box`)
+- Inside any custom HTML structure
+
 ## Responsive Design
 All components automatically adapt to:
 - Desktop (full layouts)

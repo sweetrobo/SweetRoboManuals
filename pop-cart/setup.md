@@ -148,6 +148,131 @@ Check for accessory boxes or consumables packed inside the machine (cups, kernel
 
 <hr class="section-divider">
 
+## Assembly Steps
+
+The Pop Cart requires some assembly upon delivery. These components need to be installed before operation.
+
+### 1. Install Wheels
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Position Wheel Mounts</h3>
+Locate the four wheel assemblies and corresponding mounting points on the machine base.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Attach Wheels</h3>
+Secure each wheel assembly using the provided bolts and washers. Tighten securely but do not overtighten.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Verify Stability</h3>
+Ensure all four wheels are firmly attached and the machine sits level.
+</div>
+</div>
+
+</div>
+
+<div class="image-placeholder">IMAGE: WHEEL ASSEMBLY INSTALLATION</div>
+
+### 2. Install Signs and Branding Panels
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Attach Branding Panels</h3>
+Locate the decorative branding panels and align them with the mounting points on the machine exterior.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Secure Panels</h3>
+Use the provided hardware to bolt panels in place. Ensure panels are aligned and flush with the machine body.
+</div>
+</div>
+
+</div>
+
+<div class="image-placeholder">IMAGE: BRANDING PANEL INSTALLATION</div>
+
+### 3. Install Roof Assembly
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Position Roof</h3>
+Carefully lift the striped canopy roof assembly and align with the mounting brackets on top of the machine.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Secure Roof</h3>
+Bolt the roof assembly in place using the provided hardware. Verify the roof is stable and properly aligned.
+</div>
+</div>
+
+</div>
+
+<div class="image-placeholder">IMAGE: ROOF ASSEMBLY INSTALLATION</div>
+
+### 4. Install Kernel and Cup Holder Tubes
+
+<div class="important-box">
+
+**IMPORTANT: Cup Holder Tube Sensor Alignment**
+
+The cup holder tube has a slot at the bottom that must be aligned with the cup sensor. Be extremely careful when installing or removing this tube - the cup sensor is fragile and can be easily damaged.
+
+</div>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Install Kernel Tubes A & B</h3>
+Insert the kernel feed tubes (labeled A and B) into their respective mounting positions. Ensure tubes are fully seated and secure.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Align Cup Holder Tube</h3>
+Carefully insert the cup holder tube, aligning the bottom slot with the cup sensor. Do not force - the tube should slide into place smoothly.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Verify Sensor Alignment</h3>
+Check that the cup sensor is properly aligned with the tube slot and is not bent or damaged.
+</div>
+</div>
+
+</div>
+
+<div class="warning-box">
+
+**WARNING**: Do not force the cup holder tube into position. If resistance is felt, remove the tube and check for obstructions. Forcing the tube can break the cup sensor, preventing proper operation.
+
+</div>
+
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: KERNEL TUBES A & B INSTALLATION</div>
+<div class="image-placeholder">IMAGE: CUP HOLDER TUBE WITH SENSOR ALIGNMENT</div>
+</div>
+
+<hr class="section-divider">
+
 ## Positioning the Machine
 
 <div class="caution-box">
@@ -180,19 +305,13 @@ Ensure the machine is not blocking emergency exits, fire equipment, or facility 
 
 </div>
 
-<div class="step-header">2. Level the Machine</div>
+<div class="step-header">2. Verify Machine Stability</div>
 
 <div class="numbered-steps">
 
 <div>
 <div>
-Use a bubble level to check that the machine is level front-to-back and side-to-side.
-</div>
-</div>
-
-<div>
-<div>
-Adjust leveling feet as needed to compensate for floor irregularities.
+Use a bubble level to check that the machine is level front-to-back and side-to-side on the floor surface.
 </div>
 </div>
 
@@ -204,7 +323,13 @@ Verify the machine does not rock or wobble when gently pushed.
 
 <div>
 <div>
-Lock leveling feet in position once the machine is level and stable.
+If the floor is uneven, consider using thin shims under the wheels to achieve proper leveling.
+</div>
+</div>
+
+<div>
+<div>
+Engage wheel locks (if equipped) to prevent the machine from rolling during operation.
 </div>
 </div>
 
@@ -212,7 +337,7 @@ Lock leveling feet in position once the machine is level and stable.
 
 <div class="info-box">
 
-Proper leveling is critical for accurate popcorn dispensing and prevents uneven wear on internal components. Take time to ensure the machine is perfectly level.
+Proper leveling is critical for accurate popcorn dispensing and prevents uneven wear on internal components. The Pop Cart is equipped with wheels for mobility - ensure the machine is stable and level before operation.
 
 </div>
 
@@ -338,7 +463,7 @@ Verify the customer interface displays the welcome screen correctly.
 
 <div>
 <div>
-Access the operator menu to configure initial settings (see [Admin Interface](operation.md#admin-interface)).
+Access the operator menu to configure initial settings (see <a href="operation.html#admin-interface">Admin Interface</a>).
 </div>
 </div>
 

@@ -32,7 +32,7 @@ The Pop Cart produces fresh popcorn on-demand using fully automated popping, fla
 <div class="feature-item">
 
 #### Fresh Popping System
-Advanced dual-cylinder popping mechanism creates fresh popcorn on demand with optimal kernel-to-pop ratios and consistent quality batch after batch.
+Advanced dual hopper, single popper mechanism creates fresh popcorn on demand with optimal kernel-to-pop ratios and consistent quality batch after batch.
 
 </div>
 
@@ -181,19 +181,19 @@ The Pop Cart features a distinctive vintage carnival cart aesthetic designed to 
 The Pop Cart interior is organized into distinct functional zones for efficient operation and maintenance:
 
 **Upper Level - Storage & Supply**
-- Kernel hopper with top-loading access
+- Dual kernel hoppers with top-loading access (Tubes A & B)
 - Seasoning dispensers (5 positions)
-- Supply monitoring systems
+- Transparent hopper design allows visual supply level monitoring
 
 **Middle Level - Production**
-- Dual-cylinder popping chambers (A & B)
+- Single popping chamber with dual hopper feed system
 - Heating element arrays
 - Temperature monitoring
 
 **Lower Level - Dispensing & Collection**
 - Stainless steel dispensing chute
 - Cup positioning mechanism
-- Waste collection bin
+- Stray popcorn collector
 - Service access panels
 
 <img src="./assets/overview/dual-popcorn-dispensers-interior.webp" alt="Dual Popcorn Dispensing Cylinders Labeled A and B" />
