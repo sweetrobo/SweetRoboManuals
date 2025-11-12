@@ -18,7 +18,7 @@
     <img src="./assets/images/header/PopCart.webp" alt="Pop Cart Popcorn Vending Machine" class="footer-machine-image" />
     <div class="footer-right">
         <div class="qr-code-wrapper">
-            <a href="http://qr.sweetrobo.com/manual-popcart" class="qr-code-link">
+            <a href="http://qr.sweetrobo.com/manual-popcart" class="qr-code-link" target="_blank" rel="noopener">
                 <span class="qr-tooltip">View Online Manual</span>
                 <img src="./assets/images/header/http-qr-sweetrobo-com-manual-popcart.jpg" alt="QR Code for Online Manual" />
                 <div class="qr-code-description print-only">Scan for latest<br/>online manual</div>
