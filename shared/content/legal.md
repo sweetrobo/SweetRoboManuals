@@ -134,13 +134,13 @@ Sweet Robo reserves the right to make changes to equipment design and specificat
 
 ## Contact Information
 
-**For warranty claims and technical support:**
-Email: support@sweetrobo.com
-Phone: +1 (844) 793-3872
+**For warranty claims and technical support:**<br>
+Email: support@sweetrobo.com<br>
+Phone: +1 (844) 793-3872<br>
 Support Hours: Monday-Friday, 9:00 AM - 5:00 PM EST
 
-**Sweet Robo**
-Address: 132 32nd St, Brooklyn, NY 11232, United States
+**Sweet Robo**<br>
+Address: 132 32nd St, Brooklyn, NY 11232, United States<br>
 Email: info@sweetrobo.com
 
 ---
