@@ -2,6 +2,31 @@
 
 ## Pop Cart Machine Specifications
 
+### Important Product-Specific Notes
+
+**Seasoning System:**
+- The Pop Cart uses **pre-packaged seasoning packets** (NOT loose powders or scoops)
+- Packets are folded at the cut line and inserted vertically into dispenser lanes
+- Never reference scoops, containers, or loose seasoning powder in documentation
+- Only Sweet Robo branded seasoning packets should be used (others may jam the mechanism)
+
+**Cleaning Method:**
+- Pop Cart requires **damp cloth cleaning** (NOT water-based washing like ice cream machines)
+- Electronics and water-sensitive components throughout the machine
+- Never spray liquids or use wet cleaning methods
+- Recommended product: Ecolab Sink & Surface Cleaner Sanitizer
+
+**Terminology:**
+- "Stray popcorn collector" (NOT waste bin, waste collection, or refuse bin)
+- "Transparent hopper windows" for visual supply monitoring (NO fill level sensors)
+- Machine has "wheels" (NOT leveling feet)
+- "Dual hopper, single popper mechanism" (NOT dual-cylinder popping mechanism)
+
+**Assembly Requirements:**
+- Wheels, signs/branding panels, and roof require installation
+- Kernel tubes (A & B) and cup holder tube must be installed
+- Cup holder tube has sensor alignment requirement - fragile, easy to damage
+
 ### Key Machine Facts
 
 **IMPORTANT: When updating specifications, ensure changes are reflected in ALL locations:**

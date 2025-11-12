@@ -23,7 +23,7 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 <div class="spec-row">
 <div class="spec-label">Weekly</div>
-<div class="spec-value">Interior cleaning, deep clean of dispensing chute, restock supplies, waste bin emptying</div>
+<div class="spec-value">Interior cleaning, deep clean of dispensing chute, restock supplies, empty stray popcorn collector</div>
 </div>
 
 <div class="spec-row">
@@ -61,15 +61,13 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 </div>
 
-**Interior Cleaning:** Remove unpopped kernels from both chambers, wipe interior walls with food-safe cleaner, clean heating elements with dry brush (never wet), wash dispensing chute with hot soapy water, clean sensors with dry cloth.
+**Interior Cleaning:** Remove unpopped kernels from both chambers, wipe interior walls with damp cloth and food-safe cleaner (be careful to avoid electronics and water-sensitive components), wipe dispensing chute with damp cloth, clean sensors gently with dry cloth only.
 
-**Waste Collection:** Empty and wash waste bin.
+**Stray Popcorn Collector:** Empty and clean the stray popcorn collector. Reinstall in proper position after cleaning.
 
-<div>
-<div>
-Reinstall clean bin in proper position
-</div>
-</div>
+<div class="warning-box">
+
+**WARNING**: Do not clean electronics or allow water near electrical components. Use only damp (not wet) cloths for cleaning. Avoid getting moisture on control boards, sensors, or wiring.
 
 </div>
 
@@ -111,7 +109,7 @@ Verify kernels are within best-before date (typically 18-24 month shelf life). O
 <div>
 <div>
 **Verify Level**<br>
-Check fill levels on screen or through inspection window. Maintain minimum 1 kg per cylinder for continuous operation.
+Check fill levels visually through the transparent hopper windows. Maintain minimum 1 kg per cylinder for continuous operation.
 </div>
 </div>
 
@@ -124,115 +122,109 @@ Store unopened bags in cool, dry location. Once opened, use within 60 days. Rota
 
 </div>
 
-### Seasoning Dispensers
+### Seasoning Packet Dispensers
 
-The Pop Cart has 5 seasoning stations that require regular refilling:
+<div class="important-box">
 
-<div class="feature-grid">
+**IMPORTANT: Use Only Sweet Robo Branded Seasoning Packets**
 
-<div class="feature-item">
-**Butter Seasoning**<br>
-Classic butter flavor powder
-</div>
-
-<div class="feature-item">
-**Chipotle Seasoning**<br>
-Smoky spice blend
-</div>
-
-<div class="feature-item">
-**Garlic Seasoning**<br>
-Savory garlic powder
-</div>
-
-<div class="feature-item">
-**Jalapeño Seasoning**<br>
-Spicy pepper seasoning
-</div>
-
-<div class="feature-item">
-**Truffle Seasoning**<br>
-Gourmet truffle blend
-</div>
+The Pop Cart seasoning dispensers are designed exclusively for Sweet Robo branded seasoning packets. Non-approved seasoning packets may have different dimensions and can get stuck in the dispensing mechanism, causing malfunctions and requiring service calls.
 
 </div>
 
-**Refilling Procedure:**
+The Pop Cart has 5 seasoning dispenser lanes that hold pre-packaged seasoning packets. Each lane can be assigned different flavor varieties based on your inventory configuration.
+
+**Seasoning Packet Loading Procedure:**
 
 <div class="numbered-steps">
 
 <div>
 <div>
-Access seasoning compartment through top service panel
+<h3>Access Dispenser Lanes</h3>
+Open the top service panel to access the 5 seasoning dispenser rows (lanes 1-5).
 </div>
 </div>
 
 <div>
 <div>
-Remove empty seasoning container by unscrewing cap
+<h3>Prepare Packets</h3>
+Each Sweet Robo seasoning packet has a perforated cut line. Fold the packet at the cut line to create a crease.
 </div>
 </div>
 
 <div>
 <div>
-Refill with approved seasoning powder - do not overfill
+<h3>Insert Packets Vertically</h3>
+Insert packets into the dispenser rows fold-first, standing vertical. The folded edge should go in first, with the packet standing upright in the lane.
 </div>
 </div>
 
 <div>
 <div>
-Replace cap and ensure secure seal to prevent moisture contamination
+<h3>Fill Dispenser Rows</h3>
+Add multiple packets to each lane as needed. Do not overfill - leave space for packets to drop freely during dispensing.
 </div>
 </div>
 
 <div>
 <div>
-Verify dispensing mechanism operates smoothly after refilling
+<h3>Test Dispensing</h3>
+Use the admin Testing interface to test each lane individually and verify smooth packet delivery.
 </div>
 </div>
 
 </div>
 
-<div class="caution-box">
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: SEASONING PACKET FOLDING AT CUT LINE</div>
+<div class="image-placeholder">IMAGE: PACKETS INSERTED VERTICALLY IN DISPENSER ROWS</div>
+</div>
 
-**CAUTION**: Use only food-grade seasonings approved for popcorn vending machines. Non-approved seasonings may cause clogging, contamination, or equipment damage.
+<div class="warning-box">
+
+**WARNING**: Using non-Sweet Robo brand seasoning packets will void your warranty and may cause dispenser jams. Only use packets specifically provided or approved by Sweet Robo.
 
 </div>
 
-### Cups and Containers
+### Popcorn Cups
+
+**Cup Loading Procedure:**
 
 <div class="numbered-steps">
 
 <div>
 <div>
-Open cup dispenser access (location varies by model)
+<h3>Open Cup Dispenser</h3>
+Access the cup dispenser mechanism through the designated service door.
 </div>
 </div>
 
 <div>
 <div>
-Load branded popcorn cups into dispenser stack
+<h3>Orient Cups Correctly</h3>
+Ensure branded popcorn cups are oriented properly for dispensing (opening facing correct direction).
 </div>
 </div>
 
 <div>
 <div>
-Ensure cups are oriented correctly for proper dispensing
+<h3>Load Cup Stack</h3>
+Insert cups into the dispenser stack. Do not exceed maximum capacity to prevent jams.
 </div>
 </div>
 
 <div>
 <div>
-Do not overload - follow manufacturer maximum capacity
+<h3>Test Cup Drop</h3>
+Use admin Testing interface to perform a test cup drop and verify smooth operation.
 </div>
 </div>
 
-<div>
-<div>
-Test dispenser operation to verify smooth cup delivery
-</div>
 </div>
 
+<div class="side-by-side-images">
+<div class="image-placeholder">IMAGE: CUP DISPENSER LOADING</div>
+<div class="image-placeholder">IMAGE: CORRECT CUP ORIENTATION</div>
 </div>
 
 <hr class="section-divider">
@@ -253,7 +245,7 @@ Inspect for discoloration, damage, or excessive buildup. Clean with soft brush. 
 <div class="feature-item">
 
 #### Sensors
-Test all sensors (cup detection, level sensors, temperature probes). Clean sensor lenses with dry cloth.
+Test all sensors (cup detection, temperature probes). Clean sensors gently with dry cloth only - never use liquid cleaners on sensors.
 
 </div>
 
@@ -400,43 +392,119 @@ For professional service scheduling, parts ordering, or technical support, see c
 
 - Store all food products in clean, dry environments
 - Check expiration dates regularly and rotate stock
-- Never use expired kernels or seasonings
+- Never use expired kernels or seasoning packets
 - Keep consumables away from chemicals or cleaning supplies
-- Use dedicated scoops or containers for each seasoning type
+- Handle seasoning packets with clean, dry hands
 
-### Sanitization
+### Cleaning and Sanitization
+
+<div class="important-box">
+
+**IMPORTANT: Damp Cloth Cleaning Method**
+
+The Pop Cart contains sensitive electronics and components that can be damaged by water. Always use the damp cloth method for cleaning - never spray liquids directly on the machine or submerge components in water.
+
+</div>
+
+**Approved Cleaning Products:**
+
+<div class="feature-grid grid-2">
+
+<div class="feature-item">
+
+#### ✅ Approved for Pop Cart
+• **Food-safe dish soap** (like Dawn) for general cleaning<br>
+• **Multi-Quat Sanitizer** (quaternary ammonium-based, food-safe)<br>
+• **Ecolab Sink & Surface Cleaner Sanitizer** (recommended all-in-one solution)<br>
+• **70% isopropyl alcohol** (touchscreen and external surfaces only)<br>
+• **Warm water** (for dampening cloths - not for direct application)<br>
+• Clean, lint-free microfiber cloths
+
+</div>
+
+<div class="feature-item">
+
+#### ❌ Never Use
+• Spray bottles aimed at machine<br>
+• Bleach or harsh alkaline cleaners<br>
+• Abrasive powders or scouring pads<br>
+• Wet mops or soaking methods<br>
+• Any liquids near electronics
+
+</div>
+
+</div>
+
+<div class="sidebar-highlight">
+
+<h4>Recommended: Ecolab Sink & Surface Cleaner Sanitizer</h4>
+
+<img src="../shared/images/SScleanersanitizer550x310-jpg.avif" alt="Ecolab Sink & Surface Cleaner Sanitizer" />
+
+Sweet Robo recommends Ecolab Sink & Surface Cleaner Sanitizer for Pop Cart maintenance. This EPA-registered, food-contact-safe product combines cleaning and sanitizing in one step, making it ideal for the damp cloth cleaning method required for the Pop Cart. It's effective against bacteria, viruses, and fungi while being safe for food service equipment.
+
+</div>
+
+**Damp Cloth Cleaning Procedure:**
 
 <div class="numbered-steps">
 
 <div>
 <div>
-Wash hands thoroughly before handling food products
+<h3>Wash Hands</h3>
+Thoroughly wash hands before handling food-contact surfaces or consumables.
 </div>
 </div>
 
 <div>
 <div>
-Use food-safe cleaning products and sanitizers
+<h3>Prepare Cleaning Solution</h3>
+Mix food-safe dish soap with warm water in a separate container (not on the machine).
 </div>
 </div>
 
 <div>
 <div>
-Allow proper contact time for sanitizers (per product instructions)
+<h3>Dampen Cloth - Not Machine</h3>
+Dip clean cloth into cleaning solution, then wring out thoroughly until cloth is only damp (not dripping).
 </div>
 </div>
 
 <div>
 <div>
-Rinse food-contact surfaces with potable water after sanitizing
+<h3>Wipe Food-Contact Surfaces</h3>
+Wipe down food-contact surfaces with damp soapy cloth. Avoid electronics, control boards, sensors, and wiring.
 </div>
 </div>
 
 <div>
 <div>
-Air dry or use clean towels - do not reuse contaminated cloths
+<h3>Rinse Cloth and Wipe Again</h3>
+Rinse cloth with clean water, wring out thoroughly, and wipe surfaces again to remove soap residue.
 </div>
 </div>
+
+<div>
+<div>
+<h3>Apply Sanitizer with Damp Cloth</h3>
+Prepare Multi-Quat Sanitizer per manufacturer instructions. Apply to food-contact surfaces using a clean damp cloth.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Allow to Air Dry Completely</h3>
+**DO NOT rinse after sanitizing** - rinsing removes the sanitizer and undoes sanitation. **DO NOT use drying towels** - towels can re-contaminate the sanitized surface. Allow sanitizer to completely air dry (5-10 minutes). The Multi-Quat sanitizer oxidizes and becomes inert as it dries.
+</div>
+</div>
+
+</div>
+
+<div class="info-box">
+
+**About Multi-Quat Sanitizers:**
+
+Multi-Quat (multi-quaternary ammonium) sanitizers are food-safe antimicrobial solutions specifically designed for food service equipment. They are EPA-registered, approved for food contact surfaces, and effective against bacteria, viruses, and fungi. When used at proper concentrations, they are no-rinse formulations - the sanitizer must air dry completely to be effective.
 
 </div>
 
@@ -466,6 +534,18 @@ Regular documentation helps identify patterns, track component lifespan, and mai
 
 </div>
 
+### Sample Maintenance Log Format
+
+| Date | Task | Consumables/Parts | Issues Found | Technician | Next Due |
+|------|------|-------------------|--------------|------------|----------|
+| _ /_ /_ | Daily cleaning | | | _ _ | _ /_ /_ |
+| _ /_ /_ | Kernel refill | 6kg kernels | | _ _ | _ /_ /_ |
+| _ /_ /_ | Seasoning restock | 20 packets (5 lanes) | | _ _ | _ /_ /_ |
+| _ /_ /_ | Cup reload | 50 cups | | _ _ | _ /_ /_ |
+| _ /_ /_ | Weekly deep clean | | | _ _ | _ /_ /_ |
+| _ /_ /_ | Monthly inspection | | | _ _ | _ /_ /_ |
+| _ /_ /_ | Component service | Replaced part #___ | | _ _ | _ /_ /_ |
+
 <hr class="section-divider">
 
 ## Troubleshooting Maintenance Issues
@@ -474,8 +554,7 @@ If you encounter problems during maintenance:
 
 - **Difficult to clean buildup**: May indicate operating temperature issues or need for more frequent cleaning
 - **Excessive waste**: Check portion calibration and popping temperature settings
-- **Rapid seasoning depletion**: Verify dispensing mechanism isn't over-dispensing
-- **Frequent supply alerts**: Adjust alert thresholds in operator menu or increase restocking frequency
+- **Unpopped kernels accumulating**: Verify Sweet Robo branded kernels are being used and check popping chamber temperature settings
 
 For persistent issues, refer to the [Troubleshooting](troubleshooting.md) section.
 
@@ -487,4 +566,4 @@ For persistent issues, refer to the [Troubleshooting](troubleshooting.md) sectio
 - **[Parts & Service](parts-service.md)** - Component identification and replacement procedures
 - **[Operation Guide](operation.md)** - Return to daily operation procedures
 
-For maintenance support, contact Sweet Robo: [Company Information](../shared/company-info.md)
+For maintenance support, contact Sweet Robo: [Company Information](../shared/content/company-info.md)

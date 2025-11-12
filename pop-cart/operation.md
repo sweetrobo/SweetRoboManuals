@@ -84,9 +84,9 @@ Use this checklist for daily startup, restocking, and troubleshooting supply-rel
 <div class="spec-row">
 <div class="spec-label">Visual Inspection</div>
 <div class="spec-value">
-✓ Check through hopper inspection windows<br>
-✓ Verify supply levels on admin interface if available<br>
-✓ Look for blockages or bridging in hoppers
+✓ Check fill levels visually through transparent hopper windows<br>
+✓ Look for blockages or bridging in hoppers<br>
+✓ Verify seasonings are properly loaded in dispenser lanes
 </div>
 </div>
 
@@ -143,7 +143,6 @@ After payment, the machine begins the automated production cycle (~90-120 second
 **Customer Assistance:**
 - Back button allows customers to change selections before payment
 - Screen timeout resets to welcome after 60 seconds of inactivity
-- Manual topping additions (like blue popcorn kernels) can be offered as premium add-ons by extending dispensing window access time in settings
 
 <hr class="section-divider">
 
@@ -216,4 +215,4 @@ Access Testing from the management dashboard to run diagnostics without charging
 
 ---
 
-For support, see [Company Information](../shared/company-info.md) | Learn more: [Maintenance](maintenance.md) · [Troubleshooting](troubleshooting.md) · [Parts & Service](parts-service.md)
+For support, see [Company Information](../shared/content/company-info.md) | Learn more: [Maintenance](maintenance.md) · [Troubleshooting](troubleshooting.md) · [Parts & Service](parts-service.md)

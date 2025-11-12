@@ -484,8 +484,8 @@ Fill kernel hopper with **Sweet Robo branded popcorn kernels only**. Machine set
 
 <div class="feature-item">
 
-#### Seasonings
-Stock seasoning dispensers with desired flavors (Butter, Chipotle, Garlic, Jalapeño, Truffle, etc.).
+#### Seasoning Packets
+Stock seasoning dispensers with **Sweet Robo branded seasoning packets only**. Non-approved seasoning packets may get stuck in the dispensing mechanism and cause malfunctions.
 
 </div>
 
@@ -535,4 +535,4 @@ Your Pop Cart is now ready for operation! Proceed to the [Operation Guide](opera
 
 For setup assistance or questions, contact Sweet Robo support:
 
-**Support Contact**: See [Company Information](../shared/company-info.md)
+**Support Contact**: See [Company Information](../shared/content/company-info.md)
