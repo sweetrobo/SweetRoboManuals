@@ -137,17 +137,17 @@ Payment processing failure. Restart payment system through <a href="operation.ht
 
 <div class="feature-item">
 
-**ERR-005: Low Kernel Level**
+**ERR-005: Kernel Hopper Empty**
 
-Kernel supply below minimum operating level. Refill both kernel hoppers using [Supply Checklist](operation.md#supply-checklist). Error will clear automatically once levels are adequate.
+Kernel hopper is completely empty and cannot dispense. Visually check kernel levels through transparent hopper windows and refill both kernel hoppers using [Supply Checklist](operation.md#supply-checklist). This error indicates a hopper is fully depleted.
 
 </div>
 
 <div class="feature-item">
 
-**ERR-006: Seasoning Dispenser Fault**
+**ERR-006: Seasoning Packet Dispenser Fault**
 
-Seasoning dispenser clogged or empty. Check seasoning levels and refill if needed. Inspect dispenser opening for clogs. Run dispenser test through <a href="operation.html#admin-interface">Admin Interface</a>.
+Seasoning packet dispenser jammed or empty. Check dispenser lanes are loaded with Sweet Robo seasoning packets. Inspect dispenser opening for jammed packets. Run dispenser test through <a href="operation.html#admin-interface">Admin Interface</a>.
 
 </div>
 
@@ -307,40 +307,41 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Ensure proper ambient humidity (not too high)
 5. Contact Sweet Robo for parts replacement if needed
 
-### Seasoning System
+### Seasoning Packet Toppings
 
-#### Seasonings Not Dispensing
+#### Seasoning Packets Not Dispensing
 
-**Symptoms**: Customer selects topping but none applied
+**Symptoms**: Customer selects topping but packet does not drop
 
 **Possible Causes**:
-- Empty seasoning container
-- Clogged dispenser
+- Empty dispenser lane
+- Packet jammed in dispenser
+- Packets not loaded correctly (should be folded and vertical)
 - Mechanical failure
-- Software configuration issue
+- Non-Sweet Robo packets causing jams
 
 **Solutions**:
-1. Check seasoning container is adequately filled
-2. Inspect dispenser opening for clogs or hardened seasoning
-3. Run dispenser test through operator menu
-4. Verify seasoning is enabled in system settings
-5. Contact Sweet Robo if mechanical repair needed
+1. Check dispenser lane has Sweet Robo seasoning packets loaded
+2. Verify packets are folded at cut line and inserted vertically
+3. Inspect dispenser opening for jammed packets
+4. Run dispenser test through operator menu to clear jam
+5. Verify topping is enabled in system inventory settings
+6. Contact Sweet Robo if mechanical repair needed
 
-#### Excessive Seasoning Dispensed
+#### Multiple Packets Dispensing
 
-**Symptoms**: Too much seasoning on popcorn, waste
+**Symptoms**: More than one packet drops per selection
 
 **Possible Causes**:
-- Calibration incorrect
-- Dispenser mechanism worn
-- Software settings wrong
+- Packets not loaded correctly
+- Dispenser mechanism needs adjustment
+- Wrong packet size (non-Sweet Robo brand)
 
 **Solutions**:
-1. Access operator menu and adjust seasoning portion sizes
-2. Run calibration procedure for affected dispensers
-3. Inspect dispenser mechanism for wear
-4. Document settings before and after adjustment
-5. Contact Sweet Robo if calibration doesn't resolve issue
+1. Remove packets and reload properly (fold-first, vertical orientation)
+2. Verify using only Sweet Robo branded seasoning packets
+3. Run dispenser test and observe packet drop mechanism
+4. Contact Sweet Robo if dispenser needs mechanical adjustment
 
 ### Payment System
 
@@ -379,24 +380,7 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 4. Run cash system diagnostic
 5. Contact Sweet Robo for calibration or repair
 
-### Supply and Sensor Issues
-
-#### False "Empty Supply" Warnings
-
-**Symptoms**: Error says empty but supply is adequate
-
-**Possible Causes**:
-- Sensor dirty or misaligned
-- Supply not properly loaded
-- Sensor malfunction
-
-**Solutions**:
-1. Remove and reload supply (kernels, cups, etc.)
-2. Clean sensors with dry microfiber cloth
-3. Check sensor alignment
-4. Run sensor diagnostic through operator menu
-5. Temporarily disable problematic sensor alerts if necessary
-6. Contact Sweet Robo for sensor replacement
+### Sensor Issues
 
 #### Cup Detection Errors
 
@@ -498,11 +482,11 @@ Document any failures or error codes
 **Available Diagnostic Tests:**
 - **Heating Elements**: Test heating cycle and temperature sensors
 - **Dispensing Mechanism**: Verify smooth operation and alignment
-- **Cup Detection**: Test all cup position sensors
-- **Seasoning Dispensers**: Individual dispenser function tests
+- **Cup Detection**: Test cup position sensors
+- **Seasoning Packet Dispensers**: Individual packet dispenser lane tests
 - **Payment System**: Card reader and cash acceptor tests
 - **Network**: Connectivity and remote management tests
-- **Sensors**: All level, position, and safety sensors
+- **Sensors**: Temperature, position, and safety sensors
 
 <div class="sidebar-highlight">
 
@@ -556,7 +540,7 @@ Avoid problems before they occur:
 
 ✅ **Follow Maintenance Schedule** - Regular cleaning prevents 90% of issues
 
-✅ **Use Quality Supplies** - Approved kernels, seasonings, and consumables ensure reliable operation
+✅ **Use Quality Supplies** - Sweet Robo branded kernels and seasoning packets ensure reliable operation
 
 ✅ **Monitor Performance** - Use remote management to track trends and catch issues early
 
