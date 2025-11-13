@@ -152,78 +152,153 @@ Check for accessory boxes or consumables packed inside the machine (cups, kernel
 
 The Pop Cart requires some assembly upon delivery. These components need to be installed before operation.
 
-### 1. Install Wheels
+### 1. Install Decorative Wheels
+
+<div class="info-box">
+
+The Pop Cart comes with 4 functional wheels pre-installed at the base for mobility. The decorative wheels (big and small) are purely aesthetic elements that complete the vintage cart appearance.
+
+</div>
 
 <div class="numbered-steps">
 
 <div>
 <div>
-<h3>Position Wheel Mounts</h3>
-Locate the four wheel assemblies and corresponding mounting points on the machine base.
+<h3>Identify Decorative Wheels</h3>
+Locate the two decorative wheel assemblies - one large and one small. These are for appearance and branding purposes only.
 </div>
 </div>
 
 <div>
 <div>
-<h3>Attach Wheels</h3>
-Secure each wheel assembly using the provided bolts and washers. Tighten securely but do not overtighten.
+<h3>Attach Decorative Wheels</h3>
+Align each decorative wheel with its designated mounting point on the machine exterior. Secure using the provided hardware.
 </div>
 </div>
 
 <div>
 <div>
-<h3>Verify Stability</h3>
-Ensure all four wheels are firmly attached and the machine sits level.
+<h3>Verify Appearance</h3>
+Ensure both decorative wheels are properly positioned and securely attached for the complete vintage cart aesthetic.
 </div>
 </div>
 
 </div>
 
-<div class="image-placeholder">IMAGE: WHEEL ASSEMBLY INSTALLATION</div>
+<div class="image-placeholder">IMAGE: DECORATIVE WHEEL ASSEMBLY</div>
 
 ### 2. Install Signs and Branding Panels
 
-<div class="numbered-steps">
+<div class="important-box">
 
-<div>
-<div>
-<h3>Attach Branding Panels</h3>
-Locate the decorative branding panels and align them with the mounting points on the machine exterior.
-</div>
-</div>
+**IMPORTANT: Cable Routing Before Bolting**
 
-<div>
-<div>
-<h3>Secure Panels</h3>
-Use the provided hardware to bolt panels in place. Ensure panels are aligned and flush with the machine body.
-</div>
-</div>
+The light signs have electrical cables that must be passed through the dedicated cable hole BEFORE bolting the sign in place. Do not bolt the sign first - you will not be able to route the cable afterward.
 
 </div>
-
-<div class="image-placeholder">IMAGE: BRANDING PANEL INSTALLATION</div>
-
-### 3. Install Roof Assembly
 
 <div class="numbered-steps">
 
 <div>
 <div>
-<h3>Position Roof</h3>
-Carefully lift the striped canopy roof assembly and align with the mounting brackets on top of the machine.
+<h3>Route Lighting Cable</h3>
+Before mounting the light sign, locate the dedicated cable hole. Pass the lighting cable from the sign through this hole so it can reach the internal connection points.
 </div>
 </div>
 
 <div>
 <div>
-<h3>Secure Roof</h3>
-Bolt the roof assembly in place using the provided hardware. Verify the roof is stable and properly aligned.
+<h3>Position and Bolt Sign</h3>
+With the cable already routed through the hole, align the sign with the mounting points on the machine exterior. Secure using the provided screws. Ensure the sign is flush and properly aligned.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Connect Sign Wiring</h3>
+Each light sign has 2 wires with protected endpoints - one male connector and one female connector. Connect each to the corresponding female and male machine cables. The connectors are keyed and cannot be mixed up.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Verify Connection</h3>
+Ensure both wire connections are fully seated and secure. Gently tug each connection to confirm it's properly locked in place.
 </div>
 </div>
 
 </div>
 
-<div class="image-placeholder">IMAGE: ROOF ASSEMBLY INSTALLATION</div>
+<div class="image-placeholder">IMAGE: SIGN CABLE ROUTING AND WIRING CONNECTION</div>
+
+### 3. Assemble and Install Roof
+
+<div class="info-box">
+
+**Roof Assembly Instructions**
+
+The roof base comes pre-assembled with 2 walls connected to hinges. You will need to complete the assembly by adding the remaining walls and rails.
+
+For detailed visual assembly instructions, scan the QR code below:
+
+<div class="image-placeholder">QR CODE: ROOF ASSEMBLY VIDEO/INSTRUCTIONS</div>
+
+</div>
+
+<div class="numbered-steps">
+
+<div>
+<div>
+<h3>Lift Pre-Assembled Walls</h3>
+The roof base comes with 2 walls already connected to hinges. Lift these walls to a 90-degree angle (perpendicular to the base).
+</div>
+</div>
+
+<div>
+<div>
+<h3>Add T-Bolts to Hinged Walls</h3>
+Install 4 T-bolts on each of the 2 hinged walls - 2 on the top edge and 2 on the bottom edge of each wall.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Install 8-20 Rails</h3>
+Slide the 8-20 rails down onto the T-bolts on the hinged walls. Bolt the rails to the roof base from the bottom to secure them in place.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Prepare Remaining Walls</h3>
+Add T-bolts to the other 2 wall panels (4 T-bolts per wall, 2 on each edge).
+</div>
+</div>
+
+<div>
+<div>
+<h3>Slide Walls onto Rails</h3>
+Slide the 2 remaining walls down the 8-20 rails, aligning the T-bolts with the rail channels.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Secure Corner Bolts</h3>
+Insert a long bolt through each corner where the rail meets the walls (1 bolt per corner, 4 total). This locks all walls together.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Mount Roof on Machine</h3>
+Carefully lift the fully assembled roof and position it on top of the machine. Use 4 screws to bolt the roof to the machine mounting brackets. Verify the roof is stable and properly aligned.
+</div>
+</div>
+
+</div>
+
+<div class="image-placeholder">IMAGE: ROOF ASSEMBLY SEQUENCE AND INSTALLATION ON MACHINE</div>
 
 ### 4. Install Kernel and Cup Holder Tubes
 
@@ -240,7 +315,14 @@ The cup holder tube has a slot at the bottom that must be aligned with the cup s
 <div>
 <div>
 <h3>Install Kernel Tubes A & B</h3>
-Insert the kernel feed tubes (labeled A and B) into their respective mounting positions. Ensure tubes are fully seated and secure.
+Insert the kernel feed tubes (labeled A and B) into their respective mounting positions. Each tube has a diagonal metal part inside that directs kernels toward the front of the machine. Ensure tubes are fully seated and secure.
+</div>
+</div>
+
+<div>
+<div>
+<h3>Verify Drop Hole Position</h3>
+The diagonal metal part in each kernel tube should be covering the drop hole, which should be positioned at the back when the machine is in standby. The hole rotates during operation to allow kernels to drop through into the popping chamber. This comes preset from the factory at the ideal position and typically does not require adjustment.
 </div>
 </div>
 
@@ -266,6 +348,19 @@ Check that the cup sensor is properly aligned with the tube slot and is not bent
 
 </div>
 
+<div class="caution-box">
+
+**ADVANCED: Kernel Drop Hole Adjustment (Expert Users Only)**
+
+The kernel drop hole size is factory-preset to the ideal position for optimal popping performance. If adjustment is needed to reduce or expand the amount of kernels that drop into the popping chamber:
+
+1. Access the 2 small adjustment screws from the back of the machine (inside the kernel tube area)
+2. Carefully adjust the hole size as needed
+
+**⚠️ CAUTION**: This adjustment requires extreme care and expertise. Changing the drop hole size without adjusting other machine settings can cause serious operational issues. Too many or too few kernels in the popping chamber will result in poor popping quality, excessive waste, or machine errors requiring troubleshooting. Only modify this setting if you have technical training or under guidance from Sweet Robo support.
+
+</div>
+
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: KERNEL TUBES A & B INSTALLATION</div>
 <div class="image-placeholder">IMAGE: CUP HOLDER TUBE WITH SENSOR ALIGNMENT</div>
@@ -277,7 +372,16 @@ Check that the cup sensor is properly aligned with the tube slot and is not bent
 
 <div class="caution-box">
 
-**CAUTION**: Two or more people may be required for safely moving and positioning the machine. Use appropriate lifting equipment if necessary. The Pop Cart weighs approximately 140 kg (309 lbs).
+**CAUTION: Moving and Positioning**
+
+Two or more people may be required for safely moving and positioning the machine. The Pop Cart weighs approximately 140 kg (309 lbs).
+
+The Pop Cart wheels are designed for short-distance positioning on smooth, level surfaces only. They are NOT suitable for:
+- Long-distance transportation
+- Moving over bumpy paths, thresholds, or uneven surfaces
+- Transporting the machine between facilities
+
+For long-distance moves or transport over uneven surfaces, use proper lifting equipment (pallet jack, forklift, or professional moving equipment). Wheeling the machine long distances or over rough terrain may damage the wheels or internal components.
 
 </div>
 
@@ -391,47 +495,68 @@ Use a dedicated circuit for the Pop Cart when possible. Sharing circuits with ot
 
 ## Network Connection (Optional)
 
-If using remote management features:
+The Pop Cart supports remote management and backend data sync via network connection. **WiFi is the recommended connection method.**
+
+<div class="important-box">
+
+**Network Requirements**
+
+The WiFi network must be:
+- Stable with consistent connection
+- Does NOT require a sign-in portal (captive portal)
+- Standard WPA/WPA2 password-protected network
+
+Public WiFi networks requiring browser-based authentication (like hotel or coffee shop networks) are not compatible.
+
+</div>
+
+### WiFi Setup (Recommended)
 
 <div class="numbered-steps">
 
 <div>
 <div>
-Access the operator settings menu on the touchscreen (see Operation section for menu access).
+Access the operator management page on the touchscreen (see <a href="operation.html#admin-interface">Admin Interface</a> for menu access).
 </div>
 </div>
 
 <div>
 <div>
-Navigate to Network Settings and select your connection type (Wi-Fi or Ethernet).
+Navigate to WiFi Settings. This will open the Android system UI for network configuration.
 </div>
 </div>
 
 <div>
 <div>
-For Wi-Fi: Select your network SSID and enter the password.
+Select your WiFi network from the available networks list.
 </div>
 </div>
 
 <div>
 <div>
-For Ethernet: Connect network cable to the RJ45 port on the rear of the machine.
+Enter the network password when prompted.
 </div>
 </div>
 
 <div>
 <div>
-Verify network connection status shows "Connected" in settings.
+Verify the connection shows "Connected" in the Android WiFi settings.
 </div>
 </div>
 
 <div>
 <div>
-Remote management portal credentials will be provided upon purchase. See support contact at end of this section if needed.
+Return to the Pop Cart management interface. The machine will now sync with the backend for remote management.
 </div>
 </div>
 
 </div>
+
+### Ethernet Connection
+
+For Ethernet network connection, please contact Sweet Robo support for configuration assistance:
+
+**Support Contact**: See [Company Information](shared/content/company-info.md)
 
 <hr class="section-divider">
 
@@ -503,6 +628,26 @@ Refer to [Supply Restocking](maintenance.md#supply-restocking) for detailed load
 
 <hr class="section-divider">
 
+## Payment System Installation
+
+<div class="important-box">
+
+**Payment Hardware Installation Required**
+
+The Pop Cart comes with an MDB-RS232 adapter pre-installed but does NOT include complete payment hardware. To enable payment processing, you will need to contact Sweet Robo support to arrange installation of:
+
+- Payment processing device (e.g., Nayax device)
+- MDB Nayax cable
+- Configuration and setup assistance
+
+**Contact Sweet Robo support to arrange payment system installation:** See [Company Information](shared/content/company-info.md)
+
+</div>
+
+The machine can operate in test mode without payment hardware for initial testing and configuration. However, payment hardware must be installed before opening for customer use.
+
+<hr class="section-divider">
+
 ## First Start Checklist
 
 Before allowing customer use, verify:
@@ -513,17 +658,17 @@ Before allowing customer use, verify:
 - [ ] Network connection established (if applicable)
 - [ ] **Initial supplies loaded** - complete [Supply Checklist](operation.md#supply-checklist)
 - [ ] Customer interface is responsive
-- [ ] Payment system is configured and tested
-- [ ] Test transaction completed successfully
+- [ ] **Payment hardware installed** (contact Sweet Robo support - see Payment System Installation above)
+- [ ] Test transaction completed successfully (with payment hardware if installed)
 - [ ] Operator familiar with [Operation Guide](operation.md)
 - [ ] Emergency shutdown procedure understood
 - [ ] Support contact information posted
 
 <div class="sidebar-highlight">
 
-<h4>Test Transaction Required</h4>
+<h4>Test Transaction</h4>
 
-Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, topping dispensing, payment processing, and product delivery. See [Testing & Diagnostics](operation.md#testing--diagnostics) for test procedures.
+Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, seasoning dispensing, and product delivery. If payment hardware is installed, test payment processing as well. See [Testing & Diagnostics](operation.md#testing--diagnostics) for test procedures.
 
 </div>
 

@@ -23,7 +23,8 @@
 - "Dual hopper, single popper mechanism" (NOT dual-cylinder popping mechanism)
 
 **Assembly Requirements:**
-- Wheels, signs/branding panels, and roof require installation
+- 2 decorative wheels (one big, one small) - purely aesthetic, functional wheels are pre-installed
+- Signs/branding panels and roof require installation
 - Kernel tubes (A & B) and cup holder tube must be installed
 - Cup holder tube has sensor alignment requirement - fragile, easy to damage
 
