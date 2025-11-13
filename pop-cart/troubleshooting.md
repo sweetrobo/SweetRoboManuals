@@ -265,14 +265,16 @@ WiFi or ethernet connection interrupted. Check network settings in <a href="oper
 **Possible Causes**:
 - Old or expired kernels
 - Using non-Sweet Robo branded kernels
+- Incorrect kernel drop hole sizing
 - Incorrect popping temperature
 - Heating element degraded
 
 **Solutions**:
 1. Check kernel expiration date and freshness
 2. Verify you are using Sweet Robo branded kernels only
-3. Run temperature calibration through operator menu
-4. Contact Sweet Robo if heating elements need inspection
+3. Use the provided kernel drop hole sizing gauge to verify both tubes A and B have correct drop hole sizing (see <a href="setup.html#install-kernel-and-cup-holder-tubes">Setup Guide</a>)
+4. Run temperature calibration through operator menu
+5. Contact Sweet Robo if heating elements need inspection or if drop hole adjustment is required
 
 #### Popcorn Burns or Smokes
 

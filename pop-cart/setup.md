@@ -328,6 +328,13 @@ The diagonal metal part in each kernel tube should be covering the drop hole, wh
 
 <div>
 <div>
+<h3>Verify Drop Hole Sizing with Gauge (Recommended)</h3>
+The Pop Cart includes a kernel drop hole sizing gauge for accurate setup verification. Use the provided gauge to verify the drop hole is set to the correct size for both kernel tubes A and B. This ensures optimal kernel flow to the popping chamber.
+</div>
+</div>
+
+<div>
+<div>
 <h3>Align Cup Holder Tube</h3>
 Carefully insert the cup holder tube, aligning the bottom slot with the cup sensor. Do not force - the tube should slide into place smoothly.
 </div>
@@ -363,6 +370,7 @@ The kernel drop hole size is factory-preset to the ideal position for optimal po
 
 <div class="side-by-side-images">
 <div class="image-placeholder">IMAGE: KERNEL TUBES A & B INSTALLATION</div>
+<div class="image-placeholder">IMAGE: KERNEL DROP HOLE SIZING GAUGE</div>
 <div class="image-placeholder">IMAGE: CUP HOLDER TUBE WITH SENSOR ALIGNMENT</div>
 </div>
 

@@ -166,6 +166,7 @@ The Pop Cart features a distinctive vintage carnival cart aesthetic designed to 
 **Customer Interaction Points:**
 - **Touchscreen Display**: Primary customer interface for selections and payment
 - **Dispensing Window**: Collection point for finished popcorn containers
+- **Topping/Seasoning Collection Window**: Pick-up point for dispensed seasoning packets
 - **Security Lock**: Keyed access for operator maintenance and restocking
 
 ### Internal Component Layout
