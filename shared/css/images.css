@@ -230,6 +230,8 @@ figure figcaption {
 @media print {
   .side-by-side-images img {
     max-height: calc(29.7cm * 0.35);  /* Print: 10.40cm (4.09", 35% of page height) */
+    max-width: 30% !important;  /* Prevent horizontal overflow with 3+ images (30% × 3 = 90%, leaves 10% for gaps) */
+    width: auto !important;
   }
 }
 
@@ -253,6 +255,8 @@ figure figcaption {
 @media print {
   .three-column-images img {
     max-height: calc(29.7cm * 0.30);  /* Print: 8.91cm (3.51", 30% of page height) */
+    max-width: 30% !important;  /* Prevent horizontal overflow (30% × 3 = 90%, leaves 10% for gaps) */
+    width: auto !important;
   }
 }
 

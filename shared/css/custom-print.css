@@ -350,6 +350,7 @@ LAYOUT RECOMMENDATIONS:
   .three-column-images img {
     /* A4 is height 29.7cm, limit to 30% for multiple images per page */
     max-height: calc(29.7cm * 0.3) !important;
+    max-width: 30% !important;  /* Prevent horizontal overflow (30% × 3 = 90%, leaves 10% for gaps) */
     width: auto !important;
     object-fit: contain !important;
   }
