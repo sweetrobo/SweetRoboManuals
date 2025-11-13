@@ -96,7 +96,7 @@ Eye-catching carnival cart design with red and white striped awning, decorative 
 
 <div class="spec-row">
 <div class="spec-label">Dimensions (W×D×H)</div>
-<div class="spec-value">947 × 654 × 2097 mm with sign (37.3 × 25.7 × 82.6 in)<br>947 × 654 × 1720 mm without sign (37.3 × 25.7 × 67.7 in)</div>
+<div class="spec-value">94.7 × 65.4 × 209.7 cm with sign (37.3 × 25.7 × 82.6 in)<br>94.7 × 65.4 × 172 cm without sign (37.3 × 25.7 × 67.7 in)</div>
 </div>
 
 <div class="spec-row">

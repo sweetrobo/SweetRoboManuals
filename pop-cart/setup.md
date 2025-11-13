@@ -27,7 +27,7 @@ Before beginning installation, ensure you have:
 
 ## Site Requirements
 
-**Space:** Machine footprint 520×450mm. Minimum clearances: 60cm service side, 120cm front (customer access), 15cm around ventilation.
+**Space:** Machine footprint 94.7 × 65.4 cm. Minimum clearances: 60cm service side, 120cm front (customer access), 15cm around ventilation.
 
 **Environment:** Indoor use only, level floor. Operating temperature 15-30°C (59-86°F), humidity 20-80% non-condensing. Adequate air circulation required.
 

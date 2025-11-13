@@ -51,7 +51,7 @@
 - Each lane can hold different seasoning types
 
 **Machine Specifications:**
-- **Dimensions**: 520 × 450 × 1720 mm (20.5 × 17.7 × 67.7 in)
+- **Dimensions**: 94.7 × 65.4 × 209.7 cm with sign (37.3 × 25.7 × 82.6 in), 94.7 × 65.4 × 172 cm without sign (37.3 × 25.7 × 67.7 in)
 - **Weight**: 140 kg (309 lbs)
 - **Power**: 110-125V AC or 220-240V AC, Max 2200W
 - **Interface**: Touchscreen display with customer-facing operation
