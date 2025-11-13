@@ -428,7 +428,7 @@
 }
 
 .spec-label {
-  flex: 0 0 40%;
+  flex: 0 0 30%;
   padding: 0.75em 1em;
   background: var(--background-light);
   font-weight: var(--font-weight-semibold);

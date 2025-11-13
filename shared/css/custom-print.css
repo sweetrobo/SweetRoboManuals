@@ -501,10 +501,24 @@ LAYOUT RECOMMENDATIONS:
   /* Specs table */
   .specs-table {
     page-break-inside: avoid !important;
+    border: 1px solid #666 !important;
   }
-  
+
   .spec-row {
     page-break-inside: avoid !important;
+    border-bottom: 1px solid #666 !important;
+  }
+
+  .spec-row:last-child {
+    border-bottom: none !important;
+  }
+
+  .spec-label {
+    border-right: 1px solid #ccc !important; /* Lighter gray for middle vertical line */
+  }
+
+  .spec-value {
+    /* Right column - no right border needed */
   }
   
   /* =================================== */
