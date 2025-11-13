@@ -324,9 +324,9 @@ LAYOUT RECOMMENDATIONS:
   img:not(.footer-machine-image) {
     /* max-width: 30%; */
     /* A4 is height 29.7cm, i want the image to be max 50% height in this case */
-    max-height: calc(29.7cm * 0.48) !important; 
+    max-height: calc(29.7cm * 0.48) !important;
     page-break-inside: avoid;
-    margin: 10px auto !important;
+    margin: 5px auto !important; /* Reduced from 10px for more compact print layout */
     /* display: block; */
   }
   
@@ -378,6 +378,11 @@ LAYOUT RECOMMENDATIONS:
     page-break-inside: avoid !important;
     page-break-before: auto !important;
     page-break-after: auto !important;
+    margin: 0.5em 0 !important; /* Reduce space above and below images in print */
+  }
+
+  .three-column-images {
+    margin: 0.5em 0 !important; /* Reduce space above and below images in print */
   }
 
   /* Force smaller image heights when multiple images are grouped together */
