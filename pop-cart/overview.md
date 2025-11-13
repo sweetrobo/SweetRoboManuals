@@ -183,17 +183,20 @@ The Pop Cart interior is organized into distinct functional zones for efficient 
 
 **Upper Level - Storage & Supply**
 - Dual kernel hoppers with top-loading access (Tubes A & B)
-- Seasoning dispensers (5 positions)
+- Seasoning packet dispensers (5 positions) - spring-loaded rows that rotate to push packets out
+- Packet dispenser IO board (located at front right bottom, visible in images above)
 - Transparent hopper design allows visual supply level monitoring
 
 **Middle Level - Production**
-- Single popping chamber with dual hopper feed system
+- Cup holder/positioning mechanism
+- Single popping chamber (oven) with dual hopper feed system
 - Heating element arrays
 - Temperature monitoring
 
 **Lower Level - Dispensing & Collection**
-- Stainless steel dispensing chute
-- Cup positioning mechanism
+- Fan blower for air circulation
+- Drop chute where popcorn falls into positioned cup
+- Electronics protected behind metal shrouds for safety
 - Stray popcorn collector
 - Service access panels
 
