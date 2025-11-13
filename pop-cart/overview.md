@@ -209,7 +209,7 @@ The Pop Cart features two independent popcorn cylinders (A and B) providing oper
 
 - **Independent Operation**: Each cylinder operates separately for reliability and continuous service
 - **Storage Capacity**: 3 kg per cylinder (6 kg total)
-- **Transparent Design**: Visible popcorn display
+- **Transparent Design**: Visible kernel display
 
 <hr class="section-divider">
 
