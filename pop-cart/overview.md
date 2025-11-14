@@ -141,14 +141,14 @@ Eye-catching carnival cart design with red and white striped awning, decorative 
 
 <div class="spec-row">
 <div class="spec-label">Operating Environment</div>
-<div class="spec-value">Indoor use, 15-30°C (59-86°F), humidity 20-80% non-condensing</div>
+<div class="spec-value">Indoor use, 15-30°C (59-86°F), humidity 20-80% <strong>non-condensing</strong> (no surface condensation)</div>
 </div>
 
 </div>
 
 <div class="info-box">
 
-The Pop Cart requires adequate ventilation and climate-controlled indoor environments for optimal performance. Consult the Setup section for detailed site requirements and environmental specifications.
+**Important**: The Pop Cart requires climate-controlled indoor environments with **non-condensing humidity** - meaning no moisture should condense on machine surfaces. This protects electronics, preserves food products, and prevents corrosion. Consult the [Setup section](setup.md#site-requirements) for complete site requirements and detailed humidity specifications.
 
 </div>
 

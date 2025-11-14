@@ -29,7 +29,7 @@ Before beginning installation, ensure you have:
 
 **Space:** Machine footprint 94.7 × 65.4 cm. Minimum clearances: 60cm service side, 120cm front (customer access), 15cm around ventilation.
 
-**Environment:** Indoor use only, level floor. Operating temperature 15-30°C (59-86°F), humidity 20-80% non-condensing. Adequate air circulation required.
+**Environment:** Indoor use only, level floor. Operating temperature 15-30°C (59-86°F), humidity 20-80% **non-condensing** (no moisture condensation on surfaces). Adequate air circulation required.
 
 **Power:** 110-125V or 220-240V AC, 50/60Hz, 2200W max. Dedicated circuit recommended. Standard grounded plug for region.
 
@@ -38,6 +38,20 @@ Before beginning installation, ensure you have:
 <div class="warning-box">
 
 **WARNING**: Do not install in damp, wet, or outdoor environments. Exposure to moisture may cause electrical hazards and equipment damage.
+
+</div>
+
+<div class="info-box">
+
+**Non-Condensing Humidity Requirement**
+
+"Non-condensing" means moisture must NOT condense on any surface of the machine. Even if humidity is within the 20-80% range, the environment must prevent condensation. This is critical because:
+
+- **Electronics Protection**: Condensation damages control boards and wiring
+- **Food Safety**: Moisture ruins kernels and seasoning packets
+- **Corrosion Prevention**: Condensation causes rust on metal components
+
+**Avoid locations with**: High humidity near kitchens/dishwashers, poorly ventilated areas, temperature fluctuations causing condensation, or any environment where surfaces feel damp.
 
 </div>
 
