@@ -6,7 +6,7 @@ This section guides you through unpacking, positioning, and configuring your Pop
 
 **IMPORTANT**
 
-Some accessories or consumables may be packaged and stored inside the machine body for secure transit. Before powering on the machine, carefully open all access doors and inspect the interior.
+Some accessories or consumables may be packaged and stored inside the machine body for secure transit. Before powering on the machine, carefully open the access door and inspect the interior.
 
 </div>
 
@@ -116,7 +116,7 @@ Keep protective materials until installation is complete in case return shipping
 
 <div>
 <div>
-Unlock and open all service access doors using the provided keys.
+Unlock and open the service access door using the provided key.
 </div>
 </div>
 
