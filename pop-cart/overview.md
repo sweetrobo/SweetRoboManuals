@@ -233,8 +233,7 @@ Once popping is complete, the automated dispensing system delivers popcorn to cu
 An integrated electronic control system manages all machine functions:
 
 - **Customer Interface**: Android-based touchscreen for intuitive operation
-- **Payment Processing**: Secure transaction handling and receipt generation
-- **Inventory Tracking**: Monitors kernel and seasoning levels
+- **Payment Processing**: Secure transaction handling
 - **Error Detection**: Real-time monitoring and diagnostic alerts
 - **Remote Management**: Optional network connectivity for remote monitoring
 
