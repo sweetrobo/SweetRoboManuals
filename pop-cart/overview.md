@@ -224,10 +224,10 @@ The Pop Cart's production system handles the complete popping process from kerne
 ### 2. Dispensing Mechanism
 Once popping is complete, the automated dispensing system delivers popcorn to customers:
 
-- **Air-Driven Movement**: Hot air and popping action propel kernels forward and downward into collection cylinders
-- **Portion Control**: Measured dispensing ensures consistent serving sizes
+- **Air-Driven Movement**: Hot air and popping action propel popcorn downward into the chute that goes to the cup
+- **Portion Control**: Controlled at the kernel holder level - the drop hole opening size determines the portion amount
 - **Cup Positioning**: Sensors detect proper cup placement before dispensing
-- **Chute Design**: Stainless steel curved chute guides popcorn smoothly into cups
+- **Chute Design**: Stainless steel chute with internally curved edges for easy cleaning and smooth popcorn flow into cups
 
 ### 3. Control System
 An integrated electronic control system manages all machine functions:
