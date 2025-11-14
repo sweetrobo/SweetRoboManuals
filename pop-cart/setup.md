@@ -90,7 +90,7 @@ If significant damage is observed, contact the carrier and Sweet Robo support be
 ### 2. Remove Protective Wrapping
 
 <img src="./assets/setup/machine_wrapped_labeled_shipping.webp" alt="Pop Cart with Shipping Labels and Bubble Wrap" />
-*Pop Cart as delivered with shipping protection and labels*
+<p><em>Pop Cart as delivered with shipping protection and labels</em></p>
 
 <div class="numbered-steps">
 
@@ -119,12 +119,12 @@ Keep protective materials until installation is complete in case return shipping
 <img src="./assets/setup/machine_wrapped_bubble_protection.webp" alt="Pop Cart Partially Unwrapped" />
 </div>
 
-*Unpacking sequence: fully protected (left) and partially unwrapped (right)*
+<p><em>Unpacking sequence: fully protected (left) and partially unwrapped (right)</em></p>
 
 ### 3. Remove Interior Packing Materials
 
 <img src="./assets/setup/setup_packaging_bubble_wrap_roll.webp" alt="Interior Bubble Wrap Packing Material" />
-*Interior protective materials that must be removed before operation*
+<p><em>Interior protective materials that must be removed before operation</em></p>
 
 <div class="numbered-steps">
 
@@ -230,7 +230,7 @@ With the cable already routed through the hole, align the sign with the mounting
 <div>
 <div>
 <h3>Connect Sign Wiring</h3>
-Each light sign has 2 wires with protected endpoints - one male connector and one female connector. Connect each to the corresponding female and male machine cables. The connectors are keyed and cannot be mixed up.
+Each light sign has 2 wires with protected endpoints - one male connector and one female connector. Connect each to the corresponding female and male machine cables. Since each sign has one male and one female connector, they naturally match to the machine's corresponding connectors and cannot be switched.
 </div>
 </div>
 

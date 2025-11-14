@@ -33,7 +33,7 @@ The Pop Cart displays error messages when it detects issues requiring attention.
 ### Dispenser Jam Error
 
 <img src="./assets/troubleshooting/error-screen-dispenser-jammed.webp" alt="Dispenser Jammed Error Screen" />
-*Error message indicating popcorn dispenser 2/B is jammed*
+<p><em>Error message indicating popcorn dispenser 2/B is jammed</em></p>
 
 **Error**: "Popcorn Dispenser 2/B is jammed"
 
