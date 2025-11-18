@@ -150,7 +150,7 @@ After payment, the machine begins the automated production cycle (~90-120 second
 
 <img src="./assets/operation/admin_login_password_entry.webp" alt="Admin Login Screen" />
 
-Access the admin interface by tapping 3-5 times in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen.
+Access the admin interface by holding for 3-5 seconds in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen.
 
 ### Management Dashboard
 
