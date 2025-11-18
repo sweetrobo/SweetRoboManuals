@@ -8,8 +8,8 @@ Sweet Robo is a leading innovator in automated food service technology, speciali
 
 ### Headquarters
 
-**Sweet Robo**  
-123 32st, Brooklyn, NY 11232, United States
+**Sweet Robo**
+132 32nd st, Brooklyn, NY 11232, United States
 
 ### Customer Support
 
