@@ -4,7 +4,7 @@ Proper maintenance ensures optimal performance, longevity, and food safety for y
 
 <div class="important-box">
 
-**IMPORTANT**
+<strong>IMPORTANT</strong>
 
 Always disconnect power before performing any internal cleaning or maintenance. Allow heating elements to cool completely (30 minutes minimum) before touching internal components. See <a href="safety.html">Safety & Regulatory Compliance</a> for complete safety procedures.
 
@@ -57,7 +57,7 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 <div class="warning-box">
 
-**WARNING**: Disconnect power and wait 30 minutes for cooling before interior cleaning.
+<strong>WARNING</strong>: Disconnect power and wait 30 minutes for cooling before interior cleaning.
 
 </div>
 
@@ -67,7 +67,7 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 <div class="warning-box">
 
-**WARNING**: Do not clean electronics or allow water near electrical components. Use only damp (not wet) cloths for cleaning. Avoid getting moisture on control boards, sensors, or wiring.
+<strong>WARNING</strong>: Do not clean electronics or allow water near electrical components. Use only damp (not wet) cloths for cleaning. Avoid getting moisture on control boards, sensors, or wiring.
 
 </div>
 
@@ -79,7 +79,7 @@ Always disconnect power before performing any internal cleaning or maintenance. 
 
 <div class="important-box">
 
-**IMPORTANT: Use Only Sweet Robo Popcorn Kernels**
+<strong>IMPORTANT: Use Only Sweet Robo Popcorn Kernels</strong>
 
 The Pop Cart is calibrated and tested exclusively with Sweet Robo branded popcorn kernels. Our cooking parameters, temperature settings, and timing controls are optimized for these specific kernels to ensure consistent quality and optimal popping performance. Using other brands may result in poor popping results, increased waste, or machine errors.
 
@@ -101,21 +101,21 @@ The Pop Cart is calibrated and tested exclusively with Sweet Robo branded popcor
 
 <div>
 <div>
-**Check and Fill**<br>
+<strong>Check and Fill</strong><br>
 Verify kernels are within best-before date (typically 18-24 month shelf life). Open top access panel and pour into both hopper openings. Each holds up to 3 kg (6 kg total).
 </div>
 </div>
 
 <div>
 <div>
-**Verify Level**<br>
+<strong>Verify Level</strong><br>
 Check fill levels through the viewing window (transparent hopper tubes visible from outside). Maintain minimum 1 kg per cylinder for continuous operation.
 </div>
 </div>
 
 <div>
 <div>
-**Storage**<br>
+<strong>Storage</strong><br>
 Store unopened bags in cool, dry location. Once opened, use within 60 days. Rotate stock (first in, first out).
 </div>
 </div>
@@ -126,7 +126,7 @@ Store unopened bags in cool, dry location. Once opened, use within 60 days. Rota
 
 <div class="important-box">
 
-**IMPORTANT: Use Only Sweet Robo Branded Seasoning Packets**
+<strong>IMPORTANT: Use Only Sweet Robo Branded Seasoning Packets</strong>
 
 The Pop Cart seasoning dispensers are designed exclusively for Sweet Robo branded seasoning packets. Non-approved seasoning packets may have different dimensions and can get stuck in the dispensing mechanism, causing malfunctions and requiring service calls.
 
@@ -182,7 +182,7 @@ Use the admin Testing interface to test each lane individually and verify smooth
 
 <div class="warning-box">
 
-**WARNING**: Using non-Sweet Robo brand seasoning packets will void your warranty and may cause dispenser jams. Only use packets specifically provided or approved by Sweet Robo.
+<strong>WARNING</strong>: Using non-Sweet Robo brand seasoning packets will void your warranty and may cause dispenser jams. Only use packets specifically provided or approved by Sweet Robo.
 
 </div>
 
@@ -400,7 +400,7 @@ For professional service scheduling, parts ordering, or technical support, see c
 
 <div class="important-box">
 
-**IMPORTANT: Damp Cloth Cleaning Method**
+<strong>IMPORTANT: Damp Cloth Cleaning Method</strong>
 
 The Pop Cart contains sensitive electronics and components that can be damaged by water. Always use the damp cloth method for cleaning - never spray liquids directly on the machine or submerge components in water.
 
@@ -413,11 +413,11 @@ The Pop Cart contains sensitive electronics and components that can be damaged b
 <div class="feature-item">
 
 #### ✅ Approved for Pop Cart
-• **Food-safe dish soap** (like Dawn) for general cleaning<br>
-• **Multi-Quat Sanitizer** (quaternary ammonium-based, food-safe)<br>
-• **Ecolab Sink & Surface Cleaner Sanitizer** (recommended all-in-one solution)<br>
-• **70% isopropyl alcohol** (touchscreen and external surfaces only)<br>
-• **Warm water** (for dampening cloths - not for direct application)<br>
+• <strong>Food-safe dish soap</strong> (like Dawn) for general cleaning<br>
+• <strong>Multi-Quat Sanitizer</strong> (quaternary ammonium-based, food-safe)<br>
+• <strong>Ecolab Sink & Surface Cleaner Sanitizer</strong> (recommended all-in-one solution)<br>
+• <strong>70% isopropyl alcohol</strong> (touchscreen and external surfaces only)<br>
+• <strong>Warm water</strong> (for dampening cloths - not for direct application)<br>
 • Clean, lint-free microfiber cloths
 
 </div>
@@ -494,7 +494,7 @@ Prepare Multi-Quat Sanitizer per manufacturer instructions. Apply to food-contac
 <div>
 <div>
 <h3>Allow to Air Dry Completely</h3>
-**DO NOT rinse after sanitizing** - rinsing removes the sanitizer and undoes sanitation. **DO NOT use drying towels** - towels can re-contaminate the sanitized surface. Allow sanitizer to completely air dry (5-10 minutes). The Multi-Quat sanitizer oxidizes and becomes inert as it dries.
+<strong>DO NOT rinse after sanitizing</strong> - rinsing removes the sanitizer and undoes sanitation. <strong>DO NOT use drying towels</strong> - towels can re-contaminate the sanitized surface. Allow sanitizer to completely air dry (5-10 minutes). The Multi-Quat sanitizer oxidizes and becomes inert as it dries.
 </div>
 </div>
 
@@ -502,7 +502,7 @@ Prepare Multi-Quat Sanitizer per manufacturer instructions. Apply to food-contac
 
 <div class="info-box">
 
-**About Multi-Quat Sanitizers:**
+<strong>About Multi-Quat Sanitizers:</strong>
 
 Multi-Quat (multi-quaternary ammonium) sanitizers are food-safe antimicrobial solutions specifically designed for food service equipment. They are EPA-registered, approved for food contact surfaces, and effective against bacteria, viruses, and fungi. When used at proper concentrations, they are no-rinse formulations - the sanitizer must air dry completely to be effective.
 

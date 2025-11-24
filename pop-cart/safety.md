@@ -10,15 +10,15 @@ The Pop Cart machine is designed for **two distinct types of users**:
 
 <div class="info-box">
 
-- **Customer Users**: Any member of the public — including children — who interacts with the machine via the touchscreen to place and pay for an order. This interaction is safe, guided, and limited to external controls only.
+- <strong>Customer Users</strong>: Any member of the public — including children — who interacts with the machine via the touchscreen to place and pay for an order. This interaction is safe, guided, and limited to external controls only.
 
-- **Operators / Authorized Staff**: Trained personnel responsible for machine setup, internal access, maintenance, troubleshooting, and sanitation. These users must understand both the mechanical and food safety protocols outlined in this manual.
+- <strong>Operators / Authorized Staff</strong>: Trained personnel responsible for machine setup, internal access, maintenance, troubleshooting, and sanitation. These users must understand both the mechanical and food safety protocols outlined in this manual.
 
 </div>
 
 <div class="warning-box">
 
-**WARNING:** Only operators may open the machine cabinet, access internal components, or modify hardware or system settings.
+<strong>WARNING:</strong> Only operators may open the machine cabinet, access internal components, or modify hardware or system settings.
 
 </div>
 
@@ -84,7 +84,7 @@ The dispensing area is designed to prevent access to internal components during 
 
 <div class="caution-box">
 
-**CAUTION:** Customers or untrained individuals must **never** interact with the machine's internals. Children should not insert hands or objects into the dispensing chute or topping drop area.
+<strong>CAUTION:</strong> Customers or untrained individuals must <strong>never</strong> interact with the machine's internals. Children should not insert hands or objects into the dispensing chute or topping drop area.
 
 </div>
 
@@ -94,7 +94,7 @@ The dispensing area is designed to prevent access to internal components during 
 
 <div class="warning-box">
 
-**WARNING: Electrical Shock Hazard. Can cause serious injury or death.**
+<strong>WARNING: Electrical Shock Hazard. Can cause serious injury or death.</strong>
 
 </div>
 
@@ -155,7 +155,7 @@ Unplug the unit only after switching off the <strong>power switch</strong> (not 
 
 <div class="important-box">
 
-**Important:** All electrical work must comply with local codes. Certification bodies may inspect for proper grounding and power isolation.
+<strong>Important:</strong> All electrical work must comply with local codes. Certification bodies may inspect for proper grounding and power isolation.
 
 </div>
 
@@ -180,7 +180,7 @@ Unplug the unit only after switching off the <strong>power switch</strong> (not 
 
 <div class="warning-box">
 
-**WARNING: Hot Surface Hazard**
+<strong>WARNING: Hot Surface Hazard</strong>
 
 The popping chambers, heating elements, and freshly popped popcorn reach high temperatures during operation. Allow adequate cooling time before accessing internal components.
 
@@ -214,7 +214,7 @@ The popping chambers, heating elements, and freshly popped popcorn reach high te
 
 <div class="caution-box">
 
-**CAUTION: Heavy Equipment**
+<strong>CAUTION: Heavy Equipment</strong>
 
 The Pop Cart weighs approximately 140 kg (309 lbs). Use proper lifting equipment and techniques when moving or repositioning the machine.
 
@@ -232,13 +232,13 @@ The Pop Cart weighs approximately 140 kg (309 lbs). Use proper lifting equipment
 
 <div class="caution-box">
 
-**CAUTION: Risk of minor injury or equipment damage.**
+<strong>CAUTION: Risk of minor injury or equipment damage.</strong>
 
 </div>
 
 <div class="info-box">
 
-**For detailed cleaning instructions:** Follow the comprehensive cleaning procedures in the <a href="maintenance.html">Maintenance</a> section.
+<strong>For detailed cleaning instructions:</strong> Follow the comprehensive cleaning procedures in the <a href="maintenance.html">Maintenance</a> section.
 
 </div>
 
@@ -330,7 +330,7 @@ Always resolve the root issue before restarting the machine.
 
 <div class="warning-box">
 
-**WARNING:** Unauthorized repairs or alterations may **void the warranty**. Always contact **Sweet Robo support** for approval before making internal changes.
+<strong>WARNING:</strong> Unauthorized repairs or alterations may <strong>void the warranty</strong>. Always contact <strong>Sweet Robo support</strong> for approval before making internal changes.
 
 </div>
 
@@ -361,9 +361,9 @@ The Pop Cart is designed to meet industry safety and food handling standards:
 ### Certifications
 <div class="info-box">
 
-* **NAMA Food Safe Certification**: Designed to meet National Automatic Merchandising Association food safety standards
-* **UL / TUV Electrical Safety**: Electrical systems certified for safe operation
-<!-- * **CE Marking**: European Conformity certification (applicable models) -->
+* <strong>NAMA Food Safe Certification</strong>: Designed to meet National Automatic Merchandising Association food safety standards
+* <strong>UL / TUV Electrical Safety</strong>: Electrical systems certified for safe operation
+<!-- * <strong>CE Marking</strong>: European Conformity certification (applicable models) -->
 
 </div>
 

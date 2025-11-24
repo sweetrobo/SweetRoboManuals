@@ -4,7 +4,7 @@ This section helps diagnose and resolve common issues with the Pop Cart. For pro
 
 <div class="important-box">
 
-**IMPORTANT**
+<strong>IMPORTANT</strong>
 
 Before troubleshooting, verify the <a href="operation.html#supply-checklist">Supply Checklist</a> is complete and the machine is powered on and properly connected. Many issues are resolved by checking these basics first.
 
@@ -95,7 +95,7 @@ Run test cycle through operator menu to verify jam is cleared (see <a href="oper
 
 <div class="caution-box">
 
-**CAUTION**: Do not force stuck mechanisms. If blockage cannot be easily removed, or if error persists after clearing, see "When to Contact Support" section below.
+<strong>CAUTION</strong>: Do not force stuck mechanisms. If blockage cannot be easily removed, or if error persists after clearing, see "When to Contact Support" section below.
 
 </div>
 
@@ -105,7 +105,7 @@ Run test cycle through operator menu to verify jam is cleared (see <a href="oper
 
 <div class="feature-item">
 
-**ERR-001: Temperature Sensor Fault**
+<strong>ERR-001: Temperature Sensor Fault</strong>
 
 Temperature sensor not reading correctly. Run diagnostics to identify faulty sensor. May require sensor cleaning or replacement. Contact support if issue persists.
 
@@ -113,7 +113,7 @@ Temperature sensor not reading correctly. Run diagnostics to identify faulty sen
 
 <div class="feature-item">
 
-**ERR-002: Heating Element Failure**
+<strong>ERR-002: Heating Element Failure</strong>
 
 Heating element not reaching proper temperature. Check power connections and run heating diagnostic. Element may need replacement (~12-18 month lifespan). Contact support for service.
 
@@ -121,7 +121,7 @@ Heating element not reaching proper temperature. Check power connections and run
 
 <div class="feature-item">
 
-**ERR-003: Cup Detection Error**
+<strong>ERR-003: Cup Detection Error</strong>
 
 Machine cannot detect cup presence. Verify cup is properly positioned and sensor area is clean. Remove and reload cup. See "Cup Detection Errors" section below for detailed troubleshooting.
 
@@ -129,7 +129,7 @@ Machine cannot detect cup presence. Verify cup is properly positioned and sensor
 
 <div class="feature-item">
 
-**ERR-004: Payment System Fault**
+<strong>ERR-004: Payment System Fault</strong>
 
 Payment processing failure. Restart payment system through <a href="operation.html#admin-interface">Admin Interface</a>. Clean card reader. Verify network connection. Contact payment processor if unresolved.
 
@@ -137,7 +137,7 @@ Payment processing failure. Restart payment system through <a href="operation.ht
 
 <div class="feature-item">
 
-**ERR-005: Kernel Hopper Empty**
+<strong>ERR-005: Kernel Hopper Empty</strong>
 
 Kernel hopper is completely empty and cannot dispense. Check kernel levels through the viewing window (transparent hopper tubes visible from outside) and refill both kernel hoppers using [Supply Checklist](operation.md#supply-checklist). This error indicates a hopper is fully depleted.
 
@@ -145,7 +145,7 @@ Kernel hopper is completely empty and cannot dispense. Check kernel levels throu
 
 <div class="feature-item">
 
-**ERR-006: Seasoning Packet Dispenser Fault**
+<strong>ERR-006: Seasoning Packet Dispenser Fault</strong>
 
 Seasoning packet dispenser jammed or empty. Check dispenser lanes are loaded with Sweet Robo seasoning packets. Inspect dispenser opening for jammed packets. Run dispenser test through <a href="operation.html#admin-interface">Admin Interface</a>.
 
@@ -153,7 +153,7 @@ Seasoning packet dispenser jammed or empty. Check dispenser lanes are loaded wit
 
 <div class="feature-item">
 
-**ERR-007: Door Interlock Open**
+<strong>ERR-007: Door Interlock Open</strong>
 
 Service door is open or interlock switch malfunctioning. Ensure all doors are fully closed and latched. If error persists with doors closed, interlock switch may need adjustment or replacement.
 
@@ -161,7 +161,7 @@ Service door is open or interlock switch malfunctioning. Ensure all doors are fu
 
 <div class="feature-item">
 
-**ERR-008: Network Connection Lost**
+<strong>ERR-008: Network Connection Lost</strong>
 
 WiFi or ethernet connection interrupted. Check network settings in <a href="operation.html#admin-interface">Admin Interface</a>. Machine will continue operating without network but backend sync will be disabled. See <a href="setup.html">Setup</a> for network configuration.
 
@@ -513,7 +513,7 @@ Contact Sweet Robo support immediately if:
 
 <div class="important-box">
 
-**IMPORTANT - Safety First**
+<strong>IMPORTANT - Safety First</strong>
 
 Never attempt repairs beyond your skill level. Some repairs require certified technicians to maintain safety and warranty coverage. When in doubt, contact support (details below).
 

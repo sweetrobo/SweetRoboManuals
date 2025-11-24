@@ -4,7 +4,7 @@ This section provides component identification, parts ordering information, and 
 
 <div class="important-box">
 
-**IMPORTANT**
+<strong>IMPORTANT</strong>
 
 Only use genuine Sweet Robo replacement parts. Third-party or unapproved parts may compromise safety, void warranty, and cause equipment damage. Always consult Sweet Robo before performing component replacements.
 
@@ -231,35 +231,35 @@ The Pop Cart features keyed lock access for operator service and security. The l
 
 <div class="feature-item">
 
-**Control Board**<br>
+<strong>Control Board</strong><br>
 Main processor - requires certified tech
 
 </div>
 
 <div class="feature-item">
 
-**Power Supply**<br>
+<strong>Power Supply</strong><br>
 Electrical safety critical component
 
 </div>
 
 <div class="feature-item">
 
-**Payment System**<br>
+<strong>Payment System</strong><br>
 PCI compliance requires certified service
 
 </div>
 
 <div class="feature-item">
 
-**Safety Interlocks**<br>
+<strong>Safety Interlocks</strong><br>
 Must maintain proper function
 
 </div>
 
 <div class="feature-item">
 
-**Motor Assemblies**<br>
+<strong>Motor Assemblies</strong><br>
 Professional diagnosis and replacement
 
 </div>
@@ -289,9 +289,9 @@ When ordering replacement parts, provide:
 
 #### Direct from Sweet Robo
 
-**Online**: [Sweet Robo Parts Portal]
-**Phone**: See contact information below
-**Email**: parts@sweetrobo.com (if applicable)
+<strong>Online</strong>: [Sweet Robo Parts Portal]
+<strong>Phone</strong>: See contact information below
+<strong>Email</strong>: parts@sweetrobo.com (if applicable)
 
 Benefits: Guaranteed genuine parts, technical support, warranty coverage
 
@@ -422,7 +422,7 @@ Register your Pop Cart within 30 days of installation:
 
 <div class="important-box">
 
-**IMPORTANT - Warranty Requirements**
+<strong>IMPORTANT - Warranty Requirements</strong>
 
 To maintain warranty coverage:
 - Follow recommended maintenance schedules
@@ -506,7 +506,7 @@ If your Pop Cart is connected to Sweet Robo's remote management system, service 
 
 <div class="caution-box">
 
-**CAUTION**: Part numbers shown are examples only. Always obtain current part numbers from Sweet Robo before placing orders. Using incorrect parts may cause damage or safety hazards.
+<strong>CAUTION</strong>: Part numbers shown are examples only. Always obtain current part numbers from Sweet Robo before placing orders. Using incorrect parts may cause damage or safety hazards.
 
 </div>
 
@@ -522,49 +522,49 @@ For any component replacement:
 
 <div>
 <div>
-**Document Current State**<br>
+<strong>Document Current State</strong><br>
 Take photos of component before removal, note wire positions, document settings
 </div>
 </div>
 
 <div>
 <div>
-**Power Off and Lockout**<br>
+<strong>Power Off and Lockout</strong><br>
 Disconnect power and prevent accidental reconnection during service
 </div>
 </div>
 
 <div>
 <div>
-**Allow Cooling Period**<br>
+<strong>Allow Cooling Period</strong><br>
 Wait appropriate time for hot components to cool (minimum 30 minutes)
 </div>
 </div>
 
 <div>
 <div>
-**Follow Proper Procedure**<br>
+<strong>Follow Proper Procedure</strong><br>
 Consult service manual or Sweet Robo support for specific component instructions
 </div>
 </div>
 
 <div>
 <div>
-**Use Correct Tools**<br>
+<strong>Use Correct Tools</strong><br>
 Employ appropriate tools and avoid forcing components
 </div>
 </div>
 
 <div>
 <div>
-**Test After Installation**<br>
+<strong>Test After Installation</strong><br>
 Run diagnostic tests to verify proper installation and operation
 </div>
 </div>
 
 <div>
 <div>
-**Document Service**<br>
+<strong>Document Service</strong><br>
 Record part numbers, installation date, and any configuration changes
 </div>
 </div>
@@ -586,7 +586,7 @@ The following components require certified technician installation:
 
 <div class="warning-box">
 
-**WARNING**: Attempting unauthorized repairs on electrical components may result in electric shock, fire hazard, equipment damage, voided warranty, and personal injury. Contact Sweet Robo for professional service.
+<strong>WARNING</strong>: Attempting unauthorized repairs on electrical components may result in electric shock, fire hazard, equipment damage, voided warranty, and personal injury. Contact Sweet Robo for professional service.
 
 </div>
 

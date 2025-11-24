@@ -148,7 +148,7 @@ Eye-catching carnival cart design with red and white striped awning, decorative 
 
 <div class="info-box">
 
-**Important**: The Pop Cart requires climate-controlled indoor environments with **non-condensing humidity** - meaning no moisture should condense on machine surfaces. This protects electronics, preserves food products, and prevents corrosion. Consult the <a href="setup.html#site-requirements">Setup section</a> for complete site requirements and detailed humidity specifications.
+<strong>Important</strong>: The Pop Cart requires climate-controlled indoor environments with <strong>non-condensing humidity</strong> - meaning no moisture should condense on machine surfaces. This protects electronics, preserves food products, and prevents corrosion. Consult the <a href="setup.html#site-requirements">Setup section</a> for complete site requirements and detailed humidity specifications.
 
 </div>
 
