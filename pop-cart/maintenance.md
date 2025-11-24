@@ -6,7 +6,7 @@ Proper maintenance ensures optimal performance, longevity, and food safety for y
 
 **IMPORTANT**
 
-Always disconnect power before performing any internal cleaning or maintenance. Allow heating elements to cool completely (30 minutes minimum) before touching internal components. See [Safety & Regulatory Compliance](safety.md) for complete safety procedures.
+Always disconnect power before performing any internal cleaning or maintenance. Allow heating elements to cool completely (30 minutes minimum) before touching internal components. See <a href="safety.html">Safety & Regulatory Compliance</a> for complete safety procedures.
 
 </div>
 
@@ -109,7 +109,7 @@ Verify kernels are within best-before date (typically 18-24 month shelf life). O
 <div>
 <div>
 **Verify Level**<br>
-Check fill levels visually through the transparent hopper windows. Maintain minimum 1 kg per cylinder for continuous operation.
+Check fill levels through the viewing window (transparent hopper tubes visible from outside). Maintain minimum 1 kg per cylinder for continuous operation.
 </div>
 </div>
 

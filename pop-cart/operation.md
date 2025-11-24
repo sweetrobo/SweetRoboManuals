@@ -12,14 +12,14 @@ Perform these steps at the beginning of each operating day:
 
 <div>
 <div>
-**Verify Supply Levels**<br>
-Complete the [Supply Checklist](#supply-checklist) below: kernel hoppers, seasonings, and cups
+<strong>Verify Supply Levels</strong><br>
+Complete the <a href="#supply-checklist">Supply Checklist</a> below: kernel hoppers, seasonings, and cups
 </div>
 </div>
 
 <div>
 <div>
-**Inspect Machine Condition**<br>
+<strong>Inspect Machine Condition</strong><br>
 • Visually inspect exterior for damage or tampering<br>
 • Verify dispensing window is clean and clear<br>
 • Check for any error messages on screen<br>
@@ -29,7 +29,7 @@ Complete the [Supply Checklist](#supply-checklist) below: kernel hoppers, season
 
 <div>
 <div>
-**Power On System**<br>
+<strong>Power On System</strong><br>
 • Turn on main power if switched off overnight<br>
 • Allow 30-60 seconds for system boot<br>
 • Verify touchscreen displays welcome screen<br>
@@ -39,8 +39,8 @@ Complete the [Supply Checklist](#supply-checklist) below: kernel hoppers, season
 
 <div>
 <div>
-**Perform Test Cycle (Optional)**<br>
-Run a test transaction to verify proper operation (see Testing & Diagnostics section)
+<strong>Perform Test Cycle (Optional)</strong><br>
+Run a test transaction to verify proper operation (see <a href="#testing--diagnostics">Testing & Diagnostics</a> section)
 </div>
 </div>
 
@@ -77,14 +77,14 @@ Use this checklist for daily startup, restocking, and troubleshooting supply-rel
 <div class="spec-value">
 ✓ Minimum: 20 cups for short operation periods<br>
 ✓ Recommended: 50+ cups for full day operation<br>
-✓ Ensure cups are correctly oriented in dispenser
+✓ Ensure cups are loose and not stuck together - do not overstuff dispenser
 </div>
 </div>
 
 <div class="spec-row">
 <div class="spec-label">Visual Inspection</div>
 <div class="spec-value">
-✓ Check fill levels visually through transparent hopper windows<br>
+✓ Check fill levels through the viewing window (transparent hopper tubes visible from outside)<br>
 ✓ Look for blockages or bridging in hoppers<br>
 ✓ Verify seasonings are properly loaded in dispenser lanes
 </div>
@@ -94,7 +94,7 @@ Use this checklist for daily startup, restocking, and troubleshooting supply-rel
 
 <div class="info-box">
 
-**Quick Reference**: For detailed restocking procedures, see [Supply Restocking](maintenance.md#supply-restocking) in the Maintenance section.
+<strong>Quick Reference</strong>: For detailed restocking procedures, see <a href="maintenance.html#supply-restocking">Supply Restocking</a> in the Maintenance section.
 
 </div>
 
@@ -136,7 +136,7 @@ After payment, the machine begins the automated production cycle (~90-120 second
 
 <div class="caution-box">
 
-**CAUTION**: Popcorn and internal components may be hot during production.
+<strong>CAUTION</strong>: Popcorn and internal components may be hot during production.
 
 </div>
 
@@ -151,6 +151,50 @@ After payment, the machine begins the automated production cycle (~90-120 second
 <img src="./assets/operation/admin_login_password_entry.webp" alt="Admin Login Screen" />
 
 Access the admin interface by holding for 3-5 seconds in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen.
+
+<div class="important-box">
+
+<strong>Default Operator PIN: 123456</strong>
+
+For security, <strong>change the default PIN as soon as possible</strong> after initial setup. Using the default PIN leaves your machine vulnerable to unauthorized access.
+
+</div>
+
+### Changing Your Operator PIN
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Access the admin interface using the current PIN (default: 123456).
+</div>
+</div>
+
+<div>
+<div>
+From the Management Dashboard, select <strong>Device</strong> to open Device Settings.
+</div>
+</div>
+
+<div>
+<div>
+Scroll all the way down to the bottom of the Device Settings page.
+</div>
+</div>
+
+<div>
+<div>
+Locate the PIN change option and enter your new secure operator PIN.
+</div>
+</div>
+
+<div>
+<div>
+Confirm the new PIN and save the changes. Store the new PIN securely.
+</div>
+</div>
+
+</div>
 
 ### Management Dashboard
 
@@ -182,7 +226,7 @@ View sales count, total income, and transaction history. Backend syncing (requir
 
 <div class="important-box">
 
-**IMPORTANT**
+<strong>IMPORTANT</strong>
 
 Keep operator PIN codes secure and confidential. Unauthorized access to operator settings can disrupt machine operation or compromise payment security.
 

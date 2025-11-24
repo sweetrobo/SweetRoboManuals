@@ -6,7 +6,7 @@ This section helps diagnose and resolve common issues with the Pop Cart. For pro
 
 **IMPORTANT**
 
-Before troubleshooting, verify the [Supply Checklist](operation.md#supply-checklist) is complete and the machine is powered on and properly connected. Many issues are resolved by checking these basics first.
+Before troubleshooting, verify the <a href="operation.html#supply-checklist">Supply Checklist</a> is complete and the machine is powered on and properly connected. Many issues are resolved by checking these basics first.
 
 </div>
 
@@ -87,7 +87,7 @@ Close service door and power machine back on
 
 <div>
 <div>
-Run test cycle through operator menu to verify jam is cleared (see [Testing & Diagnostics](operation.md#testing--diagnostics))
+Run test cycle through operator menu to verify jam is cleared (see <a href="operation.html#testing--diagnostics">Testing & Diagnostics</a>)
 </div>
 </div>
 
@@ -139,7 +139,7 @@ Payment processing failure. Restart payment system through <a href="operation.ht
 
 **ERR-005: Kernel Hopper Empty**
 
-Kernel hopper is completely empty and cannot dispense. Visually check kernel levels through transparent hopper windows and refill both kernel hoppers using [Supply Checklist](operation.md#supply-checklist). This error indicates a hopper is fully depleted.
+Kernel hopper is completely empty and cannot dispense. Check kernel levels through the viewing window (transparent hopper tubes visible from outside) and refill both kernel hoppers using [Supply Checklist](operation.md#supply-checklist). This error indicates a hopper is fully depleted.
 
 </div>
 

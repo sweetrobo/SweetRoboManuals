@@ -238,7 +238,7 @@ The Pop Cart weighs approximately 140 kg (309 lbs). Use proper lifting equipment
 
 <div class="info-box">
 
-**For detailed cleaning instructions:** Follow the comprehensive cleaning procedures in the [Maintenance](maintenance.md) section.
+**For detailed cleaning instructions:** Follow the comprehensive cleaning procedures in the <a href="maintenance.html">Maintenance</a> section.
 
 </div>
 

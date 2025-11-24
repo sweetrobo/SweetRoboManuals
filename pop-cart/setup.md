@@ -4,7 +4,7 @@ This section guides you through unpacking, positioning, and configuring your Pop
 
 <div class="important-box">
 
-**IMPORTANT**
+<strong>IMPORTANT</strong>
 
 Some accessories or consumables may be packaged and stored inside the machine body for secure transit. Before powering on the machine, carefully open the access door and inspect the interior.
 
@@ -37,21 +37,21 @@ Before beginning installation, ensure you have:
 
 <div class="warning-box">
 
-**WARNING**: Do not install in damp, wet, or outdoor environments. Exposure to moisture may cause electrical hazards and equipment damage.
+<strong>WARNING</strong>: Do not install in damp, wet, or outdoor environments. Exposure to moisture may cause electrical hazards and equipment damage.
 
 </div>
 
 <div class="info-box">
 
-**Non-Condensing Humidity Requirement**
+<strong>Non-Condensing Humidity Requirement</strong>
 
 "Non-condensing" means moisture must NOT condense on any surface of the machine. Even if humidity is within the 20-80% range, the environment must prevent condensation. This is critical because:
 
-- **Electronics Protection**: Condensation damages control boards and wiring
-- **Food Safety**: Moisture ruins kernels and seasoning packets
-- **Corrosion Prevention**: Condensation causes rust on metal components
+- <strong>Electronics Protection</strong>: Condensation damages control boards and wiring
+- <strong>Food Safety</strong>: Moisture ruins kernels and seasoning packets
+- <strong>Corrosion Prevention</strong>: Condensation causes rust on metal components
 
-**Avoid locations with**: High humidity near kitchens/dishwashers, poorly ventilated areas, temperature fluctuations causing condensation, or any environment where surfaces feel damp.
+<strong>Avoid locations with</strong>: High humidity near kitchens/dishwashers, poorly ventilated areas, temperature fluctuations causing condensation, or any environment where surfaces feel damp.
 
 </div>
 
@@ -156,7 +156,7 @@ Check for accessory boxes or consumables packed inside the machine (cups, kernel
 
 <div class="caution-box">
 
-**CAUTION**: Failure to remove all packing materials before operation may cause equipment malfunction, jamming, or damage. Thoroughly inspect all interior compartments.
+<strong>CAUTION</strong>: Failure to remove all packing materials before operation may cause equipment malfunction, jamming, or damage. Thoroughly inspect all interior compartments.
 
 </div>
 
@@ -205,7 +205,7 @@ Ensure both decorative wheels are properly positioned and securely attached for 
 
 <div class="important-box">
 
-**IMPORTANT: Cable Routing Before Bolting**
+<strong>IMPORTANT: Cable Routing Before Bolting</strong>
 
 The light signs have electrical cables that must be passed through the dedicated cable hole BEFORE bolting the sign in place. Do not bolt the sign first - you will not be able to route the cable afterward.
 
@@ -249,7 +249,7 @@ Ensure both wire connections are fully seated and secure. Gently tug each connec
 
 <div class="info-box">
 
-**Roof Assembly Instructions**
+<strong>Roof Assembly Instructions</strong>
 
 The roof base comes pre-assembled with 2 walls connected to hinges. You will need to complete the assembly by adding the remaining walls and rails.
 
@@ -318,7 +318,7 @@ Carefully lift the fully assembled roof and position it on top of the machine. U
 
 <div class="important-box">
 
-**IMPORTANT: Cup Holder Tube Sensor Alignment**
+<strong>IMPORTANT: Cup Holder Tube Sensor Alignment</strong>
 
 The cup holder tube has a slot at the bottom that must be aligned with the cup sensor. Be extremely careful when installing or removing this tube - the cup sensor is fragile and can be easily damaged.
 
@@ -365,20 +365,20 @@ Check that the cup sensor is properly aligned with the tube slot and is not bent
 
 <div class="warning-box">
 
-**WARNING**: Do not force the cup holder tube into position. If resistance is felt, remove the tube and check for obstructions. Forcing the tube can break the cup sensor, preventing proper operation.
+<strong>WARNING</strong>: Do not force the cup holder tube into position. If resistance is felt, remove the tube and check for obstructions. Forcing the tube can break the cup sensor, preventing proper operation.
 
 </div>
 
 <div class="caution-box">
 
-**ADVANCED: Kernel Drop Hole Adjustment (Expert Users Only)**
+<strong>ADVANCED: Kernel Drop Hole Adjustment (Expert Users Only)</strong>
 
 The kernel drop hole size is factory-preset to the ideal position for optimal popping performance. If adjustment is needed to reduce or expand the amount of kernels that drop into the popping chamber:
 
 1. Access the 2 small adjustment screws from the back of the machine (inside the kernel tube area)
 2. Carefully adjust the hole size as needed
 
-**⚠️ CAUTION**: This adjustment requires extreme care and expertise. Changing the drop hole size without adjusting other machine settings can cause serious operational issues. Too many or too few kernels in the popping chamber will result in poor popping quality, excessive waste, or machine errors requiring troubleshooting. Only modify this setting if you have technical training or under guidance from Sweet Robo support.
+<strong>⚠️ CAUTION</strong>: This adjustment requires extreme care and expertise. Changing the drop hole size without adjusting other machine settings can cause serious operational issues. Too many or too few kernels in the popping chamber will result in poor popping quality, excessive waste, or machine errors requiring troubleshooting. Only modify this setting if you have technical training or under guidance from Sweet Robo support.
 
 </div>
 
@@ -394,7 +394,7 @@ The kernel drop hole size is factory-preset to the ideal position for optimal po
 
 <div class="caution-box">
 
-**CAUTION: Moving and Positioning**
+<strong>CAUTION: Moving and Positioning</strong>
 
 Two or more people may be required for safely moving and positioning the machine. The Pop Cart weighs approximately 140 kg (309 lbs).
 
@@ -455,7 +455,7 @@ If the floor is uneven, consider using thin shims under the wheels to achieve pr
 
 <div>
 <div>
-Engage wheel locks (if equipped) to prevent the machine from rolling during operation.
+Engage wheel locks to prevent the machine from rolling during operation.
 </div>
 </div>
 
@@ -473,7 +473,7 @@ Proper leveling is critical for accurate popcorn dispensing and prevents uneven 
 
 <div class="warning-box">
 
-**WARNING: Electrical Shock Hazard.** Ensure your hands are dry and you are not standing in water when connecting the power cord. Have a qualified electrician verify proper grounding before operation. See [Electrical Safety](safety.md#electrical-safety) for complete safety requirements.
+<strong>WARNING: Electrical Shock Hazard.</strong> Ensure your hands are dry and you are not standing in water when connecting the power cord. Have a qualified electrician verify proper grounding before operation. See <a href="safety.html#electrical-safety">Electrical Safety</a> for complete safety requirements.
 
 </div>
 
@@ -507,7 +507,7 @@ Turn ON the circuit breaker and verify no faults or tripped breakers.
 
 <div class="important-box">
 
-**IMPORTANT**
+<strong>IMPORTANT</strong>
 
 Use a dedicated circuit for the Pop Cart when possible. Sharing circuits with other high-power equipment may cause voltage fluctuations and affect machine performance.
 
@@ -521,7 +521,7 @@ The Pop Cart supports remote management and backend data sync via network connec
 
 <div class="important-box">
 
-**Network Requirements**
+<strong>Network Requirements</strong>
 
 The WiFi network must be:
 - Stable with consistent connection
@@ -625,14 +625,16 @@ Before operation, the machine requires:
 <div class="feature-item">
 
 #### Popcorn Kernels
-Fill kernel hopper with **Sweet Robo branded popcorn kernels only**. Machine settings are calibrated and tested specifically for Sweet Robo kernels.
+Fill kernel hoppers with <strong>Sweet Robo branded popcorn kernels only</strong>. Machine settings are calibrated and tested specifically for Sweet Robo kernels.
 
 </div>
 
 <div class="feature-item">
 
 #### Seasoning Packets
-Stock seasoning dispensers with **Sweet Robo branded seasoning packets only**. Non-approved seasoning packets may get stuck in the dispensing mechanism and cause malfunctions.
+Stock seasoning dispensers with <strong>Sweet Robo branded seasoning packets only</strong>. Non-approved seasoning packets may get stuck in the dispensing mechanism and cause malfunctions.
+
+<strong>Loading Instructions:</strong> Fold each packet at the perforated cut line, then insert vertically into the dispenser lanes. Each of the 5 lanes can hold different flavor varieties.
 
 </div>
 
@@ -654,7 +656,7 @@ Refer to [Supply Restocking](maintenance.md#supply-restocking) for detailed load
 
 <div class="important-box">
 
-**Payment Hardware Installation Required**
+<strong>Payment Hardware Installation Required</strong>
 
 The Pop Cart comes with an MDB-RS232 adapter pre-installed but does NOT include complete payment hardware. To enable payment processing, you will need to contact Sweet Robo support to arrange installation of:
 
@@ -662,7 +664,7 @@ The Pop Cart comes with an MDB-RS232 adapter pre-installed but does NOT include 
 - MDB Nayax cable
 - Configuration and setup assistance
 
-**Contact Sweet Robo support to arrange payment system installation:** See [Company Information](shared/content/company-info.md)
+<strong>Contact Sweet Robo support to arrange payment system installation:</strong> See <a href="../shared/content/company-info.html">Company Information</a>
 
 </div>
 
@@ -680,17 +682,17 @@ Before allowing customer use, verify:
 - [ ] Network connection established (if applicable)
 - [ ] **Initial supplies loaded** - complete [Supply Checklist](operation.md#supply-checklist)
 - [ ] Customer interface is responsive
-- [ ] **Payment hardware installed** (contact Sweet Robo support - see Payment System Installation above)
+- [ ] **Payment hardware installed** (contact Sweet Robo support - see <a href="#payment-system-installation">Payment System Installation</a> above)
 - [ ] Test transaction completed successfully (with payment hardware if installed)
 - [ ] Operator familiar with [Operation Guide](operation.md)
-- [ ] Emergency shutdown procedure understood
+- [ ] Emergency procedures understood (see <a href="safety.html#emergency-procedures">Safety - Emergency Procedures</a>)
 - [ ] Support contact information posted
 
 <div class="sidebar-highlight">
 
 <h4>Test Transaction</h4>
 
-Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, seasoning dispensing, and product delivery. If payment hardware is installed, test payment processing as well. See [Testing & Diagnostics](operation.md#testing--diagnostics) for test procedures.
+Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, seasoning dispensing, and product delivery. If payment hardware is installed, test payment processing as well. See <a href="operation.html#testing--diagnostics">Testing & Diagnostics</a> for test procedures.
 
 </div>
 
