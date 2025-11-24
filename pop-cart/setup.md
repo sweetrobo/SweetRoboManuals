@@ -652,23 +652,63 @@ Refer to [Supply Restocking](maintenance.md#supply-restocking) for detailed load
 
 <hr class="section-divider">
 
-## Payment System Installation
+## Payment System
 
-<div class="important-box">
+### Bill Acceptor (Pre-Installed)
 
-<strong>Payment Hardware Installation Required</strong>
+<div class="info-box">
 
-The Pop Cart comes with an MDB-RS232 adapter pre-installed but does NOT include complete payment hardware. To enable payment processing, you will need to contact Sweet Robo support to arrange installation of:
+**Cash Payments Ready Out of the Box**
 
-- Payment processing device (e.g., Nayax device)
-- MDB Nayax cable
-- Configuration and setup assistance
-
-<strong>Contact Sweet Robo support to arrange payment system installation:</strong> See <a href="../shared/content/company-info.html">Company Information</a>
+The Pop Cart comes with a **bill acceptor pre-installed and configured**. The machine is ready to accept cash payments immediately after setup and can be used for customer transactions without additional payment hardware.
 
 </div>
 
-The machine can operate in test mode without payment hardware for initial testing and configuration. However, payment hardware must be installed before opening for customer use.
+<div class="important-box">
+
+**Verify Local Currency Compatibility**
+
+Before opening for customer use, verify that the bill acceptor is configured to accept your local currency. The bill acceptor should recognize and accept the bills commonly used in your region.
+
+If the bill acceptor does not accept your local currency or you experience currency recognition issues, contact Sweet Robo support for configuration assistance.
+
+</div>
+
+### Credit Card Processing (Optional)
+
+Credit card processing requires additional hardware installation. If you want to accept credit/debit card payments:
+
+<div class="numbered-steps">
+
+<div>
+<div>
+Contact Sweet Robo support to arrange installation of a Nayax payment device.
+</div>
+</div>
+
+<div>
+<div>
+The installation includes the Nayax device, MDB Nayax cable, and configuration assistance.
+</div>
+</div>
+
+<div>
+<div>
+Note: The Pop Cart comes with an MDB-RS232 adapter pre-installed to support credit card payment devices.
+</div>
+</div>
+
+</div>
+
+**Contact Sweet Robo support for credit card payment installation:** See <a href="../shared/content/company-info.html">Company Information</a>
+
+<div class="info-box">
+
+**Optional Credit Card Processing**
+
+Credit card processing is entirely optional. The machine is fully functional for cash-only operation using the pre-installed bill acceptor. Add credit card capabilities when ready to expand payment options.
+
+</div>
 
 <hr class="section-divider">
 
