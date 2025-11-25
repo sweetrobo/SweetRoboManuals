@@ -1,7 +1,7 @@
 {
   "project": "Pop Cart Manual",
   "catalog_version": "1.0",
-  "last_updated": "2025-11-06T16:01:44Z",
+  "last_updated": "2025-11-25T00:29:01Z",
   "images": [
     {
       "original_filename": "photo_1_2025-10-22_17-06-26.jpg",
@@ -1713,6 +1713,161 @@
       "notes": "Second step in customer ordering with three navigation tabs (topping active in red between popcorn and payment). Header instructs 'Select up to 2 flavors'. Five topping cards arranged in grid: Brown Butter ($1.00), Jalape\u00f1o & Chipotle (center card with packet image), Black Truffles ($1.00), Sicily Sensation (bottom left green packet), and Key Lime (bottom right green packet). Each card shows seasoning packet image with flavor name and price below. Navigation includes Back, Continue, and Skip buttons at bottom. Popcorn cloud background. Essential for demonstrating topping selection interface and explaining multi-select limit to customers.",
       "processed": true,
       "final_location": "assets/operation/customer_topping_flavor_selection.webp"
+    },
+    {
+      "original_filename": "WhatsApp Image 2025-11-24 at 15.09.44 (1).jpeg",
+      "suggested_filename": "roof_assembly_hinged_wall_detail.webp",
+      "description": "3D CAD diagram showing roof wall assembly with hinges at 90 degree angle and aluminum extrusion rail at corner",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "hinged-wall",
+        "aluminum-extrusion",
+        "80-20-rail",
+        "3d-diagram",
+        "assembly-step"
+      ],
+      "dimensions": "841x771",
+      "notes": "Clear CAD diagram showing pre-assembled hinged wall positioned at 90 degrees with aluminum frame rail (80/20 extrusion) visible at corner. Useful for illustrating the hinge connection and rail placement concept.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_hinged_wall_detail.webp"
+    },
+    {
+      "original_filename": "WhatsApp Image 2025-11-24 at 15.09.44 (3).jpeg",
+      "suggested_filename": "roof_assembly_four_walls_assembled.webp",
+      "description": "3D CAD diagram showing roof structure with four walls assembled in box formation with hinges and aluminum rails visible",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "four-walls",
+        "box-structure",
+        "hinges-visible",
+        "aluminum-rails",
+        "assembly-overview"
+      ],
+      "dimensions": "945x808",
+      "notes": "Shows completed four-wall assembly with two hinged walls forming 90 degree corners and aluminum extrusion rails installed. Good overview of the assembled roof box structure before mounting.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_four_walls_assembled.webp"
+    },
+    {
+      "original_filename": "WhatsApp Image 2025-11-24 at 15.09.44 (4).jpeg",
+      "suggested_filename": "roof_assembly_extrusion_profile_detail.webp",
+      "description": "2D technical drawing showing cross-section profile of 80/20 aluminum extrusion rail with T-slot design",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "aluminum-extrusion",
+        "80-20-profile",
+        "t-slot",
+        "technical-drawing",
+        "cross-section"
+      ],
+      "dimensions": "562x458",
+      "notes": "Clear technical drawing of the 80/20 aluminum extrusion profile showing the characteristic T-slot channels used for sliding T-bolts. Essential for explaining how T-bolts engage with the rail slots.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_extrusion_profile_detail.webp"
+    },
+    {
+      "original_filename": "WhatsApp Image 2025-11-24 at 15.09.44.jpeg",
+      "suggested_filename": "roof_assembly_corner_bolt_connection.webp",
+      "description": "3D CAD diagram showing long corner bolt passing through aluminum extrusion to secure loose wall panel",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "corner-bolt",
+        "long-bolt",
+        "extrusion-connection",
+        "wall-mounting",
+        "assembly-detail"
+      ],
+      "dimensions": "699x618",
+      "notes": "Detail view showing how long bolts pass through the aluminum extrusion channels to secure the non-hinged walls at the corners. Important for explaining the final corner bolt insertion step.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_corner_bolt_connection.webp"
+    },
+    {
+      "original_filename": "WhatsApp Image 2025-11-24 at 15.09.45 (1).jpeg",
+      "suggested_filename": "roof_assembly_interior_view_hinges.webp",
+      "description": "3D CAD diagram showing interior view of roof assembly with hinges mounted on walls and aluminum extrusion rails",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "interior-view",
+        "hinges",
+        "wall-mounting",
+        "aluminum-rails",
+        "assembly-perspective"
+      ],
+      "dimensions": "1382x804",
+      "notes": "Interior perspective showing hinges attached to wall panels and aluminum extrusion rails at corners. Good for showing the interior configuration and hinge placement from inside the roof structure.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_interior_view_hinges.webp"
+    },
+    {
+      "original_filename": "the bolt before going through the 8020.jpeg",
+      "suggested_filename": "roof_assembly_corner_bolt_external_view.webp",
+      "description": "External view showing T-bolt screw with hex head positioned outside aluminum extrusion before insertion through T-slot channel",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "t-bolt",
+        "hex-screw",
+        "external-view",
+        "aluminum-extrusion",
+        "80-20-rail",
+        "corner-fastener"
+      ],
+      "dimensions": "779x773",
+      "notes": "Shows the external perspective of the corner bolt/screw before it passes through the 80/20 extrusion channel. Pairs with existing corner_bolt_connection diagram to show both sides of the fastening process. Essential for explaining T-bolt insertion from outside the wall.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_corner_bolt_external_view.webp"
+    },
+    {
+      "original_filename": "two walls lifted and standing before adding the 8020 extrusion.jpeg",
+      "suggested_filename": "roof_assembly_two_hinged_walls_standing.webp",
+      "description": "Initial assembly step showing two pre-assembled hinged wall panels standing upright at 90 degrees before aluminum rails are added",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "hinged-walls",
+        "initial-position",
+        "90-degree-angle",
+        "assembly-start",
+        "wall-positioning",
+        "setup-step"
+      ],
+      "dimensions": "904x714",
+      "notes": "Shows the starting configuration with two hinged walls lifted and standing perpendicular before the 80/20 aluminum extrusions are installed. Important for demonstrating the first step - establishing the hinged wall corner as the foundation.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_two_hinged_walls_standing.webp"
+    },
+    {
+      "original_filename": "wall sliding down between 2 walls standing.jpeg",
+      "suggested_filename": "roof_assembly_loose_wall_sliding_onto_rail.webp",
+      "description": "Mid-assembly action showing loose wall panel being slid down onto aluminum extrusion rails between two standing hinged walls",
+      "content_type": "diagram",
+      "suggested_category": "setup",
+      "tags": [
+        "roof-assembly",
+        "loose-wall",
+        "sliding-assembly",
+        "aluminum-rails",
+        "assembly-process",
+        "wall-installation",
+        "action-shot"
+      ],
+      "dimensions": "939x753",
+      "notes": "Demonstrates the process of sliding a non-hinged wall panel onto the aluminum extrusion rails between the standing hinged walls. Shows the assembly in action, illustrating how the T-slots guide the wall into position before bolts are inserted.",
+      "processed": true,
+      "final_location": "assets/setup/roof_assembly_loose_wall_sliding_onto_rail.webp"
     }
   ],
   "schema": {
@@ -1739,19 +1894,21 @@
     "parts-service": "Component diagrams, parts photos, exploded views"
   },
   "statistics": {
-    "total_images": 86,
-    "processed": 73,
+    "total_images": 94,
+    "processed": 94,
     "by_category": {
       "parts-service": 7,
       "operation": 51,
       "overview": 5,
       "troubleshooting": 6,
       "maintenance": 3,
-      "setup": 14
+      "setup": 22
     },
     "by_content_type": {
       "photo": 23,
-      "screenshot": 63
-    }
+      "screenshot": 63,
+      "diagram": 8
+    },
+    "pending": 0
   }
 }

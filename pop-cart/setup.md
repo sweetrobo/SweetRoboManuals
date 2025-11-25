@@ -251,13 +251,12 @@ Ensure both wire connections are fully seated and secure. Gently tug each connec
 
 <strong>Roof Assembly Instructions</strong>
 
-The roof base comes pre-assembled with 2 walls connected to hinges. You will need to complete the assembly by adding the remaining walls and rails.
-
-For detailed visual assembly instructions, scan the QR code below:
-
-<div class="image-placeholder">QR CODE: ROOF ASSEMBLY VIDEO/INSTRUCTIONS</div>
+The roof base comes pre-assembled with 2 walls connected to hinges. You will need to complete the assembly by adding the remaining walls and aluminum frame rails (80/20 extrusion system).
 
 </div>
+
+<img src="./assets/setup/roof_assembly_extrusion_profile_detail.webp" alt="80/20 Aluminum Extrusion Profile Cross-Section" />
+<p><em>The aluminum frame rails use a T-slot extrusion system - T-bolts slide into the channels and lock the walls in place</em></p>
 
 <div class="numbered-steps">
 
@@ -277,8 +276,8 @@ Install 4 T-bolts on each of the 2 hinged walls - 2 on the top edge and 2 on the
 
 <div>
 <div>
-<h3>Install 8-20 Rails</h3>
-Slide the 8-20 rails down onto the T-bolts on the hinged walls. Bolt the rails to the roof base from the bottom to secure them in place.
+<h3>Install Support Rails</h3>
+Slide the aluminum frame rails down onto the T-bolts on the hinged walls. Bolt the rails to the roof base from the bottom to secure them in place.
 </div>
 </div>
 
@@ -292,14 +291,14 @@ Add T-bolts to the other 2 wall panels (4 T-bolts per wall, 2 on each edge).
 <div>
 <div>
 <h3>Slide Walls onto Rails</h3>
-Slide the 2 remaining walls down the 8-20 rails, aligning the T-bolts with the rail channels.
+Slide the 2 remaining walls down the aluminum frame rails, aligning the T-bolts with the rail channels.
 </div>
 </div>
 
 <div>
 <div>
 <h3>Secure Corner Bolts</h3>
-Insert a long bolt through each corner where the rail meets the walls (1 bolt per corner, 4 total). This locks all walls together.
+Insert a long bolt through each corner, passing through the rail extrusion to connect the loose walls (the 2 walls you just slid on). Use 1 bolt per corner, 4 total. This locks all four walls together with the rail frame.
 </div>
 </div>
 
@@ -312,7 +311,31 @@ Carefully lift the fully assembled roof and position it on top of the machine. U
 
 </div>
 
-<div class="image-placeholder">IMAGE: ROOF ASSEMBLY SEQUENCE AND INSTALLATION ON MACHINE</div>
+**Assembly Visual Reference:**
+
+<div class="side-by-side-images">
+<img src="./assets/setup/roof_assembly_two_hinged_walls_standing.webp" alt="Two Hinged Walls Standing at 90 Degrees" />
+<img src="./assets/setup/roof_assembly_hinged_wall_detail.webp" alt="Hinged Wall Detail with Aluminum Rail" />
+</div>
+
+<p><em>Initial configuration with both hinged walls lifted to 90° (left), and close-up showing aluminum frame rail ready to be secured (right)</em></p>
+
+<img src="./assets/setup/roof_assembly_loose_wall_sliding_onto_rail.webp" alt="Loose Wall Panel Sliding Down onto Aluminum Rails" />
+<p><em>Loose wall panel being slid down onto the aluminum T-slot rails between the two standing hinged walls</em></p>
+
+<div class="side-by-side-images">
+<img src="./assets/setup/roof_assembly_corner_bolt_external_view.webp" alt="Corner Bolt with Hex Head External View" />
+<img src="./assets/setup/roof_assembly_corner_bolt_connection.webp" alt="Long Bolt Through Extrusion Connecting Walls" />
+</div>
+
+<p><em>Corner bolt installation: External view showing hex head bolt before insertion (left), and internal diagram showing bolt path through aluminum extrusion (right)</em></p>
+
+<div class="side-by-side-images">
+<img src="./assets/setup/roof_assembly_four_walls_assembled.webp" alt="Complete Four-Wall Roof Structure" />
+<img src="./assets/setup/roof_assembly_interior_view_hinges.webp" alt="Interior View of Roof Showing Hinges and Rails" />
+</div>
+
+<p><em>Completed roof assembly with all four walls locked together (left), and interior view showing hinge placement and rail configuration (right)</em></p>
 
 ### 4. Install Kernel and Cup Holder Tubes
 
@@ -658,15 +681,15 @@ Refer to [Supply Restocking](maintenance.md#supply-restocking) for detailed load
 
 <div class="info-box">
 
-**Cash Payments Ready Out of the Box**
+<strong>Cash Payments Ready Out of the Box</strong>
 
-The Pop Cart comes with a **bill acceptor pre-installed and configured**. The machine is ready to accept cash payments immediately after setup and can be used for customer transactions without additional payment hardware.
+The Pop Cart comes with a <strong>bill acceptor pre-installed and configured</strong>. The machine is ready to accept cash payments immediately after setup and can be used for customer transactions without additional payment hardware.
 
 </div>
 
 <div class="important-box">
 
-**Verify Local Currency Compatibility**
+<strong>Verify Local Currency Compatibility</strong>
 
 Before opening for customer use, verify that the bill acceptor is configured to accept your local currency. The bill acceptor should recognize and accept the bills commonly used in your region.
 
@@ -704,7 +727,7 @@ Note: The Pop Cart comes with an MDB-RS232 adapter pre-installed to support cred
 
 <div class="info-box">
 
-**Optional Credit Card Processing**
+<strong>Optional Credit Card Processing</strong>
 
 Credit card processing is entirely optional. The machine is fully functional for cash-only operation using the pre-installed bill acceptor. Add credit card capabilities when ready to expand payment options.
 
@@ -722,8 +745,9 @@ Before allowing customer use, verify:
 - [ ] Network connection established (if applicable)
 - [ ] **Initial supplies loaded** - complete [Supply Checklist](operation.md#supply-checklist)
 - [ ] Customer interface is responsive
-- [ ] **Payment hardware installed** (contact Sweet Robo support - see <a href="#payment-system-installation">Payment System Installation</a> above)
-- [ ] Test transaction completed successfully (with payment hardware if installed)
+- [ ] **Bill acceptor verified** for local currency compatibility (see <a href="#payment-system">Payment System</a> above)
+- [ ] Credit card processing installed (optional - see <a href="#credit-card-processing-optional">Credit Card Processing</a> above)
+- [ ] Test transaction completed successfully with cash payment
 - [ ] Operator familiar with [Operation Guide](operation.md)
 - [ ] Emergency procedures understood (see <a href="safety.html#emergency-procedures">Safety - Emergency Procedures</a>)
 - [ ] Support contact information posted
@@ -732,7 +756,7 @@ Before allowing customer use, verify:
 
 <h4>Test Transaction</h4>
 
-Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, seasoning dispensing, and product delivery. If payment hardware is installed, test payment processing as well. See <a href="operation.html#testing--diagnostics">Testing & Diagnostics</a> for test procedures.
+Perform at least one complete test transaction before opening for customer use. This verifies proper operation of the entire system including popcorn selection, seasoning dispensing, product delivery, and bill acceptor functionality. If credit card processing is installed, test card payment processing as well. See <a href="operation.html#testing--diagnostics">Testing & Diagnostics</a> for test procedures.
 
 </div>
 
