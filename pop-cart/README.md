@@ -17,7 +17,7 @@
 
 ## Quick Links
 
-- [Emergency Shutdown Procedure](safety.md#emergency-shutdown)
+- [Emergency Procedures](safety.md#emergency-procedures)
 - [Daily Startup Checklist](operation.md#daily-startup)
 - [Maintenance Schedule](maintenance.md#schedule)
 - [Error Codes](troubleshooting.md#error-codes)

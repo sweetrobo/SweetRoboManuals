@@ -242,7 +242,7 @@ Multiple safety features protect customers, operators, and the machine:
 
 - **Temperature Limits**: Automatic shutdown prevents overheating
 - **Door Interlocks**: Safety switches disable operation when doors open
-- **Emergency Stop**: Accessible emergency shutdown capability
+- **Power Isolation**: Main power switch and power cord for complete shutdown
 - **Component Protection**: Thermal and electrical protection circuits
 
 <hr class="section-divider">
