@@ -322,9 +322,20 @@ Designed for straightforward access to popping chamber, seasoning dispensers, an
 
 ## Cross-References and Links
 
-### mdBook Markdown Limitation
+### mdBook Markdown Limitations Inside HTML
 
-**IMPORTANT:** mdBook does not process markdown syntax inside raw HTML tags (like `<div>`). This means markdown links `[text](url)` will appear as plain text instead of clickable links when placed inside HTML elements.
+**IMPORTANT:** mdBook has limited markdown processing inside raw HTML tags (like `<div>`). Some markdown works, while other markdown does not render correctly.
+
+#### ✅ Markdown That WORKS Inside HTML:
+- **Lists** - Bullet lists (`- item`) and numbered lists (`1. item`) render correctly as `<ul>`/`<ol>` tags
+- **Headings** - `## Title` renders correctly
+- **Block-level markdown** - Most block-level elements process correctly
+
+#### ❌ Markdown That DOES NOT WORK Inside HTML:
+- **Links** - `[text](url)` will appear as plain text (not clickable) - use `<a href="url">text</a>`
+- **Bold** - `**text**` will not render - use `<strong>text</strong>`
+- **Italic** - `*text*` or `_text_` will not render - use `<em>text</em>`
+- **Inline code** - `` `code` `` will not render - use `<code>code</code>`
 
 #### When to Use HTML Links vs Markdown Links
 
@@ -350,11 +361,47 @@ For complete specifications, see [Overview](overview.md#technical-specifications
 - **In HTML elements**: Use `.html` extension: `operation.html#section-id`
 - mdBook automatically converts `.md` to `.html` during build
 
-#### Common Locations Requiring HTML Links
+#### Common Locations Requiring HTML Syntax
+
+When writing inside these HTML elements, use HTML tags (not markdown) for links, bold, italic, and inline code:
 - Inside `<div class="numbered-steps">`
 - Inside `<div class="feature-grid">` and `<div class="feature-item">`
 - Inside callout boxes (`warning-box`, `caution-box`, `info-box`, `important-box`)
 - Inside any custom HTML structure
+
+**Exception:** Lists (bullet and numbered) work with markdown syntax even inside HTML elements.
+
+#### Pop Cart Examples
+
+**✅ Correct - Lists work with markdown inside HTML:**
+```html
+<div class="info-box">
+
+Key requirements:
+- Stable WiFi connection
+- No captive portal
+- WPA/WPA2 password-protected
+
+</div>
+```
+
+**✅ Correct - Use HTML for links and bold:**
+```html
+<div class="warning-box">
+
+<strong>WARNING</strong>: Do not install in damp environments. See <a href="safety.html#electrical-safety">Electrical Safety</a> for details.
+
+</div>
+```
+
+**❌ Incorrect - Markdown links/bold don't work in HTML:**
+```html
+<div class="warning-box">
+
+**WARNING**: Do not install in damp environments. See [Electrical Safety](safety.md#electrical-safety) for details.
+
+</div>
+```
 
 ## Responsive Design
 All components automatically adapt to:

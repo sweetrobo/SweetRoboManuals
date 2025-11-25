@@ -104,24 +104,60 @@ Use the `dev.sh` script to start development servers:
 
 ### Important Limitation: Markdown Inside HTML
 
-**mdBook does not process markdown syntax inside raw HTML tags.** This means markdown links `[text](url)` will appear as plain text (not clickable) when inside HTML elements like `<div>`.
+**mdBook has limited markdown processing inside raw HTML tags.** Some markdown syntax works, while other syntax does not render correctly inside HTML elements like `<div>`.
 
-### When to Use HTML vs Markdown Links
+#### ✅ Markdown That WORKS Inside HTML:
+- **Lists** - Bullet lists (`- item`) and numbered lists (`1. item`) render correctly as `<ul>`/`<ol>` tags
+- **Headings** - `## Title` renders correctly
+- **Block-level markdown** - Most block-level elements process correctly
 
-**Use HTML anchor tags inside HTML elements:**
+#### ❌ Markdown That DOES NOT WORK Inside HTML:
+- **Links** - `[text](url)` will appear as plain text (not clickable)
+- **Bold** - `**text**` will not render (shows literal asterisks)
+- **Italic** - `*text*` or `_text_` will not render
+- **Inline code** - `` `code` `` will not render
+- **Other inline markdown** - Must use HTML equivalents
+
+### HTML Equivalents for Inline Markdown
+
+When writing content inside HTML elements, use these HTML tags instead of markdown:
+
+| Markdown | HTML Equivalent | Example |
+|----------|----------------|---------|
+| `[text](url)` | `<a href="url">text</a>` | `<a href="setup.html#install">Setup Guide</a>` |
+| `**bold**` | `<strong>bold</strong>` | `<strong>IMPORTANT</strong>` |
+| `*italic*` | `<em>italic</em>` | `<em>Note: This is important</em>` |
+| `` `code` `` | `<code>code</code>` | `<code>git commit</code>` |
+
+### When to Use HTML vs Markdown
+
+**Use HTML tags inside HTML elements:**
 ```html
 <div class="numbered-steps">
 <div>
 <div>
-See <a href="operation.html#admin-interface">Admin Interface</a> for details
+See <a href="operation.html#admin-interface">Admin Interface</a> for details.
+Use <strong>only</strong> approved parts.
 </div>
 </div>
 </div>
 ```
 
-**Use markdown syntax in plain markdown:**
+**Use markdown syntax in plain markdown (outside HTML):**
 ```markdown
-For specifications, see [Overview](overview.md#technical-specifications)
+For specifications, see [Overview](overview.md#technical-specifications).
+Use **only** approved parts.
+```
+
+**Lists work either way:**
+```html
+<div class="info-box">
+
+Works with markdown lists:
+- Item 1
+- Item 2
+
+</div>
 ```
 
 ### Link Path Convention
