@@ -1,30 +1,14 @@
-<div class="title-page">
+# title-page
 
-<div class="title-page-header">
-<div class="title">Pop Cart - User Manual</div>
-<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
-</div>
+Pop Cart - User Manual![Sweet Robo Logo](shared/images/sweetrobo-logo.webp)
 
-<div class="title-page-main">
-<h1>Pop Cart</h1>
-<h2>User Manual</h2>
-</div>
+## Pop Cart
 
-<div class="title-page-footer">
-    <div class="footer-left">
-        <p>Revision & Date:</p>
-        <p>Rev 1. 10.2025</p>
-    </div>
-    <img src="./assets/images/header/PopCart.webp" alt="Pop Cart Popcorn Vending Machine" class="footer-machine-image" />
-    <div class="footer-right">
-        <div class="qr-code-wrapper">
-            <a href="http://qr.sweetrobo.com/manual-popcart" class="qr-code-link" target="_blank" rel="noopener">
-                <span class="qr-tooltip">View Online Manual</span>
-                <img src="./assets/images/header/http-qr-sweetrobo-com-manual-popcart.jpg" alt="QR Code for Online Manual" />
-                <div class="qr-code-description print-only">Scan for latest<br/>online manual</div>
-            </a>
-        </div>
-    </div>
-</div>
+### User Manual
 
-</div>
+Revision & Date:
+
+Rev 1. 10.2025
+
+![Pop Cart Popcorn Vending Machine](../.gitbook/assets/PopCart.webp)[View Online Manual ![QR Code for Online Manual](../.gitbook/assets/http-qr-sweetrobo-com-manual-popcart.jpg)Scan for latest\
+online manual](http://qr.sweetrobo.com/manual-popcart)

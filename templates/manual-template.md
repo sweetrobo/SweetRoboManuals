@@ -1,16 +1,16 @@
-# [Machine Name] Manual
+# \[Machine Name] Manual
 
 ## Machine Information
 
-**Model:** [Model Number]  
-**Manufacturer:** Sweet Robo  
-**Document Version:** 1.0  
-**Last Updated:** [Date]
+**Model:** \[Model Number]\
+**Manufacturer:** Sweet Robo\
+**Document Version:** 1.0\
+**Last Updated:** \[Date]
 
 ## Manual Sections
 
 1. [Overview](overview.md) - Machine description and specifications
-2. [Setup & Installation](setup.md) - Initial setup and configuration  
+2. [Setup & Installation](setup.md) - Initial setup and configuration
 3. [Operation Guide](operation.md) - Daily operation procedures
 4. [Maintenance](maintenance.md) - Scheduled maintenance and cleaning
 5. [Troubleshooting](troubleshooting.md) - Common issues and solutions
@@ -39,7 +39,7 @@
 
 ## Support
 
-For technical support, refer to [Sweet Robo Contact Information](../shared/company-info.md).
+For technical support, refer to [Sweet Robo Contact Information](/broken/pages/fqcvVdxS9NxZpYRjYa9T).
 
-**Email:** support@sweetrobo.com  
+**Email:** support@sweetrobo.com\
 **Phone:** +1 (844) 793-3872

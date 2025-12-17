@@ -2,314 +2,135 @@
 
 ## Common Replacement Parts
 
-<div class="feature-grid">
+**Consumables**
 
-<div class="feature-item">
-
-#### Consumables
-• Ice cream mix packets (Sweet Robo brand recommended)<br>
-• Cups (50 per tube, 200 total capacity)<br>
-• Syrup bags (liquid only)<br>
-• Dry toppings (270g max per container)<br>
+• Ice cream mix packets (Sweet Robo brand recommended)\
+• Cups (50 per tube, 200 total capacity)\
+• Syrup bags (liquid only)\
+• Dry toppings (270g max per container)\
 • Cleaning supplies (food-grade sanitizer)
 
-</div>
+**Electrical Components**
 
-<div class="feature-item">
-
-#### Electrical Components
-• Control Board: F2-CB-001<br>
-• Touch Screen: F2-TS-001<br>
-• Temperature Sensors: F2-TEMP-001<br>
+• Control Board: F2-CB-001\
+• Touch Screen: F2-TS-001\
+• Temperature Sensors: F2-TEMP-001\
 • Payment Module: F2-PAY-001
-
-</div>
-
-</div>
 
 ### Wear Parts
 
-<div class="info-box">
-
-| Part | Part Number | Replacement Interval |
-|------|-------------|---------------------|
-| Door Seals | F2-SEAL-001 | 2 years |
-| Dispensing Nozzles | F2-NOZ-001 | As needed |
-| Cup Drop Sensor | F2-SENS-001 | As needed |
-| Hopper Gaskets | F2-GASX-002 | 2 years |
-
-</div>
+| Part               | Part Number | Replacement Interval |
+| ------------------ | ----------- | -------------------- |
+| Door Seals         | F2-SEAL-001 | 2 years              |
+| Dispensing Nozzles | F2-NOZ-001  | As needed            |
+| Cup Drop Sensor    | F2-SENS-001 | As needed            |
+| Hopper Gaskets     | F2-GASX-002 | 2 years              |
 
 ## Service Tools & Equipment
 
-<div class="feature-grid">
+![Digital clamp multimeter](../.gitbook/assets/digital-clamp-multimeter.webp)
 
-<div class="feature-item">
-<img src="./assets/parts-service/digital-clamp-multimeter.webp" alt="Digital clamp multimeter" />
-<h4>Digital Multimeter</h4>
-Essential for electrical diagnostics. Measures voltage, current, and resistance. Can test up to 600V AC.
-</div>
+**Digital Multimeter**
 
-<div class="feature-item">
-<img src="./assets/parts-service/installation-tools-kit.webp" alt="Installation tools kit" />
-<h4>Installation Tool Kit</h4>
-Includes Phillips screwdriver, hex keys, spare sensors, and Sweet Robo branded tool bag.
-</div>
+Essential for electrical diagnostics. Measures voltage, current, and resistance. Can test up to 600V AC.![Installation tools kit](../.gitbook/assets/installation-tools-kit.webp)
 
-<div class="feature-item">
-<img src="./assets/parts-service/spare-parts-kit-with-manual.webp" alt="Spare parts kit with manual" />
-<h4>Comprehensive Spare Parts Kit</h4>
-Food-grade MP grease (NSF approved), O-rings, gaskets, tubing, cleaning brush, and technical diagrams.
-</div>
+**Installation Tool Kit**
 
-<div class="feature-item">
-<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser seal kit" />
-<h4>Dispenser Seal Kit</h4>
-Complete seal replacement kit with clear housing, white shaft, orange O-rings, and gaskets.
-</div>
+Includes Phillips screwdriver, hex keys, spare sensors, and Sweet Robo branded tool bag.![Spare parts kit with manual](../.gitbook/assets/spare-parts-kit-with-manual.webp)
 
-</div>
+**Comprehensive Spare Parts Kit**
 
-<div class="side-by-side-images">
-<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser seal kit top view" />
-<img src="./assets/parts-service/dispenser-seal-kit-angle2.webp" alt="Dispenser seal kit angle view" />
-</div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Dispenser seal kit shown from multiple angles for proper assembly</p>
+Food-grade MP grease (NSF approved), O-rings, gaskets, tubing, cleaning brush, and technical diagrams.![Dispenser seal kit](../.gitbook/assets/dispenser-seal-kit.webp)
+
+**Dispenser Seal Kit**
+
+Complete seal replacement kit with clear housing, white shaft, orange O-rings, and gaskets.![Dispenser seal kit top view](../.gitbook/assets/dispenser-seal-kit.webp) ![Dispenser seal kit angle view](../.gitbook/assets/dispenser-seal-kit-angle2.webp)
+
+Dispenser seal kit shown from multiple angles for proper assembly
 
 ## Ordering Parts
 
-<div class="step-header">How to Order</div>
-
-<div class="numbered-steps">
-
-<div>
-Website (preferred): sweetrobo.shop
-</div>
-
-<div>
-Email: supplies@sweetrobo.com
-</div>
-
-
-<div>
-Phone: +1 (844) 793-3872
-</div>
-
-<div>
-Include:<br>
-• Machine model (F2)<br>
-• Serial number<br>
-• Part number or description<br>
+How to OrderWebsite (preferred): sweetrobo.shopEmail: supplies@sweetrobo.comPhone: +1 (844) 793-3872Include:\
+• Machine model (F2)\
+• Serial number\
+• Part number or description\
 • Quantity needed
-</div>
 
-</div>
+#### Expedited Shipping
 
-<div class="info-box">
-
-### Expedited Shipping
-- Standard: 5-7 business days
-- Express: 2-3 business days
-- Overnight available for critical parts
-
-</div>
+* Standard: 5-7 business days
+* Express: 2-3 business days
+* Overnight available for critical parts
 
 ## Service Support
 
-<div class="feature-grid">
+**Technical Support**
 
-<div class="feature-item">
+• **Email**: support@sweetrobo.com\
+• **Phone**: +1-844-SWEETRB (844-793-3872)\
+• **Response Time**: Typically within 24 hours\
+• For business hours and additional contacts, see [Company Information](/broken/pages/jDBSxZ4rJs3KQVFOLwO8)
 
-#### Technical Support
-• **Email**: support@sweetrobo.com<br>
-• **Phone**: +1-844-SWEETRB (844-793-3872)<br>
-• **Response Time**: Typically within 24 hours<br>
-• For business hours and additional contacts, see [Company Information](../shared/company-info.md)
+**Remote Support**
 
-</div>
-
-<div class="feature-item">
-
-#### Remote Support
-Many issues can be resolved remotely:<br>
-• Software updates<br>
-• Configuration changes<br>
-• Diagnostic checks<br>
+Many issues can be resolved remotely:\
+• Software updates\
+• Configuration changes\
+• Diagnostic checks\
 • Price adjustments
 
-</div>
-
-</div>
-
-<div class="info-box">
-
 **Required for remote support**:
-- Machine ID (found in backend settings)
-- Internet connection
-- Current issue description
 
-</div>
+* Machine ID (found in backend settings)
+* Internet connection
+* Current issue description
 
-<div class="step-header">On-Site Service</div>
-
-<div class="numbered-steps">
-
-<div>
-Contact support for initial diagnosis
-</div>
-
-<div>
-Schedule service appointment
-</div>
-
-<div>
-Prepare machine area for technician access
-</div>
-
-<div>
-Have purchase/warranty information ready
-</div>
-
-</div>
+On-Site ServiceContact support for initial diagnosisSchedule service appointmentPrepare machine area for technician accessHave purchase/warranty information ready
 
 ## Warranty Service
 
-<div class="feature-grid">
+**What's Covered**
 
-<div class="feature-item">
-
-#### What's Covered
-• Manufacturing defects<br>
-• Component failures under normal use<br>
+• Manufacturing defects\
+• Component failures under normal use\
 • Parts and labor (first year)
 
-</div>
+**What's Not Covered**
 
-<div class="feature-item">
-
-#### What's Not Covered
-• Damage from misuse<br>
-• Consumable items<br>
-• Shipping damage<br>
+• Damage from misuse\
+• Consumable items\
+• Shipping damage\
 • Unauthorized modifications
 
-</div>
+Warranty ClaimsContact support with issue descriptionProvide serial number and purchase dateFollow troubleshooting stepsReceive RMA if needed
 
-</div>
+**Biannual Service**
 
-<div class="step-header">Warranty Claims</div>
-
-<div class="numbered-steps">
-
-<div>
-Contact support with issue description
-</div>
-
-<div>
-Provide serial number and purchase date
-</div>
-
-<div>
-Follow troubleshooting steps
-</div>
-
-<div>
-Receive RMA if needed
-</div>
-
-</div>
-
-<!-- ## Preventive Service Plans
-
-<div class="feature-grid">
-
-<div class="feature-item">
-
-#### Basic Plan
-• Annual inspection<br>
-• Software updates<br>
-• Phone support priority
-
-</div>
-
-<div class="feature-item">
-
-#### Premium Plan
-• Quarterly maintenance<br>
-• Parts discount<br>
-• Extended warranty option<br>
-• Priority service
-
-</div>
-
-</div>
-
-## Recommended Service Schedule
-
-<div class="feature-grid">
-
-<div class="feature-item">
-
-#### Annual Service
-• Complete system inspection<br>
-• Refrigeration performance test<br>
-• Calibration check<br>
-• Software updates
-
-</div> -->
-
-<div class="feature-item">
-
-#### Biannual Service
-• Deep cleaning<br>
-• Seal inspection<br>
-• Mechanical adjustments<br>
+• Deep cleaning\
+• Seal inspection\
+• Mechanical adjustments\
 • Performance optimization
-
-</div>
 
 ## Emergency Service
 
-<div class="warning-box">
-
-<div class="step-header">For urgent issues:</div>
-
-<div class="numbered-steps">
-
-<div>
-Call emergency line: +1-844-SWEETRB (844-793-3872)
-</div>
-
-<div>
-Have ready:<br>
-• Machine serial number<br>
-• Description of issue<br>
-• Any error messages<br>
+For urgent issues:Call emergency line: +1-844-SWEETRB (844-793-3872)Have ready:\
+• Machine serial number\
+• Description of issue\
+• Any error messages\
 • Impact on operation
-</div>
-
-</div>
-
-</div>
-
-<div class="caution-box">
 
 **Common Emergency Issues**:
-- Refrigeration failure
-- Complete power loss
-- Payment system down
-- Safety concerns
 
-</div>
+* Refrigeration failure
+* Complete power loss
+* Payment system down
+* Safety concerns
 
 ## Documentation
 
-<div class="important-box">
-
 Keep these documents accessible:
-- Purchase receipt
-- Warranty certificate
-- Service history
-- This manual
 
-</div>
+* Purchase receipt
+* Warranty certificate
+* Service history
+* This manual

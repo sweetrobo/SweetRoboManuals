@@ -2,103 +2,43 @@
 
 This section covers daily operations, customer service procedures, and operator controls for the Pop Cart popcorn vending machine.
 
-<hr class="section-divider">
+***
 
 ## Daily Startup Procedure
 
 Perform these steps at the beginning of each operating day:
 
-<div class="numbered-steps">
+**Verify Supply Levels**\
+Complete the [Supply Checklist](operation.md#supply-checklist) below: kernel hoppers, seasonings, and cups**Inspect Machine Condition**\
+• Visually inspect exterior for damage or tampering\
+• Verify dispensing window is clean and clear\
+• Check for any error messages on screen\
+• Ensure no obstructions in customer access area**Power On System**\
+• Turn on main power if switched off overnight\
+• Allow 30-60 seconds for system boot\
+• Verify touchscreen displays welcome screen\
+• Check that all LEDs indicate normal operation**Perform Test Cycle (Optional)**\
+Run a test transaction to verify proper operation (see [Testing & Diagnostics](operation.md#testing--diagnostics) section)
 
-<div>
-<div>
-<strong>Verify Supply Levels</strong><br>
-Complete the <a href="#supply-checklist">Supply Checklist</a> below: kernel hoppers, seasonings, and cups
-</div>
-</div>
-
-<div>
-<div>
-<strong>Inspect Machine Condition</strong><br>
-• Visually inspect exterior for damage or tampering<br>
-• Verify dispensing window is clean and clear<br>
-• Check for any error messages on screen<br>
-• Ensure no obstructions in customer access area
-</div>
-</div>
-
-<div>
-<div>
-<strong>Power On System</strong><br>
-• Turn on main power if switched off overnight<br>
-• Allow 30-60 seconds for system boot<br>
-• Verify touchscreen displays welcome screen<br>
-• Check that all LEDs indicate normal operation
-</div>
-</div>
-
-<div>
-<div>
-<strong>Perform Test Cycle (Optional)</strong><br>
-Run a test transaction to verify proper operation (see <a href="#testing--diagnostics">Testing & Diagnostics</a> section)
-</div>
-</div>
-
-</div>
-
-<hr class="section-divider">
+***
 
 ## Supply Checklist
 
 Use this checklist for daily startup, restocking, and troubleshooting supply-related issues.
 
-<div class="specs-table">
-
-<div class="spec-row">
-<div class="spec-label">Kernel Hoppers (both cylinders)</div>
-<div class="spec-value">
-✓ Minimum level: 1 kg per hopper (≈33% full)<br>
-✓ Maximum capacity: 3 kg per hopper<br>
-✓ Refill when below 25% to ensure continuous operation
-</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Seasoning Dispensers (5 lanes)</div>
-<div class="spec-value">
-✓ Verify all active lanes are adequately stocked<br>
-✓ Check dispenser openings are clear and unclogged<br>
-✓ Confirm seasonings match inventory configuration
-</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Cup Supply</div>
-<div class="spec-value">
-✓ Minimum: 20 cups for short operation periods<br>
-✓ Recommended: 50+ cups for full day operation<br>
-✓ Ensure cups are loose and not stuck together - do not overstuff dispenser
-</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Visual Inspection</div>
-<div class="spec-value">
-✓ Check fill levels through the viewing window (transparent hopper tubes visible from outside)<br>
-✓ Look for blockages or bridging in hoppers<br>
+Kernel Hoppers (both cylinders)✓ Minimum level: 1 kg per hopper (≈33% full)\
+✓ Maximum capacity: 3 kg per hopper\
+✓ Refill when below 25% to ensure continuous operationSeasoning Dispensers (5 lanes)✓ Verify all active lanes are adequately stocked\
+✓ Check dispenser openings are clear and unclogged\
+✓ Confirm seasonings match inventory configurationCup Supply✓ Minimum: 20 cups for short operation periods\
+✓ Recommended: 50+ cups for full day operation\
+✓ Ensure cups are loose and not stuck together - do not overstuff dispenserVisual Inspection✓ Check fill levels through the viewing window (transparent hopper tubes visible from outside)\
+✓ Look for blockages or bridging in hoppers\
 ✓ Verify seasonings are properly loaded in dispenser lanes
-</div>
-</div>
 
-</div>
+**Quick Reference**: For detailed restocking procedures, see [Supply Restocking](maintenance.html#supply-restocking) in the Maintenance section.
 
-<div class="info-box">
-
-<strong>Quick Reference</strong>: For detailed restocking procedures, see <a href="maintenance.html#supply-restocking">Supply Restocking</a> in the Maintenance section.
-
-</div>
-
-<hr class="section-divider">
+***
 
 ## Customer Operation Flow
 
@@ -106,27 +46,28 @@ The Pop Cart provides an intuitive touchscreen interface guiding customers throu
 
 ### Step 1: Popcorn Selection
 
-<img src="./assets/operation/customer_popcorn_flavor_selection.webp" alt="Popcorn Selection Screen" />
+![Popcorn Selection Screen](../.gitbook/assets/customer_popcorn_flavor_selection.webp)
 
 Customers select their preferred popcorn variety. Available options are configurable and may vary. Pricing displays next to each option and can be configured through the admin Inventory section.
 
 ### Step 2: Topping Selection
 
-<img src="./assets/operation/customer_topping_flavor_selection.webp" alt="Topping Selection Screen with Flavor Options" />
+![Topping Selection Screen with Flavor Options](../.gitbook/assets/customer_topping_flavor_selection.webp)
 
 Customers choose up to 2 flavor toppings from 5 available lanes. Available topping options may vary (e.g., Butter, Chipotle, Garlic, Jalapeño, Truffle). Pricing and availability are configured in the admin Inventory section and require physical seasoning stock.
 
 ### Step 3: Payment
 
-<img src="./assets/operation/customer_payment_order_summary.webp" alt="Payment Screen with Order Summary" />
+![Payment Screen with Order Summary](../.gitbook/assets/customer_payment_order_summary.webp)
 
 The payment screen shows the complete order summary with itemized selections and total. Customers pay via credit card, cash, or loyalty credits (if available/installed). Payment must complete successfully before production begins; failed payments allow retry.
 
 ### Step 4: Production & Dispensing
 
-<img src="./assets/operation/popcorn_cup_dispensing_position.webp" alt="Branded Cup in Dispensing Position" />
+![Branded Cup in Dispensing Position](../.gitbook/assets/popcorn_cup_dispensing_position.webp)
 
-After payment, the machine begins the automated production cycle (~90-120 seconds):
+After payment, the machine begins the automated production cycle (\~90-120 seconds):
+
 1. Cup drops into holder
 2. Kernels drop into air oven
 3. Oven heats and pops the kernels
@@ -134,129 +75,80 @@ After payment, the machine begins the automated production cycle (~90-120 second
 5. Door opens
 6. Seasoning toppings drop onto the side (customer manually applies desired amount)
 
-<div class="caution-box">
-
-<strong>CAUTION</strong>: Popcorn and internal components may be hot during production.
-
-</div>
+**CAUTION**: Popcorn and internal components may be hot during production.
 
 **Customer Assistance:**
-- Back button allows customers to change selections before payment
-- Screen timeout resets to welcome after 60 seconds of inactivity
 
-<hr class="section-divider">
+* Back button allows customers to change selections before payment
+* Screen timeout resets to welcome after 60 seconds of inactivity
+
+***
 
 ## Admin Interface
 
-<img src="./assets/operation/admin_login_password_entry.webp" alt="Admin Login Screen" />
+![Admin Login Screen](../.gitbook/assets/admin_login_password_entry.webp)
 
 Access the admin interface by holding for 3-5 seconds in the top left corner of the screen, then entering your operator PIN. All management functions are performed locally on the touchscreen.
 
-<div class="important-box">
+**Default Operator PIN: 123456**
 
-<strong>Default Operator PIN: 123456</strong>
-
-For security, <strong>change the default PIN as soon as possible</strong> after initial setup. Using the default PIN leaves your machine vulnerable to unauthorized access.
-
-</div>
+For security, **change the default PIN as soon as possible** after initial setup. Using the default PIN leaves your machine vulnerable to unauthorized access.
 
 ### Changing Your Operator PIN
 
-<div class="numbered-steps">
-
-<div>
-<div>
-Access the admin interface using the current PIN (default: 123456).
-</div>
-</div>
-
-<div>
-<div>
-From the Management Dashboard, select <strong>Device</strong> to open Device Settings.
-</div>
-</div>
-
-<div>
-<div>
-Scroll all the way down to the bottom of the Device Settings page.
-</div>
-</div>
-
-<div>
-<div>
-Locate the PIN change option and enter your new secure operator PIN.
-</div>
-</div>
-
-<div>
-<div>
-Confirm the new PIN and save the changes. Store the new PIN securely.
-</div>
-</div>
-
-</div>
+Access the admin interface using the current PIN (default: 123456).From the Management Dashboard, select **Device** to open Device Settings.Scroll all the way down to the bottom of the Device Settings page.Locate the PIN change option and enter your new secure operator PIN.Confirm the new PIN and save the changes. Store the new PIN securely.
 
 ### Management Dashboard
 
-<img src="./assets/operation/admin_manage_dashboard_four_tiles.webp" alt="Admin Management Dashboard" />
+![Admin Management Dashboard](../.gitbook/assets/admin_manage_dashboard_four_tiles.webp)
 
 The dashboard provides access to **Device** (WiFi, payment methods, popcorn parameters), **Testing** (diagnostics, sensors, dispensers), **Statistics** (sales, revenue, reports), and **Inventory** (stock, pricing).
 
 **Key Configuration Screens:**
 
-<img src="./assets/operation/admin_device_settings_wifi_payment.webp" alt="Device Settings Screen" />
+![Device Settings Screen](../.gitbook/assets/admin_device_settings_wifi_payment.webp)
 
-- **Device Settings**: WiFi, payment methods, device ID, system settings
-- **Popcorn Parameters**: Temperature, speed, and timing controls for both chambers
+* **Device Settings**: WiFi, payment methods, device ID, system settings
+* **Popcorn Parameters**: Temperature, speed, and timing controls for both chambers
 
 ### Inventory & Pricing
 
-<div class="side-by-side-images">
-<img src="./assets/operation/admin_inventory_popcorn_cup_count.webp" alt="Inventory - Popcorn and Cups" />
-<img src="./assets/operation/admin_inventory_seasonings_list.webp" alt="Inventory - Seasonings" />
-</div>
+![Inventory - Popcorn and Cups](../.gitbook/assets/admin_inventory_popcorn_cup_count.webp) ![Inventory - Seasonings](../.gitbook/assets/admin_inventory_seasonings_list.webp)
 
 Manage stock levels, configure pricing, and assign seasonings to the 5 dispenser lanes. Track cup count, popcorn varieties, and seasoning quantities. All pricing changes take effect immediately on the customer interface.
 
 ### Statistics & Sales
 
-<img src="./assets/operation/admin_statistics_sales_dashboard.webp" alt="Statistics Dashboard" />
+![Statistics Dashboard](../.gitbook/assets/admin_statistics_sales_dashboard.webp)
 
 View sales count, total income, and transaction history. Backend syncing (requires WiFi connection) enables remote monitoring and data export through the Sweet Robo tracking system.
 
-<div class="important-box">
-
-<strong>IMPORTANT</strong>
+**IMPORTANT**
 
 Keep operator PIN codes secure and confidential. Unauthorized access to operator settings can disrupt machine operation or compromise payment security.
 
-</div>
-
-<hr class="section-divider">
+***
 
 ## Testing & Diagnostics
 
-<div class="side-by-side-images">
-<img src="./assets/operation/admin_testing_controls_temperature.webp" alt="Testing Controls - Temperature and Sensors" />
-<img src="./assets/operation/admin_testing_cargo_lane_controls.webp" alt="Testing Controls - Cargo Lanes" />
-</div>
+![Testing Controls - Temperature and Sensors](../.gitbook/assets/admin_testing_controls_temperature.webp) ![Testing Controls - Cargo Lanes](../.gitbook/assets/admin_testing_cargo_lane_controls.webp)
 
 Access Testing from the management dashboard to run diagnostics without charging customers. Test sensors, temperature, chamber speed, and all 5 seasoning dispensers individually. Run hopper cleaning cycles and clear jams.
 
 **Test Schedule:** Daily (quick dispense test), Weekly (complete popping cycle), Monthly (full system diagnostic)
 
-<hr class="section-divider">
+***
 
 ## Daily Operations
 
-**Startup:** Complete [Supply Checklist](#supply-checklist), check for errors, run test cycle.
+**Startup:** Complete [Supply Checklist](operation.md#supply-checklist), check for errors, run test cycle.
 
 **Customer Assistance:** Process takes 90-120 seconds. Back button allows selection changes before payment. For errors or issues, see [Troubleshooting](troubleshooting.md).
 
-**End of Day:** Run sales report, empty cash box (if applicable), verify [Supply Checklist](#supply-checklist), basic cleaning (see [Maintenance](maintenance.md)), secure machine.
+**End of Day:** Run sales report, empty cash box (if applicable), verify [Supply Checklist](operation.md#supply-checklist), basic cleaning (see [Maintenance](maintenance.md)), secure machine.
 
 **Best Practices:** Keep supplies stocked for peak hours, clean surfaces regularly, run diagnostics daily, use sales data to optimize inventory.
 
----
+***
 
 For support, see [Company Information](shared/content/company-info.md) | Learn more: [Maintenance](maintenance.md) · [Troubleshooting](troubleshooting.md) · [Parts & Service](parts-service.md)

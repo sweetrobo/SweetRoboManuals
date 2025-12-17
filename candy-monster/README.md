@@ -1,9 +1,9 @@
 # Candy Monster Manual
 
-**Manufacturer:** Sweet Robo  
-**Model:** Candy Monster  
-**Document Version:** 1.0  
-**Last Updated:** [Date]
+**Manufacturer:** Sweet Robo\
+**Model:** Candy Monster\
+**Document Version:** 1.0\
+**Last Updated:** \[Date]
 
 ## Manual Contents
 
@@ -17,25 +17,21 @@
 
 ## Quick Links
 
-- [Emergency Shutdown Procedure](./safety.md#emergency-shutdown)
-- [Daily Startup Checklist](./operation.md#daily-startup)
-- [Maintenance Schedule](./maintenance.md#schedule)
-- [Error Codes](./troubleshooting.md#error-codes)
+* [Emergency Shutdown Procedure](safety.md#emergency-shutdown)
+* [Daily Startup Checklist](operation.md#daily-startup)
+* [Maintenance Schedule](maintenance.md#schedule)
+* [Error Codes](troubleshooting.md#error-codes)
 
 ## Support
 
-For technical support, refer to [Sweet Robo Contact Information](../shared/company-info.md).
+For technical support, refer to [Sweet Robo Contact Information](/broken/pages/jDBSxZ4rJs3KQVFOLwO8).
 
-<div class="conditional-content" data-show-when="dev">
+### Document Status
 
-## Document Status
-
-- [ ] Overview - Pending
-- [ ] Setup & Installation - Pending
-- [ ] Operation Guide - Pending
-- [ ] Maintenance - Pending
-- [ ] Troubleshooting - Pending
-- [ ] Parts & Service - Pending
-- [ ] Safety - Pending
-
-</div>
+* [ ] Overview - Pending
+* [ ] Setup & Installation - Pending
+* [ ] Operation Guide - Pending
+* [ ] Maintenance - Pending
+* [ ] Troubleshooting - Pending
+* [ ] Parts & Service - Pending
+* [ ] Safety - Pending

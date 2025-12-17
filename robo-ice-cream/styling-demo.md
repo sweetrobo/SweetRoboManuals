@@ -2,13 +2,14 @@
 
 This page demonstrates how to use all official styling components for creating Sweet Robo machine manuals. Each section shows the HTML/Markdown structure needed to achieve the desired styling, along with explanations of when and how to use each component.
 
----
+***
 
 ## Title Page Layout
 
 **Usage:** Create a professional cover page for your manual. The title page includes a header with logo, main content area with machine name and image, and a footer with revision information.
 
 **HTML Structure:**
+
 ```html
 <div class="title-page">
   <div class="title-page-header">
@@ -29,27 +30,19 @@ This page demonstrates how to use all official styling components for creating S
 
 **Live Example:**
 
-<div class="title-page">
+Sweet Robo - User Manual - Robo Ice Cream![Sweet Robo Logo](shared/images/sweetrobo-logo.webp)
 
-<div class="title-page-header">
-<div class="title">Sweet Robo - User Manual - Robo Ice Cream</div>
-<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
-</div>
+## Robo Ice Cream
 
-<div class="title-page-main">
-<h1>Robo Ice Cream</h1>
-<h2>User Manual</h2>
-<img src="./assets/overview/f2-machine-title-page.webp" alt="Robo Ice Cream Machine" class="machine-image" />
-</div>
+### User Manual
 
-<div class="title-page-footer">
-<p>Revision & Date:</p>
-<p>Rev 1. 05.2025</p>
-</div>
+![Robo Ice Cream Machine](../.gitbook/assets/f2-machine-title-page.webp)
 
-</div>
+Revision & Date:
 
----
+Rev 1. 05.2025
+
+***
 
 ## Callout Boxes
 
@@ -60,6 +53,7 @@ This page demonstrates how to use all official styling components for creating S
 **When to Use:** For serious safety hazards that could result in injury or death. Always start with **WARNING:** in bold.
 
 **HTML Structure:**
+
 ```html
 <div class="warning-box">
 
@@ -70,17 +64,14 @@ This page demonstrates how to use all official styling components for creating S
 
 **Live Example:**
 
-<div class="warning-box">
-
 **WARNING: Electrical Shock Hazard.** This warning box uses a pink background (#fed7d7) to indicate serious safety hazards. The bold "WARNING:" prefix immediately identifies the severity. Use this style for electrical, mechanical, or other dangers that could cause injury.
-
-</div>
 
 ### Caution Box (Yellow Background)
 
 **When to Use:** For situations that could damage equipment or cause minor injury. Start with **CAUTION:** in bold.
 
 **HTML Structure:**
+
 ```html
 <div class="caution-box">
 
@@ -91,17 +82,14 @@ This page demonstrates how to use all official styling components for creating S
 
 **Live Example:**
 
-<div class="caution-box">
-
 **CAUTION:** This caution box uses a yellow/orange background (#fed7aa) to indicate potential equipment damage or minor injury risks. Use for heavy lifting requirements, temperature warnings, or procedural cautions that don't pose immediate danger but require careful attention.
-
-</div>
 
 ### Info Box (Purple Background)
 
 **When to Use:** For general information, tips, or feature highlights that enhance understanding.
 
 **HTML Structure:**
+
 ```html
 <div class="info-box">
 
@@ -114,19 +102,16 @@ Information content here.
 
 **Live Example:**
 
-<div class="info-box">
-
 **How Info Boxes Work**
 
 This info box uses a light purple background (#e9d8fd) to present helpful information without urgency. Perfect for explaining features, providing context, or sharing tips. You can include an optional bold title at the top. Tables, lists, and other markdown elements work inside these boxes.
-
-</div>
 
 ### Important Box (Light Blue Background)
 
 **When to Use:** For critical operational information that users must not miss.
 
 **HTML Structure:**
+
 ```html
 <div class="important-box">
 
@@ -139,15 +124,11 @@ Important message here.
 
 **Live Example:**
 
-<div class="important-box">
-
 **IMPORTANT**
 
 This important box uses a light blue background (#e6f3ff) to highlight essential information that isn't a safety warning but is crucial for proper operation. Use this for pre-operation checks, critical setup steps, or key operational requirements that users must understand.
 
-</div>
-
----
+***
 
 ## Numbered Steps with Blue Circles
 
@@ -158,6 +139,7 @@ This important box uses a light blue background (#e6f3ff) to highlight essential
 **When to Use:** For sequential instructions where order matters.
 
 **HTML Structure:**
+
 ```html
 <div class="numbered-steps">
   <div>
@@ -174,45 +156,14 @@ This important box uses a light blue background (#e6f3ff) to highlight essential
 
 **Live Example (showing 5 steps):**
 
-<div class="numbered-steps">
-
-<div>
-<div>
-This is the first step. Notice the blue circle with "1" appears automatically. You don't need to manually number anything - the CSS handles it.
-</div>
-</div>
-
-<div>
-<div>
-This is the second step. The numbering continues automatically. Each step maintains consistent spacing and alignment.
-</div>
-</div>
-
-<div>
-<div>
-Third step here. You can include any content within steps including **bold text**, *italics*, or even `inline code`.
-</div>
-</div>
-
-<div>
-<div>
-Fourth step. The blue circles (#2c5282 background) with white numbers provide clear visual progression through procedures.
-</div>
-</div>
-
-<div>
-<div>
-Fifth and final step in this example. The system supports unlimited steps and maintains consistent styling throughout.
-</div>
-</div>
-
-</div>
+This is the first step. Notice the blue circle with "1" appears automatically. You don't need to manually number anything - the CSS handles it.This is the second step. The numbering continues automatically. Each step maintains consistent spacing and alignment.Third step here. You can include any content within steps including \*\*bold text\*\*, \*italics\*, or even \`inline code\`.Fourth step. The blue circles (#2c5282 background) with white numbers provide clear visual progression through procedures.Fifth and final step in this example. The system supports unlimited steps and maintains consistent styling throughout.
 
 ### Steps with Headers
 
 **When to Use:** For grouped instructions where each step contains multiple sub-tasks.
 
 **HTML Structure:**
+
 ```html
 <div class="numbered-steps">
   <div>
@@ -228,46 +179,34 @@ Fifth and final step in this example. The system supports unlimited steps and ma
 
 **Live Example:**
 
-<div class="numbered-steps">
+#### Understanding Step Headers
 
-<div>
-<div>
-<h3>Understanding Step Headers</h3>
-When you add an <code>&lt;h3&gt;</code> tag inside a numbered step, the CSS automatically adjusts the layout. The blue number circle aligns with the header, and content below maintains proper indentation. This is perfect for complex procedures with multiple actions per step.
-</div>
-</div>
+When you add an `<h3>` tag inside a numbered step, the CSS automatically adjusts the layout. The blue number circle aligns with the header, and content below maintains proper indentation. This is perfect for complex procedures with multiple actions per step.
 
-<div>
-<div>
-<h3>Using Bullet Points</h3>
-• Use <code>&lt;br&gt;</code> tags between bullet points for proper spacing<br>
-• Start each line with a bullet character (•)<br>
-• Maintain consistent formatting throughout<br>
+#### Using Bullet Points
+
+• Use `<br>` tags between bullet points for proper spacing\
+• Start each line with a bullet character (•)\
+• Maintain consistent formatting throughout\
 • The bullets align nicely under the header
-</div>
-</div>
 
-<div>
-<div>
-<h3>Combining Content Types</h3>
-You can mix different content types within a single step:
-<br><br>
-• Bullet points for lists<br>
-• Regular paragraphs for descriptions<br>
-• **Bold** and *italic* text for emphasis<br>
+#### Combining Content Types
+
+You can mix different content types within a single step:\
+\
+• Bullet points for lists\
+• Regular paragraphs for descriptions\
+• \*\*Bold\*\* and \*italic\* text for emphasis\
 • Even small tables or other HTML elements
-</div>
-</div>
 
-</div>
-
----
+***
 
 ## Sidebar Highlights
 
 **Usage:** Creates emphasized content blocks with a blue vertical line and styled header. Perfect for tips, best practices, or supplementary information.
 
 **HTML Structure:**
+
 ```html
 <div class="sidebar-highlight">
 
@@ -280,39 +219,23 @@ Content paragraph here.
 
 **Live Examples (showing different use cases):**
 
-<div class="sidebar-highlight">
-
-<h4>How Sidebar Highlights Work</h4>
+**How Sidebar Highlights Work**
 
 The sidebar highlight component features a 4px blue vertical line on the left (#2c5282) with light gray background (#f8f9fa). The `<h4>` header appears in blue and bold. Use these for information that supplements the main content but deserves special attention.
 
-</div>
-
-<div class="sidebar-highlight">
-
-<h4>Best Practices</h4>
+**Best Practices**
 
 Keep sidebar highlights concise and focused. They work best for tips, reminders, or additional context that enhances understanding without interrupting the main flow. You can include multiple paragraphs, lists, or other markdown elements within these blocks.
 
-</div>
-
-<div class="sidebar-highlight">
-
-<h4>Visual Hierarchy</h4>
+**Visual Hierarchy**
 
 Sidebar highlights create visual breaks in long content sections. The blue accent color ties them to the Sweet Robo brand while the gray background ensures they don't compete with primary content. Use sparingly for maximum impact.
 
-</div>
-
-<div class="sidebar-highlight">
-
-<h4>Responsive Design</h4>
+**Responsive Design**
 
 These components adapt to all screen sizes. On mobile devices, they maintain readability with appropriate padding and font sizes. In print/PDF output, they appear with clear borders and proper spacing.
 
-</div>
-
----
+***
 
 ## Feature Grids
 
@@ -323,6 +246,7 @@ These components adapt to all screen sizes. On mobile devices, they maintain rea
 **When to Use:** For 3-6 items that should flow naturally. Columns auto-adjust based on available space (200px minimum width per column).
 
 **HTML Structure:**
+
 ```html
 <div class="feature-grid">
   <div class="feature-item">
@@ -335,57 +259,36 @@ These components adapt to all screen sizes. On mobile devices, they maintain rea
 
 **Live Example (6 items auto-flowing):**
 
-<div class="feature-grid">
+**Auto-Responsive**
 
-<div class="feature-item">
-
-#### Auto-Responsive
 This grid automatically adjusts columns based on screen width. No need to specify column count.
 
-</div>
+**Minimum Width**
 
-<div class="feature-item">
-
-#### Minimum Width
 Each column maintains a 200px minimum width, preventing content from becoming too narrow.
 
-</div>
+**Card Styling**
 
-<div class="feature-item">
-
-#### Card Styling
 Each item appears in a subtle card with padding and border for visual separation.
 
-</div>
+**Flexible Content**
 
-<div class="feature-item">
-
-#### Flexible Content
 Supports headings, paragraphs, lists, images, and any other HTML/Markdown content.
 
-</div>
+**Consistent Spacing**
 
-<div class="feature-item">
-
-#### Consistent Spacing
 10px gaps between items maintain visual rhythm without feeling cramped.
 
-</div>
+**Mobile Friendly**
 
-<div class="feature-item">
-
-#### Mobile Friendly
 Automatically stacks to single column on small screens for optimal readability.
-
-</div>
-
-</div>
 
 ### Two-Column Layout (grid-2)
 
 **When to Use:** Force exactly 2 columns when you have 4 items (2x2 layout) or need wider columns for longer content.
 
 **HTML Structure:**
+
 ```html
 <div class="feature-grid grid-2">
   <div class="feature-item">Content 1</div>
@@ -397,51 +300,36 @@ Automatically stacks to single column on small screens for optimal readability.
 
 **Live Example with Images:**
 
-<div class="feature-grid grid-2">
+![User Interface](../.gitbook/assets/password-input-screen.webp)
 
-<div class="feature-item">
+**Including Images**
 
-<img src="./assets/operation/password-input-screen.webp" alt="User Interface" />
-
-#### Including Images
 Feature items can include images. The image will scale to fit the column width while maintaining aspect ratio. This two-column layout ensures images don't get too large.
 
-</div>
+![Ice Cream Mix](../.gitbook/assets/ice-cream-mix-powder.webp)
 
-<div class="feature-item">
+**Longer Descriptions**
 
-<img src="./assets/supplies/ice-cream-mix-powder.webp" alt="Ice Cream Mix" />
-
-#### Longer Descriptions
 The grid-2 class forces exactly two columns, giving more horizontal space for detailed descriptions. This is ideal when your content needs room to breathe.
 
-</div>
+![Maintenance Tools](../.gitbook/assets/mixing-bucket.webp)
 
-<div class="feature-item">
+**Consistent Layout**
 
-<img src="./assets/maintenance/mixing-bucket.webp" alt="Maintenance Tools" />
-
-#### Consistent Layout
 With grid-2, you get a predictable 2x2 layout for 4 items, or 2x3 for 6 items. The layout remains two columns until the mobile breakpoint.
 
-</div>
+![Parts Kit](../.gitbook/assets/spare-parts-kit-with-manual.webp)
 
-<div class="feature-item">
+**Visual Balance**
 
-<img src="./assets/parts-service/spare-parts-kit-with-manual.webp" alt="Parts Kit" />
-
-#### Visual Balance
 Two-column layouts create strong visual balance, especially when items have similar content lengths. Perfect for before/after comparisons or paired information.
-
-</div>
-
-</div>
 
 ### Three-Column Layout (grid-3)
 
 **When to Use:** Perfect for triplets of information, product features, or step sequences.
 
 **HTML Structure:**
+
 ```html
 <div class="feature-grid grid-3">
   <div class="feature-item">Item 1</div>
@@ -452,42 +340,30 @@ Two-column layouts create strong visual balance, especially when items have simi
 
 **Live Example:**
 
-<div class="feature-grid grid-3">
+![Chocolate Syrup](../.gitbook/assets/chocolate-syrup-hersheys.webp)
 
-<div class="feature-item">
+**First Column**
 
-<img src="./assets/supplies/chocolate-syrup-hersheys.webp" alt="Chocolate Syrup" />
-
-#### First Column
 The grid-3 class creates exactly three columns. This layout is ideal for showcasing related items or comparing three options.
 
-</div>
+![Topping Spoons](../.gitbook/assets/syrup-topping-spoons.webp)
 
-<div class="feature-item">
+**Second Column**
 
-<img src="./assets/supplies/syrup-topping-spoons.webp" alt="Topping Spoons" />
-
-#### Second Column
 Three columns provide a nice balance between content density and readability. Common uses include product features or service tiers.
 
-</div>
+![Tools Kit](../.gitbook/assets/installation-tools-kit.webp)
 
-<div class="feature-item">
+**Third Column**
 
-<img src="./assets/parts-service/installation-tools-kit.webp" alt="Tools Kit" />
-
-#### Third Column
 On tablets and smaller screens, this automatically adjusts to 2 columns, then 1 column on mobile for optimal viewing.
-
-</div>
-
-</div>
 
 ### Four-Column Layout (grid-4)
 
 **When to Use:** Best for brief items like error codes, status indicators, or quick reference lists.
 
 **HTML Structure:**
+
 ```html
 <div class="feature-grid grid-4">
   <div class="feature-item">Brief item</div>
@@ -497,43 +373,28 @@ On tablets and smaller screens, this automatically adjusts to 2 columns, then 1 
 
 **Live Example (Error Codes):**
 
-<div class="feature-grid grid-4">
+**Grid-4 Usage**
 
-<div class="feature-item">
-
-#### Grid-4 Usage
 Four narrow columns for brief content
 
-</div>
+**Compact Display**
 
-<div class="feature-item">
-
-#### Compact Display
 Maximizes horizontal space usage
 
-</div>
+**Quick Reference**
 
-<div class="feature-item">
-
-#### Quick Reference
 Perfect for lookup tables or codes
 
-</div>
+**Responsive**
 
-<div class="feature-item">
-
-#### Responsive
 Adjusts to fewer columns on smaller screens
-
-</div>
-
-</div>
 
 ### Centered Text Variant
 
 **When to Use:** Add `text-center` class along with any grid class to center all text within items. Perfect for image-focused layouts or step sequences.
 
 **HTML Structure:**
+
 ```html
 <div class="feature-grid grid-3 text-center">
   <div class="feature-item">
@@ -546,38 +407,25 @@ Adjusts to fewer columns on smaller screens
 
 **Live Example:**
 
-<div class="feature-grid grid-3 text-center">
+![Wheel Lock](../.gitbook/assets/wheel-lock-mechanism.webp)
 
-<div class="feature-item">
+**Centered Headers**
 
-<img src="./assets/setup/wheel-lock-mechanism.webp" alt="Wheel Lock" />
-
-#### Centered Headers
 All text within text-center grids aligns to center
 
-</div>
+![LED Signage](../.gitbook/assets/unpacking-step-4.webp)
 
-<div class="feature-item">
+**Visual Focus**
 
-<img src="./assets/setup/led-signage-roof.webp" alt="LED Signage" />
-
-#### Visual Focus
 Centering works well with images above text
 
-</div>
+![Hopper View](../.gitbook/assets/airpath-hopper-view.webp)
 
-<div class="feature-item">
+**Clean Appearance**
 
-<img src="./assets/maintenance/airpath-hopper-view.webp" alt="Hopper View" />
-
-#### Clean Appearance
 Creates a polished, professional look
 
-</div>
-
-</div>
-
----
+***
 
 ## Tables
 
@@ -586,6 +434,7 @@ Creates a polished, professional look
 ### Standard Markdown Table
 
 **Markdown Structure:**
+
 ```markdown
 | Column 1 | Column 2 | Column 3 |
 |:---------|:--------:|----------:|
@@ -595,26 +444,23 @@ Creates a polished, professional look
 
 **Live Example in Info Box:**
 
-<div class="info-box">
-
 **How Tables Work in Callout Boxes**
 
 Tables inherit styling from their container. In info boxes, they get the purple background. Use alignment markers (`:`) in the separator row to control text alignment.
 
-| Alignment | Markdown | Result |
-|:----------|:--------:|-------:|
-| Left | `:---` | Text aligns left |
-| Center | `:---:` | Text centers |
-| Right | `---:` | Text aligns right |
-| Default | `---` | Left aligned |
-
-</div>
+| Alignment | Markdown |            Result |
+| --------- | :------: | ----------------: |
+| Left      |  `:---`  |  Text aligns left |
+| Center    |  `:---:` |      Text centers |
+| Right     |  `---:`  | Text aligns right |
+| Default   |   `---`  |      Left aligned |
 
 ### Specifications Table (Key-Value Pairs)
 
 **When to Use:** For displaying specifications, settings, or any key-value data with consistent formatting.
 
 **HTML Structure:**
+
 ```html
 <div class="specs-table">
   <div class="spec-row">
@@ -627,36 +473,9 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 
 **Live Example:**
 
-<div class="specs-table">
+Component TypeSpecifications TableLabel Width40% of containerValue Width60% of containerBorder StyleBottom border on each rowBest ForTechnical specifications, settings, or any structured key-value data
 
-<div class="spec-row">
-<div class="spec-label">Component Type</div>
-<div class="spec-value">Specifications Table</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Label Width</div>
-<div class="spec-value">40% of container</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Value Width</div>
-<div class="spec-value">60% of container</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Border Style</div>
-<div class="spec-value">Bottom border on each row</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Best For</div>
-<div class="spec-value">Technical specifications, settings, or any structured key-value data</div>
-</div>
-
-</div>
-
----
+***
 
 ## Image Layouts
 
@@ -667,11 +486,13 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 **When to Use:** For standalone images that should be centered and responsive.
 
 **HTML Structure:**
+
 ```html
 <img src="./assets/section/image.webp" alt="Alt text" />
 ```
 
 **Adding Captions:**
+
 ```html
 <img src="./assets/section/image.webp" alt="Alt text" />
 <p style="text-align: center; font-style: italic; margin-top: -10px;">Caption text here</p>
@@ -679,14 +500,16 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 
 **Live Example:**
 
-<img src="./assets/overview/f2-machine-title-page.webp" alt="Machines Overview" />
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Images are automatically centered with rounded corners and subtle shadows. Maximum height is 50vh to prevent oversized images.</p>
+![Machines Overview](../.gitbook/assets/f2-machine-title-page.webp)
+
+Images are automatically centered with rounded corners and subtle shadows. Maximum height is 50vh to prevent oversized images.
 
 ### Side-by-Side Images (2 Columns)
 
 **When to Use:** For comparing two images or showing before/after states.
 
 **HTML Structure:**
+
 ```html
 <div class="side-by-side-images">
   <img src="./assets/image1.webp" alt="First" />
@@ -696,17 +519,16 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 
 **Live Example:**
 
-<div class="side-by-side-images">
-<img src="./assets/setup/hopper-setup.webp" alt="Hopper Setup" />
-<img src="./assets/setup/cup-dispenser-installation.webp" alt="Cup Dispenser" />
-</div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Two images display side-by-side on desktop, stack vertically on mobile. Each image takes 48% width with a 4% gap between.</p>
+![Hopper Setup](../.gitbook/assets/hopper-setup.webp) ![Cup Dispenser](../.gitbook/assets/cup-dispenser-installation.webp)
+
+Two images display side-by-side on desktop, stack vertically on mobile. Each image takes 48% width with a 4% gap between.
 
 ### Three-Column Images
 
 **When to Use:** For displaying multiple related items like "What's Included" or tool sets.
 
 **HTML Structure:**
+
 ```html
 <div class="three-column-images">
   <img src="./assets/image1.webp" alt="First" />
@@ -717,29 +539,27 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 
 **Live Example:**
 
-<div class="three-column-images">
-<img src="./assets/parts-service/dispenser-seal-kit.webp" alt="Dispenser Seal Kit" />
-<img src="./assets/parts-service/digital-clamp-multimeter.webp" alt="Digital Multimeter" />
-<img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code Manual" />
-</div>
-<p style="text-align: center; font-style: italic; margin-top: -10px;">Three columns on desktop, two on tablet, one on mobile. In print, images are limited to ~30% page height for better pagination.</p>
+![Dispenser Seal Kit](../.gitbook/assets/dispenser-seal-kit.webp) ![Digital Multimeter](../.gitbook/assets/digital-clamp-multimeter.webp) ![QR Code Manual](../.gitbook/assets/qr-code-manual.webp)
+
+Three columns on desktop, two on tablet, one on mobile. In print, images are limited to \~30% page height for better pagination.
 
 ### Image Placeholder
 
 **When to Use:** As temporary placeholders while waiting for actual images.
 
 **HTML Structure:**
+
 ```html
 <div class="image-placeholder">PLACEHOLDER TEXT</div>
 ```
 
 **Live Example:**
 
-<div class="image-placeholder">IMAGE EXAMPLE UNLOCKED</div>
+IMAGE EXAMPLE UNLOCKED
 
 **Note:** These placeholders maintain consistent height (200px) and use a dashed border to clearly indicate missing content.
 
----
+***
 
 ## Combined Examples
 
@@ -751,35 +571,11 @@ Tables inherit styling from their container. In info boxes, they get the purple 
 
 **Structure:** Place the warning box first to grab attention, then follow with numbered steps.
 
-<div class="warning-box">
-
 **Example: Combining Components**
 
 This demonstrates how warning boxes and numbered steps work together. The warning provides context and urgency, while the steps provide clear instructions.
 
-</div>
-
-<div class="numbered-steps">
-
-<div>
-<div>
-First, display the warning to ensure users understand the importance
-</div>
-</div>
-
-<div>
-<div>
-Then provide clear, numbered steps that are easy to follow
-</div>
-</div>
-
-<div>
-<div>
-The visual separation between warning and steps maintains clarity while showing their relationship
-</div>
-</div>
-
-</div>
+First, display the warning to ensure users understand the importanceThen provide clear, numbered steps that are easy to followThe visual separation between warning and steps maintains clarity while showing their relationship
 
 ### Feature Grid with Mixed Content
 
@@ -787,56 +583,37 @@ The visual separation between warning and steps maintains clarity while showing 
 
 **Example showing content variety:**
 
-<div class="feature-grid grid-2">
+**Lists in Grids**
 
-<div class="feature-item">
-
-#### Lists in Grids
-You can use bullet points:
-• Use <code>&lt;br&gt;</code> tags between items<br>
-• Maintains consistent spacing<br>
-• Works with any list length<br>
+You can use bullet points: • Use `<br>` tags between items\
+• Maintains consistent spacing\
+• Works with any list length\
 • Looks professional
 
-</div>
+**Paragraphs in Grids**
 
-<div class="feature-item">
-
-#### Paragraphs in Grids
-Regular paragraph text flows naturally within feature items. You can include multiple paragraphs, emphasize text with **bold** or *italics*, and even add `inline code`.
+Regular paragraph text flows naturally within feature items. You can include multiple paragraphs, emphasize text with **bold** or _italics_, and even add `inline code`.
 
 The grid maintains consistent padding and spacing regardless of content type.
 
-</div>
+**Mixed Content**
 
-<div class="feature-item">
-
-#### Mixed Content
 Combine different elements:
 
-**Subheading**
-A paragraph of explanation.
+**Subheading** A paragraph of explanation.
 
-• Point one<br>
-• Point two<br>
+• Point one\
+• Point two\
 • Point three
 
-</div>
+**Tables in Grids**
 
-<div class="feature-item">
-
-#### Tables in Grids
-
-| Item | Value |
-|------|-------|
-| Width | Auto |
-| Height | Auto |
-| Padding | 15px |
-| Border | 1px solid #e2e8f0 |
-
-</div>
-
-</div>
+| Item    | Value             |
+| ------- | ----------------- |
+| Width   | Auto              |
+| Height  | Auto              |
+| Padding | 15px              |
+| Border  | 1px solid #e2e8f0 |
 
 ### Multi-Level Information Architecture
 
@@ -844,39 +621,21 @@ A paragraph of explanation.
 
 **Example showing layered information:**
 
-<div class="info-box">
-
 **Building Complex Layouts**
 
 You can combine multiple components to create sophisticated information hierarchies. Start with a callout box to introduce the topic.
 
-</div>
+**Layer 1: Context**
 
-<div class="feature-grid">
-
-<div class="feature-item">
-
-#### Layer 1: Context
 Use info boxes to provide overview and context. They set the stage for detailed information that follows.
 
-</div>
+**Layer 2: Details**
 
-<div class="feature-item">
-
-#### Layer 2: Details
 Feature grids organize related information into digestible chunks. Each item focuses on one aspect.
-
-</div>
-
-</div>
-
-<div class="caution-box">
 
 **Layer 3: Emphasis** - End with warnings or cautions to reinforce critical points. The color coding (yellow for caution) ensures important information isn't missed.
 
-</div>
-
----
+***
 
 ## Section Divider
 
@@ -884,7 +643,7 @@ Feature grids organize related information into digestible chunks. Each item foc
 
 **HTML:** `<hr class="section-divider">`
 
-<hr class="section-divider">
+***
 
 ## Typography & Text Styling
 
@@ -904,29 +663,32 @@ Feature grids organize related information into digestible chunks. Each item foc
 **How it Works:** All unordered lists automatically get blue arrow bullets (▶) instead of standard bullets.
 
 **Markdown creates:**
-- First level items get blue arrows automatically
-- No special markup required
-- Just use standard markdown lists
-  - Nested items also get blue arrows
-  - Maintains visual consistency
-  - Works at any nesting level
+
+* First level items get blue arrows automatically
+* No special markup required
+* Just use standard markdown lists
+  * Nested items also get blue arrows
+  * Maintains visual consistency
+  * Works at any nesting level
 
 ### Inline Text Formatting
 
 **Available Styles:**
-- **Bold text** using `**text**` for strong emphasis
-- *Italic text* using `*text*` for subtle emphasis  
-- `Inline code` using backticks for technical terms
-- ***Bold italic*** using `***text***` for maximum emphasis
-- ~~Strikethrough~~ using `~~text~~` for deprecated content
 
----
+* **Bold text** using `**text**` for strong emphasis
+* _Italic text_ using `*text*` for subtle emphasis
+* `Inline code` using backticks for technical terms
+* _**Bold italic**_ using `***text***` for maximum emphasis
+* ~~Strikethrough~~ using `~~text~~` for deprecated content
+
+***
 
 ## Chapter Headers
 
 **Usage:** Creates prominent section headers with blue background and white text.
 
 **HTML Structure:**
+
 ```html
 <div class="chapter-header">
 <h1>Chapter Title Here</h1>
@@ -935,13 +697,11 @@ Feature grids organize related information into digestible chunks. Each item foc
 
 **Live Example:**
 
-<div class="chapter-header">
-<h1>Chapter Headers Explained</h1>
-</div>
+## Chapter Headers Explained
 
 Chapter headers use Sweet Robo blue background (#2c5282) with white text for maximum contrast. They span the full width and provide clear visual breaks between major sections. Use for top-level divisions in your manual.
 
----
+***
 
 ## Image-Text Layouts
 
@@ -950,6 +710,7 @@ Chapter headers use Sweet Robo blue background (#2c5282) with white text for max
 **When to Use:** For featuring content with supporting imagery.
 
 **HTML Structure:**
+
 ```html
 <div class="image-text-layout">
   <div>
@@ -963,25 +724,20 @@ Chapter headers use Sweet Robo blue background (#2c5282) with white text for max
 
 **Live Example:**
 
-<div class="image-text-layout">
-<div>
-<img src="./assets/overview/internal-components.jpg" alt="Internal Components" />
-</div>
-<div class="text-with-line">
+![Internal Components](../.gitbook/assets/internal-components.jpg)
 
-### How This Layout Works
+#### How This Layout Works
+
 The image-text-layout creates a 50/50 split on desktop. The image appears on the left, while text appears on the right with a blue accent line.
 
 On mobile devices, this stacks vertically with the image on top. The blue line accent (4px wide, #2c5282) adds visual interest and brand consistency.
-
-</div>
-</div>
 
 ### Text Block with Side Line (Blue)
 
 **When to Use:** For emphasizing text blocks without using callout boxes.
 
 **HTML Structure:**
+
 ```html
 <div class="text-with-line">
   Content here gets a blue left border
@@ -990,24 +746,23 @@ On mobile devices, this stacks vertically with the image on top. The blue line a
 
 **Live Example:**
 
-<div class="text-with-line">
+#### Understanding Text-with-Line
 
-### Understanding Text-with-Line
 This component adds a 4px blue border on the left side of any content. It's lighter weight than callout boxes but still provides visual emphasis.
 
 Use cases include:
-- Highlighting key paragraphs
-- Creating visual breaks
-- Emphasizing quotes or testimonials
-- Setting apart supplementary information
 
-</div>
+* Highlighting key paragraphs
+* Creating visual breaks
+* Emphasizing quotes or testimonials
+* Setting apart supplementary information
 
 ### Highlight Block with Purple Header
 
 **When to Use:** For pro tips, best practices, or special insights.
 
 **HTML Structure:**
+
 ```html
 <div class="highlight-block">
   <h3>Title (appears in purple)</h3>
@@ -1017,20 +772,18 @@ Use cases include:
 
 **Live Example:**
 
-<div class="highlight-block">
+#### How Highlight Blocks Work
 
-### How Highlight Blocks Work
 The highlight-block class creates a light gray background (#f8f9fa) with a purple left border (#9f7aea). Headers within the block automatically turn purple.
 
 This creates a distinctive visual element that's perfect for:
-- Pro tips and expert advice
-- Best practices
-- Time-saving shortcuts
-- Special recommendations
 
-</div>
+* Pro tips and expert advice
+* Best practices
+* Time-saving shortcuts
+* Special recommendations
 
----
+***
 
 ## Responsive Design
 
@@ -1038,76 +791,17 @@ This creates a distinctive visual element that's perfect for:
 
 ### Breakpoint Behavior
 
-<div class="specs-table">
+Desktop (>1024px)Full multi-column layouts, side-by-side images, maximum featuresTablet (768-1024px)Reduced columns, adjusted font sizes, optimized spacingMobile (<768px)Single column, stacked layouts, touch-friendly sizingPrint/PDFPage break control, adjusted margins, print-optimized colors
 
-<div class="spec-row">
-<div class="spec-label">Desktop (>1024px)</div>
-<div class="spec-value">Full multi-column layouts, side-by-side images, maximum features</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Tablet (768-1024px)</div>
-<div class="spec-value">Reduced columns, adjusted font sizes, optimized spacing</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Mobile (<768px)</div>
-<div class="spec-value">Single column, stacked layouts, touch-friendly sizing</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Print/PDF</div>
-<div class="spec-value">Page break control, adjusted margins, print-optimized colors</div>
-</div>
-
-</div>
-
----
+***
 
 ## Color Palette
 
 **Usage:** These are the official Sweet Robo brand colors. They're automatically applied through the CSS classes - you don't need to specify colors manually.
 
-<div class="specs-table">
+Primary Blue (#2c5282)Headers, links, numbered step circles, accent linesWarning Pink (#fed7d7)Warning box backgrounds for safety hazardsCaution Orange (#fed7aa)Caution box backgrounds for equipment warningsInfo Purple (#e9d8fd)Info box backgrounds for helpful informationImportant Blue (#e6f3ff)Important box backgrounds for critical notesHighlight Purple (#9f7aea)Highlight block borders and headersLight Gray (#f8f9fa)Sidebar highlights, feature items, subtle backgrounds
 
-<div class="spec-row">
-<div class="spec-label">Primary Blue (#2c5282)</div>
-<div class="spec-value">Headers, links, numbered step circles, accent lines</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Warning Pink (#fed7d7)</div>
-<div class="spec-value">Warning box backgrounds for safety hazards</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Caution Orange (#fed7aa)</div>
-<div class="spec-value">Caution box backgrounds for equipment warnings</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Info Purple (#e9d8fd)</div>
-<div class="spec-value">Info box backgrounds for helpful information</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Important Blue (#e6f3ff)</div>
-<div class="spec-value">Important box backgrounds for critical notes</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Highlight Purple (#9f7aea)</div>
-<div class="spec-value">Highlight block borders and headers</div>
-</div>
-
-<div class="spec-row">
-<div class="spec-label">Light Gray (#f8f9fa)</div>
-<div class="spec-value">Sidebar highlights, feature items, subtle backgrounds</div>
-</div>
-
-</div>
-
----
+***
 
 ## Numbered Steps with Images
 
@@ -1116,6 +810,7 @@ This creates a distinctive visual element that's perfect for:
 **When to Use:** For procedures that benefit from visual aids alongside text instructions.
 
 **HTML Structure:**
+
 ```html
 <div class="numbered-steps-with-images">
   <div class="step-with-image">
@@ -1132,84 +827,57 @@ This creates a distinctive visual element that's perfect for:
 ```
 
 **Key Features:**
-- **Desktop**: 60% text on left, 40% image on right
-- **Mobile**: Stacks with text above image
-- **Automatic numbering**: Blue circles with white numbers
-- **Background cards**: Light gray for visual separation
+
+* **Desktop**: 60% text on left, 40% image on right
+* **Mobile**: Stacks with text above image
+* **Automatic numbering**: Blue circles with white numbers
+* **Background cards**: Light gray for visual separation
 
 **Live Example:**
 
-<div class="numbered-steps-with-images">
+#### How These Steps Work
 
-<div class="step-with-image">
-<div class="step-content">
-<h3>How These Steps Work</h3>
-Each step combines text instructions with a supporting image. The layout automatically numbers steps with blue circles matching the brand color. On desktop, text and images appear side-by-side for easy reference.
-</div>
-<div class="step-image">
-<div class="image-placeholder">DEVICE SETTINGS INTERFACE</div>
-</div>
-</div>
+Each step combines text instructions with a supporting image. The layout automatically numbers steps with blue circles matching the brand color. On desktop, text and images appear side-by-side for easy reference.DEVICE SETTINGS INTERFACE
 
-<div class="step-with-image">
-<div class="step-content">
-<h3>Responsive Behavior</h3>
-On mobile devices, the layout stacks vertically with text above the image. This ensures readability on all screen sizes. The numbered circles remain prominent regardless of screen size.
-</div>
-<div class="step-image">
-<div class="image-placeholder">MANAGEMENT INTERFACE</div>
-</div>
-</div>
+#### Responsive Behavior
 
-<div class="step-with-image">
-<div class="step-content">
-<h3>Content Flexibility</h3>
-Include any content in the step-content div:<br>
-<br>
-• Bullet points with <code>&lt;br&gt;</code> tags<br>
-• Regular paragraphs<br>
-• **Bold** and *italic* text<br>
-• Even small tables or code blocks<br>
-<br>
-The image automatically scales to fit the available space while maintaining aspect ratio.
-</div>
-<div class="step-image">
-<img src="./assets/operation/serving-cups.webp" alt="Serving Cups" />
-</div>
-</div>
+On mobile devices, the layout stacks vertically with text above the image. This ensures readability on all screen sizes. The numbered circles remain prominent regardless of screen size.MANAGEMENT INTERFACE
 
-</div>
+#### Content Flexibility
 
----
+Include any content in the step-content div:\
+\
+• Bullet points with `<br>` tags\
+• Regular paragraphs\
+• \*\*Bold\*\* and \*italic\* text\
+• Even small tables or code blocks\
+\
+The image automatically scales to fit the available space while maintaining aspect ratio.![Serving Cups](../.gitbook/assets/serving-cups.webp)
+
+***
 
 ## Best Practices
 
-<div class="sidebar-highlight">
-
-<h4>Component Selection Guide</h4>
+**Component Selection Guide**
 
 Choose components based on content purpose:
-- **Safety/Risk**: Use warning (pink) or caution (yellow) boxes
-- **Key Information**: Use important (blue) or info (purple) boxes  
-- **Step-by-Step**: Use numbered steps with or without images
-- **Feature Lists**: Use feature grids with appropriate column count
-- **Technical Data**: Use specs tables or markdown tables
-- **Visual Content**: Choose appropriate image layout (single, 2-column, 3-column)
 
-</div>
+* **Safety/Risk**: Use warning (pink) or caution (yellow) boxes
+* **Key Information**: Use important (blue) or info (purple) boxes
+* **Step-by-Step**: Use numbered steps with or without images
+* **Feature Lists**: Use feature grids with appropriate column count
+* **Technical Data**: Use specs tables or markdown tables
+* **Visual Content**: Choose appropriate image layout (single, 2-column, 3-column)
 
-<div class="sidebar-highlight">
-
-<h4>Consistency Tips</h4>
+**Consistency Tips**
 
 Maintain consistency throughout your manual:
-- Use the same component for similar content types
-- Keep language style consistent (imperative for steps, descriptive for features)
-- Apply image treatments uniformly (all WebP format, consistent alt text style)
-- Use callout boxes sparingly for maximum impact
 
-</div>
+* Use the same component for similar content types
+* Keep language style consistent (imperative for steps, descriptive for features)
+* Apply image treatments uniformly (all WebP format, consistent alt text style)
+* Use callout boxes sparingly for maximum impact
 
----
+***
 
 This comprehensive styling guide demonstrates every component available for Sweet Robo manuals. Each element has been designed to match the official brand guidelines while ensuring excellent readability across all devices and formats. Use these components consistently to create professional, user-friendly documentation.

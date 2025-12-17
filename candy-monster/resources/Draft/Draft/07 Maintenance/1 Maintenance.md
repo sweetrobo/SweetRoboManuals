@@ -1,4 +1,4 @@
-# Maintenance 
+# Maintenance
 
 ## Food Safety
 
@@ -28,9 +28,9 @@ Even with these precautions, we strongly recommend informing a Sweet Robo techni
 
 Please note: Any unauthorized modifications or changes to the machine may void the warranty. Always seek approval or guidance before making adjustments.
 
-### Appearance of vending machine 
+### Appearance of vending machine&#x20;
 
-When replenishing goods each time, the machine might have dust, which can be wiped with a dry cloth. If it is dirty, clean it with a damp cloth dipped with warm water or neutral detergent. 
+When replenishing goods each time, the machine might have dust, which can be wiped with a dry cloth. If it is dirty, clean it with a damp cloth dipped with warm water or neutral detergent.&#x20;
 
 To clean, avoid using thinner, volatile oil, solvents, strong alkaline detergents, or other chemicals. These substances can corrode or crack the paint and plastic components.
 
@@ -42,7 +42,8 @@ Cleaning the machine means clearing out any old candy that fell in the drawer, c
 
 ## Maintenance Guidelines
 
-## 1\.		1.	Regular cleaning helps prevent failures and extends the machine's lifespan.
+## 1. 1. Regular cleaning helps prevent failures and extends the machine's lifespan.
 
-## 1. 2.	Use only clean water to clean the machine. Avoid concentrated cleaning products as they may corrode the paint and cause discoloration.
-## 2. 3.	When cleaning electronic components, do not use a wet cloth to prevent water damage and short circuits.
+## 1. 2. Use only clean water to clean the machine. Avoid concentrated cleaning products as they may corrode the paint and cause discoloration.
+
+## 2. 3. When cleaning electronic components, do not use a wet cloth to prevent water damage and short circuits.

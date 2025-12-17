@@ -1,30 +1,14 @@
-<div class="title-page">
+# title-page
 
-<div class="title-page-header">
-<div class="title">Robo Ice Cream F2 - User Manual</div>
-<img src="./shared/images/sweetrobo-logo.webp" alt="Sweet Robo Logo" class="logo" />
-</div>
+Robo Ice Cream F2 - User Manual![Sweet Robo Logo](shared/images/sweetrobo-logo.webp)
 
-<div class="title-page-main">
-<h1>Robo Ice Cream F2</h1>
-<h2>User Manual</h2>
-</div>
+## Robo Ice Cream F2
 
-<div class="title-page-footer">
-    <div class="footer-left">
-        <p>Revision & Date:</p>
-        <p>Rev 2. 08.2025</p>
-    </div>
-    <img src="./assets/overview/f2-machine-title-page.webp" alt="Robo Ice Cream Machine" class="footer-machine-image" />
-    <div class="footer-right">
-        <div class="qr-code-wrapper">
-            <a href="https://manuals.sweetrobo.com/robo-ice-cream/" class="qr-code-link">
-                <span class="qr-tooltip">View Online Manual</span>
-                <img src="./assets/troubleshooting/qr-code-manual.webp" alt="QR Code for Online Manual" />
-                <div class="qr-code-description print-only">Scan for latest<br/>online manual</div>
-            </a>
-        </div>
-    </div>
-    </div>
+### User Manual
 
-</div>
+Revision & Date:
+
+Rev 2. 08.2025
+
+![Robo Ice Cream Machine](../.gitbook/assets/f2-machine-title-page.webp)[View Online Manual ![QR Code for Online Manual](../.gitbook/assets/qr-code-manual.webp)Scan for latest\
+online manual](https://manuals.sweetrobo.com/robo-ice-cream/)
