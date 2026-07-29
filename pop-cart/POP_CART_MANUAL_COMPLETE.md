@@ -489,7 +489,7 @@ Your Pop Cart is now ready for operation! Proceed to the [Operation Guide](opera
 
 For setup assistance or questions, contact Sweet Robo support:
 
-**Support Contact**: See [Company Information](../shared/company-info.md)
+**Support Contact**: Please use Sweet Robo Tracking App to get support from us
 
 ***
 
