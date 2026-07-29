@@ -1698,7 +1698,7 @@ When ordering replacement parts, provide:
 
 **Direct from Sweet Robo**
 
-**Online**: \[Sweet Robo Parts Portal] **Phone**: See contact information below **Email**: parts@sweetrobo.com (if applicable)
+**Online**: \[Sweet Robo Parts Portal] **Phone**: Please contact for technical support via Sweet Robo Tracking App
 
 Benefits: Guaranteed genuine parts, technical support, warranty coverage
 
@@ -2127,7 +2127,7 @@ The popping chambers, heating elements, and freshly popped popcorn reach high te
 #### Emergency Procedures
 
 * Familiarize yourself with the main power switch to quickly shut down the machine in an emergency.
-* If you observe any abnormalities, unusual noises, smoke, or overheating, immediately turn off and unplug the machine from its power source and contact customer support.
+* If you observe any abnormalities, unusual noises, smoke, or overheating, immediately turn off and unplug the machine from its power source and contact customer support via Sweet Robo Tracking App.
 
 ***
 
@@ -2320,7 +2320,7 @@ All operators must be trained on:
 
 In case of any doubts, concerns, emergencies related to the machine's operation, or if servicing is required:
 
-* **Emergency Support:** support@sweetrobo.com | +1-844-SWEETRB
+* **Emergency Support:** support@sweetrobo.com | +1-844-SWEETRB | Sweet Robo Tracking App
 * For complete contact information, see [Company Information](../shared/company-info.md)
 
 Remember that failure to adhere to these safety precautions could result in injuries, damage to the machine, or hazardous situations. By following these guidelines, you ensure a safe and enjoyable experience while using the Pop Cart.
